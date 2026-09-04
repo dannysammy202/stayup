@@ -7,10 +7,10 @@ The product name is temporary. Change `APP_NAME` in `src/config.js` and the page
 ## Included
 
 - Friends and Relationship modes on every category
-- 500 distinct prompts per mode for every conversation category
-- 500 distinct prompts per mode for every game category
-- Truth or Dare includes 500 Truth prompts plus 500 Dare prompts per mode
-- 25,000 distinct prompt cards across both modes
+- 1,000 distinct prompt cards per mode for every conversation category
+- 1,000 distinct prompt cards per mode for every game category
+- Truth or Dare includes 1,000 Truth prompts plus 1,000 Dare prompts per mode
+- 50,000 prompt cards across both modes
 - Relationship stages: Talking Stage, New Relationship, Been Together a While, Long-Term, Married
 - Intensity filters: Chill, Interesting, Deep, No Filter, plus Flirty and Spicy in Relationship mode
 - General and 18+ audience controls
@@ -48,5 +48,7 @@ npm run dev
 npm run build
 npm run preview
 ```
+
+The production build runs `scripts/expand-to-1000.mjs` before Vite so the full 1,000-prompt pools and matching UI counts stay in sync.
 
 The project uses Vite and React only. No backend is required for the current version.
