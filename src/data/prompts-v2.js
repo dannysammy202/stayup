@@ -5,8 +5,22 @@ import { getPrompts as getLegacyPrompts } from './prompts.js'
 const conversationIds = new Set(conversationCategories.map(category => category.id))
 const cache = new Map()
 
+const stagesByIntensity = {
+  Chill: ['Talking Stage', 'New Relationship', 'Been Together a While'],
+  Interesting: ['New Relationship', 'Been Together a While', 'Long-Term'],
+  Deep: ['Been Together a While', 'Long-Term', 'Married'],
+  Flirty: ['Talking Stage', 'New Relationship', 'Been Together a While'],
+  Spicy: ['New Relationship', 'Been Together a While', 'Long-Term', 'Married'],
+  'No Filter': ['Talking Stage', 'New Relationship', 'Been Together a While', 'Long-Term', 'Married'],
+}
+
 function isChristianPrompt(text) {
   return /\b(Jesus|Christ|Christian|Scripture|Bible|church|prayer|God|theology|faith)\b/i.test(text)
+}
+
+function relationshipStage(intensity, index) {
+  const stages = stagesByIntensity[intensity] || stagesByIntensity.Interesting
+  return stages[index % stages.length]
 }
 
 function makeEditorialPrompts(categoryId, mode) {
@@ -34,7 +48,7 @@ function makeEditorialPrompts(categoryId, mode) {
         text,
         copyText: text,
         intensity,
-        stage: mode === 'relationship' ? 'All stages' : null,
+        stage: mode === 'relationship' ? relationshipStage(intensity, index) : null,
         audience: intensity === 'Spicy' ? '18+' : 'General',
         faithType,
         subtype: null,
