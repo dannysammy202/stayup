@@ -1,0 +1,21 @@
+.category-card .prompt-count {
+  font-size: 0;
+}
+
+.category-card .prompt-count::after {
+  content: 'Prompt library';
+  font-size: 0.72rem;
+}
+
+.content-section .section-title-line > span:last-child {
+  display: none;
+}
+
+.prompt-footnote {
+  font-size: 0;
+}
+
+.prompt-footnote::after {
+  content: 'Reviewed prompts · repeats are avoided until the current pool cycles';
+  font-size: 0.78rem;
+}
