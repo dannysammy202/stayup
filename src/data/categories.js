@@ -17,15 +17,25 @@ export const conversationCategories = [
 ]
 
 export const gameCategories = [
-  { id: 'truth-dare', name: 'Truth & Dare', icon: '⚡', description: 'Pick Truth or Dare, then send it or say it on the call.' },
-  { id: 'never-have-i-ever', name: 'Never Have I Ever', icon: '🙈', description: 'Statements that expose funny stories and hidden history.' },
-  { id: 'two-truths-lie', name: 'Two Truths & A Lie', icon: '🃏', description: 'Ready-made statement sets. Choose what fits and make one the lie.' },
-  { id: 'kiss-marry-avoid', name: 'Kiss, Marry, Avoid', icon: '💋', description: 'Three choices. One kiss, one marriage, one hard avoid.' },
-  { id: 'what-would-you-do', name: 'What Would You Do?', icon: '🧠', description: 'Messy scenarios that reveal how each person thinks.' },
-  { id: 'if-you-had-to-choose', name: 'If You Had To Choose', icon: '↔️', description: 'Two options. No escaping. Pick one and explain yourself.' },
-  { id: 'who-is-more-likely', name: 'Who Is More Likely To?', icon: '👉', description: 'Point fingers, defend yourself and tell the story behind it.' },
-  { id: 'how-well-do-you-know-me', name: 'How Well Do You Know Me?', icon: '🎯', description: 'Guess the answer before the other person reveals it.' },
-  { id: 'finish-the-sentence', name: 'Finish the Sentence', icon: '✍️', description: 'A sentence starter that gives the other person somewhere to go.' },
+  { id: 'truth-dare', name: 'Truth & Dare', icon: '⚡', mechanic: 'truth-dare', description: 'Pick Truth or Dare, then send it or say it on the call.' },
+  { id: 'never-have-i-ever', name: 'Never Have I Ever', icon: '🙈', mechanic: 'statement', description: 'Statements that expose funny stories and hidden history.' },
+  { id: 'two-truths-lie', name: 'Two Truths & A Lie', icon: '🃏', mechanic: 'three-statements', description: 'Ready-made statement sets. Choose what fits and make one the lie.' },
+  { id: 'kiss-marry-avoid', name: 'Kiss, Marry, Avoid', icon: '💋', mechanic: 'three-options', description: 'Three choices. One kiss, one marriage, one hard avoid.' },
+  { id: 'what-would-you-do', name: 'What Would You Do?', icon: '🧠', mechanic: 'scenario', description: 'Messy scenarios that reveal how each person thinks.' },
+  { id: 'if-you-had-to-choose', name: 'If You Had To Choose', icon: '↔️', mechanic: 'two-options', description: 'Two difficult options. Pick one and explain yourself.' },
+  { id: 'who-is-more-likely', name: 'Who Is More Likely To?', icon: '👉', mechanic: 'open', description: 'Point fingers, defend yourself and tell the story behind it.' },
+  { id: 'how-well-do-you-know-me', name: 'How Well Do You Know Me?', icon: '🎯', mechanic: 'guess', description: 'Guess the answer before the other person reveals it.' },
+  { id: 'finish-the-sentence', name: 'Finish the Sentence', icon: '✍️', mechanic: 'open', description: 'A sentence starter that gives the other person somewhere to go.' },
+  { id: 'guess-my-answer', name: 'Guess My Answer', icon: '🔮', mechanic: 'guess', description: 'Predict the other person’s answer first, then compare and explain.' },
+  { id: 'rank-these', name: 'Rank These', icon: '📊', mechanic: 'rank', description: 'Put five options in order, then defend your ranking.' },
+  { id: 'agree-disagree', name: 'Agree or Disagree', icon: '⚖️', mechanic: 'agree-disagree', description: 'Take a position on a statement, then explain why.' },
+  { id: 'one-has-to-go', name: 'One Has To Go', icon: '🗑️', mechanic: 'four-options', description: 'Four options appear. Remove one permanently and explain yourself.' },
+  { id: 'keep-one-forever', name: 'Keep One Forever', icon: '🔒', mechanic: 'four-options', description: 'Keep only one option forever. Everything else disappears.' },
+  { id: 'rate-it', name: 'Rate It', icon: '🔟', mechanic: 'rating', description: 'Give it a score from 1 to 10, then tell the story behind the number.' },
+  { id: 'this-or-that', name: 'This or That', icon: '↔️', mechanic: 'two-options-fast', description: 'Fast, casual choices that often turn into longer conversations.' },
+  { id: 'red-green-depends', name: 'Red Flag, Green Flag or Depends?', icon: '🚦', mechanic: 'three-way', description: 'Call it a red flag, green flag or depends, then explain the context.' },
+  { id: 'petty-or-valid', name: 'Petty or Valid?', icon: '🧾', mechanic: 'three-way', description: 'Decide whether the reaction is petty, valid or a bit of both.' },
+  { id: 'tell-the-story', name: 'Tell The Story', icon: '📖', mechanic: 'story', description: 'Get a story prompt, then tell what really happened.' },
 ]
 
 export const allCategories = [...conversationCategories, ...gameCategories]
