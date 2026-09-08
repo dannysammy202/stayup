@@ -14,3 +14,4 @@ jobs:
         with:
           node-version: 22
       - run: node scripts/audit-authored-modules.mjs
+      - run: node scripts/audit-new-games.mjs
