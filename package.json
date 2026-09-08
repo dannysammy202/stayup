@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "audit:prompts": "node scripts/audit-prompts.mjs",
-    "prebuild": "node scripts/audit-prompts.mjs",
+    "audit:prompts": "node scripts/audit-nigeria-750.mjs",
+    "prebuild": "node scripts/audit-nigeria-750.mjs",
     "build": "vite build",
     "preview": "vite preview"
   },
