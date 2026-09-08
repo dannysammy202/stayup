@@ -28,6 +28,14 @@ const pairOpeners = [
   'Think about what your friends already know.',
   'Go with the answer you would give quickly.',
   'Answer from what you have seen for yourself.',
+  'Start with the option you would pick today.',
+  'Think about which one feels closer to home.',
+  'Go with what you would say without rehearsing.',
+  'Answer from the version of yourself you know best.',
+  'Start with whichever one sparks a story first.',
+  'Think about which one you care about more.',
+  'Go with the one you would choose privately.',
+  'Answer from what feels true for you now.',
 ]
 
 const properNouns = [
