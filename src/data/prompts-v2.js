@@ -1,5 +1,6 @@
-import { allCategories, conversationCategories } from './categories.js'
+import { allCategories, conversationCategories, gameCategories } from './categories.js'
 import { editorialConversations } from './editorial-conversations.js'
+import { newGameIds, newGamePrompts } from './editorial/new-games.js'
 import { getPrompts as getLegacyPrompts } from './prompts.js'
 
 const conversationIds = new Set(conversationCategories.map(category => category.id))
@@ -52,12 +53,7 @@ function makeEditorialPrompts(categoryId, mode) {
         audience: intensity === 'Spicy' ? '18+' : 'General',
         faithType,
         subtype: null,
-        tags: [
-          category.name.toLowerCase(),
-          mode,
-          intensity.toLowerCase(),
-          'editorial',
-        ],
+        tags: [category.name.toLowerCase(), mode, intensity.toLowerCase(), 'editorial'],
       })
       index += 1
     })
@@ -67,10 +63,52 @@ function makeEditorialPrompts(categoryId, mode) {
   return prompts
 }
 
+function makeNewGamePrompts(categoryId, mode) {
+  const cacheKey = `new-game:${categoryId}:${mode}`
+  if (cache.has(cacheKey)) return cache.get(cacheKey)
+
+  const category = gameCategories.find(item => item.id === categoryId)
+  const cards = newGamePrompts[categoryId]?.[mode] || []
+  if (!category) return []
+
+  const prompts = cards.map((card, index) => {
+    const intensity = mode === 'relationship'
+      ? ['Chill', 'Interesting', 'Deep', 'Flirty'][index % 4]
+      : ['Chill', 'Interesting', 'Deep', 'No Filter'][index % 4]
+
+    const optionText = card.options?.length ? `\n\n${card.options.join(' · ')}` : ''
+    return {
+      id: `editorial-game-${categoryId}-${mode}-${index}`,
+      categoryId,
+      categoryName: category.name,
+      mode,
+      text: card.text,
+      copyText: `${card.text}${optionText}`,
+      intensity,
+      stage: mode === 'relationship' ? relationshipStage(intensity, index) : null,
+      audience: 'General',
+      faithType: null,
+      subtype: null,
+      mechanic: category.mechanic,
+      options: card.options || null,
+      responseLabels: categoryId === 'agree-disagree'
+        ? ['Agree', 'Disagree']
+        : categoryId === 'red-green-depends'
+          ? ['Red Flag', 'Green Flag', 'Depends']
+          : categoryId === 'petty-or-valid'
+            ? ['Petty', 'Valid', 'Both']
+            : null,
+      tags: [category.name.toLowerCase(), mode, intensity.toLowerCase(), 'editorial-game'],
+    }
+  })
+
+  cache.set(cacheKey, prompts)
+  return prompts
+}
+
 export function getPrompts(categoryId, mode) {
-  if (conversationIds.has(categoryId)) {
-    return makeEditorialPrompts(categoryId, mode)
-  }
+  if (conversationIds.has(categoryId)) return makeEditorialPrompts(categoryId, mode)
+  if (newGameIds.has(categoryId)) return makeNewGamePrompts(categoryId, mode)
   return getLegacyPrompts(categoryId, mode)
 }
 
