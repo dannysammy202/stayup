@@ -1,5 +1,5 @@
 import { allCategories, conversationCategories, gameCategories } from '../categories.js'
-import { buildNigeriaConversationPrompts, nigeriaConversationCategoryIds } from './conversations-v7.js'
+import { buildNigeriaConversationPrompts, nigeriaConversationCategoryIds } from './conversations-v8.js'
 import { buildNigeriaGamePrompts, nigeriaGameCategoryIds } from './games-v7.js'
 
 const conversationIds = new Set(conversationCategories.map(item => item.id))
