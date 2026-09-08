@@ -1,716 +1,1198 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react'
 import {
+  ArrowLeft2,
+  ArrowRight2,
+  Book1,
+  Bookmark,
+  Briefcase,
+  Clock,
+  CloseCircle,
+  Coffee,
+  Copy,
+  Edit2,
+  Flag,
+  Flash,
+  Game,
+  Global,
+  Heart,
+  Home2,
+  Judge,
+  MagicStar,
+  Menu,
+  MessageQuestion,
+  MessageText1,
+  Music,
+  People,
+  Refresh,
+  SearchNormal1,
+  Share,
+  Shuffle,
+  Sort,
+  Star1,
+  TickCircle,
+  User,
+  VideoPlay,
+} from 'iconsax-react'
+import {
+  FRIEND_INTENSITIES,
+  GAME_RESPONSE_OPTIONS,
+  RELATIONSHIP_INTENSITIES,
+  RELATIONSHIP_STAGES,
   allCategories,
+  categoryById,
   conversationCategories,
-  friendIntensities,
   gameCategories,
-  relationshipIntensities,
-  relationshipStages,
-} from './data/categories'
-import { getAllPrompts, getPrompts } from './data/prompts'
-import { APP_NAME } from './config'
+  isGameCategory,
+} from './data/catalog.js'
+import {
+  getCardById,
+  getCards,
+  librarySize,
+  searchCards,
+  serialiseCard,
+} from './data/library.js'
+import './styles.css'
 
 const LS = {
-  favourites: 'stayup:favourites',
-  history: 'stayup:history',
-  resume: 'stayup:resume',
-  seen: 'stayup:seen',
-  mode: 'stayup:mode',
-  audience: 'stayup:audience',
-  visited: 'stayup:visited',
+  mode: 'stayup:v2:mode',
+  favourites: 'stayup:v2:favourites',
+  history: 'stayup:v2:history',
+  resume: 'stayup:v2:resume',
+  adult: 'stayup:v2:adult',
+}
+const SS_SEEN = 'stayup:v2:seen'
+
+const iconMap = {
+  profile: User,
+  messages: MessageText1,
+  magic: MagicStar,
+  briefcase: Briefcase,
+  global: Global,
+  people: People,
+  clock: Clock,
+  book: Book1,
+  coffee: Coffee,
+  home: Home2,
+  video: VideoPlay,
+  music: Music,
+  judge: Judge,
+  lamp: MessageQuestion,
+  shield: TickCircle,
+  flash: Flash,
+  tick: TickCircle,
+  cards: MessageQuestion,
+  heart: Heart,
+  message: MessageText1,
+  route: Shuffle,
+  edit: Edit2,
+  question: MessageQuestion,
+  sort: Sort,
+  close: CloseCircle,
+  bookmark: Bookmark,
+  star: Star1,
+  flag: Flag,
+  story: Book1,
 }
 
-function readLS(key, fallback) {
+function readJSON(storage, key, fallback) {
   try {
-    const raw = localStorage.getItem(key)
+    const raw = storage.getItem(key)
     return raw ? JSON.parse(raw) : fallback
   } catch {
     return fallback
   }
 }
 
-function writeLS(key, value) {
+function writeJSON(storage, key, value) {
   try {
-    localStorage.setItem(key, JSON.stringify(value))
+    storage.setItem(key, JSON.stringify(value))
   } catch {
-    // Local storage is optional. The app still works without persistence.
+    // Storage is optional. The active session still works without persistence.
   }
 }
 
-function Icon({ name, size = 20 }) {
-  const common = { width: size, height: size, viewBox: '0 0 24 24', fill: 'none', stroke: 'currentColor', strokeWidth: 1.8, strokeLinecap: 'round', strokeLinejoin: 'round', 'aria-hidden': true }
-  const paths = {
-    copy: <><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></>,
-    heart: <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0-7.78z"/>,
-    share: <><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.59 13.51 6.83 3.98M15.41 6.51 8.59 10.49"/></>,
-    next: <><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></>,
-    back: <><path d="M19 12H5"/><path d="m11 18-6-6 6-6"/></>,
-    shuffle: <><path d="M16 3h5v5"/><path d="M4 20 21 3"/><path d="M21 16v5h-5"/><path d="m15 15 6 6"/><path d="M4 4l5 5"/></>,
-    search: <><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></>,
-    home: <><path d="m3 11 9-8 9 8"/><path d="M5 10v10h14V10"/><path d="M9 20v-6h6v6"/></>,
-    game: <><path d="M8 9h8"/><path d="M12 5v8"/><circle cx="18" cy="15" r="1"/><circle cx="15" cy="18" r="1"/><path d="M6 19h12a4 4 0 0 0 3.9-4.9l-1.2-5A4 4 0 0 0 16.8 6H7.2a4 4 0 0 0-3.9 3.1l-1.2 5A4 4 0 0 0 6 19Z"/></>,
-    spark: <><path d="m12 3-1.2 3.8L7 8l3.8 1.2L12 13l1.2-3.8L17 8l-3.8-1.2L12 3Z"/><path d="m5 14-.8 2.2L2 17l2.2.8L5 20l.8-2.2L8 17l-2.2-.8L5 14Z"/><path d="m19 13-.7 1.8-1.8.7 1.8.7L19 18l.7-1.8 1.8-.7-1.8-.7L19 13Z"/></>,
-    history: <><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/><path d="M12 7v5l3 2"/></>,
-    close: <><path d="M18 6 6 18"/><path d="m6 6 12 12"/></>,
-    menu: <><path d="M4 6h16"/><path d="M4 12h16"/><path d="M4 18h16"/></>,
-    check: <path d="m5 12 4 4L19 6"/>,
-    phone: <><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.69 2.8a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.28-1.28a2 2 0 0 1 2.11-.45c.9.33 1.84.56 2.8.69A2 2 0 0 1 22 16.92Z"/></>,
-    message: <><path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4Z"/><path d="M8 9h8M8 13h5"/></>,
-  }
-  return <svg {...common}>{paths[name]}</svg>
+function useLocalState(key, fallback) {
+  const [value, setValue] = useState(() => readJSON(localStorage, key, fallback))
+  useEffect(() => writeJSON(localStorage, key, value), [key, value])
+  return [value, setValue]
+}
+
+function classNames(...values) {
+  return values.filter(Boolean).join(' ')
+}
+
+function CategoryIcon({ category, size = 22 }) {
+  const Icon = iconMap[category?.icon] || MessageQuestion
+  return <Icon size={size} variant="Linear" />
+}
+
+function Brand({ onClick }) {
+  return (
+    <button className="brand" onClick={onClick} aria-label="StayUp home">
+      <span className="brand-symbol"><MessageText1 size="20" variant="Bold" /></span>
+      <span className="brand-word">StayUp<span>.</span></span>
+    </button>
+  )
 }
 
 function ModeSwitch({ mode, onChange, compact = false }) {
   return (
-    <div className={`mode-switch ${compact ? 'compact' : ''}`}>
-      <button className={mode === 'friend' ? 'active' : ''} onClick={() => onChange('friend')}>Friends</button>
-      <button className={mode === 'relationship' ? 'active' : ''} onClick={() => onChange('relationship')}>Relationship</button>
+    <div className={classNames('mode-switch', compact && 'compact')} aria-label="Conversation mode">
+      <button className={mode === 'friend' ? 'active friend' : ''} onClick={() => onChange('friend')}>
+        Friends
+      </button>
+      <button className={mode === 'relationship' ? 'active relationship' : ''} onClick={() => onChange('relationship')}>
+        Relationship
+      </button>
     </div>
   )
 }
 
-function Brand() {
+function Landing({ onStart, onBrowse }) {
+  const sample = getCards({ categoryId: 'growing-up', mode: 'friend' })[0]
   return (
-    <div className="brand">
-      <span className="brand-mark"><span /></span>
-      <span>{APP_NAME}<span className="brand-dot">.</span></span>
-    </div>
-  )
-}
+    <main className="landing">
+      <div className="ambient ambient-a" />
+      <div className="ambient ambient-b" />
+      <header className="landing-nav">
+        <Brand onClick={() => {}} />
+        <button className="quiet-link" onClick={() => onBrowse('explore')}>
+          Browse prompts <ArrowRight2 size="17" />
+        </button>
+      </header>
 
-function Landing({ onStart, onCategory }) {
-  return (
-    <main className="landing-shell">
-      <div className="landing-orb orb-one" />
-      <div className="landing-orb orb-two" />
-      <nav className="landing-nav">
-        <Brand />
-        <button className="text-button" onClick={() => onStart('friend')}>Browse everything <Icon name="next" size={17}/></button>
-      </nav>
-
-      <section className="hero">
-        <div className="eyebrow"><span className="live-dot"/> Made for texts, calls and late-night gist</div>
-        <h1>Never run out of<br/><span>things to talk about.</span></h1>
-        <p className="hero-copy">Open a prompt, copy it into your chat or say it on the call. Find something funny, deep, random, flirty or completely unexpected whenever the conversation needs somewhere new to go.</p>
-
-        <div className="hero-how">
-          <div><span>01</span> Pick who you are talking to</div>
-          <div><span>02</span> Find a question or game</div>
-          <div><span>03</span> Copy it or say it</div>
+      <section className="landing-hero">
+        <div className="hero-copy">
+          <p className="eyebrow"><span /> Built for the conversation you already have</p>
+          <h1>Something worth<br /><em>talking about.</em></h1>
+          <p className="hero-description">
+            Open StayUp while you text, call or sit together. Pick a prompt, send it or say it, then let the conversation go wherever it wants.
+          </p>
+          <div className="hero-points" aria-label="How StayUp works">
+            <span><strong>01</strong> Pick who you are talking to</span>
+            <span><strong>02</strong> Choose a category or game</span>
+            <span><strong>03</strong> Keep the good conversations moving</span>
+          </div>
         </div>
 
-        <div className="who-card">
-          <div className="who-card-copy">
-            <p className="mini-label">What are we doing tonight?</p>
-            <h2>Who are you talking to?</h2>
+        <div className="hero-stage">
+          <div className="sample-card">
+            <div className="sample-card-top">
+              <span className="sample-kicker">Growing Up</span>
+              <span className="sample-dot" />
+            </div>
+            <p>{sample?.text || 'What is something your parents were strict about while you were growing up?'}</p>
+            <div className="sample-actions">
+              <span><Copy size="17" /> Copy</span>
+              <span><Bookmark size="17" /> Save</span>
+            </div>
           </div>
-          <div className="who-options">
-            <button className="who-option friends" onClick={() => onStart('friend')}>
-              <span className="who-icon">✦</span>
-              <span><strong>Friends</strong><small>New friends, close friends, someone you just met.</small></span>
-              <Icon name="next"/>
-            </button>
-            <button className="who-option relationship" onClick={() => onStart('relationship')}>
-              <span className="who-icon">♡</span>
-              <span><strong>Relationship</strong><small>Talking stage, dating, long-term or married.</small></span>
-              <Icon name="next"/>
-            </button>
-          </div>
+          <div className="sample-card ghost-card ghost-one" />
+          <div className="sample-card ghost-card ghost-two" />
         </div>
       </section>
 
-      <section className="landing-categories">
-        <div className="section-heading">
-          <div><p className="mini-label">Jump straight in</p><h2>Pick a conversation</h2></div>
-          <p>Start with a category and switch between Friends and Relationship inside it.</p>
+      <section className="who-section">
+        <div className="section-intro">
+          <p className="mini-label">Start here</p>
+          <h2>Who are you talking to?</h2>
+          <p>No room, invite or second account. One person opens StayUp and brings the prompt into the conversation.</p>
         </div>
-        <div className="landing-category-grid">
-          {conversationCategories.slice(0, 8).map(category => (
-            <button key={category.id} className="landing-category" onClick={() => onCategory(category.id)}>
-              <span>{category.icon}</span>
-              <strong>{category.name}</strong>
-              <Icon name="next" size={16}/>
-            </button>
-          ))}
+        <div className="who-grid">
+          <button className="who-choice friends" onClick={() => onStart('friend')}>
+            <span className="who-icon"><People size="28" variant="Bold" /></span>
+            <span className="who-text"><strong>Friends</strong><small>For gist, stories, opinions, memories and everything in between.</small></span>
+            <ArrowRight2 size="22" />
+          </button>
+          <button className="who-choice relationship" onClick={() => onStart('relationship')}>
+            <span className="who-icon"><Heart size="28" variant="Bold" /></span>
+            <span className="who-text"><strong>Relationship</strong><small>From talking stage to married, with questions that fit where you are.</small></span>
+            <ArrowRight2 size="22" />
+          </button>
         </div>
-      </section>
-
-      <section className="landing-note">
-        <Icon name="message" size={22}/>
-        <p>No rooms. No invites. The other person does not need this site. StayUp gives you the next thing worth asking.</p>
-        <Icon name="phone" size={22}/>
       </section>
     </main>
   )
 }
 
-function Sidebar({ view, setView, mode, setMode, closeMobile }) {
-  const nav = [
-    ['home', 'home', 'Explore'],
-    ['games', 'game', 'Games'],
-    ['favourites', 'heart', 'Favourites'],
-    ['history', 'history', 'History'],
+function DesktopSidebar({ page, mode, onMode, onNavigate }) {
+  const items = [
+    ['explore', Home2, 'Explore'],
+    ['games', Game, 'Games'],
+    ['favourites', Heart, 'Favourites'],
+    ['history', Clock, 'History'],
   ]
   return (
-    <aside className="sidebar">
-      <div className="sidebar-top">
-        <Brand />
-        <button className="sidebar-close" onClick={closeMobile}><Icon name="close"/></button>
-      </div>
-      <ModeSwitch mode={mode} onChange={m => { setMode(m); closeMobile?.() }} />
-      <div className="side-nav">
-        {nav.map(([id, icon, label]) => (
-          <button key={id} className={view === id ? 'active' : ''} onClick={() => { setView(id); closeMobile?.() }}>
-            <Icon name={icon}/><span>{label}</span>
+    <aside className="desktop-sidebar">
+      <Brand onClick={() => onNavigate('explore')} />
+      <ModeSwitch mode={mode} onChange={onMode} />
+      <nav className="sidebar-nav">
+        {items.map(([id, Icon, label]) => (
+          <button key={id} className={page === id ? 'active' : ''} onClick={() => onNavigate(id)}>
+            <Icon size="21" /> <span>{label}</span>
           </button>
         ))}
+      </nav>
+      <div className="sidebar-note">
+        <MessageQuestion size="20" />
+        <div>
+          <strong>One card at a time.</strong>
+          <p>Stay on the prompt while the conversation develops.</p>
+        </div>
       </div>
-      <div className="sidebar-tip">
-        <span><Icon name="spark" size={17}/></span>
-        <div><strong>Keep it simple.</strong><p>Find a prompt. Copy it. Go back to your conversation.</p></div>
-      </div>
-      <p className="device-note">Favourites and history stay on this device.</p>
+      <span className="sidebar-library">{librarySize.toLocaleString()} editorial cards currently live</span>
     </aside>
   )
 }
 
-function CategoryCard({ category, onClick, game = false }) {
+function MobileHeader({ onMenu, onSearch, onHome }) {
   return (
-    <button className="category-card" onClick={() => onClick(category.id)}>
-      <div className="category-card-top">
-        <span className="category-emoji">{category.icon}</span>
-        <span className="prompt-count">{category.id === 'truth-dare' ? '1,000' : '500'} prompts</span>
-      </div>
-      <div>
+    <header className="mobile-header">
+      <button className="icon-button" onClick={onMenu} aria-label="Open menu"><Menu size="24" /></button>
+      <Brand onClick={onHome} />
+      <button className="icon-button" onClick={onSearch} aria-label="Search"><SearchNormal1 size="22" /></button>
+    </header>
+  )
+}
+
+function MobileNav({ page, onNavigate }) {
+  const items = [
+    ['explore', Home2, 'Explore'],
+    ['games', Game, 'Games'],
+    ['favourites', Heart, 'Saved'],
+    ['history', Clock, 'History'],
+  ]
+  return (
+    <nav className="mobile-nav">
+      {items.map(([id, Icon, label]) => (
+        <button key={id} className={page === id ? 'active' : ''} onClick={() => onNavigate(id)}>
+          <Icon size="21" variant={page === id ? 'Bold' : 'Linear'} />
+          <span>{label}</span>
+        </button>
+      ))}
+    </nav>
+  )
+}
+
+function MobileDrawer({ open, mode, onMode, onClose, onNavigate }) {
+  if (!open) return null
+  return (
+    <div className="drawer-layer" onClick={onClose}>
+      <aside className="mobile-drawer" onClick={event => event.stopPropagation()}>
+        <div className="drawer-top">
+          <Brand onClick={() => { onNavigate('explore'); onClose() }} />
+          <button className="icon-button" onClick={onClose}><CloseCircle size="23" /></button>
+        </div>
+        <p className="mini-label">Who are you talking to?</p>
+        <ModeSwitch mode={mode} onChange={value => { onMode(value); onClose() }} />
+        <button className="drawer-search" onClick={() => { onNavigate('search'); onClose() }}>
+          <SearchNormal1 size="20" /> Search the library
+        </button>
+      </aside>
+    </div>
+  )
+}
+
+function AppTopbar({ mode, onMode, onSearch }) {
+  return (
+    <div className="desktop-topbar">
+      <ModeSwitch mode={mode} onChange={onMode} compact />
+      <button className="search-trigger" onClick={onSearch}>
+        <SearchNormal1 size="19" />
+        <span>Search money, secondary school, NYSC, church…</span>
+        <kbd>/</kbd>
+      </button>
+    </div>
+  )
+}
+
+function CategoryCard({ category, mode, onOpen }) {
+  const available = getCards({ categoryId: category.id, mode, allow18: false }).length
+  return (
+    <button className="category-card" onClick={() => onOpen(category.id)}>
+      <div className="category-icon"><CategoryIcon category={category} /></div>
+      <div className="category-copy">
         <h3>{category.name}</h3>
         <p>{category.description}</p>
       </div>
-      <div className="category-card-bottom">
-        <span>{game ? 'Play from anywhere' : 'Open category'}</span>
-        <span className="circle-arrow"><Icon name="next" size={17}/></span>
+      <div className="category-meta">
+        <span>{available ? 'Open' : 'Editorial work in progress'}</span>
+        <ArrowRight2 size="17" />
       </div>
     </button>
   )
 }
 
-function HomeView({ mode, onCategory, setView }) {
+function ExploreView({ mode, onOpen, onGames }) {
   const picks = mode === 'friend'
-    ? ['getting-to-know-you', 'fun-random', 'nigeria', 'nostalgia']
+    ? ['getting-to-know-you', 'fun-random', 'growing-up', 'food']
     : ['getting-to-know-you', 'deep-meaningful', 'hot-takes', 'values-beliefs']
   return (
-    <div className="page-view">
-      <header className="page-hero compact-hero">
+    <div className="view-shell">
+      <header className="view-hero">
         <div>
           <p className="mini-label">{mode === 'friend' ? 'Friends mode' : 'Relationship mode'}</p>
           <h1>What do you feel like talking about?</h1>
-          <p>Pick a category, then keep moving through prompts without leaving the conversation you are already having.</p>
+          <p>Pick a direction, then stay with the card until you are ready for the next one.</p>
         </div>
-        <button className="random-hero" onClick={() => onCategory(allCategories[Math.floor(Math.random() * allCategories.length)].id, true)}>
-          <Icon name="shuffle"/><span><strong>Surprise me</strong><small>Open something random</small></span>
+        <button className={classNames('surprise-card', mode)} onClick={() => {
+          const available = allCategories.filter(category => getCards({ categoryId: category.id, mode }).length)
+          const pick = available[Math.floor(Math.random() * available.length)]
+          if (pick) onOpen(pick.id, true)
+        }}>
+          <Shuffle size="25" />
+          <span><strong>Surprise me</strong><small>Jump somewhere random</small></span>
         </button>
       </header>
 
-      <section className="quick-picks">
-        <div className="section-title-line"><h2>Good places to start</h2><span>Based on {mode === 'friend' ? 'friend' : 'relationship'} mode</span></div>
+      <section className="quick-section">
+        <div className="section-heading">
+          <div><p className="mini-label">Good places to start</p><h2>Pick a lane</h2></div>
+        </div>
         <div className="quick-grid">
           {picks.map(id => {
-            const category = allCategories.find(c => c.id === id)
-            return <button key={id} onClick={() => onCategory(id)}><span>{category.icon}</span><strong>{category.name}</strong><Icon name="next" size={16}/></button>
+            const category = categoryById[id]
+            return (
+              <button key={id} onClick={() => onOpen(id)}>
+                <span className="quick-icon"><CategoryIcon category={category} size={20} /></span>
+                <strong>{category.name}</strong>
+                <ArrowRight2 size="16" />
+              </button>
+            )
           })}
         </div>
       </section>
 
-      <section className="content-section">
-        <div className="section-title-line"><div><p className="mini-label">Conversation library</p><h2>Talk about anything</h2></div><span>{conversationCategories.length * 500} prompts in this mode</span></div>
+      <section className="library-section">
+        <div className="section-heading">
+          <div><p className="mini-label">Conversation starters</p><h2>Talk about anything</h2></div>
+          <span>{conversationCategories.length} categories</span>
+        </div>
         <div className="category-grid">
-          {conversationCategories.map(category => <CategoryCard key={category.id} category={category} onClick={onCategory}/>) }
+          {conversationCategories.map(category => (
+            <CategoryCard key={category.id} category={category} mode={mode} onOpen={onOpen} />
+          ))}
         </div>
       </section>
 
-      <section className="game-banner" onClick={() => setView('games')} role="button" tabIndex={0}>
-        <div className="game-banner-icon">⚡</div>
-        <div><p className="mini-label">Switch it up</p><h2>Turn the conversation into a game.</h2><p>Truth or Dare, Never Have I Ever, scenarios, impossible choices and more.</p></div>
-        <span className="circle-arrow large"><Icon name="next"/></span>
-      </section>
+      <button className="games-banner" onClick={onGames}>
+        <span className="games-banner-icon"><Game size="28" variant="Bold" /></span>
+        <span>
+          <small>Change the rhythm</small>
+          <strong>Turn the conversation into a game.</strong>
+          <p>Different mechanics, same chat or call.</p>
+        </span>
+        <ArrowRight2 size="23" />
+      </button>
     </div>
   )
 }
 
-function GamesView({ mode, onCategory }) {
+function GamesView({ mode, onOpen }) {
   return (
-    <div className="page-view">
-      <header className="page-hero compact-hero">
+    <div className="view-shell">
+      <header className="view-hero single">
         <div>
           <p className="mini-label">Games</p>
-          <h1>Less small talk. More chaos.</h1>
-          <p>Open a prompt, then send it in your chat or say it on the call. Nothing here requires both people to open the site.</p>
+          <h1>Less question list. More interaction.</h1>
+          <p>Each game has its own mechanic. Nothing here needs a shared room or a second StayUp screen.</p>
         </div>
       </header>
-      <section className="content-section no-top">
-        <div className="section-title-line"><h2>Pick a game</h2><span>{gameCategories.reduce((n, c) => n + (c.id === 'truth-dare' ? 1000 : 500), 0)} prompts in {mode === 'friend' ? 'Friends' : 'Relationship'}</span></div>
-        <div className="category-grid">
-          {gameCategories.map(category => <CategoryCard key={category.id} category={category} onClick={onCategory} game/>) }
+      <section className="library-section no-gap">
+        <div className="section-heading">
+          <div><p className="mini-label">{mode === 'friend' ? 'Friends' : 'Relationship'}</p><h2>Pick a game</h2></div>
+          <span>{gameCategories.length} games</span>
+        </div>
+        <div className="category-grid game-grid">
+          {gameCategories.map(category => (
+            <CategoryCard key={category.id} category={category} mode={mode} onOpen={onOpen} />
+          ))}
         </div>
       </section>
     </div>
   )
 }
 
-function EmptyState({ icon = '♡', title, text, action, actionLabel }) {
-  return <div className="empty-state"><span>{icon}</span><h2>{title}</h2><p>{text}</p>{action && <button className="primary-btn" onClick={action}>{actionLabel}<Icon name="next" size={17}/></button>}</div>
+function FilterBar({
+  mode,
+  intensity,
+  onIntensity,
+  stage,
+  onStage,
+  adult,
+  onAdult,
+  categoryId,
+  subtype,
+  onSubtype,
+}) {
+  const intensities = mode === 'friend' ? FRIEND_INTENSITIES : RELATIONSHIP_INTENSITIES
+  return (
+    <aside className="filter-rail">
+      <div className="filter-group">
+        <span className="filter-title">Intensity</span>
+        <div className="filter-chips vertical">
+          <button className={intensity === 'All' ? 'active' : ''} onClick={() => onIntensity('All')}>All</button>
+          {intensities.map(value => (
+            <button
+              key={value}
+              className={intensity === value ? 'active' : ''}
+              onClick={() => value === 'Spicy' && !adult ? onAdult(true, value) : onIntensity(value)}
+            >
+              {value}{value === 'Spicy' && !adult ? <span className="lock-text">18+</span> : null}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      {mode === 'relationship' ? (
+        <div className="filter-group">
+          <span className="filter-title">Relationship stage</span>
+          <select value={stage} onChange={event => onStage(event.target.value)}>
+            <option>All</option>
+            {RELATIONSHIP_STAGES.map(value => <option key={value}>{value}</option>)}
+          </select>
+        </div>
+      ) : null}
+
+      {categoryId === 'truth-dare' ? (
+        <div className="filter-group">
+          <span className="filter-title">Truth or Dare</span>
+          <div className="truth-switch">
+            {['Truth', 'Dare'].map(value => (
+              <button key={value} className={subtype === value ? 'active' : ''} onClick={() => onSubtype(value)}>{value}</button>
+            ))}
+          </div>
+        </div>
+      ) : null}
+
+      {mode === 'relationship' ? (
+        <div className="filter-group adult-filter">
+          <div>
+            <span className="filter-title">18+ audience</span>
+            <small>Explicitly intimate cards stay hidden by default.</small>
+          </div>
+          <button className={classNames('toggle', adult && 'on')} onClick={() => onAdult(!adult)}>
+            <span />
+          </button>
+        </div>
+      ) : null}
+    </aside>
+  )
 }
 
-function SavedView({ type, items, onOpen, onClear, setView }) {
-  const isFav = type === 'favourites'
-  if (!items.length) {
-    return <EmptyState icon={isFav ? '♡' : '↺'} title={isFav ? 'Nothing saved yet.' : 'No prompt history yet.'} text={isFav ? 'Tap the heart on any prompt and it will appear here.' : 'Prompts you open will show up here on this device.'} action={() => setView('home')} actionLabel="Browse prompts" />
+function CompactMobileFilters({
+  mode,
+  intensity,
+  onIntensity,
+  stage,
+  onStage,
+  categoryId,
+  subtype,
+  onSubtype,
+  adult,
+  onAdult,
+}) {
+  const values = mode === 'friend' ? FRIEND_INTENSITIES : RELATIONSHIP_INTENSITIES
+  return (
+    <div className="mobile-filters">
+      {categoryId === 'truth-dare' ? (
+        <div className="truth-switch inline">
+          {['Truth', 'Dare'].map(value => (
+            <button key={value} className={subtype === value ? 'active' : ''} onClick={() => onSubtype(value)}>{value}</button>
+          ))}
+        </div>
+      ) : null}
+      <div className="horizontal-chips">
+        <button className={intensity === 'All' ? 'active' : ''} onClick={() => onIntensity('All')}>All</button>
+        {values.map(value => (
+          <button
+            key={value}
+            className={intensity === value ? 'active' : ''}
+            onClick={() => value === 'Spicy' && !adult ? onAdult(true, value) : onIntensity(value)}
+          >
+            {value}{value === 'Spicy' && !adult ? ' 18+' : ''}
+          </button>
+        ))}
+      </div>
+      {mode === 'relationship' ? (
+        <select value={stage} onChange={event => onStage(event.target.value)}>
+          <option>All</option>
+          {RELATIONSHIP_STAGES.map(value => <option key={value}>{value}</option>)}
+        </select>
+      ) : null}
+    </div>
+  )
+}
+
+function sessionSeen() {
+  return readJSON(sessionStorage, SS_SEEN, {})
+}
+
+function chooseUnseen(pool, poolKey, random = false) {
+  if (!pool.length) return { card: null, exhausted: false }
+  const allSeen = sessionSeen()
+  const seen = new Set(allSeen[poolKey] || [])
+  let available = pool.filter(card => !seen.has(card.id))
+  let exhausted = false
+  if (!available.length) {
+    available = pool
+    allSeen[poolKey] = []
+    writeJSON(sessionStorage, SS_SEEN, allSeen)
+    exhausted = true
   }
-  return (
-    <div className="page-view">
-      <header className="simple-page-header">
-        <div><p className="mini-label">{isFav ? 'Your collection' : 'On this device'}</p><h1>{isFav ? 'Favourites' : 'History'}</h1><p>{isFav ? 'The questions you want to keep close.' : 'Pick up from something you opened earlier.'}</p></div>
-        <button className="ghost-btn" onClick={onClear}>Clear {isFav ? 'favourites' : 'history'}</button>
-      </header>
-      <div className="saved-list">
-        {items.map((item, i) => (
-          <button className="saved-row" key={`${item.id}-${i}`} onClick={() => onOpen(item)}>
-            <span className="saved-icon">{allCategories.find(c => c.id === item.categoryId)?.icon || '✦'}</span>
-            <span className="saved-copy"><small>{item.categoryName} · {item.mode === 'friend' ? 'Friends' : 'Relationship'}</small><strong>{item.text.replaceAll('\n', ' · ')}</strong></span>
-            <Icon name="next"/>
+  const card = random
+    ? available[Math.floor(Math.random() * available.length)]
+    : available[0]
+  return { card, exhausted }
+}
+
+function markSeen(poolKey, cardId) {
+  if (!cardId) return
+  const allSeen = sessionSeen()
+  const current = new Set(allSeen[poolKey] || [])
+  current.add(cardId)
+  allSeen[poolKey] = [...current]
+  writeJSON(sessionStorage, SS_SEEN, allSeen)
+}
+
+function copyText(text) {
+  if (navigator.clipboard?.writeText) return navigator.clipboard.writeText(text)
+  const area = document.createElement('textarea')
+  area.value = text
+  area.style.position = 'fixed'
+  area.style.opacity = '0'
+  document.body.appendChild(area)
+  area.select()
+  document.execCommand('copy')
+  area.remove()
+  return Promise.resolve()
+}
+
+function mechanicHint(card) {
+  const hints = {
+    'truth-dare': card?.subtype === 'Dare' ? 'Do it over the chat or call.' : 'Answer it properly.',
+    statement: 'Say whether you have or have not.',
+    'two-truths-lie': 'Privately choose your lie before you send the set.',
+    'kiss-marry-avoid': 'Assign one choice to Kiss, one to Marry and one to Avoid.',
+    scenario: 'Say what you would do, then explain why.',
+    'hard-choice': 'Pick one. The explanation is the game.',
+    who: 'Pick which of you is more likely, then defend it.',
+    predict: 'The other person predicts first. Reveal the real answer after.',
+    finish: 'Complete the sentence in your own words.',
+    rank: 'Rank all five from first to last.',
+    agree: 'Pick a side, then explain it.',
+    eliminate: 'Remove one option.',
+    keep: 'Keep one and lose the rest.',
+    rating: 'Give it a score from 1 to 10.',
+    'quick-choice': 'First answer wins. No long thinking.',
+    verdict: 'Pick a verdict, then explain the context.',
+    petty: 'Petty, valid or somewhere in between?',
+    story: 'Tell the full version, not the short answer.',
+  }
+  return hints[card?.mechanic] || 'Let the answer turn into a conversation.'
+}
+
+function GameBody({ card }) {
+  const [choice, setChoice] = useState(null)
+  const [assignments, setAssignments] = useState({})
+  const [ranked, setRanked] = useState([])
+  useEffect(() => {
+    setChoice(null)
+    setAssignments({})
+    setRanked([])
+  }, [card?.id])
+  if (!card) return null
+
+  if (card.mechanic === 'two-truths-lie') {
+    return (
+      <div className="option-stack selectable">
+        {card.options.map((option, index) => (
+          <button key={option} className={choice === index ? 'selected-private' : ''} onClick={() => setChoice(index)}>
+            <span>{index + 1}</span><strong>{option}</strong>
+            {choice === index ? <small>Your lie</small> : null}
+          </button>
+        ))}
+        <p className="private-note">Your lie selection stays on this screen and is not included when you copy or share.</p>
+      </div>
+    )
+  }
+
+  if (card.mechanic === 'kiss-marry-avoid') {
+    const roles = ['Kiss', 'Marry', 'Avoid']
+    const assign = (index, role) => {
+      setAssignments(previous => {
+        const next = { ...previous }
+        Object.keys(next).forEach(key => {
+          if (next[key] === role) delete next[key]
+        })
+        next[index] = role
+        return next
+      })
+    }
+    return (
+      <div className="kma-stack">
+        {card.options.map((option, index) => (
+          <div className="kma-option" key={option}>
+            <strong>{option}</strong>
+            <div>
+              {roles.map(role => (
+                <button key={role} className={assignments[index] === role ? 'selected' : ''} onClick={() => assign(index, role)}>{role}</button>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    )
+  }
+
+  if (card.mechanic === 'rank') {
+    const toggleRank = index => {
+      setRanked(previous => previous.includes(index)
+        ? previous.filter(value => value !== index)
+        : [...previous, index])
+    }
+    return (
+      <div className="option-stack rank-stack">
+        {card.options.map((option, index) => {
+          const position = ranked.indexOf(index)
+          return (
+            <button key={option} className={position >= 0 ? 'selected' : ''} onClick={() => toggleRank(index)}>
+              <span>{position >= 0 ? position + 1 : '–'}</span>
+              <strong>{option}</strong>
+              <small>{position >= 0 ? `Rank ${position + 1}` : 'Tap in order'}</small>
+            </button>
+          )
+        })}
+      </div>
+    )
+  }
+
+  if (card.mechanic === 'rating') {
+    return (
+      <div className="rating-row" aria-label="Rating from 1 to 10">
+        {Array.from({ length: 10 }, (_, index) => index + 1).map(value => (
+          <button key={value} className={choice === value ? 'selected' : ''} onClick={() => setChoice(value)}>{value}</button>
+        ))}
+      </div>
+    )
+  }
+
+  const responseOptions = GAME_RESPONSE_OPTIONS[card.categoryId]
+  if (responseOptions) {
+    return (
+      <>
+        {card.options?.length ? (
+          <div className="option-grid">
+            {card.options.map((option, index) => (
+              <div className="game-option" key={option}><span>{index + 1}</span><strong>{option}</strong></div>
+            ))}
+          </div>
+        ) : null}
+        <div className="response-row">
+          {responseOptions.map(value => (
+            <button key={value} className={choice === value ? 'selected' : ''} onClick={() => setChoice(value)}>{value}</button>
+          ))}
+        </div>
+      </>
+    )
+  }
+
+  if (card.options?.length) {
+    return (
+      <div className={classNames('option-grid', card.options.length === 2 && 'two')}>
+        {card.options.map((option, index) => (
+          <button key={option} className={choice === index ? 'selected' : ''} onClick={() => setChoice(index)}>
+            <span>{String.fromCharCode(65 + index)}</span>
+            <strong>{option}</strong>
           </button>
         ))}
       </div>
+    )
+  }
+
+  return null
+}
+
+function EmptyPool({ category, onClearFilters }) {
+  return (
+    <div className="empty-pool">
+      <Refresh size="35" />
+      <h2>No published card matches these filters yet.</h2>
+      <p>{category?.name} still has editorial gaps in this combination. The app will not fill them with generated wording.</p>
+      <button onClick={onClearFilters}>Clear filters</button>
     </div>
   )
 }
 
-function SearchView({ mode, audience, onOpen }) {
-  const [query, setQuery] = useState('')
-  const all = useMemo(() => getAllPrompts(mode), [mode])
-  const results = useMemo(() => {
-    const q = query.trim().toLowerCase()
-    if (!q) return []
-    return all.filter(p => {
-      const audiencePass = audience === '18+' || p.audience === 'General'
-      if (!audiencePass) return false
-      const hay = `${p.text} ${p.categoryName} ${p.tags.join(' ')}`.toLowerCase()
-      return hay.includes(q)
-    }).slice(0, 80)
-  }, [query, all, audience])
-
-  return (
-    <div className="page-view search-view">
-      <header className="simple-page-header search-header">
-        <div><p className="mini-label">Search the whole library</p><h1>What are you already talking about?</h1><p>Try school, money, ex, Lagos, marriage, music, food, trust or anything else.</p></div>
-      </header>
-      <div className="big-search">
-        <Icon name="search" size={22}/>
-        <input autoFocus value={query} onChange={e => setQuery(e.target.value)} placeholder="Search prompts..." />
-        {query && <button onClick={() => setQuery('')}><Icon name="close" size={18}/></button>}
-      </div>
-      {!query ? (
-        <div className="search-suggestions"><span>Try:</span>{['secondary school', 'money', 'childhood', 'ex', 'Lagos', 'faith', 'marriage', 'music'].map(x => <button key={x} onClick={() => setQuery(x)}>{x}</button>)}</div>
-      ) : (
-        <div className="search-meta">{results.length ? `${results.length}${results.length === 80 ? '+' : ''} results` : 'No matches yet'}</div>
-      )}
-      <div className="search-results">
-        {results.map(item => (
-          <button key={item.id} className="search-result" onClick={() => onOpen(item)}>
-            <span>{allCategories.find(c => c.id === item.categoryId)?.icon}</span>
-            <span><small>{item.categoryName} · {item.intensity}</small><strong>{item.text.replaceAll('\n', ' · ')}</strong></span>
-            <Icon name="next"/>
-          </button>
-        ))}
-      </div>
-    </div>
-  )
-}
-
-function FilterSelect({ label, value, options, onChange }) {
-  return (
-    <label className="filter-select">
-      <span>{label}</span>
-      <select value={value} onChange={e => onChange(e.target.value)}>
-        {options.map(option => <option key={option} value={option}>{option}</option>)}
-      </select>
-    </label>
-  )
-}
-
-function PromptView({
+function PlayView({
   categoryId,
   mode,
-  setMode,
-  audience,
-  setAudience,
-  favouriteIds,
-  toggleFavourite,
-  initialPromptId,
+  intensity,
+  onIntensity,
+  stage,
+  onStage,
+  adult,
+  onAdult,
+  subtype,
+  onSubtype,
+  favourites,
+  setFavourites,
+  setHistory,
+  initialCardId,
+  clearInitialCard,
   onBack,
-  onShowPrompt,
-  seenMap,
-  setSeenMap,
 }) {
-  const category = allCategories.find(c => c.id === categoryId)
-  const [intensity, setIntensity] = useState('All')
-  const [stage, setStage] = useState('All stages')
-  const [faithType, setFaithType] = useState('All faith perspectives')
-  const [subtype, setSubtype] = useState(categoryId === 'truth-dare' ? 'Truth' : 'All')
-  const [currentId, setCurrentId] = useState(initialPromptId || null)
-  const [stack, setStack] = useState(initialPromptId ? [initialPromptId] : [])
-  const [stackIndex, setStackIndex] = useState(initialPromptId ? 0 : -1)
-  const [focusMode, setFocusMode] = useState(false)
+  const category = categoryById[categoryId]
+  const effectiveSubtype = categoryId === 'truth-dare' ? subtype : 'All'
+  const pool = useMemo(() => getCards({
+    categoryId,
+    mode,
+    intensity,
+    stage,
+    allow18: adult,
+    subtype: effectiveSubtype,
+  }), [categoryId, mode, intensity, stage, adult, effectiveSubtype])
+
+  const poolKey = `${categoryId}|${mode}|${intensity}|${stage}|${adult ? '18' : 'general'}|${effectiveSubtype}`
+  const [trail, setTrail] = useState([])
+  const [trailIndex, setTrailIndex] = useState(-1)
   const [toast, setToast] = useState('')
-  const toastTimer = useRef(null)
+  const timer = useRef(null)
 
-  const rawPrompts = useMemo(() => getPrompts(categoryId, mode), [categoryId, mode])
-  const filtered = useMemo(() => rawPrompts.filter(p => {
-    if (audience !== '18+' && p.audience === '18+') return false
-    if (intensity !== 'All' && p.intensity !== intensity) return false
-    if (mode === 'relationship' && stage !== 'All stages' && p.stage !== stage) return false
-    if (categoryId === 'faith-spirituality' && faithType !== 'All faith perspectives' && p.faithType !== faithType) return false
-    if (categoryId === 'truth-dare' && subtype !== 'All' && p.subtype !== subtype) return false
-    return true
-  }), [rawPrompts, audience, intensity, mode, stage, faithType, subtype, categoryId])
+  const currentId = trail[trailIndex]
+  const current = currentId && pool.some(card => card.id === currentId) ? getCardById(currentId) : null
 
-  const current = filtered.find(p => p.id === currentId) || rawPrompts.find(p => p.id === currentId) || filtered[0]
-
-  const showToast = text => {
-    setToast(text)
-    clearTimeout(toastTimer.current)
-    toastTimer.current = setTimeout(() => setToast(''), 1600)
+  const notify = message => {
+    setToast(message)
+    window.clearTimeout(timer.current)
+    timer.current = window.setTimeout(() => setToast(''), 2200)
   }
 
-  const pushPrompt = prompt => {
-    if (!prompt) return
-    const newStack = stack.slice(0, stackIndex + 1)
-    newStack.push(prompt.id)
-    setStack(newStack)
-    setStackIndex(newStack.length - 1)
-    setCurrentId(prompt.id)
-    const key = `${categoryId}:${mode}`
-    const nextSeen = { ...seenMap, [key]: [...new Set([...(seenMap[key] || []), prompt.id])].slice(-1500) }
-    setSeenMap(nextSeen)
-    onShowPrompt(prompt)
-  }
+  useEffect(() => () => window.clearTimeout(timer.current), [])
 
-  const pickNext = () => {
-    if (!filtered.length) return
-    const key = `${categoryId}:${mode}`
-    const seen = new Set(seenMap[key] || [])
-    let candidates = filtered.filter(p => !seen.has(p.id) && p.id !== current?.id)
-    if (!candidates.length) {
-      candidates = filtered.filter(p => p.id !== current?.id)
-      setSeenMap({ ...seenMap, [key]: current ? [current.id] : [] })
+  useEffect(() => {
+    if (!pool.length) {
+      setTrail([])
+      setTrailIndex(-1)
+      return
     }
-    const next = candidates[Math.floor(Math.random() * Math.max(candidates.length, 1))] || filtered[0]
-    pushPrompt(next)
+
+    const target = initialCardId && pool.some(card => card.id === initialCardId)
+      ? getCardById(initialCardId)
+      : null
+    const resume = readJSON(localStorage, LS.resume, {})
+    const resumed = resume[poolKey] && pool.some(card => card.id === resume[poolKey])
+      ? getCardById(resume[poolKey])
+      : null
+    const pick = target || resumed || chooseUnseen(pool, poolKey, false).card
+    if (pick) {
+      setTrail([pick.id])
+      setTrailIndex(0)
+    }
+    clearInitialCard?.()
+  }, [poolKey])
+
+  useEffect(() => {
+    if (!current) return
+    markSeen(poolKey, current.id)
+    const resume = readJSON(localStorage, LS.resume, {})
+    resume[poolKey] = current.id
+    writeJSON(localStorage, LS.resume, resume)
+
+    setHistory(previous => [current.id, ...previous.filter(id => id !== current.id)].slice(0, 200))
+  }, [current?.id, poolKey])
+
+  const moveTo = card => {
+    if (!card) return
+    const prefix = trail.slice(0, trailIndex + 1)
+    setTrail([...prefix, card.id])
+    setTrailIndex(prefix.length)
+  }
+
+  const next = random => {
+    if (trailIndex < trail.length - 1 && !random) {
+      setTrailIndex(index => index + 1)
+      return
+    }
+    const result = chooseUnseen(pool, poolKey, random)
+    if (result.exhausted) notify('You reached the end of this pool. Starting a fresh round.')
+    moveTo(result.card)
   }
 
   const previous = () => {
-    if (stackIndex <= 0) return
-    const nextIndex = stackIndex - 1
-    const id = stack[nextIndex]
-    setStackIndex(nextIndex)
-    setCurrentId(id)
-    const p = rawPrompts.find(x => x.id === id)
-    if (p) onShowPrompt(p, false)
+    if (trailIndex > 0) setTrailIndex(index => index - 1)
   }
 
-  useEffect(() => {
-    setIntensity('All')
-    setStage('All stages')
-    setFaithType('All faith perspectives')
-    setSubtype(categoryId === 'truth-dare' ? 'Truth' : 'All')
-    const first = initialPromptId ? rawPrompts.find(p => p.id === initialPromptId) : null
-    const fallback = first || rawPrompts.find(p => audience === '18+' || p.audience === 'General') || rawPrompts[0]
-    if (fallback) {
-      setCurrentId(fallback.id)
-      setStack([fallback.id])
-      setStackIndex(0)
-      onShowPrompt(fallback)
-    }
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [categoryId, mode])
-
-  useEffect(() => {
-    if (!filtered.length) return
-    if (!filtered.some(p => p.id === currentId)) {
-      const first = filtered[0]
-      setCurrentId(first.id)
-      setStack([first.id])
-      setStackIndex(0)
-      onShowPrompt(first)
-    }
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [intensity, stage, faithType, subtype, audience])
-
-  useEffect(() => () => clearTimeout(toastTimer.current), [])
-
-  const copy = async () => {
+  const toggleFavourite = () => {
     if (!current) return
-    try {
-      await navigator.clipboard.writeText(current.copyText)
-    } catch {
-      const el = document.createElement('textarea')
-      el.value = current.copyText
-      document.body.appendChild(el)
-      el.select()
-      document.execCommand('copy')
-      el.remove()
-    }
-    showToast('Copied')
+    setFavourites(previous => previous.includes(current.id)
+      ? previous.filter(id => id !== current.id)
+      : [current.id, ...previous])
   }
 
-  const share = async () => {
+  const copyCurrent = async () => {
     if (!current) return
+    await copyText(serialiseCard(current))
+    notify('Copied')
+  }
+
+  const shareCurrent = async () => {
+    if (!current) return
+    const text = serialiseCard(current)
     if (navigator.share) {
-      try { await navigator.share({ text: current.copyText }) } catch { return }
-    } else {
-      await copy()
+      try {
+        await navigator.share({ text })
+        return
+      } catch {
+        return
+      }
     }
+    await copyText(text)
+    notify('Copied for sharing')
   }
 
-  const isFavourite = current ? favouriteIds.includes(current.id) : false
-  const intensities = mode === 'friend' ? friendIntensities : relationshipIntensities
-
-  if (!category) return null
+  const clearFilters = () => {
+    onIntensity('All')
+    onStage('All')
+    if (categoryId === 'truth-dare') onSubtype('Truth')
+  }
 
   return (
-    <div className={`prompt-page ${focusMode ? 'focus-mode' : ''}`}>
-      <div className="prompt-topbar">
-        <button className="back-link" onClick={onBack}><Icon name="back" size={18}/> Back</button>
-        <ModeSwitch mode={mode} onChange={setMode} compact/>
-        <button className="focus-link" onClick={() => setFocusMode(v => !v)}>{focusMode ? 'Exit focus' : 'Keep it going'}</button>
-      </div>
+    <div className="play-layout">
+      <div className="play-main">
+        <div className="play-topline">
+          <button className="back-link" onClick={onBack}><ArrowLeft2 size="18" /> Back</button>
+          <div className="play-title">
+            <span className="play-icon"><CategoryIcon category={category} size={18} /></span>
+            <strong>{category?.name}</strong>
+          </div>
+          <span className="pool-progress">{pool.length ? `${pool.length} in this filter` : 'No match'}</span>
+        </div>
 
-      <div className="prompt-heading">
-        <div className="prompt-category-icon">{category.icon}</div>
-        <div><p className="mini-label">{categoryId === 'truth-dare' ? 'Game' : gameCategories.some(c => c.id === categoryId) ? 'Game' : 'Conversation starter'}</p><h1>{category.name}</h1><p>{category.description}</p></div>
-      </div>
+        <CompactMobileFilters
+          mode={mode}
+          intensity={intensity}
+          onIntensity={onIntensity}
+          stage={stage}
+          onStage={onStage}
+          categoryId={categoryId}
+          subtype={subtype}
+          onSubtype={onSubtype}
+          adult={adult}
+          onAdult={onAdult}
+        />
 
-      {!focusMode && (
-        <div className="filters-wrap">
-          {categoryId === 'truth-dare' && (
-            <div className="truth-switch">
-              {['Truth', 'Dare'].map(x => <button key={x} className={subtype === x ? 'active' : ''} onClick={() => setSubtype(x)}>{x}</button>)}
+        {!current ? (
+          <EmptyPool category={category} onClearFilters={clearFilters} />
+        ) : (
+          <>
+            <article className={classNames('prompt-card', mode, isGameCategory(categoryId) && 'game-card')}>
+              <div className="prompt-card-head">
+                <div className="card-labels">
+                  <span>{current.intensity}</span>
+                  {current.subtype ? <span>{current.subtype}</span> : null}
+                  {current.audience === '18+' ? <span>18+</span> : null}
+                </div>
+                <button className={classNames('save-card', favourites.includes(current.id) && 'saved')} onClick={toggleFavourite} aria-label="Save card">
+                  <Heart size="21" variant={favourites.includes(current.id) ? 'Bold' : 'Linear'} />
+                </button>
+              </div>
+
+              <div className="prompt-card-body">
+                {isGameCategory(categoryId) ? <p className="mechanic-label">{mechanicHint(current)}</p> : null}
+                <h2>{current.text}</h2>
+                <GameBody card={current} />
+              </div>
+
+              <div className="prompt-card-foot">
+                <span>{mode === 'friend' ? 'Friends' : stage === 'All' ? 'Relationship' : stage}</span>
+                <span>{category?.name}</span>
+              </div>
+            </article>
+
+            <div className="primary-actions">
+              <button className={classNames('copy-action', mode)} onClick={copyCurrent}>
+                <Copy size="20" variant="Bold" /> Copy
+              </button>
+              <button onClick={shareCurrent}><Share size="20" /> <span>Share</span></button>
+              <button className={favourites.includes(current.id) ? 'saved' : ''} onClick={toggleFavourite}>
+                <Bookmark size="20" variant={favourites.includes(current.id) ? 'Bold' : 'Linear'} /> <span>Save</span>
+              </button>
             </div>
-          )}
-          <FilterSelect label="Intensity" value={intensity} options={['All', ...intensities]} onChange={setIntensity}/>
-          {mode === 'relationship' && <FilterSelect label="Relationship stage" value={stage} options={['All stages', ...relationshipStages]} onChange={setStage}/>} 
-          <FilterSelect label="Audience" value={audience} options={['General', '18+']} onChange={value => {
-            setAudience(value)
-            if (value === 'General' && intensity === 'Spicy') setIntensity('All')
-          }}/>
-          {categoryId === 'faith-spirituality' && <FilterSelect label="Faith" value={faithType} options={['All faith perspectives', 'General Spirituality', 'Christian']} onChange={setFaithType}/>} 
+
+            <div className="navigation-actions">
+              <button onClick={previous} disabled={trailIndex <= 0}><ArrowLeft2 size="19" /> Previous</button>
+              <button onClick={() => next(true)}><Shuffle size="19" /> Random</button>
+              <button onClick={() => next(false)}>Next <ArrowRight2 size="19" /></button>
+            </div>
+          </>
+        )}
+        {toast ? <div className="toast"><TickCircle size="18" /> {toast}</div> : null}
+      </div>
+
+      <FilterBar
+        mode={mode}
+        intensity={intensity}
+        onIntensity={onIntensity}
+        stage={stage}
+        onStage={onStage}
+        adult={adult}
+        onAdult={onAdult}
+        categoryId={categoryId}
+        subtype={subtype}
+        onSubtype={onSubtype}
+      />
+    </div>
+  )
+}
+
+function SearchView({ mode, stage, adult, query, setQuery, onOpenCard }) {
+  const results = useMemo(() => searchCards(query, { mode, stage, allow18: adult }).slice(0, 120), [query, mode, stage, adult])
+  const suggestions = ['money', 'secondary school', 'ex', 'marriage', 'childhood', 'music', 'family', 'NYSC', 'church']
+  return (
+    <div className="view-shell search-view">
+      <header className="search-header">
+        <p className="mini-label">Search StayUp</p>
+        <h1>Find the conversation you have in mind.</h1>
+        <div className="search-box">
+          <SearchNormal1 size="22" />
+          <input autoFocus value={query} onChange={event => setQuery(event.target.value)} placeholder="Try money, NYSC, childhood, church…" />
+          {query ? <button onClick={() => setQuery('')}><CloseCircle size="20" /></button> : null}
+        </div>
+        <div className="suggestion-row">
+          {suggestions.map(value => <button key={value} onClick={() => setQuery(value)}>{value}</button>)}
+        </div>
+      </header>
+
+      {query ? (
+        <section className="results-section">
+          <div className="section-heading">
+            <div><h2>{results.length ? `${results.length} result${results.length === 1 ? '' : 's'}` : 'No results yet'}</h2></div>
+            <span>{mode === 'friend' ? 'Friends' : stage === 'All' ? 'Relationship' : stage}</span>
+          </div>
+          <div className="result-list">
+            {results.map(card => {
+              const category = categoryById[card.categoryId]
+              return (
+                <button key={card.id} className="result-card" onClick={() => onOpenCard(card)}>
+                  <span className="result-icon"><CategoryIcon category={category} size={19} /></span>
+                  <span className="result-copy">
+                    <small>{category.name} · {card.intensity}</small>
+                    <strong>{card.text}</strong>
+                    {card.options?.length ? <em>{card.options.join(' · ')}</em> : null}
+                  </span>
+                  <ArrowRight2 size="18" />
+                </button>
+              )
+            })}
+          </div>
+        </section>
+      ) : null}
+    </div>
+  )
+}
+
+function SavedView({ title, ids, empty, onOpenCard, onClear }) {
+  const cards = ids.map(getCardById).filter(Boolean)
+  return (
+    <div className="view-shell saved-view">
+      <header className="view-hero single">
+        <div>
+          <p className="mini-label">Your device</p>
+          <h1>{title}</h1>
+          <p>{title === 'Favourites' ? 'The cards you wanted to keep.' : 'Recently opened cards, newest first.'}</p>
+        </div>
+        {cards.length && onClear ? <button className="clear-button" onClick={onClear}>Clear history</button> : null}
+      </header>
+      {cards.length ? (
+        <div className="result-list saved-list">
+          {cards.map(card => {
+            const category = categoryById[card.categoryId]
+            return (
+              <button key={card.id} className="result-card" onClick={() => onOpenCard(card)}>
+                <span className="result-icon"><CategoryIcon category={category} size={19} /></span>
+                <span className="result-copy">
+                  <small>{category.name} · {card.mode === 'friend' ? 'Friends' : 'Relationship'}</small>
+                  <strong>{card.text}</strong>
+                </span>
+                <ArrowRight2 size="18" />
+              </button>
+            )
+          })}
+        </div>
+      ) : (
+        <div className="empty-state">
+          {title === 'Favourites' ? <Heart size="36" /> : <Clock size="36" />}
+          <h2>{empty}</h2>
+          <p>{title === 'Favourites' ? 'Use Save on any card and it will appear here.' : 'Open a few prompts and your recent trail will show here.'}</p>
         </div>
       )}
+    </div>
+  )
+}
 
-      <div className="prompt-stage">
-        <div className="prompt-card">
-          <div className="prompt-card-meta">
-            <span>{mode === 'friend' ? 'FRIENDS' : 'RELATIONSHIP'}</span>
-            <span>{current?.intensity || 'All'}</span>
-            {current?.stage && <span>{current.stage.toUpperCase()}</span>}
-          </div>
-
-          {filtered.length ? (
-            <>
-              <div className={`prompt-text ${current?.statements ? 'statements' : ''}`}>
-                {current?.statements ? (
-                  <div className="statement-list">
-                    <p className="statement-helper">Pick two that are true for you. Make one the lie.</p>
-                    {current.statements.map((statement, i) => <div key={statement}><span>{i + 1}</span><p>{statement}</p></div>)}
-                  </div>
-                ) : (
-                  <p>{current?.text}</p>
-                )}
-              </div>
-
-              <div className="prompt-primary-actions">
-                <button className="copy-btn" onClick={copy}><Icon name="copy"/><span>Copy question</span></button>
-                <button className={`icon-action ${isFavourite ? 'saved' : ''}`} onClick={() => toggleFavourite(current)} aria-label="Save prompt"><Icon name="heart"/></button>
-                <button className="icon-action" onClick={share} aria-label="Share prompt"><Icon name="share"/></button>
-              </div>
-            </>
-          ) : (
-            <div className="no-filter-results"><span>◌</span><h3>No prompts match these filters.</h3><p>Change the intensity, audience or relationship stage.</p></div>
-          )}
+function AgeGate({ open, onConfirm, onCancel }) {
+  if (!open) return null
+  return (
+    <div className="modal-layer" role="dialog" aria-modal="true">
+      <div className="age-modal">
+        <span className="age-icon">18+</span>
+        <h2>Adult audience</h2>
+        <p>This opens tasteful relationship cards that discuss physical or sexual intimacy more directly. Continue only if you are 18 or older.</p>
+        <div className="modal-actions">
+          <button onClick={onCancel}>Keep hidden</button>
+          <button className="confirm" onClick={onConfirm}>I am 18+</button>
         </div>
-
-        {filtered.length > 0 && (
-          <div className="prompt-navigation">
-            <button onClick={previous} disabled={stackIndex <= 0}><Icon name="back"/> Previous</button>
-            <button className="random-btn" onClick={pickNext}><Icon name="shuffle"/> Random</button>
-            <button className="next-btn" onClick={pickNext}>Give me another one <Icon name="next"/></button>
-          </div>
-        )}
-        {!focusMode && <p className="prompt-footnote">{categoryId === 'truth-dare' && subtype !== 'All' ? '500' : categoryId === 'truth-dare' ? '1,000' : '500'} prompts in this category · prompts avoid repeats until the pool cycles</p>}
       </div>
-
-      {toast && <div className="toast"><Icon name="check" size={17}/>{toast}</div>}
     </div>
   )
 }
 
 export default function App() {
-  const savedResume = readLS(LS.resume, null)
-  const hasVisited = readLS(LS.visited, false)
-  const [view, setViewState] = useState(hasVisited && savedResume?.view ? savedResume.view : 'landing')
-  const [mode, setModeState] = useState(readLS(LS.mode, 'friend'))
-  const [audience, setAudienceState] = useState(readLS(LS.audience, 'General'))
-  const [categoryId, setCategoryId] = useState(savedResume?.categoryId || null)
-  const [initialPromptId, setInitialPromptId] = useState(savedResume?.promptId || null)
-  const [favourites, setFavourites] = useState(readLS(LS.favourites, []))
-  const [history, setHistory] = useState(readLS(LS.history, []))
-  const [seenMap, setSeenMapState] = useState(readLS(LS.seen, {}))
-  const [mobileMenu, setMobileMenu] = useState(false)
+  const [page, setPage] = useState(() => readJSON(localStorage, 'stayup:v2:visited', false) ? 'explore' : 'landing')
+  const [mode, setMode] = useLocalState(LS.mode, 'friend')
+  const [favourites, setFavourites] = useLocalState(LS.favourites, [])
+  const [history, setHistory] = useLocalState(LS.history, [])
+  const [adult, setAdult] = useLocalState(LS.adult, false)
+  const [categoryId, setCategoryId] = useState('getting-to-know-you')
+  const [intensity, setIntensity] = useState('All')
+  const [stage, setStage] = useState('All')
+  const [subtype, setSubtype] = useState('Truth')
+  const [query, setQuery] = useState('')
+  const [drawer, setDrawer] = useState(false)
+  const [ageGate, setAgeGate] = useState(false)
+  const [pendingSpicy, setPendingSpicy] = useState(false)
+  const [initialCardId, setInitialCardId] = useState(null)
+  const [returnPage, setReturnPage] = useState('explore')
 
-  const setView = next => {
-    setViewState(next)
-    if (next !== 'category') {
-      setCategoryId(null)
-      setInitialPromptId(null)
-    }
-  }
-
-  const setMode = next => {
-    setModeState(next)
-    writeLS(LS.mode, next)
-  }
-
-  const setAudience = next => {
-    setAudienceState(next)
-    writeLS(LS.audience, next)
-  }
-
-  const setSeenMap = next => {
-    setSeenMapState(next)
-    writeLS(LS.seen, next)
+  const changeMode = nextMode => {
+    setMode(nextMode)
+    setIntensity('All')
+    setStage('All')
+    setSubtype('Truth')
+    setInitialCardId(null)
   }
 
   const start = nextMode => {
-    setMode(nextMode)
-    writeLS(LS.visited, true)
-    setView('home')
+    changeMode(nextMode)
+    writeJSON(localStorage, 'stayup:v2:visited', true)
+    setPage('explore')
+  }
+
+  const navigate = nextPage => {
+    if (nextPage !== 'play') setInitialCardId(null)
+    setPage(nextPage)
   }
 
   const openCategory = (id, random = false) => {
-    writeLS(LS.visited, true)
+    setReturnPage(isGameCategory(id) ? 'games' : 'explore')
     setCategoryId(id)
-    const prompts = getPrompts(id, mode).filter(p => audience === '18+' || p.audience === 'General')
-    const chosen = random ? prompts[Math.floor(Math.random() * prompts.length)] : prompts[0]
-    setInitialPromptId(chosen?.id || null)
-    setViewState('category')
-  }
-
-  const openItem = item => {
-    setMode(item.mode)
-    setCategoryId(item.categoryId)
-    setInitialPromptId(item.id)
-    setViewState('category')
-  }
-
-  const onShowPrompt = (prompt, addHistory = true) => {
-    if (!prompt) return
-    setInitialPromptId(prompt.id)
-    if (addHistory) {
-      setHistory(prev => {
-        if (prev[0]?.id === prompt.id) return prev
-        const next = [prompt, ...prev.filter(p => p.id !== prompt.id)].slice(0, 100)
-        writeLS(LS.history, next)
-        return next
-      })
+    setIntensity('All')
+    setStage('All')
+    setSubtype('Truth')
+    setInitialCardId(null)
+    if (random) {
+      const candidates = getCards({ categoryId: id, mode, allow18: adult })
+      const card = candidates[Math.floor(Math.random() * candidates.length)]
+      if (card) setInitialCardId(card.id)
     }
+    setPage('play')
   }
 
-  const toggleFavourite = prompt => {
-    if (!prompt) return
-    setFavourites(prev => {
-      const exists = prev.some(p => p.id === prompt.id)
-      const next = exists ? prev.filter(p => p.id !== prompt.id) : [prompt, ...prev]
-      writeLS(LS.favourites, next)
-      return next
-    })
+  const openCard = card => {
+    if (!card) return
+    if (card.mode !== mode) changeMode(card.mode)
+    setCategoryId(card.categoryId)
+    setIntensity('All')
+    setStage('All')
+    setSubtype(card.subtype || 'Truth')
+    setInitialCardId(card.id)
+    setReturnPage(isGameCategory(card.categoryId) ? 'games' : 'explore')
+    setPage('play')
+  }
+
+  const requestAdult = (value, source) => {
+    if (!value) {
+      setAdult(false)
+      if (intensity === 'Spicy') setIntensity('All')
+      return
+    }
+    if (adult) {
+      setAdult(true)
+      return
+    }
+    setPendingSpicy(source === 'Spicy')
+    setAgeGate(true)
   }
 
   useEffect(() => {
-    if (view === 'landing') return
-    writeLS(LS.resume, { view, categoryId, promptId: initialPromptId, mode, audience })
-  }, [view, categoryId, initialPromptId, mode, audience])
-
-  useEffect(() => {
-    const onKeyDown = event => {
-      const tag = document.activeElement?.tagName?.toLowerCase()
-      const typing = tag === 'input' || tag === 'textarea' || tag === 'select'
-      if (event.key === '/' && !typing && view !== 'category') {
+    const handler = event => {
+      if (event.key === '/' && page !== 'landing' && !['INPUT', 'TEXTAREA'].includes(document.activeElement?.tagName)) {
         event.preventDefault()
-        setView('search')
+        setPage('search')
       }
     }
-    window.addEventListener('keydown', onKeyDown)
-    return () => window.removeEventListener('keydown', onKeyDown)
-  }, [view])
+    window.addEventListener('keydown', handler)
+    return () => window.removeEventListener('keydown', handler)
+  }, [page])
 
-  const favouriteIds = useMemo(() => favourites.map(p => p.id), [favourites])
-
-  if (view === 'landing') {
-    return <Landing onStart={start} onCategory={id => { writeLS(LS.visited, true); setMode('friend'); setCategoryId(id); setInitialPromptId(null); setViewState('category') }} />
-  }
-
-  if (view === 'category' && categoryId) {
-    return (
-      <div data-mode={mode} className="app-root">
-        <PromptView
-          categoryId={categoryId}
-          mode={mode}
-          setMode={setMode}
-          audience={audience}
-          setAudience={setAudience}
-          favouriteIds={favouriteIds}
-          toggleFavourite={toggleFavourite}
-          initialPromptId={initialPromptId}
-          onBack={() => setView(gameCategories.some(c => c.id === categoryId) ? 'games' : 'home')}
-          onShowPrompt={onShowPrompt}
-          seenMap={seenMap}
-          setSeenMap={setSeenMap}
-        />
-      </div>
-    )
+  if (page === 'landing') {
+    return <Landing onStart={start} onBrowse={() => { writeJSON(localStorage, 'stayup:v2:visited', true); setPage('explore') }} />
   }
 
   return (
-    <div data-mode={mode} className="app-root workspace">
-      <div className={`mobile-scrim ${mobileMenu ? 'show' : ''}`} onClick={() => setMobileMenu(false)} />
-      <div className={`sidebar-wrap ${mobileMenu ? 'open' : ''}`}>
-        <Sidebar view={view} setView={setView} mode={mode} setMode={setMode} closeMobile={() => setMobileMenu(false)} />
+    <div className={classNames('app-shell', `mode-${mode}`)}>
+      <DesktopSidebar page={page === 'play' ? returnPage : page} mode={mode} onMode={changeMode} onNavigate={navigate} />
+      <MobileHeader onMenu={() => setDrawer(true)} onSearch={() => setPage('search')} onHome={() => setPage('explore')} />
+      <MobileDrawer open={drawer} mode={mode} onMode={changeMode} onClose={() => setDrawer(false)} onNavigate={navigate} />
+
+      <div className="app-content">
+        <AppTopbar mode={mode} onMode={changeMode} onSearch={() => setPage('search')} />
+        {page === 'explore' ? <ExploreView mode={mode} onOpen={openCategory} onGames={() => setPage('games')} /> : null}
+        {page === 'games' ? <GamesView mode={mode} onOpen={openCategory} /> : null}
+        {page === 'search' ? (
+          <SearchView mode={mode} stage={stage} adult={adult} query={query} setQuery={setQuery} onOpenCard={openCard} />
+        ) : null}
+        {page === 'favourites' ? (
+          <SavedView title="Favourites" ids={favourites} empty="Nothing saved yet." onOpenCard={openCard} />
+        ) : null}
+        {page === 'history' ? (
+          <SavedView title="History" ids={history} empty="No recent cards yet." onOpenCard={openCard} onClear={() => setHistory([])} />
+        ) : null}
+        {page === 'play' ? (
+          <PlayView
+            categoryId={categoryId}
+            mode={mode}
+            intensity={intensity}
+            onIntensity={setIntensity}
+            stage={stage}
+            onStage={setStage}
+            adult={adult}
+            onAdult={requestAdult}
+            subtype={subtype}
+            onSubtype={setSubtype}
+            favourites={favourites}
+            setFavourites={setFavourites}
+            setHistory={setHistory}
+            initialCardId={initialCardId}
+            clearInitialCard={() => setInitialCardId(null)}
+            onBack={() => setPage(returnPage)}
+          />
+        ) : null}
       </div>
 
-      <main className="workspace-main">
-        <header className="mobile-topbar">
-          <button onClick={() => setMobileMenu(true)}><Icon name="menu"/></button>
-          <Brand />
-          <button onClick={() => setView('search')}><Icon name="search"/></button>
-        </header>
-        <div className="desktop-topbar">
-          <div className="mode-context"><span className="mode-dot"/> {mode === 'friend' ? 'Friends' : 'Relationship'} mode</div>
-          <button className="search-trigger" onClick={() => setView('search')}><Icon name="search" size={18}/><span>Search questions, topics, games...</span><kbd>/</kbd></button>
-          <FilterSelect label="Audience" value={audience} options={['General', '18+']} onChange={setAudience}/>
-        </div>
+      <MobileNav page={page === 'play' ? returnPage : page} onNavigate={navigate} />
 
-        {view === 'home' && <HomeView mode={mode} onCategory={openCategory} setView={setView}/>} 
-        {view === 'games' && <GamesView mode={mode} onCategory={openCategory}/>} 
-        {view === 'favourites' && <SavedView type="favourites" items={favourites} onOpen={openItem} onClear={() => { setFavourites([]); writeLS(LS.favourites, []) }} setView={setView}/>} 
-        {view === 'history' && <SavedView type="history" items={history} onOpen={openItem} onClear={() => { setHistory([]); writeLS(LS.history, []) }} setView={setView}/>} 
-        {view === 'search' && <SearchView mode={mode} audience={audience} onOpen={openItem}/>} 
-      </main>
-
-      <nav className="mobile-bottom-nav">
-        <button className={view === 'home' ? 'active' : ''} onClick={() => setView('home')}><Icon name="home"/><span>Explore</span></button>
-        <button className={view === 'games' ? 'active' : ''} onClick={() => setView('games')}><Icon name="game"/><span>Games</span></button>
-        <button className={view === 'search' ? 'active' : ''} onClick={() => setView('search')}><Icon name="search"/><span>Search</span></button>
-        <button className={view === 'favourites' ? 'active' : ''} onClick={() => setView('favourites')}><Icon name="heart"/><span>Saved</span></button>
-      </nav>
+      <AgeGate
+        open={ageGate}
+        onCancel={() => { setAgeGate(false); setPendingSpicy(false) }}
+        onConfirm={() => {
+          setAdult(true)
+          setAgeGate(false)
+          if (pendingSpicy) setIntensity('Spicy')
+          setPendingSpicy(false)
+        }}
+      />
     </div>
   )
 }
