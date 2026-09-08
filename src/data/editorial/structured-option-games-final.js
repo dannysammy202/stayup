@@ -5,7 +5,7 @@ function normalise(value) {
 }
 
 function tokenSignature(value) {
-  return [...new Set(normalise(value).split(' ').filter(Boolean))].sort().join('|')
+  return [...new Set(normalise(value).split(' ').filter(word => word.length > 2))].sort().join('|')
 }
 
 function pairKey(a, b) {
