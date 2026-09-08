@@ -1,6 +1,7 @@
 import { allCategories, conversationCategories, gameCategories } from './categories.js'
 import { editorialConversations } from './editorial-conversations.js'
 import { newGameIds, newGamePrompts } from './editorial/new-games.js'
+import { structuredOptionGames } from './editorial/structured-option-games.js'
 import { getPrompts as getLegacyPrompts } from './prompts.js'
 
 const conversationIds = new Set(conversationCategories.map(category => category.id))
@@ -68,7 +69,7 @@ function makeNewGamePrompts(categoryId, mode) {
   if (cache.has(cacheKey)) return cache.get(cacheKey)
 
   const category = gameCategories.find(item => item.id === categoryId)
-  const cards = newGamePrompts[categoryId]?.[mode] || []
+  const cards = structuredOptionGames[categoryId]?.[mode] || newGamePrompts[categoryId]?.[mode] || []
   if (!category) return []
 
   const prompts = cards.map((card, index) => {
