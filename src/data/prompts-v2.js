@@ -18,6 +18,12 @@ const stagesByIntensity = {
   'No Filter': ['Talking Stage', 'New Relationship', 'Been Together a While', 'Long-Term', 'Married'],
 }
 
+const verdictLabels = {
+  'agree-disagree': ['Agree', 'Disagree'],
+  'red-green-depends': ['Red Flag', 'Green Flag', 'Depends'],
+  'petty-or-valid': ['Petty', 'Valid', 'Both'],
+}
+
 function isChristianPrompt(text) {
   return /\b(Jesus|Christ|Christian|Scripture|Bible|church|prayer|God|theology|faith)\b/i.test(text)
 }
@@ -72,6 +78,12 @@ function sourceCards(categoryId, mode) {
   return []
 }
 
+function choiceLines(categoryId, options) {
+  if (!options?.length) return ''
+  const numeric = categoryId === 'rank-these'
+  return options.map((option, index) => `${numeric ? `${index + 1}.` : `${String.fromCharCode(65 + index)}.`} ${option}`).join('\n')
+}
+
 function makeNewGamePrompts(categoryId, mode) {
   const cacheKey = `new-game:${categoryId}:${mode}`
   if (cache.has(cacheKey)) return cache.get(cacheKey)
@@ -85,9 +97,12 @@ function makeNewGamePrompts(categoryId, mode) {
       ? ['Chill', 'Interesting', 'Deep', 'Flirty'][index % 4]
       : ['Chill', 'Interesting', 'Deep', 'No Filter'][index % 4]
 
-    const optionText = card.options?.length ? `\n\n${card.options.join(' · ')}` : ''
-    const displayText = card.text
-    const copyText = `${card.text}${optionText}`
+    const choices = choiceLines(categoryId, card.options)
+    const labels = verdictLabels[categoryId] || null
+    const displayExtra = choices || labels?.join('  ·  ') || ''
+    const displayText = displayExtra ? `${card.text}\n\n${displayExtra}` : card.text
+    const copyExtra = card.options?.length ? card.options.join(' · ') : labels?.join(' · ') || ''
+    const copyText = copyExtra ? `${card.text}\n\n${copyExtra}` : card.text
 
     return {
       id: `editorial-game-${categoryId}-${mode}-${index}`,
@@ -103,13 +118,7 @@ function makeNewGamePrompts(categoryId, mode) {
       subtype: null,
       mechanic: category.mechanic,
       options: card.options || null,
-      responseLabels: categoryId === 'agree-disagree'
-        ? ['Agree', 'Disagree']
-        : categoryId === 'red-green-depends'
-          ? ['Red Flag', 'Green Flag', 'Depends']
-          : categoryId === 'petty-or-valid'
-            ? ['Petty', 'Valid', 'Both']
-            : null,
+      responseLabels: labels,
       tags: [category.name.toLowerCase(), mode, intensity.toLowerCase(), 'editorial-game'],
     }
   })
