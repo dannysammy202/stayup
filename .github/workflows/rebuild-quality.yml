@@ -1,10 +1,11 @@
-name: StayUp rebuild quality
+name: StayUp release quality
 
 on:
   push:
     branches:
       - main
       - rebuild/**
+      - content/**
   pull_request:
 
 jobs:
@@ -23,9 +24,8 @@ jobs:
       - name: Audit live source integrity
         run: npm run audit:structure
 
+      - name: Audit exact editorial targets
+        run: npm run audit:content
+
       - name: Build production bundle
         run: npm run build
-
-      - name: Report editorial target coverage
-        continue-on-error: true
-        run: npm run audit:content
