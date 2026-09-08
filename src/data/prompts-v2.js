@@ -1,10 +1,12 @@
 import { allCategories, conversationCategories, gameCategories } from './categories.js'
 import { editorialConversations } from './editorial-conversations.js'
-import { newGameIds, newGamePrompts } from './editorial/new-games.js'
+import { newGameIds } from './editorial/new-games.js'
 import { structuredOptionGames } from './editorial/structured-option-games.js'
+import { openGameIds1000, openGamePrompts1000 } from './editorial/open-games-1000.js'
 import { getPrompts as getLegacyPrompts } from './prompts.js'
 
 const conversationIds = new Set(conversationCategories.map(category => category.id))
+const structuredOptionIds = new Set(Object.keys(structuredOptionGames))
 const cache = new Map()
 
 const stagesByIntensity = {
@@ -64,12 +66,18 @@ function makeEditorialPrompts(categoryId, mode) {
   return prompts
 }
 
+function sourceCards(categoryId, mode) {
+  if (structuredOptionIds.has(categoryId)) return structuredOptionGames[categoryId]?.[mode] || []
+  if (openGameIds1000.has(categoryId)) return openGamePrompts1000[categoryId]?.[mode] || []
+  return []
+}
+
 function makeNewGamePrompts(categoryId, mode) {
   const cacheKey = `new-game:${categoryId}:${mode}`
   if (cache.has(cacheKey)) return cache.get(cacheKey)
 
   const category = gameCategories.find(item => item.id === categoryId)
-  const cards = structuredOptionGames[categoryId]?.[mode] || newGamePrompts[categoryId]?.[mode] || []
+  const cards = sourceCards(categoryId, mode)
   if (!category) return []
 
   const prompts = cards.map((card, index) => {
@@ -78,7 +86,8 @@ function makeNewGamePrompts(categoryId, mode) {
       : ['Chill', 'Interesting', 'Deep', 'No Filter'][index % 4]
 
     const optionText = card.options?.length ? `\n\n${card.options.join(' · ')}` : ''
-    const displayText = `${card.text}${optionText}`
+    const displayText = card.text
+    const copyText = `${card.text}${optionText}`
 
     return {
       id: `editorial-game-${categoryId}-${mode}-${index}`,
@@ -86,7 +95,7 @@ function makeNewGamePrompts(categoryId, mode) {
       categoryName: category.name,
       mode,
       text: displayText,
-      copyText: displayText,
+      copyText,
       intensity,
       stage: mode === 'relationship' ? relationshipStage(intensity, index) : null,
       audience: 'General',
