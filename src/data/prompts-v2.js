@@ -1,12 +1,12 @@
 import { allCategories, conversationCategories, gameCategories } from './categories.js'
 import { editorialConversations } from './editorial-conversations.js'
 import { newGameIds } from './editorial/new-games.js'
-import { structuredOptionGames } from './editorial/structured-option-games.js'
-import { openGameIds1000, openGamePrompts1000 } from './editorial/open-games-1000.js'
+import { structuredOptionGamesFinal } from './editorial/structured-option-games-final.js'
+import { openGameIdsFinal, openGamePromptsFinal } from './editorial/open-games-final.js'
 import { getPrompts as getLegacyPrompts } from './prompts.js'
 
 const conversationIds = new Set(conversationCategories.map(category => category.id))
-const structuredOptionIds = new Set(Object.keys(structuredOptionGames))
+const structuredOptionIds = new Set(Object.keys(structuredOptionGamesFinal))
 const cache = new Map()
 
 const stagesByIntensity = {
@@ -67,8 +67,8 @@ function makeEditorialPrompts(categoryId, mode) {
 }
 
 function sourceCards(categoryId, mode) {
-  if (structuredOptionIds.has(categoryId)) return structuredOptionGames[categoryId]?.[mode] || []
-  if (openGameIds1000.has(categoryId)) return openGamePrompts1000[categoryId]?.[mode] || []
+  if (structuredOptionIds.has(categoryId)) return structuredOptionGamesFinal[categoryId]?.[mode] || []
+  if (openGameIdsFinal.has(categoryId)) return openGamePromptsFinal[categoryId]?.[mode] || []
   return []
 }
 
