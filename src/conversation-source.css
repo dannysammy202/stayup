@@ -1,0 +1,56 @@
+.static-option {
+  min-height: 58px;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.025);
+  border-radius: 13px;
+  padding: 12px 13px;
+  color: #c8ccd4;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 10px;
+}
+
+.static-option > span,
+.game-option-number {
+  width: 26px;
+  height: 26px;
+  display: grid;
+  place-items: center;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.055);
+  color: #8e95a1;
+  font-size: 10px;
+  font-weight: 800;
+  flex: 0 0 auto;
+}
+
+.static-option strong {
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.kma-option:has(.game-option-number) {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.kma-option:has(.game-option-number) > strong {
+  flex: 1;
+}
+
+.game-card .option-grid > .game-option,
+.game-card .static-option,
+.game-card .kma-option {
+  cursor: default;
+}
+
+.game-card .mechanic-label {
+  max-width: 620px;
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 11px;
+  font-weight: 650;
+  line-height: 1.5;
+  color: #858c98;
+}
