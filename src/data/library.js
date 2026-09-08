@@ -1,7 +1,7 @@
 import gettingToKnowPublished from './editorial/published/getting-to-know-you.js'
 import deepMeaningfulPublished from './editorial/published/deep-meaningful.js'
 import funRandomFriend from './editorial/fun-random.friend.js'
-import { structuredOptionGames } from './editorial/structured-option-games.js'
+import { structuredOptionGamesPublished as structuredOptionGames } from './editorial/structured-option-games-published.js'
 import { openGamePromptsPublished } from './editorial/open-games-published.js'
 import funRandomRelationship from './complete/fun-random.relationship.js'
 import { curatedNormalCards } from './complete/curated-normal.js'
