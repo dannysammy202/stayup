@@ -4,10 +4,8 @@ import funRandomFriend from './editorial/fun-random.friend.js'
 import { structuredOptionGames } from './editorial/structured-option-games.js'
 import { openGamePromptsPublished } from './editorial/open-games-published.js'
 import funRandomRelationship from './complete/fun-random.relationship.js'
-import lifeExperienceComplete from './complete/life-experience.js'
-import nigeriaComplete from './complete/nigeria.js'
-import familyComplete from './complete/family.js'
 import { curatedNormalCards } from './complete/curated-normal.js'
+import { supplementalNormalCards } from './complete/supplemental-normal.js'
 import { curatedGameCards } from './complete/curated-games-v2.js'
 import {
   FRIEND_INTENSITIES,
@@ -88,7 +86,7 @@ function tagsFor(categoryId, text, options = []) {
 
 function makeCard({ categoryId, mode, text, intensity, options, audience, stages, stage, subtype, source = 'authored', mechanic }) {
   const cleanOptions = Array.isArray(options) ? options.filter(Boolean) : []
-  const resolvedIntensity = intensity || (mode === 'friend' ? 'Interesting' : 'Interesting')
+  const resolvedIntensity = intensity || 'Interesting'
   const stageText = `${text || ''} ${cleanOptions.join(' ')}`
   const resolvedStages = mode === 'relationship'
     ? (Array.isArray(stages) && stages.length ? stages : stage ? [stage] : inferStages(stageText, resolvedIntensity))
@@ -142,9 +140,7 @@ function normalConversationSource(categoryId, mode) {
   if (categoryId === 'getting-to-know-you') return flattenGroups(gettingToKnowPublished[mode])
   if (categoryId === 'deep-meaningful') return flattenGroups(deepMeaningfulPublished[mode])
   if (categoryId === 'fun-random') return mode === 'friend' ? flattenGroups(funRandomFriend) : flattenGroups(funRandomRelationship)
-  if (categoryId === 'life-experience') return flattenGroups(lifeExperienceComplete[mode])
-  if (categoryId === 'nigeria') return flattenGroups(nigeriaComplete[mode])
-  if (categoryId === 'family') return flattenGroups(familyComplete[mode])
+  if (supplementalNormalCards[categoryId]) return supplementalNormalCards[categoryId][mode]
   return curatedNormalCards[categoryId]?.[mode] || []
 }
 
