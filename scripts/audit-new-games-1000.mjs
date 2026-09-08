@@ -1,7 +1,7 @@
 import { structuredOptionGamesFinal } from '../src/data/editorial/structured-option-games-final.js'
-import { openGamePromptsFinal } from '../src/data/editorial/open-games-final.js'
+import { openGamePromptsPublished } from '../src/data/editorial/open-games-published.js'
 
-const libraries = { ...structuredOptionGamesFinal, ...openGamePromptsFinal }
+const libraries = { ...structuredOptionGamesFinal, ...openGamePromptsPublished }
 
 const required = {
   'guess-my-answer': { options: [0, 4] },
@@ -70,14 +70,16 @@ for (const [categoryId, rules] of Object.entries(required)) {
       if (!card.text || card.text.trim().length < 8) errors.push(`${categoryId}/${mode}: weak text: ${card.text}`)
       if (/\bundefined\b|\bnull\b|\{[a-z]+\}/i.test(combined)) errors.push(`${categoryId}/${mode}: malformed interpolation: ${combined}`)
       if (/\?\?+|\.\.+|\s{2,}/.test(card.text)) errors.push(`${categoryId}/${mode}: malformed punctuation: ${card.text}`)
-      if (/\bprotecting making\b|\bhow much visit\b|\btexts feels\b|\bcheck-ins keeps\b|\bcalls keeps\b/i.test(card.text)) errors.push(`${categoryId}/${mode}: awkward grammar: ${card.text}`)
+      if (/\bprotecting making\b|\bhow much visit\b|\btexts feels\b|\bcheck-ins keeps\b|\bcalls keeps\b|\bhabits showed\b/i.test(card.text)) errors.push(`${categoryId}/${mode}: awkward grammar: ${card.text}`)
     }
 
     const sampleSize = Math.min(cards.length, 220)
     for (let i = 0; i < sampleSize; i += 1) {
       for (let j = i + 1; j < sampleSize; j += 1) {
-        const score = jaccard(`${cards[i].text} ${(cards[i].options || []).join(' ')}`, `${cards[j].text} ${(cards[j].options || []).join(' ')}`)
-        if (score >= 0.96) errors.push(`${categoryId}/${mode}: suspicious near-duplicate ${score.toFixed(2)}`)
+        const left = `${cards[i].text} ${(cards[i].options || []).join(' ')}`
+        const right = `${cards[j].text} ${(cards[j].options || []).join(' ')}`
+        const score = jaccard(left, right)
+        if (score >= 0.96) errors.push(`${categoryId}/${mode}: suspicious near-duplicate ${score.toFixed(2)}: ${left} / ${right}`)
       }
     }
 
