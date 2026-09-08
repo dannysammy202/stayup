@@ -31,3 +31,31 @@ export function publishGroups(groups, plan) {
   }
   return published
 }
+
+export function publishBalanced(groups, target = 1000) {
+  const names = Object.keys(groups)
+  if (!names.length) throw new Error('No prompt groups supplied')
+  const total = countGroups(groups)
+  if (total < target) throw new Error(`Need ${target} authored prompts but only ${total} are available`)
+
+  const published = Object.fromEntries(names.map(name => [name, []]))
+  let remaining = target
+  let cursor = 0
+
+  while (remaining > 0) {
+    let addedThisPass = 0
+    for (const name of names) {
+      if (remaining <= 0) break
+      const source = groups[name]
+      if (cursor < source.length) {
+        published[name].push(source[cursor])
+        remaining -= 1
+        addedThisPass += 1
+      }
+    }
+    if (!addedThisPass) throw new Error(`Unable to publish ${target} prompts from supplied groups`)
+    cursor += 1
+  }
+
+  return published
+}
