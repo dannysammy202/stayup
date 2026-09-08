@@ -18,3 +18,9 @@ jobs:
       - run: node scripts/audit-nigeria-750.mjs
       - run: npm install --no-audit --no-fund
       - run: npx vite build
+      - name: Upload production build
+        uses: actions/upload-artifact@v4
+        with:
+          name: stayup-production-dist
+          path: dist
+          if-no-files-found: error
