@@ -1,7 +1,7 @@
-import { structuredOptionGames } from '../src/data/editorial/structured-option-games.js'
-import { openGamePrompts1000 } from '../src/data/editorial/open-games-1000.js'
+import { structuredOptionGamesFinal } from '../src/data/editorial/structured-option-games-final.js'
+import { openGamePromptsFinal } from '../src/data/editorial/open-games-final.js'
 
-const libraries = { ...structuredOptionGames, ...openGamePrompts1000 }
+const libraries = { ...structuredOptionGamesFinal, ...openGamePromptsFinal }
 
 const required = {
   'guess-my-answer': { options: [0, 4] },
@@ -64,14 +64,13 @@ for (const [categoryId, rules] of Object.entries(required)) {
       exact.add(key)
 
       const allowed = rules.options
-      if (!allowed.includes(options.length)) {
-        errors.push(`${categoryId}/${mode}: wrong option count ${options.length}: ${card.text}`)
-      }
+      if (!allowed.includes(options.length)) errors.push(`${categoryId}/${mode}: wrong option count ${options.length}: ${card.text}`)
       const optionSet = new Set(options.map(normalise))
       if (optionSet.size !== options.length) errors.push(`${categoryId}/${mode}: repeated option in card: ${card.text}`)
       if (!card.text || card.text.trim().length < 8) errors.push(`${categoryId}/${mode}: weak text: ${card.text}`)
       if (/\bundefined\b|\bnull\b|\{[a-z]+\}/i.test(combined)) errors.push(`${categoryId}/${mode}: malformed interpolation: ${combined}`)
       if (/\?\?+|\.\.+|\s{2,}/.test(card.text)) errors.push(`${categoryId}/${mode}: malformed punctuation: ${card.text}`)
+      if (/\bprotecting making\b|\bhow much visit\b|\btexts feels\b|\bcheck-ins keeps\b|\bcalls keeps\b/i.test(card.text)) errors.push(`${categoryId}/${mode}: awkward grammar: ${card.text}`)
     }
 
     const sampleSize = Math.min(cards.length, 220)
