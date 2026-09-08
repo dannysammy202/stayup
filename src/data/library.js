@@ -1,9 +1,14 @@
-import { editorialConversations } from './editorial-conversations.js'
 import gettingToKnowPublished from './editorial/published/getting-to-know-you.js'
 import deepMeaningfulPublished from './editorial/published/deep-meaningful.js'
 import funRandomFriend from './editorial/fun-random.friend.js'
-import { newGamePrompts } from './editorial/new-games.js'
-import { foundationGamePrompts } from './foundation-games.js'
+import { structuredOptionGames } from './editorial/structured-option-games.js'
+import { openGamePromptsPublished } from './editorial/open-games-published.js'
+import funRandomRelationship from './complete/fun-random.relationship.js'
+import lifeExperienceComplete from './complete/life-experience.js'
+import nigeriaComplete from './complete/nigeria.js'
+import familyComplete from './complete/family.js'
+import { curatedNormalCards } from './complete/curated-normal.js'
+import { curatedGameCards } from './complete/curated-games-v2.js'
 import {
   FRIEND_INTENSITIES,
   RELATIONSHIP_INTENSITIES,
@@ -18,13 +23,17 @@ const EARLY_STAGES = ['Talking Stage', 'New Relationship']
 const ESTABLISHED_STAGES = ['Been Together a While', 'Long-Term Relationship', 'Married']
 const LATE_STAGES = ['Long-Term Relationship', 'Married']
 
-function hash(value) {
+function hashNumber(value) {
   let out = 2166136261
   for (let index = 0; index < value.length; index += 1) {
     out ^= value.charCodeAt(index)
     out = Math.imul(out, 16777619)
   }
-  return (out >>> 0).toString(36)
+  return out >>> 0
+}
+
+function hash(value) {
+  return hashNumber(value).toString(36)
 }
 
 function normalise(value = '') {
@@ -35,35 +44,34 @@ function normalise(value = '') {
     .trim()
 }
 
-function balancedTake(groups, target = 750) {
-  const entries = Object.entries(groups || {}).filter(([, prompts]) => Array.isArray(prompts) && prompts.length)
-  const total = entries.reduce((sum, [, prompts]) => sum + prompts.length, 0)
-  if (total <= target) return Object.fromEntries(entries)
+function signature(item) {
+  return normalise(`${item.text || ''} ${(item.options || []).join(' ')} ${item.subtype || ''}`)
+}
 
-  const output = Object.fromEntries(entries.map(([name]) => [name, []]))
-  let cursor = 0
-  let remaining = target
-  while (remaining > 0) {
-    let added = 0
-    for (const [name, prompts] of entries) {
-      if (!remaining) break
-      if (cursor < prompts.length) {
-        output[name].push(prompts[cursor])
-        remaining -= 1
-        added += 1
-      }
-    }
-    if (!added) break
-    cursor += 1
+function deterministicUniqueTake(items, target, salt) {
+  const seen = new Set()
+  const unique = []
+  for (const item of items) {
+    const key = signature(item)
+    if (!key || seen.has(key)) continue
+    seen.add(key)
+    unique.push(item)
   }
-  return output
+  if (unique.length < target) {
+    throw new Error(`${salt}: expected at least ${target} unique cards, found ${unique.length}`)
+  }
+  return unique
+    .map((item, index) => ({ item, score: hashNumber(`${salt}|${index}|${signature(item)}`) }))
+    .sort((a, b) => a.score - b.score)
+    .slice(0, target)
+    .map(entry => entry.item)
 }
 
 function inferStages(text, intensity) {
   const value = normalise(text)
-  const lateSignals = ['marry', 'marriage', 'married', 'children', 'kids', 'wedding', 'home together', 'raise a family', 'retire', 'in laws']
-  const establishedSignals = ['our future', 'long term', 'relocat', 'family boundar', 'money together', 'joint', 'living together', 'build together']
-  const earlySignals = ['first date', 'first met', 'first impression', 'starting to like', 'talking stage', 'new relationship', 'caught your attention']
+  const lateSignals = ['marry', 'marriage', 'married', 'children', 'kids', 'wedding', 'spouse', 'husband', 'wife', 'raise a family', 'in laws', 'in-laws']
+  const establishedSignals = ['our future', 'long term', 'long-term', 'relocat', 'family boundar', 'money together', 'joint finances', 'living together', 'build together', 'engagement']
+  const earlySignals = ['first date', 'first met', 'first impression', 'starting to like', 'talking stage', 'new relationship', 'caught your attention', 'first caught']
 
   if (lateSignals.some(signal => value.includes(signal))) return LATE_STAGES
   if (establishedSignals.some(signal => value.includes(signal))) return ESTABLISHED_STAGES
@@ -78,92 +86,124 @@ function tagsFor(categoryId, text, options = []) {
   return [...new Set(normalise(source).split(' ').filter(word => word.length > 2))]
 }
 
-function makeCard({ categoryId, mode, text, intensity, options, audience, stages, subtype, source = 'authored', mechanic }) {
+function makeCard({ categoryId, mode, text, intensity, options, audience, stages, stage, subtype, source = 'authored', mechanic }) {
   const cleanOptions = Array.isArray(options) ? options.filter(Boolean) : []
+  const resolvedIntensity = intensity || (mode === 'friend' ? 'Interesting' : 'Interesting')
+  const stageText = `${text || ''} ${cleanOptions.join(' ')}`
+  const resolvedStages = mode === 'relationship'
+    ? (Array.isArray(stages) && stages.length ? stages : stage ? [stage] : inferStages(stageText, resolvedIntensity))
+    : []
   const identity = `${categoryId}|${mode}|${text}|${cleanOptions.join('|')}|${subtype || ''}`
   return {
     id: `${categoryId}-${mode}-${hash(identity)}`,
     categoryId,
     mode,
-    text: text.trim(),
-    intensity,
+    text: String(text || '').trim(),
+    intensity: resolvedIntensity,
     options: cleanOptions,
-    audience: audience || (intensity === 'Spicy' ? '18+' : 'general'),
-    stages: mode === 'relationship' ? (stages?.length ? stages : inferStages(text, intensity)) : [],
+    audience: audience || (resolvedIntensity === 'Spicy' ? '18+' : 'general'),
+    stages: resolvedStages,
     subtype: subtype || null,
     source,
     mechanic: mechanic || categoryById[categoryId]?.mechanic || 'conversation',
-    tags: tagsFor(categoryId, text, cleanOptions),
+    tags: tagsFor(categoryId, String(text || ''), cleanOptions),
   }
 }
 
-function authoredConversationGroups(categoryId, mode) {
-  if (categoryId === 'getting-to-know-you') return gettingToKnowPublished[mode] || {}
-  if (categoryId === 'deep-meaningful') return deepMeaningfulPublished[mode] || {}
-  if (categoryId === 'fun-random' && mode === 'friend') return funRandomFriend
-  return editorialConversations[categoryId]?.[mode] || {}
+function flattenGroups(groups) {
+  if (!groups) return []
+  if (Array.isArray(groups)) {
+    const out = []
+    groups.forEach(group => {
+      if (typeof group === 'string') {
+        out.push({ text: group })
+        return
+      }
+      if (Array.isArray(group?.prompts)) {
+        group.prompts.forEach(text => out.push({
+          text,
+          intensity: group.intensity,
+          stage: group.stage,
+          audience: group.audience,
+          stages: group.stages,
+        }))
+        return
+      }
+      if (group?.text) out.push(group)
+    })
+    return out
+  }
+  return Object.entries(groups).flatMap(([intensity, prompts]) =>
+    (prompts || []).map(text => ({ text, intensity })),
+  )
+}
+
+function normalConversationSource(categoryId, mode) {
+  if (categoryId === 'getting-to-know-you') return flattenGroups(gettingToKnowPublished[mode])
+  if (categoryId === 'deep-meaningful') return flattenGroups(deepMeaningfulPublished[mode])
+  if (categoryId === 'fun-random') return mode === 'friend' ? flattenGroups(funRandomFriend) : flattenGroups(funRandomRelationship)
+  if (categoryId === 'life-experience') return flattenGroups(lifeExperienceComplete[mode])
+  if (categoryId === 'nigeria') return flattenGroups(nigeriaComplete[mode])
+  if (categoryId === 'family') return flattenGroups(familyComplete[mode])
+  return curatedNormalCards[categoryId]?.[mode] || []
 }
 
 function buildConversationCards() {
   const cards = []
   for (const category of conversationCategories) {
     for (const mode of ['friend', 'relationship']) {
-      const groups = balancedTake(authoredConversationGroups(category.id, mode), 750)
-      for (const [intensity, prompts] of Object.entries(groups)) {
-        prompts.forEach(text => {
-          cards.push(makeCard({
-            categoryId: category.id,
-            mode,
-            text,
-            intensity,
-            source: ['getting-to-know-you', 'deep-meaningful'].includes(category.id) || (category.id === 'fun-random' && mode === 'friend')
-              ? 'editorial-large'
-              : 'editorial-seed',
-          }))
-        })
-      }
+      const raw = normalConversationSource(category.id, mode)
+      const selected = deterministicUniqueTake(raw, 750, `${category.id}:${mode}:conversation`)
+      selected.forEach((item, index) => {
+        const intensity = item.intensity || (mode === 'friend'
+          ? FRIEND_INTENSITIES[index % FRIEND_INTENSITIES.length]
+          : RELATIONSHIP_INTENSITIES[index % RELATIONSHIP_INTENSITIES.length])
+        cards.push(makeCard({
+          ...item,
+          categoryId: category.id,
+          mode,
+          intensity,
+          source: 'editorial-complete',
+        }))
+      })
     }
   }
   return cards
 }
 
-function mergeGameSeeds(categoryId, mode) {
-  const raw = [
-    ...(foundationGamePrompts[categoryId]?.[mode] || []),
-    ...(newGamePrompts[categoryId]?.[mode] || []),
-  ]
-  const seen = new Set()
-  return raw.filter(card => {
-    const key = normalise(`${card.text} ${(card.options || []).slice().sort().join(' ')}`)
-    if (!key || seen.has(key)) return false
-    seen.add(key)
-    return true
-  })
-}
+const structuredIds = new Set(Object.keys(structuredOptionGames))
+const openIds = new Set(Object.keys(openGamePromptsPublished))
 
-function defaultGameIntensity(mode, index) {
-  const values = mode === 'friend'
-    ? FRIEND_INTENSITIES
-    : RELATIONSHIP_INTENSITIES.filter(value => value !== 'Spicy')
-  return values[index % values.length]
+function rawGameSource(categoryId, mode) {
+  if (curatedGameCards[categoryId]) return curatedGameCards[categoryId][mode]
+  if (structuredIds.has(categoryId)) return structuredOptionGames[categoryId][mode]
+  if (openIds.has(categoryId)) return openGamePromptsPublished[categoryId][mode]
+  return []
 }
 
 function buildGameCards() {
   const cards = []
   for (const category of gameCategories) {
     for (const mode of ['friend', 'relationship']) {
-      mergeGameSeeds(category.id, mode).forEach((item, index) => {
-        const intensity = item.intensity || defaultGameIntensity(mode, index)
+      const target = category.id === 'truth-dare' ? 1000 : 750
+      let raw = rawGameSource(category.id, mode)
+      if (category.id === 'truth-dare') {
+        const truths = deterministicUniqueTake(raw.filter(card => card.subtype === 'Truth'), 500, `${category.id}:${mode}:truth`)
+        const dares = deterministicUniqueTake(raw.filter(card => card.subtype === 'Dare'), 500, `${category.id}:${mode}:dare`)
+        raw = [...truths, ...dares]
+      } else {
+        raw = deterministicUniqueTake(raw, target, `${category.id}:${mode}:game`)
+      }
+      raw.forEach((item, index) => {
+        const intensity = item.intensity || (mode === 'friend'
+          ? FRIEND_INTENSITIES[index % FRIEND_INTENSITIES.length]
+          : RELATIONSHIP_INTENSITIES[index % RELATIONSHIP_INTENSITIES.length])
         cards.push(makeCard({
+          ...item,
           categoryId: category.id,
           mode,
-          text: item.text,
-          options: item.options,
           intensity,
-          audience: item.audience,
-          stages: item.stages,
-          subtype: item.subtype,
-          source: 'editorial-game',
+          source: 'editorial-game-complete',
           mechanic: category.mechanic,
         }))
       })
@@ -176,6 +216,10 @@ const conversationCards = buildConversationCards()
 const gameCards = buildGameCards()
 const cards = [...conversationCards, ...gameCards]
 const cardsById = new Map(cards.map(card => [card.id, card]))
+
+if (cardsById.size !== cards.length) {
+  throw new Error(`StayUp card id collision: ${cards.length - cardsById.size} duplicate ids`)
+}
 
 export function getCardById(id) {
   return cardsById.get(id) || null
@@ -216,11 +260,7 @@ export function searchCards(query, { mode, stage = 'All', allow18 = false } = {}
 export function serialiseCard(card) {
   if (!card) return ''
   if (!card.options?.length) return card.text
-
-  if (card.categoryId === 'this-or-that' && card.options.length === 2) {
-    return `${card.options[0]} or ${card.options[1]}?`
-  }
-
+  if (card.categoryId === 'this-or-that') return card.text
   const list = card.options.map((option, index) => `${index + 1}. ${option}`).join('\n')
   return `${card.text}\n${list}`
 }
