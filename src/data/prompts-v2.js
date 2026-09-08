@@ -77,13 +77,15 @@ function makeNewGamePrompts(categoryId, mode) {
       : ['Chill', 'Interesting', 'Deep', 'No Filter'][index % 4]
 
     const optionText = card.options?.length ? `\n\n${card.options.join(' · ')}` : ''
+    const displayText = `${card.text}${optionText}`
+
     return {
       id: `editorial-game-${categoryId}-${mode}-${index}`,
       categoryId,
       categoryName: category.name,
       mode,
-      text: card.text,
-      copyText: `${card.text}${optionText}`,
+      text: displayText,
+      copyText: displayText,
       intensity,
       stage: mode === 'relationship' ? relationshipStage(intensity, index) : null,
       audience: 'General',
