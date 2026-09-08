@@ -19,3 +19,14 @@
   content: 'Reviewed prompts · repeats are avoided until the current pool cycles';
   font-size: 0.78rem;
 }
+
+.prompt-text > p {
+  max-width: 820px;
+}
+
+@media (max-width: 720px) {
+  .prompt-text > p {
+    font-size: clamp(26px, 7.6vw, 36px);
+    line-height: 1.2;
+  }
+}
