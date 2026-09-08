@@ -1,7 +1,21 @@
 import gettingFriend from '../src/data/editorial/getting-to-know-you.friend.js'
+import gettingFriendSupplement from '../src/data/editorial/getting-to-know-you.friend.supplement.js'
+import gettingRelationshipPart1 from '../src/data/editorial/getting-to-know-you.relationship.part1.js'
+import gettingRelationshipPart2 from '../src/data/editorial/getting-to-know-you.relationship.part2.js'
+
+function mergeGroups(...parts) {
+  const merged = {}
+  for (const part of parts) {
+    for (const [group, prompts] of Object.entries(part)) {
+      merged[group] = [...(merged[group] || []), ...prompts]
+    }
+  }
+  return merged
+}
 
 const modules = [
-  ['getting-to-know-you', 'friend', gettingFriend],
+  ['getting-to-know-you', 'friend', mergeGroups(gettingFriend, gettingFriendSupplement)],
+  ['getting-to-know-you', 'relationship', mergeGroups(gettingRelationshipPart1, gettingRelationshipPart2)],
 ]
 
 function normalise(text) {
@@ -28,6 +42,11 @@ for (const [category, mode, groups] of modules) {
   console.log(`${category}/${mode}: total=${prompts.length} groups=${JSON.stringify(counts)} duplicates=${duplicates.length}`)
   if (duplicates.length) {
     duplicates.slice(0, 20).forEach(prompt => console.error(`duplicate: ${prompt}`))
+    process.exitCode = 1
+  }
+
+  if (prompts.length !== 1000) {
+    console.error(`${category}/${mode}: expected exactly 1000 authored prompts, found ${prompts.length}`)
     process.exitCode = 1
   }
 }
