@@ -1,24 +1,15 @@
-import { mergeGroups, publishGroups } from '../src/data/editorial/helpers.js'
-import gettingFriend from '../src/data/editorial/getting-to-know-you.friend.js'
-import gettingFriendSupplement from '../src/data/editorial/getting-to-know-you.friend.supplement.js'
-import gettingRelationshipPart1 from '../src/data/editorial/getting-to-know-you.relationship.part1.js'
-import gettingRelationshipPart2 from '../src/data/editorial/getting-to-know-you.relationship.part2.js'
+import fs from 'node:fs/promises'
+import path from 'node:path'
+import { pathToFileURL } from 'node:url'
 
-const gettingFriendPublished = mergeGroups(gettingFriend, gettingFriendSupplement)
-const gettingRelationshipAuthored = mergeGroups(gettingRelationshipPart1, gettingRelationshipPart2)
-const gettingRelationshipPublished = publishGroups(gettingRelationshipAuthored, {
-  Chill: 170,
-  Interesting: 170,
-  Deep: 180,
-  Flirty: 150,
-  Spicy: 130,
-  'No Filter': 200,
-})
+const publishedDir = path.resolve('src/data/editorial/published')
+const files = (await fs.readdir(publishedDir)).filter(file => file.endsWith('.js')).sort()
 
-const modules = [
-  ['getting-to-know-you', 'friend', gettingFriendPublished],
-  ['getting-to-know-you', 'relationship', gettingRelationshipPublished],
-]
+const stop = new Set([
+  'the', 'a', 'an', 'and', 'or', 'to', 'of', 'in', 'on', 'for', 'with', 'is', 'are', 'do', 'does', 'did',
+  'you', 'your', 'what', 'how', 'when', 'would', 'one', 'something', 'thing', 'think', 'that', 'this', 'it',
+  'someone', 'people', 'person', 'about', 'have', 'has', 'had', 'be', 'been', 'being', 'if', 'from', 'as', 'at',
+])
 
 function normalise(text) {
   return text
@@ -28,27 +19,89 @@ function normalise(text) {
     .trim()
 }
 
-for (const [category, mode, groups] of modules) {
-  const entries = Object.entries(groups)
-  const prompts = entries.flatMap(([, items]) => items)
-  const counts = Object.fromEntries(entries.map(([name, items]) => [name, items.length]))
-  const exact = new Set()
-  const duplicates = []
+function tokenSet(text) {
+  return new Set(normalise(text).split(' ').filter(word => word.length > 2 && !stop.has(word)))
+}
 
-  for (const prompt of prompts) {
-    const key = normalise(prompt)
-    if (exact.has(key)) duplicates.push(prompt)
-    exact.add(key)
-  }
+function jaccard(a, b) {
+  const left = tokenSet(a)
+  const right = tokenSet(b)
+  if (!left.size || !right.size) return 0
+  let intersection = 0
+  for (const token of left) if (right.has(token)) intersection += 1
+  return intersection / (left.size + right.size - intersection)
+}
 
-  console.log(`${category}/${mode}: total=${prompts.length} groups=${JSON.stringify(counts)} duplicates=${duplicates.length}`)
-  if (duplicates.length) {
-    duplicates.slice(0, 20).forEach(prompt => console.error(`duplicate: ${prompt}`))
-    process.exitCode = 1
-  }
+const globalExact = new Map()
+let totalPublished = 0
+let failures = 0
 
-  if (prompts.length !== 1000) {
-    console.error(`${category}/${mode}: expected exactly 1000 published prompts, found ${prompts.length}`)
-    process.exitCode = 1
+for (const file of files) {
+  const category = file.replace(/\.js$/, '')
+  const moduleUrl = pathToFileURL(path.join(publishedDir, file)).href
+  const { default: library } = await import(moduleUrl)
+
+  for (const mode of ['friend', 'relationship']) {
+    const groups = library[mode]
+    if (!groups) {
+      console.error(`${category}/${mode}: missing published library`)
+      failures += 1
+      continue
+    }
+
+    const entries = Object.entries(groups)
+    const prompts = entries.flatMap(([, items]) => items)
+    const counts = Object.fromEntries(entries.map(([name, items]) => [name, items.length]))
+    totalPublished += prompts.length
+
+    console.log(`${category}/${mode}: total=${prompts.length} groups=${JSON.stringify(counts)}`)
+
+    if (prompts.length !== 1000) {
+      console.error(`${category}/${mode}: expected exactly 1000 published prompts, found ${prompts.length}`)
+      failures += 1
+    }
+
+    const exact = new Map()
+    for (const prompt of prompts) {
+      const key = normalise(prompt)
+      if (exact.has(key)) {
+        console.error(`${category}/${mode}: exact duplicate: ${prompt}`)
+        failures += 1
+      }
+      exact.set(key, prompt)
+
+      const globalKey = `${mode}:${key}`
+      if (globalExact.has(globalKey) && globalExact.get(globalKey) !== category) {
+        console.error(`${category}/${mode}: duplicates ${globalExact.get(globalKey)}: ${prompt}`)
+        failures += 1
+      } else {
+        globalExact.set(globalKey, category)
+      }
+
+      if (prompt.length < 12) {
+        console.error(`${category}/${mode}: prompt too short: ${prompt}`)
+        failures += 1
+      }
+    }
+
+    for (let i = 0; i < prompts.length; i += 1) {
+      for (let j = i + 1; j < prompts.length; j += 1) {
+        const score = jaccard(prompts[i], prompts[j])
+        if (score >= 0.88) {
+          console.error(`${category}/${mode}: near duplicate ${score.toFixed(2)}: ${prompts[i]} / ${prompts[j]}`)
+          failures += 1
+        }
+      }
+    }
   }
 }
+
+console.log(`Published editorial total: ${totalPublished}`)
+console.log(`Published categories: ${files.length}`)
+
+if (failures) {
+  console.error(`Content audit failed with ${failures} issue(s).`)
+  process.exit(1)
+}
+
+console.log('Content audit passed.')
