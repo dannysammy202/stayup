@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - nigeria-editorial-750
+      - wire-nigeria-first
+      - main
 
 jobs:
   audit:
