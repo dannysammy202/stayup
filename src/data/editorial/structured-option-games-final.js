@@ -4,6 +4,10 @@ function normalise(value) {
   return value.toLowerCase().replace(/[“”‘’'".,!?():;\-]/g, ' ').replace(/\s+/g, ' ').trim()
 }
 
+function tokenSignature(value) {
+  return [...new Set(normalise(value).split(' ').filter(Boolean))].sort().join('|')
+}
+
 function pairKey(a, b) {
   return [normalise(a), normalise(b)].sort().join('|')
 }
@@ -18,7 +22,8 @@ function rebuildThisOrThat(cards) {
   }
 
   const out = []
-  const seen = new Set()
+  const seenPairs = new Set()
+  const seenSemantics = new Set()
   const topics = [...byTopic.entries()]
   let round = 0
 
@@ -31,19 +36,26 @@ function rebuildThisOrThat(cards) {
         for (let j = i + 1; j < values.length; j += 1) pairs.push([values[i], values[j]])
       }
       if (!pairs.length) continue
-      const pair = pairs[(round * 7 + out.length * 3) % pairs.length]
-      const key = pairKey(pair[0], pair[1])
-      if (seen.has(key)) continue
-      seen.add(key)
-      out.push({ text: `${pair[0]} or ${pair[1]}?`, options: pair, topic })
-      added += 1
+
+      for (let attempt = 0; attempt < pairs.length; attempt += 1) {
+        const pair = pairs[(round * 7 + out.length * 3 + attempt) % pairs.length]
+        const key = pairKey(pair[0], pair[1])
+        const semantic = tokenSignature(`${pair[0]} ${pair[1]}`)
+        if (seenPairs.has(key) || seenSemantics.has(semantic)) continue
+        seenPairs.add(key)
+        seenSemantics.add(semantic)
+        out.push({ text: `${pair[0]} or ${pair[1]}?`, options: pair, topic })
+        added += 1
+        break
+      }
       if (out.length === 1000) break
     }
+
     round += 1
     if (!added && round > 5000) break
   }
 
-  if (out.length < 1000) throw new Error(`This or That requires 1000 unique cards, found ${out.length}`)
+  if (out.length < 1000) throw new Error(`This or That requires 1000 semantically distinct cards, found ${out.length}`)
   return out
 }
 
