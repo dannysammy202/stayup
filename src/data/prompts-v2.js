@@ -2,7 +2,7 @@ import { allCategories, conversationCategories, gameCategories } from './categor
 import { editorialConversations } from './editorial-conversations.js'
 import { newGameIds } from './editorial/new-games.js'
 import { structuredOptionGamesFinal } from './editorial/structured-option-games-final.js'
-import { openGameIdsFinal, openGamePromptsFinal } from './editorial/open-games-final.js'
+import { openGameIdsPublished, openGamePromptsPublished } from './editorial/open-games-published.js'
 import { getPrompts as getLegacyPrompts } from './prompts.js'
 
 const conversationIds = new Set(conversationCategories.map(category => category.id))
@@ -68,7 +68,7 @@ function makeEditorialPrompts(categoryId, mode) {
 
 function sourceCards(categoryId, mode) {
   if (structuredOptionIds.has(categoryId)) return structuredOptionGamesFinal[categoryId]?.[mode] || []
-  if (openGameIdsFinal.has(categoryId)) return openGamePromptsFinal[categoryId]?.[mode] || []
+  if (openGameIdsPublished.has(categoryId)) return openGamePromptsPublished[categoryId]?.[mode] || []
   return []
 }
 
