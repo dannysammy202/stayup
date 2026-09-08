@@ -11,7 +11,7 @@
     "audit:structure": "node scripts/audit-content.mjs",
     "audit:content": "node scripts/audit-content.mjs --strict",
     "audit:prompts": "node scripts/audit-content.mjs --strict",
-    "prebuild": "node scripts/audit-content.mjs",
+    "prebuild": "node scripts/audit-content.mjs --strict",
     "build": "vite build",
     "preview": "vite preview"
   },
