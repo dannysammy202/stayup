@@ -59,3 +59,20 @@ export function publishBalanced(groups, target = 1000) {
 
   return published
 }
+
+export function replacePrompts(groups, replacements) {
+  const next = Object.fromEntries(Object.entries(groups).map(([name, prompts]) => [name, [...prompts]]))
+  for (const [oldPrompt, newPrompt] of Object.entries(replacements)) {
+    let replaced = false
+    for (const name of Object.keys(next)) {
+      const index = next[name].indexOf(oldPrompt)
+      if (index !== -1) {
+        next[name][index] = newPrompt
+        replaced = true
+        break
+      }
+    }
+    if (!replaced) throw new Error(`Published prompt replacement target not found: ${oldPrompt}`)
+  }
+  return next
+}
