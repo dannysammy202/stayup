@@ -1,21 +1,23 @@
+import { mergeGroups, publishGroups } from '../src/data/editorial/helpers.js'
 import gettingFriend from '../src/data/editorial/getting-to-know-you.friend.js'
 import gettingFriendSupplement from '../src/data/editorial/getting-to-know-you.friend.supplement.js'
 import gettingRelationshipPart1 from '../src/data/editorial/getting-to-know-you.relationship.part1.js'
 import gettingRelationshipPart2 from '../src/data/editorial/getting-to-know-you.relationship.part2.js'
 
-function mergeGroups(...parts) {
-  const merged = {}
-  for (const part of parts) {
-    for (const [group, prompts] of Object.entries(part)) {
-      merged[group] = [...(merged[group] || []), ...prompts]
-    }
-  }
-  return merged
-}
+const gettingFriendPublished = mergeGroups(gettingFriend, gettingFriendSupplement)
+const gettingRelationshipAuthored = mergeGroups(gettingRelationshipPart1, gettingRelationshipPart2)
+const gettingRelationshipPublished = publishGroups(gettingRelationshipAuthored, {
+  Chill: 170,
+  Interesting: 170,
+  Deep: 180,
+  Flirty: 150,
+  Spicy: 130,
+  'No Filter': 200,
+})
 
 const modules = [
-  ['getting-to-know-you', 'friend', mergeGroups(gettingFriend, gettingFriendSupplement)],
-  ['getting-to-know-you', 'relationship', mergeGroups(gettingRelationshipPart1, gettingRelationshipPart2)],
+  ['getting-to-know-you', 'friend', gettingFriendPublished],
+  ['getting-to-know-you', 'relationship', gettingRelationshipPublished],
 ]
 
 function normalise(text) {
@@ -46,7 +48,7 @@ for (const [category, mode, groups] of modules) {
   }
 
   if (prompts.length !== 1000) {
-    console.error(`${category}/${mode}: expected exactly 1000 authored prompts, found ${prompts.length}`)
+    console.error(`${category}/${mode}: expected exactly 1000 published prompts, found ${prompts.length}`)
     process.exitCode = 1
   }
 }
