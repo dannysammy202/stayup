@@ -127,9 +127,9 @@ function CategoryIcon({ category, size = 22 }) {
 
 function Brand({ onClick }) {
   return (
-    <button className="brand" onClick={onClick} aria-label="StayUp home">
+    <button className="brand" onClick={onClick} aria-label="Willow home">
       <span className="brand-symbol"><MessageText1 size="20" variant="Bold" /></span>
-      <span className="brand-word">StayUp<span>.</span></span>
+      <span className="brand-word">Willow<span>.</span></span>
     </button>
   )
 }
@@ -159,7 +159,7 @@ function Landing({ onStart, onBrowse }) {
           <p className="eyebrow"><span /> Built for the conversation you already have</p>
           <h1>Something worth<br /><em>talking about.</em></h1>
           <p className="hero-description">
-            Open StayUp while you text, call or sit together. Find the next thing worth asking, saying, debating or playing with, then take it straight back to your conversation.
+            Open Willow while you text, call or sit together. Find the next thing worth asking, saying, debating or playing with, then take it straight back to your conversation.
           </p>
           <div className="hero-points">
             <span><strong>01</strong> Pick who you are talking to</span>
@@ -189,7 +189,7 @@ function Landing({ onStart, onBrowse }) {
         <div className="section-intro">
           <p className="mini-label">Start here</p>
           <h2>Who are you talking to?</h2>
-          <p>The other person never needs StayUp. One person opens it, gets the starter and brings it into the chat, call or conversation.</p>
+          <p>The other person never needs Willow. One person opens it, gets the starter and brings it into the chat, call or conversation.</p>
         </div>
         <div className="who-grid">
           <button className="who-choice friends" onClick={() => onStart('friend')}>
@@ -229,7 +229,7 @@ function DesktopSidebar({ page, mode, onMode, onNavigate }) {
       <div className="sidebar-note">
         <Copy size="20" />
         <div>
-          <strong>StayUp gives you the starter.</strong>
+          <strong>Willow gives you the starter.</strong>
           <p>You keep talking wherever the conversation already lives.</p>
         </div>
       </div>
@@ -326,7 +326,7 @@ function ExploreView({ mode, onOpen, onGames }) {
         <div>
           <p className="mini-label">{mode === 'friend' ? 'Friends mode' : 'Relationship mode'}</p>
           <h1>What do you feel like talking about?</h1>
-          <p>Pick a direction, get one starter and bring it into the conversation you already have.</p>
+          <p>Pick what fits the moment. Willow gives you one natural thing to ask, say or send.</p>
         </div>
         <button className={cx('surprise-card', mode)} onClick={() => {
           const available = allCategories.filter(category => getCards({ categoryId: category.id, mode }).length)
@@ -356,7 +356,7 @@ function ExploreView({ mode, onOpen, onGames }) {
 
       <section className="library-section">
         <div className="section-heading">
-          <div><p className="mini-label">Conversation starters</p><h2>Talk about anything</h2></div>
+          <div><p className="mini-label">Conversation starters</p><h2>Find something worth saying</h2></div>
           <span>{conversationCategories.length} categories</span>
         </div>
         <div className="category-grid">
@@ -367,9 +367,9 @@ function ExploreView({ mode, onOpen, onGames }) {
       <button className="games-banner" onClick={onGames}>
         <span className="games-banner-icon"><Game size="28" variant="Bold" /></span>
         <span>
-          <small>Game-style starters</small>
-          <strong>Get something more playful to send or say.</strong>
-          <p>StayUp supplies the prompt. You play it in your chat, call or face to face.</p>
+          <small>Games</small>
+          <strong>Play something together.</strong>
+          <p>Choose a game, get the next prompt, then keep playing in your chat, call or face to face.</p>
         </span>
         <ArrowRight2 size="23" />
       </button>
@@ -383,8 +383,8 @@ function GamesView({ mode, onOpen }) {
       <header className="view-hero single">
         <div>
           <p className="mini-label">Game-style conversation starters</p>
-          <h1>Pick a format. Get the next thing to send.</h1>
-          <p>StayUp does not collect answers or run the game. It gives you the card, then you use it in WhatsApp, iMessage, Instagram, a call or in person.</p>
+          <h1>Pick a game.</h1>
+          <p>Choose how you want to play. Willow gives you the prompts while your conversation stays where it already is.</p>
         </div>
       </header>
       <section className="library-section no-gap">
@@ -587,7 +587,7 @@ function EmptyPool({ category, onClearFilters }) {
     <div className="empty-pool">
       <Refresh size="35" />
       <h2>No published starter matches these filters yet.</h2>
-      <p>{category?.name} still has editorial gaps in this combination. StayUp will not manufacture filler to hide them.</p>
+      <p>{category?.name} still has editorial gaps in this combination. Willow will not manufacture filler to hide them.</p>
       <button onClick={onClearFilters}>Clear filters</button>
     </div>
   )
@@ -757,7 +757,7 @@ function SearchView({ mode, stage, adult, query, setQuery, onOpenCard }) {
   return (
     <div className="view-shell search-view">
       <header className="search-header">
-        <p className="mini-label">Search StayUp</p>
+        <p className="mini-label">Search Willow</p>
         <h1>Find the conversation you have in mind.</h1>
         <div className="search-box">
           <SearchNormal1 size="22" />
