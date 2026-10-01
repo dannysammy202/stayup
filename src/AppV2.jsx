@@ -708,12 +708,15 @@ function PlayView({ categoryId, mode, intensity, onIntensity, stage, onStage, ad
           <>
             <article className={cx('prompt-card', mode, isGameCategory(categoryId) && 'game-card')}>
               <div className="prompt-card-head">
-                <div className="card-labels">
-                  <span>{current.intensity}</span>
-                  {current.subtype ? <span>{current.subtype}</span> : null}
-                  {current.audience === '18+' ? <span>18+</span> : null}
+                <div className="prompt-context">
+                  <span className="prompt-category-icon"><CategoryIcon category={category} size={18} /></span>
+                  <div className="card-labels">
+                    <span>{current.intensity}</span>
+                    {current.subtype ? <span>{current.subtype}</span> : null}
+                    {current.audience === '18+' ? <span>18+</span> : null}
+                  </div>
                 </div>
-                <button className={cx('save-card', favourites.includes(current.id) && 'saved')} onClick={toggleFavourite}>
+                <button className={cx('save-card', favourites.includes(current.id) && 'saved')} onClick={toggleFavourite} aria-label={favourites.includes(current.id) ? 'Remove from saved' : 'Save starter'}>
                   <Heart size="21" variant={favourites.includes(current.id) ? 'Bold' : 'Linear'} />
                 </button>
               </div>
