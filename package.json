@@ -1,26 +1,15 @@
 {
-  "name": "stayup-conversation-app",
+  "name": "saymore-conversation-companion",
   "private": true,
-  "version": "2.0.0",
+  "version": "1.0.0",
   "type": "module",
-  "engines": {
-    "node": ">=20"
-  },
   "scripts": {
-    "dev": "vite",
-    "audit:structure": "node scripts/audit-content.mjs",
-    "audit:content": "node scripts/audit-content.mjs --strict",
-    "audit:prompts": "node scripts/audit-content.mjs --strict",
-    "prebuild": "node scripts/audit-content.mjs --strict",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "start": "node server.mjs",
+    "dev": "node --watch server.mjs"
   },
-  "dependencies": {
-    "@vitejs/plugin-react": "^4.3.3",
-    "iconsax-react": "^0.0.8",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "vite": "^5.4.10"
-  },
-  "devDependencies": {}
+  "engines": {
+    "node": ">=22"
+  }
 }
