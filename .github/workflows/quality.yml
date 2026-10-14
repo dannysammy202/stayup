@@ -1,0 +1,18 @@
+name: Say More quality checks
+on:
+  push:
+    branches: [main, fix/use-iconsax-consistently]
+  pull_request:
+    branches: [main]
+jobs:
+  test-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify server and Iconsax assets
+        run: npm test
+      - name: Build PWA
+        run: npm run build
