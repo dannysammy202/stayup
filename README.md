@@ -1,54 +1,17 @@
-# StayUp Conversation App
+# Say More — Conversation Companion
 
-StayUp is a React conversation-starter library for people who are already talking through WhatsApp, FaceTime, normal calls, DMs or in person. One person opens the site, finds a prompt, then copies it or says it aloud.
+This repository replaces the previous StayUp application while keeping the existing `dannysammy202/stayup` repository and its Vercel connection.
 
-The product name is temporary. Change `APP_NAME` in `src/config.js` and the page title in `index.html` when the final name is ready.
+## Features
 
-## Included
+Approved responsive Say More homepage; 19 topics; six moods; optional audience filtering; searchable curated library; feed and Focus mode; More Angles; Save, Hide, History, Surprise Me; optional Gemini-generated prompts; separate curated 18+ mode; PWA shell.
 
-- Friends and Relationship modes on every category
-- 1,000 distinct prompt cards per mode for every conversation category
-- 1,000 distinct prompt cards per mode for every game category
-- Truth or Dare includes 1,000 Truth prompts plus 1,000 Dare prompts per mode
-- 50,000 prompt cards across both modes
-- Relationship stages: Talking Stage, New Relationship, Been Together a While, Long-Term, Married
-- Intensity filters: Chill, Interesting, Deep, No Filter, plus Flirty and Spicy in Relationship mode
-- General and 18+ audience controls
-- General Spirituality and Christian filters for Faith & Spirituality
-- Search across the prompt library
-- Copy, Share, Save, Previous, Random and Give me another one actions
-- Focus mode for long calls and chats
-- Favourites, history, seen prompts and last position saved in localStorage
-- No account, room, score system or multiplayer requirement
-- Mobile-first responsive layout plus full desktop workspace
-- Separate accent treatment for Friends and Relationship modes
+## Running
 
-## Games
+Node 22 or later. Run `npm start` to serve the app locally on port 4173. Run `npm test` for tests and `npm run build` for a static Vercel-ready `dist/` folder. No dependencies to install.
 
-- Truth & Dare
-- Never Have I Ever
-- Two Truths & A Lie
-- Kiss, Marry, Avoid
-- What Would You Do?
-- If You Had To Choose
-- Who Is More Likely To?
-- How Well Do You Know Me?
-- Finish the Sentence
+## Production
 
-## Run locally
+Vercel builds the static app into `dist/` and serves the `api/ai/generate.js` and `api/health.js` functions. Set `GEMINI_API_KEY` in the Vercel project environment to enable AI. Never commit secrets. Google Gemini IDs: `gemini-3.6-flash` for prompts and surprise, `gemini-3.8-flash` for more angles.
 
-```bash
-npm install
-npm run dev
-```
-
-## Production build
-
-```bash
-npm run build
-npm run preview
-```
-
-The production build runs `scripts/expand-to-1000.mjs` before Vite so the full 1,000-prompt pools and matching UI counts stay in sync.
-
-The project uses Vite and React only. No backend is required for the current version.
+Curated browsing remains available without Gemini. Adults-only prompts stay out of Gemini generation. Adult age confirmation and in-memory quotas are MVP safeguards, not verified age assurance or a distributed production rate limit. Complete age eligibility controls, persistent usage protection, editorial review, 200-prompt library and live Gemini API testing before wider public launch.
