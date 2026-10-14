@@ -159,7 +159,7 @@ const TOPIC_ICONS=["heart","people","sun","emoji","home","money","global","profi
 const MOOD_ICONS={Chill:'sun',Playful:'spark',Curious:'circle',Deep:'moon',Flirty:'heart',Bold:'flash'};
 /* All interface icons use official Iconsax Linear SVG assets. */
 const ICONS=window.SAYMORE_ICONSAX||{};
-function icon(k){return ICONS[k]||ICONS.info;}
+function icon(k){return ICONS[k==='sparkles'?'spark':k]||ICONS.info;}
 const STORAGE='conversation-companion-proto-v4';
 const restore=(()=>{try{return JSON.parse(localStorage.getItem(STORAGE)||'{}')}catch{return {}}})();
 let state={view:'explore',mood:'All moods',topic:'All topics',audience:'Anyone',query:'',saved:restore.saved||[],seen:restore.seen||[],hidden:restore.hidden||[],large:!!restore.large,compact:!!restore.compact,adult:false,adultUnlocked:false,focus:null,angles:false,overlay:null,confirmedAdult:false,randomMode:false,feedKey:null,feedOrder:[]};
