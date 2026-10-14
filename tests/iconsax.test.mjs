@@ -20,7 +20,7 @@ test('bundled icons use genuine Iconsax Linear artwork', () => {
     assert.match(svg, /^<svg aria-hidden="true"/, name);
     assert.match(svg, /viewBox="0 0 24 24"/, name);
     assert.match(svg, /stroke="currentColor"/, name);
-    assert.ok(svg.endsWith('</svg>'), name);
+    assert.ok(svg.trimEnd().endsWith('</svg>'), name);
   }
 });
 
