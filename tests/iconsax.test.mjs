@@ -31,7 +31,8 @@ test('the approved interface loads Iconsax before application code', () => {
     assert.ok(position > previous, `bundle ${part} order`);
     previous = position;
   }
-  assert.ok(previous < html.indexOf('<script>const DATA') || previous < html.indexOf('<script>\nconst DATA'));
+  const appScriptPosition = html.indexOf('<script>\nconst DATA');
+  assert.ok(appScriptPosition > previous, 'Iconsax loads before app script');
   assert.ok(html.includes('const ICONS=window.SAYMORE_ICONSAX||{};'));
   assert.ok(html.includes("k==='sparkles'?'spark':k"));
 });
