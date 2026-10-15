@@ -203,3 +203,105 @@ Target: 500. Entries remain editorial drafts until human approval.
    _SM-001599 · Scenario · pending editorial review_
 100. Having a clear plan for our next catch-up or leaving room for a simple last-minute idea?  
    _SM-001600 · Quick choice · pending editorial review_
+
+
+101. Which corner of your hometown would you show a visitor before any of the famous attractions?  
+   _SM-001601 · Question · pending editorial review_
+102. The most memorable local guide often knows the quiet places rather than the popular landmarks.  
+   _SM-001602 · Hot take · pending editorial review_
+103. We arrive in the area where you grew up with forty minutes to spare. Where do you take me first?  
+   _SM-001603 · Scenario · pending editorial review_
+104. Walking through streets you knew at school or visiting the places you spend time in now?  
+   _SM-001604 · Quick choice · pending editorial review_
+105. Tell me about a shop or street corner you remember for a reason nobody else would guess.  
+   _SM-001605 · Story starter · pending editorial review_
+106. People often describe their old neighbourhoods through details a travel guide would overlook.  
+   _SM-001606 · Observation · pending editorial review_
+107. Is there a sound or smell which immediately makes a place feel familiar to you?  
+   _SM-001607 · Question · pending editorial review_
+108. An ordinary neighbourhood café sometimes tells a better story about a city than its biggest attraction.  
+   _SM-001608 · Hot take · pending editorial review_
+109. I ask for somewhere peaceful near your home, but the usual parks are crowded. Where do we go?  
+   _SM-001609 · Scenario · pending editorial review_
+110. Exploring a small town on foot or taking a slow drive through an unfamiliar city?  
+   _SM-001610 · Quick choice · pending editorial review_
+111. Which fictional character would you enjoy having a completely ordinary conversation with?  
+   _SM-001611 · Question · pending editorial review_
+112. A good book recommendation comes with a reason rather than an instruction to read it.  
+   _SM-001612 · Hot take · pending editorial review_
+113. We're browsing a bookshop and choose a title for each other using only the covers. How risky is your pick?  
+   _SM-001613 · Scenario · pending editorial review_
+114. A short story which leaves you thinking or a long novel where you miss the characters afterwards?  
+   _SM-001614 · Quick choice · pending editorial review_
+115. Tell me about a story somebody told you aloud which stayed with you longer than expected.  
+   _SM-001615 · Story starter · pending editorial review_
+116. The books people abandon sometimes reveal as much about their tastes as the ones they finish.  
+   _SM-001616 · Observation · pending editorial review_
+117. Do you remember the first book which kept you awake longer than you intended?  
+   _SM-001617 · Question · pending editorial review_
+118. Different reading tastes give people more stories to exchange, even when their favourites never overlap.  
+   _SM-001618 · Hot take · pending editorial review_
+119. You find a handwritten note inside a second-hand book. Would you read it or leave it for the next owner?  
+   _SM-001619 · Scenario · pending editorial review_
+120. Reading quietly side by side or listening to someone read a funny passage aloud?  
+   _SM-001620 · Quick choice · pending editorial review_
+121. What kind of weather makes you want to go out rather than stay indoors?  
+   _SM-001621 · Question · pending editorial review_
+122. A sudden change in weather sometimes improves a day more than following the original plan.  
+   _SM-001622 · Hot take · pending editorial review_
+123. We're halfway through a walk when light rain starts. Do we find shelter or finish the route?  
+   _SM-001623 · Scenario · pending editorial review_
+124. Watching the sunset from somewhere high or taking an early walk while the streets are quiet?  
+   _SM-001624 · Quick choice · pending editorial review_
+125. Tell me about a day when the weather changed your plans and left you with a better story.  
+   _SM-001625 · Story starter · pending editorial review_
+126. The same street looks different after rain, especially when everyone moves at a slower pace.  
+   _SM-001626 · Observation · pending editorial review_
+127. Have you ever travelled somewhere mainly to see its landscape in person?  
+   _SM-001627 · Question · pending editorial review_
+128. Enjoying the outdoors doesn't require turning every outing into an exhausting adventure.  
+   _SM-001628 · Hot take · pending editorial review_
+129. I bring a picnic blanket but forget the food. What's the funniest reasonable way to rescue our afternoon?  
+   _SM-001629 · Scenario · pending editorial review_
+130. A garden full of flowers or a waterfront spot where you hear the water moving?  
+   _SM-001630 · Quick choice · pending editorial review_
+131. What's the most unexpected place you've seen an animal going about its day?  
+   _SM-001631 · Question · pending editorial review_
+132. People's reactions to an overly friendly dog often start surprisingly good conversations.  
+   _SM-001632 · Hot take · pending editorial review_
+133. A curious cat sits beside us at an outdoor café. Who is more likely to make friends with it?  
+   _SM-001633 · Scenario · pending editorial review_
+134. Spending an afternoon around horses or visiting an aquarium to watch sea creatures?  
+   _SM-001634 · Quick choice · pending editorial review_
+135. Tell me about an animal encounter which still makes you smile when you remember it.  
+   _SM-001635 · Story starter · pending editorial review_
+136. Some animals behave as though every visitor has arrived specifically to see them.  
+   _SM-001636 · Observation · pending editorial review_
+137. If you had a garden with space for wildlife, what would you most enjoy seeing there?  
+   _SM-001637 · Question · pending editorial review_
+138. You don't need to own a pet to appreciate somebody's endless stories about theirs.  
+   _SM-001638 · Hot take · pending editorial review_
+139. We're walking past a rescue centre with an open day. Would you stop to meet the animals?  
+   _SM-001639 · Scenario · pending editorial review_
+140. Watching playful puppies for an hour or learning how birds recognise their surroundings?  
+   _SM-001640 · Quick choice · pending editorial review_
+141. What's your favourite part of a birthday when nobody expects a big celebration?  
+   _SM-001641 · Question · pending editorial review_
+142. Remembering why a date matters to someone feels more thoughtful than making a fuss about it.  
+   _SM-001642 · Hot take · pending editorial review_
+143. A friend invites us to a small celebration with no dress code. What would you wear to feel comfortable?  
+   _SM-001643 · Scenario · pending editorial review_
+144. A surprise cake with a few close people or a relaxed meal where everyone knows the plan?  
+   _SM-001644 · Quick choice · pending editorial review_
+145. Tell me about a celebration where something small went wrong and became everyone's favourite memory.  
+   _SM-001645 · Story starter · pending editorial review_
+146. The best part of some parties happens in the kitchen while everyone else looks for the music.  
+   _SM-001646 · Observation · pending editorial review_
+147. Are you more likely to keep birthday cards or the photographs people take on the day?  
+   _SM-001647 · Question · pending editorial review_
+148. A celebration doesn't have to be loud to feel worth remembering.  
+   _SM-001648 · Hot take · pending editorial review_
+149. We're helping set up a friend's party, but the decorations arrive late. Which task would you volunteer to handle?  
+   _SM-001649 · Scenario · pending editorial review_
+150. Making a homemade gift for someone or taking them to choose something they genuinely want?  
+   _SM-001650 · Quick choice · pending editorial review_
