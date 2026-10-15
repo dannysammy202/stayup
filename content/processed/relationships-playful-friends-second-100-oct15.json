@@ -1,0 +1,507 @@
+{
+  "topic": "Relationships",
+  "mood": "Playful",
+  "audience": "Friends",
+  "prompts": [
+    {
+      "format": "Question",
+      "text": "What's the funniest way one of our friends has tried to introduce their partner to the group?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a first meeting with a friend's partner that quickly became a warm memory.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Meet a friend's new partner over dinner or during a casual group activity?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your friend brings somebody new to game night and they don't understand the running jokes. How would you include them?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "A person's friendships often change shape when they begin a serious relationship.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A good group makes room for new partners without requiring everyone to become instantly close.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which shared hobby would help a friend's new partner feel welcome in the group?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time a friend's partner introduced an unexpectedly fun tradition.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Our friend wants to organise a small gathering for their partner, who dislikes surprises. What might work?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A thoughtful welcome note or a relaxed activity without formal introductions?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which friend always seems to know when someone needs cheering up?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a small supportive gesture that brought the group closer.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Offer a helpful errand or arrange a light-hearted afternoon together?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "One of our friends is coping with an exhausting week and wants company without conversation. What would we suggest?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "A familiar friendship sometimes feels most comfortable when nobody expects entertainment.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Being reliable doesn't require solving everybody's problems.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's one gesture that says someone understands how you handle stress?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a friend quietly adjusting plans to make a difficult day easier.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A friend declines our plans several times in a row. How might we check in without making them defensive?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A short encouraging message or an offer to help with a practical task?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Who in our circle gives advice that starts seriously and ends with an unexpected joke?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about advice from a friend that sounded silly until it proved useful.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Ask for a friend's first instinct or request their detailed reasoning?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "One friend wants a second opinion about a tricky social invitation. How would you help them weigh it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People offer advice based partly on what worked for them, even when circumstances differ.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "The most useful advice sometimes ends with asking what the person already wants.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What question has a friend asked that helped you reach your own decision?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall someone respectfully disagreeing with your choice and supporting you afterwards.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Our friend is torn between attending two important events. What's a fair way to discuss the options?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Get feedback from one trusted friend or hear several different viewpoints?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's the most unexpected common interest you've had with a friend's relative?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a friend's family welcoming you as though you'd known them for years.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Learn a recipe from a friend's parent or hear their funniest story from school days?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You attend a friend's family celebration and don't recognise anyone. What's a comfortable way to start chatting?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Friendships sometimes bring people into family traditions they never grew up with.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Being a guest works better when you're interested in the occasion rather than trying to impress everyone.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which family tradition have you enjoyed because a friend introduced you to it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a time a friend's sibling revealed an unexpected side of their personality.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Our friend invites the group to an unfamiliar ceremony. What should we ask before attending?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Join a friend's holiday meal or attend their favourite annual community event?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which friend is most likely to notice a change in your usual routine?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall someone asking an unusually specific question because they'd been paying attention.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Have friends remember your usual order or your favourite way to spend a free afternoon?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your closest friends create a quiz about your tastes, but you get half the answers wrong. What might surprise you?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People sometimes remember the habits they see in a friend better than the friend does.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Remembering somebody's boundaries is more meaningful than memorising every favourite.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a harmless detail about you that your friends remember better than you do?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe the time a friend predicted your reaction with uncanny accuracy.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We each submit one question to a quiz about our friendship group. What would yours test?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Guess everyone's hidden talents or test how well we know their favourite places?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's the most absurd reason your group has ever nearly cancelled an outing?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a last-minute change that turned a dull gathering into a great memory.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Let the most organised friend plan the whole day or let everyone choose one stop?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "One friend wants adventure, another wants quiet, and the others want food. What itinerary would make everyone smile?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Successful gatherings often involve small adjustments nobody announces.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "The best group organisers leave space for different energy levels.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Who among our friends is best at spotting an easy compromise?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a friend proposing an alternative that everyone liked more than the original plan.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Our group has a tiny outing budget and wildly different ideas. What would you ask everyone to prioritise?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Repeat an outing that worked brilliantly or risk trying a new activity together?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which pair of friends have completely different personalities but get along brilliantly?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about two people who became close after initially disagreeing about everything.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Have a friend who shares your humour or one who introduces you to unfamiliar interests?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Two friends have opposite opinions about the same film. What question would get them talking rather than arguing?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Difference in temperament sometimes makes a friendship easier because people contribute different strengths.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "You don't need identical personalities to care about the same values.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What difference between you and a friend has become something you appreciate?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a friendship teaching you to be more patient with a different communication style.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A friend who loves planning joins forces with one who improvises. How would you divide their tasks?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A patient listener who loves details or a lively storyteller who keeps things moving?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's an unexpected sign that two people are comfortable around each other?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a conversation that became funny because neither person felt the need to act impressive.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Share comfortable silence with friends or exchange short stories over tea?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Two close friends decide to spend an afternoon together without screens. How would they keep it relaxed?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Close friends sometimes communicate whole reactions with a look across the room.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A relationship feels easier when people stop interpreting every quiet moment as a problem.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which shared look or gesture has become a joke among your friends?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall an occasion when a friend knew what you meant before you'd finished explaining.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We try to communicate an ordinary message across a room without speaking. Who would be best at it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A friendship that thrives on conversation or one that thrives on shared activities?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's one friendship expectation you've outgrown without realising?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about reconnecting with someone and discovering your routines had changed.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Meet an old friend for a familiar meal or show them a new part of your life?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A friend moves away and your group starts missing their usual contributions. What new tradition would include them?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People adapt their friendships as their responsibilities and priorities shift.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A meaningful friendship doesn't require somebody to remain the same person you met years ago.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a change in a friend's life that made you admire them more?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a reunion where a friend surprised you with a new hobby or ambition.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Our friend returns after living elsewhere for years. How might we welcome them without treating them like their old self?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Trade stories about how we've changed or revisit a favourite shared memory?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a harmless topic our friendship group debates far more often than necessary?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about the time a casual disagreement turned into a recurring group joke.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Create an annual silly debate night or a friendly award show about everybody's quirks?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We have to name one friendly rule for keeping disagreements playful. What would it be?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Long friendships accumulate funny disagreements that aren't serious enough to resolve.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Knowing when a joke has run its course is a friendship skill worth practising.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which debate between friends would you happily reopen purely for the entertainment?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a person joining your group's debate and making an unexpectedly good point.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A friendly argument breaks out over which shared memory happened first. How should we choose a winner?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Settle a harmless disagreement with a vote or let someone tell the best story?",
+      "relatedThemes": []
+    }
+  ]
+}
