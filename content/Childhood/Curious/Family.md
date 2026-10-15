@@ -305,3 +305,45 @@ Initial target: 200. Entries remain editorial drafts until human approval.
    _SM-006149 · Scenario · pending editorial review_
 150. What family responsibility taught you the most about working with other people?  
    _SM-006150 · Question · pending editorial review_
+
+
+151. What programme did you rush home to watch when you were younger?  
+   _SM-006151 · Question · pending editorial review_
+152. Tell me about a family evening when everyone gathered around the same television or radio.  
+   _SM-006152 · Story starter · pending editorial review_
+153. We organise a retro entertainment night for the family. What should appear on the programme?  
+   _SM-006153 · Scenario · pending editorial review_
+154. Listen to old radio stories together or watch an episode of a childhood television favourite?  
+   _SM-006154 · Quick choice · pending editorial review_
+155. Waiting for a programme to air gave families a different kind of shared anticipation.  
+   _SM-006155 · Observation · pending editorial review_
+156. Some childhood shows are more enjoyable to remember than to rewatch.  
+   _SM-006156 · Hot take · pending editorial review_
+157. What advert or theme tune from childhood do you still remember without trying?  
+   _SM-006157 · Question · pending editorial review_
+158. Describe an entertainer who made a lasting impression on you when you were young.  
+   _SM-006158 · Story starter · pending editorial review_
+159. A younger relative asks why people used to plan their evenings around television schedules. How would you explain it?  
+   _SM-006159 · Scenario · pending editorial review_
+160. Which childhood programme would you enjoy showing someone who has never heard of it?  
+   _SM-006160 · Question · pending editorial review_
+161. What question did you ask adults repeatedly because their answers never quite satisfied you?  
+   _SM-006161 · Question · pending editorial review_
+162. Tell me about a childhood question that led to a surprisingly interesting family discussion.  
+   _SM-006162 · Story starter · pending editorial review_
+163. A child asks why people in our family speak more than one language. Where would you begin?  
+   _SM-006163 · Scenario · pending editorial review_
+164. Answer a child's question with a demonstration or find a book to read together?  
+   _SM-006164 · Quick choice · pending editorial review_
+165. Children sometimes notice contradictions that adults have learned to ignore.  
+   _SM-006165 · Observation · pending editorial review_
+166. A thoughtful 'I don't know' is better than an answer an adult has made up on the spot.  
+   _SM-006166 · Hot take · pending editorial review_
+167. What's something you misunderstood as a child because nobody explained the full story?  
+   _SM-006167 · Question · pending editorial review_
+168. Describe an adult who took one of your childhood questions seriously.  
+   _SM-006168 · Story starter · pending editorial review_
+169. A younger relative asks why two generations remember the same event differently. How might we discuss it?  
+   _SM-006169 · Scenario · pending editorial review_
+170. What would you ask your younger self about the things they were curious about?  
+   _SM-006170 · Question · pending editorial review_
