@@ -1,0 +1,507 @@
+{
+  "topic": "Music",
+  "mood": "Chill",
+  "audience": "Friends",
+  "prompts": [
+    {
+      "format": "Question",
+      "text": "Which song became more meaningful after you heard it with friends?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about an ordinary journey that a shared playlist made unforgettable.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Each friend picks one song for the drive or one person curates the whole soundtrack?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We have fifteen minutes before leaving for a trip. How would we agree on the first three songs?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "A song can remind several people of the same day for completely different reasons.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "The most memorable group soundtrack isn't necessarily the one with the biggest hits.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What track reminds you of a friendship that began unexpectedly?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall someone choosing music that matched the group's mood better than you expected.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Everyone contributes one track to a friendship time capsule. What would you choose and why?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A playlist of songs we discovered together or one filled with our oldest favourites?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What local sound or musical tradition makes you feel connected to where you grew up?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe hearing music from home in an unfamiliar place.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Explore a traditional instrument together or learn the history of a popular local rhythm?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A visiting friend asks us to play music that represents our city. What range of sounds should we include?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "The music people associate with a place often reaches far beyond its famous artists.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "An unfamiliar regional song can tell a good story even when you don't understand every word.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which artist from your home region deserves to be heard more widely?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall learning the meaning of a local song from an older relative or neighbour.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We're helping a new resident discover the city's music scene. Where would we begin?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Attend a small local performance or watch musicians explain how they make their music?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which album have you enjoyed most when listening from beginning to end?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about changing your mind on a record after giving it a second listen.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Play an album without interruptions or discuss each track as we go?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Two friends pick very different albums for the same evening. How could we give both a fair listen?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Some records reward quiet attention more than a quick search for a catchy chorus.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A favourite album doesn't need every track to be equally strong.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What opening song makes an album feel like it has a clear direction?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall somebody pointing out a musical detail you'd missed on an album you knew well.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We're each asked to recommend one complete record to a friend who rarely listens to albums. What would guide our choices?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Revisit an album from our teenage years or discover a recent release together?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's the first live performance you remember genuinely enjoying?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe arriving at a concert without knowing the artist and leaving impressed.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A small acoustic set where we hear every detail or a lively outdoor performance with friends?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Our group has tickets, but one person prefers to avoid the crowd. How should we plan the evening?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Live music changes how familiar songs feel when performers respond to the audience.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "The best concert memory can come from the company rather than the most expensive seats.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which song would you love to hear performed with only one instrument?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a performer unexpectedly changing the arrangement of a song you knew.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A friend is attending their first concert. What would you tell them to bring or expect?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Stand close to the performance or sit somewhere comfortable with a clear view?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which instrument would you learn if you had a friend willing to practise with you?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about seeing somebody play an instrument in a way that made it look effortless.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Learn basic keyboard chords or try simple guitar patterns as beginners?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We've borrowed an instrument for one afternoon. How would we explore it without pretending to be experts?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Watching a musician practise can teach more about patience than watching a finished performance.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Playing one song well with friends can be more satisfying than learning fragments of twenty.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which sound would you want to understand how a musician produces?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall learning the difference between two instruments that you'd always confused.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A friend asks what makes an instrument difficult to learn. What would you want a player to demonstrate?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Attend a friendly beginner workshop or watch an instrumentalist explain their process?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "When have friends introduced you to a genre you wouldn't have explored alone?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a recommendation that seemed outside your taste until you heard the right track.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Trade songs from unfamiliar genres or each defend a guilty pleasure from our playlists?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We make a listening game where nobody can mention a song's genre until it finishes. What would we learn?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People often have wider musical tastes than the labels they use for themselves.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "It's easier to discover music when you don't have to pretend to like every recommendation.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What genre do you understand better now than when you first heard it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a song that helped you appreciate a style you'd previously ignored.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Someone in our group dislikes a genre the rest of us enjoy. How could we explore the difference without arguing?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Hear one artist's influences or trace how a musical style changed over decades?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a piece of music you associate with a particular time of day?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a morning when background music completely changed your mood.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Start a relaxed weekend with soft instrumentals or upbeat songs that make everyone move?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We're preparing dinner together and want music that doesn't drown out conversation. What would you play?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "The same song can feel energising one day and soothing on another.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A playlist should suit what people are doing rather than how trendy the tracks are.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which sound helps you settle into reading or focused work?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall hearing a song that made a long, ordinary task feel easier.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Our shared workspace has different music preferences. What listening rules would keep everyone comfortable?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A quiet playlist in the background or take turns choosing one featured song?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What makes a musical collaboration between friends sound genuine?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a recording where different artists brought out unexpected qualities in one another.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Listen to a duet with distinct voices or a group performance built around harmonies?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We're asked to make a two-minute musical performance with no recording experience. How would we divide the roles?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Collaborations are more interesting when the musicians leave room for one another's styles.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A good featured artist should add something beyond a recognisable name.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which two artists would you pair for a collaboration based on their different strengths?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall noticing a backing vocal or instrumental part that made an entire song work.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We want to understand how a track was arranged. Which part should we listen to in isolation first?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Watch musicians rehearse together or hear them discuss the finished track afterwards?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which kind of songwriting story makes you appreciate a song more?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about learning the inspiration behind a track and hearing it differently afterwards.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Discuss a song's storytelling or focus on its melody and production?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We each choose a song with a strong message but different musical styles. What would we compare?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "A person's relationship to a song can shift as their own experiences change.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A simple lyric can be effective without trying to sound complicated.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a topic you wish more musicians explored in ordinary, relatable language?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a song that encouraged an interesting conversation among your friends.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A friend loves a song whose message you interpret differently. How would you compare interpretations?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Hear a songwriter explain their creative decisions or listen without knowing any background?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a musical memory from a family celebration that still makes you smile?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe somebody unexpectedly becoming the best dancer at an otherwise quiet gathering.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Keep the original music from a favourite celebration or recreate the atmosphere with new songs?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We are building a playlist for a reunion across several generations. How should we make space for everyone?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Celebrations create shared musical memories even between people with little overlap in taste.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A well-timed familiar song can mean more than a professionally mixed set.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which song gets relatives or friends singing together almost immediately?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall learning a dance or chorus from somebody older at a gathering.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Our friends are hosting a relaxed reunion with limited space. What kind of music would suit it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A friendly karaoke round or a playlist where everyone explains one memory?",
+      "relatedThemes": []
+    }
+  ]
+}
