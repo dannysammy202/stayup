@@ -57,6 +57,18 @@ test('two complete combinations are available with accurate editorial status',()
 });
 
 
+test('published collections remain exclusive to their intended audience',()=>{
+ const cohorts=new Map();
+ for(const row of published){
+   const audience=row.audiences[0];
+   cohorts.set(audience,(cohorts.get(audience)||0)+1);
+ }
+ assert.equal(cohorts.get('Anyone'),500);
+ assert.equal(cohorts.get('Someone new'),500);
+ assert.equal(cohorts.size,2);
+ assert.match(html,/p\.source==='published-library'\?p\.audiences\.includes\(state\.audience\)/);
+});
+
 test('app exposes the complete collection without an arbitrary 72-starter limit',()=>{
  assert.match(html,/return matches;/);
  assert.doesNotMatch(html,/matches\.length<=72/);
