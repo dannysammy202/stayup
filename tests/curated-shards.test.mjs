@@ -12,7 +12,7 @@ test('validated shard index tracks the 139,200-slot initial target with expanded
  assert.equal(selector.assertManifest(manifest),true);
  assert.equal(manifest.targetPerCombination,200);
  assert.equal(manifest.targetCount,139200);
- assert.equal(manifest.remainingToTarget,137400);
+ assert.equal(manifest.remainingToTarget,manifest.targetCount-manifest.coverageCount);
  assert.equal(manifest.contentDelivery.externalUploadRequired,false);
  assert.equal(manifest.publishedCollections.reduce((n,c)=>n+c.loadedCount,0),manifest.publishedCount);
 });
