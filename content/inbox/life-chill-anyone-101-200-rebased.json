@@ -1,0 +1,507 @@
+{
+  "topic": "Life",
+  "mood": "Chill",
+  "audience": "Anyone",
+  "prompts": [
+    {
+      "format": "Question",
+      "text": "What's a photograph you value because of what happened just outside the frame?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe discovering an old picture that reminded you of a detail you'd forgotten.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Keep a small printed album or organise your favourite pictures into digital collections?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You can preserve five ordinary moments from this year in a time capsule. What would you photograph?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People often treasure unplanned pictures more than perfectly posed ones.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Not every meaningful experience needs to be photographed.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which kind of moment makes you reach for your camera almost automatically?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall seeing a familiar place in an old photo and noticing what has changed.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You're asked to make a photo essay about an ordinary week without showing any faces. What would you include?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Capture a daily detail for one month or revisit the same location once each season?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's the easiest way for you to remember a task that isn't urgent?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about creating a simple reminder system after forgetting something small.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Write a short daily list or keep one calendar for everything that has a date?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You've got three free hours and several unrelated errands. What would help you choose the order?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Some tasks become overwhelming because people carry them around mentally rather than writing them down.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A system that takes more effort than the chores it tracks isn't a useful system.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which small organisational trick has saved you more trouble than you expected?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a day when planning ahead left you with an unexpected pocket of free time.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You have an important appointment and a few optional tasks nearby. How would you avoid rushing?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Group similar tasks together or handle each one as soon as it appears?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's something you enjoy about travelling through your city without being the person driving?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe overhearing a harmless conversation during a journey that stayed with you.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Sit by a bus window and observe the streets or spend the ride reading?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A usual route is closed for a day. How would you decide whether to explore an alternative?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Commuting can make people surprisingly familiar with places they've never actually stopped to visit.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "The best route isn't always the one that saves the most minutes.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which view along a familiar journey do you still look for?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall noticing a change to a street you hadn't walked along for months.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You have the choice between a direct but dull journey and a slightly longer scenic one. What would guide you?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Listen to a podcast during transit or spend the time thinking without headphones?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a comfortable piece of clothing you return to more often than you planned?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about finding an item you liked after years of thinking that style wasn't for you.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Keep a small wardrobe of versatile favourites or enjoy changing your style regularly?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You're packing for a three-day visit with unpredictable weather. Which practical items come first?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People often express personal style through small repeated choices rather than dramatic outfits.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Comfort and good presentation don't have to be competing goals.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which colour do you enjoy wearing even when it isn't fashionable?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall someone complimenting a garment because they remembered the story behind it.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You can repair or alter one old piece of clothing you still love. What would you change?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Find a dependable tailor or learn a few basic clothing repairs yourself?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a useful thing you learnt from spending time with a neighbour?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a small local event that made an area feel more welcoming.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Join a neighbourhood clean-up or help organise a relaxed community gathering?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A new resident asks how people usually meet one another nearby. What would you recommend?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "A sense of belonging often develops through repeated ordinary encounters.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Community involvement doesn't require becoming close friends with everyone.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which shared resource would make everyday life easier in your area?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall somebody in your neighbourhood offering unexpected help with a practical problem.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your building creates a noticeboard where residents can exchange useful information. What categories should it have?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Share extra books through a small library or organise a tool-lending shelf?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "How do you decide when to put your phone away for a while?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about an afternoon that felt longer because you spent less time checking notifications.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Keep only essential notifications or set aside a specific period for checking messages?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You plan a relaxed day in a place with poor mobile reception. What would you enjoy doing differently?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Digital conveniences sometimes create habits people never deliberately chose.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Being reachable doesn't mean needing to reply immediately to every harmless update.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What everyday activity would you enjoy more if your phone weren't within reach?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a time a technology problem led you to rediscover an older way of doing something.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You're helping somebody new to smartphones set up a calmer home screen. What would you prioritise?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Read on a dedicated e-reader or open a physical book when you want a break from apps?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which plant or tree do you enjoy seeing change through the year?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe successfully growing something you didn't initially know how to care for.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Keep a few hardy houseplants or grow simple herbs in containers?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You inherit a small balcony with enough sunlight for only a few pots. What would you plant?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Looking after a living thing can make small changes over time easier to notice.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A modest garden deserves appreciation even if it never produces much food.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What have you learnt from trying to care for a plant that struggled?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall visiting a garden that made you want to try growing something at home.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A friend gives you a plant without care instructions. How would you find out what it needs?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Watch seedlings grow from the beginning or look after an established plant with a story?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a kind of book you enjoy returning to even after you know how it ends?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about reading something that made an ordinary situation feel newly interesting.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Read a few pages every evening or settle into longer sessions when you have free time?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You visit a bookshop with a small budget and no particular title in mind. How do you choose?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Reading habits can shift with people's routines without changing their love of stories.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A short book that stays with you is worth more than a long book you struggle to finish.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which non-fiction subject would you explore if you could find a beginner-friendly book about it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall someone recommending reading material at exactly the right moment for you.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A neighbourhood book club asks you to suggest a low-pressure first meeting. What would you plan?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Discuss one book together or exchange brief recommendations and read independently?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a harmless personal tradition that makes an ordinary week feel special?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a recurring activity that began accidentally but became something you looked forward to.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Reserve one evening for a favourite hobby or keep a flexible afternoon for spontaneous plans?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You want to begin a weekly ritual that costs almost nothing. What might you try?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People sometimes measure a satisfying week through moments that never appear on a work schedule.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A tradition doesn't have to be old to be meaningful.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which part of the week has its own particular feeling for you?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a little routine you shared with someone that continued after your schedules changed.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your usual weekend activity becomes unavailable. What would be a suitable alternative with a similar mood?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Plan a regular quiet breakfast or take the same relaxed walk every weekend?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's one small thing about your daily life that you're grateful has become easier?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about looking back on an ordinary problem you once found difficult and realising you've adapted.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Record a few highlights at the end of each month or rely on memories and conversations?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You write a letter about your present routine to open five years from now. What detail would you describe?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Progress can be hard to notice when it arrives through dozens of small adjustments.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A life can become richer without becoming busier.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which ordinary activity helps you recognise that you're doing better than you were a year ago?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a simple day that taught you something about what you genuinely enjoy.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You have to recommend one realistic change for somebody seeking a calmer week. What would you suggest?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Keep a brief journal of ordinary moments or collect one meaningful object from each season?",
+      "relatedThemes": []
+    }
+  ]
+}
