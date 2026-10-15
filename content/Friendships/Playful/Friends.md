@@ -205,3 +205,205 @@ Target: 500. Entries remain editorial drafts until human approval.
    _SM-002099 · Quick choice · pending editorial review_
 100. Some of the wildest group ideas deserve one imaginary business meeting and absolutely no investors.  
    _SM-002100 · Hot take · pending editorial review_
+
+
+101. If our friend group had a sitcom, which completely ordinary place would become the main set?  
+   _SM-002101 · Question · pending editorial review_
+102. A documentary crew follows us for a day. Which conversation would require the most editing?  
+   _SM-002102 · Scenario · pending editorial review_
+103. A cooking competition with our friends as judges or a travel show with our friends as guides?  
+   _SM-002103 · Quick choice · pending editorial review_
+104. Every group has at least one person who would enjoy being the narrator more than a main character.  
+   _SM-002104 · Hot take · pending editorial review_
+105. Tell me about something your friends did that felt like it belonged in a comedy sketch.  
+   _SM-002105 · Story starter · pending editorial review_
+106. The quietest person in a group can deliver the funniest line of an entire evening.  
+   _SM-002106 · Observation · pending editorial review_
+107. Which recurring argument in our group would make the best running joke on television?  
+   _SM-002107 · Question · pending editorial review_
+108. Our lives are filmed with a laugh track for twenty-four hours. What suddenly becomes hilarious?  
+   _SM-002108 · Scenario · pending editorial review_
+109. A reality show where we swap daily routines or one where we plan each other's weekends?  
+   _SM-002109 · Quick choice · pending editorial review_
+110. What's a moment you wish someone had recorded because nobody believes how it happened?  
+   _SM-002110 · Story starter · pending editorial review_
+111. Who among your friends is suspiciously good at something nobody ever practises?  
+   _SM-002111 · Question · pending editorial review_
+112. A person who can fold a fitted sheet deserves to be treated as a minor celebrity.  
+   _SM-002112 · Hot take · pending editorial review_
+113. We're on a talent show and our only permitted props are a spoon, a newspaper and string. Who performs first?  
+   _SM-002113 · Scenario · pending editorial review_
+114. Guessing songs from two seconds of audio or identifying films from a single blurry screenshot?  
+   _SM-002114 · Quick choice · pending editorial review_
+115. Tell me about someone revealing a hidden skill at the most unexpected possible moment.  
+   _SM-002115 · Story starter · pending editorial review_
+116. The friend who says 'It's just a little trick' is about to spend forty minutes demonstrating it.  
+   _SM-002116 · Observation · pending editorial review_
+117. If everybody had to teach a completely useless but entertaining skill, what would you teach?  
+   _SM-002117 · Question · pending editorial review_
+118. We start a competition for fastest gift-wrapping and discover the judge can't wrap gifts. Who takes over?  
+   _SM-002118 · Scenario · pending editorial review_
+119. Learning to juggle three oranges or becoming excellent at imitating a famous voice?  
+   _SM-002119 · Quick choice · pending editorial review_
+120. Being able to balance things on your head might be more useful at parties than any expensive hobby.  
+   _SM-002120 · Hot take · pending editorial review_
+121. We're all flatmates and the fridge contains one mysterious unlabelled container. Who investigates?  
+   _SM-002121 · Scenario · pending editorial review_
+122. Which friend would turn the communal noticeboard into a personal newsletter?  
+   _SM-002122 · Question · pending editorial review_
+123. A house with a huge kitchen and tiny bedrooms or one with tiny kitchen and enormous balcony?  
+   _SM-002123 · Quick choice · pending editorial review_
+124. Every shared home eventually develops an unwritten law about somebody's favourite mug.  
+   _SM-002124 · Observation · pending editorial review_
+125. The real measure of compatibility is whether friends agree about leaving cupboard doors open.  
+   _SM-002125 · Hot take · pending editorial review_
+126. Tell me about an unexpectedly funny house rule you encountered while visiting someone.  
+   _SM-002126 · Story starter · pending editorial review_
+127. Who would be the first to name every houseplant in our imaginary shared apartment?  
+   _SM-002127 · Question · pending editorial review_
+128. The living-room clock is always seven minutes fast. One person insists it's helpful. How do we settle it?  
+   _SM-002128 · Scenario · pending editorial review_
+129. A rotating cleaning schedule with elaborate rewards or one enormous clean-up party every month?  
+   _SM-002129 · Quick choice · pending editorial review_
+130. What's the most ridiculous reason you've seen two people debate the thermostat?  
+   _SM-002130 · Story starter · pending editorial review_
+131. If we opened a museum of our friendships, what would be the most confusing exhibit?  
+   _SM-002131 · Question · pending editorial review_
+132. We can preserve one ordinary object from every year we've known each other. What makes the first display?  
+   _SM-002132 · Scenario · pending editorial review_
+133. An audio guide narrated by the friend who exaggerates everything or labels written by the group's strict fact-checker?  
+   _SM-002133 · Quick choice · pending editorial review_
+134. Half the objects in a friendship museum would look like rubbish until somebody explained the backstory.  
+   _SM-002134 · Hot take · pending editorial review_
+135. Tell me about a tiny souvenir which instantly reminds everyone of the same chaotic day.  
+   _SM-002135 · Story starter · pending editorial review_
+136. A faded receipt can start a longer conversation than a carefully framed photograph.  
+   _SM-002136 · Observation · pending editorial review_
+137. Which inside joke should absolutely not have a public explanation next to its exhibit?  
+   _SM-002137 · Question · pending editorial review_
+138. A visitor asks why there's a single plastic spoon behind glass. What story do we invent?  
+   _SM-002138 · Scenario · pending editorial review_
+139. A wall of embarrassing childhood drawings or a listening booth of old voice notes?  
+   _SM-002139 · Quick choice · pending editorial review_
+140. The gift shop should sell things that only our friends understand, and absolutely nobody else wants.  
+   _SM-002140 · Hot take · pending editorial review_
+141. Our group invents a sport that combines musical chairs and table tennis. What is the biggest problem with the rules?  
+   _SM-002141 · Scenario · pending editorial review_
+142. What everyday activity would become unexpectedly competitive if somebody added a scoreboard?  
+   _SM-002142 · Question · pending editorial review_
+143. A guessing game where you can't say 'yes' or 'no' or charades where you're forbidden to move your arms?  
+   _SM-002143 · Quick choice · pending editorial review_
+144. A game becomes memorable the moment somebody argues with the rules they personally invented.  
+   _SM-002144 · Hot take · pending editorial review_
+145. Tell me about a game that dissolved into laughter before the first round finished.  
+   _SM-002145 · Story starter · pending editorial review_
+146. The friend who suggests a relaxing game night often brings the most competitive game.  
+   _SM-002146 · Observation · pending editorial review_
+147. If we had to make a trivia quiz entirely about our own friendships, which category would be impossible?  
+   _SM-002147 · Question · pending editorial review_
+148. All players must explain their answers by singing. Who refuses to continue?  
+   _SM-002148 · Scenario · pending editorial review_
+149. A blindfolded drawing challenge or identifying mystery objects only by sound?  
+   _SM-002149 · Quick choice · pending editorial review_
+150. What's a game you once thought you'd hate but enjoyed with the right people?  
+   _SM-002150 · Story starter · pending editorial review_
+151. If our group suddenly went viral for something harmless, what do you think we'd accidentally have done?  
+   _SM-002151 · Question · pending editorial review_
+152. A radio host invites us to describe our talents live. Who starts inventing achievements?  
+   _SM-002152 · Scenario · pending editorial review_
+153. Being recognised for a funny street interview or a brilliantly terrible dance video?  
+   _SM-002153 · Quick choice · pending editorial review_
+154. Our friends would spend more time debating a group stage name than enjoying their fifteen minutes of fame.  
+   _SM-002154 · Hot take · pending editorial review_
+155. Tell me about someone you know who unknowingly became the centre of attention at an event.  
+   _SM-002155 · Story starter · pending editorial review_
+156. The person insisting they hate cameras is often the one posing hardest when the pictures start.  
+   _SM-002156 · Observation · pending editorial review_
+157. Who would appoint themselves our public-relations manager without asking anyone?  
+   _SM-002157 · Question · pending editorial review_
+158. We're asked to deliver a five-second acceptance speech together. How many seconds before it goes wrong?  
+   _SM-002158 · Scenario · pending editorial review_
+159. A magazine interviewing us about our breakfast habits or a podcast discussing our most ridiculous argument?  
+   _SM-002159 · Quick choice · pending editorial review_
+160. Being locally famous for always carrying spare phone chargers would actually be useful.  
+   _SM-002160 · Hot take · pending editorial review_
+161. Which friend could walk into a thrift shop and emerge looking like they'd hired a stylist?  
+   _SM-002161 · Question · pending editorial review_
+162. We must dress in outfits chosen by the person sitting to our left. What's the safest rule?  
+   _SM-002162 · Scenario · pending editorial review_
+163. An entire outfit for the price of lunch or creating looks using only clothes we already own?  
+   _SM-002163 · Quick choice · pending editorial review_
+164. Tell me about a fashion choice that looked disastrous on the hanger but somehow worked.  
+   _SM-002164 · Story starter · pending editorial review_
+165. The best themed party outfits are made by people who take the theme just seriously enough.  
+   _SM-002165 · Hot take · pending editorial review_
+166. Someone always shows up to a casual gathering looking ready for a red carpet.  
+   _SM-002166 · Observation · pending editorial review_
+167. What trend did your friends swear would never return, only to start wearing it again?  
+   _SM-002167 · Question · pending editorial review_
+168. We're styling each other for an imaginary award ceremony with only scarves and sunglasses. Who wins?  
+   _SM-002168 · Scenario · pending editorial review_
+169. Wearing matching socks to a party or each secretly choosing one accessory for another person?  
+   _SM-002169 · Quick choice · pending editorial review_
+170. What's the funniest wardrobe mishap you can comfortably laugh about now?  
+   _SM-002170 · Story starter · pending editorial review_
+171. Which friend somehow ends up knowing the life story of a stranger before the queue moves?  
+   _SM-002171 · Question · pending editorial review_
+172. The best queue companion can make waiting twenty minutes feel like five.  
+   _SM-002172 · Hot take · pending editorial review_
+173. Our group queues for an event and someone starts a spontaneous trivia contest. Who gets too involved?  
+   _SM-002173 · Scenario · pending editorial review_
+174. Standing beside someone who tells fantastic stories or someone who invents terrible jokes?  
+   _SM-002174 · Quick choice · pending editorial review_
+175. Tell me about a surprisingly entertaining conversation you had while waiting for something.  
+   _SM-002175 · Story starter · pending editorial review_
+176. Nobody feels united quite like strangers discovering they're all in the wrong queue.  
+   _SM-002176 · Observation · pending editorial review_
+177. Who would befriend a security guard and return with completely unnecessary event trivia?  
+   _SM-002177 · Question · pending editorial review_
+178. The sign changes from 'ten minutes' to 'forty minutes'. Who delivers the most dramatic response?  
+   _SM-002178 · Scenario · pending editorial review_
+179. Waiting in a long line with a great playlist or in a short line where everyone is singing?  
+   _SM-002179 · Quick choice · pending editorial review_
+180. If friends can survive a long queue without becoming grumpy, they've earned a snack together.  
+   _SM-002180 · Hot take · pending editorial review_
+181. Which friend would plan a holiday entirely around the hotel's breakfast menu?  
+   _SM-002181 · Question · pending editorial review_
+182. Our dream holiday committee must agree on one activity, but everybody has a different idea. Who brokers peace?  
+   _SM-002182 · Scenario · pending editorial review_
+183. An overnight sleeper train with a group or a rented cottage with games and cooking?  
+   _SM-002183 · Quick choice · pending editorial review_
+184. The phrase 'We'll just see how it goes' terrifies whichever friend made the spreadsheet.  
+   _SM-002184 · Hot take · pending editorial review_
+185. Tell me about a holiday plan that was unrealistic from the very first group message.  
+   _SM-002185 · Story starter · pending editorial review_
+186. Every group trip has somebody who packed sunscreen and somebody who packed confidence.  
+   _SM-002186 · Observation · pending editorial review_
+187. Who would accidentally book a tour in the wrong language and then pretend to understand?  
+   _SM-002187 · Question · pending editorial review_
+188. We have one free museum ticket and six people want it. How do we determine the winner?  
+   _SM-002188 · Scenario · pending editorial review_
+189. An itinerary made from everybody's favourite recommendation or drawing destinations from a hat?  
+   _SM-002189 · Quick choice · pending editorial review_
+190. Group holidays should give an award to anyone who manages to get everybody in one photograph.  
+   _SM-002190 · Hot take · pending editorial review_
+191. We have to organise a celebration for something ridiculously ordinary. What achievement deserves a cake?  
+   _SM-002191 · Scenario · pending editorial review_
+192. What harmless milestone have you and your friends treated as though it deserved national recognition?  
+   _SM-002192 · Question · pending editorial review_
+193. A party for finally finishing a group book or one celebrating the return of somebody's lost house key?  
+   _SM-002193 · Quick choice · pending editorial review_
+194. The smallest events become traditions when a friendship group refuses to let a joke die.  
+   _SM-002194 · Observation · pending editorial review_
+195. A handwritten congratulatory card for a tiny achievement is funnier than a huge speech.  
+   _SM-002195 · Hot take · pending editorial review_
+196. Tell me about an occasion when everyone started celebrating before understanding what happened.  
+   _SM-002196 · Story starter · pending editorial review_
+197. Who would create a custom invitation for a celebration that involves eating leftover pizza?  
+   _SM-002197 · Question · pending editorial review_
+198. Our group invents a new annual holiday. What is the official activity and who forgets the date?  
+   _SM-002198 · Scenario · pending editorial review_
+199. A surprise breakfast for a friend's small victory or a mock award ceremony complete with speeches?  
+   _SM-002199 · Quick choice · pending editorial review_
+200. The ideal celebration is one where nobody has to pretend they know how to dance.  
+   _SM-002200 · Hot take · pending editorial review_
