@@ -1,0 +1,507 @@
+{
+  "topic": "Money",
+  "mood": "Curious",
+  "audience": "Anyone",
+  "prompts": [
+    {
+      "format": "Question",
+      "text": "What's a purchase that seemed unnecessary until you used it every day?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about buying something inexpensive that turned out to be remarkably useful.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Choose a durable everyday item or a cheaper option you can replace more often?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You have to furnish a small study corner on a modest budget. What would you prioritise?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People often measure a good purchase by the problems it quietly solves.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A low price doesn't make something a bargain if nobody actually needs it.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which household item is worth comparing carefully before buying?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a time waiting before a purchase changed your mind about needing it.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Two shops sell what looks like the same product at very different prices. What would you investigate?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Buy one versatile item or several specialised tools for occasional tasks?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What small habit makes it easier to keep track of everyday spending?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe learning something about your routine after reviewing an ordinary week's expenses.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Write expenses in a notebook or use a simple tracking app?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A friend wants to understand where their pocket money disappears. What would you suggest they observe first?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Repeated tiny purchases can be harder to remember than a single expensive one.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A useful budget should reflect someone's real routine instead of an idealised one.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which daily expense do people commonly forget to plan for?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a time planning ahead helped you avoid an unnecessary last-minute cost.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You're organising a week of shared lunches at work. Which costs would you remember to include?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Review spending every evening or once at the end of the week?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which free activity gives you as much enjoyment as something you might pay for?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about an inexpensive outing that became one of your favourite memories.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Save for one big experience or enjoy several smaller events through the year?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A group wants a memorable day out but has different spending limits. How might they choose?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People often value an experience because of the company rather than the ticket price.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A thoughtful outing doesn't require expensive packaging.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which kind of experience would you happily budget for months in advance?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe skipping an unnecessary upgrade and enjoying the simpler option instead.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You receive a modest voucher for any local activity. What experience would you choose?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A cooking workshop with friends or tickets to an interesting public talk?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a basic financial term you wish someone had explained more simply at school?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall understanding a money concept only after somebody gave a practical example.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Learn more about how interest works or how everyday taxes are calculated?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You need to explain the difference between cost and value to a teenager. Which example would you use?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People often encounter financial language long before they understand its implications.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Financial education is clearer when it starts with common decisions rather than complex products.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which money-related idea would you like to understand without having to read a long textbook?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a teacher or relative who helped you ask better questions about money.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A community workshop has time for one money-management topic. What should it cover first?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A beginner lesson about saving regularly or one about comparing borrowing costs?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's an everyday goal that becomes easier when you save for it gradually?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe the first time you reached a small savings goal through patience.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Set aside a little money weekly or make a monthly transfer after payday?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You want to buy a bicycle in six months. What information would help you plan without guessing?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People stay motivated by different kinds of progress markers.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A savings goal feels more practical when you know exactly what you're saving for.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which visual reminder would help you keep a long-term goal in mind?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall changing a savings plan because an important priority shifted.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You reach a target earlier than expected. How would you decide whether to spend or keep saving?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Track progress as a percentage or mark each completed week on a calendar?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What digital payment feature has genuinely made everyday life more convenient?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about the first time you paid for something without carrying cash.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Use a payment app that shows detailed records or one designed around speed?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A small local business wants to accept more payment methods. What questions should it ask customers?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People's confidence in digital payments often depends on how clearly the service explains errors.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Convenience isn't a good trade if you can't understand the fees.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which payment confirmation detail do you always check after a transaction?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall learning why keeping simple payment records can prevent a misunderstanding.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A phone battery dies just before paying at a market. What backup would you wish you had?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Carry a little cash for emergencies or rely mainly on several digital options?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What makes splitting a shared bill feel fair to you?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a group outing where somebody found an easy solution to complicated payments.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Split a meal bill equally or calculate what each person ordered?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Three friends share transport, but one leaves halfway. How should they discuss the fare?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Money conversations between friends become easier when expectations are clear beforehand.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Agreeing on the budget before an outing is more considerate than settling it afterwards.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which shared expense tends to create confusion unless people discuss it early?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a time a friend suggested a cheaper plan that everyone appreciated.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your team is collecting contributions for an event. What information should be shared with contributors?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Use one person to collect group payments or let everyone pay vendors directly?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's the most thoughtful gift you've received that didn't cost much?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about making a present more meaningful by paying attention to somebody's interests.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Give a handmade keepsake or organise an experience the recipient would enjoy?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A friend asks everyone not to spend much on their birthday. What gesture would fit?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "An expensive gift can miss the mark when it doesn't reflect the recipient's preferences.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Remembering a person's practical needs can make a better present than following a trend.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What small detail makes you feel that a gift was chosen specifically for you?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall seeing somebody appreciate a useful item more than a decorative surprise.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You're organising a group gift and members have different budgets. How would you handle contributions?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Give somebody a favourite book with a note or prepare their favourite simple meal?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What money-related custom from your upbringing do people from other places find interesting?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe the first time you learnt how a local market's bargaining etiquette works.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Discuss how different families teach children about money or how communities organise celebrations?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A visitor asks why certain occasions involve monetary gifts in your culture. How would you explain?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "The meaning of a financial gift often depends on its social context.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "You can respect a cultural money tradition while still setting a personal budget.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which local practice has changed most as digital payments become more common?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall hearing an older relative describe how they bought everyday goods years ago.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Two generations in a family disagree about paying for a celebration. What could they ask each other?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Hear stories about old marketplace customs or compare modern ways people contribute to family events?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which expense has increased enough over time that you notice it in ordinary conversations?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about changing a regular habit after noticing its cost had shifted.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Compare the price of groceries over time or the changing cost of local transport?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A neighbourhood group wants to understand rising event costs. What information should it collect?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People notice price changes most in the things they buy frequently.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Comparing only the sticker price can hide differences in quantity or quality.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which product is hardest to compare because the package sizes keep changing?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a time a shop owner explained a price change more clearly than a news headline.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You need to plan refreshments for twenty people with a fixed budget. What would you estimate first?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Buy a familiar item on promotion or try a less expensive brand you've never used?",
+      "relatedThemes": []
+    }
+  ]
+}
