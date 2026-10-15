@@ -201,3 +201,45 @@ Initial target: 200. Entries remain editorial drafts until human approval.
    _SM-005196 · Scenario · pending editorial review_
 97. What's a sound you associate with a particular season or annual event?  
    _SM-005197 · Question · pending editorial review_
+
+
+98. What kind of music do you usually hear coming from shops in your area?  
+   _SM-005198 · Question · pending editorial review_
+99. Tell me about a song everyone around you seemed to know before you learnt its name.  
+   _SM-005199 · Story starter · pending editorial review_
+100. A live musician at a neighbourhood gathering or somebody playing familiar songs from a small speaker?  
+   _SM-005200 · Quick choice · pending editorial review_
+101. The same tune sometimes follows you through several different places on a single day.  
+   _SM-005201 · Observation · pending editorial review_
+102. You're making a playlist for someone spending their first weekend in your town. Which mood would you start with?  
+   _SM-005202 · Scenario · pending editorial review_
+103. What song makes people around you start singing even when nobody planned to?  
+   _SM-005203 · Question · pending editorial review_
+104. Music heard in ordinary public places becomes part of how we remember them.  
+   _SM-005204 · Hot take · pending editorial review_
+105. Describe a time a familiar local tune started a conversation with a stranger.  
+   _SM-005205 · Story starter · pending editorial review_
+106. A visitor hears a song playing everywhere and asks why people love it. Whose story would you share?  
+   _SM-005206 · Scenario · pending editorial review_
+107. What type of music seems to appear at almost every family gathering you attend?  
+   _SM-005207 · Question · pending editorial review_
+108. What's a small everyday custom you noticed on a trip before you noticed any major attractions?  
+   _SM-005208 · Question · pending editorial review_
+109. Tell me about buying something ordinary in another place and learning a new way to do it.  
+   _SM-005209 · Story starter · pending editorial review_
+110. Learning how locals order breakfast or joining a familiar-looking game with different rules?  
+   _SM-005210 · Quick choice · pending editorial review_
+111. The smallest differences in daily routines sometimes stay with travellers longer than the sights.  
+   _SM-005211 · Observation · pending editorial review_
+112. You're spending one free afternoon in a new town with a local friend. What ordinary activity would you ask to join?  
+   _SM-005212 · Scenario · pending editorial review_
+113. What have you seen people do in public elsewhere that would attract attention where you live?  
+   _SM-005213 · Question · pending editorial review_
+114. A good local recommendation often starts with somewhere people go on a normal weekday.  
+   _SM-005214 · Hot take · pending editorial review_
+115. Describe a moment when somebody patiently helped you understand a custom you hadn't encountered before.  
+   _SM-005215 · Story starter · pending editorial review_
+116. A friend from abroad visits your area and finds a familiar routine surprising. How would you explain it?  
+   _SM-005216 · Scenario · pending editorial review_
+117. What's a habit you brought home from a trip because you liked the way people did it there?  
+   _SM-005217 · Question · pending editorial review_
