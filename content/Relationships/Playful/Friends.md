@@ -203,3 +203,205 @@ Initial target: 200. Entries remain editorial drafts until human approval.
    _SM-005599 · Scenario · pending editorial review_
 100. End an evening with a shared photograph or exchange one amusing memory from each guest?  
    _SM-005600 · Quick choice · pending editorial review_
+
+
+101. What's the funniest way one of our friends has tried to introduce their partner to the group?  
+   _SM-005601 · Question · pending editorial review_
+102. Recall a first meeting with a friend's partner that quickly became a warm memory.  
+   _SM-005602 · Story starter · pending editorial review_
+103. Meet a friend's new partner over dinner or during a casual group activity?  
+   _SM-005603 · Quick choice · pending editorial review_
+104. Your friend brings somebody new to game night and they don't understand the running jokes. How would you include them?  
+   _SM-005604 · Scenario · pending editorial review_
+105. A person's friendships often change shape when they begin a serious relationship.  
+   _SM-005605 · Observation · pending editorial review_
+106. A good group makes room for new partners without requiring everyone to become instantly close.  
+   _SM-005606 · Hot take · pending editorial review_
+107. Which shared hobby would help a friend's new partner feel welcome in the group?  
+   _SM-005607 · Question · pending editorial review_
+108. Describe a time a friend's partner introduced an unexpectedly fun tradition.  
+   _SM-005608 · Story starter · pending editorial review_
+109. Our friend wants to organise a small gathering for their partner, who dislikes surprises. What might work?  
+   _SM-005609 · Scenario · pending editorial review_
+110. A thoughtful welcome note or a relaxed activity without formal introductions?  
+   _SM-005610 · Quick choice · pending editorial review_
+111. Which friend always seems to know when someone needs cheering up?  
+   _SM-005611 · Question · pending editorial review_
+112. Tell us about a small supportive gesture that brought the group closer.  
+   _SM-005612 · Story starter · pending editorial review_
+113. Offer a helpful errand or arrange a light-hearted afternoon together?  
+   _SM-005613 · Quick choice · pending editorial review_
+114. One of our friends is coping with an exhausting week and wants company without conversation. What would we suggest?  
+   _SM-005614 · Scenario · pending editorial review_
+115. A familiar friendship sometimes feels most comfortable when nobody expects entertainment.  
+   _SM-005615 · Observation · pending editorial review_
+116. Being reliable doesn't require solving everybody's problems.  
+   _SM-005616 · Hot take · pending editorial review_
+117. What's one gesture that says someone understands how you handle stress?  
+   _SM-005617 · Question · pending editorial review_
+118. Recall a friend quietly adjusting plans to make a difficult day easier.  
+   _SM-005618 · Story starter · pending editorial review_
+119. A friend declines our plans several times in a row. How might we check in without making them defensive?  
+   _SM-005619 · Scenario · pending editorial review_
+120. A short encouraging message or an offer to help with a practical task?  
+   _SM-005620 · Quick choice · pending editorial review_
+121. Who in our circle gives advice that starts seriously and ends with an unexpected joke?  
+   _SM-005621 · Question · pending editorial review_
+122. Tell us about advice from a friend that sounded silly until it proved useful.  
+   _SM-005622 · Story starter · pending editorial review_
+123. Ask for a friend's first instinct or request their detailed reasoning?  
+   _SM-005623 · Quick choice · pending editorial review_
+124. One friend wants a second opinion about a tricky social invitation. How would you help them weigh it?  
+   _SM-005624 · Scenario · pending editorial review_
+125. People offer advice based partly on what worked for them, even when circumstances differ.  
+   _SM-005625 · Observation · pending editorial review_
+126. The most useful advice sometimes ends with asking what the person already wants.  
+   _SM-005626 · Hot take · pending editorial review_
+127. What question has a friend asked that helped you reach your own decision?  
+   _SM-005627 · Question · pending editorial review_
+128. Recall someone respectfully disagreeing with your choice and supporting you afterwards.  
+   _SM-005628 · Story starter · pending editorial review_
+129. Our friend is torn between attending two important events. What's a fair way to discuss the options?  
+   _SM-005629 · Scenario · pending editorial review_
+130. Get feedback from one trusted friend or hear several different viewpoints?  
+   _SM-005630 · Quick choice · pending editorial review_
+131. What's the most unexpected common interest you've had with a friend's relative?  
+   _SM-005631 · Question · pending editorial review_
+132. Tell us about a friend's family welcoming you as though you'd known them for years.  
+   _SM-005632 · Story starter · pending editorial review_
+133. Learn a recipe from a friend's parent or hear their funniest story from school days?  
+   _SM-005633 · Quick choice · pending editorial review_
+134. You attend a friend's family celebration and don't recognise anyone. What's a comfortable way to start chatting?  
+   _SM-005634 · Scenario · pending editorial review_
+135. Friendships sometimes bring people into family traditions they never grew up with.  
+   _SM-005635 · Observation · pending editorial review_
+136. Being a guest works better when you're interested in the occasion rather than trying to impress everyone.  
+   _SM-005636 · Hot take · pending editorial review_
+137. Which family tradition have you enjoyed because a friend introduced you to it?  
+   _SM-005637 · Question · pending editorial review_
+138. Recall a time a friend's sibling revealed an unexpected side of their personality.  
+   _SM-005638 · Story starter · pending editorial review_
+139. Our friend invites the group to an unfamiliar ceremony. What should we ask before attending?  
+   _SM-005639 · Scenario · pending editorial review_
+140. Join a friend's holiday meal or attend their favourite annual community event?  
+   _SM-005640 · Quick choice · pending editorial review_
+141. Which friend is most likely to notice a change in your usual routine?  
+   _SM-005641 · Question · pending editorial review_
+142. Recall someone asking an unusually specific question because they'd been paying attention.  
+   _SM-005642 · Story starter · pending editorial review_
+143. Have friends remember your usual order or your favourite way to spend a free afternoon?  
+   _SM-005643 · Quick choice · pending editorial review_
+144. Your closest friends create a quiz about your tastes, but you get half the answers wrong. What might surprise you?  
+   _SM-005644 · Scenario · pending editorial review_
+145. People sometimes remember the habits they see in a friend better than the friend does.  
+   _SM-005645 · Observation · pending editorial review_
+146. Remembering somebody's boundaries is more meaningful than memorising every favourite.  
+   _SM-005646 · Hot take · pending editorial review_
+147. What's a harmless detail about you that your friends remember better than you do?  
+   _SM-005647 · Question · pending editorial review_
+148. Describe the time a friend predicted your reaction with uncanny accuracy.  
+   _SM-005648 · Story starter · pending editorial review_
+149. We each submit one question to a quiz about our friendship group. What would yours test?  
+   _SM-005649 · Scenario · pending editorial review_
+150. Guess everyone's hidden talents or test how well we know their favourite places?  
+   _SM-005650 · Quick choice · pending editorial review_
+151. What's the most absurd reason your group has ever nearly cancelled an outing?  
+   _SM-005651 · Question · pending editorial review_
+152. Tell us about a last-minute change that turned a dull gathering into a great memory.  
+   _SM-005652 · Story starter · pending editorial review_
+153. Let the most organised friend plan the whole day or let everyone choose one stop?  
+   _SM-005653 · Quick choice · pending editorial review_
+154. One friend wants adventure, another wants quiet, and the others want food. What itinerary would make everyone smile?  
+   _SM-005654 · Scenario · pending editorial review_
+155. Successful gatherings often involve small adjustments nobody announces.  
+   _SM-005655 · Observation · pending editorial review_
+156. The best group organisers leave space for different energy levels.  
+   _SM-005656 · Hot take · pending editorial review_
+157. Who among our friends is best at spotting an easy compromise?  
+   _SM-005657 · Question · pending editorial review_
+158. Recall a friend proposing an alternative that everyone liked more than the original plan.  
+   _SM-005658 · Story starter · pending editorial review_
+159. Our group has a tiny outing budget and wildly different ideas. What would you ask everyone to prioritise?  
+   _SM-005659 · Scenario · pending editorial review_
+160. Repeat an outing that worked brilliantly or risk trying a new activity together?  
+   _SM-005660 · Quick choice · pending editorial review_
+161. Which pair of friends have completely different personalities but get along brilliantly?  
+   _SM-005661 · Question · pending editorial review_
+162. Tell us about two people who became close after initially disagreeing about everything.  
+   _SM-005662 · Story starter · pending editorial review_
+163. Have a friend who shares your humour or one who introduces you to unfamiliar interests?  
+   _SM-005663 · Quick choice · pending editorial review_
+164. Two friends have opposite opinions about the same film. What question would get them talking rather than arguing?  
+   _SM-005664 · Scenario · pending editorial review_
+165. Difference in temperament sometimes makes a friendship easier because people contribute different strengths.  
+   _SM-005665 · Observation · pending editorial review_
+166. You don't need identical personalities to care about the same values.  
+   _SM-005666 · Hot take · pending editorial review_
+167. What difference between you and a friend has become something you appreciate?  
+   _SM-005667 · Question · pending editorial review_
+168. Recall a friendship teaching you to be more patient with a different communication style.  
+   _SM-005668 · Story starter · pending editorial review_
+169. A friend who loves planning joins forces with one who improvises. How would you divide their tasks?  
+   _SM-005669 · Scenario · pending editorial review_
+170. A patient listener who loves details or a lively storyteller who keeps things moving?  
+   _SM-005670 · Quick choice · pending editorial review_
+171. What's an unexpected sign that two people are comfortable around each other?  
+   _SM-005671 · Question · pending editorial review_
+172. Describe a conversation that became funny because neither person felt the need to act impressive.  
+   _SM-005672 · Story starter · pending editorial review_
+173. Share comfortable silence with friends or exchange short stories over tea?  
+   _SM-005673 · Quick choice · pending editorial review_
+174. Two close friends decide to spend an afternoon together without screens. How would they keep it relaxed?  
+   _SM-005674 · Scenario · pending editorial review_
+175. Close friends sometimes communicate whole reactions with a look across the room.  
+   _SM-005675 · Observation · pending editorial review_
+176. A relationship feels easier when people stop interpreting every quiet moment as a problem.  
+   _SM-005676 · Hot take · pending editorial review_
+177. Which shared look or gesture has become a joke among your friends?  
+   _SM-005677 · Question · pending editorial review_
+178. Recall an occasion when a friend knew what you meant before you'd finished explaining.  
+   _SM-005678 · Story starter · pending editorial review_
+179. We try to communicate an ordinary message across a room without speaking. Who would be best at it?  
+   _SM-005679 · Scenario · pending editorial review_
+180. A friendship that thrives on conversation or one that thrives on shared activities?  
+   _SM-005680 · Quick choice · pending editorial review_
+181. What's one friendship expectation you've outgrown without realising?  
+   _SM-005681 · Question · pending editorial review_
+182. Tell us about reconnecting with someone and discovering your routines had changed.  
+   _SM-005682 · Story starter · pending editorial review_
+183. Meet an old friend for a familiar meal or show them a new part of your life?  
+   _SM-005683 · Quick choice · pending editorial review_
+184. A friend moves away and your group starts missing their usual contributions. What new tradition would include them?  
+   _SM-005684 · Scenario · pending editorial review_
+185. People adapt their friendships as their responsibilities and priorities shift.  
+   _SM-005685 · Observation · pending editorial review_
+186. A meaningful friendship doesn't require somebody to remain the same person you met years ago.  
+   _SM-005686 · Hot take · pending editorial review_
+187. What's a change in a friend's life that made you admire them more?  
+   _SM-005687 · Question · pending editorial review_
+188. Recall a reunion where a friend surprised you with a new hobby or ambition.  
+   _SM-005688 · Story starter · pending editorial review_
+189. Our friend returns after living elsewhere for years. How might we welcome them without treating them like their old self?  
+   _SM-005689 · Scenario · pending editorial review_
+190. Trade stories about how we've changed or revisit a favourite shared memory?  
+   _SM-005690 · Quick choice · pending editorial review_
+191. What's a harmless topic our friendship group debates far more often than necessary?  
+   _SM-005691 · Question · pending editorial review_
+192. Tell us about the time a casual disagreement turned into a recurring group joke.  
+   _SM-005692 · Story starter · pending editorial review_
+193. Create an annual silly debate night or a friendly award show about everybody's quirks?  
+   _SM-005693 · Quick choice · pending editorial review_
+194. We have to name one friendly rule for keeping disagreements playful. What would it be?  
+   _SM-005694 · Scenario · pending editorial review_
+195. Long friendships accumulate funny disagreements that aren't serious enough to resolve.  
+   _SM-005695 · Observation · pending editorial review_
+196. Knowing when a joke has run its course is a friendship skill worth practising.  
+   _SM-005696 · Hot take · pending editorial review_
+197. Which debate between friends would you happily reopen purely for the entertainment?  
+   _SM-005697 · Question · pending editorial review_
+198. Recall a person joining your group's debate and making an unexpectedly good point.  
+   _SM-005698 · Story starter · pending editorial review_
+199. A friendly argument breaks out over which shared memory happened first. How should we choose a winner?  
+   _SM-005699 · Scenario · pending editorial review_
+200. Settle a harmless disagreement with a vote or let someone tell the best story?  
+   _SM-005700 · Quick choice · pending editorial review_
