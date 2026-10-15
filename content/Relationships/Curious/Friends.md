@@ -203,3 +203,205 @@ Initial target: 200. Entries remain editorial drafts until human approval.
    _SM-008399 · Scenario · pending editorial review_
 100. Support a friend's community project by helping in person or contributing a skill remotely?  
    _SM-008400 · Quick choice · pending editorial review_
+
+
+101. What first taught you that two friends can need very different kinds of personal space?  
+   _SM-008401 · Question · pending editorial review_
+102. Tell me about someone respecting your need for time alone without taking it personally.  
+   _SM-008402 · Story starter · pending editorial review_
+103. Discuss how much contact feels natural or talk about which topics need more privacy?  
+   _SM-008403 · Quick choice · pending editorial review_
+104. A friend likes spontaneous visitors but you prefer advance notice. How could you agree on a routine?  
+   _SM-008404 · Scenario · pending editorial review_
+105. Comfort with closeness is shaped by more than how long two people have known each other.  
+   _SM-008405 · Observation · pending editorial review_
+106. The ability to say no without giving a detailed reason can strengthen a friendship.  
+   _SM-008406 · Hot take · pending editorial review_
+107. Which boundary do you understand better now than you did as a teenager?  
+   _SM-008407 · Question · pending editorial review_
+108. Recall a time you misread a friend's silence and later learnt what they needed.  
+   _SM-008408 · Story starter · pending editorial review_
+109. A friend asks you to keep a personal update confidential. What would you clarify about who already knows?  
+   _SM-008409 · Scenario · pending editorial review_
+110. Talk about your social limits upfront or revisit them naturally as a friendship develops?  
+   _SM-008410 · Quick choice · pending editorial review_
+111. What makes a person's listening style feel comforting when you need to explain something complicated?  
+   _SM-008411 · Question · pending editorial review_
+112. Describe someone helping you understand yourself by asking an unexpected question.  
+   _SM-008412 · Story starter · pending editorial review_
+113. Have a friend paraphrase what they heard or give you time to finish without interruption?  
+   _SM-008413 · Quick choice · pending editorial review_
+114. Two friends have different recollections of the same conversation. How might they check the facts together?  
+   _SM-008414 · Scenario · pending editorial review_
+115. People often remember how a conversation made them feel more clearly than the exact words spoken.  
+   _SM-008415 · Observation · pending editorial review_
+116. Listening well sometimes means admitting you don't have an answer.  
+   _SM-008416 · Hot take · pending editorial review_
+117. What question do you wish friends would ask before offering advice about your decisions?  
+   _SM-008417 · Question · pending editorial review_
+118. Recall a friend who was curious about your reasoning even though they disagreed with your conclusion.  
+   _SM-008418 · Story starter · pending editorial review_
+119. A conversation begins to feel like a debate when one person wants empathy. What might help reset it?  
+   _SM-008419 · Scenario · pending editorial review_
+120. Discuss a misunderstanding right away or agree to return when everyone has had time to reflect?  
+   _SM-008420 · Quick choice · pending editorial review_
+121. What has friendship taught you about people whose faith or beliefs differ from yours?  
+   _SM-008421 · Question · pending editorial review_
+122. Tell me about being invited to observe a tradition and learning why it mattered to someone.  
+   _SM-008422 · Story starter · pending editorial review_
+123. Understand a friend's meaningful annual observance or learn about the everyday values behind their practices?  
+   _SM-008423 · Quick choice · pending editorial review_
+124. A close friend has an important celebration unfamiliar to your household. What questions would help you support them?  
+   _SM-008424 · Scenario · pending editorial review_
+125. People with different beliefs may share practical values that are easier to see through daily actions.  
+   _SM-008425 · Observation · pending editorial review_
+126. Respecting a belief doesn't require pretending you've never questioned it.  
+   _SM-008426 · Hot take · pending editorial review_
+127. What kind of curiosity feels welcome when someone asks about your personal beliefs?  
+   _SM-008427 · Question · pending editorial review_
+128. Recall discovering that a friend's view of a moral question was more nuanced than you assumed.  
+   _SM-008428 · Story starter · pending editorial review_
+129. Two friends disagree about an important belief while planning a public event. How could they stay considerate?  
+   _SM-008429 · Scenario · pending editorial review_
+130. Ask about what shaped someone's convictions or about how those convictions influence their daily routine?  
+   _SM-008430 · Quick choice · pending editorial review_
+131. How have friends influenced the way you handle personal setbacks?  
+   _SM-008431 · Question · pending editorial review_
+132. Describe a friend whose persistence you admired during an unplanned change.  
+   _SM-008432 · Story starter · pending editorial review_
+133. Discuss a lesson you've learnt from failure or a strength you've discovered in an unexpected situation?  
+   _SM-008433 · Quick choice · pending editorial review_
+134. A friend's business idea hasn't worked and they're considering another attempt. What would you want to understand first?  
+   _SM-008434 · Scenario · pending editorial review_
+135. It's possible to admire a friend's courage while questioning a specific decision.  
+   _SM-008435 · Observation · pending editorial review_
+136. Friendship includes the freedom to respond to a setback differently from what others expect.  
+   _SM-008436 · Hot take · pending editorial review_
+137. Which quality in a friend becomes most visible when life doesn't go as planned?  
+   _SM-008437 · Question · pending editorial review_
+138. Recall seeing someone respond with patience to a disappointment they'd worked hard to avoid.  
+   _SM-008438 · Story starter · pending editorial review_
+139. A friend wants to celebrate trying something difficult despite not succeeding. How would you help?  
+   _SM-008439 · Scenario · pending editorial review_
+140. Hear how someone recovered from a setback or learn what motivated them to start in the first place?  
+   _SM-008440 · Quick choice · pending editorial review_
+141. What difference between your friends' cultures has encouraged you to reconsider a habit?  
+   _SM-008441 · Question · pending editorial review_
+142. Tell me about participating in a celebration that felt unfamiliar but welcoming.  
+   _SM-008442 · Story starter · pending editorial review_
+143. Compare traditions for honouring elders or ways different communities welcome new neighbours?  
+   _SM-008443 · Quick choice · pending editorial review_
+144. Your friends from several countries plan to host one shared meal. What would you ask each person to contribute?  
+   _SM-008444 · Scenario · pending editorial review_
+145. Cultural differences often appear first in ordinary etiquette rather than formal ceremonies.  
+   _SM-008445 · Observation · pending editorial review_
+146. Interest in another culture is most useful when people remain free to explain it in their own words.  
+   _SM-008446 · Hot take · pending editorial review_
+147. Which local saying becomes more meaningful after someone explains the story behind it?  
+   _SM-008447 · Question · pending editorial review_
+148. Recall learning why a friend used a particular greeting in a specific setting.  
+   _SM-008448 · Story starter · pending editorial review_
+149. A friend visits your hometown and notices a custom you've never thought about. How would you answer their questions?  
+   _SM-008449 · Scenario · pending editorial review_
+150. Learn a traditional game from a friend's community or cook a dish with them and hear its history?  
+   _SM-008450 · Quick choice · pending editorial review_
+151. What makes a new member of an established friendship group feel genuinely included?  
+   _SM-008451 · Question · pending editorial review_
+152. Describe seeing someone join a group and quietly change it for the better.  
+   _SM-008452 · Story starter · pending editorial review_
+153. Ask newcomers what activities they'd enjoy or explain the group's existing traditions first?  
+   _SM-008453 · Quick choice · pending editorial review_
+154. Your friendship circle has an inside joke that leaves a recent arrival confused. How might you tell the story?  
+   _SM-008454 · Scenario · pending editorial review_
+155. Groups often overlook how much background knowledge their conversations assume.  
+   _SM-008455 · Observation · pending editorial review_
+156. An inclusive group leaves room for its newest people to influence shared decisions.  
+   _SM-008456 · Hot take · pending editorial review_
+157. What's a sign that one person in a group is struggling to find a comfortable role?  
+   _SM-008457 · Question · pending editorial review_
+158. Recall a friend making sure another person received credit for an idea.  
+   _SM-008458 · Story starter · pending editorial review_
+159. Several friends have different preferences about inviting partners to gatherings. What agreement could help?  
+   _SM-008459 · Scenario · pending editorial review_
+160. Rotate who chooses activities or hold an open conversation when group habits stop working?  
+   _SM-008460 · Quick choice · pending editorial review_
+161. How do you decide whether a friend's difficult feedback is worth taking seriously?  
+   _SM-008461 · Question · pending editorial review_
+162. Tell me about advice you resisted at first but appreciated after considering it.  
+   _SM-008462 · Story starter · pending editorial review_
+163. Receive one carefully explained suggestion or several perspectives to compare independently?  
+   _SM-008463 · Quick choice · pending editorial review_
+164. A friend believes you're making a poor decision but hasn't been asked for input. How could they approach you?  
+   _SM-008464 · Scenario · pending editorial review_
+165. Helpful feedback often depends as much on timing as on the insight itself.  
+   _SM-008465 · Observation · pending editorial review_
+166. You can appreciate someone's honesty without following their recommendation.  
+   _SM-008466 · Hot take · pending editorial review_
+167. What has made you trust a friend's judgement on a subject they know well?  
+   _SM-008467 · Question · pending editorial review_
+168. Recall a friend admitting they didn't know enough to advise you and helping you find someone who did.  
+   _SM-008468 · Story starter · pending editorial review_
+169. Two trusted friends suggest opposite solutions to one problem. What would you ask them about their assumptions?  
+   _SM-008469 · Scenario · pending editorial review_
+170. Discuss why someone gave you advice or ask them to help you evaluate the possible outcomes?  
+   _SM-008470 · Quick choice · pending editorial review_
+171. What would you want an old friend to understand about the person you've become?  
+   _SM-008471 · Question · pending editorial review_
+172. Describe reconnecting after years apart and discovering a shared value you hadn't noticed before.  
+   _SM-008472 · Story starter · pending editorial review_
+173. Compare the ambitions you had when you met or the lessons you value most now?  
+   _SM-008473 · Quick choice · pending editorial review_
+174. An old classmate remembers you mainly for a habit you've outgrown. How could you help them see the change?  
+   _SM-008474 · Scenario · pending editorial review_
+175. Friends sometimes hold a picture of one another that belongs to a different period of life.  
+   _SM-008475 · Observation · pending editorial review_
+176. A long history together should make room for new versions of each person.  
+   _SM-008476 · Hot take · pending editorial review_
+177. Which quality did you gain after leaving an environment where most of your friendships began?  
+   _SM-008477 · Question · pending editorial review_
+178. Recall visiting a familiar place with a friend and noticing how differently you now see it.  
+   _SM-008478 · Story starter · pending editorial review_
+179. Two friends who once shared everything develop very different priorities. What could they still build together?  
+   _SM-008479 · Scenario · pending editorial review_
+180. Revisit a favourite memory or create a new experience that reflects who you are today?  
+   _SM-008480 · Quick choice · pending editorial review_
+181. Which friendship have you learnt the most from without seeing the person frequently?  
+   _SM-008481 · Question · pending editorial review_
+182. Tell me about a former colleague or neighbour who unexpectedly became an important connection.  
+   _SM-008482 · Story starter · pending editorial review_
+183. Stay connected through shared projects or through occasional unhurried conversations?  
+   _SM-008483 · Quick choice · pending editorial review_
+184. A friend moves to another city and neither person enjoys long calls. What alternative would feel natural?  
+   _SM-008484 · Scenario · pending editorial review_
+185. Closeness can grow through reliability even when people spend little time together.  
+   _SM-008485 · Observation · pending editorial review_
+186. An occasional sincere conversation can mean more than frequent messages sent out of obligation.  
+   _SM-008486 · Hot take · pending editorial review_
+187. Which small routine would help you reconnect with a friend after a demanding season of life?  
+   _SM-008487 · Question · pending editorial review_
+188. Recall a short catch-up that helped you discover how much had changed for somebody.  
+   _SM-008488 · Story starter · pending editorial review_
+189. You learn that a friend you rarely speak to has achieved something meaningful. How would you acknowledge it thoughtfully?  
+   _SM-008489 · Scenario · pending editorial review_
+190. Plan a future visit together or exchange a few thoughtful questions over the next month?  
+   _SM-008490 · Quick choice · pending editorial review_
+191. What have your closest friends taught you about the kind of person you want to be?  
+   _SM-008491 · Question · pending editorial review_
+192. Describe discovering a quality you admired in several people from different parts of your life.  
+   _SM-008492 · Story starter · pending editorial review_
+193. Talk about an example of everyday integrity or a friendship lesson you hope to pass on?  
+   _SM-008493 · Quick choice · pending editorial review_
+194. A younger person asks why you stay close to a particular friend. Which story would best explain it?  
+   _SM-008494 · Scenario · pending editorial review_
+195. The friendships people keep often reflect values they didn't consciously list when they first met.  
+   _SM-008495 · Observation · pending editorial review_
+196. A meaningful friendship doesn't have to be the most visible relationship in someone's life.  
+   _SM-008496 · Hot take · pending editorial review_
+197. Which quality would you hope your friends use when describing you to someone new?  
+   _SM-008497 · Question · pending editorial review_
+198. Recall a friend showing you how to respond generously when somebody made a mistake.  
+   _SM-008498 · Story starter · pending editorial review_
+199. You and a friend decide to work on becoming more considerate people. What's a concrete habit you might practise?  
+   _SM-008499 · Scenario · pending editorial review_
+200. Share the lesson that changed you most or thank someone for a quality you've learnt from them?  
+   _SM-008500 · Quick choice · pending editorial review_
