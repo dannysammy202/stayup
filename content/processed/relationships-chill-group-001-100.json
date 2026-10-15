@@ -1,0 +1,507 @@
+{
+  "topic": "Relationships",
+  "mood": "Chill",
+  "audience": "Group",
+  "prompts": [
+    {
+      "format": "Question",
+      "text": "What's the easiest way for a new person to feel included in a group conversation?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Start a gathering with introductions or let people get to know each other naturally?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about joining a group where somebody made an effort to learn your name.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "One person at a table hasn't spoken for a while. How would you bring them into the conversation without putting them on the spot?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "A shared interest helps strangers connect even when their backgrounds differ.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Remembering a detail from someone's introduction is better than asking a dozen questions.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What kind of question gets everyone talking without turning into an interview?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall an occasion when an unexpected guest improved a group gathering.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Two people at an event know nobody else. What could the host do to help them meet?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which group activity has helped you make a lasting friendship?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's the best way to tell when a group is ready to change the subject?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Finish one discussion properly or let conversations wander into new topics?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a group conversation that changed your perspective on something ordinary.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Three people start telling stories at the same time. How would you help everyone get a turn?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "A lively conversation and a welcoming conversation are not always the same thing.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "The person who listens carefully contributes as much as the person who speaks most.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which topic brings out opinions you didn't know your friends held?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a question someone asked that made the whole table go quiet and think.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A friend is interrupted repeatedly during a story. How would you make space for them to finish?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A long discussion about one big idea or a quick round of different questions?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What makes a group friendship last when people move to different cities?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall the first group chat you joined that became an important part of your routine.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "An occasional group video call or short updates throughout the month?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "One friend rarely responds online but always attends in-person gatherings. How should the group interpret it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Friendship groups often develop unspoken expectations about response times.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A group chat should leave room for people who prefer less screen time.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which group chat habit makes it easier to follow a conversation later?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about an online conversation that led to a memorable real-world meeting.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Friends living in different time zones want to catch up. What's a considerate way to choose a time?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's one reason you'd rather call friends than send a message?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What does it mean for everyone to contribute fairly to a shared plan?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Decide where to go by voting or let each person choose an outing in turn?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a trip where the best idea came from somebody who rarely plans.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Five friends have different budgets for an evening out. How should the group agree on a venue?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People who enjoy organising aren't always the ones who want to make every decision.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Checking everyone's budget early makes a group plan more comfortable.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which part of planning an outing do you enjoy handling?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a group plan that changed at the last moment for the better.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Everyone agrees to meet, but one person keeps arriving late. What would be a respectful approach?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Share a detailed itinerary or agree on one meeting point and decide the rest later?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a sign that someone in a group feels comfortable being themselves?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a friend who helped you speak more freely among new people.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Play a lighthearted game first or begin with relaxed conversation?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Someone makes a joke that seems to upset another person. What should the group do next?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "The same joke lands differently depending on the relationship between the people involved.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "An apology matters more than winning an argument over whether a joke was funny.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What kind of teasing feels friendly to you, and what crosses the line?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a time your group laughed about a misunderstanding after clearing it up.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A friend tells everyone they're uncomfortable with a recurring joke. How should the others respond?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which group tradition is funny because nobody remembers how it started?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's one small habit that makes someone a dependable friend?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A friend who checks in regularly or one who shows up whenever you need practical help?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe an ordinary favour you still remember years later.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Two people offer help to a friend but have different ideas about what to do. How should they coordinate?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People tend to notice different needs when the same friend is having a difficult week.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Asking permission before sharing someone's personal news is essential to friendship.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What helps a group support someone without making them feel watched?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a time your friends quietly adjusted plans to accommodate somebody.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "One person has had disappointing news and doesn't want the gathering to revolve around it. How would you respect that?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Send a collective message of support or let close friends reach out individually?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What would convince you to join a community outside your usual circle?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a club or organisation where you met people with unexpected interests.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Join a weekend volunteer group or a regular class with new faces?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A group wants to welcome newcomers but already has plenty of inside jokes. What's a thoughtful first step?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Sharing the history of an inside joke helps newcomers join in without feeling excluded.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A group grows stronger when new people feel free to bring different ideas.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which interest would you like to share with people outside your age group?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall learning an unfamiliar skill alongside people you had only just met.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Someone proposes an activity nobody has tried. What makes the risk worth taking?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a comfortable way to leave a social gathering when your energy is low?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "How do you decide which opinions to share in a mixed group?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Talk through a disagreement together or leave it for a one-to-one conversation?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time you changed your view after hearing a friend's experience.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Two people disagree strongly about a film while everyone else wants to move on. What would you suggest?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People sometimes argue over definitions when they agree about the larger idea.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Disagreeing politely is more useful than pretending everyone thinks alike.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a question you ask to understand an opinion before responding to it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a debate that ended with everyone learning something new.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A friend feels embarrassed after sharing an unpopular view. How should the group keep the discussion respectful?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Hear everyone's view in turn or let the discussion develop without a formal order?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Who in your circle is best at remembering important dates?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a small surprise from friends that mattered more than an elaborate celebration.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Plan a group birthday outing or make a collection of personal notes for the person?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A friend dislikes being the centre of attention but the group wants to celebrate them. What should guide the plan?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Celebrating friends well begins with knowing whether they enjoy surprises.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A sincere message from several friends beats a party the guest of honour doesn't enjoy.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What kind of achievement deserves more recognition among friends?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a gathering where someone else's success made the whole group happy.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A friend finishes a long personal project and asks for a low-key celebration. What would you organise?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which shared accomplishment has made you feel closer to a group?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's an experience you'd like your friends to try together once?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Start an informal book exchange or take turns sharing a favourite song?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a group activity that became an unexpected tradition.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A friend proposes a monthly gathering, but schedules keep clashing. How might the group make it practical?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Friendship traditions often evolve when everyone's responsibilities change.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Keeping a group connected depends more on consistency than on expensive outings.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which small group tradition would still feel meaningful after several years?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall saying goodbye at a gathering when you knew you wouldn't see everyone for a while.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Friends from different stages of life meet at one table. What would help them connect?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "End a gathering with a group photograph or with everyone suggesting the next activity?",
+      "relatedThemes": []
+    }
+  ]
+}
