@@ -1,7 +1,7 @@
 # Say More · Relationships / Chill / Friends
 
 Target: 500 natural conversation starters.
-Current batch: 100 of 500.
+Current batch: 200 of 500.
 Editorial status: machine-screened candidates. Individual human review and full semantic originality review remain outstanding.
 
 These are everyday, non-explicit conversation starters for existing friends. Optional Gemini features remain separate.
@@ -206,3 +206,204 @@ These are everyday, non-explicit conversation starters for existing friends. Opt
    _SM-001099 · Scenario · Practical friendship_
 100. Helping a friend cook for guests or helping them decorate a room?  
    _SM-001100 · Quick choice · Practical friendship_
+
+101. Which friend always knows the words to a song nobody else remembers?  
+   _SM-001101 · Question · Friendship and music_
+102. A playlist made by a friend feels different when you know the story behind the tracks.  
+   _SM-001102 · Hot take · Friendship and music_
+103. Your group is driving somewhere and two friends keep skipping each other's songs. Who gets control of the music?  
+   _SM-001103 · Scenario · Friendship and music_
+104. A friend who introduces you to unfamiliar artists or one who remembers your old favourites?  
+   _SM-001104 · Quick choice · Friendship and music_
+105. Tell me about a song that became your group's unofficial anthem.  
+   _SM-001105 · Story starter · Friendship and music_
+106. You can often guess who's arriving when the music suddenly changes.  
+   _SM-001106 · Observation · Friendship and music_
+107. Have you ever changed your opinion about a song after hearing a friend explain why they love it?  
+   _SM-001107 · Question · Friendship and music_
+108. Singing badly with friends is more enjoyable than trying to sound impressive.  
+   _SM-001108 · Hot take · Friendship and music_
+109. One friend offers to DJ your small gathering but plays only nostalgic hits. Would anyone complain?  
+   _SM-001109 · Scenario · Friendship and music_
+110. An intimate live-music night with friends or a road trip where everybody chooses three tracks?  
+   _SM-001110 · Quick choice · Friendship and music_
+111. Which friend is most likely to order something you secretly wish you'd chosen?  
+   _SM-001111 · Question · Meals and friendships_
+112. Sharing food is one of the simplest ways to make time for your friends.  
+   _SM-001112 · Hot take · Meals and friendships_
+113. You all agree to split the bill, but one person only ordered a drink. How does your group handle it?  
+   _SM-001113 · Scenario · Meals and friendships_
+114. Cooking a huge meal together or each bringing something to a casual potluck?  
+   _SM-001114 · Quick choice · Meals and friendships_
+115. Tell me about a meal with friends where the conversation made you forget the food.  
+   _SM-001115 · Story starter · Meals and friendships_
+116. Every group seems to have one person who studies the menu before arriving.  
+   _SM-001116 · Observation · Meals and friendships_
+117. What's a dish you associate with a particular friend?  
+   _SM-001117 · Question · Meals and friendships_
+118. Someone remembering your food preferences deserves a little more appreciation.  
+   _SM-001118 · Hot take · Meals and friendships_
+119. A friend insists on taking everyone to a restaurant they've never tried. What would persuade you to go?  
+   _SM-001119 · Scenario · Meals and friendships_
+120. Returning to a place with good memories or trying a new spot your friends keep recommending?  
+   _SM-001120 · Quick choice · Meals and friendships_
+121. Who in your circle quietly makes sure everybody gets included?  
+   _SM-001121 · Question · Unspoken roles_
+122. The person taking photographs often has fewer pictures of themselves than everyone else.  
+   _SM-001122 · Hot take · Unspoken roles_
+123. Your friend group has no plan and everyone says they're fine with anything. Who finally decides?  
+   _SM-001123 · Scenario · Unspoken roles_
+124. Being the friend who remembers details or the one who makes things happen?  
+   _SM-001124 · Quick choice · Unspoken roles_
+125. Tell me about a time a usually quiet friend surprised everyone by taking charge.  
+   _SM-001125 · Story starter · Unspoken roles_
+126. Some people become the group's unofficial calendar without ever agreeing to the job.  
+   _SM-001126 · Observation · Unspoken roles_
+127. Has your role in a friendship group changed as you've grown older?  
+   _SM-001127 · Question · Unspoken roles_
+128. A group works best when organising everything doesn't fall on the same person.  
+   _SM-001128 · Hot take · Unspoken roles_
+129. The usual planner says they want someone else to organise the next outing. What would you volunteer to handle?  
+   _SM-001129 · Scenario · Unspoken roles_
+130. The friend who brings everyone together or the one who checks on people individually?  
+   _SM-001130 · Quick choice · Unspoken roles_
+131. What helps you pick up naturally with a friend you haven't seen for months?  
+   _SM-001131 · Question · Distance and reconnection_
+132. A long gap between conversations doesn't automatically mean a friendship has weakened.  
+   _SM-001132 · Hot take · Distance and reconnection_
+133. An old friend messages after two years to ask how you've been. How do you reply?  
+   _SM-001133 · Scenario · Distance and reconnection_
+134. A long call once in a while or short messages whenever something reminds you of them?  
+   _SM-001134 · Quick choice · Distance and reconnection_
+135. Tell me about a reunion that felt surprisingly ordinary in the best way.  
+   _SM-001135 · Story starter · Distance and reconnection_
+136. Old friends sometimes resume a story exactly where they left it years earlier.  
+   _SM-001136 · Observation · Distance and reconnection_
+137. Is there a friend you mostly know through occasional life updates now?  
+   _SM-001137 · Question · Distance and reconnection_
+138. A friendship can change shape without losing its importance.  
+   _SM-001138 · Hot take · Distance and reconnection_
+139. You visit a city where a friend moved years ago. Do you arrange to meet even if your schedule is tight?  
+   _SM-001139 · Scenario · Distance and reconnection_
+140. Planning an annual reunion or trusting people to reconnect whenever life allows?  
+   _SM-001140 · Quick choice · Distance and reconnection_
+141. What's the most harmless subject your friends disagree about every time?  
+   _SM-001141 · Question · Different opinions_
+142. Disagreeing over small things makes conversation more interesting when nobody takes it personally.  
+   _SM-001142 · Hot take · Different opinions_
+143. Two friends have opposite views on a film you all watched. Do you choose a side or ask more questions?  
+   _SM-001143 · Scenario · Different opinions_
+144. A lively debate over dinner or trading voice notes explaining your different opinions?  
+   _SM-001144 · Quick choice · Different opinions_
+145. Tell me about something a friend persuaded you to try after you dismissed it.  
+   _SM-001145 · Story starter · Different opinions_
+146. The same group can revisit a disagreement for years without anybody changing their mind.  
+   _SM-001146 · Observation · Different opinions_
+147. Is there a recommendation from a friend you resisted for ages before enjoying?  
+   _SM-001147 · Question · Different opinions_
+148. Being curious about why a friend thinks differently matters more than winning the argument.  
+   _SM-001148 · Hot take · Different opinions_
+149. A friend gives a confident prediction about a match and gets it completely wrong. How long is the teasing allowed?  
+   _SM-001149 · Scenario · Different opinions_
+150. Friends who challenge your preferences or friends who happily agree to disagree?  
+   _SM-001150 · Quick choice · Different opinions_
+151. What's something you'd enjoy making with your friends if nobody worried about doing it perfectly?  
+   _SM-001151 · Question · Shared creativity_
+152. A group project can be fun even when the finished result isn't impressive.  
+   _SM-001152 · Hot take · Shared creativity_
+153. Your friends decide to make a silly short film in one afternoon. Which role would you choose?  
+   _SM-001153 · Scenario · Shared creativity_
+154. A photo walk where everyone finds different angles or a cooking challenge where everyone improvises?  
+   _SM-001154 · Quick choice · Shared creativity_
+155. Tell me about a creative idea that started as a joke among friends.  
+   _SM-001155 · Story starter · Shared creativity_
+156. Someone always takes a casual group project much more seriously than expected.  
+   _SM-001156 · Observation · Shared creativity_
+157. Have you ever discovered a friend's hidden talent by accident?  
+   _SM-001157 · Question · Shared creativity_
+158. Trying something new together sometimes brings out sides of friends you rarely see.  
+   _SM-001158 · Hot take · Shared creativity_
+159. A friend wants you all to perform at an informal talent night. What's the safest contribution you could make?  
+   _SM-001159 · Scenario · Shared creativity_
+160. Making a collaborative playlist or putting together a little scrapbook of shared moments?  
+   _SM-001160 · Quick choice · Shared creativity_
+161. What's your preferred way to explain to friends that your week is packed?  
+   _SM-001161 · Question · Respecting busy lives_
+162. Good friends don't need the same amount of free time to stay connected.  
+   _SM-001162 · Hot take · Respecting busy lives_
+163. You and a friend cancel plans twice because of work. What's a low-effort way to catch up?  
+   _SM-001163 · Scenario · Respecting busy lives_
+164. A twenty-minute coffee during a busy week or waiting for a full free afternoon?  
+   _SM-001164 · Quick choice · Respecting busy lives_
+165. Tell me about a friendship you kept close through a particularly demanding season.  
+   _SM-001165 · Story starter · Respecting busy lives_
+166. Adult friendships sometimes run on calendar invitations and a lot of patience.  
+   _SM-001166 · Observation · Respecting busy lives_
+167. Do your friends prefer last-minute plans or plenty of notice?  
+   _SM-001167 · Question · Respecting busy lives_
+168. Respecting a friend's need to rest is part of caring about them.  
+   _SM-001168 · Hot take · Respecting busy lives_
+169. A friend declines a party because they need a quiet night. What would you say?  
+   _SM-001169 · Scenario · Respecting busy lives_
+170. Short spontaneous catch-ups or a regular monthly meet-up that rarely changes?  
+   _SM-001170 · Quick choice · Respecting busy lives_
+171. What's a skill you learned from a friend that you still use?  
+   _SM-001171 · Question · Learning from friends_
+172. Friends can be excellent teachers because they understand how you think.  
+   _SM-001172 · Hot take · Learning from friends_
+173. A friend offers to teach you how to ride a bicycle as an adult. Would you accept?  
+   _SM-001173 · Scenario · Learning from friends_
+174. Learning your friend's hobby or teaching them something you're already good at?  
+   _SM-001174 · Quick choice · Learning from friends_
+175. Tell me about a practical lesson from a friend that saved you time later.  
+   _SM-001175 · Story starter · Learning from friends_
+176. Someone always has an oddly specific talent the rest of the group relies on.  
+   _SM-001176 · Observation · Learning from friends_
+177. Which friend would you trust to explain a complicated thing without making you feel silly?  
+   _SM-001177 · Question · Learning from friends_
+178. You don't have to share someone's enthusiasm to appreciate their knowledge.  
+   _SM-001178 · Hot take · Learning from friends_
+179. A friend asks you to join their beginner's language class. What would make you try it?  
+   _SM-001179 · Scenario · Learning from friends_
+180. Learning through a friend's patient explanation or figuring things out together as complete beginners?  
+   _SM-001180 · Quick choice · Learning from friends_
+181. What's the most ordinary place you've had a memorable afternoon with friends?  
+   _SM-001181 · Question · Little adventures_
+182. A good group can turn a routine errand into a mini-adventure.  
+   _SM-001182 · Hot take · Little adventures_
+183. Your friends spot a small community festival while passing by. Do you stop or stick to the original plan?  
+   _SM-001183 · Scenario · Little adventures_
+184. Taking an unfamiliar route on a walk or revisiting a favourite place at a different time of day?  
+   _SM-001184 · Quick choice · Little adventures_
+185. Tell me about a day out where the unplanned part became everybody's favourite.  
+   _SM-001185 · Story starter · Little adventures_
+186. The funniest detours often begin with someone saying they know a shortcut.  
+   _SM-001186 · Observation · Little adventures_
+187. Have you ever travelled somewhere mainly because a friend was excited to show you around?  
+   _SM-001187 · Question · Little adventures_
+188. An outing doesn't need a packed itinerary if the company is good.  
+   _SM-001188 · Hot take · Little adventures_
+189. You arrive at an event and realise you've come on the wrong day. What would your group do instead?  
+   _SM-001189 · Scenario · Little adventures_
+190. A picnic with games or a leisurely day browsing local markets?  
+   _SM-001190 · Quick choice · Little adventures_
+191. What change in a friend have you been quietly proud to witness?  
+   _SM-001191 · Question · Friendship and growth_
+192. The friends who celebrate small progress often matter as much as the ones celebrating big milestones.  
+   _SM-001192 · Hot take · Friendship and growth_
+193. A friend starts a new job and admits they're nervous. What would be a thoughtful way to encourage them?  
+   _SM-001193 · Scenario · Friendship and growth_
+194. Friends who remind you how far you've come or friends who push you to try new things?  
+   _SM-001194 · Quick choice · Friendship and growth_
+195. Tell me about seeing a friend succeed at something they once found difficult.  
+   _SM-001195 · Story starter · Friendship and growth_
+196. People sometimes notice their friend's growth long before the friend sees it themselves.  
+   _SM-001196 · Observation · Friendship and growth_
+197. Is there an old habit you and your friends laugh about having outgrown?  
+   _SM-001197 · Question · Friendship and growth_
+198. Friendships stay interesting when people allow one another to change.  
+   _SM-001198 · Hot take · Friendship and growth_
+199. A friend develops a completely new interest and keeps talking about it. How do you show genuine curiosity?  
+   _SM-001199 · Scenario · Friendship and growth_
+200. Celebrating a friend's achievement with a shared activity or giving them a thoughtful personal gift?  
+   _SM-001200 · Quick choice · Friendship and growth_
