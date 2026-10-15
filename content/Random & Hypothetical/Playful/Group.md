@@ -203,3 +203,205 @@ Target: 500. Entries remain editorial drafts until human approval.
    _SM-004099 · Quick choice · pending editorial review_
 100. The most magical accommodation still needs somewhere for everybody to charge their phones.  
    _SM-004100 · Hot take · pending editorial review_
+
+
+101. We're in a courtroom settling whether cereal counts as soup. Who volunteers as the expert witness?  
+   _SM-004101 · Scenario · pending editorial review_
+102. What completely harmless disagreement deserves the most dramatic legal proceedings?  
+   _SM-004102 · Question · pending editorial review_
+103. Putting the last slice of cake on trial or prosecuting someone for never returning a borrowed pen?  
+   _SM-004103 · Quick choice · pending editorial review_
+104. The person appointed judge should not also be the one who ate the missing biscuits.  
+   _SM-004104 · Hot take · pending editorial review_
+105. Tell us about a small disagreement you've seen treated like a major public controversy.  
+   _SM-004105 · Story starter · pending editorial review_
+106. A group can invent complicated rules for fairness much faster than it can agree on lunch.  
+   _SM-004106 · Observation · pending editorial review_
+107. Our court must decide whether arriving 'in five minutes' actually means fifteen. What's the evidence?  
+   _SM-004107 · Scenario · pending editorial review_
+108. Who would give the most convincing closing argument about why pineapple belongs on pizza?  
+   _SM-004108 · Question · pending editorial review_
+109. A trial by blind taste test or a jury made up entirely of people's grandparents?  
+   _SM-004109 · Quick choice · pending editorial review_
+110. All silly courtroom disputes should end with everyone sharing the disputed snack.  
+   _SM-004110 · Hot take · pending editorial review_
+111. What two ordinary activities could be combined to create a sport nobody asked for?  
+   _SM-004111 · Question · pending editorial review_
+112. Our Olympic event involves carrying a full cup of tea through a maze. What should the rules be?  
+   _SM-004112 · Scenario · pending editorial review_
+113. Competitive pillow stacking or synchronised shopping-trolley steering?  
+   _SM-004113 · Quick choice · pending editorial review_
+114. The person explaining an invented sport always becomes suspiciously good at its rules.  
+   _SM-004114 · Observation · pending editorial review_
+115. An international championship for folding fitted sheets would humble the world's greatest athletes.  
+   _SM-004115 · Hot take · pending editorial review_
+116. Tell us about a childhood game that became extremely competitive for no sensible reason.  
+   _SM-004116 · Story starter · pending editorial review_
+117. Your group invents a sport played with three balloons and a laundry basket. What counts as a goal?  
+   _SM-004117 · Scenario · pending editorial review_
+118. Which group member would argue most fiercely over the official equipment specifications?  
+   _SM-004118 · Question · pending editorial review_
+119. A slow-motion race where the last person wins or an obstacle course completed while telling jokes?  
+   _SM-004119 · Quick choice · pending editorial review_
+120. A sport cannot truly succeed until somebody gets disqualified for an incredibly minor offence.  
+   _SM-004120 · Hot take · pending editorial review_
+121. We inherit a peaceful kingdom with no money but an enormous supply of carrots. What's our first policy?  
+   _SM-004121 · Scenario · pending editorial review_
+122. Who in this group would make a surprisingly good ruler of a town of fifty people?  
+   _SM-004122 · Question · pending editorial review_
+123. A kingdom where everyone gets a pet goose or one where every official announcement comes as a poem?  
+   _SM-004123 · Quick choice · pending editorial review_
+124. Our royal council would spend its first afternoon choosing unnecessarily elaborate titles.  
+   _SM-004124 · Hot take · pending editorial review_
+125. Tell us about a time a small group made running a simple event look like governing a nation.  
+   _SM-004125 · Story starter · pending editorial review_
+126. A royal banquet run by friends always has one person trying to redesign the seating chart.  
+   _SM-004126 · Observation · pending editorial review_
+127. The people demand a national symbol and our only options are a spoon or a sandal. Which wins?  
+   _SM-004127 · Scenario · pending editorial review_
+128. What ridiculously minor issue could bring down our imaginary government?  
+   _SM-004128 · Question · pending editorial review_
+129. Being the royal keeper of maps or the official tester of the palace mattresses?  
+   _SM-004129 · Quick choice · pending editorial review_
+130. A constitutional monarchy based on group-chat polls would be the least efficient government imaginable.  
+   _SM-004130 · Hot take · pending editorial review_
+131. Gravity becomes half as strong every Tuesday. What everyday object becomes the biggest nuisance?  
+   _SM-004131 · Scenario · pending editorial review_
+132. What would be the funniest practical consequence if everybody could jump exactly three metres high?  
+   _SM-004132 · Question · pending editorial review_
+133. A world where rain falls sideways or one where objects bounce slightly whenever you put them down?  
+   _SM-004133 · Quick choice · pending editorial review_
+134. Floating furniture would sound wonderful until someone tried serving soup.  
+   _SM-004134 · Hot take · pending editorial review_
+135. Tell us about a real science fact that sounded made up the first time you heard it.  
+   _SM-004135 · Story starter · pending editorial review_
+136. A world with extremely slow falling leaves would turn autumn into a patience test.  
+   _SM-004136 · Observation · pending editorial review_
+137. For one day shadows can move independently. Whose shadow gets us into trouble?  
+   _SM-004137 · Scenario · pending editorial review_
+138. Which everyday sport would change the most if balls moved in slow motion?  
+   _SM-004138 · Question · pending editorial review_
+139. Being able to carry enormously heavy objects easily or walking on ceilings without feeling upside down?  
+   _SM-004139 · Quick choice · pending editorial review_
+140. The worst superpower for a messy roommate would be making every dropped item roll uphill.  
+   _SM-004140 · Hot take · pending editorial review_
+141. A little shop sells bottled emotions but labels keep falling off. What happens when we try to buy excitement?  
+   _SM-004141 · Scenario · pending editorial review_
+142. What magical item would you expect to find behind the counter of an otherwise ordinary corner shop?  
+   _SM-004142 · Question · pending editorial review_
+143. A notebook that draws your day as a comic or a clock that adds ten extra minutes to afternoon naps?  
+   _SM-004143 · Quick choice · pending editorial review_
+144. Any magical shop with a loyalty card should be treated with considerable suspicion.  
+   _SM-004144 · Hot take · pending editorial review_
+145. Tell us about a tiny shop that felt as though it belonged in a storybook.  
+   _SM-004145 · Story starter · pending editorial review_
+146. The shopkeeper who knows exactly what everyone wants is either very observant or deeply magical.  
+   _SM-004146 · Observation · pending editorial review_
+147. Every purchase comes with a harmless temporary curse. What item would still tempt us?  
+   _SM-004147 · Scenario · pending editorial review_
+148. Who here would accidentally buy a talking umbrella and then argue with it all the way home?  
+   _SM-004148 · Question · pending editorial review_
+149. A shopping bag that never tears or a pair of shoes that always lead you to the nearest bakery?  
+   _SM-004149 · Quick choice · pending editorial review_
+150. The truly magical purchase would be an umbrella nobody ever leaves on public transport.  
+   _SM-004150 · Hot take · pending editorial review_
+151. What subject would make school considerably more interesting if it existed only one day a week?  
+   _SM-004151 · Question · pending editorial review_
+152. Our school timetable includes Advanced Queueing and Practical Snack Sharing. Who becomes top of the class?  
+   _SM-004152 · Scenario · pending editorial review_
+153. A lesson on talking to plants or a class in designing wildly impractical furniture?  
+   _SM-004153 · Quick choice · pending editorial review_
+154. Even in a school for ridiculous subjects, somebody would worry about the final exam.  
+   _SM-004154 · Observation · pending editorial review_
+155. The most useful compulsory course might be how to recover gracefully after calling a teacher by the wrong name.  
+   _SM-004155 · Hot take · pending editorial review_
+156. Tell us about a real school activity that felt like an accidental comedy competition.  
+   _SM-004156 · Story starter · pending editorial review_
+157. We have to teach a subject using only mime. Which teacher makes the class completely confused?  
+   _SM-004157 · Scenario · pending editorial review_
+158. What homework assignment would be so enjoyable nobody needed reminding to do it?  
+   _SM-004158 · Question · pending editorial review_
+159. A school with no desks but lots of workshops or one where every class ends with a quiz written by students?  
+   _SM-004159 · Quick choice · pending editorial review_
+160. An imaginary university should award degrees in surviving a group project without losing friendships.  
+   _SM-004160 · Hot take · pending editorial review_
+161. Archaeologists in the year 3000 discover a tangled drawer of charging cables. What do they think it was used for?  
+   _SM-004161 · Scenario · pending editorial review_
+162. What ordinary object from today would confuse historians who knew nothing about our habits?  
+   _SM-004162 · Question · pending editorial review_
+163. Future people interpreting a remote control as a musical instrument or a selfie stick as ceremonial equipment?  
+   _SM-004163 · Quick choice · pending editorial review_
+164. A museum exhibition about our old group chats would need more explanation than an ancient language dictionary.  
+   _SM-004164 · Hot take · pending editorial review_
+165. Tell us about finding an outdated gadget and struggling to remember how people used it.  
+   _SM-004165 · Story starter · pending editorial review_
+166. A perfectly normal supermarket receipt might look like an elaborate social document to a visitor from the future.  
+   _SM-004166 · Observation · pending editorial review_
+167. A historian finds six mismatched socks in a drawer and concludes they were a family crest. What do we say?  
+   _SM-004167 · Scenario · pending editorial review_
+168. Which embarrassing internet habit should future generations definitely never discover?  
+   _SM-004168 · Question · pending editorial review_
+169. Leaving behind a detailed diary of an ordinary day or a box full of mystery objects without labels?  
+   _SM-004169 · Quick choice · pending editorial review_
+170. The best thing to put in a time capsule is a clear explanation of why people owned so many water bottles.  
+   _SM-004170 · Hot take · pending editorial review_
+171. All the furniture forms a band when nobody is looking. Which item gets the drum solo?  
+   _SM-004171 · Scenario · pending editorial review_
+172. If the objects in this room formed a choir, what would the loudest one sing about?  
+   _SM-004172 · Question · pending editorial review_
+173. A trumpet made from a watering can or a violin played by a very determined umbrella?  
+   _SM-004173 · Quick choice · pending editorial review_
+174. An orchestra of household appliances would be excellent if the blender agreed to play softly.  
+   _SM-004174 · Hot take · pending editorial review_
+175. Tell us about making an improvised musical instrument out of something completely unexpected.  
+   _SM-004175 · Story starter · pending editorial review_
+176. The kitchen drawer probably contains enough rattling objects for a percussion section.  
+   _SM-004176 · Observation · pending editorial review_
+177. Our band of household objects books its first performance. What's the biggest technical problem?  
+   _SM-004177 · Scenario · pending editorial review_
+178. Who would insist on becoming manager of a group whose lead singer is a kettle?  
+   _SM-004178 · Question · pending editorial review_
+179. A refrigerator performing dramatic opera or a desk fan producing experimental electronic music?  
+   _SM-004179 · Quick choice · pending editorial review_
+180. A band featuring a microwave would have to limit its songs to the length of a reheating cycle.  
+   _SM-004180 · Hot take · pending editorial review_
+181. If your breakfast choices determined your daily job, which meal would lead to the strangest career?  
+   _SM-004181 · Question · pending editorial review_
+182. Everyone wakes up to find cereal has become the world's main currency. How do we pay for transport?  
+   _SM-004182 · Scenario · pending editorial review_
+183. A café serving breakfast at midnight or one where customers must invent their own pancake shape?  
+   _SM-004183 · Quick choice · pending editorial review_
+184. A breakfast buffet should never be trusted to settle international diplomatic disputes.  
+   _SM-004184 · Hot take · pending editorial review_
+185. Tell us about a time a simple breakfast became the start of an unexpectedly eventful day.  
+   _SM-004185 · Story starter · pending editorial review_
+186. The person who says they never eat breakfast often has surprisingly strong opinions about breakfast foods.  
+   _SM-004186 · Observation · pending editorial review_
+187. An alien asks our group to explain why one food is considered breakfast and another dinner. Who tries first?  
+   _SM-004187 · Scenario · pending editorial review_
+188. What would be the most absurd official title for the person in charge of breakfast?  
+   _SM-004188 · Question · pending editorial review_
+189. Porridge that changes colour with your mood or toast that prints a tiny weather forecast?  
+   _SM-004189 · Quick choice · pending editorial review_
+190. The only truly fair breakfast rule is letting people decide when their morning starts.  
+   _SM-004190 · Hot take · pending editorial review_
+191. Our group becomes famous because a pigeon steals the microphone during a video. Who gives the interview?  
+   _SM-004191 · Scenario · pending editorial review_
+192. What harmless accident would make the funniest reason for a group to appear on the news?  
+   _SM-004192 · Question · pending editorial review_
+193. Being known for rescuing a runaway shopping trolley or inventing a surprisingly popular handshake?  
+   _SM-004193 · Quick choice · pending editorial review_
+194. Accidental celebrities should be allowed to give only one interview before returning to normal life.  
+   _SM-004194 · Hot take · pending editorial review_
+195. Tell us about a moment when an ordinary person accidentally became the centre of attention.  
+   _SM-004195 · Story starter · pending editorial review_
+196. Someone who goes viral for a silly dance will inevitably be asked to recreate it at family events for years.  
+   _SM-004196 · Observation · pending editorial review_
+197. A magazine asks us for the secret behind our sudden fame. How long before somebody invents a ridiculous origin story?  
+   _SM-004197 · Scenario · pending editorial review_
+198. Which person here would take charge of our imaginary public image despite having no experience?  
+   _SM-004198 · Question · pending editorial review_
+199. Fifteen minutes of fame with a ridiculous nickname or a tiny local award nobody outside your street understands?  
+   _SM-004199 · Quick choice · pending editorial review_
+200. The funniest celebrity endorsement would be a person who became famous for making an excellent sandwich.  
+   _SM-004200 · Hot take · pending editorial review_
