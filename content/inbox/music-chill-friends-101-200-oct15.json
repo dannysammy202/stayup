@@ -1,0 +1,507 @@
+{
+  "topic": "Music",
+  "mood": "Chill",
+  "audience": "Friends",
+  "prompts": [
+    {
+      "format": "Question",
+      "text": "Which film or television scene would feel completely different without its music?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe noticing a soundtrack before you remembered anything else about a movie.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Listen to a film score without watching the film or revisit the scenes where it was used?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We're asked to choose background music for a silent short film. Where would we begin?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "A short musical motif can make an ordinary character instantly recognisable.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A quiet soundtrack can be more effective than music that constantly demands attention.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What movie theme do you associate with a particular character or place?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall an animated film whose music you enjoyed long after childhood.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Our group is making a short video about a relaxed afternoon. What kind of score would fit?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A piano-led film soundtrack or an orchestral score with memorable themes?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which radio programme introduced you to music you still enjoy?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about hearing an unfamiliar song on the radio and trying to find its title.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A live presenter explaining discoveries or a playlist that simply moves from track to track?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We have one hour to host a friendly radio segment. How would we balance music and conversation?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "The stories around songs can become part of why listeners remember them.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A presenter with genuine curiosity can make an ordinary playlist feel fresh.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What kind of radio discussion would keep you listening between songs?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a favourite music broadcast that felt like an event in your household.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Our group is curating a small online station for a weekend. What's its theme?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "An evening programme of listener requests or a morning show focused on new discoveries?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which old recording would you love to hear restored without losing its character?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe discovering an older song because a parent, neighbour or grandparent played it.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Compare different performances of a classic song or explore how its original instruments were recorded?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A friend finds a collection of old records with no labels. How should we explore them?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Recording styles can tell you something about the technology and performance habits of their era.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Cleaner audio isn't automatically a better listening experience.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What feature of older recordings makes them interesting to you?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall recognising a familiar melody in a recording from another decade.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We want to make a listening session about the music our relatives grew up with. Who would we ask first?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Discover a forgotten local favourite or listen to a well-known album from an earlier generation?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What difference between two singers' voices makes you recognise them immediately?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about hearing a vocalist perform live and noticing something the studio version hid.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A soft, expressive delivery or a powerful voice that fills the room?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We each choose a vocalist to introduce to somebody who has never heard their music. What qualities would we describe?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "The texture of a voice can carry emotion even when the words aren't familiar.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Technical range isn't the only measure of a memorable singer.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which singer uses silence or restraint in a way you admire?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall finding a cover version that changed your opinion of the original song.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We want to compare the same tune sung in two very different styles. What would be fair to listen for?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A stripped-back vocal performance or an arrangement built around layered harmonies?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which musical instrument do you think friends could learn together with little equipment?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe hearing a percussion pattern that made you want to tap along.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Try a simple group rhythm exercise or learn a melody one phrase at a time?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We're given an afternoon to make music with everyday objects. How would we create a rhythm together?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "A small musical pattern can change character when a second player responds to it.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Playing in time with others is a skill worth appreciating even when the music seems simple.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a rhythm you can recognise before the melody begins?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall someone demonstrating how changing the tempo transformed a familiar musical idea.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A friend wants to understand what a groove is. How might we explain it by listening?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Explore hand percussion from several traditions or learn how a drum kit supports a band?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What effect does music have on the way you remember a journey?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about walking through an unfamiliar place while a song made the moment stand out.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Listen to the sounds around you during a trip or play music that fits the scenery?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We're taking an overnight train with time to talk. What sort of music would suit the changing landscape?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "A familiar track can become tied to a very specific view or time of year.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Some journeys deserve silence as much as they deserve a soundtrack.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which place has music playing in the background whenever you remember it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall visiting a shop or café whose music made it feel different from others nearby.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We want to remember a holiday through a short playlist. What would make the choices meaningful?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Build a soundtrack before a trip or make one afterwards based on the memories?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What makes a music video worth revisiting even when you know the song well?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe seeing a video that completely changed your mental picture of a track.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A simple live-performance video or an elaborate visual story with a clear idea?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We're asked to shoot a one-minute video for a friend's original song. What setting would we choose?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "The most memorable visuals can come from a simple concept executed consistently.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A video doesn't need expensive effects to reveal something about the music.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which music video has a visual idea you'd like to discuss with friends?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall noticing a small performance or design detail on a second viewing.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Our group wants to make a music visual without showing faces. What objects or locations might communicate the mood?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Film musicians performing together or follow an original character through a short story?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What kind of music helps you stay present while working on something creative?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about discovering that a different listening environment improved your concentration.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Instrumental background music or familiar songs that don't pull you away from the task?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Our friends rent a shared studio space and prefer different listening levels. What would make the arrangement work?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "The music that helps one person focus can be distracting to another.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A good work playlist doesn't need to be interesting enough to become the main activity.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which sonic detail makes a track feel peaceful without becoming dull?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall finishing a project while the same quiet album played in the background.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We want a soundtrack for an afternoon of reading, drawing and planning. What features should we look for?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A gentle ambient soundscape or acoustic melodies with plenty of space?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which song would you choose to mark the end of a memorable gathering?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe watching a crowd sing together during an event without needing a performer to lead.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "End a party with an energetic favourite or a calmer song that signals it's time to leave?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We have to create a musical moment for a friend's farewell. How could it be personal without being awkward?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "The order of songs can shape how people remember the end of an evening.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A familiar closing track can become a tradition without anyone planning it.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What musical moment has brought a group of strangers together for a few minutes?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a celebration where the music suddenly matched the mood perfectly.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We're setting up a small birthday gathering for somebody who dislikes loud music. How would we choose a soundtrack?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Invite friends to dedicate a song or let everyone quietly add a track to a shared playlist?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What do you enjoy discovering about an artist after you've liked their music for years?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about an interview that made you understand a musician's process differently.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Read about an artist's musical influences or watch them demonstrate how they wrote a song?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We get to ask a local musician three thoughtful questions after a show. What would be worth asking?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "An artist's creative habits can be as interesting as the finished recordings.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "You can admire a musician's work without agreeing with every opinion they express.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which album would you want to hear its creator discuss track by track?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall discovering a musician's early work and noticing how their style evolved.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Our group is making a short documentary about a neighbourhood artist. What story should it tell beyond their performances?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Learn about the making of a breakthrough song or the quieter work an artist is proud of?",
+      "relatedThemes": []
+    }
+  ]
+}
