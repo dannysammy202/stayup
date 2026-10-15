@@ -203,3 +203,205 @@ Initial target: 200. Entries remain editorial drafts until human approval.
    _SM-004799 · Scenario · pending editorial review_
 100. End a gathering with a group photograph or with everyone suggesting the next activity?  
    _SM-004800 · Quick choice · pending editorial review_
+
+
+101. What's a first impression of someone that changed after you got to know them?  
+   _SM-004801 · Question · pending editorial review_
+102. Tell us about meeting a friend in an unlikely place.  
+   _SM-004802 · Story starter · pending editorial review_
+103. Get to know someone through shared work or through a relaxed conversation?  
+   _SM-004803 · Quick choice · pending editorial review_
+104. A new colleague joins a team where everyone already knows one another. What's a useful first invitation?  
+   _SM-004804 · Scenario · pending editorial review_
+105. People reveal different sides of themselves depending on the setting.  
+   _SM-004805 · Observation · pending editorial review_
+106. Being shy at a first meeting says little about someone's interest in other people.  
+   _SM-004806 · Hot take · pending editorial review_
+107. What helps you remember a new person's name after an introduction?  
+   _SM-004807 · Question · pending editorial review_
+108. Describe a stranger who gave you helpful advice in a brief conversation.  
+   _SM-004808 · Story starter · pending editorial review_
+109. Several people know each other only online and arrange their first meeting. What would help everyone feel at ease?  
+   _SM-004809 · Scenario · pending editorial review_
+110. Which friendship began with an unexpectedly ordinary conversation?  
+   _SM-004810 · Question · pending editorial review_
+111. How has your idea of a dependable friend changed over time?  
+   _SM-004811 · Question · pending editorial review_
+112. Friends who share your interests or friends who challenge your thinking?  
+   _SM-004812 · Quick choice · pending editorial review_
+113. Tell us about reconnecting with someone after years of little contact.  
+   _SM-004813 · Story starter · pending editorial review_
+114. One friend changes their routine after starting a new job. How should the group adjust expectations?  
+   _SM-004814 · Scenario · pending editorial review_
+115. Long friendships often survive changes because people allow one another to evolve.  
+   _SM-004815 · Observation · pending editorial review_
+116. A friendship doesn't need constant updates to remain meaningful.  
+   _SM-004816 · Hot take · pending editorial review_
+117. What makes a reunion feel comfortable rather than awkward?  
+   _SM-004817 · Question · pending editorial review_
+118. Recall an old acquaintance who remembered something kind about you.  
+   _SM-004818 · Story starter · pending editorial review_
+119. You hear that a former classmate is visiting the area. What would make you reach out?  
+   _SM-004819 · Scenario · pending editorial review_
+120. Meet old friends in a familiar place or choose somewhere new together?  
+   _SM-004820 · Quick choice · pending editorial review_
+121. What's a small sign that someone respects your time?  
+   _SM-004821 · Question · pending editorial review_
+122. Tell us about a time a person handled a delay with unusual consideration.  
+   _SM-004822 · Story starter · pending editorial review_
+123. Arrive early and settle in or arrive exactly when the gathering begins?  
+   _SM-004823 · Quick choice · pending editorial review_
+124. A group activity runs longer than planned and someone needs to leave. How should the others respond?  
+   _SM-004824 · Scenario · pending editorial review_
+125. People's schedules reveal very little about how much they care for their friends.  
+   _SM-004825 · Observation · pending editorial review_
+126. Saying how long you have available is better than agreeing to plans you can't keep.  
+   _SM-004826 · Hot take · pending editorial review_
+127. Which invitation makes it easiest for you to decide whether to attend?  
+   _SM-004827 · Question · pending editorial review_
+128. Describe an occasion when changing a meeting time made everyone more comfortable.  
+   _SM-004828 · Story starter · pending editorial review_
+129. Friends disagree about how far they should travel to meet. What would be a fair arrangement?  
+   _SM-004829 · Scenario · pending editorial review_
+130. What makes you feel welcome when you arrive later than everyone else?  
+   _SM-004830 · Question · pending editorial review_
+131. What's one thing a group should do when planning around different personalities?  
+   _SM-004831 · Question · pending editorial review_
+132. Take turns leading a group project or divide roles according to strengths?  
+   _SM-004832 · Quick choice · pending editorial review_
+133. Tell us about a team where someone quiet made a crucial contribution.  
+   _SM-004833 · Story starter · pending editorial review_
+134. A group assignment has no clear organiser. How would you help it get started?  
+   _SM-004834 · Scenario · pending editorial review_
+135. Some people lead through preparation, while others shine during unexpected challenges.  
+   _SM-004835 · Observation · pending editorial review_
+136. A group succeeds more easily when people respect different working styles.  
+   _SM-004836 · Hot take · pending editorial review_
+137. What task do friends tend to ask you to handle because they know your strengths?  
+   _SM-004837 · Question · pending editorial review_
+138. Recall finishing a shared project and feeling proud of the way everyone contributed.  
+   _SM-004838 · Story starter · pending editorial review_
+139. Two friends volunteer for the same role and neither wants to step aside. How should the team decide?  
+   _SM-004839 · Scenario · pending editorial review_
+140. Work side by side on a challenge or divide it into independent parts?  
+   _SM-004840 · Quick choice · pending editorial review_
+141. What's the most useful response when a friend asks for your opinion about a personal choice?  
+   _SM-004841 · Question · pending editorial review_
+142. Tell us about advice you received from a peer that stayed with you.  
+   _SM-004842 · Story starter · pending editorial review_
+143. Offer an immediate reaction or ask a few questions before giving your view?  
+   _SM-004843 · Quick choice · pending editorial review_
+144. Someone tells the group about a decision they're unsure of. How would you avoid making it feel like a vote?  
+   _SM-004844 · Scenario · pending editorial review_
+145. People sometimes ask friends for reassurance when they already know their preferred choice.  
+   _SM-004845 · Observation · pending editorial review_
+146. Respecting a friend's decision includes accepting when they don't follow your advice.  
+   _SM-004846 · Hot take · pending editorial review_
+147. When do you prefer encouragement over detailed feedback?  
+   _SM-004847 · Question · pending editorial review_
+148. Recall giving someone advice and later learning that they chose another path.  
+   _SM-004848 · Story starter · pending editorial review_
+149. A friend wants honest feedback on something they're proud of. What's a considerate way to begin?  
+   _SM-004849 · Scenario · pending editorial review_
+150. Which phrases help you feel heard during a difficult conversation?  
+   _SM-004850 · Question · pending editorial review_
+151. What makes somebody feel safe sharing a personal story with a group?  
+   _SM-004851 · Question · pending editorial review_
+152. Keep personal updates brief or share one longer story when everyone has time?  
+   _SM-004852 · Quick choice · pending editorial review_
+153. Describe a moment when your group protected someone's confidence.  
+   _SM-004853 · Story starter · pending editorial review_
+154. Someone starts telling a story about another friend who isn't present. How would you check whether it's appropriate to share?  
+   _SM-004854 · Scenario · pending editorial review_
+155. A good listener notices when a person hesitates before giving more detail.  
+   _SM-004855 · Observation · pending editorial review_
+156. Being close to someone doesn't give you ownership of their private experiences.  
+   _SM-004856 · Hot take · pending editorial review_
+157. How do you signal that a topic is too personal for a particular setting?  
+   _SM-004857 · Question · pending editorial review_
+158. Tell us about a time a friend respected a boundary without asking for an explanation.  
+   _SM-004858 · Story starter · pending editorial review_
+159. A group photograph includes someone who doesn't want it posted online. What's the right next step?  
+   _SM-004859 · Scenario · pending editorial review_
+160. Ask permission before taking photos or take them freely but ask before sharing?  
+   _SM-004860 · Quick choice · pending editorial review_
+161. Which quality helps friendships recover after a disagreement?  
+   _SM-004861 · Question · pending editorial review_
+162. Recall a time a group changed plans after hearing a concern they'd overlooked.  
+   _SM-004862 · Story starter · pending editorial review_
+163. Address tension before the next gathering or find a quiet moment during it?  
+   _SM-004863 · Quick choice · pending editorial review_
+164. Two friends disagree over a shared expense after an outing. What information would help settle it fairly?  
+   _SM-004864 · Scenario · pending editorial review_
+165. People often need different amounts of time before they feel ready to revisit conflict.  
+   _SM-004865 · Observation · pending editorial review_
+166. Resolving a disagreement doesn't require everyone to pretend they saw it the same way.  
+   _SM-004866 · Hot take · pending editorial review_
+167. What does a sincere effort to rebuild trust look like among friends?  
+   _SM-004867 · Question · pending editorial review_
+168. Tell us about an apology that restored a friendship over time.  
+   _SM-004868 · Story starter · pending editorial review_
+169. A friend admits they repeated something private. How should the group respond while protecting the person affected?  
+   _SM-004869 · Scenario · pending editorial review_
+170. When is it better to ask a neutral friend to help with a conversation?  
+   _SM-004870 · Question · pending editorial review_
+171. What's a social rule you grew up with that surprises people from other backgrounds?  
+   _SM-004871 · Question · pending editorial review_
+172. Let everyone bring a dish to a gathering or have one person plan the whole meal?  
+   _SM-004872 · Quick choice · pending editorial review_
+173. Tell us about learning a useful custom from a friend with a different upbringing.  
+   _SM-004873 · Story starter · pending editorial review_
+174. A group hosts visitors from several cultures and wants everyone to feel respected. What would you ask in advance?  
+   _SM-004874 · Scenario · pending editorial review_
+175. People express respect through different habits, including silence, eye contact and greetings.  
+   _SM-004875 · Observation · pending editorial review_
+176. Curiosity about a custom is welcome when it leaves the other person free to decline an explanation.  
+   _SM-004876 · Hot take · pending editorial review_
+177. Which local tradition would you enjoy explaining to a new friend?  
+   _SM-004877 · Question · pending editorial review_
+178. Describe a celebration where you learnt why a custom mattered to the people practising it.  
+   _SM-004878 · Story starter · pending editorial review_
+179. Two friends have different expectations about bringing gifts when visiting. How might they discuss it comfortably?  
+   _SM-004879 · Scenario · pending editorial review_
+180. Learn a new greeting from everyone or exchange favourite sayings from home?  
+   _SM-004880 · Quick choice · pending editorial review_
+181. What shared experience makes an ordinary group gathering feel memorable?  
+   _SM-004881 · Question · pending editorial review_
+182. Tell us about the first time your friends tried an activity none of you knew how to do.  
+   _SM-004882 · Story starter · pending editorial review_
+183. A low-pressure picnic or a casual visit to a free local event?  
+   _SM-004883 · Quick choice · pending editorial review_
+184. The group arrives at a venue and finds it unexpectedly closed. How would you choose a backup plan?  
+   _SM-004884 · Scenario · pending editorial review_
+185. An outing sometimes improves when everyone agrees to change expectations.  
+   _SM-004885 · Observation · pending editorial review_
+186. The best group plans leave room for people who enjoy different levels of activity.  
+   _SM-004886 · Hot take · pending editorial review_
+187. Which outdoor activity works well for friends with different energy levels?  
+   _SM-004887 · Question · pending editorial review_
+188. Recall an unplanned detour that turned into the highlight of a day with friends.  
+   _SM-004888 · Story starter · pending editorial review_
+189. One friend wants to stay out late and another has an early morning. What would be a respectful way to split plans?  
+   _SM-004889 · Scenario · pending editorial review_
+190. Which inexpensive outing would you recommend to a group visiting your city?  
+   _SM-004890 · Question · pending editorial review_
+191. What do you hope people feel after spending time with your group?  
+   _SM-004891 · Question · pending editorial review_
+192. Make a shared scrapbook or collect short voice memories from each person?  
+   _SM-004892 · Quick choice · pending editorial review_
+193. Tell us about the first gathering when a collection of acquaintances began to feel like friends.  
+   _SM-004893 · Story starter · pending editorial review_
+194. A friend has to miss an important get-together. What's a thoughtful way to include them afterwards?  
+   _SM-004894 · Scenario · pending editorial review_
+195. Group friendships often form around the small things people repeatedly choose to do together.  
+   _SM-004895 · Observation · pending editorial review_
+196. Good groups create space for changing interests without making anyone feel left behind.  
+   _SM-004896 · Hot take · pending editorial review_
+197. What new tradition would suit friends who rarely have time to meet?  
+   _SM-004897 · Question · pending editorial review_
+198. Recall an occasion when your group welcomed someone who later became a close friend.  
+   _SM-004898 · Story starter · pending editorial review_
+199. Your group decides to invite one new person to the next outing. What would make their first hour comfortable?  
+   _SM-004899 · Scenario · pending editorial review_
+200. End a meet-up with everyone sharing one highlight or let the evening end naturally?  
+   _SM-004900 · Quick choice · pending editorial review_
