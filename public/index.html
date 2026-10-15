@@ -220,7 +220,7 @@ function persist(){try{localStorage.setItem(STORAGE,JSON.stringify({saved:state.
 function inPool(){const hidden=new Set(state.hidden);return PROMPTS.filter(p=>p.adult===state.adult&&!hidden.has(p.id)&&p.editorialStatus!=='generated_pending_editorial_review')}
 function filtered(){
  const q=state.query.toLowerCase().trim();
- const matches=inPool().filter(p=>(state.mood==='All moods'||p.moods.includes(state.mood))&&(state.topic==='All topics'||p.topic===state.topic)&&(state.audience==='Anyone'||p.audiences.includes(state.audience)||p.audiences.includes('Anyone'))&&(!q||(p.text+' '+p.topic+' '+p.format).toLowerCase().includes(q)));
+ const matches=inPool().filter(p=>(state.mood==='All moods'||p.moods.includes(state.mood))&&(state.topic==='All topics'||p.topic===state.topic)&&(p.source==='published-library'?p.audiences.includes(state.audience):(state.audience==='Anyone'||p.audiences.includes(state.audience)||p.audiences.includes('Anyone')))&&(!q||(p.text+' '+p.topic+' '+p.format).toLowerCase().includes(q)));
  state.matchCount=matches.length;
  return matches;
 }
