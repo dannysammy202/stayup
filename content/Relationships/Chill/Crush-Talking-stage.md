@@ -493,3 +493,25 @@ Target: 500. Entries remain editorial drafts until human approval.
    _SM-001739 · Scenario · pending editorial review_
 240. A conversation full of regional slang or one where we teach each other unfamiliar proverbs?  
    _SM-001740 · Quick choice · pending editorial review_
+
+
+241. What's a tiny decision you spend longer thinking about than it deserves?  
+   _SM-001741 · Question · pending editorial review_
+242. A person who offers two clear options makes choosing somewhere to go much easier.  
+   _SM-001742 · Hot take · pending editorial review_
+243. We're choosing between two concerts on the same evening. What detail would help you decide?  
+   _SM-001743 · Scenario · pending editorial review_
+244. Choosing the route with the best scenery or the route which gets you there ten minutes sooner?  
+   _SM-001744 · Quick choice · pending editorial review_
+245. Tell me about a small decision you made on impulse which turned into a favourite memory.  
+   _SM-001745 · Story starter · pending editorial review_
+246. Some people read every menu before arriving, while others decide only when the waiter appears.  
+   _SM-001746 · Observation · pending editorial review_
+247. When you face two equally appealing options, what usually breaks the tie?  
+   _SM-001747 · Question · pending editorial review_
+248. There is something reassuring about admitting you don't mind which option wins.  
+   _SM-001748 · Hot take · pending editorial review_
+249. We each have one free hour and four possible things to do. How would you narrow the list?  
+   _SM-001749 · Scenario · pending editorial review_
+250. Taking turns choosing the activity or finding a third option neither of us suggested?  
+   _SM-001750 · Quick choice · pending editorial review_
