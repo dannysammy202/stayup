@@ -717,3 +717,205 @@ Target: 500. Entries remain editorial drafts until human approval.
    _SM-001849 · Quick choice · pending editorial review_
 350. What's a place you once visited that immediately made you want to return with somebody?  
    _SM-001850 · Story starter · pending editorial review_
+
+
+351. What's a family story you only found out was unusual when you told somebody else?  
+   _SM-001851 · Question · pending editorial review_
+352. Tell me about a relative who could turn a simple errand into an entertaining story.  
+   _SM-001852 · Story starter · pending editorial review_
+353. We're at a gathering and somebody offers to show us an album of very old family pictures. Are you staying for the commentary?  
+   _SM-001853 · Scenario · pending editorial review_
+354. Hearing about the place your parents grew up or the first job an older relative ever had?  
+   _SM-001854 · Quick choice · pending editorial review_
+355. The best family stories tend to be about everyday mishaps rather than perfect occasions.  
+   _SM-001855 · Hot take · pending editorial review_
+356. Every family seems to have a relative whose version of events is slightly different from everyone else's.  
+   _SM-001856 · Observation · pending editorial review_
+357. Have you ever discovered a surprising talent in someone you have known your entire life?  
+   _SM-001857 · Question · pending editorial review_
+358. You get to ask an elderly relative three questions about their childhood. Where would you begin?  
+   _SM-001858 · Scenario · pending editorial review_
+359. A family recipe with a handwritten note or an audio recording of somebody telling its story?  
+   _SM-001859 · Quick choice · pending editorial review_
+360. Tell me about something you learned about your family over an ordinary meal.  
+   _SM-001860 · Story starter · pending editorial review_
+361. Does your neighbourhood have a story about a place that everybody claims is haunted or mysterious?  
+   _SM-001861 · Question · pending editorial review_
+362. I hear an obviously exaggerated tale about a landmark in your town. Would you correct it or add to the legend?  
+   _SM-001862 · Scenario · pending editorial review_
+363. Tell me about an urban legend you believed for longer than you'd like to admit.  
+   _SM-001863 · Story starter · pending editorial review_
+364. Visiting a historical landmark with a guide or hearing a local resident's personal stories about it?  
+   _SM-001864 · Quick choice · pending editorial review_
+365. Every town has a building whose history gets more dramatic with each retelling.  
+   _SM-001865 · Observation · pending editorial review_
+366. A good local legend can make a perfectly ordinary street more memorable.  
+   _SM-001866 · Hot take · pending editorial review_
+367. What's the strangest rumour you heard about your school when you were younger?  
+   _SM-001867 · Question · pending editorial review_
+368. We find a plaque describing a completely unexpected event. What would you want to look up afterwards?  
+   _SM-001868 · Scenario · pending editorial review_
+369. A walk through old streets with fascinating histories or an exhibition of unusual local artefacts?  
+   _SM-001869 · Quick choice · pending editorial review_
+370. Tell me about a place you thought was ordinary until someone told you its story.  
+   _SM-001870 · Story starter · pending editorial review_
+371. What's one item on your desk or bedside table that says something about your personality?  
+   _SM-001871 · Question · pending editorial review_
+372. A messy notebook can tell a more interesting story than a perfectly organised shelf.  
+   _SM-001872 · Hot take · pending editorial review_
+373. We're choosing one object each from a charity shop to decorate a room. What's your selection rule?  
+   _SM-001873 · Scenario · pending editorial review_
+374. An old clock with character or a minimalist lamp that does exactly what it's meant to do?  
+   _SM-001874 · Quick choice · pending editorial review_
+375. Tell me about something you bought for a practical reason but ended up feeling attached to.  
+   _SM-001875 · Story starter · pending editorial review_
+376. Some people arrange their books by colour; others would never survive not knowing where anything is.  
+   _SM-001876 · Observation · pending editorial review_
+377. Have you ever kept the packaging from something because it looked too good to throw away?  
+   _SM-001877 · Question · pending editorial review_
+378. I notice a peculiar ornament in your room. Would you rather tell me where it came from or let me guess?  
+   _SM-001878 · Scenario · pending editorial review_
+379. A wall covered in little personal photographs or one carefully chosen piece of artwork?  
+   _SM-001879 · Quick choice · pending editorial review_
+380. What's a small object you lost and still occasionally think about?  
+   _SM-001880 · Story starter · pending editorial review_
+381. What's one inexpensive treat you happily spend money on when you've had a demanding week?  
+   _SM-001881 · Question · pending editorial review_
+382. The feeling of a small luxury is often more about timing than price.  
+   _SM-001882 · Hot take · pending editorial review_
+383. We each have the equivalent of a modest lunch budget for a surprise treat. What do you spend yours on?  
+   _SM-001883 · Scenario · pending editorial review_
+384. A proper pastry from a bakery or your favourite takeaway eaten somewhere with a view?  
+   _SM-001884 · Quick choice · pending editorial review_
+385. Tell me about something you bought for yourself that made an ordinary Tuesday feel special.  
+   _SM-001885 · Story starter · pending editorial review_
+386. Everyone seems to have one purchase they justify with 'It's only a little thing'.  
+   _SM-001886 · Observation · pending editorial review_
+387. Would you rather save a favourite treat for a special occasion or enjoy it whenever you can?  
+   _SM-001887 · Question · pending editorial review_
+388. I suggest a tiny tasting menu at a market stall you've never tried. What would make you give it a go?  
+   _SM-001888 · Scenario · pending editorial review_
+389. A comfortable new notebook or a warm drink served exactly how you like it?  
+   _SM-001889 · Quick choice · pending editorial review_
+390. A thoughtful little comfort can be more memorable than an expensive surprise.  
+   _SM-001890 · Hot take · pending editorial review_
+391. Have you ever enjoyed a live performance that surprised you because you didn't expect to like it?  
+   _SM-001891 · Question · pending editorial review_
+392. Tell me about a moment on stage that made an entire audience go completely quiet.  
+   _SM-001892 · Story starter · pending editorial review_
+393. An intimate comedy show or a dramatic play in a little theatre?  
+   _SM-001893 · Quick choice · pending editorial review_
+394. A performer who makes a mistake and recovers gracefully can make a show even more enjoyable.  
+   _SM-001894 · Hot take · pending editorial review_
+395. We buy tickets to a performance without reading anything about it. Are you excited or suspicious?  
+   _SM-001895 · Scenario · pending editorial review_
+396. The reactions of the people around you can become part of the story of a live show.  
+   _SM-001896 · Observation · pending editorial review_
+397. Would you rather be seated close enough to see every expression or far enough back to take in the whole stage?  
+   _SM-001897 · Question · pending editorial review_
+398. The person next to us starts crying during a scene you found funny. Do you ask what moved them afterwards?  
+   _SM-001898 · Scenario · pending editorial review_
+399. An improvised comedy performance or a carefully rehearsed musical production?  
+   _SM-001899 · Quick choice · pending editorial review_
+400. Tell me about a performance you still remember mainly because of the atmosphere in the room.  
+   _SM-001900 · Story starter · pending editorial review_
+401. Is there a sport you'd enjoy watching in person even if you didn't know the rules?  
+   _SM-001901 · Question · pending editorial review_
+402. We arrive at a stadium and support opposite teams. What counts as acceptable friendly banter?  
+   _SM-001902 · Scenario · pending editorial review_
+403. Trying to understand cricket together or watching a fast-paced basketball game from the stands?  
+   _SM-001903 · Quick choice · pending editorial review_
+404. A crowded room cheering at the same moment can be exciting even when you barely understand the match.  
+   _SM-001904 · Observation · pending editorial review_
+405. Someone explaining a game's rules patiently makes watching with them much more fun.  
+   _SM-001905 · Hot take · pending editorial review_
+406. Tell me about an unexpected sporting result that you still enjoy talking about.  
+   _SM-001906 · Story starter · pending editorial review_
+407. Have you ever become a fan of an athlete because of their story rather than their performance?  
+   _SM-001907 · Question · pending editorial review_
+408. The match turns boring, but the crowd starts singing something funny. Which part of the evening would you remember?  
+   _SM-001908 · Scenario · pending editorial review_
+409. An afternoon watching a friendly local tournament or tickets to a major international event?  
+   _SM-001909 · Quick choice · pending editorial review_
+410. Tell me about the first time you went to watch a sport live.  
+   _SM-001910 · Story starter · pending editorial review_
+411. Who's somebody whose calmness you admire, even if you don't know them particularly well?  
+   _SM-001911 · Question · pending editorial review_
+412. Tell me about an ordinary person who changed how you approached something.  
+   _SM-001912 · Story starter · pending editorial review_
+413. It's refreshing when somebody can appreciate a role model without pretending they're perfect.  
+   _SM-001913 · Hot take · pending editorial review_
+414. You could have lunch with one living artist, inventor or athlete. What would you hope to learn from them?  
+   _SM-001914 · Scenario · pending editorial review_
+415. Meeting someone who's mastered a craft or someone who's made a real difference in their community?  
+   _SM-001915 · Quick choice · pending editorial review_
+416. People sometimes remember a teacher's mannerisms long after forgetting the lesson itself.  
+   _SM-001916 · Observation · pending editorial review_
+417. Was there somebody at school who made learning feel less intimidating?  
+   _SM-001917 · Question · pending editorial review_
+418. I ask you to introduce a person you admire without mentioning their achievements. What quality do you start with?  
+   _SM-001918 · Scenario · pending editorial review_
+419. A conversation with somebody who has decades of experience or somebody your age who's trying something brave?  
+   _SM-001919 · Quick choice · pending editorial review_
+420. Tell me about a stranger who taught you something useful in under five minutes.  
+   _SM-001920 · Story starter · pending editorial review_
+421. What's a harmless opinion you hold that nearly everybody around you challenges?  
+   _SM-001921 · Question · pending editorial review_
+422. Being able to say 'I hadn't thought of that' is an underrated conversational skill.  
+   _SM-001922 · Hot take · pending editorial review_
+423. We disagree about whether a film deserved its ending. What question would settle whether we understood each other?  
+   _SM-001923 · Scenario · pending editorial review_
+424. A cheerful disagreement about food or one about the best way to spend a weekend?  
+   _SM-001924 · Quick choice · pending editorial review_
+425. Tell me about a time a friendly debate introduced you to something you now enjoy.  
+   _SM-001925 · Story starter · pending editorial review_
+426. People reveal their sense of humour in how they handle being wrong about a small thing.  
+   _SM-001926 · Observation · pending editorial review_
+427. How do you usually react when somebody makes a good point against an opinion you've held for ages?  
+   _SM-001927 · Question · pending editorial review_
+428. I confidently claim a simple fact and then learn I'm mistaken. Do you let me recover or bring receipts?  
+   _SM-001928 · Scenario · pending editorial review_
+429. Trying each other's preferred activity or explaining why your own favourite is worth a chance?  
+   _SM-001929 · Quick choice · pending editorial review_
+430. You can respect a person's perspective without having to adopt it as your own.  
+   _SM-001930 · Hot take · pending editorial review_
+431. What is it about the start of a new season that makes you want to change something small?  
+   _SM-001931 · Question · pending editorial review_
+432. Tell me about a holiday that felt memorable even though you stayed close to home.  
+   _SM-001932 · Story starter · pending editorial review_
+433. We have one free evening during a festive week and everywhere is crowded. What less obvious plan would you suggest?  
+   _SM-001933 · Scenario · pending editorial review_
+434. An evening exploring festive lights or a calm morning visiting a quiet market?  
+   _SM-001934 · Quick choice · pending editorial review_
+435. Some places seem to have their own soundtrack whenever a major holiday approaches.  
+   _SM-001935 · Observation · pending editorial review_
+436. A low-key celebration can feel more personal than an expensive or elaborate one.  
+   _SM-001936 · Hot take · pending editorial review_
+437. Is there a seasonal smell or sound that immediately puts you in a good mood?  
+   _SM-001937 · Question · pending editorial review_
+438. You're asked to plan one small activity for a public holiday without spending much. What do you choose?  
+   _SM-001938 · Scenario · pending editorial review_
+439. A yearly tradition you can look forward to or trying something different every holiday season?  
+   _SM-001939 · Quick choice · pending editorial review_
+440. Tell me about an ordinary family holiday when an unexpected visitor made the day better.  
+   _SM-001940 · Story starter · pending editorial review_
+441. Do you enjoy having every detail of an outing planned, or is a little uncertainty part of the fun?  
+   _SM-001941 · Question · pending editorial review_
+442. Small surprises work best when they're considerate rather than designed to impress.  
+   _SM-001942 · Hot take · pending editorial review_
+443. I say I found a short activity I think you'd like but won't tell you what it is yet. What information would you need before agreeing?  
+   _SM-001943 · Scenario · pending editorial review_
+444. Knowing the destination but not the activity or knowing the activity but not the destination?  
+   _SM-001944 · Quick choice · pending editorial review_
+445. Tell me about a time somebody got a small surprise exactly right.  
+   _SM-001945 · Story starter · pending editorial review_
+446. People differ wildly in how much mystery they're comfortable with, even for something as simple as lunch.  
+   _SM-001946 · Observation · pending editorial review_
+447. What's the most pleasant surprise you've had on an otherwise predictable day?  
+   _SM-001947 · Question · pending editorial review_
+448. A café we planned to visit has an unexpected live storytelling session. Would you rearrange the afternoon to listen?  
+   _SM-001948 · Scenario · pending editorial review_
+449. A surprise recommendation from somebody who knows your taste or exploring a place neither of us has researched?  
+   _SM-001949 · Quick choice · pending editorial review_
+450. Trusting someone with a plan is easier when they make it clear you can change your mind.  
+   _SM-001950 · Hot take · pending editorial review_
