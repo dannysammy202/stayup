@@ -607,3 +607,205 @@ Target: 500. Entries remain editorial drafts until human approval.
    _SM-002799 · Story starter · pending editorial review_
 300. How do you distinguish an uncomfortable silence from a peaceful one?  
    _SM-002800 · Question · pending editorial review_
+
+
+301. What's a word in your language that needs an entire sentence to explain properly in English?  
+   _SM-002801 · Question · pending editorial review_
+302. Tell me about a misunderstanding that helped you appreciate how differently people use the same phrase.  
+   _SM-002802 · Story starter · pending editorial review_
+303. You can invent one new word that everybody understands immediately. What feeling would it describe?  
+   _SM-002803 · Scenario · pending editorial review_
+304. The phrases people borrow from other languages often reveal what their own language was missing.  
+   _SM-002804 · Hot take · pending editorial review_
+305. Understanding every accent in one language or being able to exchange simple greetings in a dozen?  
+   _SM-002805 · Quick choice · pending editorial review_
+306. A word can sound ordinary to one person and deeply nostalgic to someone who grew up hearing it.  
+   _SM-002806 · Observation · pending editorial review_
+307. Have you noticed yourself speaking differently around different people without meaning to?  
+   _SM-002807 · Question · pending editorial review_
+308. A visitor asks what a common local expression really implies beyond its literal meaning. What example would you use?  
+   _SM-002808 · Scenario · pending editorial review_
+309. Describe learning the meaning of a word and suddenly noticing it everywhere.  
+   _SM-002809 · Story starter · pending editorial review_
+310. How does the language you use change the kind of joke you find funny?  
+   _SM-002810 · Question · pending editorial review_
+311. What's the kindest small gesture you've witnessed between people who didn't know one another?  
+   _SM-002811 · Question · pending editorial review_
+312. A crowded waiting room has a broken ticket machine. What would help strangers organise themselves fairly?  
+   _SM-002812 · Scenario · pending editorial review_
+313. Tell me about an ordinary conversation with a stranger that made a journey feel shorter.  
+   _SM-002813 · Story starter · pending editorial review_
+314. Shared inconvenience sometimes encourages cooperation faster than formal introductions.  
+   _SM-002814 · Hot take · pending editorial review_
+315. Living in a street where neighbours greet each other daily or one where people help quietly without expecting conversation?  
+   _SM-002815 · Quick choice · pending editorial review_
+316. Most city life depends on countless small agreements between people who never exchange names.  
+   _SM-002816 · Observation · pending editorial review_
+317. Have you ever felt a surprising sense of community during an event you attended alone?  
+   _SM-002817 · Question · pending editorial review_
+318. You could introduce one tiny courtesy to make public transport more pleasant. What would it be?  
+   _SM-002818 · Scenario · pending editorial review_
+319. Describe a time you saw people coordinate spontaneously to solve a simple problem.  
+   _SM-002819 · Story starter · pending editorial review_
+320. What makes you comfortable asking a stranger for help with something harmless?  
+   _SM-002820 · Question · pending editorial review_
+321. When you explain your life to someone new, which details do you almost always leave out?  
+   _SM-002821 · Question · pending editorial review_
+322. Tell me about a story you've told differently as your understanding of it changed.  
+   _SM-002822 · Story starter · pending editorial review_
+323. The stories we repeat about ourselves can make our lives sound more predictable than they really were.  
+   _SM-002823 · Hot take · pending editorial review_
+324. You could choose three ordinary objects to tell your personal story in an exhibition. What types of objects would they be?  
+   _SM-002824 · Scenario · pending editorial review_
+325. A life story arranged around places you've lived or one organised around the people who've influenced you?  
+   _SM-002825 · Quick choice · pending editorial review_
+326. Sometimes another person remembers the background of our favourite story better than we do.  
+   _SM-002826 · Observation · pending editorial review_
+327. What's an experience that looked unimportant at the time but now belongs in your personal story?  
+   _SM-002827 · Question · pending editorial review_
+328. Someone asks you to describe a year of your life without mentioning major milestones. Where would you begin?  
+   _SM-002828 · Scenario · pending editorial review_
+329. Describe realising that the way you remembered something had changed as you grew older.  
+   _SM-002829 · Story starter · pending editorial review_
+330. What would you want a stranger to understand about you beyond your work and your hobbies?  
+   _SM-002830 · Question · pending editorial review_
+331. What product or service do you now appreciate more because you've seen how much effort goes into it?  
+   _SM-002831 · Question · pending editorial review_
+332. You can tour the place where one ordinary item is produced. What would you be most curious to see made?  
+   _SM-002832 · Scenario · pending editorial review_
+333. Tell me about watching somebody do a skilled task and being surprised by how much precision it required.  
+   _SM-002833 · Story starter · pending editorial review_
+334. Convenience often hides the most interesting parts of how the world works.  
+   _SM-002834 · Hot take · pending editorial review_
+335. Seeing the backstage preparation for a concert or watching the overnight work behind a city market?  
+   _SM-002835 · Quick choice · pending editorial review_
+336. Many things appear effortless only because somebody practised doing them well for years.  
+   _SM-002836 · Observation · pending editorial review_
+337. Has learning about a supply chain changed the way you think about an everyday purchase?  
+   _SM-002837 · Question · pending editorial review_
+338. A child asks how fresh bread reaches a shop before sunrise. What would you want to find out before explaining?  
+   _SM-002838 · Scenario · pending editorial review_
+339. Describe an occasion when a behind-the-scenes tour changed how you appreciated the finished result.  
+   _SM-002839 · Story starter · pending editorial review_
+340. Who performs a useful kind of work in your community that rarely gets public attention?  
+   _SM-002840 · Question · pending editorial review_
+341. Have two interests of yours ever turned out to be more connected than you expected?  
+   _SM-002841 · Question · pending editorial review_
+342. You have to design an event combining music, science and cooking. What would the main attraction be?  
+   _SM-002842 · Scenario · pending editorial review_
+343. Tell me about learning something in one subject that helped you understand a completely different one.  
+   _SM-002843 · Story starter · pending editorial review_
+344. Some of the most interesting creative ideas arise when people from different fields compare their methods.  
+   _SM-002844 · Hot take · pending editorial review_
+345. A conversation between a scientist and a musician or between a chef and an architect?  
+   _SM-002845 · Quick choice · pending editorial review_
+346. Different hobbies sometimes teach the same habits, such as patience, timing or careful observation.  
+   _SM-002846 · Observation · pending editorial review_
+347. Which two professions would you love to see collaborating on a surprising project?  
+   _SM-002847 · Question · pending editorial review_
+348. You're asked to create a short exhibition connecting an everyday object with an important historical event. What might you choose?  
+   _SM-002848 · Scenario · pending editorial review_
+349. Describe a book, film or conversation that led you into an interest you hadn't considered before.  
+   _SM-002849 · Story starter · pending editorial review_
+350. What apparently unrelated topics do you find yourself thinking about together?  
+   _SM-002850 · Question · pending editorial review_
+351. What everyday courtesy did you learn was different elsewhere only after visiting or speaking with someone?  
+   _SM-002851 · Question · pending editorial review_
+352. Tell me about a cultural custom whose purpose became clearer once somebody explained its history.  
+   _SM-002852 · Story starter · pending editorial review_
+353. You're attending a celebration where you're unfamiliar with the etiquette. What would you want your host to tell you?  
+   _SM-002853 · Scenario · pending editorial review_
+354. Asking respectfully about a custom is usually more useful than guessing its meaning.  
+   _SM-002854 · Hot take · pending editorial review_
+355. Learning the story behind a traditional greeting or seeing how a familiar holiday is celebrated somewhere else?  
+   _SM-002855 · Quick choice · pending editorial review_
+356. What feels obvious and polite in one setting may require a little explanation in another.  
+   _SM-002856 · Observation · pending editorial review_
+357. Have you ever adopted a thoughtful custom from a different community into your own routine?  
+   _SM-002857 · Question · pending editorial review_
+358. You can spend a day learning about one craft tied to a local tradition. What would you ask to observe first?  
+   _SM-002858 · Scenario · pending editorial review_
+359. Describe a time you understood somebody's perspective better after learning about where they grew up.  
+   _SM-002859 · Story starter · pending editorial review_
+360. What questions help you learn about another culture without treating a person as a representative of everybody in it?  
+   _SM-002860 · Question · pending editorial review_
+361. Why do you think some new habits become effortless while others fade after a week?  
+   _SM-002861 · Question · pending editorial review_
+362. You're trying to remember to drink water more regularly. What environmental change might help more than another reminder?  
+   _SM-002862 · Scenario · pending editorial review_
+363. Tell me about a positive habit that stuck because someone made it enjoyable.  
+   _SM-002863 · Story starter · pending editorial review_
+364. Making a new behaviour convenient often matters more than feeling motivated on the first day.  
+   _SM-002864 · Hot take · pending editorial review_
+365. Starting one small habit immediately or preparing a careful plan for a bigger change next month?  
+   _SM-002865 · Quick choice · pending editorial review_
+366. It's easier to repeat an action when it fits into a part of the day that already exists.  
+   _SM-002866 · Observation · pending editorial review_
+367. Have you ever made a routine simpler instead of adding another step to it?  
+   _SM-002867 · Question · pending editorial review_
+368. A friend wants to read more but struggles to focus. What would you ask about their day before recommending a routine?  
+   _SM-002868 · Scenario · pending editorial review_
+369. Describe a habit you stopped after realising it was no longer useful to you.  
+   _SM-002869 · Story starter · pending editorial review_
+370. What's an unexpected benefit you've noticed from doing something consistently for a while?  
+   _SM-002870 · Question · pending editorial review_
+371. What's somewhere you visit often but still notice something new about?  
+   _SM-002871 · Question · pending editorial review_
+372. You must guide a visitor through a place you know extremely well without using your usual route. What do you discover?  
+   _SM-002872 · Scenario · pending editorial review_
+373. Tell me about seeing an ordinary object under a microscope, in an old photograph or from an unusual angle.  
+   _SM-002873 · Story starter · pending editorial review_
+374. Familiarity makes life efficient, but it can also conceal interesting details.  
+   _SM-002874 · Hot take · pending editorial review_
+375. Looking at your city from a rooftop or exploring a detailed map of streets you walk every day?  
+   _SM-002875 · Quick choice · pending editorial review_
+376. A familiar building can appear completely different when you see it early in the morning.  
+   _SM-002876 · Observation · pending editorial review_
+377. What has a visitor noticed about your area that surprised you because you'd never paid attention?  
+   _SM-002877 · Question · pending editorial review_
+378. You have one hour to photograph only overlooked details in your neighbourhood. What would you look for?  
+   _SM-002878 · Scenario · pending editorial review_
+379. Describe discovering a hidden feature of something you've used for years.  
+   _SM-002879 · Story starter · pending editorial review_
+380. Is it easier for you to notice new details when you're alone or when somebody else is curious with you?  
+   _SM-002880 · Question · pending editorial review_
+381. What's something inexpensive that provides much more value in your daily life than you expected?  
+   _SM-002881 · Question · pending editorial review_
+382. A town wants to make daily life easier with one affordable public service. Which would you propose first?  
+   _SM-002882 · Scenario · pending editorial review_
+383. Tell me about learning to manage something practical through an unexpected life experience.  
+   _SM-002883 · Story starter · pending editorial review_
+384. A good solution to an everyday problem doesn't always involve buying anything new.  
+   _SM-002884 · Hot take · pending editorial review_
+385. A tool you can repair for decades or one that is simpler to use but needs replacing sooner?  
+   _SM-002885 · Quick choice · pending editorial review_
+386. The real cost of an everyday decision sometimes includes time, effort and attention rather than money alone.  
+   _SM-002886 · Observation · pending editorial review_
+387. Have you ever discovered that something you assumed was expensive was actually simple to do yourself?  
+   _SM-002887 · Question · pending editorial review_
+388. You're organising an enjoyable free afternoon for a mixed group. What would you prioritise?  
+   _SM-002888 · Scenario · pending editorial review_
+389. Describe a time choosing the less convenient option turned out to save you more than you expected.  
+   _SM-002889 · Story starter · pending editorial review_
+390. How do you decide whether a purchase solves a problem or merely creates another thing to look after?  
+   _SM-002890 · Question · pending editorial review_
+391. What causes an ordinary conversation to become unexpectedly memorable for you?  
+   _SM-002891 · Question · pending editorial review_
+392. Tell me about the last time someone asked you a question you were genuinely pleased to answer.  
+   _SM-002892 · Story starter · pending editorial review_
+393. Curiosity and patience can matter more to a conversation than knowing fascinating facts.  
+   _SM-002893 · Hot take · pending editorial review_
+394. Two people have completely different interests but must spend an hour together. What topic might create common ground?  
+   _SM-002894 · Scenario · pending editorial review_
+395. A conversation that wanders through unexpected subjects or one that explores a single question thoroughly?  
+   _SM-002895 · Quick choice · pending editorial review_
+396. People sometimes become more expressive once they realise nobody is evaluating their answer.  
+   _SM-002896 · Observation · pending editorial review_
+397. How do you recognise when someone wants to keep talking but doesn't know what to ask next?  
+   _SM-002897 · Question · pending editorial review_
+398. You find yourself discussing something you know little about with a specialist. What makes the exchange enjoyable?  
+   _SM-002898 · Scenario · pending editorial review_
+399. Describe a conversation that changed direction because somebody listened closely to one small detail.  
+   _SM-002899 · Story starter · pending editorial review_
+400. What makes you feel that you've learned something about a person rather than simply gathered facts about them?  
+   _SM-002900 · Question · pending editorial review_
