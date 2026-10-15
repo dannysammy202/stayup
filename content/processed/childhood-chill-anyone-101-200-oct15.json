@@ -1,0 +1,507 @@
+{
+  "topic": "Childhood",
+  "mood": "Chill",
+  "audience": "Anyone",
+  "prompts": [
+    {
+      "format": "Question",
+      "text": "What was your favourite way to spend time with friends after school?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a friendship that began because you both liked the same unusual activity.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Revisit a childhood friend's old neighbourhood or look through memories of a school event together?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You could arrange a reunion of the children who played on your street. What activity would help everyone reconnect?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Childhood friendships can feel effortless because people meet simply by going outside.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "The childhood friends people remember most aren't always the ones they spent the most time with.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which small kindness from a childhood friend do you still remember?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall sharing a secret project or game with a friend when you were young.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You're showing your old best friend a picture from school days. What story would the picture bring up?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Share a memory of a first friend or hear somebody else's story about meeting theirs?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What was the most interesting thing you ever collected as a child?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe finding an object that became more valuable to you because of where you discovered it.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Keep a box of childhood treasures or take photographs of them before giving some away?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A school asks you to create an exhibit of ordinary childhood collections. What would you display?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Small collections often show how children make sense of the world around them.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A collection doesn't have to be rare or expensive to hold an interesting story.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which childhood possession did you protect with surprising seriousness?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall trading or swapping something with a classmate and feeling very grown-up.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You find an old tin of forgotten belongings. Which item would you hope is still there?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Revisit a childhood toy collection or examine the notebooks where you kept little discoveries?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What was your favourite seasonal activity when you were a child?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a holiday when the weather changed your plans in an unexpected way.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A long afternoon playing outside or a rainy day inventing games indoors?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You can recreate one ordinary day from a school holiday. How would the morning begin?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "School breaks can feel endless to children but impossibly short in hindsight.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Children don't need a complicated schedule to enjoy having free time.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which smell or sound reminds you of a particular school holiday?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall visiting relatives during a break and learning a new game from local children.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A younger cousin says they're bored during a holiday. What could you suggest using what is already around?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Tell stories about your longest holiday or compare the activities you enjoyed during shorter breaks?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's an outdoor place you explored as a child that felt like a secret world?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe learning the names of plants or animals from somebody in your neighbourhood.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Search for interesting leaves or observe birds in a quiet spot?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You get to show a child the natural wonders around an ordinary street. What would you point out?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Children often notice tiny changes in the natural world that busy adults walk past.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "An afternoon exploring safely outdoors can be as educational as a formal lesson.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which insect or animal fascinated you before you learnt much about it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall seeing a dramatic sky or unusual cloud formation during a childhood game.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A family wants to begin keeping a nature journal together. What simple observations should it include?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Visit a botanical garden or spend time beside a small pond watching wildlife?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which childhood creative project are you still quietly proud of?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about making a gift for someone using materials you found at home.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Draw a picture from memory or build a small object from cardboard and tape?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You have paper, crayons and one afternoon to recreate a childhood art activity. What would you make?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Children often value the making process more than the neatness of a finished project.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A messy drawing can contain a more memorable idea than a technically perfect one.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which craft did you enjoy even though you weren't especially good at it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall an adult displaying something you made and how it felt.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A younger relative wants you to join a painting activity. How would you make it relaxing for both of you?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Preserve one childhood drawing or recreate it today with your current skills?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What was the first piece of technology you remember being excited to use?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe playing with a household device before you fully understood what it was for.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "See your first mobile phone again or spend an afternoon with a childhood games console?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You're explaining to a young child how people communicated before smartphones. What everyday example would you use?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Technology from childhood can feel ancient even when it's only a few years old.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Waiting for a favourite programme or game sometimes made it more exciting.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which childhood gadget would be funniest to demonstrate to someone who has never seen one?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall learning to operate a radio, camera or computer with somebody's guidance.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You find an old device containing family pictures but no modern connection. How would you preserve the memories safely?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Revisit a classic game you played on a basic device or explore a museum of older technology?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What made birthdays exciting for you before you cared about elaborate plans?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a childhood celebration where a tiny surprise meant more than any gift.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A simple party with neighbourhood friends or a special meal with close family?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You can recreate the atmosphere of a childhood birthday without spending much. What would be essential?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Children often remember who joined a celebration more clearly than the decorations.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A thoughtful birthday tradition can matter more than a large crowd.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which birthday game or song reminds you most strongly of being young?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a time somebody made you feel special without telling you the plan beforehand.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A family is preparing a low-budget celebration for a child who dislikes loud parties. What would you suggest?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Make a handmade birthday card or organise a favourite childhood game?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What was your most memorable experience of learning to ride or use something new?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe the first time you successfully did a task that had seemed impossible a week earlier.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Learn a physical skill through gentle practice or watch someone demonstrate it before you try?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A child is nervous about learning to ride a bicycle. What would make the first session less intimidating?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Children often remember the person who encouraged them as much as the skill they learnt.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Learning slowly is easier when nobody turns every attempt into a competition.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which childhood achievement made you proud even though it seemed small to adults?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall practising a skill so often that you eventually surprised yourself.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your younger self has just succeeded at something difficult. What would you want an adult to say?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Revisit your first sports skill or remember the first thing you made completely on your own?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a school-day sound that you could still recognise instantly?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a classroom moment that became funny without anyone intending it.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Remember a favourite school assembly or a class activity that felt unlike a normal lesson?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your old classroom is reconstructed for a museum visit. Which small detail would make it feel authentic?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "School memories can be tied as much to corridors and playgrounds as to particular lessons.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A teacher who made students feel safe to ask questions often taught more than the syllabus.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which school event encouraged you to discover a new interest?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a classmate who helped you understand something when a lesson felt confusing.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You're invited to talk to students about one enjoyable part of your school days. What story would you tell?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Browse an old yearbook or hear former classmates share memories of a school event?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What childhood memory would you love to hear described by somebody else who was there?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a normal day that became important only after the people involved moved away.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Keep memories as short written stories or record people explaining them in their own voices?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your family opens a box of shared childhood mementos. How should everyone take turns telling their stories?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Memories become richer when people accept that others noticed different parts of the same event.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Preserving a childhood memory doesn't require pretending that every detail was perfect.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which positive habit from childhood would you like to continue as an adult?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a simple experience that taught you something you still use today.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A younger person asks what made your childhood enjoyable. How would you answer without idealising the past?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Revisit a place from your past or create a new shared memory inspired by it?",
+      "relatedThemes": []
+    }
+  ]
+}

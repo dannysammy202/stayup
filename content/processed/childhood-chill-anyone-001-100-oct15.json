@@ -1,0 +1,507 @@
+{
+  "topic": "Childhood",
+  "mood": "Chill",
+  "audience": "Anyone",
+  "prompts": [
+    {
+      "format": "Question",
+      "text": "What's the earliest everyday sound you remember from the place you grew up?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a morning routine your household followed when you were little.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Revisit a familiar childhood street or look through old family photographs?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You can visit your childhood neighbourhood for one afternoon without changing anything. Where would you go first?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Ordinary background noises can become powerful reminders of a place years later.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "The most memorable parts of childhood aren't always the biggest celebrations.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which view from a window do you still picture clearly?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a rainy morning when your plans changed and you found something fun to do indoors.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A younger relative asks you to describe your childhood home without pictures. Which details would you start with?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Hear the sounds of your old neighbourhood again or smell a favourite childhood meal cooking?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What game did children in your neighbourhood invent their own rules for?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a game that kept you occupied with hardly any equipment.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Play a familiar skipping game or teach somebody a counting rhyme from childhood?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You have chalk, string and an empty courtyard. What game from your childhood could you recreate?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Children are often surprisingly good at agreeing on complicated rules they invented moments earlier.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Some playground games are more entertaining when nobody remembers who originally made them.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which game would you be willing to play again without practising first?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a time a childhood competition was settled by a rule nobody had discussed beforehand.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You're showing a group of children an old game, but they want to change the rules. How would you respond?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Build a simple outdoor obstacle course or play a team guessing game?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which snack from your school days would you like to taste again?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a lunchbox surprise that made an ordinary school day memorable.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Recreate a favourite after-school treat or visit the shop where you used to buy it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You can ask somebody who cooked for you as a child to teach you one recipe. What would you choose?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Food memories often include where people sat and who they ate with.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A simple childhood snack can carry more nostalgia than an elaborate meal.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What food did you dislike when you were young but enjoy now?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall learning to prepare something for yourself before you were allowed to use the whole kitchen.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A friend wants to try a dish you associate with childhood. What story would you tell before serving it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Share the recipe behind a family snack or hear how its ingredients used to be sourced?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What did you think a particular adult job involved when you were small?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a childhood ambition you took extremely seriously at the time.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Hear about somebody's first dream job or the funny reasons they chose it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You meet your eight-year-old self and explain what you do today. Which part would be hardest to describe?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Children sometimes understand professions through the most visible tools or uniforms.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Imaginative childhood ambitions deserve curiosity even when they aren't practical careers.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which job made the adults around you seem especially mysterious?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall dressing up or pretending to practise a profession you admired.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A school holds a career day where adults must explain their work using ordinary household objects. What would you show?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Revisit an old career drawing or ask an elder what they wanted to be as a child?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a story older relatives used to tell that you'd happily hear again?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe an evening when everybody gathered around to listen to someone talk.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Hear a grandparent describe a school day or ask them about a favourite childhood friend?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your family decides to record one short story from every generation. Which question should everyone answer?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Different family members sometimes remember the same event from surprisingly different angles.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Preserving family stories doesn't have to wait for a formal reunion.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which family saying still makes you smile when you hear it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a relative who could make an ordinary errand sound like an adventure.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A child asks why an old family nickname exists. Who would be the best person to explain?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Collect handwritten family stories or record relatives telling them in their own voices?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What was the most interesting thing you found in a school library?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about reading a book that made you want to learn something outside class.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Visit your childhood library again or browse an old school notebook?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You can recommend one type of book to the younger version of yourself. What would it be?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "The books children choose for themselves can be very different from what adults expect them to enjoy.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A short, funny book can begin a lifelong interest in reading.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which fictional world did you spend the most time imagining when you were younger?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall somebody reading a story aloud in a way that brought every character to life.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your childhood bookshelf becomes a tiny museum exhibit. Which title earns the central spot?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Revisit a book you loved or discover the books a friend grew up reading?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What small task were you proud to be trusted with as a child?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe the first time you managed a household responsibility without reminders.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Teach children a practical skill through a game or let them help with a real family task?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A younger sibling wants to prove they can take on more responsibility. What safe task would you suggest?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Children often remember the first time adults treated their efforts seriously.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Being praised for trying can matter more than getting a new skill right immediately.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which household job seemed difficult until somebody showed you an easier way?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall making a mistake during a chore and learning how to fix it.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You could teach a younger relative one small skill you learnt early. What would help make it enjoyable?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Learn to organise your own clothes or help prepare a simple family meal?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What was the most exciting part of visiting a different neighbourhood as a child?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a short family journey that felt much longer or more adventurous than it was.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Ride a familiar route from childhood or explore somewhere you only saw through a car window?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You revisit the first park you remember. What's one detail you'd want to check?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Distances that felt enormous as a child often seem surprisingly small later.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A day trip can become a major childhood memory without needing an expensive destination.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which local landmark helped you know you were almost home?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a journey with relatives where the conversation was more memorable than the destination.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You're planning a simple outing for children in your area. What would make it exciting without spending much?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Visit a small museum with interactive displays or spend an afternoon exploring a public garden?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a harmless childhood misunderstanding you still find amusing?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about taking a figure of speech literally when you were little.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Hear everyone's funniest school-day confusion or their most imaginative explanation for something ordinary?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You discover a notebook of questions you asked at age seven. Which question would you hope to find?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Children often build completely logical explanations from incomplete information.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A curious question is worth taking seriously even when its answer seems obvious to adults.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which everyday object seemed almost magical before you understood how it worked?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall believing something unusual because an older child explained it very confidently.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A younger child asks how an ordinary appliance works. How would you explain it without overwhelming them?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Revisit a childhood mystery or hear somebody else's funny theory about the same thing?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What part of childhood felt ordinary then but seems special when you remember it now?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a quiet afternoon with people you loved that required no particular occasion.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Remember a favourite daily ritual or a once-a-year celebration?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You can leave a note for your younger self about one normal day. What would you encourage them to notice?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "The smallest repeated moments often become clear memories only after routines change.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Childhood nostalgia doesn't require believing that every part of the past was better.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which childhood tradition would you adapt for the next generation rather than copy exactly?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a time someone older joined in a child's activity and made it more memorable.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your family wants to preserve one inexpensive tradition from childhood. Which one could still work today?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Tell a younger relative a childhood story or recreate a simple activity together?",
+      "relatedThemes": []
+    }
+  ]
+}
