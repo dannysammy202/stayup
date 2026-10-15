@@ -1,0 +1,707 @@
+{
+  "topic": "Culture",
+  "mood": "Chill",
+  "audience": "Anyone",
+  "prompts": [
+    {
+      "text": "The same tune sometimes follows you through several different places on a single day.",
+      "format": "Observation",
+      "relatedThemes": [
+        "Local music in daily life"
+      ]
+    },
+    {
+      "text": "You're making a playlist for someone spending their first weekend in your town. Which mood would you start with?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "Local music in daily life"
+      ]
+    },
+    {
+      "text": "What song makes people around you start singing even when nobody planned to?",
+      "format": "Question",
+      "relatedThemes": [
+        "Local music in daily life"
+      ]
+    },
+    {
+      "text": "Music heard in ordinary public places becomes part of how we remember them.",
+      "format": "Hot take",
+      "relatedThemes": [
+        "Local music in daily life"
+      ]
+    },
+    {
+      "text": "Describe a time a familiar local tune started a conversation with a stranger.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "Local music in daily life"
+      ]
+    },
+    {
+      "text": "A visitor hears a song playing everywhere and asks why people love it. Whose story would you share?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "Local music in daily life"
+      ]
+    },
+    {
+      "text": "What type of music seems to appear at almost every family gathering you attend?",
+      "format": "Question",
+      "relatedThemes": [
+        "Local music in daily life"
+      ]
+    },
+    {
+      "text": "What's a small everyday custom you noticed on a trip before you noticed any major attractions?",
+      "format": "Question",
+      "relatedThemes": [
+        "Little surprises while travelling"
+      ]
+    },
+    {
+      "text": "Tell me about buying something ordinary in another place and learning a new way to do it.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "Little surprises while travelling"
+      ]
+    },
+    {
+      "text": "Learning how locals order breakfast or joining a familiar-looking game with different rules?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "Little surprises while travelling"
+      ]
+    },
+    {
+      "text": "The smallest differences in daily routines sometimes stay with travellers longer than the sights.",
+      "format": "Observation",
+      "relatedThemes": [
+        "Little surprises while travelling"
+      ]
+    },
+    {
+      "text": "You're spending one free afternoon in a new town with a local friend. What ordinary activity would you ask to join?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "Little surprises while travelling"
+      ]
+    },
+    {
+      "text": "What have you seen people do in public elsewhere that would attract attention where you live?",
+      "format": "Question",
+      "relatedThemes": [
+        "Little surprises while travelling"
+      ]
+    },
+    {
+      "text": "A good local recommendation often starts with somewhere people go on a normal weekday.",
+      "format": "Hot take",
+      "relatedThemes": [
+        "Little surprises while travelling"
+      ]
+    },
+    {
+      "text": "Describe a moment when somebody patiently helped you understand a custom you hadn't encountered before.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "Little surprises while travelling"
+      ]
+    },
+    {
+      "text": "A friend from abroad visits your area and finds a familiar routine surprising. How would you explain it?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "Little surprises while travelling"
+      ]
+    },
+    {
+      "text": "What's a habit you brought home from a trip because you liked the way people did it there?",
+      "format": "Question",
+      "relatedThemes": [
+        "Little surprises while travelling"
+      ]
+    },
+    {
+      "text": "What do you enjoy looking at first when you enter a local market?",
+      "format": "Question",
+      "relatedThemes": [
+        "Market conversations"
+      ]
+    },
+    {
+      "text": "Tell me about an unexpected conversation you had while shopping at a stall.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "Market conversations"
+      ]
+    },
+    {
+      "text": "A market famous for fabric or one known for fresh produce?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "Market conversations"
+      ]
+    },
+    {
+      "text": "Some stallholders remember regular customers by their usual order.",
+      "format": "Observation",
+      "relatedThemes": [
+        "Market conversations"
+      ]
+    },
+    {
+      "text": "You're buying something at a market you've never visited. How do you decide which stall to try?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "Market conversations"
+      ]
+    },
+    {
+      "text": "Which market smell tells you you're close before you see the stalls?",
+      "format": "Question",
+      "relatedThemes": [
+        "Market conversations"
+      ]
+    },
+    {
+      "text": "Market conversations sometimes teach more local slang than a language lesson.",
+      "format": "Hot take",
+      "relatedThemes": [
+        "Market conversations"
+      ]
+    },
+    {
+      "text": "Describe watching a vendor demonstrate something you didn't know how to use.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "Market conversations"
+      ]
+    },
+    {
+      "text": "Your friend has ten minutes at your favourite market. What would you insist they see?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "Market conversations"
+      ]
+    },
+    {
+      "text": "What do people in your area normally say when they leave a shop without buying anything?",
+      "format": "Question",
+      "relatedThemes": [
+        "Market conversations"
+      ]
+    },
+    {
+      "text": "What's an ordinary object at home whose story gets retold whenever somebody notices it?",
+      "format": "Question",
+      "relatedThemes": [
+        "Family keepsakes"
+      ]
+    },
+    {
+      "text": "Tell me about finding an old item and asking a relative why the family kept it.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "Family keepsakes"
+      ]
+    },
+    {
+      "text": "A box of handwritten notes or a collection of old family photographs?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "Family keepsakes"
+      ]
+    },
+    {
+      "text": "The objects people keep often reveal which memories they want close by.",
+      "format": "Observation",
+      "relatedThemes": [
+        "Family keepsakes"
+      ]
+    },
+    {
+      "text": "You're choosing one small item to represent your family's everyday life today. What would you save?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "Family keepsakes"
+      ]
+    },
+    {
+      "text": "Which piece of furniture has stayed in your family longer than anyone expected?",
+      "format": "Question",
+      "relatedThemes": [
+        "Family keepsakes"
+      ]
+    },
+    {
+      "text": "A well-used household item sometimes carries more history than an expensive souvenir.",
+      "format": "Hot take",
+      "relatedThemes": [
+        "Family keepsakes"
+      ]
+    },
+    {
+      "text": "Describe learning the story behind a gift somebody in your family has treasured for years.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "Family keepsakes"
+      ]
+    },
+    {
+      "text": "An older relative offers to explain the history of one object in the house. Which would you point to?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "Family keepsakes"
+      ]
+    },
+    {
+      "text": "What's something your family still uses in a way younger people find unusual?",
+      "format": "Question",
+      "relatedThemes": [
+        "Family keepsakes"
+      ]
+    },
+    {
+      "text": "Does your neighbourhood have a nickname that visitors wouldn't find on a map?",
+      "format": "Question",
+      "relatedThemes": [
+        "Names for familiar places"
+      ]
+    },
+    {
+      "text": "Tell me about learning why people call a particular junction or street by an unexpected name.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "Names for familiar places"
+      ]
+    },
+    {
+      "text": "A street named after a historical person or a place named after something that used to stand there?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "Names for familiar places"
+      ]
+    },
+    {
+      "text": "Local nicknames for places sometimes last longer than their official names.",
+      "format": "Observation",
+      "relatedThemes": [
+        "Names for familiar places"
+      ]
+    },
+    {
+      "text": "You're giving directions using only names longtime residents use. Which stop might confuse a newcomer?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "Names for familiar places"
+      ]
+    },
+    {
+      "text": "What's a place name people in your area pronounce differently from how it's written?",
+      "format": "Question",
+      "relatedThemes": [
+        "Names for familiar places"
+      ]
+    },
+    {
+      "text": "The stories behind ordinary street names deserve a place in local history.",
+      "format": "Hot take",
+      "relatedThemes": [
+        "Names for familiar places"
+      ]
+    },
+    {
+      "text": "Describe someone correcting your name for a place and explaining the version they grew up with.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "Names for familiar places"
+      ]
+    },
+    {
+      "text": "A friend asks why an old neighbourhood name still appears in conversation. Who would you ask for the story?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "Names for familiar places"
+      ]
+    },
+    {
+      "text": "Which local place has changed so much its old name now sounds surprising?",
+      "format": "Question",
+      "relatedThemes": [
+        "Names for familiar places"
+      ]
+    },
+    {
+      "text": "What small change in everyday life tells you a new season has arrived?",
+      "format": "Question",
+      "relatedThemes": [
+        "Seasonal routines"
+      ]
+    },
+    {
+      "text": "Tell me about a yearly household task that always reminds you of a particular time of year.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "Seasonal routines"
+      ]
+    },
+    {
+      "text": "The first cool evening of the season or the first heavy rain after a dry spell?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "Seasonal routines"
+      ]
+    },
+    {
+      "text": "Some seasonal traditions begin with practical chores and end up becoming family rituals.",
+      "format": "Observation",
+      "relatedThemes": [
+        "Seasonal routines"
+      ]
+    },
+    {
+      "text": "You're planning a relaxed weekend for a visitor during your favourite season. What local routine would you include?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "Seasonal routines"
+      ]
+    },
+    {
+      "text": "Which food do people around you start looking for when the weather changes?",
+      "format": "Question",
+      "relatedThemes": [
+        "Seasonal routines"
+      ]
+    },
+    {
+      "text": "A familiar seasonal routine can be as memorable as a major annual festival.",
+      "format": "Hot take",
+      "relatedThemes": [
+        "Seasonal routines"
+      ]
+    },
+    {
+      "text": "Describe a day when the weather changed the usual way your neighbourhood spent time together.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "Seasonal routines"
+      ]
+    },
+    {
+      "text": "Someone asks what to expect during the rainy season where you live. What everyday detail would you mention first?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "Seasonal routines"
+      ]
+    },
+    {
+      "text": "What's a seasonal saying people use in your area even when the forecast doesn't match?",
+      "format": "Question",
+      "relatedThemes": [
+        "Seasonal routines"
+      ]
+    },
+    {
+      "text": "What do people usually chat about during a long shared journey in your area?",
+      "format": "Question",
+      "relatedThemes": [
+        "Shared journeys"
+      ]
+    },
+    {
+      "text": "Tell me about learning a local transport custom from another passenger.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "Shared journeys"
+      ]
+    },
+    {
+      "text": "A ferry ride where everybody watches the water or a bus journey full of lively conversation?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "Shared journeys"
+      ]
+    },
+    {
+      "text": "Regular commuters often recognise each other without ever learning one another's names.",
+      "format": "Observation",
+      "relatedThemes": [
+        "Shared journeys"
+      ]
+    },
+    {
+      "text": "You're helping a visitor use your town's public transport for the first time. What unwritten rule would you mention?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "Shared journeys"
+      ]
+    },
+    {
+      "text": "Which familiar call or phrase do you associate with getting around your city?",
+      "format": "Question",
+      "relatedThemes": [
+        "Shared journeys"
+      ]
+    },
+    {
+      "text": "The conversations on a short journey sometimes reveal more local character than a guidebook.",
+      "format": "Hot take",
+      "relatedThemes": [
+        "Shared journeys"
+      ]
+    },
+    {
+      "text": "Describe a journey where fellow passengers made an unexpected delay enjoyable.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "Shared journeys"
+      ]
+    },
+    {
+      "text": "A friend wants to travel like a local rather than book a tour. What everyday route would you suggest?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "Shared journeys"
+      ]
+    },
+    {
+      "text": "What travel habit from your area would seem unusual to someone visiting for the first time?",
+      "format": "Question",
+      "relatedThemes": [
+        "Shared journeys"
+      ]
+    },
+    {
+      "text": "What's a small gesture people use around you to show appreciation without saying much?",
+      "format": "Question",
+      "relatedThemes": [
+        "Everyday gestures"
+      ]
+    },
+    {
+      "text": "Tell me about misunderstanding a friendly gesture before somebody explained it.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "Everyday gestures"
+      ]
+    },
+    {
+      "text": "A cheerful wave across the street or a quiet nod of recognition?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "Everyday gestures"
+      ]
+    },
+    {
+      "text": "People sometimes know exactly what a gesture means within a family even if nobody has explained it.",
+      "format": "Observation",
+      "relatedThemes": [
+        "Everyday gestures"
+      ]
+    },
+    {
+      "text": "You're meeting someone whose greeting gestures differ from yours. How would you follow their lead comfortably?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "Everyday gestures"
+      ]
+    },
+    {
+      "text": "Which hand gesture do people around you use to ask for patience?",
+      "format": "Question",
+      "relatedThemes": [
+        "Everyday gestures"
+      ]
+    },
+    {
+      "text": "The smallest gestures of courtesy often become the easiest customs to adopt.",
+      "format": "Hot take",
+      "relatedThemes": [
+        "Everyday gestures"
+      ]
+    },
+    {
+      "text": "Describe seeing a familiar gesture used in a new setting and noticing its meaning had changed.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "Everyday gestures"
+      ]
+    },
+    {
+      "text": "A friend wants to learn how people politely get someone's attention in your area. What would you demonstrate?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "Everyday gestures"
+      ]
+    },
+    {
+      "text": "What's a gesture older relatives use that younger people rarely seem to copy?",
+      "format": "Question",
+      "relatedThemes": [
+        "Everyday gestures"
+      ]
+    },
+    {
+      "text": "What's a local story people tell differently depending on who you ask?",
+      "format": "Question",
+      "relatedThemes": [
+        "Community stories"
+      ]
+    },
+    {
+      "text": "Tell me about hearing an older neighbour describe how your area used to look.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "Community stories"
+      ]
+    },
+    {
+      "text": "A funny story about a local character or a surprising tale about a familiar building?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "Community stories"
+      ]
+    },
+    {
+      "text": "A story becomes part of neighbourhood history when enough people keep retelling it.",
+      "format": "Observation",
+      "relatedThemes": [
+        "Community stories"
+      ]
+    },
+    {
+      "text": "You're collecting light-hearted stories for a community newsletter. What would you ask people to share?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "Community stories"
+      ]
+    },
+    {
+      "text": "Which local story always seems to come up when visitors ask questions?",
+      "format": "Question",
+      "relatedThemes": [
+        "Community stories"
+      ]
+    },
+    {
+      "text": "The funniest community stories often involve ordinary events nobody planned to remember.",
+      "format": "Hot take",
+      "relatedThemes": [
+        "Community stories"
+      ]
+    },
+    {
+      "text": "Describe a time a casual chat revealed a story about a place you pass every day.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "Community stories"
+      ]
+    },
+    {
+      "text": "Someone claims to know the true origin of a neighbourhood nickname. What would you ask them?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "Community stories"
+      ]
+    },
+    {
+      "text": "What's a story about your hometown you'd like to hear from someone who was there?",
+      "format": "Question",
+      "relatedThemes": [
+        "Community stories"
+      ]
+    },
+    {
+      "text": "What's a handmade item you often see people using in everyday life where you live?",
+      "format": "Question",
+      "relatedThemes": [
+        "Local handiwork"
+      ]
+    },
+    {
+      "text": "Tell me about watching someone repair an object using a skill you didn't know existed.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "Local handiwork"
+      ]
+    },
+    {
+      "text": "A handwoven basket or a piece of pottery made for daily use?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "Local handiwork"
+      ]
+    },
+    {
+      "text": "Small workshops often have a familiar rhythm that regular visitors learn to recognise.",
+      "format": "Observation",
+      "relatedThemes": [
+        "Local handiwork"
+      ]
+    },
+    {
+      "text": "You're visiting a local maker's stall with a friend. What would you ask about before choosing something?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "Local handiwork"
+      ]
+    },
+    {
+      "text": "Which everyday object do you think looks better when somebody makes it by hand?",
+      "format": "Question",
+      "relatedThemes": [
+        "Local handiwork"
+      ]
+    },
+    {
+      "text": "A useful handmade object deserves as much appreciation as a decorative one.",
+      "format": "Hot take",
+      "relatedThemes": [
+        "Local handiwork"
+      ]
+    },
+    {
+      "text": "Describe learning why a maker preferred one simple tool over a newer alternative.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "Local handiwork"
+      ]
+    },
+    {
+      "text": "A neighbour offers to teach you one practical skill they learnt growing up. What would you choose?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "Local handiwork"
+      ]
+    },
+    {
+      "text": "What's a small handmade gift people in your community enjoy giving?",
+      "format": "Question",
+      "relatedThemes": [
+        "Local handiwork"
+      ]
+    },
+    {
+      "text": "Which little custom in your area do you hope people will still practise years from now?",
+      "format": "Question",
+      "relatedThemes": [
+        "Ordinary customs worth keeping"
+      ]
+    },
+    {
+      "text": "Tell me about a simple habit you picked up from another household and kept.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "Ordinary customs worth keeping"
+      ]
+    },
+    {
+      "text": "You're asked to teach a newcomer one cheerful local custom in five minutes. Which would you choose?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "Ordinary customs worth keeping"
+      ]
+    }
+  ]
+}
