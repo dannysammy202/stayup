@@ -515,3 +515,205 @@ Target: 500. Entries remain editorial drafts until human approval.
    _SM-001749 · Scenario · pending editorial review_
 250. Taking turns choosing the activity or finding a third option neither of us suggested?  
    _SM-001750 · Quick choice · pending editorial review_
+
+
+251. Is there something inexpensive you collect because every piece has a story?  
+   _SM-001751 · Question · pending editorial review_
+252. Tell me about an ordinary object you've kept longer than anybody would expect.  
+   _SM-001752 · Story starter · pending editorial review_
+253. You spot a tiny antique shop while we're passing. What would draw you inside?  
+   _SM-001753 · Scenario · pending editorial review_
+254. A collection of postcards from places you've visited or tickets from events you've enjoyed?  
+   _SM-001754 · Quick choice · pending editorial review_
+255. The things people choose to keep sometimes explain their memories better than photographs do.  
+   _SM-001755 · Observation · pending editorial review_
+256. A souvenir doesn't have to be pretty if it reminds you of a good day.  
+   _SM-001756 · Hot take · pending editorial review_
+257. What's the strangest item you've seen proudly displayed in someone's home?  
+   _SM-001757 · Question · pending editorial review_
+258. I find a battered old coin while clearing a drawer. What would you want to know about it?  
+   _SM-001758 · Scenario · pending editorial review_
+259. Picking a small memento for one another at a market or finding something useful we can both make?  
+   _SM-001759 · Quick choice · pending editorial review_
+260. Tell me the story behind something you own that would look unremarkable to a stranger.  
+   _SM-001760 · Story starter · pending editorial review_
+261. What's a subject you could give a five-minute talk about without preparing?  
+   _SM-001761 · Question · pending editorial review_
+262. People become noticeably more animated when someone asks about a very specific interest.  
+   _SM-001762 · Observation · pending editorial review_
+263. You're explaining something you're passionate about and I keep asking basic questions. What makes that enjoyable rather than tiring?  
+   _SM-001763 · Scenario · pending editorial review_
+264. Learning how a camera works or finding out how your favourite dessert is made?  
+   _SM-001764 · Quick choice · pending editorial review_
+265. When did you last discover that somebody you knew had a completely unexpected skill?  
+   _SM-001765 · Story starter · pending editorial review_
+266. Being genuinely interested in somebody's hobby beats pretending you already understand it.  
+   _SM-001766 · Hot take · pending editorial review_
+267. Have you learned a skill from watching somebody work rather than taking lessons?  
+   _SM-001767 · Question · pending editorial review_
+268. We're at a workshop and the instructor asks one of us to demonstrate first. Who volunteers?  
+   _SM-001768 · Scenario · pending editorial review_
+269. A short introduction to woodworking or a beginner session on film photography?  
+   _SM-001769 · Quick choice · pending editorial review_
+270. Tell me about a subject you dismissed at school but became curious about years later.  
+   _SM-001770 · Story starter · pending editorial review_
+271. When people visit you, what's the first thing you usually offer them?  
+   _SM-001771 · Question · pending editorial review_
+272. I show up for a casual visit and you've accidentally invited three other people. How do we make it less awkward?  
+   _SM-001772 · Scenario · pending editorial review_
+273. A good host notices when guests need space as well as when they need attention.  
+   _SM-001773 · Hot take · pending editorial review_
+274. An outdoor get-together with shared food or a small dinner where everyone helps cook?  
+   _SM-001774 · Quick choice · pending editorial review_
+275. Tell me about a home you visited that immediately felt welcoming.  
+   _SM-001775 · Story starter · pending editorial review_
+276. Every family has its own unspoken rules about taking the last piece of food.  
+   _SM-001776 · Observation · pending editorial review_
+277. Do you prefer bringing a little something when you visit somebody or helping with the preparations?  
+   _SM-001777 · Question · pending editorial review_
+278. We're the first guests to arrive and the host is still cooking. What would you offer to do?  
+   _SM-001778 · Scenario · pending editorial review_
+279. Helping to set the table or taking responsibility for the music?  
+   _SM-001779 · Quick choice · pending editorial review_
+280. What's the funniest household custom you've had to explain to a visitor?  
+   _SM-001780 · Story starter · pending editorial review_
+281. A person who notices the architecture on an ordinary street can make a short walk interesting.  
+   _SM-001781 · Observation · pending editorial review_
+282. What detail do you tend to notice first when you enter somewhere unfamiliar?  
+   _SM-001782 · Question · pending editorial review_
+283. We pass a building with an unusual door and no sign. What's your theory about what happens inside?  
+   _SM-001783 · Scenario · pending editorial review_
+284. People-watching from a quiet bench or exploring little side streets with interesting shopfronts?  
+   _SM-001784 · Quick choice · pending editorial review_
+285. Tell me about a detail you spotted that everybody else walked past.  
+   _SM-001785 · Story starter · pending editorial review_
+286. Being observant doesn't necessarily mean being quiet; sometimes it makes you ask better questions.  
+   _SM-001786 · Hot take · pending editorial review_
+287. Have you ever recognised a place in real life because you saw it in a photograph years earlier?  
+   _SM-001787 · Question · pending editorial review_
+288. I challenge you to find five unusual things during a ten-minute walk. What counts as unusual?  
+   _SM-001788 · Scenario · pending editorial review_
+289. An afternoon spotting street art or trying to recognise different birds by their calls?  
+   _SM-001789 · Quick choice · pending editorial review_
+290. What's an ordinary sound that takes you straight back to a specific memory?  
+   _SM-001790 · Story starter · pending editorial review_
+291. Tell me about a day you got lost but still ended up somewhere worth discovering.  
+   _SM-001791 · Story starter · pending editorial review_
+292. Are you more likely to ask for directions immediately or try to work things out first?  
+   _SM-001792 · Question · pending editorial review_
+293. We're following a map that keeps sending us in circles. Who admits defeat first?  
+   _SM-001793 · Scenario · pending editorial review_
+294. Being able to laugh when plans go wrong makes an outing much easier.  
+   _SM-001794 · Hot take · pending editorial review_
+295. Accidentally ending up at a local fair or finding a tiny café on the wrong street?  
+   _SM-001795 · Quick choice · pending editorial review_
+296. The funniest travel stories sometimes begin with somebody misreading one small sign.  
+   _SM-001796 · Observation · pending editorial review_
+297. Have you ever taken the wrong bus or train and met someone interesting along the way?  
+   _SM-001797 · Question · pending editorial review_
+298. The venue we planned to visit has moved without updating its address. What's our backup?  
+   _SM-001798 · Scenario · pending editorial review_
+299. A carefully researched route with stops or a leisurely wander where we ask locals for ideas?  
+   _SM-001799 · Quick choice · pending editorial review_
+300. Tell me about a small mistake you made that eventually became a family story.  
+   _SM-001800 · Story starter · pending editorial review_
+301. What's your definition of a day off that actually feels restful?  
+   _SM-001801 · Question · pending editorial review_
+302. Having nowhere urgent to be can make a short conversation feel luxurious.  
+   _SM-001802 · Hot take · pending editorial review_
+303. Our plan gets cancelled and we unexpectedly have the afternoon free. What would you enjoy doing instead?  
+   _SM-001803 · Scenario · pending editorial review_
+304. Sitting outside watching the world go by or spending an afternoon inside with a good book?  
+   _SM-001804 · Quick choice · pending editorial review_
+305. Tell me about the last time you enjoyed doing almost nothing without feeling guilty.  
+   _SM-001805 · Story starter · pending editorial review_
+306. People who say they want to relax often have surprisingly elaborate ideas of what relaxing involves.  
+   _SM-001806 · Observation · pending editorial review_
+307. Are you comfortable leaving a weekend completely unplanned?  
+   _SM-001807 · Question · pending editorial review_
+308. I suggest putting our phones away for twenty minutes at a café. Would that feel relaxing or odd?  
+   _SM-001808 · Scenario · pending editorial review_
+309. Listening to the rain from indoors or finding a shady place to sit on a bright day?  
+   _SM-001809 · Quick choice · pending editorial review_
+310. You don't have to fill every silence to make somebody feel welcome.  
+   _SM-001810 · Hot take · pending editorial review_
+311. What's a part of your work or studies that outsiders usually misunderstand?  
+   _SM-001811 · Question · pending editorial review_
+312. Tell me about a surprisingly interesting person you met through something you were working on.  
+   _SM-001812 · Story starter · pending editorial review_
+313. You have to explain your job to a curious ten-year-old in two sentences. How would you do it?  
+   _SM-001813 · Scenario · pending editorial review_
+314. A job with lots of different people to meet or one where you can focus quietly for long stretches?  
+   _SM-001814 · Quick choice · pending editorial review_
+315. People's least glamorous work stories are sometimes the most entertaining.  
+   _SM-001815 · Observation · pending editorial review_
+316. Being proud of a small piece of work is worth celebrating even if nobody else sees it.  
+   _SM-001816 · Hot take · pending editorial review_
+317. If you could shadow someone in any profession for a day, whose day would you choose?  
+   _SM-001817 · Question · pending editorial review_
+318. We're chatting with someone who has a job neither of us understands. What's your first question?  
+   _SM-001818 · Scenario · pending editorial review_
+319. Learning a useful trade for one week or spending a week behind the scenes of a theatre?  
+   _SM-001819 · Quick choice · pending editorial review_
+320. What practical lesson from your first job has stayed with you?  
+   _SM-001820 · Story starter · pending editorial review_
+321. What's something you used to dislike but would happily choose now?  
+   _SM-001821 · Question · pending editorial review_
+322. Tell me about the first time your opinion changed because you gave something a second chance.  
+   _SM-001822 · Story starter · pending editorial review_
+323. It's more interesting when someone can explain how their taste changed than defend a favourite forever.  
+   _SM-001823 · Hot take · pending editorial review_
+324. I bring a snack you haven't tried since childhood. Do you risk seeing whether you still hate it?  
+   _SM-001824 · Scenario · pending editorial review_
+325. Revisiting a song you once couldn't stand or trying a dish you refused to eat as a child?  
+   _SM-001825 · Quick choice · pending editorial review_
+326. The foods we reject as children sometimes become the ones we order most often.  
+   _SM-001826 · Observation · pending editorial review_
+327. Has a friend ever changed your mind about a place you thought you'd never enjoy?  
+   _SM-001827 · Question · pending editorial review_
+328. You loved a film years ago, but the rewatch disappoints you. Do you admit it or protect the memory?  
+   _SM-001828 · Scenario · pending editorial review_
+329. Trying a completely unfamiliar cuisine or giving an old least-favourite dish another chance?  
+   _SM-001829 · Quick choice · pending editorial review_
+330. What's one preference you expect future-you might laugh about?  
+   _SM-001830 · Story starter · pending editorial review_
+331. What's a little thing you were nervous to try that turned out to be easier than expected?  
+   _SM-001831 · Question · pending editorial review_
+332. Doing something unfamiliar without making a spectacle of it can still be a brave decision.  
+   _SM-001832 · Hot take · pending editorial review_
+333. You want to go to a community event but don't know anybody there. What would help you walk in?  
+   _SM-001833 · Scenario · pending editorial review_
+334. Asking a stranger for a recommendation or volunteering to speak briefly to a small group?  
+   _SM-001834 · Quick choice · pending editorial review_
+335. Tell me about a time you surprised yourself by saying yes to something new.  
+   _SM-001835 · Story starter · pending editorial review_
+336. People often describe their everyday courage as though it was no big deal.  
+   _SM-001836 · Observation · pending editorial review_
+337. Is there an ordinary activity you avoided for years before finally trying it?  
+   _SM-001837 · Question · pending editorial review_
+338. I'm learning to skate and falling over constantly. Would you join in or cheer from the side?  
+   _SM-001838 · Scenario · pending editorial review_
+339. A beginner's public speaking workshop or a friendly improv game with no audience?  
+   _SM-001839 · Quick choice · pending editorial review_
+340. Who has helped you feel confident enough to be a beginner at something?  
+   _SM-001840 · Story starter · pending editorial review_
+341. What's a place that makes conversation feel easier, even when you don't know someone very well?  
+   _SM-001841 · Question · pending editorial review_
+342. We're at a busy gathering and find the one quiet corner. What would you want to talk about there?  
+   _SM-001842 · Scenario · pending editorial review_
+343. Talking while travelling somewhere or sitting down properly once we arrive?  
+   _SM-001843 · Quick choice · pending editorial review_
+344. Different spaces seem to bring out different sides of the same person.  
+   _SM-001844 · Observation · pending editorial review_
+345. Choosing a comfortable place matters more than planning the perfect conversation topics.  
+   _SM-001845 · Hot take · pending editorial review_
+346. Tell me about a memorable chat that happened somewhere completely unexpected.  
+   _SM-001846 · Story starter · pending editorial review_
+347. Do you notice the atmosphere of a place before you notice who's there?  
+   _SM-001847 · Question · pending editorial review_
+348. We arrive at a beautiful outdoor spot only to discover there are no seats. How do we adapt?  
+   _SM-001848 · Scenario · pending editorial review_
+349. A little balcony overlooking the street or a shaded courtyard away from the noise?  
+   _SM-001849 · Quick choice · pending editorial review_
+350. What's a place you once visited that immediately made you want to return with somebody?  
+   _SM-001850 · Story starter · pending editorial review_
