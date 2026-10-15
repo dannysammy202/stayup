@@ -243,3 +243,45 @@ Initial target: 200. Entries remain editorial drafts until human approval.
    _SM-005216 · Scenario · pending editorial review_
 117. What's a habit you brought home from a trip because you liked the way people did it there?  
    _SM-005217 · Question · pending editorial review_
+
+
+118. What do you enjoy looking at first when you enter a local market?  
+   _SM-005218 · Question · pending editorial review_
+119. Tell me about an unexpected conversation you had while shopping at a stall.  
+   _SM-005219 · Story starter · pending editorial review_
+120. A market famous for fabric or one known for fresh produce?  
+   _SM-005220 · Quick choice · pending editorial review_
+121. Some stallholders remember regular customers by their usual order.  
+   _SM-005221 · Observation · pending editorial review_
+122. You're buying something at a market you've never visited. How do you decide which stall to try?  
+   _SM-005222 · Scenario · pending editorial review_
+123. Which market smell tells you you're close before you see the stalls?  
+   _SM-005223 · Question · pending editorial review_
+124. Market conversations sometimes teach more local slang than a language lesson.  
+   _SM-005224 · Hot take · pending editorial review_
+125. Describe watching a vendor demonstrate something you didn't know how to use.  
+   _SM-005225 · Story starter · pending editorial review_
+126. Your friend has ten minutes at your favourite market. What would you insist they see?  
+   _SM-005226 · Scenario · pending editorial review_
+127. What do people in your area normally say when they leave a shop without buying anything?  
+   _SM-005227 · Question · pending editorial review_
+128. What's an ordinary object at home whose story gets retold whenever somebody notices it?  
+   _SM-005228 · Question · pending editorial review_
+129. Tell me about finding an old item and asking a relative why the family kept it.  
+   _SM-005229 · Story starter · pending editorial review_
+130. A box of handwritten notes or a collection of old family photographs?  
+   _SM-005230 · Quick choice · pending editorial review_
+131. The objects people keep often reveal which memories they want close by.  
+   _SM-005231 · Observation · pending editorial review_
+132. You're choosing one small item to represent your family's everyday life today. What would you save?  
+   _SM-005232 · Scenario · pending editorial review_
+133. Which piece of furniture has stayed in your family longer than anyone expected?  
+   _SM-005233 · Question · pending editorial review_
+134. A well-used household item sometimes carries more history than an expensive souvenir.  
+   _SM-005234 · Hot take · pending editorial review_
+135. Describe learning the story behind a gift somebody in your family has treasured for years.  
+   _SM-005235 · Story starter · pending editorial review_
+136. An older relative offers to explain the history of one object in the house. Which would you point to?  
+   _SM-005236 · Scenario · pending editorial review_
+137. What's something your family still uses in a way younger people find unusual?  
+   _SM-005237 · Question · pending editorial review_
