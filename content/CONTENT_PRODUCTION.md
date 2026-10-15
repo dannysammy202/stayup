@@ -34,10 +34,10 @@ Never mark unwritten capacity as published. Maintain stable `SM-` IDs, unique no
 
 1. Check main and the live Vercel production commit and manifest. If production lags, deploy and verify main before writing more content.
 2. Select the oldest partially filled eligible combination with `published<target`, or begin another appropriate topic for coverage.
-3. Write up to 100 varied, natural conversation starters in a JSON batch of `{topic,mood,audience,prompts:[{text,format,relatedThemes}]}`. Never exceed remaining slot capacity.
+3. Write all remaining varied, natural conversation starters in a JSON batch of `{topic,mood,audience,prompts:[{text,format,relatedThemes}]}`. Never exceed remaining slot capacity.
 4. Commit new authored batches under `content/inbox/` on a content branch. The publisher adds built-in JSON shards, source Markdown and updates `publishedCount`, `coverageCount` and `remainingToTarget`.
-5. Run `npm run content:validate`, `npm test` and `npm run build`. Fix rejected batches. Only merge checks-passing branches.
-6. Deploy the resulting main SHA and verify the deployed production commit and published manifest. Continue in the next hourly execution without asking for 'continue'.
+5. Run `npm run content:validate`, `npm test`, `npm run build` and the full-release readiness check. Fix rejected content. Keep incomplete work in staging, then merge the complete tested library once.
+6. Stage all remaining collections offline. Publish one complete release only after the physical catalogue reaches 139,100, all quality checks and tests pass, and the full release is ready. Verify production against the resulting main SHA.
 7. Report at verified coverage milestones or genuine non-transient blockers, never each hourly batch. Preserve human-review status separately.
 
 Initial coverage is complete only when all 696 eligible combinations meet at least their 200-entry target, exclusions remain empty, `remainingToTarget===0`, checks pass and Vercel serves the confirmed main commit. The actual physical published count will exceed 139,200 because historic overages remain. Future expansions use newly agreed quotas.
@@ -50,4 +50,12 @@ Continue topic by topic from the first eligible combination with remaining publi
 
 For new entries, complete individual AI editorial assessment and whole-library similarity candidate retrieval before publication. Save a per-prompt text hash, distinct conversational angle, quality decisions, reviewer type and retrieval evidence under content/reviews/. The reviewed publisher checks the current catalogue fingerprint, evidence completeness and unchanged copy. Never label an AI review as human review. AI-reviewed entries keep humanReviewed:false, retain the established public editorial status, and carry a separate aiEditorialReview record. No bulk status upgrade is permitted.
 
-Use `node scripts/publish-reviewed-batch.mjs <batch> <individual-review> <retrieval-evidence>`. No batch exceeds 100 new entries. Do not author the next batch until GitHub main matches a READY production deployment and the public manifest and new shard match the release files. The publication checkpoint and human approval checkpoint serve different purposes.
+Use `node scripts/publish-reviewed-batch.mjs <collection> <individual-review> <retrieval-evidence>` to assemble reviewed collections in the staging workspace. There is no 100-entry production cap. Finish all remaining eligible collections in topic order without deploying each collection. The publication checkpoint and human approval checkpoint serve different purposes.
+
+## Full collection release instruction, 16 October 2026
+
+The user explicitly removed the 100-entry limit and per-batch release workflow. This section supersedes every earlier batch/deployment instruction. Prepare the entire remaining catalogue as one production assignment, preserving existing records, exclusions, adult separation and all quality checks. Internal collection files and progress checkpoints are implementation details, not separate delivery milestones or reasons to ask the user to continue.
+
+Do not let the current Vercel deployment cooldown stop offline writing, editorial review, similarity checking or staging. Respect the cooldown only for the final deployment. Keep GitHub main and the live app stable until the complete 139,100-entry release passes validation. No paid generation, billing change, quota bypass, filler or unreviewed bulk status upgrade is authorised.
+
+The existing PR #71 is incomplete preparation, not an independent 100-entry release to merge. Continue from its reviewed content and accounting fix. Persist intermediate Git trees/commits without advancing a deployment-triggering branch, and save each checkpoint SHA in the persistent automation prompt. A Git tree/commit creation alone does not publish content. Use one final branch/PR and production release when the complete collection is ready.

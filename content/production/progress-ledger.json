@@ -771,7 +771,7 @@
     "audience": "Anyone",
     "action": "review_existing_entries_before_generation",
     "firstPendingId": "SM-000101",
-    "batchLimit": 100,
+    "productionMode": "prepare_complete_library_then_single_release",
     "firstUnwrittenCombination": {
       "order": 21,
       "topic": "Relationships",
@@ -807,7 +807,7 @@
     "audience": "Group",
     "published": 0,
     "remainingInCombination": 200,
-    "nextBatchMaximum": 100
+    "nextCollectionMaximum": 200
   },
   "semanticReview": {
     "status": "incomplete",

@@ -6,7 +6,7 @@ import {publishContentBatch} from './publish-content-batch.mjs';
 const hash=x=>createHash('sha256').update(x).digest('hex');
 export function validateEditorialEvidence(batch,review,retrieval,manifestBytes){
  const fail=s=>{throw new Error('Editorial evidence rejected: '+s)};
- if(batch.prompts.length<1||batch.prompts.length>100)fail('batch size');
+ if(batch.prompts.length<1)fail('empty collection');
  if(review.reviewerType!=='AI'||review.humanReviewed!==false)fail('reviewer provenance');
  if(review.inputSha256!==hash(JSON.stringify(batch)))fail('changed batch');
  if(retrieval.baselineManifestSha256!==hash(manifestBytes))fail('stale catalogue');

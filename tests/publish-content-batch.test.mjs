@@ -33,7 +33,7 @@ test('publisher rejects duplicate ideas, weak placeholders and overlong batches'
  const old=published[0].text;
  assert.throws(()=>prepareContentBatch({...pick,prompts:[{text:old,format:'Question'}]},manifest,published),/Duplicate prompt/);
  assert.throws(()=>prepareContentBatch({...pick,prompts:[{text:'Placeholder question 5 - insert question here',format:'Question'}]},manifest,published),/Placeholder detected/);
- assert.throws(()=>prepareContentBatch({...pick,prompts:Array.from({length:101},(_,i)=>({text:'Could our next proper conversation revolve around a different film and its ending '+i+'?',format:'Question'}))},manifest,published),/Batch must contain/);
+ assert.throws(()=>prepareContentBatch({...pick,prompts:Array.from({length:201},(_,i)=>({text:'Could our next proper conversation revolve around a different film and its ending '+i+'?',format:'Question'}))},manifest,published),/Collection must contain/);
 });
 test('publisher does not mark machine-authored content as independently human approved',()=>{
  const result=prepareContentBatch(pick,manifest,published);
