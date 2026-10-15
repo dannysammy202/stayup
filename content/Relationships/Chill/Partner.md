@@ -203,3 +203,25 @@ Target: 500. Entries remain editorial drafts until human approval.
    _SM-004099 · Story starter · pending editorial review_
 100. What would make the next few months feel balanced between trying new things and enjoying familiar routines?  
    _SM-004100 · Question · pending editorial review_
+
+
+101. What small routine helps us enjoy a calm weekend together?  
+   _SM-004101 · Question · pending editorial review_
+102. Tell me about a weekend outing we both enjoyed without planning ahead.  
+   _SM-004102 · Story starter · pending editorial review_
+103. We have a free afternoon with no errands. Where would you like us to spend it?  
+   _SM-004103 · Scenario · pending editorial review_
+104. I think unplanned afternoons sometimes make our best memories.  
+   _SM-004104 · Hot take · pending editorial review_
+105. A quiet café together or a walk through the park?  
+   _SM-004105 · Quick choice · pending editorial review_
+106. I like how our conversations flow when we have nowhere to rush.  
+   _SM-004106 · Observation · pending editorial review_
+107. Which part of our usual weekend would you keep if our schedules changed?  
+   _SM-004107 · Question · pending editorial review_
+108. Tell me about a shared activity that turned into a regular habit.  
+   _SM-004108 · Story starter · pending editorial review_
+109. We both want a relaxed day but have different ideas. How should we choose?  
+   _SM-004109 · Scenario · pending editorial review_
+110. What is a simple experience you would enjoy repeating with me?  
+   _SM-004110 · Question · pending editorial review_
