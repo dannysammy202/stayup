@@ -221,7 +221,7 @@ function filtered(){
 function sorted(list){const key=JSON.stringify([state.view,state.mood,state.topic,state.audience,state.adult,state.query,list.map(p=>p.id).join('|')]);if(state.feedKey===key){const lookup=new Map(list.map(p=>[p.id,p]));return state.feedOrder.map(id=>lookup.get(id)).filter(Boolean)}const result=[...list].sort((a,b)=>{const va=state.seen.includes(a.id)?1:0,vb=state.seen.includes(b.id)?1:0;return va-vb || ((Number(a.id.replace(/[^0-9]/g,''))*17)%53)-((Number(b.id.replace(/[^0-9]/g,''))*17)%53)});state.feedKey=key;state.feedOrder=result.map(p=>p.id);return result}
 let topicCountCacheKey='',topicCountCache={};
 function totalTopic(topic){
- const key=[state.adult,state.showDrafts,state.hidden.length,librarySummary?.importedAt||'none'].join('|');
+ const key=[state.adult,state.hidden.length,librarySummary?.approved||0].join('|');
  if(topicCountCacheKey!==key){topicCountCache={};for(const p of inPool())topicCountCache[p.topic]=(topicCountCache[p.topic]||0)+1;topicCountCacheKey=key}
  return topicCountCache[topic]||0;
 }
