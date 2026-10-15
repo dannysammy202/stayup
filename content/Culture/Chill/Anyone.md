@@ -139,3 +139,65 @@ Initial target: 200. Entries remain editorial drafts until human approval.
    _SM-005166 · Scenario · pending editorial review_
 67. Which part of a celebration do people seem to enjoy long after the main event ends?  
    _SM-005167 · Question · pending editorial review_
+
+
+68. What do guests usually do first when they enter a home where you grew up?  
+   _SM-005168 · Question · pending editorial review_
+69. Tell me about visiting someone who had a different way of making guests feel comfortable.  
+   _SM-005169 · Story starter · pending editorial review_
+70. Being welcomed with a drink straight away or being invited to sit and talk first?  
+   _SM-005170 · Quick choice · pending editorial review_
+71. The place a host asks you to sit sometimes says more than the words of welcome.  
+   _SM-005171 · Observation · pending editorial review_
+72. A friend arrives while your household is preparing a meal. How would you usually involve them?  
+   _SM-005172 · Scenario · pending editorial review_
+73. What small household rule surprised you when you visited somebody else's home?  
+   _SM-005173 · Question · pending editorial review_
+74. Guests often remember the relaxed conversation more than the effort put into preparing for them.  
+   _SM-005174 · Hot take · pending editorial review_
+75. Describe an occasion when you learned a family's custom simply by watching everyone else.  
+   _SM-005175 · Story starter · pending editorial review_
+76. You're visiting an older relative after a long absence. What familiar part of the visit do you look forward to?  
+   _SM-005176 · Scenario · pending editorial review_
+77. What's one thing your family does for visitors even when they insist they don't need anything?  
+   _SM-005177 · Question · pending editorial review_
+78. Which childhood game always ended with someone arguing over the rules?  
+   _SM-005178 · Question · pending editorial review_
+79. Tell me about teaching a game from your childhood to someone who had never heard of it.  
+   _SM-005179 · Story starter · pending editorial review_
+80. A game played with stones or bottle tops or one built around chasing and quick reactions?  
+   _SM-005180 · Quick choice · pending editorial review_
+81. Children often invent new rules halfway through a game and somehow everybody keeps playing.  
+   _SM-005181 · Observation · pending editorial review_
+82. You're organising a playful afternoon for neighbours of different ages. Which old game would you bring back?  
+   _SM-005182 · Scenario · pending editorial review_
+83. What's a playground chant you still remember without thinking about it?  
+   _SM-005183 · Question · pending editorial review_
+84. The most memorable games don't always need expensive equipment.  
+   _SM-005184 · Hot take · pending editorial review_
+85. Describe a time a game brought together children who had never met before.  
+   _SM-005185 · Story starter · pending editorial review_
+86. Someone remembers a childhood game by a different name. How would you work out whether it's the same one?  
+   _SM-005186 · Scenario · pending editorial review_
+87. Which traditional game would you be happy to play again as an adult?  
+   _SM-005187 · Question · pending editorial review_
+88. What sound tells you a particular part of your town is waking up?  
+   _SM-005188 · Question · pending editorial review_
+89. Tell me about hearing a familiar street sound after being away and feeling instantly at home.  
+   _SM-005189 · Story starter · pending editorial review_
+90. The chatter of an evening market or the sound of people preparing breakfast outdoors?  
+   _SM-005190 · Quick choice · pending editorial review_
+91. A familiar street seller's call often becomes part of the background until it suddenly disappears.  
+   _SM-005191 · Observation · pending editorial review_
+92. You're recording a one-minute sound postcard of your area. Where would you stand?  
+   _SM-005192 · Scenario · pending editorial review_
+93. Which sound from a family gathering would you recognise with your eyes closed?  
+   _SM-005193 · Question · pending editorial review_
+94. The everyday sounds of a place deserve as much attention as its famous music.  
+   _SM-005194 · Hot take · pending editorial review_
+95. Describe an ordinary sound you used to find annoying but now associate with good memories.  
+   _SM-005195 · Story starter · pending editorial review_
+96. A friend asks you to describe your hometown without mentioning buildings or food. What would you say about its sounds?  
+   _SM-005196 · Scenario · pending editorial review_
+97. What's a sound you associate with a particular season or annual event?  
+   _SM-005197 · Question · pending editorial review_
