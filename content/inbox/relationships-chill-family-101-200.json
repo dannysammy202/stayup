@@ -1,0 +1,507 @@
+{
+  "topic": "Relationships",
+  "mood": "Chill",
+  "audience": "Family",
+  "prompts": [
+    {
+      "format": "Question",
+      "text": "Which school subject did you enjoy enough to talk about at home?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about the first time your family celebrated a result you were proud of.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A younger relative feels embarrassed about struggling in one subject. What would help them feel comfortable asking for support?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Teach each other a simple maths trick or swap a favourite writing exercise?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Families often learn how different everyone's thinking is when they attempt the same puzzle.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Showing interest in someone's effort is more useful than asking only about their grades.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's one thing a sibling or cousin taught you without realising?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a skill you developed through a school club or neighbourhood group.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Someone at home wants a quiet place to study while others have visitors. How should we arrange the space?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which learning experience brought your family closer together?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Who sends the most entertaining messages in our family chat?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A short phone call after work or a voice note with the full story?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a family message you saved because it still makes you smile.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A relative rarely replies to messages but enjoys phone conversations. What would be a considerate way to stay in touch?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People sometimes read silence in a group chat as a sign of distance when it reflects a busy week.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Not every family announcement needs an immediate reply from everyone.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which topic would make a great weekly question in our family group?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a call with a distant relative that felt much shorter than it was.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A family member is learning to use a new phone. How would you explain group messages without overwhelming them?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Share an old photograph in the family chat or tell everyone the story behind it over a call?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which creative talent in our family deserves more attention?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a homemade gift you received and the effort behind it.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Spend an afternoon drawing together or learn the rhythm of a familiar song?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A younger cousin asks to perform at a family get-together but feels nervous. How would you encourage them?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People sometimes hide their hobbies because they assume their relatives won't understand them.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Showing up for someone's small performance matters even if the style isn't your favourite.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Who has the most unexpected taste in films or music among our relatives?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time someone's creative project changed your opinion of their ability.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We decide to put together a family playlist with one song from each person. How should we order the songs?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a hobby you would like to enjoy with a relative from another generation?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What was the first thing you saved up to buy with your own money?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Compare money-saving habits or exchange tips for avoiding waste at home?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a purchase an older relative helped you think through.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A child wants something expensive and doesn't understand the cost. How would you explain the choice without shaming them?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Households often inherit different views about spending from earlier generations.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Teaching budgeting works better with real examples than with warnings alone.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which family expense deserves more discussion before people commit to contributing?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall an occasion when relatives combined their efforts to solve a practical problem.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "An extended-family gathering has a limited budget. What should we prioritise before choosing extras?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Share useful second-hand items within the family or organise a seasonal swap?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Who in the neighbourhood was like an extra family member when you were growing up?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a childhood friendship between families that lasted for years.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Host neighbours for a simple afternoon snack or join a local community event?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A new family moves into the building and doesn't know the area. What information would be helpful to share?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Small neighbourhood courtesies often shape how safe and welcome people feel.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Being a good neighbour doesn't require becoming close friends with everyone.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which neighbour or family friend helped your household during a difficult time?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a community celebration where you met someone who became important to the family.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Our street wants volunteers for a shared project. How should family members decide who takes part?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What local custom made your childhood neighbourhood distinctive?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's one change in family life you handled more easily than you expected?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Mark a move to a new home with a meal together or take a final walk around the old neighbourhood?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about packing up a room and finding an object you'd forgotten.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A relative relocates for work and wants to stay involved in family decisions. What routine would help?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Moving away sometimes changes the frequency of contact without changing the affection behind it.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Families grow healthier when they allow each member's routine to change over time.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which part of a new city would you want a relative to show you first?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe the first family gathering after someone had been away for a long time.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A family member returns from living overseas and finds old routines unfamiliar. How would you make space for their changes?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Plan a welcome-home breakfast or take a relaxed drive around familiar places?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which job did you dream of doing when you were much younger?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about the first time you saw a relative working and understood what their job involved.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Ask an older relative about their first job or ask a younger one about their future plans?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Someone wants to switch careers but worries about disappointing the family. What would be a supportive first response?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Family members sometimes define success differently because they grew up in different circumstances.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A good career conversation starts with curiosity rather than comparisons.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which practical career lesson have you learnt from a relative's experience?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall someone in the family showing patience while you learnt a new task.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A younger family member receives two offers with different benefits. Which questions should we encourage them to ask?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What do you wish your relatives understood better about your daily work?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's the most thoughtful way someone in our family has welcomed a guest?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Keep a spare place at dinner for visitors or arrange visits in advance?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about meeting a distant relative for the first time and finding something in common.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "An unexpected guest arrives while everyone has separate plans. How would you balance hospitality and everyone's time?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Households have different ideas about which spaces guests should enter and which stay private.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A good host respects the people who live in the home as much as the people who visit.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which family gathering taught you a new story about someone you thought you knew well?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe an unexpected conversation at a family table that changed your mind about someone.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A visitor has dietary needs our usual meals don't meet. What's a considerate way to plan food?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Sit outside for a long conversation with visitors or gather indoors around a simple activity?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "When a relative disagrees with you, what helps you feel they are still listening?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a misunderstanding that ended with everyone learning something useful.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Discuss a sensitive issue during a quiet walk or arrange a private conversation at home?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Two family members both think the other should apologise first. How might someone help them restart the conversation?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People sometimes use different words to describe the same feeling of disappointment.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A family apology matters more when behaviour changes afterwards.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which kind of advice sounds helpful to you rather than judgemental?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a time someone gave you room to explain yourself before offering an opinion.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A relative shares news they aren't ready to tell the wider family. How should we respect their choice?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What helps you recognise the right moment to revisit an unfinished family conversation?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What ordinary family experience would you want to preserve in a time capsule?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Collect favourite family recipes in a booklet or put together a map of meaningful places?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a keepsake whose importance only became clear when someone explained it.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We decide to preserve family memories digitally but some relatives prefer paper. What approach would suit both?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "A family archive tells a richer story when every generation gets a chance to contribute.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Preserving history is worthwhile even when nobody expects to publish the stories.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which everyday photograph of the family would you choose to display?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a moment when a younger relative asked a question that made you revisit an old memory.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "The family chooses one activity to repeat every year without spending much. What would make it easy for everyone to join?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "End a reunion by sharing favourite memories or by choosing a small plan for next time?",
+      "relatedThemes": []
+    }
+  ]
+}
