@@ -27,17 +27,22 @@ export function createProductionLedger(manifest,records,{sourceCommitSha,verific
    editorialStatus:!c.eligible?'excluded':approved>=c.target?'approved_target_met':pending?'review_required':'unwritten',
    firstPendingId:entries.find(p=>p.editorialStatus!=='approved')?.id||null,
    sourceCommitSha,shards:files.map(f=>({path:f,lastContentCommitSha:origins[f]||null})),
+   aiEditorialReviewedCount:entries.filter(p=>p.aiEditorialReview?.decision==='pass').length,
    production:{verifiedAt:verification.verifiedAt,commitSha:verification.productionCommitSha,
     deploymentId:verification.deploymentId,
-    status:files.length&&checked.every(x=>x?.matches)?'verified_public_files':!c.eligible?'excluded_no_shards':'unwritten_no_shards'}};
+    status:files.length&&checked.every(x=>x?.matches)?'verified_public_files':files.length?'awaiting_release_verification':!c.eligible?'excluded_no_shards':'unwritten_no_shards'}};
  });
  const approvedCoverage=combinations.reduce((n,c)=>n+Math.min(c.approvedCount,c.target),0);
  const pending=combinations.filter(c=>c.eligible&&c.remainingApproved>0);
  const next=pending[0];
+ const nextPublication=combinations.find(c=>c.eligible&&c.remainingToWrite>0);
  return {version:1,createdAt:verification.verifiedAt,sourceCommitSha,
   targetApprovedCoverage:manifest.targetCount,publishedCount:records.length,
   approvedCount:records.filter(p=>p.editorialStatus==='approved').length,
   pendingEditorialCount:records.filter(p=>p.editorialStatus==='screened_pending_editorial_review').length,
+  aiEditorialReviewedCount:records.filter(p=>p.aiEditorialReview?.decision==='pass').length,
+  releaseGoalPublishedCount:manifest.releaseGoalPublishedCount||139100,
+  remainingToReleaseGoal:Math.max(0,(manifest.releaseGoalPublishedCount||139100)-records.length),
   approvedCoverage,remainingApproved:manifest.targetCount-approvedCoverage,
   publishedCoverage:manifest.coverageCount,remainingToWrite:manifest.remainingToTarget,
   eligibleCombinations:696,excludedCombinations:102,
@@ -49,8 +54,10 @@ export function createProductionLedger(manifest,records,{sourceCommitSha,verific
    action:next?.pendingEditorialCount?'review_existing_entries_before_generation':'author_up_to_100_then_review',
    firstPendingId:next?.firstPendingId,batchLimit:100,
    firstUnwrittenCombination:combinations.find(c=>c.eligible&&c.remainingToWrite>0),
-   status:'blocked_on_existing_human_approval_policy',
-   reason:'content/CONTENT_PRODUCTION.md defines approved as individual human editorial review supported by evidence. The publisher and validator enforce this distinction. No AI review has been represented as human approval.'},
+   status:'human_review_remains_separate_not_a_publication_blocker',
+   reason:'User renewed autonomous publication instruction on 15 October 2026. AI editorial reviews preserve humanReviewed:false and do not relabel screened entries as human approved.'},
+  publicationCheckpoint:nextPublication?{topic:nextPublication.topic,mood:nextPublication.mood,audience:nextPublication.audience,
+   published:nextPublication.publishedCount,remainingInCombination:nextPublication.remainingToWrite,nextBatchMaximum:Math.min(100,nextPublication.remainingToWrite,Math.max(0,139100-records.length))}:null,
   semanticReview:{status:'incomplete',candidateReport:'content/production/similarity-candidates.json',
    method:'Global TF-IDF lexical candidate screening, not a complete semantic assessment'},
   combinations};
