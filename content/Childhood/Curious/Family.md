@@ -359,3 +359,15 @@ Initial target: 200. Entries remain editorial drafts until human approval.
    _SM-006174 · Quick choice · pending editorial review_
 175. New technology changes family routines long before people notice the change.  
    _SM-006175 · Observation · pending editorial review_
+
+
+176. Older household devices deserve an explanation of how people used them, not only a display behind glass.  
+   _SM-006176 · Hot take · pending editorial review_
+177. What task did your family do by hand when you were little that now takes a few taps?  
+   _SM-006177 · Question · pending editorial review_
+178. Describe learning to use a new device from a younger or older relative.  
+   _SM-006178 · Story starter · pending editorial review_
+179. Someone finds an old landline telephone. How would you explain the experience of sharing one family phone?  
+   _SM-006179 · Scenario · pending editorial review_
+180. Which childhood technology do you miss for reasons other than nostalgia?  
+   _SM-006180 · Question · pending editorial review_
