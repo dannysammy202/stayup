@@ -405,3 +405,205 @@ Target: 500. Entries remain editorial drafts until human approval.
    _SM-004199 · Quick choice · pending editorial review_
 200. The funniest celebrity endorsement would be a person who became famous for making an excellent sandwich.  
    _SM-004200 · Hot take · pending editorial review_
+
+
+201. Every month gets renamed after a snack. What does December become?  
+   _SM-004201 · Scenario · pending editorial review_
+202. If we invented one extra day of the week, what should people be allowed to do on it?  
+   _SM-004202 · Question · pending editorial review_
+203. A calendar with two Mondays and three Fridays or one where every seventh day is a surprise holiday?  
+   _SM-004203 · Quick choice · pending editorial review_
+204. A public holiday celebrating the invention of pockets would be far more useful than it sounds.  
+   _SM-004204 · Hot take · pending editorial review_
+205. Tell us about a day when everything felt like it was happening on the wrong date.  
+   _SM-004205 · Story starter · pending editorial review_
+206. If weekends arrived randomly, every office would develop a department for checking calendars.  
+   _SM-004206 · Observation · pending editorial review_
+207. The world accidentally skips every Thursday for a year. What's the strangest side effect?  
+   _SM-004207 · Scenario · pending editorial review_
+208. Which friend would make the worst person to put in charge of naming the months?  
+   _SM-004208 · Question · pending editorial review_
+209. An annual holiday for finishing books or one where everybody has to learn a new board game?  
+   _SM-004209 · Quick choice · pending editorial review_
+210. A calendar designed by children would include far more days devoted to cake.  
+   _SM-004210 · Hot take · pending editorial review_
+211. Animals form a parliament and accuse humans of feeding ducks the wrong things. Who represents us?  
+   _SM-004211 · Scenario · pending editorial review_
+212. What animal would make the funniest mayor of a small peaceful town?  
+   _SM-004212 · Question · pending editorial review_
+213. A penguin managing public transport or a tortoise running the postal service?  
+   _SM-004213 · Quick choice · pending editorial review_
+214. A parliament of geese would conduct most of its business very loudly and very badly.  
+   _SM-004214 · Observation · pending editorial review_
+215. A squirrel would make an excellent treasurer, provided the currency was acorns.  
+   _SM-004215 · Hot take · pending editorial review_
+216. Tell us about a real animal behaving as if it had been elected to an important office.  
+   _SM-004216 · Story starter · pending editorial review_
+217. The neighbourhood cats call a meeting about a suspicious new dog. Who negotiates between them?  
+   _SM-004217 · Scenario · pending editorial review_
+218. Which member of this group would enjoy watching animal politics a little too much?  
+   _SM-004218 · Question · pending editorial review_
+219. A neighbourhood led by wise owls or one organised by enthusiastic golden retrievers?  
+   _SM-004219 · Quick choice · pending editorial review_
+220. A frog should never be allowed to chair a debate about whether the pond is wet.  
+   _SM-004220 · Hot take · pending editorial review_
+221. What everyday technology problem would become much funnier if a wizard had to solve it?  
+   _SM-004221 · Question · pending editorial review_
+222. A magic mirror freezes while updating its software. What's our first troubleshooting step?  
+   _SM-004222 · Scenario · pending editorial review_
+223. A smartphone that predicts where you left your keys or one that reminds you of the punchline to every joke?  
+   _SM-004223 · Quick choice · pending editorial review_
+224. A wizard who can't reset a router has no business offering advanced spells.  
+   _SM-004224 · Hot take · pending editorial review_
+225. Tell us about a piece of technology that seemed to respond better to luck than logic.  
+   _SM-004225 · Story starter · pending editorial review_
+226. Once a magical device has a battery indicator, half its mystery disappears.  
+   _SM-004226 · Observation · pending editorial review_
+227. Our spellbook asks us to accept its terms and conditions before casting anything. Who reads them?  
+   _SM-004227 · Scenario · pending editorial review_
+228. Which friend would turn a teleportation device off and on again before asking for help?  
+   _SM-004228 · Question · pending editorial review_
+229. An enchanted printer that never jams or headphones that automatically untangle themselves?  
+   _SM-004229 · Quick choice · pending editorial review_
+230. The greatest innovation in magical transport would be a clear refund policy for failed portals.  
+   _SM-004230 · Hot take · pending editorial review_
+231. The entire city becomes a board game overnight, with giant dice rolling across the streets. Who explains the rules?  
+   _SM-004231 · Scenario · pending editorial review_
+232. Which board-game instruction would cause the most confusion if it applied to real life?  
+   _SM-004232 · Question · pending editorial review_
+233. Living one day as a chess piece or as a character in a game of Snakes and Ladders?  
+   _SM-004233 · Quick choice · pending editorial review_
+234. Tell us about a game where one strange rule completely changed everyone's strategy.  
+   _SM-004234 · Story starter · pending editorial review_
+235. Nobody should be allowed to control the weather simply because they landed on a lucky square.  
+   _SM-004235 · Hot take · pending editorial review_
+236. People would become much more polite at crossings if they had to roll a six before proceeding.  
+   _SM-004236 · Observation · pending editorial review_
+237. Our group discovers that stepping on a blue tile swaps everybody's shoes. What's our survival strategy?  
+   _SM-004237 · Scenario · pending editorial review_
+238. Who among us would secretly enjoy being the person responsible for reading the rulebook aloud?  
+   _SM-004238 · Question · pending editorial review_
+239. A town run using chess moves or a village where Monopoly money works only on Tuesdays?  
+   _SM-004239 · Quick choice · pending editorial review_
+240. Real-life board games would need a strict limit on how often somebody can request a rematch.  
+   _SM-004240 · Hot take · pending editorial review_
+241. If all vehicles could speak, which type would have the most dramatic stories?  
+   _SM-004241 · Question · pending editorial review_
+242. Our bus refuses to leave until passengers agree on a playlist. How do we make the decision?  
+   _SM-004242 · Scenario · pending editorial review_
+243. A bicycle that compliments your pedalling or a car that tells awful jokes at red lights?  
+   _SM-004243 · Quick choice · pending editorial review_
+244. A talking elevator would soon have strong opinions about people's floor choices.  
+   _SM-004244 · Observation · pending editorial review_
+245. The worst thing about a sarcastic train would be its announcements during delays.  
+   _SM-004245 · Hot take · pending editorial review_
+246. Tell us about a journey where your transport behaved as though it had a personality of its own.  
+   _SM-004246 · Story starter · pending editorial review_
+247. A ferry refuses to cross unless someone tells it a convincing bedtime story. Who volunteers?  
+   _SM-004247 · Scenario · pending editorial review_
+248. Which person here would somehow befriend a grumpy taxi?  
+   _SM-004248 · Question · pending editorial review_
+249. A friendly tram that remembers names or a boat that insists on wearing an imaginary captain's hat?  
+   _SM-004249 · Quick choice · pending editorial review_
+250. Any vehicle that argues about directions should come with a mute button.  
+   _SM-004250 · Hot take · pending editorial review_
+251. You can borrow a device that makes every meal look like a work of art, but it doesn't improve the taste. Who wants it?  
+   _SM-004251 · Scenario · pending editorial review_
+252. What ridiculous gadget would you genuinely test for a day just to see what happens?  
+   _SM-004252 · Question · pending editorial review_
+253. A remote control that changes the colour of your clothes or a button that adds sound effects to your footsteps?  
+   _SM-004253 · Quick choice · pending editorial review_
+254. An invention that translates yawns into full sentences would destroy many boring meetings.  
+   _SM-004254 · Hot take · pending editorial review_
+255. Tell us about a gadget you tried that solved a problem you never knew you had.  
+   _SM-004255 · Story starter · pending editorial review_
+256. The first person to invent self-refilling popcorn would instantly become popular at film nights.  
+   _SM-004256 · Observation · pending editorial review_
+257. We test a machine that makes every spoken sentence rhyme. How long before somebody regrets switching it on?  
+   _SM-004257 · Scenario · pending editorial review_
+258. Which friend would write a three-page review of a pen that changes ink colour automatically?  
+   _SM-004258 · Question · pending editorial review_
+259. A lamp that changes brightness to match your storytelling or a chair that applauds when you sit down?  
+   _SM-004259 · Quick choice · pending editorial review_
+260. The ideal unnecessary gadget should still be easy to return after the novelty wears off.  
+   _SM-004260 · Hot take · pending editorial review_
+261. For one hour, each person can choose the weather over a different street. What pattern appears on the map?  
+   _SM-004261 · Scenario · pending editorial review_
+262. What's the least practical weather condition you could choose for a birthday party?  
+   _SM-004262 · Question · pending editorial review_
+263. A gentle snowfall in the middle of summer or warm sunlight during a night-time picnic?  
+   _SM-004263 · Quick choice · pending editorial review_
+264. Tell us about a weather surprise that completely changed an ordinary outing.  
+   _SM-004264 · Story starter · pending editorial review_
+265. Anyone granted control of the wind should immediately be banned from outdoor weddings.  
+   _SM-004265 · Hot take · pending editorial review_
+266. People would argue over weather forecasts much more if the forecasts could argue back.  
+   _SM-004266 · Observation · pending editorial review_
+267. A cloud follows our group everywhere and rains only when somebody tells a bad joke. Who gets soaked first?  
+   _SM-004267 · Scenario · pending editorial review_
+268. Which friend would use a weather-control machine entirely to avoid ironing clothes?  
+   _SM-004268 · Question · pending editorial review_
+269. A thunderstorm that sounds like applause or rain that falls in neat little rows?  
+   _SM-004269 · Quick choice · pending editorial review_
+270. A town that votes on the weather every morning would never settle on the right amount of sunshine.  
+   _SM-004270 · Hot take · pending editorial review_
+271. We wake up wearing clothes chosen by our future selves. What's the most alarming outfit someone discovers?  
+   _SM-004271 · Scenario · pending editorial review_
+272. What accessory should everybody be required to wear for one harmless but ridiculous annual festival?  
+   _SM-004272 · Question · pending editorial review_
+273. A jacket with pockets bigger on the inside or shoes that change colour whenever you hear music?  
+   _SM-004273 · Quick choice · pending editorial review_
+274. Any magical outfit should come with washing instructions printed clearly on the label.  
+   _SM-004274 · Hot take · pending editorial review_
+275. Tell us about attending an event where you completely misunderstood the dress code.  
+   _SM-004275 · Story starter · pending editorial review_
+276. A hat that changes shape to match someone's mood would give away every surprise party.  
+   _SM-004276 · Observation · pending editorial review_
+277. Your coat insists it is overdressed for the occasion. How do you negotiate with it?  
+   _SM-004277 · Scenario · pending editorial review_
+278. Who in this group could best explain why the wrong shoes somehow matched an entire outfit?  
+   _SM-004278 · Question · pending editorial review_
+279. A scarf that gently points towards good cafés or gloves that make every handshake feel ceremonial?  
+   _SM-004279 · Quick choice · pending editorial review_
+280. The best imaginary fashion trend would make it socially acceptable to dress in blankets.  
+   _SM-004280 · Hot take · pending editorial review_
+281. Somebody says it's raining cats and dogs, and tiny cartoon pets begin floating down. Who catches them?  
+   _SM-004281 · Scenario · pending editorial review_
+282. What common expression would create the most confusion if it suddenly came true for a day?  
+   _SM-004282 · Question · pending editorial review_
+283. Having butterflies appear whenever you're nervous or watching ideas literally light up over people's heads?  
+   _SM-004283 · Quick choice · pending editorial review_
+284. People should be careful saying they have too much on their plate in a universe of literal idioms.  
+   _SM-004284 · Hot take · pending editorial review_
+285. Tell us about a phrase you misunderstood as a child because you imagined it literally.  
+   _SM-004285 · Story starter · pending editorial review_
+286. If the phrase 'time flies' became true, calendars would need insect nets.  
+   _SM-004286 · Observation · pending editorial review_
+287. The boss announces everyone must 'think outside the box', and the office is suddenly filled with cardboard boxes. What now?  
+   _SM-004287 · Scenario · pending editorial review_
+288. Which figure of speech would make an excellent theme for a silly public holiday?  
+   _SM-004288 · Question · pending editorial review_
+289. Letting sleeping dogs lie because they're actually doing homework or getting a real penny for every thought?  
+   _SM-004289 · Quick choice · pending editorial review_
+290. The world would become less dramatic if people understood just how expensive literal metaphors could be.  
+   _SM-004290 · Hot take · pending editorial review_
+291. We discover a miniature city beneath the living-room sofa, and its residents are protesting about crumbs. What's our response?  
+   _SM-004291 · Scenario · pending editorial review_
+292. What ordinary household object would be an impressive landmark to people the size of paperclips?  
+   _SM-004292 · Question · pending editorial review_
+293. Visiting a tiny city's library or watching its annual parade across the kitchen counter?  
+   _SM-004293 · Quick choice · pending editorial review_
+294. A bottle cap would make a better miniature town square than almost any expensive building material.  
+   _SM-004294 · Hot take · pending editorial review_
+295. Tell us about finding something under furniture that made you wonder how it got there.  
+   _SM-004295 · Story starter · pending editorial review_
+296. A miniature civilisation would probably regard the vacuum cleaner as a legendary natural disaster.  
+   _SM-004296 · Observation · pending editorial review_
+297. Their mayor asks us to reduce floor vibrations during their festival. Can we agree?  
+   _SM-004297 · Scenario · pending editorial review_
+298. Who among us would be most likely to start learning the tiny residents' language?  
+   _SM-004298 · Question · pending editorial review_
+299. A miniature railway through the bookshelf or a tiny harbour inside a washbasin?  
+   _SM-004299 · Quick choice · pending editorial review_
+300. Any treaty with a civilisation living under the sofa should include strict guidelines about dropped snacks.  
+   _SM-004300 · Hot take · pending editorial review_
