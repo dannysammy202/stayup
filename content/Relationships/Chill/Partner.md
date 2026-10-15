@@ -405,3 +405,205 @@ Target: 500. Entries remain editorial drafts until human approval.
    _SM-004199 · Quick choice · pending editorial review_
 200. What would you like us to remember about how we treated each other this year?  
    _SM-004200 · Question · pending editorial review_
+
+
+201. Which sound in our neighbourhood tells you the day is beginning?  
+   _SM-004201 · Question · pending editorial review_
+202. Couples sometimes develop their own sense of timing around mornings and evenings.  
+   _SM-004202 · Observation · pending editorial review_
+203. A power cut interrupts our planned night in. What would turn it into a pleasant memory?  
+   _SM-004203 · Scenario · pending editorial review_
+204. Tell me about a rainy day we spent together which ended differently from how you expected.  
+   _SM-004204 · Story starter · pending editorial review_
+205. Watch a storm from the window or go outside after the rain clears?  
+   _SM-004205 · Quick choice · pending editorial review_
+206. Making ordinary inconveniences easier for each other is a meaningful kind of teamwork.  
+   _SM-004206 · Hot take · pending editorial review_
+207. What change to your morning routine made life noticeably easier?  
+   _SM-004207 · Question · pending editorial review_
+208. One of us needs to leave before sunrise for a few weeks. How should we protect each other's sleep?  
+   _SM-004208 · Scenario · pending editorial review_
+209. Describe a journey home when you were especially looking forward to seeing me.  
+   _SM-004209 · Story starter · pending editorial review_
+210. An early weekend breakfast out or a slow morning at home?  
+   _SM-004210 · Quick choice · pending editorial review_
+211. Which public place nearby would you enjoy making a regular stop together?  
+   _SM-004211 · Question · pending editorial review_
+212. Neighbourhoods feel different when people start recognising the faces around them.  
+   _SM-004212 · Observation · pending editorial review_
+213. We find a community event happening within walking distance. What would make you want to join?  
+   _SM-004213 · Scenario · pending editorial review_
+214. Tell me about the first time you felt at home in a new neighbourhood.  
+   _SM-004214 · Story starter · pending editorial review_
+215. Feeling settled somewhere often has more to do with daily habits than the address.  
+   _SM-004215 · Hot take · pending editorial review_
+216. What's one thing you would like us to learn about the people who live around us?  
+   _SM-004216 · Question · pending editorial review_
+217. Help with a local clean-up or volunteer for an event we both care about?  
+   _SM-004217 · Quick choice · pending editorial review_
+218. Our neighbours disagree over a shared space. How would you want us to contribute constructively?  
+   _SM-004218 · Scenario · pending editorial review_
+219. Recall a stranger who made one of our outings more memorable through a small kindness.  
+   _SM-004219 · Story starter · pending editorial review_
+220. Two people often notice completely different details during the same walk.  
+   _SM-004220 · Observation · pending editorial review_
+221. What do you notice first when you enter an unfamiliar place?  
+   _SM-004221 · Question · pending editorial review_
+222. Explore a museum slowly or wander through a local market together?  
+   _SM-004222 · Quick choice · pending editorial review_
+223. A good date doesn't need an elaborate plan if both people feel free to be curious.  
+   _SM-004223 · Hot take · pending editorial review_
+224. We have a few hours in a city neither of us knows. What would help us decide where to go?  
+   _SM-004224 · Scenario · pending editorial review_
+225. Tell me about a shared outing which taught you something unexpected about my interests.  
+   _SM-004225 · Story starter · pending editorial review_
+226. Which kind of public event leaves you feeling energised rather than drained?  
+   _SM-004226 · Question · pending editorial review_
+227. Partners needn't enjoy every activity equally to appreciate taking turns choosing.  
+   _SM-004227 · Observation · pending editorial review_
+228. I want to attend an event you're unsure about. How should I invite you without making it an obligation?  
+   _SM-004228 · Scenario · pending editorial review_
+229. A live performance on Friday night or an art exhibition on Sunday afternoon?  
+   _SM-004229 · Quick choice · pending editorial review_
+230. Which experience would you be happy for me to enjoy with friends rather than join me yourself?  
+   _SM-004230 · Question · pending editorial review_
+231. Describe an occasion when you supported an interest of mine even though it wasn't your thing.  
+   _SM-004231 · Story starter · pending editorial review_
+232. Occasional separate outings give a couple fresh things to talk about.  
+   _SM-004232 · Hot take · pending editorial review_
+233. We each receive invitations on the same evening. What would make our decision fair?  
+   _SM-004233 · Scenario · pending editorial review_
+234. Different social batteries needn't cause conflict when people explain them openly.  
+   _SM-004234 · Observation · pending editorial review_
+235. What's your favourite way to reconnect after we've spent a day doing separate things?  
+   _SM-004235 · Question · pending editorial review_
+236. Send photos from our separate days or save all the stories for when we meet?  
+   _SM-004236 · Quick choice · pending editorial review_
+237. Recall a time when I introduced you to someone who became important in your life.  
+   _SM-004237 · Story starter · pending editorial review_
+238. Your closest friend and I approach a problem very differently. How would you want me to handle the difference?  
+   _SM-004238 · Scenario · pending editorial review_
+239. You should never have to choose between a healthy friendship and a healthy partnership.  
+   _SM-004239 · Hot take · pending editorial review_
+240. What's a quality in one of your friends you wish more people appreciated?  
+   _SM-004240 · Question · pending editorial review_
+241. Meeting the people someone loves often reveals a side of their personality you hadn't yet seen.  
+   _SM-004241 · Observation · pending editorial review_
+242. Tell me about the first person in your life who seemed to understand why we worked well together.  
+   _SM-004242 · Story starter · pending editorial review_
+243. Plan a small gathering with our families or spend a day visiting each home separately?  
+   _SM-004243 · Quick choice · pending editorial review_
+244. We want to introduce two relatives who have contrasting personalities. What would help everyone feel at ease?  
+   _SM-004244 · Scenario · pending editorial review_
+245. How do you prefer to prepare for a family visit when you know the conversations might be demanding?  
+   _SM-004245 · Question · pending editorial review_
+246. Politeness is easier to sustain when people agree on reasonable limits in advance.  
+   _SM-004246 · Hot take · pending editorial review_
+247. Describe an old family story you would want our household to keep telling.  
+   _SM-004247 · Story starter · pending editorial review_
+248. Family stories change subtly depending on who tells them and who is listening.  
+   _SM-004248 · Observation · pending editorial review_
+249. A relative asks a personal question neither of us wants to answer. How should we respond?  
+   _SM-004249 · Scenario · pending editorial review_
+250. Share family recipes with each other or collect old photographs and learn their stories?  
+   _SM-004250 · Quick choice · pending editorial review_
+251. Which relative has a mannerism you recognise in yourself?  
+   _SM-004251 · Question · pending editorial review_
+252. Tell me about a moment when you realised you'd adopted a habit from someone who raised you.  
+   _SM-004252 · Story starter · pending editorial review_
+253. Knowing where a habit came from helps people decide whether they want to keep it.  
+   _SM-004253 · Hot take · pending editorial review_
+254. We find our approaches to celebrating birthdays differ because of our childhoods. What would feel balanced?  
+   _SM-004254 · Scenario · pending editorial review_
+255. Two people might express gratitude through entirely different gestures.  
+   _SM-004255 · Observation · pending editorial review_
+256. When someone says thank you, what helps you sense they have understood your effort?  
+   _SM-004256 · Question · pending editorial review_
+257. Receive a thoughtful favour or hear specific words of appreciation?  
+   _SM-004257 · Quick choice · pending editorial review_
+258. Describe a time we showed gratitude to each other in an unusual way.  
+   _SM-004258 · Story starter · pending editorial review_
+259. One of us plans a surprise the other finds overwhelming. How should we talk about surprises in future?  
+   _SM-004259 · Scenario · pending editorial review_
+260. Which kind of affectionate gesture feels appropriate to you in public settings?  
+   _SM-004260 · Question · pending editorial review_
+261. Comfort with public affection varies even between people who care deeply about each other.  
+   _SM-004261 · Observation · pending editorial review_
+262. Asking for affection directly is healthier than testing whether someone notices hints.  
+   _SM-004262 · Hot take · pending editorial review_
+263. Tell me about a goodbye between us which stayed with you longer than you expected.  
+   _SM-004263 · Story starter · pending editorial review_
+264. Hold hands during a walk or sit close while listening to music?  
+   _SM-004264 · Quick choice · pending editorial review_
+265. One of us reaches for a hug while the other feels overstimulated. How would you like us to communicate?  
+   _SM-004265 · Scenario · pending editorial review_
+266. What helps you feel physically comfortable and respected when you're tired?  
+   _SM-004266 · Question · pending editorial review_
+267. Recall a reassuring moment when simply having company made an unfamiliar place easier.  
+   _SM-004267 · Story starter · pending editorial review_
+268. A familiar voice makes practical challenges feel less isolating without solving them.  
+   _SM-004268 · Observation · pending editorial review_
+269. We're waiting together for important news. What kind of conversation would you want in the meantime?  
+   _SM-004269 · Scenario · pending editorial review_
+270. Patience is easier to offer when both people are honest about what they need.  
+   _SM-004270 · Hot take · pending editorial review_
+271. How would you want me to respond if your plans changed because of circumstances beyond your control?  
+   _SM-004271 · Question · pending editorial review_
+272. Talk about uncertain possibilities now or wait until we have reliable information?  
+   _SM-004272 · Quick choice · pending editorial review_
+273. Tell me about a change of plan which later turned into something worthwhile.  
+   _SM-004273 · Story starter · pending editorial review_
+274. A financial setback forces us to postpone a shared goal. Which parts of the goal would you want to preserve?  
+   _SM-004274 · Scenario · pending editorial review_
+275. Postponing a plan tests how strongly people agree on the reason behind it.  
+   _SM-004275 · Observation · pending editorial review_
+276. What's one long-term priority you would defend even if the timeline changed?  
+   _SM-004276 · Question · pending editorial review_
+277. Flexibility is a skill couples learn by practising with small decisions.  
+   _SM-004277 · Hot take · pending editorial review_
+278. Describe a time we adapted quickly and discovered we worked better together than expected.  
+   _SM-004278 · Story starter · pending editorial review_
+279. Create a fresh plan every quarter or make a long-term map with room for changes?  
+   _SM-004279 · Quick choice · pending editorial review_
+280. What would make a conversation about our next five years feel hopeful rather than pressured?  
+   _SM-004280 · Question · pending editorial review_
+281. Our ideas about the pace of life begin to diverge. How should we find a workable rhythm?  
+   _SM-004281 · Scenario · pending editorial review_
+282. Dreams become easier to share when neither person treats them as immediate commitments.  
+   _SM-004282 · Observation · pending editorial review_
+283. Tell me about a hope you once kept to yourself because it felt too ambitious.  
+   _SM-004283 · Story starter · pending editorial review_
+284. Sharing a dream doesn't oblige the listener to turn it into a project.  
+   _SM-004284 · Hot take · pending editorial review_
+285. Which part of your future are you most interested in learning about rather than controlling?  
+   _SM-004285 · Question · pending editorial review_
+286. Visit a place from your childhood or show me somewhere you hope to live one day?  
+   _SM-004286 · Quick choice · pending editorial review_
+287. We make a list of places important to our individual histories. Where would you want to begin?  
+   _SM-004287 · Scenario · pending editorial review_
+288. Describe somewhere we went together which unexpectedly felt meaningful to you.  
+   _SM-004288 · Story starter · pending editorial review_
+289. Returning to the same place over several years gives people a record of how their lives changed.  
+   _SM-004289 · Observation · pending editorial review_
+290. What's an annual tradition you would enjoy creating without copying anyone else's?  
+   _SM-004290 · Question · pending editorial review_
+291. Couples benefit from traditions which evolve as their circumstances change.  
+   _SM-004291 · Hot take · pending editorial review_
+292. A tradition we love becomes difficult to maintain. How would you decide what matters most about it?  
+   _SM-004292 · Scenario · pending editorial review_
+293. Repeat a favourite anniversary activity or try an unfamiliar one each year?  
+   _SM-004293 · Quick choice · pending editorial review_
+294. Tell me about a tradition you outgrew and how you felt when you stopped it.  
+   _SM-004294 · Story starter · pending editorial review_
+295. What do you hope our closest friends notice about how we treat one another?  
+   _SM-004295 · Question · pending editorial review_
+296. People often remember how a couple handled a difficult moment more clearly than their photographs.  
+   _SM-004296 · Observation · pending editorial review_
+297. Someone asks what makes our partnership work. Which everyday example would you offer?  
+   _SM-004297 · Scenario · pending editorial review_
+298. The most useful relationship advice describes habits rather than presenting a perfect couple.  
+   _SM-004298 · Hot take · pending editorial review_
+299. Share advice we've learnt with younger relatives or keep our lessons mostly between us?  
+   _SM-004299 · Quick choice · pending editorial review_
+300. Recall a question somebody asked about us which made you reflect on our relationship.  
+   _SM-004300 · Story starter · pending editorial review_
