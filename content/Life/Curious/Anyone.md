@@ -809,3 +809,205 @@ Target: 500. Entries remain editorial drafts until human approval.
    _SM-002899 · Story starter · pending editorial review_
 400. What makes you feel that you've learned something about a person rather than simply gathered facts about them?  
    _SM-002900 · Question · pending editorial review_
+
+
+401. What's a small everyday situation where people seem to have completely different ideas of what's fair?  
+   _SM-002901 · Question · pending editorial review_
+402. A community has one free space available for several clubs. How would you decide who uses it first?  
+   _SM-002902 · Scenario · pending editorial review_
+403. Tell me about a moment you saw somebody resolve a disagreement in a way everyone could accept.  
+   _SM-002903 · Story starter · pending editorial review_
+404. Fairness sometimes involves understanding different needs rather than treating everyone identically.  
+   _SM-002904 · Hot take · pending editorial review_
+405. A strict rule that everyone understands or a flexible approach that takes the circumstances into account?  
+   _SM-002905 · Quick choice · pending editorial review_
+406. People often discover their assumptions about fairness when sharing something limited.  
+   _SM-002906 · Observation · pending editorial review_
+407. Has a considerate gesture ever changed how you judged a situation involving strangers?  
+   _SM-002907 · Question · pending editorial review_
+408. Two people contributed different kinds of effort to the same project. What would you want to understand before dividing the credit?  
+   _SM-002908 · Scenario · pending editorial review_
+409. Describe a time you changed your opinion about an everyday rule after seeing how it affected somebody else.  
+   _SM-002909 · Story starter · pending editorial review_
+410. What questions help people disagree about fairness without immediately taking sides?  
+   _SM-002910 · Question · pending editorial review_
+411. What's a small question you've had that could turn into a surprisingly enjoyable weekend project?  
+   _SM-002911 · Question · pending editorial review_
+412. You have access to a public archive for an afternoon. What local mystery would you try to investigate?  
+   _SM-002912 · Scenario · pending editorial review_
+413. Tell me about following a random question until it led you to an entirely new interest.  
+   _SM-002913 · Story starter · pending editorial review_
+414. Not every project needs a practical purpose to teach you something worthwhile.  
+   _SM-002914 · Hot take · pending editorial review_
+415. Building a physical model to understand something or keeping a notebook of observations over several weeks?  
+   _SM-002915 · Quick choice · pending editorial review_
+416. An interesting project sometimes begins with somebody wondering whether a familiar thing could work differently.  
+   _SM-002916 · Observation · pending editorial review_
+417. Is there something you'd enjoy documenting simply to notice how it changes over time?  
+   _SM-002917 · Question · pending editorial review_
+418. A friend finds an old photograph of an unknown location in your city. How might you track it down?  
+   _SM-002918 · Scenario · pending editorial review_
+419. Describe an experiment you tried at home that gave an unexpected result.  
+   _SM-002919 · Story starter · pending editorial review_
+420. What would make you abandon a personal project, and what might persuade you to return to it?  
+   _SM-002920 · Question · pending editorial review_
+421. What's a mistake you made that ended up teaching you something you now use regularly?  
+   _SM-002921 · Question · pending editorial review_
+422. Tell me about something that went wrong and revealed a better way of doing it.  
+   _SM-002922 · Story starter · pending editorial review_
+423. You're helping someone who's frightened of making mistakes while learning. What kind of example would reassure them?  
+   _SM-002923 · Scenario · pending editorial review_
+424. A thoughtful response to an error often matters more than the error itself.  
+   _SM-002924 · Hot take · pending editorial review_
+425. Discovering a mistake immediately and fixing it or noticing much later why your original approach didn't work?  
+   _SM-002925 · Quick choice · pending editorial review_
+426. People can sometimes remember their earliest mistakes in a skill more clearly than their later successes.  
+   _SM-002926 · Observation · pending editorial review_
+427. Is there an area of life where you're now more willing to experiment than you once were?  
+   _SM-002927 · Question · pending editorial review_
+428. A recipe doesn't work as expected but tastes surprisingly good. Would you try to recreate the accident?  
+   _SM-002928 · Scenario · pending editorial review_
+429. Describe a time someone else's calm reaction helped you recover from an embarrassing moment.  
+   _SM-002929 · Story starter · pending editorial review_
+430. How can a person learn from a mistake without defining themselves by it?  
+   _SM-002930 · Question · pending editorial review_
+431. What's a public place that works particularly well for the people who use it?  
+   _SM-002931 · Question · pending editorial review_
+432. You can redesign one awkward waiting area in your city. What would you improve first?  
+   _SM-002932 · Scenario · pending editorial review_
+433. Tell me about visiting a building where the layout made you feel unexpectedly comfortable or confused.  
+   _SM-002933 · Story starter · pending editorial review_
+434. Good public design often shows consideration for problems most visitors never consciously notice.  
+   _SM-002934 · Hot take · pending editorial review_
+435. A beautiful square with lots of open space or a smaller one with shaded seats and easy paths?  
+   _SM-002935 · Quick choice · pending editorial review_
+436. People can reveal what a public space is missing simply by how they choose to use it.  
+   _SM-002936 · Observation · pending editorial review_
+437. Have you noticed how signs, benches or lighting change the way people move through a place?  
+   _SM-002937 · Question · pending editorial review_
+438. A town wants one small improvement to help older people feel more independent outdoors. What would you investigate?  
+   _SM-002938 · Scenario · pending editorial review_
+439. Describe a place that seemed to bring very different groups of people together naturally.  
+   _SM-002939 · Story starter · pending editorial review_
+440. If you could ask the designer of one familiar place a question, what would you want to know?  
+   _SM-002940 · Question · pending editorial review_
+441. What's a change you initially resisted but later came to appreciate?  
+   _SM-002941 · Question · pending editorial review_
+442. Tell me about adjusting to a new environment and discovering a strength you didn't realise you had.  
+   _SM-002942 · Story starter · pending editorial review_
+443. Your favourite local place changes its hours, menu and layout all at once. What would matter most in deciding whether you still visit?  
+   _SM-002943 · Scenario · pending editorial review_
+444. It's possible to miss the old version of something and still welcome the new one.  
+   _SM-002944 · Hot take · pending editorial review_
+445. A gradual change you can adjust to over time or one clear change with a fresh start?  
+   _SM-002945 · Quick choice · pending editorial review_
+446. People often notice change through the disappearance of familiar details rather than official announcements.  
+   _SM-002946 · Observation · pending editorial review_
+447. How do you know when it's worth protecting a tradition and when it's time to adapt it?  
+   _SM-002947 · Question · pending editorial review_
+448. Someone younger asks why a familiar practice is no longer used. How would you explain what was gained and lost?  
+   _SM-002948 · Scenario · pending editorial review_
+449. Describe a period when a series of small changes added up to something unexpectedly significant.  
+   _SM-002949 · Story starter · pending editorial review_
+450. What helps you stay curious when circumstances don't go the way you imagined?  
+   _SM-002950 · Question · pending editorial review_
+451. What's something you take especially good care of even though it isn't particularly expensive?  
+   _SM-002951 · Question · pending editorial review_
+452. You can restore one item you own to exactly the condition it had when new. Which would you choose?  
+   _SM-002952 · Scenario · pending editorial review_
+453. Tell me about a repair that made you feel differently about an object.  
+   _SM-002953 · Story starter · pending editorial review_
+454. Maintenance can be a form of appreciation rather than just a necessary chore.  
+   _SM-002954 · Hot take · pending editorial review_
+455. Knowing how to repair a bicycle or knowing how to preserve old paper photographs properly?  
+   _SM-002955 · Quick choice · pending editorial review_
+456. Objects that last a long time often carry traces of the people who used them.  
+   _SM-002956 · Observation · pending editorial review_
+457. Have you ever kept using something old because it did one job better than newer alternatives?  
+   _SM-002957 · Question · pending editorial review_
+458. A friend inherits a piece of furniture with visible wear. Would you encourage restoration or keeping its marks?  
+   _SM-002958 · Scenario · pending editorial review_
+459. Describe a useful object someone handed down to you and the story that came with it.  
+   _SM-002959 · Story starter · pending editorial review_
+460. How do you decide whether it's worth repairing something or passing it on?  
+   _SM-002960 · Question · pending editorial review_
+461. Do you learn more easily from clear explanations, watching demonstrations or trying things yourself?  
+   _SM-002961 · Question · pending editorial review_
+462. Tell me about somebody who found an unusual way to explain something complicated to you.  
+   _SM-002962 · Story starter · pending editorial review_
+463. You can design a free short lesson for a neighbourhood gathering. What could you teach without equipment?  
+   _SM-002963 · Scenario · pending editorial review_
+464. Explaining a subject to somebody curious can reveal gaps in your own understanding.  
+   _SM-002964 · Hot take · pending editorial review_
+465. Learning through stories about real people or learning by seeing the underlying system laid out clearly?  
+   _SM-002965 · Quick choice · pending editorial review_
+466. Two good teachers may explain the same idea in completely different ways.  
+   _SM-002966 · Observation · pending editorial review_
+467. Have you ever gained a deeper understanding of something simply by trying to help another person learn it?  
+   _SM-002967 · Question · pending editorial review_
+468. A child asks why the moon sometimes appears during the day. How would you approach finding a satisfying answer?  
+   _SM-002968 · Scenario · pending editorial review_
+469. Describe a time a visual example suddenly made a confusing idea click.  
+   _SM-002969 · Story starter · pending editorial review_
+470. What makes it easy for you to admit that you don't understand an explanation yet?  
+   _SM-002970 · Question · pending editorial review_
+471. What's a social activity you enjoy much more at a certain time of day?  
+   _SM-002971 · Question · pending editorial review_
+472. A community café wants to welcome both early risers and night owls. How could its programme accommodate both?  
+   _SM-002972 · Scenario · pending editorial review_
+473. Tell me about a gathering that felt different simply because it happened at an unusual hour.  
+   _SM-002973 · Story starter · pending editorial review_
+474. People can enjoy the same activity for completely different reasons depending on when they do it.  
+   _SM-002974 · Hot take · pending editorial review_
+475. A quiet breakfast with an interesting conversation or a long late-afternoon walk with no destination?  
+   _SM-002975 · Quick choice · pending editorial review_
+476. Some cities seem to have several personalities depending on the time you visit.  
+   _SM-002976 · Observation · pending editorial review_
+477. How do you decide how much time to spend socialising and how much to keep for yourself?  
+   _SM-002977 · Question · pending editorial review_
+478. You have one free hour between commitments in an unfamiliar part of town. How would you choose to spend it?  
+   _SM-002978 · Scenario · pending editorial review_
+479. Describe noticing a familiar place come alive at a time you'd never visited it before.  
+   _SM-002979 · Story starter · pending editorial review_
+480. What makes an ordinary social gathering feel welcoming instead of exhausting?  
+   _SM-002980 · Question · pending editorial review_
+481. Is there an ingredient you use often but would love to see growing or being produced?  
+   _SM-002981 · Question · pending editorial review_
+482. You can spend a morning with a farmer, a baker or a market trader. Who would you choose and why?  
+   _SM-002982 · Scenario · pending editorial review_
+483. Tell me about learning the origin of a favourite food and being surprised by its journey.  
+   _SM-002983 · Story starter · pending editorial review_
+484. Knowing something about how food reaches our tables can make an everyday meal more interesting.  
+   _SM-002984 · Hot take · pending editorial review_
+485. Visiting a farm to see how crops are harvested or touring a traditional bakery before dawn?  
+   _SM-002985 · Quick choice · pending editorial review_
+486. Ingredients that seem ordinary in one place can feel rare and special somewhere else.  
+   _SM-002986 · Observation · pending editorial review_
+487. Have you ever changed how you cook something after learning why a particular method is used?  
+   _SM-002987 · Question · pending editorial review_
+488. Someone asks how your favourite fruit reaches shops when it's out of season locally. What would you investigate?  
+   _SM-002988 · Scenario · pending editorial review_
+489. Describe a market visit where a conversation taught you something unexpected about a product.  
+   _SM-002989 · Story starter · pending editorial review_
+490. What food do you think has a particularly interesting history of travelling between cultures?  
+   _SM-002990 · Question · pending editorial review_
+491. What part of everyday life would you be most interested to see improved over the next twenty years?  
+   _SM-002991 · Question · pending editorial review_
+492. You can preserve one aspect of community life exactly as it is now for future generations. What would it be?  
+   _SM-002992 · Scenario · pending editorial review_
+493. Tell me about a prediction you once believed that turned out completely differently.  
+   _SM-002993 · Story starter · pending editorial review_
+494. Imagining a better future becomes more interesting when people also think about the small practical steps.  
+   _SM-002994 · Hot take · pending editorial review_
+495. Seeing how cities adapt to new technology or how communities protect local traditions over the next century?  
+   _SM-002995 · Quick choice · pending editorial review_
+496. Most visions of the future focus on extraordinary inventions, but ordinary routines will also change.  
+   _SM-002996 · Observation · pending editorial review_
+497. What current problem do you hope children growing up today will find difficult to imagine?  
+   _SM-002997 · Question · pending editorial review_
+498. Someone in 2075 discovers your description of an ordinary shopping trip today. What detail might amuse them most?  
+   _SM-002998 · Scenario · pending editorial review_
+499. Describe a change you've already witnessed that once sounded like something from science fiction.  
+   _SM-002999 · Story starter · pending editorial review_
+500. What question would you most want future generations to ask about how we lived?  
+   _SM-003000 · Question · pending editorial review_
