@@ -6,7 +6,7 @@ import vm from 'node:vm';
 const manifest=JSON.parse(readFileSync('public/library-data/manifest.json','utf8'));
 const approved=JSON.parse(readFileSync('public/library-data/approved.json','utf8'));
 const html=readFileSync('public/index.html','utf8');
-const normalized=text=>text.toLowerCase().normalize('NFKC').replace(/[^\\p{L}\\p{N}]+/gu,' ').trim();
+const normalized=text=>text.toLowerCase().normalize('NFKC').replace(/[^\p{L}\p{N}]+/gu,' ').trim();
 
 test('500-starter quota covers every socially suitable combination',()=>{
  assert.equal(manifest.version,2);
