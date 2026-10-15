@@ -393,3 +393,25 @@ Initial target: 200. Entries remain editorial drafts until human approval.
    _SM-006189 · Scenario · pending editorial review_
 190. What is one childhood experience you hope future family members will have in their own way?  
    _SM-006190 · Question · pending editorial review_
+
+
+191. What season of the year felt most different when you were growing up?  
+   _SM-006191 · Question · pending editorial review_
+192. Tell me about a childhood afternoon when the weather changed everyone's plans.  
+   _SM-006192 · Story starter · pending editorial review_
+193. We recreate a favourite rainy-day activity for a family gathering. What should we prepare?  
+   _SM-006193 · Scenario · pending editorial review_
+194. An early morning walk during the holidays or a cool evening playing outside?  
+   _SM-006194 · Quick choice · pending editorial review_
+195. Children often remember the weather around an important day as part of the story.  
+   _SM-006195 · Observation · pending editorial review_
+196. A family tradition doesn't need a special date if everyone enjoys doing it together.  
+   _SM-006196 · Hot take · pending editorial review_
+197. What sounds outside the house told you it was time to go indoors?  
+   _SM-006197 · Question · pending editorial review_
+198. Describe a childhood activity you only did during a particular season.  
+   _SM-006198 · Story starter · pending editorial review_
+199. A younger relative asks what holidays felt like before everyone had personal devices. Which outdoor memory would you share?  
+   _SM-006199 · Scenario · pending editorial review_
+200. Which seasonal family routine would you most enjoy bringing back?  
+   _SM-006200 · Question · pending editorial review_
