@@ -203,3 +203,205 @@ Initial target: 200. Entries remain editorial drafts until human approval.
    _SM-009399 · Scenario · pending editorial review_
 100. End the day by writing down one highlight or simply enjoy the moment without documenting it?  
    _SM-009400 · Quick choice · pending editorial review_
+
+
+101. What's a photograph you value because of what happened just outside the frame?  
+   _SM-009401 · Question · pending editorial review_
+102. Describe discovering an old picture that reminded you of a detail you'd forgotten.  
+   _SM-009402 · Story starter · pending editorial review_
+103. Keep a small printed album or organise your favourite pictures into digital collections?  
+   _SM-009403 · Quick choice · pending editorial review_
+104. You can preserve five ordinary moments from this year in a time capsule. What would you photograph?  
+   _SM-009404 · Scenario · pending editorial review_
+105. People often treasure unplanned pictures more than perfectly posed ones.  
+   _SM-009405 · Observation · pending editorial review_
+106. Not every meaningful experience needs to be photographed.  
+   _SM-009406 · Hot take · pending editorial review_
+107. Which kind of moment makes you reach for your camera almost automatically?  
+   _SM-009407 · Question · pending editorial review_
+108. Recall seeing a familiar place in an old photo and noticing what has changed.  
+   _SM-009408 · Story starter · pending editorial review_
+109. You're asked to make a photo essay about an ordinary week without showing any faces. What would you include?  
+   _SM-009409 · Scenario · pending editorial review_
+110. Capture a daily detail for one month or revisit the same location once each season?  
+   _SM-009410 · Quick choice · pending editorial review_
+111. What's the easiest way for you to remember a task that isn't urgent?  
+   _SM-009411 · Question · pending editorial review_
+112. Tell me about creating a simple reminder system after forgetting something small.  
+   _SM-009412 · Story starter · pending editorial review_
+113. Write a short daily list or keep one calendar for everything that has a date?  
+   _SM-009413 · Quick choice · pending editorial review_
+114. You've got three free hours and several unrelated errands. What would help you choose the order?  
+   _SM-009414 · Scenario · pending editorial review_
+115. Some tasks become overwhelming because people carry them around mentally rather than writing them down.  
+   _SM-009415 · Observation · pending editorial review_
+116. A system that takes more effort than the chores it tracks isn't a useful system.  
+   _SM-009416 · Hot take · pending editorial review_
+117. Which small organisational trick has saved you more trouble than you expected?  
+   _SM-009417 · Question · pending editorial review_
+118. Recall a day when planning ahead left you with an unexpected pocket of free time.  
+   _SM-009418 · Story starter · pending editorial review_
+119. You have an important appointment and a few optional tasks nearby. How would you avoid rushing?  
+   _SM-009419 · Scenario · pending editorial review_
+120. Group similar tasks together or handle each one as soon as it appears?  
+   _SM-009420 · Quick choice · pending editorial review_
+121. What's something you enjoy about travelling through your city without being the person driving?  
+   _SM-009421 · Question · pending editorial review_
+122. Describe overhearing a harmless conversation during a journey that stayed with you.  
+   _SM-009422 · Story starter · pending editorial review_
+123. Sit by a bus window and observe the streets or spend the ride reading?  
+   _SM-009423 · Quick choice · pending editorial review_
+124. A usual route is closed for a day. How would you decide whether to explore an alternative?  
+   _SM-009424 · Scenario · pending editorial review_
+125. Commuting can make people surprisingly familiar with places they've never actually stopped to visit.  
+   _SM-009425 · Observation · pending editorial review_
+126. The best route isn't always the one that saves the most minutes.  
+   _SM-009426 · Hot take · pending editorial review_
+127. Which view along a familiar journey do you still look for?  
+   _SM-009427 · Question · pending editorial review_
+128. Recall noticing a change to a street you hadn't walked along for months.  
+   _SM-009428 · Story starter · pending editorial review_
+129. You have the choice between a direct but dull journey and a slightly longer scenic one. What would guide you?  
+   _SM-009429 · Scenario · pending editorial review_
+130. Listen to a podcast during transit or spend the time thinking without headphones?  
+   _SM-009430 · Quick choice · pending editorial review_
+131. What's a comfortable piece of clothing you return to more often than you planned?  
+   _SM-009431 · Question · pending editorial review_
+132. Tell me about finding an item you liked after years of thinking that style wasn't for you.  
+   _SM-009432 · Story starter · pending editorial review_
+133. Keep a small wardrobe of versatile favourites or enjoy changing your style regularly?  
+   _SM-009433 · Quick choice · pending editorial review_
+134. You're packing for a three-day visit with unpredictable weather. Which practical items come first?  
+   _SM-009434 · Scenario · pending editorial review_
+135. People often express personal style through small repeated choices rather than dramatic outfits.  
+   _SM-009435 · Observation · pending editorial review_
+136. Comfort and good presentation don't have to be competing goals.  
+   _SM-009436 · Hot take · pending editorial review_
+137. Which colour do you enjoy wearing even when it isn't fashionable?  
+   _SM-009437 · Question · pending editorial review_
+138. Recall someone complimenting a garment because they remembered the story behind it.  
+   _SM-009438 · Story starter · pending editorial review_
+139. You can repair or alter one old piece of clothing you still love. What would you change?  
+   _SM-009439 · Scenario · pending editorial review_
+140. Find a dependable tailor or learn a few basic clothing repairs yourself?  
+   _SM-009440 · Quick choice · pending editorial review_
+141. What's a useful thing you learnt from spending time with a neighbour?  
+   _SM-009441 · Question · pending editorial review_
+142. Describe a small local event that made an area feel more welcoming.  
+   _SM-009442 · Story starter · pending editorial review_
+143. Join a neighbourhood clean-up or help organise a relaxed community gathering?  
+   _SM-009443 · Quick choice · pending editorial review_
+144. A new resident asks how people usually meet one another nearby. What would you recommend?  
+   _SM-009444 · Scenario · pending editorial review_
+145. A sense of belonging often develops through repeated ordinary encounters.  
+   _SM-009445 · Observation · pending editorial review_
+146. Community involvement doesn't require becoming close friends with everyone.  
+   _SM-009446 · Hot take · pending editorial review_
+147. Which shared resource would make everyday life easier in your area?  
+   _SM-009447 · Question · pending editorial review_
+148. Recall somebody in your neighbourhood offering unexpected help with a practical problem.  
+   _SM-009448 · Story starter · pending editorial review_
+149. Your building creates a noticeboard where residents can exchange useful information. What categories should it have?  
+   _SM-009449 · Scenario · pending editorial review_
+150. Share extra books through a small library or organise a tool-lending shelf?  
+   _SM-009450 · Quick choice · pending editorial review_
+151. How do you decide when to put your phone away for a while?  
+   _SM-009451 · Question · pending editorial review_
+152. Tell me about an afternoon that felt longer because you spent less time checking notifications.  
+   _SM-009452 · Story starter · pending editorial review_
+153. Keep only essential notifications or set aside a specific period for checking messages?  
+   _SM-009453 · Quick choice · pending editorial review_
+154. You plan a relaxed day in a place with poor mobile reception. What would you enjoy doing differently?  
+   _SM-009454 · Scenario · pending editorial review_
+155. Digital conveniences sometimes create habits people never deliberately chose.  
+   _SM-009455 · Observation · pending editorial review_
+156. Being reachable doesn't mean needing to reply immediately to every harmless update.  
+   _SM-009456 · Hot take · pending editorial review_
+157. What everyday activity would you enjoy more if your phone weren't within reach?  
+   _SM-009457 · Question · pending editorial review_
+158. Recall a time a technology problem led you to rediscover an older way of doing something.  
+   _SM-009458 · Story starter · pending editorial review_
+159. You're helping somebody new to smartphones set up a calmer home screen. What would you prioritise?  
+   _SM-009459 · Scenario · pending editorial review_
+160. Read on a dedicated e-reader or open a physical book when you want a break from apps?  
+   _SM-009460 · Quick choice · pending editorial review_
+161. Which plant or tree do you enjoy seeing change through the year?  
+   _SM-009461 · Question · pending editorial review_
+162. Describe successfully growing something you didn't initially know how to care for.  
+   _SM-009462 · Story starter · pending editorial review_
+163. Keep a few hardy houseplants or grow simple herbs in containers?  
+   _SM-009463 · Quick choice · pending editorial review_
+164. You inherit a small balcony with enough sunlight for only a few pots. What would you plant?  
+   _SM-009464 · Scenario · pending editorial review_
+165. Looking after a living thing can make small changes over time easier to notice.  
+   _SM-009465 · Observation · pending editorial review_
+166. A modest garden deserves appreciation even if it never produces much food.  
+   _SM-009466 · Hot take · pending editorial review_
+167. What have you learnt from trying to care for a plant that struggled?  
+   _SM-009467 · Question · pending editorial review_
+168. Recall visiting a garden that made you want to try growing something at home.  
+   _SM-009468 · Story starter · pending editorial review_
+169. A friend gives you a plant without care instructions. How would you find out what it needs?  
+   _SM-009469 · Scenario · pending editorial review_
+170. Watch seedlings grow from the beginning or look after an established plant with a story?  
+   _SM-009470 · Quick choice · pending editorial review_
+171. What's a kind of book you enjoy returning to even after you know how it ends?  
+   _SM-009471 · Question · pending editorial review_
+172. Tell me about reading something that made an ordinary situation feel newly interesting.  
+   _SM-009472 · Story starter · pending editorial review_
+173. Read a few pages every evening or settle into longer sessions when you have free time?  
+   _SM-009473 · Quick choice · pending editorial review_
+174. You visit a bookshop with a small budget and no particular title in mind. How do you choose?  
+   _SM-009474 · Scenario · pending editorial review_
+175. Reading habits can shift with people's routines without changing their love of stories.  
+   _SM-009475 · Observation · pending editorial review_
+176. A short book that stays with you is worth more than a long book you struggle to finish.  
+   _SM-009476 · Hot take · pending editorial review_
+177. Which non-fiction subject would you explore if you could find a beginner-friendly book about it?  
+   _SM-009477 · Question · pending editorial review_
+178. Recall someone recommending reading material at exactly the right moment for you.  
+   _SM-009478 · Story starter · pending editorial review_
+179. A neighbourhood book club asks you to suggest a low-pressure first meeting. What would you plan?  
+   _SM-009479 · Scenario · pending editorial review_
+180. Discuss one book together or exchange brief recommendations and read independently?  
+   _SM-009480 · Quick choice · pending editorial review_
+181. What's a harmless personal tradition that makes an ordinary week feel special?  
+   _SM-009481 · Question · pending editorial review_
+182. Describe a recurring activity that began accidentally but became something you looked forward to.  
+   _SM-009482 · Story starter · pending editorial review_
+183. Reserve one evening for a favourite hobby or keep a flexible afternoon for spontaneous plans?  
+   _SM-009483 · Quick choice · pending editorial review_
+184. You want to begin a weekly ritual that costs almost nothing. What might you try?  
+   _SM-009484 · Scenario · pending editorial review_
+185. People sometimes measure a satisfying week through moments that never appear on a work schedule.  
+   _SM-009485 · Observation · pending editorial review_
+186. A tradition doesn't have to be old to be meaningful.  
+   _SM-009486 · Hot take · pending editorial review_
+187. Which part of the week has its own particular feeling for you?  
+   _SM-009487 · Question · pending editorial review_
+188. Recall a little routine you shared with someone that continued after your schedules changed.  
+   _SM-009488 · Story starter · pending editorial review_
+189. Your usual weekend activity becomes unavailable. What would be a suitable alternative with a similar mood?  
+   _SM-009489 · Scenario · pending editorial review_
+190. Plan a regular quiet breakfast or take the same relaxed walk every weekend?  
+   _SM-009490 · Quick choice · pending editorial review_
+191. What's one small thing about your daily life that you're grateful has become easier?  
+   _SM-009491 · Question · pending editorial review_
+192. Tell me about looking back on an ordinary problem you once found difficult and realising you've adapted.  
+   _SM-009492 · Story starter · pending editorial review_
+193. Record a few highlights at the end of each month or rely on memories and conversations?  
+   _SM-009493 · Quick choice · pending editorial review_
+194. You write a letter about your present routine to open five years from now. What detail would you describe?  
+   _SM-009494 · Scenario · pending editorial review_
+195. Progress can be hard to notice when it arrives through dozens of small adjustments.  
+   _SM-009495 · Observation · pending editorial review_
+196. A life can become richer without becoming busier.  
+   _SM-009496 · Hot take · pending editorial review_
+197. Which ordinary activity helps you recognise that you're doing better than you were a year ago?  
+   _SM-009497 · Question · pending editorial review_
+198. Recall a simple day that taught you something about what you genuinely enjoy.  
+   _SM-009498 · Story starter · pending editorial review_
+199. You have to recommend one realistic change for somebody seeking a calmer week. What would you suggest?  
+   _SM-009499 · Scenario · pending editorial review_
+200. Keep a brief journal of ordinary moments or collect one meaningful object from each season?  
+   _SM-009500 · Quick choice · pending editorial review_
