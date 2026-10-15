@@ -607,3 +607,205 @@ Target: 500. Entries remain editorial drafts until human approval.
    _SM-003299 · Story starter · pending editorial review_
 300. What's one listening skill you'd like a musician to demonstrate for you?  
    _SM-003300 · Question · pending editorial review_
+
+
+301. Have you ever worked out part of a melody just by listening to it repeatedly?  
+   _SM-003301 · Question · pending editorial review_
+302. Tell me about seeing somebody learn a tune without looking at written music.  
+   _SM-003302 · Story starter · pending editorial review_
+303. You have a keyboard and thirty minutes to reproduce a short melody you've heard once. Where would you begin?  
+   _SM-003303 · Scenario · pending editorial review_
+304. Learning by ear and reading notation can teach different kinds of musical attention.  
+   _SM-003304 · Hot take · pending editorial review_
+305. Learning a song from a patient friend or working it out alone one phrase at a time?  
+   _SM-003305 · Quick choice · pending editorial review_
+306. Some musicians seem to remember the shape of a tune before they remember its exact notes.  
+   _SM-003306 · Observation · pending editorial review_
+307. What would you like to ask someone who can play songs they've never practised before?  
+   _SM-003307 · Question · pending editorial review_
+308. A teacher asks you to clap back a rhythm but you've never studied music. What would help you feel comfortable trying?  
+   _SM-003308 · Scenario · pending editorial review_
+309. Describe a moment when repeating a musical phrase made it suddenly easier to understand.  
+   _SM-003309 · Story starter · pending editorial review_
+310. How can listening carefully become a form of musical practice even without an instrument?  
+   _SM-003310 · Question · pending editorial review_
+311. What musical sound or pause makes you instinctively expect that something is about to happen?  
+   _SM-003311 · Question · pending editorial review_
+312. Tell me about hearing a song build tension in a way that caught you off guard.  
+   _SM-003312 · Story starter · pending editorial review_
+313. You're creating music for the moment just before a surprise is revealed. Do you increase the sound or take it away?  
+   _SM-003313 · Scenario · pending editorial review_
+314. A composer can create anticipation by delaying something the listener expects.  
+   _SM-003314 · Hot take · pending editorial review_
+315. A melody that keeps climbing without resolving or a steady beat that suddenly drops out?  
+   _SM-003315 · Quick choice · pending editorial review_
+316. Our ears can begin waiting for a familiar chorus before we've consciously recognised the song.  
+   _SM-003316 · Observation · pending editorial review_
+317. Have you noticed how a tiny change in harmony can make the same melody feel uncertain?  
+   _SM-003317 · Question · pending editorial review_
+318. You play the same four notes twice, but the second time should sound more mysterious. What could change around them?  
+   _SM-003318 · Scenario · pending editorial review_
+319. Describe a performance where the silence before the final note felt important.  
+   _SM-003319 · Story starter · pending editorial review_
+320. How does musical surprise differ from a song simply being loud or unexpected?  
+   _SM-003320 · Question · pending editorial review_
+321. What makes you notice the skill involved in moving between two songs at a party?  
+   _SM-003321 · Question · pending editorial review_
+322. Tell me about a DJ set where the choice of an unexpected track changed the room.  
+   _SM-003322 · Story starter · pending editorial review_
+323. You have ten minutes to select music for a crowd you don't know. What clues would you look for before starting?  
+   _SM-003323 · Scenario · pending editorial review_
+324. Reading an audience can be just as creative as selecting technically difficult transitions.  
+   _SM-003324 · Hot take · pending editorial review_
+325. A DJ who takes listeners through unfamiliar music or one who finds clever ways to connect familiar favourites?  
+   _SM-003325 · Quick choice · pending editorial review_
+326. The right next song sometimes feels obvious only after someone has chosen it.  
+   _SM-003326 · Observation · pending editorial review_
+327. Have you noticed how the order of music shapes your memory of a gathering?  
+   _SM-003327 · Question · pending editorial review_
+328. The crowd suddenly becomes quiet during your set. Would you change the tempo, the familiarity or something else first?  
+   _SM-003328 · Scenario · pending editorial review_
+329. Describe a moment when a song choice made people from different ages respond together.  
+   _SM-003329 · Story starter · pending editorial review_
+330. What would you want a DJ to explain about building a musical journey over a full evening?  
+   _SM-003330 · Question · pending editorial review_
+331. What's a kind of music you worry people might stop documenting before its history is fully understood?  
+   _SM-003331 · Question · pending editorial review_
+332. Tell me about discovering an old recording that revealed a different side of an artist or tradition.  
+   _SM-003332 · Story starter · pending editorial review_
+333. You can preserve one live performance from a community that rarely records its music. What details would you document alongside the sound?  
+   _SM-003333 · Scenario · pending editorial review_
+334. Preserving music involves remembering who made it and why, not simply saving an audio file.  
+   _SM-003334 · Hot take · pending editorial review_
+335. Restoring a damaged recording or recording a skilled elder explaining how a traditional instrument is played?  
+   _SM-003335 · Quick choice · pending editorial review_
+336. Some important musical histories survive because ordinary listeners kept old tapes and photographs.  
+   _SM-003336 · Observation · pending editorial review_
+337. Have you ever wondered who owns the oldest recording of a song your family knows?  
+   _SM-003337 · Question · pending editorial review_
+338. You inherit a box of unlabeled cassettes. What would you do before deciding which might be valuable historically?  
+   _SM-003338 · Scenario · pending editorial review_
+339. Describe learning the backstory of a song from someone who remembered its first performance.  
+   _SM-003339 · Story starter · pending editorial review_
+340. How should communities decide which parts of their musical heritage they want shared widely?  
+   _SM-003340 · Question · pending editorial review_
+341. What's an unusual percussion sound you've heard used musically?  
+   _SM-003341 · Question · pending editorial review_
+342. Tell me about hearing percussion that seemed to communicate with the singers rather than merely keep time.  
+   _SM-003342 · Story starter · pending editorial review_
+343. You can explore a room filled with traditional drums but need a guide. What would you ask them to demonstrate first?  
+   _SM-003343 · Scenario · pending editorial review_
+344. Percussion can carry melody, conversation and emotion as well as rhythm.  
+   _SM-003344 · Hot take · pending editorial review_
+345. Learning the patterns of hand percussion or understanding how tuned drums produce different pitches?  
+   _SM-003345 · Quick choice · pending editorial review_
+346. The same percussion instrument can sound completely different depending on where and how it's struck.  
+   _SM-003346 · Observation · pending editorial review_
+347. Have you noticed the difference between percussion used for dancing and percussion used to create atmosphere?  
+   _SM-003347 · Question · pending editorial review_
+348. A drummer asks the group to answer one rhythm with another. How might people participate without musical training?  
+   _SM-003348 · Scenario · pending editorial review_
+349. Describe an outdoor celebration where the percussion became a shared language for the crowd.  
+   _SM-003349 · Story starter · pending editorial review_
+350. What would make you curious about the cultural purpose of an unfamiliar rhythm?  
+   _SM-003350 · Question · pending editorial review_
+351. What qualities make a piece of music help you settle your thoughts rather than distract you?  
+   _SM-003351 · Question · pending editorial review_
+352. Tell me about a time you found a style of music unexpectedly calming.  
+   _SM-003352 · Story starter · pending editorial review_
+353. You have to prepare background music for a quiet public reading room. What would you avoid, as well as include?  
+   _SM-003353 · Scenario · pending editorial review_
+354. Relaxing music doesn't have to be slow or soft for every listener.  
+   _SM-003354 · Hot take · pending editorial review_
+355. Gentle instrumental music with predictable patterns or natural-sounding music with lots of small variations?  
+   _SM-003355 · Quick choice · pending editorial review_
+356. A repeated musical phrase can become reassuring once a listener knows what comes next.  
+   _SM-003356 · Observation · pending editorial review_
+357. Do you find familiar music more comforting than discovering something completely new?  
+   _SM-003357 · Question · pending editorial review_
+358. A friend says your relaxing playlist makes them restless. What might explain the difference in your reactions?  
+   _SM-003358 · Scenario · pending editorial review_
+359. Describe an occasion when the music in a space noticeably changed how you felt there.  
+   _SM-003359 · Story starter · pending editorial review_
+360. How does the volume of music affect your sense of calm independently of the kind of music playing?  
+   _SM-003360 · Question · pending editorial review_
+361. What interests you about hearing many individual voices form one unified sound?  
+   _SM-003361 · Question · pending editorial review_
+362. Tell me about a choir performance where you could hear separate parts answering one another.  
+   _SM-003362 · Story starter · pending editorial review_
+363. You join a community choir with no experience. What kind of first rehearsal would help you feel confident?  
+   _SM-003363 · Scenario · pending editorial review_
+364. Singing in a group can be a form of listening as much as self-expression.  
+   _SM-003364 · Hot take · pending editorial review_
+365. A small unaccompanied vocal group or a large choir with an orchestra?  
+   _SM-003365 · Quick choice · pending editorial review_
+366. A choir can sound entirely different when one section changes how softly it sings.  
+   _SM-003366 · Observation · pending editorial review_
+367. Have you ever heard a familiar melody transformed by several vocal harmonies?  
+   _SM-003367 · Question · pending editorial review_
+368. A choir has to learn a song in three parts, but several members cannot read notation. How could rehearsals work?  
+   _SM-003368 · Scenario · pending editorial review_
+369. Describe a moment when an audience joining a chorus changed the performance.  
+   _SM-003369 · Story starter · pending editorial review_
+370. How can a group of singers make room for distinctive voices while still sounding together?  
+   _SM-003370 · Question · pending editorial review_
+371. What does a close-microphone vocal recording allow you to hear that you might miss from the back of a concert hall?  
+   _SM-003371 · Question · pending editorial review_
+372. Tell me about noticing a vocalist's breath or subtle phrasing in a recording for the first time.  
+   _SM-003372 · Story starter · pending editorial review_
+373. You can compare the same singer recorded in a bedroom, a large hall and a studio. What differences would you listen for?  
+   _SM-003373 · Scenario · pending editorial review_
+374. Capturing an expressive vocal performance isn't necessarily the same as making every note perfectly polished.  
+   _SM-003374 · Hot take · pending editorial review_
+375. A raw first-take vocal full of character or a carefully layered harmony arrangement?  
+   _SM-003375 · Quick choice · pending editorial review_
+376. Small movements towards or away from a microphone can affect how intimate a performance feels.  
+   _SM-003376 · Observation · pending editorial review_
+377. Have you ever preferred a demo vocal because its imperfections made the story more convincing?  
+   _SM-003377 · Question · pending editorial review_
+378. A recording engineer asks whether to keep a spontaneous laugh at the end of a take. What would influence your choice?  
+   _SM-003378 · Scenario · pending editorial review_
+379. Describe a recording where the singer's quiet delivery made the lyrics sound unusually personal.  
+   _SM-003379 · Story starter · pending editorial review_
+380. How much do you think good vocal recording depends on the environment feeling comfortable for the singer?  
+   _SM-003380 · Question · pending editorial review_
+381. What makes a musical joke work even for somebody who doesn't know much about music?  
+   _SM-003381 · Question · pending editorial review_
+382. Tell me about a performer making an entire audience laugh with a tiny musical surprise.  
+   _SM-003382 · Story starter · pending editorial review_
+383. You're writing a playful musical introduction for a very serious character. What could the instruments do?  
+   _SM-003383 · Scenario · pending editorial review_
+384. Musical humour is often strongest when the performers act as though nothing unusual is happening.  
+   _SM-003384 · Hot take · pending editorial review_
+385. A song with witty storytelling or an instrumental piece full of funny timing?  
+   _SM-003385 · Quick choice · pending editorial review_
+386. A sudden pause before an expected note can make listeners laugh without anyone saying a word.  
+   _SM-003386 · Observation · pending editorial review_
+387. Have you heard a musician use a familiar tune in an unexpected way to make a joke?  
+   _SM-003387 · Question · pending editorial review_
+388. A friend wants to make a comic song out of a completely ordinary grocery list. Where would you start?  
+   _SM-003388 · Scenario · pending editorial review_
+389. Describe a funny music performance that stayed entertaining even after you knew the joke.  
+   _SM-003389 · Story starter · pending editorial review_
+390. How does an audience's familiarity with a musical style change what it finds funny?  
+   _SM-003390 · Question · pending editorial review_
+391. What natural sound do you think could inspire an interesting melody or rhythm?  
+   _SM-003391 · Question · pending editorial review_
+392. Tell me about being outdoors and noticing a pattern of sounds that almost felt musical.  
+   _SM-003392 · Story starter · pending editorial review_
+393. A composer wants to create a short piece inspired by a thunderstorm without using a literal recording of rain. What might they do?  
+   _SM-003393 · Scenario · pending editorial review_
+394. Nature-inspired music can capture the experience of a place without imitating its sounds directly.  
+   _SM-003394 · Hot take · pending editorial review_
+395. Music that evokes the movement of water or music inspired by the changing light at sunrise?  
+   _SM-003395 · Quick choice · pending editorial review_
+396. The repeated calls of birds and insects can resemble musical conversations when you listen carefully.  
+   _SM-003396 · Observation · pending editorial review_
+397. Have you heard a piece of music that made you imagine a landscape you've never visited?  
+   _SM-003397 · Question · pending editorial review_
+398. You're making a sound diary during a walk by the sea. What changes would you listen for as the day progresses?  
+   _SM-003398 · Scenario · pending editorial review_
+399. Describe hearing a natural sound that reminded you of a musical instrument.  
+   _SM-003399 · Story starter · pending editorial review_
+400. How might the place a musician grows up influence the sounds they are drawn to?  
+   _SM-003400 · Question · pending editorial review_
