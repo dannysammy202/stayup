@@ -203,3 +203,205 @@ Initial target: 200. Entries remain editorial drafts until human approval.
    _SM-007999 · Scenario · pending editorial review_
 100. Attend a short practical training session or take a longer self-paced course?  
    _SM-008000 · Quick choice · pending editorial review_
+
+
+101. What small classroom adjustment can make learning easier for a wider range of students?  
+   _SM-008001 · Question · pending editorial review_
+102. Describe a time a teacher found another way to include somebody in an activity.  
+   _SM-008002 · Story starter · pending editorial review_
+103. Provide lesson notes in several formats or allow more choices in how students demonstrate learning?  
+   _SM-008003 · Quick choice · pending editorial review_
+104. A school wants to redesign its study area for students with different sensory needs. What should it ask first?  
+   _SM-008004 · Scenario · pending editorial review_
+105. An adjustment that helps one learner often makes a lesson clearer for many others.  
+   _SM-008005 · Observation · pending editorial review_
+106. Accessible teaching should be considered during planning rather than added only after someone struggles.  
+   _SM-008006 · Hot take · pending editorial review_
+107. Which feature of a classroom would you improve to reduce unnecessary distractions?  
+   _SM-008007 · Question · pending editorial review_
+108. Recall learning effectively because somebody gave you additional time or a different explanation.  
+   _SM-008008 · Story starter · pending editorial review_
+109. A school receives funding for one accessibility improvement. How could students help assess priorities?  
+   _SM-008009 · Scenario · pending editorial review_
+110. Offer quiet spaces for focused work or varied ways for students to participate in discussions?  
+   _SM-008010 · Quick choice · pending editorial review_
+111. What did school uniforms change about the way students expressed themselves?  
+   _SM-008011 · Question · pending editorial review_
+112. Tell me about a dress-code rule that students interpreted in an unexpected way.  
+   _SM-008012 · Story starter · pending editorial review_
+113. Let students choose from several practical uniform options or use a simple colour-based dress code?  
+   _SM-008013 · Quick choice · pending editorial review_
+114. A school is reviewing its dress code with parents and students. Whose experiences should it hear?  
+   _SM-008014 · Scenario · pending editorial review_
+115. Rules about clothing can affect comfort, affordability and belonging in different ways.  
+   _SM-008015 · Observation · pending editorial review_
+116. A school dress policy should be judged by its practical effects, not just how tidy it looks.  
+   _SM-008016 · Hot take · pending editorial review_
+117. Which detail of your old school uniform do you remember most clearly?  
+   _SM-008017 · Question · pending editorial review_
+118. Recall a school event when everybody was allowed to wear something other than their usual uniform.  
+   _SM-008018 · Story starter · pending editorial review_
+119. Students want a dress policy that suits hot weather. What questions should the school consider?  
+   _SM-008019 · Scenario · pending editorial review_
+120. Choose comfortable sportswear for activity days or keep a flexible everyday uniform?  
+   _SM-008020 · Quick choice · pending editorial review_
+121. What is the most interesting way a language teacher has helped you understand an expression?  
+   _SM-008021 · Question · pending editorial review_
+122. Recall learning a word that didn't translate neatly into your first language.  
+   _SM-008022 · Story starter · pending editorial review_
+123. Learn a new language through conversation games or by reading short stories?  
+   _SM-008023 · Quick choice · pending editorial review_
+124. A class includes students who speak several home languages. How might they share this knowledge respectfully?  
+   _SM-008024 · Scenario · pending editorial review_
+125. Multilingual classrooms can connect language lessons to the way people communicate at home.  
+   _SM-008025 · Observation · pending editorial review_
+126. Understanding a phrase's context matters more than translating its words perfectly.  
+   _SM-008026 · Hot take · pending editorial review_
+127. Which school subject would you enjoy studying partly through another language?  
+   _SM-008027 · Question · pending editorial review_
+128. Describe the first time you understood a conversation using a language you were learning.  
+   _SM-008028 · Story starter · pending editorial review_
+129. A student wants to practise speaking without fear of embarrassment. What classroom activity might help?  
+   _SM-008029 · Scenario · pending editorial review_
+130. Create a bilingual school newsletter or host an informal language-exchange afternoon?  
+   _SM-008030 · Quick choice · pending editorial review_
+131. Which artistic activity helped you understand a subject that wasn't usually considered creative?  
+   _SM-008031 · Question · pending editorial review_
+132. Tell me about a school performance that taught you more than you expected.  
+   _SM-008032 · Story starter · pending editorial review_
+133. Design a history exhibit with illustrations or explain a science idea through a short play?  
+   _SM-008033 · Quick choice · pending editorial review_
+134. A teacher wants to combine music and mathematics for one lesson. What could students explore?  
+   _SM-008034 · Scenario · pending editorial review_
+135. Creative projects can reveal how students understand ideas beyond memorised definitions.  
+   _SM-008035 · Observation · pending editorial review_
+136. Artistic subjects deserve attention even when students plan careers in other fields.  
+   _SM-008036 · Hot take · pending editorial review_
+137. What's a creative assignment you still remember because you enjoyed making it?  
+   _SM-008037 · Question · pending editorial review_
+138. Recall an unexpected compliment for something you created at school.  
+   _SM-008038 · Story starter · pending editorial review_
+139. You're organising a student showcase with very little equipment. How would you let different talents appear?  
+   _SM-008039 · Scenario · pending editorial review_
+140. Make a short documentary about school life or produce an illustrated community history booklet?  
+   _SM-008040 · Quick choice · pending editorial review_
+141. What made a school lunch break feel like a real break rather than another scheduled task?  
+   _SM-008041 · Question · pending editorial review_
+142. Describe a favourite lunch-time routine with classmates.  
+   _SM-008042 · Story starter · pending editorial review_
+143. Give students more outdoor space to eat or create quieter indoor lunch areas?  
+   _SM-008043 · Quick choice · pending editorial review_
+144. A school wants to improve its lunch arrangements without increasing costs much. What would you ask students?  
+   _SM-008044 · Scenario · pending editorial review_
+145. The way breaks are organised affects friendships as well as concentration.  
+   _SM-008045 · Observation · pending editorial review_
+146. Unstructured time can be an important part of a school day.  
+   _SM-008046 · Hot take · pending editorial review_
+147. What simple change would have improved your lunch experience at school?  
+   _SM-008047 · Question · pending editorial review_
+148. Recall a funny moment around a shared snack or school meal.  
+   _SM-008048 · Story starter · pending editorial review_
+149. Students want a more practical system for bringing lunches from home. What might help?  
+   _SM-008049 · Scenario · pending editorial review_
+150. A longer lunch break or several shorter breaks spread through the day?  
+   _SM-008050 · Quick choice · pending editorial review_
+151. Which school field trip helped you see a familiar subject differently?  
+   _SM-008051 · Question · pending editorial review_
+152. Tell me about visiting a place for an assignment and noticing something beyond the lesson.  
+   _SM-008052 · Story starter · pending editorial review_
+153. Take a class to a local museum or invite a practitioner to demonstrate their work at school?  
+   _SM-008053 · Quick choice · pending editorial review_
+154. A teacher wants to organise a meaningful trip with a limited budget. Where might they start?  
+   _SM-008054 · Scenario · pending editorial review_
+155. Real-world examples can make classroom concepts feel more relevant.  
+   _SM-008055 · Observation · pending editorial review_
+156. A nearby field trip can be just as educational as an expensive journey.  
+   _SM-008056 · Hot take · pending editorial review_
+157. Which local business or community service would make an interesting place for students to learn?  
+   _SM-008057 · Question · pending editorial review_
+158. Recall a school outing when another student's question made everyone think.  
+   _SM-008058 · Story starter · pending editorial review_
+159. Students are visiting a public park to study the environment. What would make the visit more than a walk?  
+   _SM-008059 · Scenario · pending editorial review_
+160. Explore a local heritage site with a guide or conduct a simple neighbourhood survey?  
+   _SM-008060 · Quick choice · pending editorial review_
+161. What basic spending decision could help students learn about budgeting without using real money?  
+   _SM-008061 · Question · pending editorial review_
+162. Describe a school project that taught you to plan resources carefully.  
+   _SM-008062 · Story starter · pending editorial review_
+163. Run a pretend shop for one lesson or plan a class event with a fixed fictional budget?  
+   _SM-008063 · Quick choice · pending editorial review_
+164. A group must organise a small exhibition with shared materials. How should they decide what to buy?  
+   _SM-008064 · Scenario · pending editorial review_
+165. Class projects reveal how limited resources can encourage creative problem-solving.  
+   _SM-008065 · Observation · pending editorial review_
+166. Practical money lessons should allow students to make mistakes safely.  
+   _SM-008066 · Hot take · pending editorial review_
+167. Which school activity would teach the most about the difference between needs and wants?  
+   _SM-008067 · Question · pending editorial review_
+168. Recall a teacher explaining a practical cost that surprised the class.  
+   _SM-008068 · Story starter · pending editorial review_
+169. Students want to raise funds for a library project. What should they learn before asking for contributions?  
+   _SM-008069 · Scenario · pending editorial review_
+170. Compare prices for a class project or design a simple savings goal together?  
+   _SM-008070 · Quick choice · pending editorial review_
+171. What environmental change at your school would have made daily life more pleasant?  
+   _SM-008071 · Question · pending editorial review_
+172. Tell me about a classroom or school garden project that gave students responsibility.  
+   _SM-008072 · Story starter · pending editorial review_
+173. Introduce a composting project or plant shade trees around the playground?  
+   _SM-008073 · Quick choice · pending editorial review_
+174. A school wants students to investigate water use. What could they measure without special equipment?  
+   _SM-008074 · Scenario · pending editorial review_
+175. Small environmental habits become easier when students understand their practical benefits.  
+   _SM-008075 · Observation · pending editorial review_
+176. School sustainability projects should teach real measurement rather than just display slogans.  
+   _SM-008076 · Hot take · pending editorial review_
+177. Which local environmental issue would make a good student research project?  
+   _SM-008077 · Question · pending editorial review_
+178. Recall discovering something unexpected about plants, insects or weather during a school activity.  
+   _SM-008078 · Story starter · pending editorial review_
+179. Students want to improve waste sorting but the current bins confuse everyone. What would help?  
+   _SM-008079 · Scenario · pending editorial review_
+180. Explore how rainfall affects the school grounds or track how much paper a class uses?  
+   _SM-008080 · Quick choice · pending editorial review_
+181. How should students be able to suggest changes to ordinary school routines?  
+   _SM-008081 · Question · pending editorial review_
+182. Recall a school representative who listened to classmates rather than speaking for them.  
+   _SM-008082 · Story starter · pending editorial review_
+183. Collect anonymous suggestions or hold short open meetings with elected representatives?  
+   _SM-008083 · Quick choice · pending editorial review_
+184. Students disagree about whether to extend library hours. How should their views be gathered fairly?  
+   _SM-008084 · Scenario · pending editorial review_
+185. Student councils teach more when members can explain decisions as well as make proposals.  
+   _SM-008085 · Observation · pending editorial review_
+186. Young people can contribute useful ideas about rules they experience every day.  
+   _SM-008086 · Hot take · pending editorial review_
+187. What's a school policy you would want students to help review?  
+   _SM-008087 · Question · pending editorial review_
+188. Describe a time a school listened to a practical concern raised by students.  
+   _SM-008088 · Story starter · pending editorial review_
+189. A student group wants more recreational space but other needs compete for funding. How could they make a case?  
+   _SM-008089 · Scenario · pending editorial review_
+190. Let students propose small improvement projects or join staff discussions on existing plans?  
+   _SM-008090 · Quick choice · pending editorial review_
+191. What do you think schools should teach about deciding whether online information is reliable?  
+   _SM-008091 · Question · pending editorial review_
+192. Tell me about an occasion when checking a source changed your understanding of a topic.  
+   _SM-008092 · Story starter · pending editorial review_
+193. Practise spotting misleading headlines or learn how to verify a claim using several sources?  
+   _SM-008093 · Quick choice · pending editorial review_
+194. An AI tool gives two students different explanations for the same question. How should their teacher respond?  
+   _SM-008094 · Scenario · pending editorial review_
+195. Easy access to information makes evaluating it more important, not less.  
+   _SM-008095 · Observation · pending editorial review_
+196. Digital literacy includes knowing when to put a tool aside and think independently.  
+   _SM-008096 · Hot take · pending editorial review_
+197. Which task would you prefer students to learn without relying on automation first?  
+   _SM-008097 · Question · pending editorial review_
+198. Recall using technology to explore a subject that would once have been difficult to study.  
+   _SM-008098 · Story starter · pending editorial review_
+199. Your school is designing a responsible AI-use policy for assignments. Which principle belongs at the top?  
+   _SM-008099 · Scenario · pending editorial review_
+200. Explore how an AI model can make mistakes or practise writing clearer questions for digital tools?  
+   _SM-008100 · Quick choice · pending editorial review_
