@@ -919,3 +919,105 @@ Target: 500. Entries remain editorial drafts until human approval.
    _SM-001949 · Quick choice · pending editorial review_
 450. Trusting someone with a plan is easier when they make it clear you can change your mind.  
    _SM-001950 · Hot take · pending editorial review_
+
+
+451. What's a piece of technology you used as a child that now feels almost prehistoric?  
+   _SM-001951 · Question · pending editorial review_
+452. Tell me about the first device you saved up to buy for yourself.  
+   _SM-001952 · Story starter · pending editorial review_
+453. I find a working cassette player at a jumble sale. Which old recording would you want to hear on it?  
+   _SM-001953 · Scenario · pending editorial review_
+454. A box full of printed photographs or a folder of little videos you made years ago?  
+   _SM-001954 · Quick choice · pending editorial review_
+455. Old technology often had charming inconveniences that people forget when feeling nostalgic.  
+   _SM-001955 · Hot take · pending editorial review_
+456. The sound of an old telephone ringing can bring back memories you didn't know you'd kept.  
+   _SM-001956 · Observation · pending editorial review_
+457. What's a gadget you miss even though your phone can probably do the same job?  
+   _SM-001957 · Question · pending editorial review_
+458. We discover a retro gaming console with two controllers. What's the first game you'd want to try?  
+   _SM-001958 · Scenario · pending editorial review_
+459. Writing a postcard and waiting for it to arrive or sending a photograph instantly with a short note?  
+   _SM-001959 · Quick choice · pending editorial review_
+460. Have you ever found an old digital message that made you laugh at how differently you used to write?  
+   _SM-001960 · Story starter · pending editorial review_
+461. What makes a public place feel welcoming enough for you to stay longer than planned?  
+   _SM-001961 · Question · pending editorial review_
+462. Tell me about a quiet library, park or courtyard that you once discovered by accident.  
+   _SM-001962 · Story starter · pending editorial review_
+463. A public garden with winding paths or a small library with comfortable reading corners?  
+   _SM-001963 · Quick choice · pending editorial review_
+464. The best public spaces somehow make room for both people who want conversation and people who want silence.  
+   _SM-001964 · Observation · pending editorial review_
+465. We're exploring a new area and find a community noticeboard covered in unusual events. Which poster catches your eye?  
+   _SM-001965 · Scenario · pending editorial review_
+466. Free spaces that encourage people to linger deserve as much appreciation as famous attractions.  
+   _SM-001966 · Hot take · pending editorial review_
+467. Do you enjoy visiting a place just to experience its atmosphere without buying anything?  
+   _SM-001967 · Question · pending editorial review_
+468. We come across a free outdoor exhibition nobody told us about. What would make you stop and look?  
+   _SM-001968 · Scenario · pending editorial review_
+469. A shaded bench near a fountain or a little book exchange tucked into a neighbourhood street?  
+   _SM-001969 · Quick choice · pending editorial review_
+470. Describe a public space you've been to that made you feel unexpectedly at home.  
+   _SM-001970 · Story starter · pending editorial review_
+471. Is there an interesting story behind your first name, a nickname or what your family calls you?  
+   _SM-001971 · Question · pending editorial review_
+472. Nicknames are often tiny biographies, even when the original reason has been forgotten.  
+   _SM-001972 · Hot take · pending editorial review_
+473. I learn that your childhood friends use a name I've never heard. Do I get to know the story behind it?  
+   _SM-001973 · Scenario · pending editorial review_
+474. Being called a familiar childhood nickname or choosing a new one that fits who you are now?  
+   _SM-001974 · Quick choice · pending editorial review_
+475. Tell me about somebody whose name you remembered because of the way you met them.  
+   _SM-001975 · Story starter · pending editorial review_
+476. People sometimes say a name differently depending on where they first heard it.  
+   _SM-001976 · Observation · pending editorial review_
+477. What's the most creative nickname somebody has given a friend of yours?  
+   _SM-001977 · Question · pending editorial review_
+478. We're reading a map and find a street named after a person. What would you be curious to know about them?  
+   _SM-001978 · Scenario · pending editorial review_
+479. A place named for its landscape or one named after an unusual local event?  
+   _SM-001979 · Quick choice · pending editorial review_
+480. Have you ever learned the meaning of a name and started hearing it differently?  
+   _SM-001980 · Story starter · pending editorial review_
+481. What's a small thing you've repaired yourself that made you feel surprisingly accomplished?  
+   _SM-001981 · Question · pending editorial review_
+482. Taking the time to fix a useful object can be more satisfying than replacing it.  
+   _SM-001982 · Hot take · pending editorial review_
+483. A button comes off your shirt just before we head out. Who is more likely to know how to sew it back on?  
+   _SM-001983 · Scenario · pending editorial review_
+484. Learning to repair a bicycle puncture or learning to mend a torn piece of clothing?  
+   _SM-001984 · Quick choice · pending editorial review_
+485. Tell me about a repair you attempted that went completely differently from the tutorial.  
+   _SM-001985 · Story starter · pending editorial review_
+486. Every home has an object that still works only because someone knows its one peculiar trick.  
+   _SM-001986 · Observation · pending editorial review_
+487. Would you rather figure out a simple repair or ask someone who already knows how?  
+   _SM-001987 · Question · pending editorial review_
+488. I offer to teach you how to tighten a loose chair leg, but my own screwdriver slips. Who takes over?  
+   _SM-001988 · Scenario · pending editorial review_
+489. Restoring an old wooden table or bringing a neglected houseplant back to life?  
+   _SM-001989 · Quick choice · pending editorial review_
+490. What's a useful practical skill somebody taught you without ever calling it a lesson?  
+   _SM-001990 · Story starter · pending editorial review_
+491. What's something you learned to do as an adult that made you wonder why you'd waited so long?  
+   _SM-001991 · Question · pending editorial review_
+492. Tell me about a quiet personal milestone you didn't announce but felt proud of.  
+   _SM-001992 · Story starter · pending editorial review_
+493. You finally complete a project you've been putting off. Would you celebrate or immediately start another one?  
+   _SM-001993 · Scenario · pending editorial review_
+494. The feeling of finishing a long book or successfully making a complicated dish for the first time?  
+   _SM-001994 · Quick choice · pending editorial review_
+495. Not every achievement needs a photograph or a public announcement to feel important.  
+   _SM-001995 · Hot take · pending editorial review_
+496. Sometimes the smallest sign that you've changed is how differently you handle an ordinary problem.  
+   _SM-001996 · Observation · pending editorial review_
+497. When you finish something difficult, do you like taking a moment to appreciate it?  
+   _SM-001997 · Question · pending editorial review_
+498. I ask about something you recently accomplished and you brush it off as nothing. What's a fair follow-up question?  
+   _SM-001998 · Scenario · pending editorial review_
+499. A little celebration with somebody who knows the backstory or a peaceful evening entirely to yourself?  
+   _SM-001999 · Quick choice · pending editorial review_
+500. What's a recent moment when you realised you'd become more patient with yourself?  
+   _SM-002000 · Story starter · pending editorial review_
