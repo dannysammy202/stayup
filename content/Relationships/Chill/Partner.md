@@ -607,3 +607,205 @@ Target: 500. Entries remain editorial drafts until human approval.
    _SM-004299 · Quick choice · pending editorial review_
 300. Recall a question somebody asked about us which made you reflect on our relationship.  
    _SM-004300 · Story starter · pending editorial review_
+
+
+301. What's a decision we made slowly which turned out better because we didn't rush?  
+   _SM-004301 · Question · pending editorial review_
+302. We disagree on a purchase while we're in a shop. How should we handle the decision without arguing in public?  
+   _SM-004302 · Scenario · pending editorial review_
+303. Tell me about a time we researched something together and ended up choosing an unexpected option.  
+   _SM-004303 · Story starter · pending editorial review_
+304. People value purchases differently depending on whether they care more about durability, convenience or appearance.  
+   _SM-004304 · Observation · pending editorial review_
+305. Buy one lasting item for our home or save towards several smaller improvements?  
+   _SM-004305 · Quick choice · pending editorial review_
+306. Knowing why someone wants an item matters more than questioning the price first.  
+   _SM-004306 · Hot take · pending editorial review_
+307. Which possession would you repair rather than replace, even if replacement were affordable?  
+   _SM-004307 · Question · pending editorial review_
+308. An appliance breaks during a busy week. What would help us decide whether to fix it immediately?  
+   _SM-004308 · Scenario · pending editorial review_
+309. Recall a time we avoided an unnecessary expense and found a better solution.  
+   _SM-004309 · Story starter · pending editorial review_
+310. Browse a bookshop together or choose a book for each other without hints?  
+   _SM-004310 · Quick choice · pending editorial review_
+311. What sort of story do you most enjoy hearing someone tell about their life?  
+   _SM-004311 · Question · pending editorial review_
+312. People reveal their interests through the questions they ask after a story ends.  
+   _SM-004312 · Observation · pending editorial review_
+313. We're invited to share a memorable experience at a gathering. Which part would you want to tell?  
+   _SM-004313 · Scenario · pending editorial review_
+314. The person who remembers details isn't always the person best suited to tell the story.  
+   _SM-004314 · Hot take · pending editorial review_
+315. Tell me about a time you heard me describe an event and realised we remembered it differently.  
+   _SM-004315 · Story starter · pending editorial review_
+316. Which book, film or song helped you explain something about yourself?  
+   _SM-004316 · Question · pending editorial review_
+317. Listen to a full album together or discuss one lyric which stayed with you?  
+   _SM-004317 · Quick choice · pending editorial review_
+318. We watch a film with an ending we interpret differently. What would make the conversation interesting?  
+   _SM-004318 · Scenario · pending editorial review_
+319. Different responses to a character sometimes reflect experiences outside the story itself.  
+   _SM-004319 · Observation · pending editorial review_
+320. Describe a scene from a film you understood differently after we discussed it.  
+   _SM-004320 · Story starter · pending editorial review_
+321. When have you felt surprised by a creative choice I genuinely enjoyed?  
+   _SM-004321 · Question · pending editorial review_
+322. Taste isn't a competition, especially between people who want to understand each other.  
+   _SM-004322 · Hot take · pending editorial review_
+323. Exchange childhood favourite songs or find a new artist neither of us knows?  
+   _SM-004323 · Quick choice · pending editorial review_
+324. A friend invites us to a concert featuring music only one of us enjoys. How would you decide together?  
+   _SM-004324 · Scenario · pending editorial review_
+325. Tell me about a song which brings back a particular season of your life.  
+   _SM-004325 · Story starter · pending editorial review_
+326. What's a piece of music you would want playing during an ordinary Sunday at home?  
+   _SM-004326 · Question · pending editorial review_
+327. Some songs become markers of shared experiences without anyone choosing them deliberately.  
+   _SM-004327 · Observation · pending editorial review_
+328. We make a playlist for a road journey. How would you want to divide the choices?  
+   _SM-004328 · Scenario · pending editorial review_
+329. Sing along badly together or sit quietly and focus on the music?  
+   _SM-004329 · Quick choice · pending editorial review_
+330. Letting someone enjoy a favourite song without talking over it is an understated kindness.  
+   _SM-004330 · Hot take · pending editorial review_
+331. Which question do you wish people asked more often about your profession or studies?  
+   _SM-004331 · Question · pending editorial review_
+332. Tell me about a lesson you learnt from somebody who worked in a different field.  
+   _SM-004332 · Story starter · pending editorial review_
+333. Partners may interpret the word ambitious differently, even when they admire each other's drive.  
+   _SM-004333 · Observation · pending editorial review_
+334. One of us wants to work fewer hours despite earning less. What questions should we ask before deciding?  
+   _SM-004334 · Scenario · pending editorial review_
+335. Review our weekly plans together on Sunday evening or check in briefly each morning?  
+   _SM-004335 · Quick choice · pending editorial review_
+336. What part of your work are you proud of even though others rarely see it?  
+   _SM-004336 · Question · pending editorial review_
+337. A job title tells you less about someone than how they approach their responsibilities.  
+   _SM-004337 · Hot take · pending editorial review_
+338. Describe a time you solved a problem at work in a way that surprised you.  
+   _SM-004338 · Story starter · pending editorial review_
+339. You're offered a role with more responsibility but less personal time. What would make the decision worthwhile?  
+   _SM-004339 · Scenario · pending editorial review_
+340. Career success means stability, freedom, learning or recognition depending on the person.  
+   _SM-004340 · Observation · pending editorial review_
+341. How do you want our home life to change when one of us has a particularly intense period at work?  
+   _SM-004341 · Question · pending editorial review_
+342. Leave work conversations outside the bedroom or set aside a short evening check-in?  
+   _SM-004342 · Quick choice · pending editorial review_
+343. Tell me about a day you were relieved someone didn't immediately ask about your work.  
+   _SM-004343 · Story starter · pending editorial review_
+344. I forget an important event because I'm concentrating on a deadline. What would meaningful repair look like?  
+   _SM-004344 · Scenario · pending editorial review_
+345. Being busy explains some mistakes but doesn't erase their effect on others.  
+   _SM-004345 · Hot take · pending editorial review_
+346. What sort of reminders feel helpful to you rather than controlling?  
+   _SM-004346 · Question · pending editorial review_
+347. Some people express concern by offering reminders when the other person mainly wants confidence.  
+   _SM-004347 · Observation · pending editorial review_
+348. We're coordinating two important appointments on the same day. How should we make room for both?  
+   _SM-004348 · Scenario · pending editorial review_
+349. Keep a shared noticeboard at home or write reminders in our own notebooks?  
+   _SM-004349 · Quick choice · pending editorial review_
+350. Recall an occasion when a carefully planned day worked despite an unexpected delay.  
+   _SM-004350 · Story starter · pending editorial review_
+351. Which small responsibility would you be willing to take on because it matters more to me?  
+   _SM-004351 · Question · pending editorial review_
+352. Fairness changes with circumstances rather than always requiring identical effort.  
+   _SM-004352 · Hot take · pending editorial review_
+353. One of us is temporarily unable to do their normal household tasks. How should we reassign them without resentment?  
+   _SM-004353 · Scenario · pending editorial review_
+354. A couple's division of responsibilities often develops from unnoticed habits.  
+   _SM-004354 · Observation · pending editorial review_
+355. Tell me about something practical you learnt from watching an adult care for their family.  
+   _SM-004355 · Story starter · pending editorial review_
+356. What household task has an unexpectedly calming effect on you?  
+   _SM-004356 · Question · pending editorial review_
+357. Tackle the most difficult chore together or split up and finish faster?  
+   _SM-004357 · Quick choice · pending editorial review_
+358. A relative offers to help us with a task we usually handle privately. How would you decide whether to accept?  
+   _SM-004358 · Scenario · pending editorial review_
+359. Accepting help without surrendering decision-making is a useful relationship skill.  
+   _SM-004359 · Hot take · pending editorial review_
+360. What's a thoughtful way for us to support an elderly relative while respecting their independence?  
+   _SM-004360 · Question · pending editorial review_
+361. Describe a conversation with an older person which changed your perspective on commitment.  
+   _SM-004361 · Story starter · pending editorial review_
+362. Advice from an older generation makes more sense when you understand the circumstances behind it.  
+   _SM-004362 · Observation · pending editorial review_
+363. A family elder expects us to follow a custom we don't practise. How would you start a respectful conversation?  
+   _SM-004363 · Scenario · pending editorial review_
+364. Record family stories as audio or write down their favourite sayings and memories?  
+   _SM-004364 · Quick choice · pending editorial review_
+365. What's one value you hope younger members of your family see in how we behave?  
+   _SM-004365 · Question · pending editorial review_
+366. Honouring your upbringing and choosing your own path belong together.  
+   _SM-004366 · Hot take · pending editorial review_
+367. Tell me about a family decision you admire because the people involved handled it with care.  
+   _SM-004367 · Story starter · pending editorial review_
+368. Two relatives seek our support in conflicting situations. What would help us remain fair to both?  
+   _SM-004368 · Scenario · pending editorial review_
+369. Family loyalty sometimes requires asking difficult questions rather than agreeing immediately.  
+   _SM-004369 · Observation · pending editorial review_
+370. Which cultural celebration would you enjoy learning more about before we attend it?  
+   _SM-004370 · Question · pending editorial review_
+371. Join a traditional cooking class or watch artisans explain their work?  
+   _SM-004371 · Quick choice · pending editorial review_
+372. Recall a time you appreciated a custom more after understanding its history.  
+   _SM-004372 · Story starter · pending editorial review_
+373. We're invited to a ceremony where neither of us knows the expectations. How would you prepare?  
+   _SM-004373 · Scenario · pending editorial review_
+374. Curiosity and good manners matter more than pretending familiarity with every tradition.  
+   _SM-004374 · Hot take · pending editorial review_
+375. What personal habit from your culture do you wish outsiders understood better?  
+   _SM-004375 · Question · pending editorial review_
+376. A shared language doesn't guarantee people attach the same meaning to every expression.  
+   _SM-004376 · Observation · pending editorial review_
+377. One of us uses a phrase which sounds dismissive to the other. How should we explain the intention and impact?  
+   _SM-004377 · Scenario · pending editorial review_
+378. Learn a few phrases in each other's favourite languages or trade family sayings?  
+   _SM-004378 · Quick choice · pending editorial review_
+379. Tell me about a word or expression from your childhood which has no satisfying translation.  
+   _SM-004379 · Story starter · pending editorial review_
+380. What kind of humour helps when we're both nervous about something?  
+   _SM-004380 · Question · pending editorial review_
+381. Being able to laugh at a mistake works best when nobody feels singled out.  
+   _SM-004381 · Hot take · pending editorial review_
+382. One of us makes a joke which unintentionally hurts the other. What response would help us recover?  
+   _SM-004382 · Scenario · pending editorial review_
+383. People often use humour to signal closeness but need to learn each other's limits.  
+   _SM-004383 · Observation · pending editorial review_
+384. Share a ridiculous memory to lighten the mood or put on a comedy we both enjoy?  
+   _SM-004384 · Quick choice · pending editorial review_
+385. Recall a harmless mistake of mine which you still find funny.  
+   _SM-004385 · Story starter · pending editorial review_
+386. Which joke between us makes no sense to anyone else?  
+   _SM-004386 · Question · pending editorial review_
+387. We run into a person who misunderstands an inside joke. How would you explain without embarrassing anyone?  
+   _SM-004387 · Scenario · pending editorial review_
+388. A joke is less valuable when it makes someone afraid to be sincere.  
+   _SM-004388 · Hot take · pending editorial review_
+389. Affectionate teasing requires careful attention to what the other person finds comfortable.  
+   _SM-004389 · Observation · pending editorial review_
+390. What quality in our conversations would you want to preserve if we lived apart temporarily?  
+   _SM-004390 · Question · pending editorial review_
+391. Exchange short voice notes throughout the week or plan one longer video call?  
+   _SM-004391 · Quick choice · pending editorial review_
+392. Tell me about a day when we felt connected despite barely speaking.  
+   _SM-004392 · Story starter · pending editorial review_
+393. A temporary change in our schedules reduces our time together. Which commitment would you want us to keep?  
+   _SM-004393 · Scenario · pending editorial review_
+394. Maintaining a connection through change takes more than counting hours spent together.  
+   _SM-004394 · Hot take · pending editorial review_
+395. Which ordinary promise matters enough for us to protect when life gets complicated?  
+   _SM-004395 · Question · pending editorial review_
+396. The most reassuring plans often involve simple things within both people's control.  
+   _SM-004396 · Observation · pending editorial review_
+397. At the end of a challenging month, we have one free evening. What would make it feel like ours again?  
+   _SM-004397 · Scenario · pending editorial review_
+398. Describe an ordinary conversation with me which you wish you had written down.  
+   _SM-004398 · Story starter · pending editorial review_
+399. Make a shared list of things we're grateful for or exchange private letters once a year?  
+   _SM-004399 · Quick choice · pending editorial review_
+400. What's one thing you wish we had asked each other sooner when we began spending time together?  
+   _SM-004400 · Question · pending editorial review_
