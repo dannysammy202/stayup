@@ -1,0 +1,507 @@
+{
+  "topic": "Life",
+  "mood": "Playful",
+  "audience": "Anyone",
+  "prompts": [
+    {
+      "format": "Question",
+      "text": "What's the strangest autocorrect mistake you've sent without noticing?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a phone notification that arrived at the funniest possible moment.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A keyboard that reads your mind or a phone that never runs out of battery?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your phone asks to renegotiate its screen-time rules with you. What would it complain about?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People have wildly different definitions of a tidy phone home screen.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A folder full of unnamed screenshots is a perfectly ordinary digital filing system.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which app do you open out of habit and immediately forget why?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a time a gadget worked perfectly until somebody asked you to demonstrate it.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You must give your Wi-Fi network a new name to amuse the neighbours. What would you choose?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Keep every photo you've taken or keep every voice note you've received?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a dream you woke up from feeling genuinely puzzled?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Remember every dream for a week or choose your own background music while you sleep?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a morning when you couldn't tell whether something happened or you'd dreamt it.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your alarm clock gets a personality review from you. What feedback does it receive?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Morning people and night owls often describe the same hour like two different worlds.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "The best weekend luxury is waking up without wondering what time it is.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's the most creative excuse you've invented for staying in bed a little longer?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a day you woke up early and discovered an unexpected benefit.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your pillow enters a competition for most loyal household companion. What's its speech?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A five-minute nap whenever you want or the ability to fall asleep instantly at bedtime?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which ordinary sound would make a surprisingly good ringtone?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about an unexpected noise that interrupted a perfectly serious moment.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A doorbell that imitates a bird or a microwave that plays a short drum solo?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "The items in your kitchen form a band. Which one takes the lead vocals?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Some household sounds are comforting only because people grew up hearing them.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A well-timed sound effect can improve almost any harmless joke.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a noise from your childhood home you'd recognise immediately?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a moment when everyone went silent because of a sound nobody understood.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You must choose a theme tune for your front door. What would visitors hear?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Hear your footsteps as musical notes or have your laughter sound like applause for a day?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's the most imaginative game you invented with almost no equipment?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about making a toy from materials nobody expected to be fun.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Revisit your favourite childhood playground or recreate a classic indoor game?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You're asked to design a game using only paper, two cups and a spoon. What's the objective?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Children often make their own entertainment before adults finish planning an activity.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "An improvised game with confusing rules sometimes beats an expensive new one.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which old childhood competition would you enter again without any practice?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time you tried to explain a game to someone and realised the rules made no sense.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You get to add one silly event to a school sports day. What would the teams compete in?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Play an old-fashioned guessing game or build something from cardboard?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's the least practical thing you've ever spent a long time organising?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Arrange books by colour or by how much you enjoyed reading them?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about cleaning a drawer and finding something you thought was lost forever.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A professional organiser visits your room and interviews your favourite chair. What does it reveal?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Some people remember where everything is, even in a room that looks completely chaotic.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "An untidy desk isn't proof that the person using it lacks a plan.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which item do you consistently put in a sensible place and immediately lose?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall finding an important object somewhere so strange you still can't explain it.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You must organise a competition for the most amusing junk drawer. What would the judges score?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A perfectly arranged wardrobe or a desk where every cable stays untangled?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which local weather condition seems to change your plans most often?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about dressing for the wrong weather and trying to make it work.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A raincoat with pockets for everything or shoes that never collect dust?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your umbrella writes a complaint about your habits. What does it say?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People often remember a rainy outing more vividly than a day with perfect weather.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A sudden change of weather is a reasonable excuse to discover a new indoor café.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's the oddest object you've used to protect yourself from unexpected rain?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a windy day when holding on to your belongings became an adventure.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your favourite pair of shoes gets to choose the next destination. Where does it insist on going?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A cool cloudy afternoon outside or a sunny morning indoors with the windows open?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's one piece of clothing you wear far more often than you intended?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A jacket with endless useful pockets or trainers that always look brand new?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about an outfit you loved in a photograph but would never choose now.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your wardrobe elects a spokesperson to describe your fashion choices. Which item wins?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "The story behind a treasured item of clothing is sometimes funnier than the item itself.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Comfort deserves a place in every personal style guide.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a fashion trend you once dismissed and later tried?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a time you dressed for an occasion and misunderstood the dress code.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You have to name a clothing collection after your daily habits. What would the catalogue feature?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Wear only one favourite colour for a week or try a different colour every day?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's the funniest misunderstanding you've had with a customer service representative?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a small shopping error that led to an unexpectedly useful purchase.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A supermarket with live music or a market where vendors tell short stories?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You are hired to design the least stressful checkout queue. What harmless feature would you add?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Everyone seems to have a different strategy for carrying too many shopping bags at once.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Remembering your shopping list without checking it is an underrated achievement.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a grocery item you always forget until you get home?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall accidentally buying a completely different item from what you intended.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A shop announces an award for the most creative reusable bag. What would yours look like?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Choose all your groceries in five minutes or get an extra ten minutes to browse for fun?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a curious little fact you've learnt that rarely fits into normal conversation?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Know the origins of everyday words or know how common objects were invented?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about learning something from a stranger that sent you down a research rabbit hole.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You have one minute to give a presentation about an ordinary object you love. What do you choose?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "A person's favourite facts often reveal what they notice when no one is watching.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Learning something completely unnecessary is a reasonable use of free time.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's one question you kept asking as a child that adults struggled to answer?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe the first time you became fascinated by how an everyday machine worked.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You must invent a new museum exhibit about modern daily life. What goes in the display?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Visit a science museum with interactive exhibits or wander through a local history collection?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's an ordinary moment you wish came with a replay button?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a chance meeting that made an otherwise routine day interesting.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Receive a surprise free afternoon or find a forgotten note from five years ago?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You are asked to nominate your funniest harmless mistake for an annual award. Which one do you enter?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Some of the best stories come from plans that were never especially important.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A day doesn't need a major achievement to give you a good story.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a small personal tradition you've invented for no particular reason?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a conversation that started with an odd question and lasted much longer than expected.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your future self sends you a postcard with only three words on it. What would you hope they say?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Spend an unexpected free hour learning something new or revisiting an old favourite?",
+      "relatedThemes": []
+    }
+  ]
+}
