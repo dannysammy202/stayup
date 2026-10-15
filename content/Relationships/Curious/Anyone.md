@@ -203,3 +203,205 @@ Initial target: 200. Entries remain editorial drafts until human approval.
    _SM-006999 · Scenario · pending editorial review_
 100. Spend time with friends who challenge your ideas or those who share your long-standing interests?  
    _SM-007000 · Quick choice · pending editorial review_
+
+
+101. When does a relationship feel more balanced even if two people contribute different things?  
+   _SM-007001 · Question · pending editorial review_
+102. Tell me about a shared responsibility that worked only after each person took a different role.  
+   _SM-007002 · Story starter · pending editorial review_
+103. Divide a project by individual strengths or rotate the difficult tasks so everyone learns?  
+   _SM-007003 · Quick choice · pending editorial review_
+104. Two housemates disagree about what a fair share of chores means. What information should they compare?  
+   _SM-007004 · Scenario · pending editorial review_
+105. People often judge fairness through invisible effort as well as tasks they can count.  
+   _SM-007005 · Observation · pending editorial review_
+106. An equal split isn't automatically the fairest arrangement in every situation.  
+   _SM-007006 · Hot take · pending editorial review_
+107. Which contribution to group life do you think goes unnoticed most often?  
+   _SM-007007 · Question · pending editorial review_
+108. Recall appreciating someone's behind-the-scenes work only after trying it yourself.  
+   _SM-007008 · Story starter · pending editorial review_
+109. A team member repeatedly handles the planning but dislikes being the default organiser. How should the group respond?  
+   _SM-007009 · Scenario · pending editorial review_
+110. Thank a person publicly for their effort or acknowledge their specific contribution privately?  
+   _SM-007010 · Quick choice · pending editorial review_
+111. What makes a conversation between people with opposing views genuinely interesting?  
+   _SM-007011 · Question · pending editorial review_
+112. Describe a disagreement that helped you understand somebody's values without changing your own.  
+   _SM-007012 · Story starter · pending editorial review_
+113. Explore the reason behind an opinion or ask when somebody first began believing it?  
+   _SM-007013 · Quick choice · pending editorial review_
+114. Two friends support different approaches to a community problem. What shared outcome might help them talk?  
+   _SM-007014 · Scenario · pending editorial review_
+115. The history behind an opinion can be more revealing than the opinion itself.  
+   _SM-007015 · Observation · pending editorial review_
+116. Curiosity about disagreement shouldn't require people to compromise their convictions.  
+   _SM-007016 · Hot take · pending editorial review_
+117. How do you decide whether a disagreement is worth pursuing or better left alone?  
+   _SM-007017 · Question · pending editorial review_
+118. Tell me about somebody respectfully challenging a belief you hadn't examined closely.  
+   _SM-007018 · Story starter · pending editorial review_
+119. A dinner discussion becomes uncomfortable for one participant. How can the group shift the tone thoughtfully?  
+   _SM-007019 · Scenario · pending editorial review_
+120. Leave a thoughtful debate unfinished or agree to return to it with more information?  
+   _SM-007020 · Quick choice · pending editorial review_
+121. What have you learnt from maintaining a friendship across different time zones?  
+   _SM-007021 · Question · pending editorial review_
+122. Recall a distant friend finding an imaginative way to be present for an important moment.  
+   _SM-007022 · Story starter · pending editorial review_
+123. Send occasional long letters or exchange brief voice notes whenever something reminds you of a friend?  
+   _SM-007023 · Quick choice · pending editorial review_
+124. Two siblings now live on opposite sides of the world and rarely share waking hours. What routine could suit both?  
+   _SM-007024 · Scenario · pending editorial review_
+125. Distance changes which parts of daily life people remember to share.  
+   _SM-007025 · Observation · pending editorial review_
+126. The depth of a long-distance relationship isn't measured solely by message frequency.  
+   _SM-007026 · Hot take · pending editorial review_
+127. Which details of your day are easiest to share with somebody who lives elsewhere?  
+   _SM-007027 · Question · pending editorial review_
+128. Tell me about revisiting an old place and thinking immediately of someone who moved away.  
+   _SM-007028 · Story starter · pending editorial review_
+129. Friends reunite after years and one assumes their old routines still fit. How could they discover their current preferences?  
+   _SM-007029 · Scenario · pending editorial review_
+130. Plan a long-awaited visit carefully or leave an afternoon open to wander and reconnect?  
+   _SM-007030 · Quick choice · pending editorial review_
+131. How do you distinguish a healthy compromise from giving up something important to you?  
+   _SM-007031 · Question · pending editorial review_
+132. Describe an agreement that only worked after both people explained their non-negotiables.  
+   _SM-007032 · Story starter · pending editorial review_
+133. Name your priorities before discussing options or explore possible solutions together first?  
+   _SM-007033 · Quick choice · pending editorial review_
+134. Two family members want to celebrate the same occasion in different ways. What might both be trying to protect?  
+   _SM-007034 · Scenario · pending editorial review_
+135. The first solution offered to a conflict rarely captures everybody's underlying needs.  
+   _SM-007035 · Observation · pending editorial review_
+136. A compromise deserves another look if one person consistently carries the cost.  
+   _SM-007036 · Hot take · pending editorial review_
+137. Which kind of choice feels easiest for you to make jointly with someone else?  
+   _SM-007037 · Question · pending editorial review_
+138. Recall an occasion when revising a shared plan made both people happier.  
+   _SM-007038 · Story starter · pending editorial review_
+139. A couple disagrees on how often to host guests. How should they test an arrangement without creating resentment?  
+   _SM-007039 · Scenario · pending editorial review_
+140. Set an agreement for a month and review it or choose a different approach each time?  
+   _SM-007040 · Quick choice · pending editorial review_
+141. What helps you recognise genuine curiosity rather than someone collecting personal information?  
+   _SM-007041 · Question · pending editorial review_
+142. Tell me about being asked a thoughtful question you hadn't considered before.  
+   _SM-007042 · Story starter · pending editorial review_
+143. Be asked one carefully considered follow-up or several quick questions about your interests?  
+   _SM-007043 · Quick choice · pending editorial review_
+144. An acquaintance wants to know your family history but begins with a sensitive subject. How would you redirect the conversation?  
+   _SM-007044 · Scenario · pending editorial review_
+145. Questions can feel welcoming or intrusive depending on how much choice they leave the listener.  
+   _SM-007045 · Observation · pending editorial review_
+146. The ability to accept an unanswered question is part of being a good conversationalist.  
+   _SM-007046 · Hot take · pending editorial review_
+147. Which subject is easier for you to discuss after somebody has shared their own experience?  
+   _SM-007047 · Question · pending editorial review_
+148. Describe a time curiosity about somebody's background helped correct an assumption.  
+   _SM-007048 · Story starter · pending editorial review_
+149. Someone tells a personal story and another person immediately compares it with their own. How might the conversation stay centred on the storyteller?  
+   _SM-007049 · Scenario · pending editorial review_
+150. Ask what an experience meant to someone or ask how it changed their daily life?  
+   _SM-007050 · Quick choice · pending editorial review_
+151. How do you decide which pieces of feedback are worth taking seriously?  
+   _SM-007051 · Question · pending editorial review_
+152. Recall someone offering constructive criticism in a way that strengthened your respect for them.  
+   _SM-007052 · Story starter · pending editorial review_
+153. Receive suggestions immediately after an event or once you've had time to reflect?  
+   _SM-007053 · Quick choice · pending editorial review_
+154. A friend asks you to review their work but seems anxious about your opinion. How would you clarify what kind of feedback they want?  
+   _SM-007054 · Scenario · pending editorial review_
+155. People receive feedback differently depending on their confidence and the circumstances.  
+   _SM-007055 · Observation · pending editorial review_
+156. Honest feedback doesn't need harsh language to be useful.  
+   _SM-007056 · Hot take · pending editorial review_
+157. What would make feedback from a close person feel less like judgement?  
+   _SM-007057 · Question · pending editorial review_
+158. Tell me about changing your approach after someone noticed a pattern you couldn't see.  
+   _SM-007058 · Story starter · pending editorial review_
+159. Two colleagues exchange feedback and discover they meant different things by the word direct. How might they reset expectations?  
+   _SM-007059 · Scenario · pending editorial review_
+160. Hear one specific example of improvement or a broader explanation of the principle behind it?  
+   _SM-007060 · Quick choice · pending editorial review_
+161. Which relationship changed your understanding of what leadership looks like?  
+   _SM-007061 · Question · pending editorial review_
+162. Describe observing someone guide a group without making every decision themselves.  
+   _SM-007062 · Story starter · pending editorial review_
+163. Work with a leader who asks careful questions or one who gives clear direction quickly?  
+   _SM-007063 · Quick choice · pending editorial review_
+164. A volunteer team has competing ideas and no appointed coordinator. What would help somebody step into a useful role?  
+   _SM-007064 · Scenario · pending editorial review_
+165. People sometimes earn trust by showing up consistently rather than by speaking confidently.  
+   _SM-007065 · Observation · pending editorial review_
+166. Good leadership often includes knowing when another person should take the lead.  
+   _SM-007066 · Hot take · pending editorial review_
+167. When have you felt most comfortable taking responsibility within a group?  
+   _SM-007067 · Question · pending editorial review_
+168. Tell me about someone whose quiet example influenced how you work with others.  
+   _SM-007068 · Story starter · pending editorial review_
+169. A mentor wants to help without making a younger person dependent. What boundaries could make the support effective?  
+   _SM-007069 · Scenario · pending editorial review_
+170. Learn from a mentor through shared tasks or through regular conversations?  
+   _SM-007070 · Quick choice · pending editorial review_
+171. What does generosity look like when somebody has little money but plenty of time?  
+   _SM-007071 · Question · pending editorial review_
+172. Recall receiving practical help from a person who never mentioned expecting anything back.  
+   _SM-007072 · Story starter · pending editorial review_
+173. Offer a friend a useful skill or dedicate a free afternoon to something important to them?  
+   _SM-007073 · Quick choice · pending editorial review_
+174. A community group receives help from several volunteers but credits only one organiser. How could it acknowledge everyone fairly?  
+   _SM-007074 · Scenario · pending editorial review_
+175. People notice generosity through many forms of attention, not only material gifts.  
+   _SM-007075 · Observation · pending editorial review_
+176. Giving support is easier to sustain when the giver understands their own limits.  
+   _SM-007076 · Hot take · pending editorial review_
+177. When does accepting help become more challenging than offering it?  
+   _SM-007077 · Question · pending editorial review_
+178. Tell me about receiving an unexpected favour that changed how you viewed a person.  
+   _SM-007078 · Story starter · pending editorial review_
+179. A friend insists on repaying an act of kindness that was freely offered. How might the two discuss their different expectations?  
+   _SM-007079 · Scenario · pending editorial review_
+180. Express gratitude through a sincere letter or by helping someone else in turn?  
+   _SM-007080 · Quick choice · pending editorial review_
+181. Which social expectation did you question after getting to know somebody from another background?  
+   _SM-007081 · Question · pending editorial review_
+182. Describe realising that a familiar courtesy meant something different in another household.  
+   _SM-007082 · Story starter · pending editorial review_
+183. Learn how another culture handles greetings or how it welcomes visitors at home?  
+   _SM-007083 · Quick choice · pending editorial review_
+184. Two people assume different customs about bringing gifts to a celebration. How could the host clarify expectations?  
+   _SM-007084 · Scenario · pending editorial review_
+185. Cultural misunderstandings sometimes come from good intentions paired with missing context.  
+   _SM-007085 · Observation · pending editorial review_
+186. Respect includes asking about customs instead of pretending you understand them.  
+   _SM-007086 · Hot take · pending editorial review_
+187. What do people often misinterpret about a custom you grew up with?  
+   _SM-007087 · Question · pending editorial review_
+188. Tell me about a friend helping you appreciate the meaning behind a tradition.  
+   _SM-007088 · Story starter · pending editorial review_
+189. An international group wants to organise one shared holiday gathering. What questions should shape its planning?  
+   _SM-007089 · Scenario · pending editorial review_
+190. Share family celebrations with new friends or introduce them to everyday habits from home?  
+   _SM-007090 · Quick choice · pending editorial review_
+191. Which relationship has helped you understand a side of yourself you rarely noticed?  
+   _SM-007091 · Question · pending editorial review_
+192. Recall somebody noticing your strengths at a time when you doubted them.  
+   _SM-007092 · Story starter · pending editorial review_
+193. Reflect on how you've changed through friendship or on how you've influenced somebody else's growth?  
+   _SM-007093 · Quick choice · pending editorial review_
+194. Two longtime friends meet after making very different life choices. What could they ask to understand each other's present priorities?  
+   _SM-007094 · Scenario · pending editorial review_
+195. People learn about themselves partly through how they respond to the needs of others.  
+   _SM-007095 · Observation · pending editorial review_
+196. A good relationship makes room for personal growth even when that growth changes routines.  
+   _SM-007096 · Hot take · pending editorial review_
+197. What would you want a person who knew you ten years ago to notice about you now?  
+   _SM-007097 · Question · pending editorial review_
+198. Describe a conversation that made you reconsider an old expectation about closeness.  
+   _SM-007098 · Story starter · pending editorial review_
+199. You discover somebody important to you has developed a new ambition. What question would help you support it without taking control?  
+   _SM-007099 · Scenario · pending editorial review_
+200. Celebrate a shared milestone by remembering the past or by exploring what you hope comes next?  
+   _SM-007100 · Quick choice · pending editorial review_
