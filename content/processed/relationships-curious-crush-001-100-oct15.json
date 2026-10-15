@@ -1,0 +1,507 @@
+{
+  "topic": "Relationships",
+  "mood": "Curious",
+  "audience": "Crush / Talking stage",
+  "prompts": [
+    {
+      "format": "Question",
+      "text": "What does a really good conversation with someone you're interested in leave you thinking about afterwards?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a time you unexpectedly wanted to hear more of someone's perspective.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We've been talking for an hour and neither of us has mentioned work. What do you think we've been discussing?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Learn what shaped someone's worldview or what they're still trying to figure out?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Attraction can begin with curiosity about how another person sees ordinary situations.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Asking thoughtful follow-up questions is more compelling than arriving with a list of impressive stories.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's an opinion you've changed because a conversation made you reconsider it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a person who made an unfamiliar subject feel suddenly fascinating.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You could ask me one question knowing I'd give a thoughtful answer. What would you want to understand?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Talk about the books that changed us or the real-life experiences behind our beliefs?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which tiny part of your day would you enjoy sharing with someone who's getting to know you?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall noticing a person's mood shift through a small change in their usual messages.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We're both free for twenty minutes after a demanding day. What kind of catch-up would feel right?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Exchange the best thing that happened today or the question that's been on our minds?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People sometimes become close through mundane updates that would mean little to anyone else.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Consistency in communication matters more than the length of a message.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "How would you describe the difference between wanting company and wanting a distraction?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about someone who recognised that you needed quiet rather than encouragement.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "I mention I'm having a rough week but don't explain why. What would you ask before offering advice?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A peaceful call with comfortable pauses or an animated conversation about something new?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What kind of disagreement can reveal positive qualities about a person?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe realising that somebody's opposite opinion came from an experience you hadn't considered.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We have very different ideas about how to spend a free Saturday. How should we choose without either of us resenting it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Discuss one complicated idea in depth or compare several everyday preferences?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Being able to disagree gently is sometimes more revealing than agreeing enthusiastically.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Two people needn't hold identical opinions to share important values.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "How do you prefer someone to tell you they see a situation differently?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a conversation that became easier once both people stopped trying to convince each other.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Our discussion grows more serious than expected. What might you say to check that we're both comfortable?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Ask questions until you understand a disagreement or set it aside and return another day?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's something about your upbringing that influences how you show care?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a small family tradition that you've carried into your own routines.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Our families have different expectations about visiting relatives. What would we need to learn before making plans?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Compare childhood celebrations or the life lessons older relatives taught us?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People can share values while expressing respect in ways that seem unfamiliar to each other.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Meeting someone's family isn't a substitute for learning how they personally think.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which family story helps explain a quality you're proud to have?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall an elder whose relationship advice made more sense once you were older.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "I ask why a particular holiday matters to you. Where would you begin the story?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Hear about a person who shaped your childhood or a place that still feels like home?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What helps you decide whether you're comfortable opening up to someone new?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a moment when somebody respected a personal boundary without asking for a justification.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "I ask about something you'd rather not discuss yet. How would you want us to handle that moment?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Share a difficult experience slowly across several conversations or keep some stories private until the time feels right?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Trust can deepen when people discover that declining a question doesn't change the atmosphere.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Feeling curious about someone doesn't create a right to every detail of their life.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What sort of reassurance is helpful when you're talking about an uncertain situation?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall somebody admitting they didn't know how to respond and still making you feel heard.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We're discussing a sensitive subject and one of us becomes quiet. What check-in would feel considerate?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Be asked whether you want advice or whether you simply want somebody to listen?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which personal goal would you enjoy hearing somebody explain even if it wasn't one you shared?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a person whose quiet ambition surprised you more than an impressive achievement.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We both receive an opportunity in different cities. What questions would help us understand each other's priorities?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Explore someone's long-term hopes or the small routines they use to make progress?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People often disclose their priorities through how they spend ordinary afternoons.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Encouraging another person's growth doesn't require knowing exactly where it will lead.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What kind of work would still interest you if nobody else knew you did it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall deciding not to pursue a goal that once seemed central to your plans.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You could take a year to learn one unfamiliar skill. What would make it worth your time?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Talk about the risks we'd like to take or the commitments we'd rather protect?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What does emotional availability look like in everyday behaviour to you?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe someone making time for an important conversation when they could easily have avoided it.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "One of us is excited about something while the other is exhausted. How could we make space for both feelings?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Someone who checks in when plans change or someone who explains clearly what they can manage?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "The practical habits people keep often show more than the labels they choose for themselves.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Saying you need rest can be a sign of honest communication, not lack of interest.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "How can someone show care without turning every concern into a problem to solve?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall feeling reassured by a person who followed through on something small.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A conversation ends before we reach an understanding. How would you prefer to revisit it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "An honest update about a busy week or frequent short replies that don't say much?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What belief about relationships have you begun to question as you've grown older?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about noticing a healthy relationship habit in a couple you know.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Our friends give us two contradictory pieces of dating advice. How might we decide what applies to us?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Discuss what a supportive partnership looks like or explore what healthy independence means?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People can want closeness and still have different needs for solitude or social time.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Compatibility should include space for disagreement without fear of punishment.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which relationship lesson do you wish people learnt before their first serious dating experience?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall realising that a romantic gesture you admired in stories wouldn't suit you in real life.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We find we define loyalty differently. What examples might help us understand each other?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Talk about the relationships we've learnt from or the patterns we'd like to do differently?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What place would you show somebody to help them understand what you value?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a visit somewhere that changed your perspective on your own community.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We each choose one meaningful stop for a shared afternoon. How would you explain yours?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Visit a place tied to childhood memories or explore somewhere connected to a new interest?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "A person's favourite locations can reflect comfort, curiosity, history or all three.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "The best date location may be somewhere ordinary that gives both people room to talk.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What would somebody misunderstand about your hometown if they only visited the tourist attractions?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall learning something about a person from the place they chose to take you.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We have a free morning and no booking. What kind of experience might teach us something new about each other?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Explore an unfamiliar neighbourhood together or revisit a familiar place with fresh questions?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What kind of connection makes you want to see where it leads rather than rush to define it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a moment you realised you were more interested in someone's character than their first impression.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We've enjoyed getting to know each other but our schedules are changing. What would we need to discuss?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Learn how someone navigates uncertainty or how they celebrate good news?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Meaningful connections can grow gradually when both people are clear about their intentions.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Being direct about what you hope for is kinder than leaving the other person to guess.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What tells you a person is interested in knowing the real you rather than an idealised version?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall an ordinary conversation that became memorable because you felt free to be yourself.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We discover we're imagining different directions for the connection. What would respectful honesty look like?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Talk about what we're enjoying right now or what we each need before making a bigger commitment?",
+      "relatedThemes": []
+    }
+  ]
+}
