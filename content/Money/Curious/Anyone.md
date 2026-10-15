@@ -203,3 +203,205 @@ Initial target: 200. Entries remain editorial drafts until human approval.
    _SM-007799 · Scenario · pending editorial review_
 100. Buy a familiar item on promotion or try a less expensive brand you've never used?  
    _SM-007800 · Quick choice · pending editorial review_
+
+
+101. Which subscription would you miss most if you had to cancel every recurring service?  
+   _SM-007801 · Question · pending editorial review_
+102. Recall realising you were still paying for something you'd stopped using.  
+   _SM-007802 · Story starter · pending editorial review_
+103. Pay monthly for flexibility or annually when a service offers a genuine discount?  
+   _SM-007803 · Quick choice · pending editorial review_
+104. You're helping a friend compare two streaming plans with different benefits. What matters besides price?  
+   _SM-007804 · Scenario · pending editorial review_
+105. Recurring charges can become invisible because they don't require a new decision each month.  
+   _SM-007805 · Observation · pending editorial review_
+106. A free trial isn't truly useful when its cancellation terms are hard to understand.  
+   _SM-007806 · Hot take · pending editorial review_
+107. What's the most important detail to check before accepting an automatic renewal?  
+   _SM-007807 · Question · pending editorial review_
+108. Tell me about replacing a paid service with a free option that met your needs.  
+   _SM-007808 · Story starter · pending editorial review_
+109. A service quietly removes a feature while keeping its fee unchanged. What would you ask the company?  
+   _SM-007809 · Scenario · pending editorial review_
+110. Keep one premium service you love or several smaller services you use occasionally?  
+   _SM-007810 · Quick choice · pending editorial review_
+111. What's something you've repaired that made you appreciate how it was built?  
+   _SM-007811 · Question · pending editorial review_
+112. Describe deciding to maintain an old item instead of replacing it.  
+   _SM-007812 · Story starter · pending editorial review_
+113. Learn to mend simple clothing or fix a basic household appliance safely?  
+   _SM-007813 · Quick choice · pending editorial review_
+114. A chair needs a small repair, but a replacement is on sale. What should you consider?  
+   _SM-007814 · Scenario · pending editorial review_
+115. The cost of owning an object can continue long after you've paid for it.  
+   _SM-007815 · Observation · pending editorial review_
+116. Learning basic maintenance can be more valuable than finding the next discount.  
+   _SM-007816 · Hot take · pending editorial review_
+117. Which everyday item would benefit most from being easier to repair?  
+   _SM-007817 · Question · pending editorial review_
+118. Recall borrowing a tool instead of buying one you'd use only once.  
+   _SM-007818 · Story starter · pending editorial review_
+119. A community wants to organise a repair workshop. What items should people learn to maintain first?  
+   _SM-007819 · Scenario · pending editorial review_
+120. Buy a well-kept second-hand item or a basic new alternative for the same price?  
+   _SM-007820 · Quick choice · pending editorial review_
+121. What do you find most confusing about comparing the cost of different journeys?  
+   _SM-007821 · Question · pending editorial review_
+122. Tell me about choosing a slower route and finding an unexpected benefit.  
+   _SM-007822 · Story starter · pending editorial review_
+123. Use public transport with predictable costs or a faster ride that varies in price?  
+   _SM-007823 · Quick choice · pending editorial review_
+124. A friend is planning a daily commute to a new job. Which expenses might they overlook?  
+   _SM-007824 · Scenario · pending editorial review_
+125. The cheapest route on paper doesn't always fit someone's schedule or circumstances.  
+   _SM-007825 · Observation · pending editorial review_
+126. Time, comfort and reliability belong in a conversation about transport value.  
+   _SM-007826 · Hot take · pending editorial review_
+127. Which travel expense surprises people when they plan their first independent trip?  
+   _SM-007827 · Question · pending editorial review_
+128. Recall a day you spent less on travel because you planned several errands together.  
+   _SM-007828 · Story starter · pending editorial review_
+129. Our group is comparing two ways to reach a weekend event. What would make the comparison fair?  
+   _SM-007829 · Scenario · pending editorial review_
+130. Pay a little more for a direct trip or save by making a convenient transfer?  
+   _SM-007830 · Quick choice · pending editorial review_
+131. What does a good second-hand shop do to help you trust an item?  
+   _SM-007831 · Question · pending editorial review_
+132. Describe a pre-owned purchase that had an interesting story behind it.  
+   _SM-007832 · Story starter · pending editorial review_
+133. Browse used books for hidden discoveries or second-hand furniture for practical pieces?  
+   _SM-007833 · Quick choice · pending editorial review_
+134. You find two used bicycles with different wear. What would you inspect before choosing one?  
+   _SM-007834 · Scenario · pending editorial review_
+135. Buying an older item can be rewarding when the seller explains its condition clearly.  
+   _SM-007835 · Observation · pending editorial review_
+136. A clear return policy can matter more than a persuasive sales description.  
+   _SM-007836 · Hot take · pending editorial review_
+137. Which category of used goods would you always want to inspect in person?  
+   _SM-007837 · Question · pending editorial review_
+138. Tell me about passing on an item that someone else found genuinely useful.  
+   _SM-007838 · Story starter · pending editorial review_
+139. A neighbourhood wants to organise a swap event. How might it keep exchanges fair and welcoming?  
+   _SM-007839 · Scenario · pending editorial review_
+140. Exchange rarely used tools with neighbours or organise a seasonal clothing swap?  
+   _SM-007840 · Quick choice · pending editorial review_
+141. What makes a small business's pricing feel transparent to you?  
+   _SM-007841 · Question · pending editorial review_
+142. Recall learning about the hidden effort behind a handmade product's price.  
+   _SM-007842 · Story starter · pending editorial review_
+143. Buy from a business that explains its costs or one that emphasises speed and convenience?  
+   _SM-007843 · Quick choice · pending editorial review_
+144. A home baker wants to price cupcakes fairly. Which ingredients and expenses should be considered?  
+   _SM-007844 · Scenario · pending editorial review_
+145. Customers often see the product but not the preparation, transport or time behind it.  
+   _SM-007845 · Observation · pending editorial review_
+146. The cheapest seller isn't always the most sustainable choice for a neighbourhood.  
+   _SM-007846 · Hot take · pending editorial review_
+147. Which small local service do you think people regularly undervalue?  
+   _SM-007847 · Question · pending editorial review_
+148. Describe an encounter with a business owner who helped you understand their craft.  
+   _SM-007848 · Story starter · pending editorial review_
+149. A new café wants to create a loyalty programme without confusing customers. What should it offer?  
+   _SM-007849 · Scenario · pending editorial review_
+150. Pay for a custom-made item or choose a ready-made version available immediately?  
+   _SM-007850 · Quick choice · pending editorial review_
+151. What payment safety habit do you wish more people learnt early?  
+   _SM-007851 · Question · pending editorial review_
+152. Describe discovering a suspicious message before it caused a financial problem.  
+   _SM-007852 · Story starter · pending editorial review_
+153. Use spending alerts after every transaction or review your account activity at a regular time?  
+   _SM-007853 · Quick choice · pending editorial review_
+154. A message claims you must pay an unexpected fee through a strange link. What would you verify first?  
+   _SM-007854 · Scenario · pending editorial review_
+155. Scammers often create urgency so people skip the checks they normally perform.  
+   _SM-007855 · Observation · pending editorial review_
+156. A payment method should be judged partly by how it handles mistakes and disputes.  
+   _SM-007856 · Hot take · pending editorial review_
+157. Which detail would make you suspicious of an unfamiliar online shop?  
+   _SM-007857 · Question · pending editorial review_
+158. Recall helping somebody recognise that a supposed bargain was too good to be true.  
+   _SM-007858 · Story starter · pending editorial review_
+159. You receive a duplicate payment confirmation. What records would help you resolve it safely?  
+   _SM-007859 · Scenario · pending editorial review_
+160. Make an important purchase through a trusted marketplace or directly from a verified seller?  
+   _SM-007860 · Quick choice · pending editorial review_
+161. What's a practical example that helps explain why people buy insurance?  
+   _SM-007861 · Question · pending editorial review_
+162. Tell me about learning the difference between a routine expense and an unexpected one.  
+   _SM-007862 · Story starter · pending editorial review_
+163. Understand basic insurance terms or learn how warranties differ from guarantees?  
+   _SM-007863 · Quick choice · pending editorial review_
+164. Someone is comparing two phone-protection plans. What exclusions might matter more than the headline fee?  
+   _SM-007864 · Scenario · pending editorial review_
+165. Financial protection products can sound simple until the conditions need explaining.  
+   _SM-007865 · Observation · pending editorial review_
+166. A clear explanation of what's not covered is as important as a list of benefits.  
+   _SM-007866 · Hot take · pending editorial review_
+167. Which financial term should never be explained using only technical language?  
+   _SM-007867 · Question · pending editorial review_
+168. Recall an everyday example that helped you understand the idea of financial risk.  
+   _SM-007868 · Story starter · pending editorial review_
+169. A community workshop introduces the concept of an emergency fund. What relatable example might help?  
+   _SM-007869 · Scenario · pending editorial review_
+170. Compare ways to prepare for small surprises or learn how claims processes work?  
+   _SM-007870 · Quick choice · pending editorial review_
+171. What's a surprising way a community has pooled resources for a shared purpose?  
+   _SM-007871 · Question · pending editorial review_
+172. Describe watching neighbours work together to make an event affordable.  
+   _SM-007872 · Story starter · pending editorial review_
+173. Contribute supplies to a community project or offer time and a useful skill?  
+   _SM-007873 · Quick choice · pending editorial review_
+174. A local group wants to improve its reading room with small contributions. How should it explain the budget?  
+   _SM-007874 · Scenario · pending editorial review_
+175. People are more willing to contribute when they understand how resources will be used.  
+   _SM-007875 · Observation · pending editorial review_
+176. Transparent record-keeping matters even when a project handles only small amounts.  
+   _SM-007876 · Hot take · pending editorial review_
+177. Which shared facility would make everyday life easier for people in your area?  
+   _SM-007877 · Question · pending editorial review_
+178. Recall a fundraiser that made a visible difference in your community.  
+   _SM-007878 · Story starter · pending editorial review_
+179. Volunteers raise more funds than needed for an activity. How might they decide on the remainder?  
+   _SM-007879 · Scenario · pending editorial review_
+180. Support a clearly defined one-off project or a smaller recurring community programme?  
+   _SM-007880 · Quick choice · pending editorial review_
+181. Which public service do you notice most when it works reliably?  
+   _SM-007881 · Question · pending editorial review_
+182. Tell me about learning how an everyday service is funded or maintained.  
+   _SM-007882 · Story starter · pending editorial review_
+183. Read a simple explanation of local taxes or learn how public project budgets are decided?  
+   _SM-007883 · Quick choice · pending editorial review_
+184. A town can improve either street lighting or park maintenance this year. What information should residents receive?  
+   _SM-007884 · Scenario · pending editorial review_
+185. Many public costs are easiest to understand when linked to a service people use.  
+   _SM-007885 · Observation · pending editorial review_
+186. Good budget explanations should allow ordinary residents to ask meaningful questions.  
+   _SM-007886 · Hot take · pending editorial review_
+187. What local improvement would you want to understand the cost of before debating it?  
+   _SM-007887 · Question · pending editorial review_
+188. Recall hearing a practical explanation of a public expense that changed your perspective.  
+   _SM-007888 · Story starter · pending editorial review_
+189. A school committee wants to report how donated funds were spent. What should its summary include?  
+   _SM-007889 · Scenario · pending editorial review_
+190. See an accessible chart of community spending or read short stories about completed projects?  
+   _SM-007890 · Quick choice · pending editorial review_
+191. Which everyday technology do you think will most change how people spend money in ten years?  
+   _SM-007891 · Question · pending editorial review_
+192. Recall seeing a shopping habit change rapidly after a new service became common.  
+   _SM-007892 · Story starter · pending editorial review_
+193. Explore how contactless payments work or learn what makes online marketplaces trustworthy?  
+   _SM-007893 · Quick choice · pending editorial review_
+194. A future shop opens without traditional checkout counters. What customer concerns should it address?  
+   _SM-007894 · Scenario · pending editorial review_
+195. A technology can make payments faster without making purchase decisions any simpler.  
+   _SM-007895 · Observation · pending editorial review_
+196. Progress in financial tools should be measured by clarity and trust, not just novelty.  
+   _SM-007896 · Hot take · pending editorial review_
+197. What money-related skill will people still need even if most transactions become automated?  
+   _SM-007897 · Question · pending editorial review_
+198. Describe a payment method your family once used regularly that now seems old-fashioned.  
+   _SM-007898 · Story starter · pending editorial review_
+199. You help design a money-learning game for teenagers. What real-world decision would become the first challenge?  
+   _SM-007899 · Scenario · pending editorial review_
+200. Learn how digital receipts work or explore why some people still prefer physical cash?  
+   _SM-007900 · Quick choice · pending editorial review_
