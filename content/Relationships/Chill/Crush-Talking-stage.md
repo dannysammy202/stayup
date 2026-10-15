@@ -471,3 +471,25 @@ Target: 500. Entries remain editorial drafts until human approval.
    _SM-001729 · Scenario · pending editorial review_
 230. An old film you've never seen or a new release everyone seems to be discussing?  
    _SM-001730 · Quick choice · pending editorial review_
+
+
+231. What's an expression from where you grew up which outsiders often misunderstand?  
+   _SM-001731 · Question · pending editorial review_
+232. Learning somebody's favourite local expression is a fun way to understand their sense of humour.  
+   _SM-001732 · Hot take · pending editorial review_
+233. I use a word which means something completely different where you're from. How would you explain it?  
+   _SM-001733 · Scenario · pending editorial review_
+234. Learning the greetings of several languages or mastering the pronunciation of one difficult phrase?  
+   _SM-001734 · Quick choice · pending editorial review_
+235. Tell me about a time a translation made an ordinary conversation unexpectedly funny.  
+   _SM-001735 · Story starter · pending editorial review_
+236. A familiar phrase sometimes sounds completely new when somebody says it with a different accent.  
+   _SM-001736 · Observation · pending editorial review_
+237. Is there a word in another language which captures a feeling you struggle to describe in English?  
+   _SM-001737 · Question · pending editorial review_
+238. Correcting pronunciation feels friendlier when someone offers to teach rather than laugh.  
+   _SM-001738 · Hot take · pending editorial review_
+239. We're ordering in a place where neither of us speaks the local language. Who attempts the first greeting?  
+   _SM-001739 · Scenario · pending editorial review_
+240. A conversation full of regional slang or one where we teach each other unfamiliar proverbs?  
+   _SM-001740 · Quick choice · pending editorial review_
