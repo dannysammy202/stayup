@@ -1,0 +1,507 @@
+{
+  "topic": "Work & Career",
+  "mood": "Curious",
+  "audience": "Anyone",
+  "prompts": [
+    {
+      "format": "Question",
+      "text": "What can a team's reaction to an error tell you about its working culture?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a mistake at work that led to a genuinely useful process change.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Investigate why a problem happened or focus first on preventing it from happening again?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A colleague discovers a reporting error just before a presentation. How should the team handle the correction?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People are more likely to raise concerns early when mistakes aren't treated as personal failures.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A useful post-project review should identify the system conditions, not just the person who noticed the problem last.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What makes it easier for you to admit that an approach isn't working?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall someone acknowledging an oversight in a way that increased your trust.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A new teammate follows an outdated instruction and causes confusion. What should the team examine?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Run a short review immediately after a project or collect lessons for a scheduled meeting?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which part of a workplace would you redesign to make everyday tasks easier?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about entering a workspace that seemed unusually well thought out.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Improve the lighting and acoustics or simplify the tools everyone has to use?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A team has limited funds to improve its office. What information should it gather from employees?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Small environmental details can affect how easily people concentrate and collaborate.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A beautiful office isn't automatically a productive or accessible workplace.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which physical workplace feature would make the biggest difference to your daily comfort?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall adapting to an unfamiliar work environment and discovering what you missed.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Several employees require different kinds of workspaces. How might a team make the layout flexible?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Quiet individual work areas or open collaboration spaces with reservable rooms?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What do you find most interesting about how different organisations make decisions?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe watching a leader explain a difficult choice to a team.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Learn how decisions are approved or how managers measure their long-term results?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A new policy affects several departments differently. What questions should leaders ask before announcing it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "An organisation's values become clearer when its choices involve trade-offs.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Explaining why a decision was made can matter as much as announcing what happens next.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which decision do you think frontline employees should be consulted on more often?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a small suggestion from staff changing the direction of a project.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Two departments disagree about priorities and both have reasonable concerns. Who should be heard first?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A transparent decision record or regular open forums where employees can raise questions?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "How do you distinguish a useful performance measure from one that encourages shortcuts?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about working towards a target that turned out to be less meaningful than expected.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Measure how quickly tasks are completed or how well the results serve their purpose?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A customer support team handles calls faster but customer issues remain unresolved. What would you investigate?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "A metric can become misleading when people forget the question it was meant to answer.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Teams should be able to explain the limitations of their own success measures.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which aspect of good work is hardest to turn into a simple number?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall somebody drawing attention to a hidden improvement that wasn't reflected in a dashboard.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your team can measure only three things about a new service. How would you choose them?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Review a broad set of performance signals or track a few measures with clear explanations?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What helps you understand the needs of people who use a product or service?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe observing a customer struggle with something the designers believed was simple.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Watch people use a prototype or interview them about their current difficulties?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A business receives repeated complaints that a form is confusing. What would you ask users to demonstrate?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People often adapt to bad systems so thoroughly that they stop describing them as problems.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A customer's workaround can reveal more than a polished description of a feature.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which service do you think would improve if its designers watched people use it in everyday conditions?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall an interaction with a helpful employee that changed your opinion of a business.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Two user groups want opposing changes to the same product. What further research would help?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Improve one frustrating step in a service or add a frequently requested new capability?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which ethical dilemma in ordinary work deserves more open discussion?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a time somebody protected another person's privacy during a routine task.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Discuss how to report a concern safely or how teams should handle confidential information?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A coworker casually shares customer details in a group chat. What's a proportionate way to address it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "A workplace's approach to ethics often becomes visible through routine decisions, not dramatic cases.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Doing what's convenient isn't a sufficient reason to ignore somebody's privacy.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which professional responsibility should every new employee understand from the beginning?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a situation where asking for permission was important even though the task seemed harmless.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You're asked to use an automated tool on sensitive records. What questions would you ask about safeguards?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Learn more about conflicts of interest or the practical handling of personal data?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What makes an interview question help you understand an employer rather than simply impress it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe discovering something important about a job only after talking with its current employees.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Ask a hiring manager why people stay on their team or what challenges a new employee should expect?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "An offer sounds appealing but its day-to-day responsibilities are vague. How might you clarify them?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "The interview process can reveal how an organisation communicates under pressure.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Candidates should be able to ask serious questions without being treated as disloyal.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which part of a job description would you ask an employer to explain in concrete examples?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall being surprised by a thoughtful question during a professional interview.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Two positions offer similar pay but very different schedules. What information would make comparison easier?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Choose a role after speaking to future teammates or after reviewing a realistic sample assignment?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What has observing a good manager taught you about helping other people perform well?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about somebody who delegated a responsibility and trusted you to find a solution.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Receive clear expectations with freedom to choose methods or close guidance while learning?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A team leader notices one person doing most of the difficult tasks. How should they assess the workload?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Good management often involves removing obstacles that individual employees can't control.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A leader's willingness to ask for feedback is more important than appearing to know every answer.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What is a sign a manager has understood the strengths of different team members?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall an occasion when a leader gave credit to the person whose work was least visible.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A new supervisor inherits a team with a strained relationship. What should they learn before making changes?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Have regular one-to-one conversations or hold open team discussions about recurring challenges?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What makes a professional community worth participating in over several years?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe an event where you learnt something valuable from a person in an unrelated field.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Attend a small skills-sharing group or join a larger professional conference?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You're organising a community for people at different career stages. How would you make discussions useful to beginners?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Professional communities can become more valuable when people share what hasn't worked.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "The quality of a network depends more on reciprocity than the number of contacts.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which topic would make you attend a professional meetup even after a tiring workday?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall someone recommending a resource that helped you solve a problem months later.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "An online community becomes dominated by a handful of experts. How could organisers invite newer voices?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Share an unfinished project for feedback or discuss useful lessons from a completed one?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "How has the meaning of career success changed for people around you?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about somebody finding satisfaction in a role others considered unremarkable.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Explore how different workers define stability or what gives them a sense of achievement?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A friend wants a less demanding job even though it pays less. What might matter in their decision?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People's career priorities often shift alongside their responsibilities outside work.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A fulfilling career is not always the one with the fastest promotion path.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What do you hope your working life makes possible beyond your job title?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall meeting someone who had designed an unusual balance between work and other commitments.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You're asked to describe your ideal career without mentioning salary or prestige. What would you include?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Choose greater flexibility in familiar work or a more challenging role with a predictable schedule?",
+      "relatedThemes": []
+    }
+  ]
+}
