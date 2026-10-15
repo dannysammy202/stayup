@@ -203,3 +203,205 @@ Initial target: 200. Entries remain editorial drafts until human approval.
    _SM-008799 · Scenario · pending editorial review_
 100. Talk about what we're enjoying right now or what we each need before making a bigger commitment?  
    _SM-008800 · Quick choice · pending editorial review_
+
+
+101. What's something people frequently assume you enjoy that you actually don't?  
+   _SM-008801 · Question · pending editorial review_
+102. Describe a moment when being honest about a preference improved an outing.  
+   _SM-008802 · Story starter · pending editorial review_
+103. Be understood through a long conversation or through someone noticing your everyday routines?  
+   _SM-008803 · Quick choice · pending editorial review_
+104. I suggest an activity everyone else loves but you don't. How would you want to tell me?  
+   _SM-008804 · Scenario · pending editorial review_
+105. People sometimes follow social expectations even when those expectations don't suit their personalities.  
+   _SM-008805 · Observation · pending editorial review_
+106. Saying what you dislike can help somebody know you as much as listing your favourites.  
+   _SM-008806 · Hot take · pending editorial review_
+107. Which part of your personality usually emerges only after you've spent time with someone?  
+   _SM-008807 · Question · pending editorial review_
+108. Recall a person who made you feel comfortable admitting an unpopular preference.  
+   _SM-008808 · Story starter · pending editorial review_
+109. We are choosing a restaurant and neither of us wants to disappoint the other. What question would make it easier?  
+   _SM-008809 · Scenario · pending editorial review_
+110. Discuss our deal-breakers for an outing or the small details that make one enjoyable?  
+   _SM-008810 · Quick choice · pending editorial review_
+111. What have your closest friendships taught you about who you feel comfortable around?  
+   _SM-008811 · Question · pending editorial review_
+112. Tell me about getting to know a friend's friend and finding an unexpected connection.  
+   _SM-008812 · Story starter · pending editorial review_
+113. Understand why someone keeps a small inner circle or how they maintain several different friendships?  
+   _SM-008813 · Quick choice · pending editorial review_
+114. Our social circles overlap for the first time at a gathering. What would make the introductions relaxed?  
+   _SM-008814 · Scenario · pending editorial review_
+115. People can behave differently in a group without being less genuine in private.  
+   _SM-008815 · Observation · pending editorial review_
+116. You don't need to be best friends with someone's entire circle to build a respectful connection.  
+   _SM-008816 · Hot take · pending editorial review_
+117. How do you notice when a person feels excluded from a group conversation?  
+   _SM-008817 · Question · pending editorial review_
+118. Recall someone introducing you thoughtfully when you knew nobody in the room.  
+   _SM-008818 · Story starter · pending editorial review_
+119. We attend an event where one of us knows everyone and the other knows nobody. How could we look after each other?  
+   _SM-008819 · Scenario · pending editorial review_
+120. Spend an evening with a few close friends or meet a wider circle at a casual event?  
+   _SM-008820 · Quick choice · pending editorial review_
+121. How were you taught to talk about money while growing up?  
+   _SM-008821 · Question · pending editorial review_
+122. Describe the first time you had to plan the cost of an outing for yourself.  
+   _SM-008822 · Story starter · pending editorial review_
+123. Discuss practical spending habits early or wait until a shared expense makes the conversation relevant?  
+   _SM-008823 · Quick choice · pending editorial review_
+124. We're considering an activity with very different price options. What's the easiest way to share our budgets?  
+   _SM-008824 · Scenario · pending editorial review_
+125. People often attach different emotional meanings to the same amount of money.  
+   _SM-008825 · Observation · pending editorial review_
+126. Money compatibility begins with honest expectations, not identical incomes.  
+   _SM-008826 · Hot take · pending editorial review_
+127. What's a purchase you value because of the story behind it rather than its price?  
+   _SM-008827 · Question · pending editorial review_
+128. Recall choosing a simple experience over a more expensive plan and being pleased with the result.  
+   _SM-008828 · Story starter · pending editorial review_
+129. I suggest splitting a bill differently from what you expected. How would you want us to discuss it?  
+   _SM-008829 · Scenario · pending editorial review_
+130. Choose an inexpensive recurring tradition or save for one special shared experience?  
+   _SM-008830 · Quick choice · pending editorial review_
+131. What does being spiritually or philosophically grounded mean in your everyday life?  
+   _SM-008831 · Question · pending editorial review_
+132. Tell me about a moment your beliefs helped you make a difficult decision.  
+   _SM-008832 · Story starter · pending editorial review_
+133. Understand someone's guiding values through stories or through the questions they ask themselves?  
+   _SM-008833 · Quick choice · pending editorial review_
+134. We have different religious or philosophical backgrounds. What would make those differences safe to discuss?  
+   _SM-008834 · Scenario · pending editorial review_
+135. A person's convictions may show through daily choices more than formal labels.  
+   _SM-008835 · Observation · pending editorial review_
+136. Respecting someone else's faith or worldview doesn't require pretending that differences don't matter.  
+   _SM-008836 · Hot take · pending editorial review_
+137. Which value from your upbringing have you kept even as other beliefs have changed?  
+   _SM-008837 · Question · pending editorial review_
+138. Recall learning why a celebration or spiritual practice mattered to someone close to you.  
+   _SM-008838 · Story starter · pending editorial review_
+139. I ask how an important belief shapes your plans. How would you prefer to explain it?  
+   _SM-008839 · Scenario · pending editorial review_
+140. Explore the influence of faith on family traditions or the role of personal reflection in decision-making?  
+   _SM-008840 · Quick choice · pending editorial review_
+141. What's a small act of consideration that has more meaning to you than other people might expect?  
+   _SM-008841 · Question · pending editorial review_
+142. Describe someone remembering how you like to receive support and responding accordingly.  
+   _SM-008842 · Story starter · pending editorial review_
+143. A person who asks before making plans for you or one who knows enough to suggest a suitable option?  
+   _SM-008843 · Quick choice · pending editorial review_
+144. We've had very different days and want different things from our evening. How would you negotiate that?  
+   _SM-008844 · Scenario · pending editorial review_
+145. Acts of care are interpreted through personal histories as well as present circumstances.  
+   _SM-008845 · Observation · pending editorial review_
+146. The right gesture is the one the recipient appreciates, not the one that photographs best.  
+   _SM-008846 · Hot take · pending editorial review_
+147. What do you do when you want to show appreciation but words feel insufficient?  
+   _SM-008847 · Question · pending editorial review_
+148. Recall a time somebody's ordinary helpfulness made a lasting impression on you.  
+   _SM-008848 · Story starter · pending editorial review_
+149. I want to acknowledge something important you've achieved without making a big public event of it. What would you prefer?  
+   _SM-008849 · Scenario · pending editorial review_
+150. Receive a thoughtful note or have someone quietly handle an errand for you?  
+   _SM-008850 · Quick choice · pending editorial review_
+151. What helps you make a decision when several options are genuinely attractive?  
+   _SM-008851 · Question · pending editorial review_
+152. Tell me about changing your mind after hearing an unfamiliar point of view.  
+   _SM-008852 · Story starter · pending editorial review_
+153. Make a decision by comparing practical consequences or by thinking through how each option aligns with your values?  
+   _SM-008853 · Quick choice · pending editorial review_
+154. We want opposite weekend plans and have only one free day together. How should we approach a compromise?  
+   _SM-008854 · Scenario · pending editorial review_
+155. People reveal their priorities in the trade-offs they're prepared to make.  
+   _SM-008855 · Observation · pending editorial review_
+156. Knowing how someone handles uncertainty is as useful as knowing their ambitions.  
+   _SM-008856 · Hot take · pending editorial review_
+157. What's a decision you prefer to make slowly even when others move quickly?  
+   _SM-008857 · Question · pending editorial review_
+158. Recall somebody supporting you through a decision without trying to choose for you.  
+   _SM-008858 · Story starter · pending editorial review_
+159. An opportunity arises that affects both our schedules. What questions should come before an answer?  
+   _SM-008859 · Scenario · pending editorial review_
+160. Discuss a difficult choice as it unfolds or revisit it after each person has thought privately?  
+   _SM-008860 · Quick choice · pending editorial review_
+161. Which experiences have made you more patient with other people's mistakes?  
+   _SM-008861 · Question · pending editorial review_
+162. Describe a conversation where somebody accepted correction with more grace than you expected.  
+   _SM-008862 · Story starter · pending editorial review_
+163. Talk about lessons from a mistake or the habits that help us avoid repeating it?  
+   _SM-008863 · Quick choice · pending editorial review_
+164. One of us forgets an arrangement that mattered to the other. How would we repair the situation?  
+   _SM-008864 · Scenario · pending editorial review_
+165. People differ in whether they want a quick apology or a conversation about what happened.  
+   _SM-008865 · Observation · pending editorial review_
+166. The point of apologising is to take responsibility, not to end the discussion as fast as possible.  
+   _SM-008866 · Hot take · pending editorial review_
+167. How do you prefer someone to tell you when you've disappointed them?  
+   _SM-008867 · Question · pending editorial review_
+168. Recall being forgiven in a way that encouraged you to change your behaviour.  
+   _SM-008868 · Story starter · pending editorial review_
+169. Our plans fall through because of a preventable misunderstanding. What would rebuilding trust look like?  
+   _SM-008869 · Scenario · pending editorial review_
+170. Explain what went wrong immediately or set a time to discuss it when both people are calmer?  
+   _SM-008870 · Quick choice · pending editorial review_
+171. What is one skill you want to keep learning even if it never earns you money?  
+   _SM-008871 · Question · pending editorial review_
+172. Tell me about discovering an interest that surprised people who thought they knew you.  
+   _SM-008872 · Story starter · pending editorial review_
+173. Develop a creative hobby together or learn two different skills and exchange what we discover?  
+   _SM-008873 · Quick choice · pending editorial review_
+174. You get a scholarship to spend a month studying anything you like. What topic would you choose?  
+   _SM-008874 · Scenario · pending editorial review_
+175. People can share curiosity even when they have no overlap in their technical interests.  
+   _SM-008875 · Observation · pending editorial review_
+176. A fulfilling interest doesn't need an audience to be worthwhile.  
+   _SM-008876 · Hot take · pending editorial review_
+177. What kind of environment makes you eager to learn something difficult?  
+   _SM-008877 · Question · pending editorial review_
+178. Recall a teacher or mentor whose approach changed how you thought about learning.  
+   _SM-008878 · Story starter · pending editorial review_
+179. We take a class together and one person progresses much faster. What would make the experience enjoyable for both?  
+   _SM-008879 · Scenario · pending editorial review_
+180. Visit an interactive exhibition or attend a small workshop led by a local expert?  
+   _SM-008880 · Quick choice · pending editorial review_
+181. What's a normal day in your future life that you'd be excited to experience?  
+   _SM-008881 · Question · pending editorial review_
+182. Describe an ordinary moment that helped you realise your priorities had changed.  
+   _SM-008882 · Story starter · pending editorial review_
+183. Imagine the home routines you'd want in ten years or the relationships you'd hope to maintain?  
+   _SM-008883 · Quick choice · pending editorial review_
+184. We imagine living in entirely different places later in life. What would make those visions worth discussing?  
+   _SM-008884 · Scenario · pending editorial review_
+185. The day-to-day details of a future can be more revealing than its biggest milestones.  
+   _SM-008885 · Observation · pending editorial review_
+186. Shared direction matters more than matching every detail of an imagined future.  
+   _SM-008886 · Hot take · pending editorial review_
+187. Which everyday responsibility do you hope to have more control over as you grow older?  
+   _SM-008887 · Question · pending editorial review_
+188. Recall seeing someone build a peaceful routine and wondering what choices made it possible.  
+   _SM-008888 · Story starter · pending editorial review_
+189. We're asked to describe an ideal weekday without mentioning our jobs. What would you include?  
+   _SM-008889 · Scenario · pending editorial review_
+190. Explore what stability means to us or discuss how much change makes life interesting?  
+   _SM-008890 · Quick choice · pending editorial review_
+191. What's a question you would want to revisit after we've known each other for another year?  
+   _SM-008891 · Question · pending editorial review_
+192. Tell me about a person whose character you understood more clearly after seeing them through change.  
+   _SM-008892 · Story starter · pending editorial review_
+193. Look back on the beliefs we began with or talk about the new perspectives we've gained?  
+   _SM-008893 · Quick choice · pending editorial review_
+194. Our first impressions of each other turn out to have been incomplete. What might be amusing to compare?  
+   _SM-008894 · Scenario · pending editorial review_
+195. People can surprise each other without having hidden anything about themselves.  
+   _SM-008895 · Observation · pending editorial review_
+196. Getting to know somebody is an ongoing process, not a checklist to finish.  
+   _SM-008896 · Hot take · pending editorial review_
+197. What would make you feel our conversations are becoming more honest as we get comfortable?  
+   _SM-008897 · Question · pending editorial review_
+198. Recall an early conversation whose meaning changed after you learnt more about the person.  
+   _SM-008898 · Story starter · pending editorial review_
+199. We realise an old assumption has shaped how we've spoken to each other. How might we question it kindly?  
+   _SM-008899 · Scenario · pending editorial review_
+200. Keep exploring our differences or focus on understanding the values we have in common?  
+   _SM-008900 · Quick choice · pending editorial review_
