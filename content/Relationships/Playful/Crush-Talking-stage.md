@@ -65,3 +65,25 @@ Initial target: 200. Entries remain editorial drafts until human approval.
    _SM-005729 · Quick choice · pending editorial review_
 30. What's a game you pretend not to care about until someone starts keeping score?  
    _SM-005730 · Question · pending editorial review_
+
+
+31. Which food opinion of yours would start a lively debate on a first date?  
+   _SM-005731 · Question · pending editorial review_
+32. Share one dessert or order two and exchange the last bites?  
+   _SM-005732 · Quick choice · pending editorial review_
+33. We order something unfamiliar and both dislike it. Who admits it first?  
+   _SM-005733 · Scenario · pending editorial review_
+34. A person who recommends a good snack earns more points than someone who picks the fanciest restaurant.  
+   _SM-005734 · Hot take · pending editorial review_
+35. Tell me about the most ridiculous food combination you genuinely enjoy.  
+   _SM-005735 · Story starter · pending editorial review_
+36. A shared meal gets more interesting when both people have strong opinions about the menu.  
+   _SM-005736 · Observation · pending editorial review_
+37. What snack would you bring to convince me your taste is better than mine?  
+   _SM-005737 · Question · pending editorial review_
+38. We each have to choose a mystery ingredient for the other's sandwich. What are you picking?  
+   _SM-005738 · Scenario · pending editorial review_
+39. Breakfast food at dinner or a full dinner for breakfast?  
+   _SM-005739 · Quick choice · pending editorial review_
+40. What's a dish you'd enjoy teaching someone to make, even if the kitchen gets messy?  
+   _SM-005740 · Question · pending editorial review_
