@@ -1,0 +1,507 @@
+{
+  "topic": "Life",
+  "mood": "Playful",
+  "audience": "Anyone",
+  "prompts": [
+    {
+      "format": "Question",
+      "text": "What's the funniest way somebody has ever tried to introduce themselves to you?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A friend who always arrives with snacks or one who always knows a new game?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a friendship that started because of a harmless mistake.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You get to rename your group chat for one day. What name would make everyone laugh?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Some people become memorable through one oddly specific habit.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Knowing someone's favourite ridiculous joke is a sign of paying attention.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a harmless nickname you'd happily let your closest friends use?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time a stranger accidentally became part of your group's joke.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Two friends each insist they tell a story better. How would you settle the contest?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A dramatic introduction with theme music or a mysterious one-line introduction?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which tiny everyday annoyance deserves an award for being unnecessarily dramatic?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a household mishap that became funny once everything was sorted.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A fridge that gives motivational speeches or a kettle that announces the weather?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your furniture starts leaving reviews about how you treat it. Which item complains first?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People reveal a lot about themselves through the objects they refuse to throw away.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Matching socks are overrated when nobody else sees them.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's the most useful thing you've kept for an absurdly long time?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall buying something only to realise you already had three of it.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You're organising a competition for the most ordinary household object. What would win?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "An alarm clock that sings your name or a lamp that applauds your achievements?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a food combination you defend even when your friends raise an eyebrow?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Try a surprise flavour of ice cream or invent a new sandwich filling?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a meal that looked terrible but tasted wonderful.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You're asked to name a restaurant after your personality. What's on its sign?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People sometimes become surprisingly competitive about who makes the best tea.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A meal's most entertaining story often comes from the preparation rather than the recipe.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What snack would you choose as your personal mascot?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe the first time you attempted a recipe without reading the instructions.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your favourite food becomes a television presenter. What kind of show would it host?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Eat breakfast food for dinner or dinner food for breakfast for a week?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "If your everyday walk had background music, what genre would suit it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a song that made an otherwise ordinary journey unforgettable.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Dance confidently with two moves or learn a complicated routine and forget the ending?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You're hired to choose entrance music for your friends. Who gets the most dramatic soundtrack?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "One person quietly humming a tune often sets off an entire room.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A terrible sing-along sometimes makes a better memory than a flawless performance.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which song would be funniest to hear played during a serious announcement?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall mishearing lyrics for years before somebody explained them.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your phone plays a random song every time you enter a room. What would you hope it never picks?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A karaoke night with no audience or a silent dance party with friends?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's the most amusing misunderstanding you've had while travelling?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Follow an unusual street sign or investigate a shop with a mysterious name?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe an outing where the wrong turn became the best part.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your city launches a tourist attraction based on your daily routine. What's its headline feature?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Maps never reveal the strange little details people notice when walking somewhere new.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Getting mildly lost with good company is better than rushing straight to the destination.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's an unusual landmark you'd use to give directions in your neighbourhood?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about asking for directions and receiving a completely unexpected answer.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You must design a postcard for the least photographed corner of your town. What would it show?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A ferry ride with a funny tour guide or a bus ride with excellent music?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a childhood rule you misunderstood in a hilarious way?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a school competition where something completely unexpected happened.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Bring back a playground game or teach today's children a forgotten rhyme?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You become headteacher for an afternoon. Which harmless new school rule would you introduce?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Childhood games often make sense only to the people who invented their rules.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Adults should get occasional recess without having to explain themselves.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which childhood invention of yours would you like to show a modern engineer?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a moment you tried to act grown-up and completely failed.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your favourite childhood toy writes a biography. What's the title?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Spend an afternoon building cardboard forts or making up outdoor games?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which fictional character would make the most entertaining person to share a flat with?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Borrow a detective's observation skills or a cartoon character's energy for one day?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a film scene that made your whole row in the cinema react.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You get one scene in a film about your everyday life. What ordinary task becomes dramatic?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Different people notice entirely different jokes when watching the same comedy.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Side characters sometimes have more interesting stories than the main hero.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a fictional invention you'd request for the most trivial possible reason?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a character you initially disliked but eventually enjoyed.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your morning routine becomes a television competition. What's the hardest challenge?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Narrate your chores like a sports commentator or announce them like breaking news?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a personal talent that's almost completely useless but still impressive?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a contest you entered without expecting to do well.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Recognise birds by their calls or identify cars by the sound of their engines?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You're opening a museum of your strangest achievements. What's in the first display case?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People often get unexpectedly proud of the odd things they've learnt to do.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A useless skill becomes worthwhile the moment it makes someone laugh.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which tiny victory makes you celebrate as if you've won a trophy?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe impressing someone with a skill you assumed everybody knew.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A neighbourhood talent show insists that nobody perform a normal talent. What would you demonstrate?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Be an expert at folding fitted sheets or at untangling earphones instantly?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's the most unusual excuse you've heard for arriving late?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Get one extra hour every Monday or skip one boring errand each Friday?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about an attempt to save time that took much longer instead.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your calendar starts giving sarcastic feedback about your plans. Which appointment gets the first comment?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People organise their days in ways that sound baffling to someone with a different routine.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "The best productivity hack is finding a reason to enjoy the task.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which part of your routine would sound absurd if a documentary narrator described it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a day when everything ran late but somehow worked out well.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You must give your busiest weekday a movie title. What would you call it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A talking to-do list or a clock that negotiates deadlines?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which small kindness from a stranger made you grin long afterwards?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about accidentally making somebody's day better.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Receive a funny handwritten note or a thoughtful doodle from a friend?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You're appointed ambassador for making ordinary queues friendlier. What's your first rule?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Small acts of humour often turn awkward social moments into easier conversations.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Being able to laugh kindly at yourself makes meeting new people less stressful.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's one silly question you'd ask everybody if you knew they'd answer?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe the moment an awkward introduction turned into a good story.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A time capsule needs one ordinary object that represents your sense of humour. What would you contribute?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "End a gathering with a group joke or start it with a ridiculous icebreaker?",
+      "relatedThemes": []
+    }
+  ]
+}
