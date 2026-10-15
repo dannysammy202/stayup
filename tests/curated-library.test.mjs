@@ -22,12 +22,12 @@ test('500 per suitable combination and exclusion rules remain intact',()=>{
  for(const x of manifest.combinations.filter(x=>!x.eligible))assert.equal(x.target,0);
 });
 
-test('two complete combinations and one Friends batch preserve editorial status',()=>{
- assert.equal(manifest.publishedCount,1100);
- assert.equal(manifest.publishedFiles.length,11);
- assert.equal(published.length,1100);
+test('two complete combinations and two Friends batches preserve editorial status',()=>{
+ assert.equal(manifest.publishedCount,1200);
+ assert.equal(manifest.publishedFiles.length,12);
+ assert.equal(published.length,1200);
  assert.equal(manifest.humanReviewedCount,100);
- assert.equal(manifest.aiAuthoredScreenedCount,1000);
+ assert.equal(manifest.aiAuthoredScreenedCount,1100);
  const ids=new Set(),texts=new Set(),formats=new Set(),statuses={};
  for(let i=0;i<published.length;i++){
   const p=published[i],reviewed=i<100,expectedAudience=i<500?'Anyone':i<1000?'Someone new':'Friends';
@@ -41,13 +41,13 @@ test('two complete combinations and one Friends batch preserve editorial status'
   assert.ok(p.text.length>=25&&p.text.length<=260,p.id);
   assert.ok(!ids.has(p.id),'Duplicate id: '+p.id);
   assert.ok(!texts.has(norm(p.text)),'Duplicate text: '+p.id);
-  if(!reviewed){assert.equal(p.humanReviewed,false,p.id);assert.match(p.reviewMethod,/editorial approval pending|AI-authored/);}
+  if(!reviewed){assert.equal(p.humanReviewed,false,p.id);assert.match(p.reviewMethod,/editorial approval pending|AI-authored|editorial draft/);}
   ids.add(p.id);texts.add(norm(p.text));formats.add(p.format);
   statuses[p.editorialStatus]=(statuses[p.editorialStatus]||0)+1;
  }
  assert.ok(formats.size>=6);
  assert.equal(statuses.approved,100);
- assert.equal(statuses.screened_pending_editorial_review,1000);
+ assert.equal(statuses.screened_pending_editorial_review,1100);
  for(const audience of ['Anyone','Someone new']){
   const slot=manifest.combinations.find(x=>x.topic==='Relationships'&&x.mood==='Chill'&&x.audience===audience);
   assert.equal(slot.published,500);
@@ -55,7 +55,7 @@ test('two complete combinations and one Friends batch preserve editorial status'
  }
  assert.equal(manifest.combinations.filter(x=>x.eligible&&x.published===500).length,2);
  const friends=manifest.combinations.find(x=>x.topic==='Relationships'&&x.mood==='Chill'&&x.audience==='Friends');
- assert.equal(friends.published,100);
+ assert.equal(friends.published,200);
  assert.equal(friends.target,500);
 });
 
