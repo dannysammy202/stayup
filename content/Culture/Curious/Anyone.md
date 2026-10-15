@@ -809,3 +809,205 @@ Target: 500. Entries remain editorial drafts until human approval.
    _SM-003899 · Story starter · pending editorial review_
 400. Who should have the strongest voice when a cultural practice is being revived or reinterpreted?  
    _SM-003900 · Question · pending editorial review_
+
+
+401. What's a friendship custom from another community that you found thoughtful or surprising?  
+   _SM-003901 · Question · pending editorial review_
+402. Tell me about making friends with someone whose background changed how you understood everyday social expectations.  
+   _SM-003902 · Story starter · pending editorial review_
+403. Two friends from different cultures want to celebrate a shared achievement. What might they ask each other before planning?  
+   _SM-003903 · Scenario · pending editorial review_
+404. Friendship can cross cultural differences more easily when people feel free to explain rather than defend their habits.  
+   _SM-003904 · Hot take · pending editorial review_
+405. Learning a friend's traditional game or joining them for a familiar community event?  
+   _SM-003905 · Quick choice · pending editorial review_
+406. Little phrases of affection between friends can vary widely even within the same country.  
+   _SM-003906 · Observation · pending editorial review_
+407. Have you noticed different ways people show support to friends without saying it directly?  
+   _SM-003907 · Question · pending editorial review_
+408. Someone interprets your quietness as disinterest because they are used to expressive conversation. How might you bridge the misunderstanding?  
+   _SM-003908 · Scenario · pending editorial review_
+409. Describe an unexpected shared interest that made a cultural difference feel less important.  
+   _SM-003909 · Story starter · pending editorial review_
+410. What can new friendships teach people about traditions that families rarely think to explain?  
+   _SM-003910 · Question · pending editorial review_
+411. What's a traditional game you would like to learn directly from someone who grew up playing it?  
+   _SM-003911 · Question · pending editorial review_
+412. Tell me about recognising a childhood game in another country despite the rules being slightly different.  
+   _SM-003912 · Story starter · pending editorial review_
+413. A community fair wants to demonstrate old games to visitors of all ages. How would you make the instructions easy to follow?  
+   _SM-003913 · Scenario · pending editorial review_
+414. Children's games can preserve language, rhythm and social customs without being formally taught.  
+   _SM-003914 · Hot take · pending editorial review_
+415. Learning a strategy board game from its local experts or playing a traditional outdoor team game?  
+   _SM-003915 · Quick choice · pending editorial review_
+416. Many games change their names and details as children share them between neighbourhoods.  
+   _SM-003916 · Observation · pending editorial review_
+417. Have you seen a familiar game played with unusual materials in another place?  
+   _SM-003917 · Question · pending editorial review_
+418. A grandparent wants to teach an old game but can't remember every rule. How could the family reconstruct it together?  
+   _SM-003918 · Scenario · pending editorial review_
+419. Describe a game whose social traditions mattered more than who won.  
+   _SM-003919 · Story starter · pending editorial review_
+420. How should cultural organisations preserve games that are passed down mainly through play?  
+   _SM-003920 · Question · pending editorial review_
+421. How have online communities changed the way young people learn about traditions from their families?  
+   _SM-003921 · Question · pending editorial review_
+422. Tell me about finding a digital archive that helped you understand a place or custom better.  
+   _SM-003922 · Story starter · pending editorial review_
+423. A small cultural organisation wants to share local history online without losing context. What format might work best?  
+   _SM-003923 · Scenario · pending editorial review_
+424. Digital access can help cultural knowledge travel, but the original community still deserves control over its stories.  
+   _SM-003924 · Hot take · pending editorial review_
+425. A searchable archive of traditional songs or short videos showing how a craft is made?  
+   _SM-003925 · Quick choice · pending editorial review_
+426. An online video can introduce a tradition to new audiences while leaving many of its meanings unexplained.  
+   _SM-003926 · Observation · pending editorial review_
+427. Have you noticed how people use group chats to organise cultural celebrations across long distances?  
+   _SM-003927 · Question · pending editorial review_
+428. A family wants to document recipes in a shared digital collection. What details should go beyond the ingredient list?  
+   _SM-003928 · Scenario · pending editorial review_
+429. Describe an online discussion that changed your understanding of a cultural topic you thought you already knew.  
+   _SM-003929 · Story starter · pending editorial review_
+430. What safeguards might help people share cultural heritage online respectfully?  
+   _SM-003930 · Question · pending editorial review_
+431. What social customs shape the way people work together in your community?  
+   _SM-003931 · Question · pending editorial review_
+432. Tell me about entering a workplace where everyday etiquette differed from what you expected.  
+   _SM-003932 · Story starter · pending editorial review_
+433. An international team is collaborating on a project but interprets direct criticism differently. How could they establish shared expectations?  
+   _SM-003933 · Scenario · pending editorial review_
+434. Workplace customs can shape collaboration without people always realising they're cultural choices.  
+   _SM-003934 · Hot take · pending editorial review_
+435. Learning about traditional apprenticeship communities or comparing how meetings begin in different countries?  
+   _SM-003935 · Quick choice · pending editorial review_
+436. The way coworkers share meals or breaks can reveal a lot about the social side of work.  
+   _SM-003936 · Observation · pending editorial review_
+437. Have you encountered a professional ritual whose original purpose was different from how people use it now?  
+   _SM-003937 · Question · pending editorial review_
+438. You have to introduce a new team member to unwritten office habits. What would you explain first?  
+   _SM-003938 · Scenario · pending editorial review_
+439. Describe learning a useful workplace custom from a colleague with a different background.  
+   _SM-003939 · Story starter · pending editorial review_
+440. How can organisations make room for different cultural expectations without turning everyone into a stereotype?  
+   _SM-003940 · Question · pending editorial review_
+441. What kinds of housing design encourage neighbours to become familiar without forcing them to socialise?  
+   _SM-003941 · Question · pending editorial review_
+442. Tell me about visiting a home where the arrangement of shared space reflected family traditions.  
+   _SM-003942 · Story starter · pending editorial review_
+443. A neighbourhood wants to renovate a common courtyard. What everyday uses should residents be asked about?  
+   _SM-003943 · Scenario · pending editorial review_
+444. Domestic spaces can preserve cultural habits that rarely appear in public ceremonies.  
+   _SM-003944 · Hot take · pending editorial review_
+445. Learning about multigenerational households or exploring how traditional compounds organise family life?  
+   _SM-003945 · Quick choice · pending editorial review_
+446. A shared cooking area or entrance can shape how often family members and neighbours encounter one another.  
+   _SM-003946 · Observation · pending editorial review_
+447. Have you noticed differences in how communities balance privacy and shared space at home?  
+   _SM-003947 · Question · pending editorial review_
+448. A designer studies homes in a warm climate and a cold climate. What local practices might explain the layouts?  
+   _SM-003948 · Scenario · pending editorial review_
+449. Describe a home you visited where the spaces themselves helped tell a family story.  
+   _SM-003949 · Story starter · pending editorial review_
+450. How might modern housing adapt older ideas of community without recreating outdated restrictions?  
+   _SM-003950 · Question · pending editorial review_
+451. What sound from your hometown would you want preserved in a cultural sound archive?  
+   _SM-003951 · Question · pending editorial review_
+452. Tell me about hearing a familiar call, bell or rhythm somewhere unexpected and recognising its origin.  
+   _SM-003952 · Story starter · pending editorial review_
+453. You can record one day of everyday sounds in a community. What might you choose besides music and speech?  
+   _SM-003953 · Scenario · pending editorial review_
+454. Sound can preserve an experience of place that photographs alone struggle to convey.  
+   _SM-003954 · Hot take · pending editorial review_
+455. Documenting the sounds of a busy traditional market or the quiet sounds around an old craft workshop?  
+   _SM-003955 · Quick choice · pending editorial review_
+456. Calls made by street sellers and workers can become part of a city's cultural vocabulary.  
+   _SM-003956 · Observation · pending editorial review_
+457. Have you noticed how a place sounds different during a holiday or community ceremony?  
+   _SM-003957 · Question · pending editorial review_
+458. An archive wants to record an elderly storyteller. What context should it preserve alongside their voice?  
+   _SM-003958 · Scenario · pending editorial review_
+459. Describe a sound that brings back a cultural celebration more vividly than an image.  
+   _SM-003959 · Story starter · pending editorial review_
+460. What changes when a community's familiar sounds gradually disappear from public life?  
+   _SM-003960 · Question · pending editorial review_
+461. What's an older creative tradition you've seen someone from your generation reinterpret successfully?  
+   _SM-003961 · Question · pending editorial review_
+462. Tell me about a conversation between an older maker and a younger designer that revealed different priorities.  
+   _SM-003962 · Story starter · pending editorial review_
+463. A youth arts group wants to collaborate with a traditional craft guild. What would make the exchange genuinely two-way?  
+   _SM-003963 · Scenario · pending editorial review_
+464. Tradition and innovation are not necessarily opposites when people understand why techniques developed.  
+   _SM-003964 · Hot take · pending editorial review_
+465. Learning an old storytelling method and adapting it for audio or learning a weaving technique and applying it to modern objects?  
+   _SM-003965 · Quick choice · pending editorial review_
+466. A younger creator may preserve a traditional skill by finding a use older makers never imagined.  
+   _SM-003966 · Observation · pending editorial review_
+467. Have you witnessed a disagreement about how to preserve an art form that led to a useful compromise?  
+   _SM-003967 · Question · pending editorial review_
+468. An artist wants to modernise a family craft. Whose advice would help them separate meaningful elements from practical habits?  
+   _SM-003968 · Scenario · pending editorial review_
+469. Describe learning something old from a younger person who had taken time to research it.  
+   _SM-003969 · Story starter · pending editorial review_
+470. How can communities encourage experimentation while still recognising the rights and contributions of original practitioners?  
+   _SM-003970 · Question · pending editorial review_
+471. How does a major annual festival change the everyday work of people living nearby?  
+   _SM-003971 · Question · pending editorial review_
+472. Tell me about seeing neighbourhood businesses prepare for a celebration long before visitors arrived.  
+   _SM-003972 · Story starter · pending editorial review_
+473. A town wants to grow its traditional festival without making it unaffordable for residents. What would you investigate?  
+   _SM-003973 · Scenario · pending editorial review_
+474. A festival's cultural value cannot be measured only by visitor numbers.  
+   _SM-003974 · Hot take · pending editorial review_
+475. Talking with costume makers before a festival or learning how local food vendors plan for large crowds?  
+   _SM-003975 · Quick choice · pending editorial review_
+476. Behind a public celebration there can be months of quiet work by people who rarely appear on stage.  
+   _SM-003976 · Observation · pending editorial review_
+477. Have you noticed a festival bringing new opportunities to craftspeople without changing their usual work year-round?  
+   _SM-003977 · Question · pending editorial review_
+478. Organisers want to involve young entrepreneurs while keeping a celebration accessible. Whose needs might compete?  
+   _SM-003978 · Scenario · pending editorial review_
+479. Describe an event where you learned more from the people preparing it than from the main programme.  
+   _SM-003979 · Story starter · pending editorial review_
+480. What responsibilities come with turning a community tradition into a tourist attraction?  
+   _SM-003980 · Question · pending editorial review_
+481. What stories about where your relatives lived before you were born would you most like to learn?  
+   _SM-003981 · Question · pending editorial review_
+482. Tell me about discovering a family custom that came from a place nobody in your household currently lives.  
+   _SM-003982 · Story starter · pending editorial review_
+483. You're mapping three generations of a family's moves between towns. What questions would you ask about each move?  
+   _SM-003983 · Scenario · pending editorial review_
+484. Family migration stories can help explain everyday customs that otherwise seem arbitrary.  
+   _SM-003984 · Hot take · pending editorial review_
+485. Tracing a family recipe across different homes or learning how a surname's pronunciation changed after relocation?  
+   _SM-003985 · Quick choice · pending editorial review_
+486. A single household can carry cultural influences from several different regions at once.  
+   _SM-003986 · Observation · pending editorial review_
+487. Have you heard an older relative describe a place you know as though it were a completely different town?  
+   _SM-003987 · Question · pending editorial review_
+488. A person wants to reconnect with the traditions of an ancestral community they've never visited. Where could they start respectfully?  
+   _SM-003988 · Scenario · pending editorial review_
+489. Describe hearing a family story that helped you understand someone's sense of belonging.  
+   _SM-003989 · Story starter · pending editorial review_
+490. How do people maintain ties to a place their families left long before they were born?  
+   _SM-003990 · Question · pending editorial review_
+491. What's a museum exhibition that made you ask more questions than it answered?  
+   _SM-003991 · Question · pending editorial review_
+492. Tell me about an exhibit where hearing a person's story changed how you viewed an object.  
+   _SM-003992 · Story starter · pending editorial review_
+493. A local museum has space for only ten objects to explain a community's history. Who should participate in choosing them?  
+   _SM-003993 · Scenario · pending editorial review_
+494. A good cultural exhibition should help visitors understand different perspectives, not merely admire rare objects.  
+   _SM-003994 · Hot take · pending editorial review_
+495. An exhibit where craftspeople demonstrate living traditions or one built around personal oral histories?  
+   _SM-003995 · Quick choice · pending editorial review_
+496. A short caption can change an object's meaning almost as much as the way it is displayed.  
+   _SM-003996 · Observation · pending editorial review_
+497. Have you ever seen a museum openly explain uncertainty or disagreement about an item's history?  
+   _SM-003997 · Question · pending editorial review_
+498. Your museum receives an object whose ownership history is disputed. What questions should be resolved before public display?  
+   _SM-003998 · Scenario · pending editorial review_
+499. Describe an exhibition that made a familiar part of daily life seem historically significant.  
+   _SM-003999 · Story starter · pending editorial review_
+500. What would make a small community museum more welcoming to people who don't normally visit museums?  
+   _SM-004000 · Question · pending editorial review_
