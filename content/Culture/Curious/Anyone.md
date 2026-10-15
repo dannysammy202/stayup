@@ -607,3 +607,205 @@ Target: 500. Entries remain editorial drafts until human approval.
    _SM-003799 · Story starter · pending editorial review_
 300. What would you want a future family member to understand about the celebrations photographed today?  
    _SM-003800 · Question · pending editorial review_
+
+
+301. What's a theatrical tradition you would like to understand through seeing it performed in its original setting?  
+   _SM-003801 · Question · pending editorial review_
+302. Tell me about watching a performance where the audience seemed to know when and how to respond.  
+   _SM-003802 · Story starter · pending editorial review_
+303. A cultural centre is presenting a traditional drama to newcomers. What context should it provide before the show begins?  
+   _SM-003803 · Scenario · pending editorial review_
+304. Theatre traditions can preserve a community's humour and concerns even as the stories evolve.  
+   _SM-003804 · Hot take · pending editorial review_
+305. Learning how traditional masks are used in performance or studying how storytelling and music work together onstage?  
+   _SM-003805 · Quick choice · pending editorial review_
+306. The relationship between performers and spectators can be an essential part of a theatrical tradition.  
+   _SM-003806 · Observation · pending editorial review_
+307. Have you noticed how a familiar story changes when performed with different gestures or costumes?  
+   _SM-003807 · Question · pending editorial review_
+308. A troupe wants to adapt an old play for younger audiences. Which elements would you ask them to consider carefully?  
+   _SM-003808 · Scenario · pending editorial review_
+309. Describe a performance that made you curious about the history of the community that created it.  
+   _SM-003809 · Story starter · pending editorial review_
+310. How can audiences appreciate unfamiliar performance traditions without expecting them to follow the conventions of modern film or theatre?  
+   _SM-003810 · Question · pending editorial review_
+311. What's a proverb you heard growing up whose meaning became clearer only with experience?  
+   _SM-003811 · Question · pending editorial review_
+312. Tell me about someone using a traditional saying to explain an ordinary disagreement.  
+   _SM-003812 · Story starter · pending editorial review_
+313. A visitor hears a proverb translated word for word and finds it confusing. How could you explain the situation where it's usually used?  
+   _SM-003813 · Scenario · pending editorial review_
+314. A good proverb can invite thought without always telling people exactly what to do.  
+   _SM-003814 · Hot take · pending editorial review_
+315. Learning the stories behind animal proverbs or comparing sayings about patience across cultures?  
+   _SM-003815 · Quick choice · pending editorial review_
+316. Some sayings remain memorable because their images are funny even when the lesson is serious.  
+   _SM-003816 · Observation · pending editorial review_
+317. Have you discovered two very different proverbs that express a surprisingly similar idea?  
+   _SM-003817 · Question · pending editorial review_
+318. A teacher wants children to explore proverbs without simply memorising them. What activity might help?  
+   _SM-003818 · Scenario · pending editorial review_
+319. Describe hearing a familiar saying used in an unexpected context that made everyone laugh.  
+   _SM-003819 · Story starter · pending editorial review_
+320. How do proverbs evolve when younger generations apply them to new situations?  
+   _SM-003820 · Question · pending editorial review_
+321. What everyday design detail makes you immediately think of a particular place or cultural tradition?  
+   _SM-003821 · Question · pending editorial review_
+322. Tell me about seeing a modern object that subtly borrowed a traditional craft technique.  
+   _SM-003822 · Story starter · pending editorial review_
+323. A designer wants to collaborate with a community whose visual traditions they admire. What should the first conversation cover?  
+   _SM-003823 · Scenario · pending editorial review_
+324. Cultural inspiration becomes more meaningful when creators acknowledge the people and stories behind it.  
+   _SM-003824 · Hot take · pending editorial review_
+325. Exploring traditional typography and lettering or studying patterns used in woven materials?  
+   _SM-003825 · Quick choice · pending editorial review_
+326. A familiar symbol can look different when translated from cloth to print or digital screens.  
+   _SM-003826 · Observation · pending editorial review_
+327. Have you noticed how local materials shape the way designers approach furniture or household objects?  
+   _SM-003827 · Question · pending editorial review_
+328. A public library wants a new visual identity rooted in the neighbourhood. Whose perspectives would you seek?  
+   _SM-003828 · Scenario · pending editorial review_
+329. Describe finding a design that brought together older methods and newer needs particularly well.  
+   _SM-003829 · Story starter · pending editorial review_
+330. What makes a design feel connected to a place without relying on the most obvious cultural symbols?  
+   _SM-003830 · Question · pending editorial review_
+331. What's a traditional calendar or seasonal cycle that you would like to understand more deeply?  
+   _SM-003831 · Question · pending editorial review_
+332. Tell me about discovering why a community observes an event at a different time from another.  
+   _SM-003832 · Story starter · pending editorial review_
+333. You are explaining a lunar calendar to someone used only to fixed months. What everyday example might help?  
+   _SM-003833 · Scenario · pending editorial review_
+334. Calendars reveal how communities have organised work, seasons and celebrations over long periods.  
+   _SM-003834 · Hot take · pending editorial review_
+335. Learning how harvest seasons shaped a festival calendar or exploring traditional ways of marking the start of a new year?  
+   _SM-003835 · Quick choice · pending editorial review_
+336. A calendar can encode local environmental knowledge as well as a way of counting days.  
+   _SM-003836 · Observation · pending editorial review_
+337. Have you noticed how different communities mark the transition from one stage of life or year to another?  
+   _SM-003837 · Question · pending editorial review_
+338. A museum wants visitors to understand several calendar systems without presenting one as the default. How might it organise the exhibit?  
+   _SM-003838 · Scenario · pending editorial review_
+339. Describe a holiday whose date or timing made more sense after somebody explained its history.  
+   _SM-003839 · Story starter · pending editorial review_
+340. How do people balance official calendars with traditional cycles that remain important to their community?  
+   _SM-003840 · Question · pending editorial review_
+341. What useful knowledge about plants, weather or landscapes is passed down informally where you grew up?  
+   _SM-003841 · Question · pending editorial review_
+342. Tell me about somebody explaining how they recognise a change in season without checking a forecast.  
+   _SM-003842 · Story starter · pending editorial review_
+343. A community plans to document older residents' observations about local rivers or trees. What questions should researchers ask?  
+   _SM-003843 · Scenario · pending editorial review_
+344. Traditional environmental knowledge deserves careful attention to its local context rather than romanticising or dismissing it.  
+   _SM-003844 · Hot take · pending editorial review_
+345. Learning how craftspeople choose locally available wood or understanding traditional ways of conserving water?  
+   _SM-003845 · Quick choice · pending editorial review_
+346. People who work closely with land and seasons often notice subtle changes others overlook.  
+   _SM-003846 · Observation · pending editorial review_
+347. Have you learned something practical about nature from someone outside a classroom?  
+   _SM-003847 · Question · pending editorial review_
+348. An environmental project wants to combine scientific measurements with residents' long-term observations. How could both contribute?  
+   _SM-003848 · Scenario · pending editorial review_
+349. Describe a local environmental practice whose reason you understood only after asking about it.  
+   _SM-003849 · Story starter · pending editorial review_
+350. How can traditional knowledge be documented while respecting the people who developed and maintain it?  
+   _SM-003850 · Question · pending editorial review_
+351. What makes travelling on public transport feel distinctly different from one city to another?  
+   _SM-003851 · Question · pending editorial review_
+352. Tell me about noticing a local travel custom when you first used buses, trains or ferries in a new place.  
+   _SM-003852 · Story starter · pending editorial review_
+353. A visitor needs to understand the unwritten rules of your city's transport. What would you explain first?  
+   _SM-003853 · Scenario · pending editorial review_
+354. Public transport has its own little social conventions that rarely appear on official maps.  
+   _SM-003854 · Hot take · pending editorial review_
+355. Exploring the history of colourful buses or learning how communal taxis became part of city life?  
+   _SM-003855 · Quick choice · pending editorial review_
+356. The calls of conductors, conversations and route names can become part of a city's cultural soundscape.  
+   _SM-003856 · Observation · pending editorial review_
+357. Have you ever noticed passengers helping one another navigate a system through shared informal knowledge?  
+   _SM-003857 · Question · pending editorial review_
+358. A museum is documenting transport culture. What ordinary objects or stories should it preserve?  
+   _SM-003858 · Scenario · pending editorial review_
+359. Describe a journey where a familiar transport custom became a conversation starter.  
+   _SM-003859 · Story starter · pending editorial review_
+360. How can cities modernise transport while preserving the community connections people have built around it?  
+   _SM-003860 · Question · pending editorial review_
+361. What milestone does your community mark in a way that people elsewhere might not expect?  
+   _SM-003861 · Question · pending editorial review_
+362. Tell me about attending a coming-of-age, graduation or other life-transition ceremony that taught you something.  
+   _SM-003862 · Story starter · pending editorial review_
+363. You're invited to a ceremony you don't know well. What would you ask about the roles of guests and participants?  
+   _SM-003863 · Scenario · pending editorial review_
+364. Milestone ceremonies often express what a community hopes for a person rather than simply marking their age.  
+   _SM-003864 · Hot take · pending editorial review_
+365. Learning about traditional naming celebrations or understanding customs around apprentices finishing their training?  
+   _SM-003865 · Quick choice · pending editorial review_
+366. A public ritual can make a personal transition feel shared across several generations.  
+   _SM-003866 · Observation · pending editorial review_
+367. Have you seen a family adapt a milestone celebration to better reflect its present circumstances?  
+   _SM-003867 · Question · pending editorial review_
+368. A young person wants to understand the meaning of a traditional ceremony before joining. Who might offer a thoughtful explanation?  
+   _SM-003868 · Scenario · pending editorial review_
+369. Describe an occasion where a short speech or gesture made a familiar milestone feel significant.  
+   _SM-003869 · Story starter · pending editorial review_
+370. How do communities decide which ceremonies should be optional, private or open to visitors?  
+   _SM-003870 · Question · pending editorial review_
+371. What could an old local newspaper teach us about everyday concerns that history books rarely mention?  
+   _SM-003871 · Question · pending editorial review_
+372. Tell me about reading an old advertisement or community notice that made you smile at how life had changed.  
+   _SM-003872 · Story starter · pending editorial review_
+373. You can spend one afternoon in a small-town newspaper archive. What kind of story would you search for?  
+   _SM-003873 · Scenario · pending editorial review_
+374. Local journalism can preserve details of community life long after larger events dominate people's memories.  
+   _SM-003874 · Hot take · pending editorial review_
+375. Comparing old cultural event listings or reading letters to the editor from several generations ago?  
+   _SM-003875 · Quick choice · pending editorial review_
+376. Small announcements about markets, performances and schools often reveal how a community spent its time.  
+   _SM-003876 · Observation · pending editorial review_
+377. Have you ever seen a local story that deserved wider attention but never reached national news?  
+   _SM-003877 · Question · pending editorial review_
+378. A community magazine wants to record changing traditions. Whose voices would you invite to contribute?  
+   _SM-003878 · Scenario · pending editorial review_
+379. Describe discovering something about your area through an old printed source rather than someone's memory.  
+   _SM-003879 · Story starter · pending editorial review_
+380. How can local media preserve cultural differences without treating people as curiosities?  
+   _SM-003880 · Question · pending editorial review_
+381. What's a local building or craft material whose use you would like to understand better?  
+   _SM-003881 · Question · pending editorial review_
+382. Tell me about seeing someone transform a very ordinary natural material into a remarkable object.  
+   _SM-003882 · Story starter · pending editorial review_
+383. A maker gives you clay, reeds and wood from their region. What would you ask before attempting a design?  
+   _SM-003883 · Scenario · pending editorial review_
+384. The materials available in a place can shape its creative traditions as strongly as people's artistic preferences.  
+   _SM-003884 · Hot take · pending editorial review_
+385. Learning how natural dyes are made or discovering how locally sourced fibres are prepared for weaving?  
+   _SM-003885 · Quick choice · pending editorial review_
+386. Two regions may develop different craft styles partly because their climates and raw materials differ.  
+   _SM-003886 · Observation · pending editorial review_
+387. Have you noticed how the texture of a traditional material changes the way a finished object looks and feels?  
+   _SM-003887 · Question · pending editorial review_
+388. A craft workshop wants to substitute an imported material with a local one. What qualities would they need to test?  
+   _SM-003888 · Scenario · pending editorial review_
+389. Describe learning why an artisan preferred a traditional material even when a modern alternative was available.  
+   _SM-003889 · Story starter · pending editorial review_
+390. What questions could reveal the environmental and cultural costs of producing a handmade object?  
+   _SM-003890 · Question · pending editorial review_
+391. How do you think cultural traditions change when a community has to rebuild after a major disruption?  
+   _SM-003891 · Question · pending editorial review_
+392. Tell me about a community event that returned after being absent for several years and what that meant to people.  
+   _SM-003892 · Story starter · pending editorial review_
+393. A local cultural centre has lost part of its archive. How could residents help reconstruct the stories it held?  
+   _SM-003893 · Scenario · pending editorial review_
+394. Keeping a tradition alive may sometimes require changing how it is practised.  
+   _SM-003894 · Hot take · pending editorial review_
+395. Recording older residents' memories of a festival or helping younger makers relearn a nearly forgotten craft?  
+   _SM-003895 · Quick choice · pending editorial review_
+396. Communities can carry cultural memory through people even when familiar buildings or objects disappear.  
+   _SM-003896 · Observation · pending editorial review_
+397. What would make you hopeful about a cultural practice that only a few people still know how to perform?  
+   _SM-003897 · Question · pending editorial review_
+398. A town wants to revive a community gathering but no longer has the old venue. What could guide a respectful new format?  
+   _SM-003898 · Scenario · pending editorial review_
+399. Describe witnessing people preserve an important shared experience by adapting to new circumstances.  
+   _SM-003899 · Story starter · pending editorial review_
+400. Who should have the strongest voice when a cultural practice is being revived or reinterpreted?  
+   _SM-003900 · Question · pending editorial review_
