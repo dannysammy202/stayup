@@ -1,19 +1,19 @@
-# Say More · Friends first-batch quality report
+# Friends / Chill / Relationships — content quality report
 
-Collection: Relationships / Chill / Friends
+Target: 500 starters in this eligible combination.  
+Written and bundled: 500.  
+Previously human-reviewed: 0 within this Friends collection.  
+Editorial state: all 500 entries are structurally screened drafts awaiting individual human approval.
 
-- Target per combination: 500
-- Built-in in this batch: 100
-- Previously published in other two combinations: 1,000
-- Total available after this batch: 1,100
-- Human-reviewed in the library: 100
-- Screened but awaiting individual human review: 1,000
-- Unique IDs and normalised text among 1,100: passed
-- Topic/mood/audience tag checks: passed
-- Length and source/content rating checks: passed
-- Format diversity: six formats represented in this batch
-- Cross-library content-word overlap ≥ 0.74: one borderline pair, SM-000891 and SM-001040; reviewed for distinct intent (group-chat misunderstanding versus choosing between old voice notes and photos)
-- Full semantic embedding screening: not run
-- Individual human editorial approval: outstanding
+The 300 newly authored entries, IDs SM-001201 through SM-001500, were screened against the earlier 1,200 built-in records. Five high-overlap candidates were rewritten. After revisions the combined 1,500-entry library has 1,500 unique sequential IDs, 1,500 unique normalised prompt strings, and no pairs meeting the lexical word-overlap threshold of 0.74 involving new entries.
 
-The first 100 Friends entries do not fulfil the 500-starter target. Keep the in-app review label visible. No placeholder or paraphrased records have been counted as approved.
+Automated lexical checks cannot establish meaning-level originality. Full semantic screening, human editorial review, and wider cultural and audience review remain pending. No unreviewed entry should be labelled human-approved.
+
+Published chunks:
+- relationships-chill-friends-1001-1100.json
+- relationships-chill-friends-1101-1200.json
+- relationships-chill-friends-1201-1300.json
+- relationships-chill-friends-1301-1400.json
+- relationships-chill-friends-1401-1500.json
+
+The app delivers these files automatically by topic, mood and audience; no visitor import or upload is required. Gemini remains available separately for optional ideas and More Angles.

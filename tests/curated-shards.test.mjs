@@ -25,7 +25,7 @@ test('selects content packs only for the requested topic, mood and audience', ()
   assert.deepEqual(someoneNew, Array.from(manifest.publishedCollections[1].shards));
   assert.equal(someoneNew.length,5);
   const friends=Array.from(selector.pathsForSelection(manifest,{...valid,audience:'Friends'},new Set(),8));
-  assert.equal(friends.length,2);
+  assert.equal(friends.length,5);
   const absent=Array.from(selector.pathsForSelection(manifest,{topic:'Family',mood:'Flirty',audience:'Family'},new Set(),8));
   assert.deepEqual(absent,[]);
 });
@@ -64,7 +64,7 @@ test('all published chunk counts correspond to the manifest', () => {
     assert.equal(actual,c.loadedCount,c.audience);
     return sum+actual;
   },0);
-  assert.equal(count,1200);
+  assert.equal(count,1500);
 });
 
 test('approved UI loads the selector and still retains Iconsax and Gemini', () => {

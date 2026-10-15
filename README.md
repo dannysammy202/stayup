@@ -17,7 +17,7 @@ Say More replaces the original StayUp interface in the existing `dannysammy202/s
 
 19 × 6 × 7 = 798 theoretical combinations. The editorial policy excludes 102 unsuitable pairings, leaving **696 eligible combinations** and an eventual **348,000-starter target**.
 
-**Current inventory:** 1,200 built-in entries from three combinations. Relationships / Chill / Anyone and Relationships / Chill / Someone new each have 500 starters. Relationships / Chill / Friends has 200 of 500. The first 100 were previously reviewed; the remaining 1,100 are machine-screened editorial drafts. They are not individually human-approved and must not be described as such. The other 346,800 starters have not been authored and validated.
+**Current inventory:** 1,500 built-in entries from three completed combinations. Relationships / Chill / Anyone and Relationships / Chill / Someone new each have 500 starters. Relationships / Chill / Friends has 500 of 500. The first 100 were previously reviewed; the remaining 1,400 are machine-screened editorial drafts. They are not individually human-approved and must not be described as such. The other 346,500 starters have not been authored and validated.
 
 ### Built-in content delivery
 
