@@ -203,3 +203,205 @@ Initial target: 200. Entries remain editorial drafts until human approval.
    _SM-008999 · Scenario · pending editorial review_
 100. A friendly karaoke round or a playlist where everyone explains one memory?  
    _SM-009000 · Quick choice · pending editorial review_
+
+
+101. Which film or television scene would feel completely different without its music?  
+   _SM-009001 · Question · pending editorial review_
+102. Describe noticing a soundtrack before you remembered anything else about a movie.  
+   _SM-009002 · Story starter · pending editorial review_
+103. Listen to a film score without watching the film or revisit the scenes where it was used?  
+   _SM-009003 · Quick choice · pending editorial review_
+104. We're asked to choose background music for a silent short film. Where would we begin?  
+   _SM-009004 · Scenario · pending editorial review_
+105. A short musical motif can make an ordinary character instantly recognisable.  
+   _SM-009005 · Observation · pending editorial review_
+106. A quiet soundtrack can be more effective than music that constantly demands attention.  
+   _SM-009006 · Hot take · pending editorial review_
+107. What movie theme do you associate with a particular character or place?  
+   _SM-009007 · Question · pending editorial review_
+108. Recall an animated film whose music you enjoyed long after childhood.  
+   _SM-009008 · Story starter · pending editorial review_
+109. Our group is making a short video about a relaxed afternoon. What kind of score would fit?  
+   _SM-009009 · Scenario · pending editorial review_
+110. A piano-led film soundtrack or an orchestral score with memorable themes?  
+   _SM-009010 · Quick choice · pending editorial review_
+111. Which radio programme introduced you to music you still enjoy?  
+   _SM-009011 · Question · pending editorial review_
+112. Tell us about hearing an unfamiliar song on the radio and trying to find its title.  
+   _SM-009012 · Story starter · pending editorial review_
+113. A live presenter explaining discoveries or a playlist that simply moves from track to track?  
+   _SM-009013 · Quick choice · pending editorial review_
+114. We have one hour to host a friendly radio segment. How would we balance music and conversation?  
+   _SM-009014 · Scenario · pending editorial review_
+115. The stories around songs can become part of why listeners remember them.  
+   _SM-009015 · Observation · pending editorial review_
+116. A presenter with genuine curiosity can make an ordinary playlist feel fresh.  
+   _SM-009016 · Hot take · pending editorial review_
+117. What kind of radio discussion would keep you listening between songs?  
+   _SM-009017 · Question · pending editorial review_
+118. Recall a favourite music broadcast that felt like an event in your household.  
+   _SM-009018 · Story starter · pending editorial review_
+119. Our group is curating a small online station for a weekend. What's its theme?  
+   _SM-009019 · Scenario · pending editorial review_
+120. An evening programme of listener requests or a morning show focused on new discoveries?  
+   _SM-009020 · Quick choice · pending editorial review_
+121. Which old recording would you love to hear restored without losing its character?  
+   _SM-009021 · Question · pending editorial review_
+122. Describe discovering an older song because a parent, neighbour or grandparent played it.  
+   _SM-009022 · Story starter · pending editorial review_
+123. Compare different performances of a classic song or explore how its original instruments were recorded?  
+   _SM-009023 · Quick choice · pending editorial review_
+124. A friend finds a collection of old records with no labels. How should we explore them?  
+   _SM-009024 · Scenario · pending editorial review_
+125. Recording styles can tell you something about the technology and performance habits of their era.  
+   _SM-009025 · Observation · pending editorial review_
+126. Cleaner audio isn't automatically a better listening experience.  
+   _SM-009026 · Hot take · pending editorial review_
+127. What feature of older recordings makes them interesting to you?  
+   _SM-009027 · Question · pending editorial review_
+128. Recall recognising a familiar melody in a recording from another decade.  
+   _SM-009028 · Story starter · pending editorial review_
+129. We want to make a listening session about the music our relatives grew up with. Who would we ask first?  
+   _SM-009029 · Scenario · pending editorial review_
+130. Discover a forgotten local favourite or listen to a well-known album from an earlier generation?  
+   _SM-009030 · Quick choice · pending editorial review_
+131. What difference between two singers' voices makes you recognise them immediately?  
+   _SM-009031 · Question · pending editorial review_
+132. Tell us about hearing a vocalist perform live and noticing something the studio version hid.  
+   _SM-009032 · Story starter · pending editorial review_
+133. A soft, expressive delivery or a powerful voice that fills the room?  
+   _SM-009033 · Quick choice · pending editorial review_
+134. We each choose a vocalist to introduce to somebody who has never heard their music. What qualities would we describe?  
+   _SM-009034 · Scenario · pending editorial review_
+135. The texture of a voice can carry emotion even when the words aren't familiar.  
+   _SM-009035 · Observation · pending editorial review_
+136. Technical range isn't the only measure of a memorable singer.  
+   _SM-009036 · Hot take · pending editorial review_
+137. Which singer uses silence or restraint in a way you admire?  
+   _SM-009037 · Question · pending editorial review_
+138. Recall finding a cover version that changed your opinion of the original song.  
+   _SM-009038 · Story starter · pending editorial review_
+139. We want to compare the same tune sung in two very different styles. What would be fair to listen for?  
+   _SM-009039 · Scenario · pending editorial review_
+140. A stripped-back vocal performance or an arrangement built around layered harmonies?  
+   _SM-009040 · Quick choice · pending editorial review_
+141. Which musical instrument do you think friends could learn together with little equipment?  
+   _SM-009041 · Question · pending editorial review_
+142. Describe hearing a percussion pattern that made you want to tap along.  
+   _SM-009042 · Story starter · pending editorial review_
+143. Try a simple group rhythm exercise or learn a melody one phrase at a time?  
+   _SM-009043 · Quick choice · pending editorial review_
+144. We're given an afternoon to make music with everyday objects. How would we create a rhythm together?  
+   _SM-009044 · Scenario · pending editorial review_
+145. A small musical pattern can change character when a second player responds to it.  
+   _SM-009045 · Observation · pending editorial review_
+146. Playing in time with others is a skill worth appreciating even when the music seems simple.  
+   _SM-009046 · Hot take · pending editorial review_
+147. What's a rhythm you can recognise before the melody begins?  
+   _SM-009047 · Question · pending editorial review_
+148. Recall someone demonstrating how changing the tempo transformed a familiar musical idea.  
+   _SM-009048 · Story starter · pending editorial review_
+149. A friend wants to understand what a groove is. How might we explain it by listening?  
+   _SM-009049 · Scenario · pending editorial review_
+150. Explore hand percussion from several traditions or learn how a drum kit supports a band?  
+   _SM-009050 · Quick choice · pending editorial review_
+151. What effect does music have on the way you remember a journey?  
+   _SM-009051 · Question · pending editorial review_
+152. Tell us about walking through an unfamiliar place while a song made the moment stand out.  
+   _SM-009052 · Story starter · pending editorial review_
+153. Listen to the sounds around you during a trip or play music that fits the scenery?  
+   _SM-009053 · Quick choice · pending editorial review_
+154. We're taking an overnight train with time to talk. What sort of music would suit the changing landscape?  
+   _SM-009054 · Scenario · pending editorial review_
+155. A familiar track can become tied to a very specific view or time of year.  
+   _SM-009055 · Observation · pending editorial review_
+156. Some journeys deserve silence as much as they deserve a soundtrack.  
+   _SM-009056 · Hot take · pending editorial review_
+157. Which place has music playing in the background whenever you remember it?  
+   _SM-009057 · Question · pending editorial review_
+158. Recall visiting a shop or café whose music made it feel different from others nearby.  
+   _SM-009058 · Story starter · pending editorial review_
+159. We want to remember a holiday through a short playlist. What would make the choices meaningful?  
+   _SM-009059 · Scenario · pending editorial review_
+160. Build a soundtrack before a trip or make one afterwards based on the memories?  
+   _SM-009060 · Quick choice · pending editorial review_
+161. What makes a music video worth revisiting even when you know the song well?  
+   _SM-009061 · Question · pending editorial review_
+162. Describe seeing a video that completely changed your mental picture of a track.  
+   _SM-009062 · Story starter · pending editorial review_
+163. A simple live-performance video or an elaborate visual story with a clear idea?  
+   _SM-009063 · Quick choice · pending editorial review_
+164. We're asked to shoot a one-minute video for a friend's original song. What setting would we choose?  
+   _SM-009064 · Scenario · pending editorial review_
+165. The most memorable visuals can come from a simple concept executed consistently.  
+   _SM-009065 · Observation · pending editorial review_
+166. A video doesn't need expensive effects to reveal something about the music.  
+   _SM-009066 · Hot take · pending editorial review_
+167. Which music video has a visual idea you'd like to discuss with friends?  
+   _SM-009067 · Question · pending editorial review_
+168. Recall noticing a small performance or design detail on a second viewing.  
+   _SM-009068 · Story starter · pending editorial review_
+169. Our group wants to make a music visual without showing faces. What objects or locations might communicate the mood?  
+   _SM-009069 · Scenario · pending editorial review_
+170. Film musicians performing together or follow an original character through a short story?  
+   _SM-009070 · Quick choice · pending editorial review_
+171. What kind of music helps you stay present while working on something creative?  
+   _SM-009071 · Question · pending editorial review_
+172. Tell us about discovering that a different listening environment improved your concentration.  
+   _SM-009072 · Story starter · pending editorial review_
+173. Instrumental background music or familiar songs that don't pull you away from the task?  
+   _SM-009073 · Quick choice · pending editorial review_
+174. Our friends rent a shared studio space and prefer different listening levels. What would make the arrangement work?  
+   _SM-009074 · Scenario · pending editorial review_
+175. The music that helps one person focus can be distracting to another.  
+   _SM-009075 · Observation · pending editorial review_
+176. A good work playlist doesn't need to be interesting enough to become the main activity.  
+   _SM-009076 · Hot take · pending editorial review_
+177. Which sonic detail makes a track feel peaceful without becoming dull?  
+   _SM-009077 · Question · pending editorial review_
+178. Recall finishing a project while the same quiet album played in the background.  
+   _SM-009078 · Story starter · pending editorial review_
+179. We want a soundtrack for an afternoon of reading, drawing and planning. What features should we look for?  
+   _SM-009079 · Scenario · pending editorial review_
+180. A gentle ambient soundscape or acoustic melodies with plenty of space?  
+   _SM-009080 · Quick choice · pending editorial review_
+181. Which song would you choose to mark the end of a memorable gathering?  
+   _SM-009081 · Question · pending editorial review_
+182. Describe watching a crowd sing together during an event without needing a performer to lead.  
+   _SM-009082 · Story starter · pending editorial review_
+183. End a party with an energetic favourite or a calmer song that signals it's time to leave?  
+   _SM-009083 · Quick choice · pending editorial review_
+184. We have to create a musical moment for a friend's farewell. How could it be personal without being awkward?  
+   _SM-009084 · Scenario · pending editorial review_
+185. The order of songs can shape how people remember the end of an evening.  
+   _SM-009085 · Observation · pending editorial review_
+186. A familiar closing track can become a tradition without anyone planning it.  
+   _SM-009086 · Hot take · pending editorial review_
+187. What musical moment has brought a group of strangers together for a few minutes?  
+   _SM-009087 · Question · pending editorial review_
+188. Recall a celebration where the music suddenly matched the mood perfectly.  
+   _SM-009088 · Story starter · pending editorial review_
+189. We're setting up a small birthday gathering for somebody who dislikes loud music. How would we choose a soundtrack?  
+   _SM-009089 · Scenario · pending editorial review_
+190. Invite friends to dedicate a song or let everyone quietly add a track to a shared playlist?  
+   _SM-009090 · Quick choice · pending editorial review_
+191. What do you enjoy discovering about an artist after you've liked their music for years?  
+   _SM-009091 · Question · pending editorial review_
+192. Tell us about an interview that made you understand a musician's process differently.  
+   _SM-009092 · Story starter · pending editorial review_
+193. Read about an artist's musical influences or watch them demonstrate how they wrote a song?  
+   _SM-009093 · Quick choice · pending editorial review_
+194. We get to ask a local musician three thoughtful questions after a show. What would be worth asking?  
+   _SM-009094 · Scenario · pending editorial review_
+195. An artist's creative habits can be as interesting as the finished recordings.  
+   _SM-009095 · Observation · pending editorial review_
+196. You can admire a musician's work without agreeing with every opinion they express.  
+   _SM-009096 · Hot take · pending editorial review_
+197. Which album would you want to hear its creator discuss track by track?  
+   _SM-009097 · Question · pending editorial review_
+198. Recall discovering a musician's early work and noticing how their style evolved.  
+   _SM-009098 · Story starter · pending editorial review_
+199. Our group is making a short documentary about a neighbourhood artist. What story should it tell beyond their performances?  
+   _SM-009099 · Scenario · pending editorial review_
+200. Learn about the making of a breakthrough song or the quieter work an artist is proud of?  
+   _SM-009100 · Quick choice · pending editorial review_
