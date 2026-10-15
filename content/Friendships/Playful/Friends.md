@@ -407,3 +407,205 @@ Target: 500. Entries remain editorial drafts until human approval.
    _SM-002199 · Quick choice · pending editorial review_
 200. The ideal celebration is one where nobody has to pretend they know how to dance.  
    _SM-002200 · Hot take · pending editorial review_
+
+
+201. A parrot learns one phrase from every person in our group. Which phrase causes the most trouble?  
+   _SM-002201 · Scenario · pending editorial review_
+202. Which friend would take an unusually confident pigeon as a personal challenge?  
+   _SM-002202 · Question · pending editorial review_
+203. Our group volunteering at a puppy adoption event or trying to photograph squirrels without disturbing them?  
+   _SM-002203 · Quick choice · pending editorial review_
+204. A cat walking across the board game is a better excuse for losing than anything a person could invent.  
+   _SM-002204 · Hot take · pending editorial review_
+205. Tell me about an animal interrupting a perfectly serious conversation at exactly the wrong moment.  
+   _SM-002205 · Story starter · pending editorial review_
+206. People who insist they dislike pets sometimes have the most detailed opinions about someone else's dog.  
+   _SM-002206 · Observation · pending editorial review_
+207. Which friend would secretly spend a holiday feeding every stray cat on the street?  
+   _SM-002207 · Question · pending editorial review_
+208. A tiny dog steals the picnic blanket we're sitting on. Who negotiates with it?  
+   _SM-002208 · Scenario · pending editorial review_
+209. Giving imaginary job titles to zoo animals or creating a backstory for the neighbour's mysterious cat?  
+   _SM-002209 · Quick choice · pending editorial review_
+210. If a bird starts copying our laughter, we should probably accept it as an honorary friend.  
+   _SM-002210 · Hot take · pending editorial review_
+211. What kind of costume would you secretly enjoy wearing if nobody you knew could judge it?  
+   _SM-002211 · Question · pending editorial review_
+212. We're asked to lead a street parade, but nobody knows the dance. Who pretends to be the choreographer?  
+   _SM-002212 · Scenario · pending editorial review_
+213. Building a colourful festival float or inventing an absurd marching-band routine?  
+   _SM-002213 · Quick choice · pending editorial review_
+214. Tell me about a public celebration where the crowd became more entertaining than the programme.  
+   _SM-002214 · Story starter · pending editorial review_
+215. At every festival, someone becomes fascinated by the food stalls and forgets why they came.  
+   _SM-002215 · Observation · pending editorial review_
+216. The friend who insists they know the song should be required to sing the second verse.  
+   _SM-002216 · Hot take · pending editorial review_
+217. Which friend would find the quietest corner of a festival and return with the best stories?  
+   _SM-002217 · Question · pending editorial review_
+218. Our group enters a costume contest and learns the theme changed yesterday. What's our explanation?  
+   _SM-002218 · Scenario · pending editorial review_
+219. A dance-off between neighbouring streets or a competition for the most creative homemade banner?  
+   _SM-002219 · Quick choice · pending editorial review_
+220. Have you ever enjoyed an event far more because the people around you were having fun?  
+   _SM-002220 · Story starter · pending editorial review_
+221. If our group wrote anonymous restaurant reviews, whose comments would give us away immediately?  
+   _SM-002221 · Question · pending editorial review_
+222. We are food critics reviewing our own cooking. Who refuses to award anything above three stars?  
+   _SM-002222 · Scenario · pending editorial review_
+223. Judging a restaurant by its chips or by the way it serves a simple glass of water?  
+   _SM-002223 · Quick choice · pending editorial review_
+224. The most dramatic food critic in a friend group is often the person who eats everything anyway.  
+   _SM-002224 · Hot take · pending editorial review_
+225. Everyone has a different definition of what counts as 'not too spicy'.  
+   _SM-002225 · Observation · pending editorial review_
+226. Tell me about a meal that went from disaster to excellent because somebody improvised.  
+   _SM-002226 · Story starter · pending editorial review_
+227. Which one of us would spend fifteen minutes describing the texture of a single biscuit?  
+   _SM-002227 · Question · pending editorial review_
+228. We open a restaurant where every dish must be named after a friend. What appears on the menu?  
+   _SM-002228 · Scenario · pending editorial review_
+229. A blind comparison of supermarket snacks or a competition to invent the best sandwich combination?  
+   _SM-002229 · Quick choice · pending editorial review_
+230. Friends should be banned from saying 'I'm not hungry' immediately before eating someone else's dessert.  
+   _SM-002230 · Hot take · pending editorial review_
+231. We find an old map with three crosses on it. Who decides it absolutely must lead to treasure?  
+   _SM-002231 · Scenario · pending editorial review_
+232. Which friend would follow a mysterious clue even after finding out it's probably an advertisement?  
+   _SM-002232 · Question · pending editorial review_
+233. Searching for unusual street names or collecting photographs of funny shop signs?  
+   _SM-002233 · Quick choice · pending editorial review_
+234. People doing a scavenger hunt look suspicious even when they're doing nothing more than counting doors.  
+   _SM-002234 · Observation · pending editorial review_
+235. An excellent treasure hunt includes at least one clue that sends everybody confidently in the wrong direction.  
+   _SM-002235 · Hot take · pending editorial review_
+236. Tell me about accidentally finding something useful while searching for something completely unrelated.  
+   _SM-002236 · Story starter · pending editorial review_
+237. If you hid a prize somewhere in your neighbourhood, what ordinary place would be a clever choice?  
+   _SM-002237 · Question · pending editorial review_
+238. Our group has to locate a red umbrella somewhere in a crowded park. What is the first strategy?  
+   _SM-002238 · Scenario · pending editorial review_
+239. Following a series of handwritten clues or solving riddles sent by voice message?  
+   _SM-002239 · Quick choice · pending editorial review_
+240. The person who claims every puzzle is obvious should explain their answers before seeing the solution.  
+   _SM-002240 · Hot take · pending editorial review_
+241. If our friend group made history textbooks, which minor event would receive an entire chapter?  
+   _SM-002241 · Question · pending editorial review_
+242. An archaeologist from the future finds our group chat. What false conclusion would they draw about civilisation?  
+   _SM-002242 · Scenario · pending editorial review_
+243. Having a tiny statue made in your honour or having a bus stop named after your funniest mistake?  
+   _SM-002243 · Quick choice · pending editorial review_
+244. Every group has an argument whose origin becomes harder to remember than the argument itself.  
+   _SM-002244 · Observation · pending editorial review_
+245. Future historians would never understand the importance of a screenshot with no context.  
+   _SM-002245 · Hot take · pending editorial review_
+246. Tell me about a small incident your friends now refer to as though it were a historic event.  
+   _SM-002246 · Story starter · pending editorial review_
+247. Which friend would insist on correcting every date in our imaginary museum catalogue?  
+   _SM-002247 · Question · pending editorial review_
+248. Our friendship timeline must include one major turning point. What harmless event gets nominated?  
+   _SM-002248 · Scenario · pending editorial review_
+249. Writing our history in exaggerated medieval language or drawing it as a chaotic comic strip?  
+   _SM-002249 · Quick choice · pending editorial review_
+250. The funniest memoir is one where the person being described is allowed to write footnotes.  
+   _SM-002250 · Hot take · pending editorial review_
+251. Which friend starts explaining how to do something after watching one thirty-second tutorial?  
+   _SM-002251 · Question · pending editorial review_
+252. You have five minutes to teach the group how to fold a paper plane. Who somehow creates a paper hat?  
+   _SM-002252 · Scenario · pending editorial review_
+253. Learning to whistle with two fingers or finding out how to spin a basketball?  
+   _SM-002253 · Quick choice · pending editorial review_
+254. The best teacher among friends is the one who admits when they cannot do the thing either.  
+   _SM-002254 · Hot take · pending editorial review_
+255. Tell me about a lesson that accidentally became a comedy routine.  
+   _SM-002255 · Story starter · pending editorial review_
+256. Everybody listens carefully until the teacher says 'the rest is simple'.  
+   _SM-002256 · Observation · pending editorial review_
+257. What very specific skill would you love to demonstrate with a ridiculous amount of confidence?  
+   _SM-002257 · Question · pending editorial review_
+258. Our friend volunteers to teach origami and loses the instructions halfway through. What animal do we say we made?  
+   _SM-002258 · Scenario · pending editorial review_
+259. Trying a beginners' salsa step together or learning to tie an unusually fancy knot?  
+   _SM-002259 · Quick choice · pending editorial review_
+260. Have you ever successfully taught someone a skill you only learned that morning?  
+   _SM-002260 · Story starter · pending editorial review_
+261. We each get to name one street in an imaginary town. Which friend chooses something deeply embarrassing?  
+   _SM-002261 · Scenario · pending editorial review_
+262. What business should every friendly neighbourhood have, even if it makes almost no profit?  
+   _SM-002262 · Question · pending editorial review_
+263. A town with a public hammock park or a town with free board games at every café?  
+   _SM-002263 · Quick choice · pending editorial review_
+264. If friends design a town together, they will argue about the location of the bakery before the hospital.  
+   _SM-002264 · Hot take · pending editorial review_
+265. The person who loves maps will take the fictional town planning far more seriously than anyone expected.  
+   _SM-002265 · Observation · pending editorial review_
+266. Tell me about a place that looked so unusual you wondered whether somebody had invented it for a story.  
+   _SM-002266 · Story starter · pending editorial review_
+267. Which friend should be banned from designing the road signs in our imaginary town?  
+   _SM-002267 · Question · pending editorial review_
+268. Our fictional town elects a mascot, but the candidates are a goose and a very angry tortoise. Who wins?  
+   _SM-002268 · Scenario · pending editorial review_
+269. A free outdoor cinema in the town square or a library open all night?  
+   _SM-002269 · Quick choice · pending editorial review_
+270. Our town council would spend its entire first meeting debating what to call the council.  
+   _SM-002270 · Hot take · pending editorial review_
+271. Which friend would become friends with the driver before we'd even left the bus station?  
+   _SM-002271 · Question · pending editorial review_
+272. Our group has to travel across town using only transport none of us has ever tried. What happens first?  
+   _SM-002272 · Scenario · pending editorial review_
+273. Riding an old-fashioned tram for fun or trying a water taxi with absolutely no destination in mind?  
+   _SM-002273 · Quick choice · pending editorial review_
+274. Tell me about the strangest conversation you've overheard on public transport.  
+   _SM-002274 · Story starter · pending editorial review_
+275. Someone on every long journey announces they do not need the bathroom ten minutes before the next stop.  
+   _SM-002275 · Observation · pending editorial review_
+276. The friend carrying snacks on public transport has more influence than the person holding the tickets.  
+   _SM-002276 · Hot take · pending editorial review_
+277. Who would treat an airport moving walkway as a competitive sporting event?  
+   _SM-002277 · Question · pending editorial review_
+278. We all board a train, but the carriage is silent and one friend starts humming the wrong tune. Who joins in?  
+   _SM-002278 · Scenario · pending editorial review_
+279. Watching scenery change during a train journey or inventing backstories for unusual station names?  
+   _SM-002279 · Quick choice · pending editorial review_
+280. What's the funniest thing a friend has forgotten to pack for a very short journey?  
+   _SM-002280 · Story starter · pending editorial review_
+281. What everyday annoyance deserves a completely unnecessary machine to solve it?  
+   _SM-002281 · Question · pending editorial review_
+282. Our group is inventing a robot whose only job is finding missing socks. Which feature causes chaos?  
+   _SM-002282 · Scenario · pending editorial review_
+283. A self-folding umbrella that sometimes sings or a lunchbox that loudly announces when it's opened?  
+   _SM-002283 · Quick choice · pending editorial review_
+284. Half the inventions we dream up with friends would be more complicated than the problems they solve.  
+   _SM-002284 · Hot take · pending editorial review_
+285. Someone always volunteers to name the invention before anybody agrees what it does.  
+   _SM-002285 · Observation · pending editorial review_
+286. Tell me about a clever-looking gadget that failed spectacularly when somebody demonstrated it.  
+   _SM-002286 · Story starter · pending editorial review_
+287. Which friend could convince strangers to invest in a machine that compliments houseplants?  
+   _SM-002287 · Question · pending editorial review_
+288. The prototype of our automatic pancake flipper launches breakfast across the room. Who takes responsibility?  
+   _SM-002288 · Scenario · pending editorial review_
+289. Inventing a device to stop people misplacing keys or one that reminds you why you entered a room?  
+   _SM-002289 · Quick choice · pending editorial review_
+290. The best joke inventions still need serious-looking diagrams and completely unnecessary technical terms.  
+   _SM-002290 · Hot take · pending editorial review_
+291. Which boring daily task deserves a glamorous annual awards ceremony?  
+   _SM-002291 · Question · pending editorial review_
+292. Our group has to give an emotional acceptance speech for successfully finding a parking spot. Who cries first?  
+   _SM-002292 · Scenario · pending editorial review_
+293. A trophy for the neatest packed lunch or one for surviving the most confusing supermarket checkout?  
+   _SM-002293 · Quick choice · pending editorial review_
+294. The most ordinary chore can become dramatic when somebody insists on announcing every step.  
+   _SM-002294 · Observation · pending editorial review_
+295. Being the first person to change an empty toilet roll deserves applause in some households.  
+   _SM-002295 · Hot take · pending editorial review_
+296. Tell me about an ordinary task you celebrated because it had been annoying you for months.  
+   _SM-002296 · Story starter · pending editorial review_
+297. Which friend would create a standing ovation after someone finally returned a borrowed charger?  
+   _SM-002297 · Question · pending editorial review_
+298. We're hosting an award show for the best excuse for being five minutes late. Who wins?  
+   _SM-002298 · Scenario · pending editorial review_
+299. A medal for perfectly peeling an orange or one for opening a stubborn jar without help?  
+   _SM-002299 · Quick choice · pending editorial review_
+300. An award ceremony for everyday survival should be hosted by the most dramatic friend available.  
+   _SM-002300 · Hot take · pending editorial review_
