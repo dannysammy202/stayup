@@ -43,3 +43,25 @@ Initial target: 200. Entries remain editorial drafts until human approval.
    _SM-005719 · Quick choice · pending editorial review_
 20. What's one place you'd enjoy showing someone because it says something about you?  
    _SM-005720 · Question · pending editorial review_
+
+
+21. What game are you suspiciously confident you'd beat me at?  
+   _SM-005721 · Question · pending editorial review_
+22. We're playing mini-golf and I miss the easiest shot. What's your reaction?  
+   _SM-005722 · Scenario · pending editorial review_
+23. A competitive board-game night or a cooperative escape-room challenge?  
+   _SM-005723 · Quick choice · pending editorial review_
+24. Playful rivalry is more entertaining when both people are willing to lose gracefully.  
+   _SM-005724 · Hot take · pending editorial review_
+25. What's the funniest time you got far too invested in a game that didn't matter?  
+   _SM-005725 · Story starter · pending editorial review_
+26. People reveal a surprising amount of personality when the scoreboard is close.  
+   _SM-005726 · Observation · pending editorial review_
+27. If we had a rematch tradition, what activity should we choose?  
+   _SM-005727 · Question · pending editorial review_
+28. I win a trivia round by guessing every answer. Do you congratulate me or demand a rematch?  
+   _SM-005728 · Scenario · pending editorial review_
+29. Winner chooses the dessert or loser gets to invent the next challenge?  
+   _SM-005729 · Quick choice · pending editorial review_
+30. What's a game you pretend not to care about until someone starts keeping score?  
+   _SM-005730 · Question · pending editorial review_
