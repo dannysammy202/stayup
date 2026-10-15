@@ -17,7 +17,7 @@ Say More replaces the original StayUp interface in the existing `dannysammy202/s
 
 19 × 6 × 7 = 798 theoretical combinations. The editorial policy excludes 102 unsuitable pairings, leaving **696 eligible combinations** and an eventual **348,000-starter target**.
 
-**Current inventory:** 1,500 built-in entries from three completed combinations. Relationships / Chill / Anyone and Relationships / Chill / Someone new each have 500 starters. Relationships / Chill / Friends has 500 of 500. The first 100 were previously reviewed; the remaining 1,400 are machine-screened editorial drafts. They are not individually human-approved and must not be described as such. The other 346,500 starters have not been authored and validated.
+**Current inventory:** 1,600 built-in entries across four combinations. Relationships / Chill / Anyone, Someone new and Friends have 500 each. Relationships / Chill / Crush / Talking stage has its first 100 of 500. The first 100 starters have prior editorial review status; the remaining 1,500 are machine-screened candidates awaiting human editorial review and fuller semantic similarity screening. **346,400** additional slots remain unwritten and are not presented as complete.
 
 ### Built-in content delivery
 
@@ -39,3 +39,8 @@ Node 22 or newer.
 - Vercel serves the PWA and `api/ai/generate.js` plus `api/health.js`.
 
 Set `GEMINI_API_KEY` for optional AI support. Do not commit secrets. Gemini stays outside the curated adults-only area. Full production age assurance and distributed usage limits still require completion before public launch.
+
+
+## Continuous editorial production
+
+New authored batches are committed to `content/inbox/` on a content branch. GitHub Actions runs `npm run content:publish` on each batch, validates the whole corpus, builds Say More, and commits generated local JSON, Markdown and manifest files back to that branch. Only validated branches are merged to `main` and deployed. No browser upload step or runtime Gemini call is used to populate the normal feed. See `content/CONTENT_PRODUCTION.md` for content quality, exclusions and editorial sign-off policy.
