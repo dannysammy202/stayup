@@ -609,3 +609,205 @@ Target: 500. Entries remain editorial drafts until human approval.
    _SM-002299 · Quick choice · pending editorial review_
 300. An award ceremony for everyday survival should be hosted by the most dramatic friend available.  
    _SM-002300 · Hot take · pending editorial review_
+
+
+301. Our group has to deliver a birthday cake like a secret mission. Who accidentally announces the plan on a loudspeaker?  
+   _SM-002301 · Scenario · pending editorial review_
+302. Which friend could convincingly pretend to be an undercover detective for about thirty seconds?  
+   _SM-002302 · Question · pending editorial review_
+303. A spy mission hidden inside a garden party or a mystery involving a missing library book?  
+   _SM-002303 · Quick choice · pending editorial review_
+304. Our secret headquarters would be discovered immediately because somebody insisted on installing a neon sign.  
+   _SM-002304 · Hot take · pending editorial review_
+305. Tell me about a plan among friends that required far more secrecy than it actually deserved.  
+   _SM-002305 · Story starter · pending editorial review_
+306. There's always one person who whispers more loudly than everybody else speaks.  
+   _SM-002306 · Observation · pending editorial review_
+307. What's the worst possible code name the group could give you?  
+   _SM-002307 · Question · pending editorial review_
+308. We have to exchange a secret message using only fruit in a grocery basket. What's the system?  
+   _SM-002308 · Scenario · pending editorial review_
+309. Disguises that are far too convincing or passwords nobody in the group can remember?  
+   _SM-002309 · Quick choice · pending editorial review_
+310. The most successful secret mission is the one where nobody gets distracted by snacks.  
+   _SM-002310 · Hot take · pending editorial review_
+311. If our group traded skills for an afternoon, which friend's skill would you borrow first?  
+   _SM-002311 · Question · pending editorial review_
+312. You have to teach someone a task in ten minutes while wearing oven mitts. What are you teaching?  
+   _SM-002312 · Scenario · pending editorial review_
+313. Learning to decorate cakes from a friend or learning to take great portraits on a phone?  
+   _SM-002313 · Quick choice · pending editorial review_
+314. The person who says a skill is easy often forgets how long it took them to learn it.  
+   _SM-002314 · Observation · pending editorial review_
+315. Nobody should judge the first pancake made by someone who's teaching themselves to cook.  
+   _SM-002315 · Hot take · pending editorial review_
+316. Tell me about a friend who patiently taught you something they genuinely could have done faster themselves.  
+   _SM-002316 · Story starter · pending editorial review_
+317. Which unusual skill would earn the most tickets at our imaginary friendship skill fair?  
+   _SM-002317 · Question · pending editorial review_
+318. Our group has to teach an alien three ordinary human activities. Which one gets the funniest explanation?  
+   _SM-002318 · Scenario · pending editorial review_
+319. Learning a card trick from a friend or figuring out how to solve a Rubik's Cube together?  
+   _SM-002319 · Quick choice · pending editorial review_
+320. Being able to explain something simply is worth more than making the explanation sound impressive.  
+   _SM-002320 · Hot take · pending editorial review_
+321. Our friend group adopts a pet tortoise. Who makes a detailed walking schedule for it?  
+   _SM-002321 · Scenario · pending editorial review_
+322. What animal would best represent your friends' combined personality?  
+   _SM-002322 · Question · pending editorial review_
+323. A very polite goat as our unofficial mascot or a sleepy owl that refuses to attend meetings?  
+   _SM-002323 · Quick choice · pending editorial review_
+324. An imaginary pet shared by several friends would have more nicknames than anyone could remember.  
+   _SM-002324 · Hot take · pending editorial review_
+325. Everyone is brave about animal noises until the sound comes from inside an empty cupboard.  
+   _SM-002325 · Observation · pending editorial review_
+326. Tell me about an animal that made an unexpected guest appearance during a social gathering.  
+   _SM-002326 · Story starter · pending editorial review_
+327. Which friend would be caught speaking to the group pet as though it understood complicated gossip?  
+   _SM-002327 · Question · pending editorial review_
+328. Our mascot escapes with the list of birthday plans in its mouth. Who attempts negotiations?  
+   _SM-002328 · Scenario · pending editorial review_
+329. Training a dog to fetch slippers or teaching a parrot a harmless catchphrase?  
+   _SM-002329 · Quick choice · pending editorial review_
+330. A dog with excellent manners would become the only reliable member of our planning committee.  
+   _SM-002330 · Hot take · pending editorial review_
+331. What very ordinary thing in your neighbourhood deserves its own absurd tourist attraction?  
+   _SM-002331 · Question · pending editorial review_
+332. We must persuade visitors that a tiny pothole is a historic monument. What's our official story?  
+   _SM-002332 · Scenario · pending editorial review_
+333. A guided tour of unusual front doors or a museum dedicated entirely to everyday umbrellas?  
+   _SM-002333 · Quick choice · pending editorial review_
+334. Tell me about a tourist attraction you found much stranger than the promotional pictures suggested.  
+   _SM-002334 · Story starter · pending editorial review_
+335. People queue for surprising things when there's a person nearby confidently describing them as famous.  
+   _SM-002335 · Observation · pending editorial review_
+336. Our imaginary tourist attraction would need a gift shop selling miniature replicas of a traffic cone.  
+   _SM-002336 · Hot take · pending editorial review_
+337. Which friend would make the most convincing tour guide for an attraction that doesn't actually exist?  
+   _SM-002337 · Question · pending editorial review_
+338. Someone asks why tourists are photographing an ordinary lamppost. How do we keep a straight face?  
+   _SM-002338 · Scenario · pending editorial review_
+339. A guided walk with hilarious made-up facts or a treasure hunt with genuinely interesting local details?  
+   _SM-002339 · Quick choice · pending editorial review_
+340. What's the most unusual museum or small exhibition you've visited that turned out to be brilliant?  
+   _SM-002340 · Story starter · pending editorial review_
+341. We're on a cooking show and the secret ingredient is popcorn. Which friend acts like this is a personal insult?  
+   _SM-002341 · Scenario · pending editorial review_
+342. Who would introduce a plate of toast with a two-minute speech about artistic vision?  
+   _SM-002342 · Question · pending editorial review_
+343. A cooking contest using five random ingredients or inventing desserts from things already in the fridge?  
+   _SM-002343 · Quick choice · pending editorial review_
+344. Somebody who can cook perfectly at home becomes strangely nervous when an audience watches.  
+   _SM-002344 · Hot take · pending editorial review_
+345. Every kitchen has someone who tastes the sauce so often there won't be much left for dinner.  
+   _SM-002345 · Observation · pending editorial review_
+346. Tell me about a cooking mistake that became a surprisingly tasty result.  
+   _SM-002346 · Story starter · pending editorial review_
+347. Which friend is most likely to measure every ingredient and then add 'a bit more' anyway?  
+   _SM-002347 · Question · pending editorial review_
+348. We're given a whole watermelon and told to prepare a three-course meal. What is the first course?  
+   _SM-002348 · Scenario · pending editorial review_
+349. Judging a pie contest or trying to invent the world's most unnecessary sandwich?  
+   _SM-002349 · Quick choice · pending editorial review_
+350. A cooking-show judge who laughs at their own descriptions would make every contestant feel better.  
+   _SM-002350 · Hot take · pending editorial review_
+351. If your friendships gave you one harmless superpower, what would make everyday life more entertaining?  
+   _SM-002351 · Question · pending editorial review_
+352. One friend can pause time for exactly eight seconds. What's the least useful way they could use it?  
+   _SM-002352 · Scenario · pending editorial review_
+353. Being able to find any lost pen instantly or knowing exactly when an oven timer is about to ring?  
+   _SM-002353 · Quick choice · pending editorial review_
+354. The friend who always remembers birthdays might already have a superpower nobody appreciates.  
+   _SM-002354 · Observation · pending editorial review_
+355. Teleportation would ruin our group chat's tradition of debating travel times.  
+   _SM-002355 · Hot take · pending editorial review_
+356. Tell me about a coincidence that felt like something from a superhero story.  
+   _SM-002356 · Story starter · pending editorial review_
+357. Who would insist on designing costumes before we'd even discovered our powers?  
+   _SM-002357 · Question · pending editorial review_
+358. Our friend group has to defeat a villain whose only weapon is making everyone sneeze. What's the plan?  
+   _SM-002358 · Scenario · pending editorial review_
+359. The power to translate animal sounds or the ability to make broken zips work again?  
+   _SM-002359 · Quick choice · pending editorial review_
+360. The most useful superhero on a group holiday would be someone who could find free parking.  
+   _SM-002360 · Hot take · pending editorial review_
+361. What ridiculous job title would you give a friend who's always organising people's birthdays?  
+   _SM-002361 · Question · pending editorial review_
+362. We start a company where one employee is Chief Biscuit Officer. Who claims the role?  
+   _SM-002362 · Scenario · pending editorial review_
+363. Director of Lost Socks or Executive Vice President of Finding Phone Chargers?  
+   _SM-002363 · Quick choice · pending editorial review_
+364. Some friends can turn choosing a restaurant into a full board meeting with minutes and action points.  
+   _SM-002364 · Observation · pending editorial review_
+365. Everybody should get one absurdly grand title for the practical thing they do best.  
+   _SM-002365 · Hot take · pending editorial review_
+366. Tell me about a time you were given a responsibility you had absolutely not volunteered for.  
+   _SM-002366 · Story starter · pending editorial review_
+367. Who would make the best head of a department dedicated to settling silly arguments?  
+   _SM-002367 · Question · pending editorial review_
+368. Our imaginary boss demands a quarterly report on group laughter. What metric do we invent?  
+   _SM-002368 · Scenario · pending editorial review_
+369. Manager of Dramatic Entrances or Head of Unexpected Snack Distribution?  
+   _SM-002369 · Quick choice · pending editorial review_
+370. Performance reviews among friends would end the moment anyone asked for examples.  
+   _SM-002370 · Hot take · pending editorial review_
+371. If each friend had their own weather forecast, whose would involve a sudden unexpected thunderstorm?  
+   _SM-002371 · Question · pending editorial review_
+372. A weather presenter hires our group to demonstrate four different kinds of wind. Who goes too far?  
+   _SM-002372 · Scenario · pending editorial review_
+373. A surprise snowball fight on a sunny day or a beach picnic that needs enormous umbrellas?  
+   _SM-002373 · Quick choice · pending editorial review_
+374. People react to three drops of rain as if they've never encountered water from the sky before.  
+   _SM-002374 · Observation · pending editorial review_
+375. The friend who refuses to check the forecast should not be trusted with the outdoor event plan.  
+   _SM-002375 · Hot take · pending editorial review_
+376. Tell me about a day whose weather transformed everyone's mood completely.  
+   _SM-002376 · Story starter · pending editorial review_
+377. Who in your circle would willingly go outside just to feel an approaching storm?  
+   _SM-002377 · Question · pending editorial review_
+378. We are told to pack for four seasons in one day, but we only have one suitcase. What's essential?  
+   _SM-002378 · Scenario · pending editorial review_
+379. Watching distant lightning safely from indoors or running through light rain to reach a café?  
+   _SM-002379 · Quick choice · pending editorial review_
+380. The right rainy-day soundtrack can make a cancelled outing feel like a plan all along.  
+   _SM-002380 · Hot take · pending editorial review_
+381. We invent a game where you must speak only in questions for five minutes. Who loses immediately?  
+   _SM-002381 · Scenario · pending editorial review_
+382. What's the funniest challenge we could make out of choosing a film to watch?  
+   _SM-002382 · Question · pending editorial review_
+383. A contest to recognise supermarket jingles or a tournament of dramatically reading ordinary receipts?  
+   _SM-002383 · Quick choice · pending editorial review_
+384. Any competition involving friends should have a rule against declaring yourself the referee.  
+   _SM-002384 · Hot take · pending editorial review_
+385. Tell me about a game with rules so confusing everyone agreed to stop keeping score.  
+   _SM-002385 · Story starter · pending editorial review_
+386. When an easy game goes badly, someone eventually suggests changing the game entirely.  
+   _SM-002386 · Observation · pending editorial review_
+387. Which friend could narrate a game of hide-and-seek as though it were a major sporting event?  
+   _SM-002387 · Question · pending editorial review_
+388. The prize for winning is choosing the next challenge, but everyone wants to lose. What happens?  
+   _SM-002388 · Scenario · pending editorial review_
+389. Guessing films from terrible drawings or guessing famous songs from someone humming badly?  
+   _SM-002389 · Quick choice · pending editorial review_
+390. A brilliant party game should still be fun for the person who has absolutely no chance of winning.  
+   _SM-002390 · Hot take · pending editorial review_
+391. What would the morning show on our friend group's radio station be called?  
+   _SM-002391 · Question · pending editorial review_
+392. We're broadcasting live and a friend starts reading their grocery list as though it's breaking news. Who interrupts?  
+   _SM-002392 · Scenario · pending editorial review_
+393. A late-night storytelling programme or an afternoon show dedicated to defending unpopular snacks?  
+   _SM-002393 · Quick choice · pending editorial review_
+394. The person with the most serious radio voice often has the least serious things to announce.  
+   _SM-002394 · Observation · pending editorial review_
+395. A good radio show is just a friendship group that happens to remember other people are listening.  
+   _SM-002395 · Hot take · pending editorial review_
+396. Tell me about a funny announcement you heard that sounded too ridiculous to be real.  
+   _SM-002396 · Story starter · pending editorial review_
+397. Which friend would host the call-in segment and forget to let the callers speak?  
+   _SM-002397 · Question · pending editorial review_
+398. Our station must report on a neighbourhood cat's disappearance as a major developing story. What's the headline?  
+   _SM-002398 · Scenario · pending editorial review_
+399. Taking turns choosing a mystery song or hosting a quiz where the answers are all terrible puns?  
+   _SM-002399 · Quick choice · pending editorial review_
+400. Our imaginary traffic report would somehow include updates about queues for the best roadside snacks.  
+   _SM-002400 · Hot take · pending editorial review_
