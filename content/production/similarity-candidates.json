@@ -1,0 +1,82 @@
+{
+  "method": "Global word unigram and bigram TF-IDF cosine similarity, English stop words, sublinear TF",
+  "threshold": 0.72,
+  "recordsChecked": 10100,
+  "candidatePairs": 4,
+  "semanticEmbeddingReview": "not_run",
+  "limitation": "Lexical screening identifies candidates, not all semantic duplicates. It neither approves nor rejects records automatically.",
+  "pairs": [
+    {
+      "left": "SM-004312",
+      "right": "SM-005325",
+      "score": 0.7844,
+      "leftText": "People reveal their interests through the questions they ask after a story ends.",
+      "rightText": "People reveal their interests through the questions they ask back.",
+      "leftCombination": [
+        "Relationships",
+        "Chill",
+        "Partner"
+      ],
+      "rightCombination": [
+        "Relationships",
+        "Playful",
+        "Someone new"
+      ],
+      "status": "requires_editorial_adjudication"
+    },
+    {
+      "left": "SM-000811",
+      "right": "SM-001711",
+      "score": 0.7537,
+      "leftText": "What's a simple game that always brings out your competitive side?",
+      "rightText": "Which simple game brings out your competitive side even when the stakes are tiny?",
+      "leftCombination": [
+        "Relationships",
+        "Chill",
+        "Someone new"
+      ],
+      "rightCombination": [
+        "Relationships",
+        "Chill",
+        "Crush / Talking stage"
+      ],
+      "status": "requires_editorial_adjudication"
+    },
+    {
+      "left": "SM-001782",
+      "right": "SM-004221",
+      "score": 0.7249,
+      "leftText": "What detail do you tend to notice first when you enter somewhere unfamiliar?",
+      "rightText": "What do you notice first when you enter an unfamiliar place?",
+      "leftCombination": [
+        "Relationships",
+        "Chill",
+        "Crush / Talking stage"
+      ],
+      "rightCombination": [
+        "Relationships",
+        "Chill",
+        "Partner"
+      ],
+      "status": "requires_editorial_adjudication"
+    },
+    {
+      "left": "SM-000471",
+      "right": "SM-007722",
+      "score": 0.72,
+      "leftText": "Tell me about a free or inexpensive outing that became one of your favourite memories.",
+      "rightText": "Tell me about an inexpensive outing that became one of your favourite memories.",
+      "leftCombination": [
+        "Relationships",
+        "Chill",
+        "Anyone"
+      ],
+      "rightCombination": [
+        "Money",
+        "Curious",
+        "Anyone"
+      ],
+      "status": "requires_editorial_adjudication"
+    }
+  ]
+}
