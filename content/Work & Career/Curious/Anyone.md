@@ -203,3 +203,205 @@ Initial target: 200. Entries remain editorial drafts until human approval.
    _SM-008599 · Scenario · pending editorial review_
 100. Join a professional community to exchange skills or attend small talks with people from other fields?  
    _SM-008600 · Quick choice · pending editorial review_
+
+
+101. What can a team's reaction to an error tell you about its working culture?  
+   _SM-008601 · Question · pending editorial review_
+102. Describe a mistake at work that led to a genuinely useful process change.  
+   _SM-008602 · Story starter · pending editorial review_
+103. Investigate why a problem happened or focus first on preventing it from happening again?  
+   _SM-008603 · Quick choice · pending editorial review_
+104. A colleague discovers a reporting error just before a presentation. How should the team handle the correction?  
+   _SM-008604 · Scenario · pending editorial review_
+105. People are more likely to raise concerns early when mistakes aren't treated as personal failures.  
+   _SM-008605 · Observation · pending editorial review_
+106. A useful post-project review should identify the system conditions, not just the person who noticed the problem last.  
+   _SM-008606 · Hot take · pending editorial review_
+107. What makes it easier for you to admit that an approach isn't working?  
+   _SM-008607 · Question · pending editorial review_
+108. Recall someone acknowledging an oversight in a way that increased your trust.  
+   _SM-008608 · Story starter · pending editorial review_
+109. A new teammate follows an outdated instruction and causes confusion. What should the team examine?  
+   _SM-008609 · Scenario · pending editorial review_
+110. Run a short review immediately after a project or collect lessons for a scheduled meeting?  
+   _SM-008610 · Quick choice · pending editorial review_
+111. Which part of a workplace would you redesign to make everyday tasks easier?  
+   _SM-008611 · Question · pending editorial review_
+112. Tell me about entering a workspace that seemed unusually well thought out.  
+   _SM-008612 · Story starter · pending editorial review_
+113. Improve the lighting and acoustics or simplify the tools everyone has to use?  
+   _SM-008613 · Quick choice · pending editorial review_
+114. A team has limited funds to improve its office. What information should it gather from employees?  
+   _SM-008614 · Scenario · pending editorial review_
+115. Small environmental details can affect how easily people concentrate and collaborate.  
+   _SM-008615 · Observation · pending editorial review_
+116. A beautiful office isn't automatically a productive or accessible workplace.  
+   _SM-008616 · Hot take · pending editorial review_
+117. Which physical workplace feature would make the biggest difference to your daily comfort?  
+   _SM-008617 · Question · pending editorial review_
+118. Recall adapting to an unfamiliar work environment and discovering what you missed.  
+   _SM-008618 · Story starter · pending editorial review_
+119. Several employees require different kinds of workspaces. How might a team make the layout flexible?  
+   _SM-008619 · Scenario · pending editorial review_
+120. Quiet individual work areas or open collaboration spaces with reservable rooms?  
+   _SM-008620 · Quick choice · pending editorial review_
+121. What do you find most interesting about how different organisations make decisions?  
+   _SM-008621 · Question · pending editorial review_
+122. Describe watching a leader explain a difficult choice to a team.  
+   _SM-008622 · Story starter · pending editorial review_
+123. Learn how decisions are approved or how managers measure their long-term results?  
+   _SM-008623 · Quick choice · pending editorial review_
+124. A new policy affects several departments differently. What questions should leaders ask before announcing it?  
+   _SM-008624 · Scenario · pending editorial review_
+125. An organisation's values become clearer when its choices involve trade-offs.  
+   _SM-008625 · Observation · pending editorial review_
+126. Explaining why a decision was made can matter as much as announcing what happens next.  
+   _SM-008626 · Hot take · pending editorial review_
+127. Which decision do you think frontline employees should be consulted on more often?  
+   _SM-008627 · Question · pending editorial review_
+128. Recall a small suggestion from staff changing the direction of a project.  
+   _SM-008628 · Story starter · pending editorial review_
+129. Two departments disagree about priorities and both have reasonable concerns. Who should be heard first?  
+   _SM-008629 · Scenario · pending editorial review_
+130. A transparent decision record or regular open forums where employees can raise questions?  
+   _SM-008630 · Quick choice · pending editorial review_
+131. How do you distinguish a useful performance measure from one that encourages shortcuts?  
+   _SM-008631 · Question · pending editorial review_
+132. Tell me about working towards a target that turned out to be less meaningful than expected.  
+   _SM-008632 · Story starter · pending editorial review_
+133. Measure how quickly tasks are completed or how well the results serve their purpose?  
+   _SM-008633 · Quick choice · pending editorial review_
+134. A customer support team handles calls faster but customer issues remain unresolved. What would you investigate?  
+   _SM-008634 · Scenario · pending editorial review_
+135. A metric can become misleading when people forget the question it was meant to answer.  
+   _SM-008635 · Observation · pending editorial review_
+136. Teams should be able to explain the limitations of their own success measures.  
+   _SM-008636 · Hot take · pending editorial review_
+137. Which aspect of good work is hardest to turn into a simple number?  
+   _SM-008637 · Question · pending editorial review_
+138. Recall somebody drawing attention to a hidden improvement that wasn't reflected in a dashboard.  
+   _SM-008638 · Story starter · pending editorial review_
+139. Your team can measure only three things about a new service. How would you choose them?  
+   _SM-008639 · Scenario · pending editorial review_
+140. Review a broad set of performance signals or track a few measures with clear explanations?  
+   _SM-008640 · Quick choice · pending editorial review_
+141. What helps you understand the needs of people who use a product or service?  
+   _SM-008641 · Question · pending editorial review_
+142. Describe observing a customer struggle with something the designers believed was simple.  
+   _SM-008642 · Story starter · pending editorial review_
+143. Watch people use a prototype or interview them about their current difficulties?  
+   _SM-008643 · Quick choice · pending editorial review_
+144. A business receives repeated complaints that a form is confusing. What would you ask users to demonstrate?  
+   _SM-008644 · Scenario · pending editorial review_
+145. People often adapt to bad systems so thoroughly that they stop describing them as problems.  
+   _SM-008645 · Observation · pending editorial review_
+146. A customer's workaround can reveal more than a polished description of a feature.  
+   _SM-008646 · Hot take · pending editorial review_
+147. Which service do you think would improve if its designers watched people use it in everyday conditions?  
+   _SM-008647 · Question · pending editorial review_
+148. Recall an interaction with a helpful employee that changed your opinion of a business.  
+   _SM-008648 · Story starter · pending editorial review_
+149. Two user groups want opposing changes to the same product. What further research would help?  
+   _SM-008649 · Scenario · pending editorial review_
+150. Improve one frustrating step in a service or add a frequently requested new capability?  
+   _SM-008650 · Quick choice · pending editorial review_
+151. Which ethical dilemma in ordinary work deserves more open discussion?  
+   _SM-008651 · Question · pending editorial review_
+152. Tell me about a time somebody protected another person's privacy during a routine task.  
+   _SM-008652 · Story starter · pending editorial review_
+153. Discuss how to report a concern safely or how teams should handle confidential information?  
+   _SM-008653 · Quick choice · pending editorial review_
+154. A coworker casually shares customer details in a group chat. What's a proportionate way to address it?  
+   _SM-008654 · Scenario · pending editorial review_
+155. A workplace's approach to ethics often becomes visible through routine decisions, not dramatic cases.  
+   _SM-008655 · Observation · pending editorial review_
+156. Doing what's convenient isn't a sufficient reason to ignore somebody's privacy.  
+   _SM-008656 · Hot take · pending editorial review_
+157. Which professional responsibility should every new employee understand from the beginning?  
+   _SM-008657 · Question · pending editorial review_
+158. Recall a situation where asking for permission was important even though the task seemed harmless.  
+   _SM-008658 · Story starter · pending editorial review_
+159. You're asked to use an automated tool on sensitive records. What questions would you ask about safeguards?  
+   _SM-008659 · Scenario · pending editorial review_
+160. Learn more about conflicts of interest or the practical handling of personal data?  
+   _SM-008660 · Quick choice · pending editorial review_
+161. What makes an interview question help you understand an employer rather than simply impress it?  
+   _SM-008661 · Question · pending editorial review_
+162. Describe discovering something important about a job only after talking with its current employees.  
+   _SM-008662 · Story starter · pending editorial review_
+163. Ask a hiring manager why people stay on their team or what challenges a new employee should expect?  
+   _SM-008663 · Quick choice · pending editorial review_
+164. An offer sounds appealing but its day-to-day responsibilities are vague. How might you clarify them?  
+   _SM-008664 · Scenario · pending editorial review_
+165. The interview process can reveal how an organisation communicates under pressure.  
+   _SM-008665 · Observation · pending editorial review_
+166. Candidates should be able to ask serious questions without being treated as disloyal.  
+   _SM-008666 · Hot take · pending editorial review_
+167. Which part of a job description would you ask an employer to explain in concrete examples?  
+   _SM-008667 · Question · pending editorial review_
+168. Recall being surprised by a thoughtful question during a professional interview.  
+   _SM-008668 · Story starter · pending editorial review_
+169. Two positions offer similar pay but very different schedules. What information would make comparison easier?  
+   _SM-008669 · Scenario · pending editorial review_
+170. Choose a role after speaking to future teammates or after reviewing a realistic sample assignment?  
+   _SM-008670 · Quick choice · pending editorial review_
+171. What has observing a good manager taught you about helping other people perform well?  
+   _SM-008671 · Question · pending editorial review_
+172. Tell me about somebody who delegated a responsibility and trusted you to find a solution.  
+   _SM-008672 · Story starter · pending editorial review_
+173. Receive clear expectations with freedom to choose methods or close guidance while learning?  
+   _SM-008673 · Quick choice · pending editorial review_
+174. A team leader notices one person doing most of the difficult tasks. How should they assess the workload?  
+   _SM-008674 · Scenario · pending editorial review_
+175. Good management often involves removing obstacles that individual employees can't control.  
+   _SM-008675 · Observation · pending editorial review_
+176. A leader's willingness to ask for feedback is more important than appearing to know every answer.  
+   _SM-008676 · Hot take · pending editorial review_
+177. What is a sign a manager has understood the strengths of different team members?  
+   _SM-008677 · Question · pending editorial review_
+178. Recall an occasion when a leader gave credit to the person whose work was least visible.  
+   _SM-008678 · Story starter · pending editorial review_
+179. A new supervisor inherits a team with a strained relationship. What should they learn before making changes?  
+   _SM-008679 · Scenario · pending editorial review_
+180. Have regular one-to-one conversations or hold open team discussions about recurring challenges?  
+   _SM-008680 · Quick choice · pending editorial review_
+181. What makes a professional community worth participating in over several years?  
+   _SM-008681 · Question · pending editorial review_
+182. Describe an event where you learnt something valuable from a person in an unrelated field.  
+   _SM-008682 · Story starter · pending editorial review_
+183. Attend a small skills-sharing group or join a larger professional conference?  
+   _SM-008683 · Quick choice · pending editorial review_
+184. You're organising a community for people at different career stages. How would you make discussions useful to beginners?  
+   _SM-008684 · Scenario · pending editorial review_
+185. Professional communities can become more valuable when people share what hasn't worked.  
+   _SM-008685 · Observation · pending editorial review_
+186. The quality of a network depends more on reciprocity than the number of contacts.  
+   _SM-008686 · Hot take · pending editorial review_
+187. Which topic would make you attend a professional meetup even after a tiring workday?  
+   _SM-008687 · Question · pending editorial review_
+188. Recall someone recommending a resource that helped you solve a problem months later.  
+   _SM-008688 · Story starter · pending editorial review_
+189. An online community becomes dominated by a handful of experts. How could organisers invite newer voices?  
+   _SM-008689 · Scenario · pending editorial review_
+190. Share an unfinished project for feedback or discuss useful lessons from a completed one?  
+   _SM-008690 · Quick choice · pending editorial review_
+191. How has the meaning of career success changed for people around you?  
+   _SM-008691 · Question · pending editorial review_
+192. Tell me about somebody finding satisfaction in a role others considered unremarkable.  
+   _SM-008692 · Story starter · pending editorial review_
+193. Explore how different workers define stability or what gives them a sense of achievement?  
+   _SM-008693 · Quick choice · pending editorial review_
+194. A friend wants a less demanding job even though it pays less. What might matter in their decision?  
+   _SM-008694 · Scenario · pending editorial review_
+195. People's career priorities often shift alongside their responsibilities outside work.  
+   _SM-008695 · Observation · pending editorial review_
+196. A fulfilling career is not always the one with the fastest promotion path.  
+   _SM-008696 · Hot take · pending editorial review_
+197. What do you hope your working life makes possible beyond your job title?  
+   _SM-008697 · Question · pending editorial review_
+198. Recall meeting someone who had designed an unusual balance between work and other commitments.  
+   _SM-008698 · Story starter · pending editorial review_
+199. You're asked to describe your ideal career without mentioning salary or prestige. What would you include?  
+   _SM-008699 · Scenario · pending editorial review_
+200. Choose greater flexibility in familiar work or a more challenging role with a predictable schedule?  
+   _SM-008700 · Quick choice · pending editorial review_
