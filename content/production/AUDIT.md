@@ -1,3 +1,5 @@
+> Historical audit snapshot. The user renewed autonomous publication to 139,100 total published entries on 15 October 2026. The later section of content/CONTENT_PRODUCTION.md supersedes the human-review publication blocker below. Human approval remains separate. Read the current progress ledger and publicationCheckpoint for the latest counts.
+
 # Say More production audit and resume checkpoint
 
 Audit date: 15 October 2026. Read progress-ledger.json for exact counts and source commit evidence.

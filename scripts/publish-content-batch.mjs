@@ -82,6 +82,7 @@ export function publishContentBatch(file,root='.'){
  }
  cell.published+=records.length;
  manifest.publishedCount+=records.length;
+ if(manifest.releaseGoalPublishedCount!==undefined)manifest.remainingToReleaseGoal=Math.max(0,manifest.releaseGoalPublishedCount-manifest.publishedCount);
  manifest.aiAuthoredScreenedCount+=records.length;
  manifest.publishedFiles.push(batch.filename);
  manifest.editorialStatus='in_progress';
