@@ -1,0 +1,507 @@
+{
+  "topic": "Relationships",
+  "mood": "Curious",
+  "audience": "Someone new",
+  "prompts": [
+    {
+      "format": "Question",
+      "text": "Which everyday custom makes you feel most welcomed when visiting someone else's home?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe someone showing you hospitality in a way you hadn't encountered before.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Learn how your host prepares a favourite drink or hear why they chose a particular family tradition?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You invite someone over from a different upbringing. What would you ask to make the visit comfortable?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People have very different ideas about what makes a home welcoming.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Being a considerate guest starts with asking instead of assuming.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What is a small courtesy you remember from someone you met only once?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall learning an unfamiliar greeting at a gathering and appreciating the reason behind it.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We are invited to two celebrations with different etiquette. How could we prepare without overthinking it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Compare our favourite welcome rituals or the customs we find hardest to explain?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which question helps you understand how someone approaches friendship?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about meeting somebody whose idea of loyalty challenged your assumptions.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Ask what makes a person a dependable friend or what makes a friendship enjoyable?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A new acquaintance tells you they prefer a small social circle. What might you want to understand about that?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People often use the word friendship for relationships with very different levels of closeness.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A small circle of friends isn't necessarily a sign of disinterest in meeting new people.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "How do you usually know when an acquaintance has become a friend?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time someone you knew casually showed unexpected reliability.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We both describe our oldest friendships. What could the differences tell us about how we connect?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Talk about a friendship that lasted through change or one that began in an unusual way?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a topic you enjoy exploring with someone who has read different books from you?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a discussion where someone explained a story you'd understood in a completely different way.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Find out which ideas a person has changed their mind about or which ones they're still exploring?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We're each given the same short article and asked what stood out. What differences would you expect?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Two people can encounter identical information and notice very different details.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Being willing to rethink an idea is a more interesting quality than having an opinion ready about everything.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which subject would you enjoy researching alongside a person you have just met?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about somebody who made a difficult subject feel approachable through conversation.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We discover a shared interest in a topic but disagree on where to start learning. How should we choose?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Explore a local history question together or compare explanations of an everyday scientific mystery?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What social habit has been easiest to understand after hearing its cultural background?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe seeing a familiar gesture used with a completely different meaning.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Learn the story behind a traditional greeting or the reason for a community celebration?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We're planning a gathering for people with different dietary customs. What should we ask without making assumptions?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "A custom can seem strange from a distance and practical once someone explains its origins.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Respectful curiosity is often more useful than pretending to understand every tradition.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's one tradition you enjoy even though you don't practise it yourself?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a conversation that changed how you interpreted a celebration or ritual.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A new friend asks why your family prepares for an event in a particular way. How would you explain it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Hear an elder tell a tradition's origin or see a younger person's modern interpretation?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "How does someone show that they're comfortable with a conversation becoming more personal?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall somebody changing the topic gracefully when you weren't ready to discuss something.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Ask permission before a sensitive question or wait for the other person to bring it up?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We're having a lively discussion that unexpectedly touches a difficult memory. What would be a considerate next response?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Trust often grows when people discover they can decline a question without upsetting the other person.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Curiosity is valuable only when it leaves room for privacy.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a signal you use when you'd rather keep a story for another day?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe someone understanding a boundary you hadn't found easy to explain.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A person we've just met starts sharing more than the setting allows. How could we respond with care?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A conversation that develops slowly over several meetings or one with clear questions about comfort levels?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which kind of collaboration teaches you most about another person's character?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about completing a small project with someone whose working style surprised you.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Plan an event together or solve a practical problem as a team?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We volunteer at a community event but have completely different strengths. How might we allocate tasks?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People reveal patience through how they respond when a plan needs adjusting.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A person admitting a mistake can be more reassuring than someone never appearing uncertain.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What does a good teammate do when somebody else has a better idea?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a stranger stepping in to help without expecting anything in return.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We need to agree on a plan quickly, and neither person wants to dominate. Which question would you ask first?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Work with someone who prepares carefully or someone who adapts easily when circumstances change?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's an ordinary habit that tells you something about how a person spends their free time?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe learning about an unexpected creative hobby during a casual conversation.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Ask what a person has made recently or what they like spending time observing?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We're invited to show an object connected to a pastime. What would you choose to reveal about yours?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People sometimes talk more openly about their routines than about their ambitions.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "An interest doesn't need to be productive to be worth discussing.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which hobby has helped you connect with someone whose background was very different from yours?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall watching somebody turn an everyday object into something unexpectedly beautiful.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A new friend invites you to join an activity you find intimidating. What might make trying it easier?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Compare collections we've kept over the years or the skills we've learnt purely for enjoyment?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What helps you understand what another person finds funny without relying on stereotypes?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a joke you didn't understand until someone explained the situation behind it.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Discuss the funniest everyday misunderstanding we've seen or compare our favourite styles of comedy?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We're watching a comedy from a different country and keep laughing at different moments. What would you ask me?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "A shared sense of humour can emerge through storytelling even when cultural references differ.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Someone who can explain a joke kindly is more enjoyable company than someone who mocks confusion.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What style of humour do you appreciate more now than you did a few years ago?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a person using a gentle joke to make a tense moment feel less awkward.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We have to choose one short, family-friendly comedy clip to introduce someone to our tastes. What's your criterion?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Compare amusing stories from real life or explore the humour in old sayings?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's something you notice about the way a person maintains long-distance relationships?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a chance encounter that turned into an occasional but lasting connection.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Stay in touch through shared articles or set aside time for a regular call?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We've met at a conference and live in different cities. What would be a natural reason to reconnect?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Some connections become meaningful through infrequent conversations that pick up smoothly.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A good first meeting doesn't oblige either person to promise a lifelong friendship.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What would make you comfortable accepting an invitation from someone you have only met once?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall reaching out to a new acquaintance months later and finding the conversation surprisingly easy.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We share a mutual interest and want to stay connected without endless messaging. What could we agree on?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Exchange an occasional recommendation or arrange a relaxed visit when we're in the same area?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which quality do you admire most when you see someone mentoring a younger person?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about receiving guidance from somebody you initially knew only through work.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Learn from someone who asks probing questions or one who demonstrates their skills patiently?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We both volunteer to guide students at an event. How would we explain our different career journeys?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Good mentors often share uncertainty as well as lessons from their successes.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A person's willingness to teach says more about them than their professional title.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What do you find most valuable in advice from someone at a different life stage?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a colleague who made a complicated task feel less intimidating.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A new connection asks for an introduction to your field. What would you explain first?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Discuss a lesson learnt from making mistakes or a skill you'd like to pass on to somebody else?",
+      "relatedThemes": []
+    }
+  ]
+}
