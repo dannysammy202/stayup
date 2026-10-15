@@ -203,3 +203,205 @@ Initial target: 200. Entries remain editorial drafts until human approval.
    _SM-008999 · Scenario · pending editorial review_
 100. Create a new ritual for the next chapter or renew a tradition that has always mattered to us?  
    _SM-009000 · Quick choice · pending editorial review_
+
+
+101. How do you think our closest friendships influence the way we support each other?  
+   _SM-009001 · Question · pending editorial review_
+102. Describe the first time you discovered something meaningful about me through one of my friends.  
+   _SM-009002 · Story starter · pending editorial review_
+103. Spend more time with each other's longtime friends or build new friendships together?  
+   _SM-009003 · Quick choice · pending editorial review_
+104. A friend of mine feels uncomfortable at one of our gatherings. What would you want to know before offering help?  
+   _SM-009004 · Scenario · pending editorial review_
+105. Couples can bring together different social circles without expecting every person to become equally close.  
+   _SM-009005 · Observation · pending editorial review_
+106. Being partners doesn't mean either person should stop nurturing individual friendships.  
+   _SM-009006 · Hot take · pending editorial review_
+107. Which quality of your friendships do you hope our relationship always respects?  
+   _SM-009007 · Question · pending editorial review_
+108. Recall meeting one of my friends and seeing a side of me you hadn't known.  
+   _SM-009008 · Story starter · pending editorial review_
+109. We both want to support friends who have events on the same evening. How could we choose fairly?  
+   _SM-009009 · Scenario · pending editorial review_
+110. Host a small dinner combining our circles or arrange separate visits with the people each of us knows best?  
+   _SM-009010 · Quick choice · pending editorial review_
+111. What role do your personal beliefs play in how you approach difficult decisions?  
+   _SM-009011 · Question · pending editorial review_
+112. Tell me about a moment when hearing my perspective helped you understand a value more clearly.  
+   _SM-009012 · Story starter · pending editorial review_
+113. Explore the practices that give us peace or the experiences that shaped our convictions?  
+   _SM-009013 · Quick choice · pending editorial review_
+114. An important question leads us to different conclusions rooted in our beliefs. What would respectful curiosity look like?  
+   _SM-009014 · Scenario · pending editorial review_
+115. Partners can share many values while finding meaning in different traditions.  
+   _SM-009015 · Observation · pending editorial review_
+116. Understanding someone's convictions involves listening to how they live them, not just debating statements.  
+   _SM-009016 · Hot take · pending editorial review_
+117. Which meaningful practice from your upbringing would you like me to understand better?  
+   _SM-009017 · Question · pending editorial review_
+118. Recall a time we attended an event important to one of us and the other learnt something unexpected.  
+   _SM-009018 · Story starter · pending editorial review_
+119. We decide to create a shared ritual without replacing personal faith or reflection practices. What should it offer us?  
+   _SM-009019 · Scenario · pending editorial review_
+120. Spend time discussing a meaningful text or compare lessons from the people who shaped our values?  
+   _SM-009020 · Quick choice · pending editorial review_
+121. What have we learnt about handling stressful periods when our energy levels are different?  
+   _SM-009021 · Question · pending editorial review_
+122. Describe a time I misunderstood your silence and later learnt what it meant.  
+   _SM-009022 · Story starter · pending editorial review_
+123. Check in with each other briefly at the end of the day or reserve a longer conversation when we're ready?  
+   _SM-009023 · Quick choice · pending editorial review_
+124. Both of us need rest, but a household task can't be postponed. How might we make a fair plan?  
+   _SM-009024 · Scenario · pending editorial review_
+125. The same person can seek company one day and solitude the next when under pressure.  
+   _SM-009025 · Observation · pending editorial review_
+126. A partner's need for quiet isn't automatically a judgement on the relationship.  
+   _SM-009026 · Hot take · pending editorial review_
+127. What helps you tell me that you need to decompress without worrying I'll take it personally?  
+   _SM-009027 · Question · pending editorial review_
+128. Recall one of us making a demanding week easier through a small adjustment to our routine.  
+   _SM-009028 · Story starter · pending editorial review_
+129. We notice our usual way of offering help has stopped working. What would be a good question to revisit it?  
+   _SM-009029 · Scenario · pending editorial review_
+130. Protect a quiet evening together or schedule separate restorative activities before reconnecting?  
+   _SM-009030 · Quick choice · pending editorial review_
+131. What makes a shared living space feel like home to you beyond its appearance?  
+   _SM-009031 · Question · pending editorial review_
+132. Tell me about an object or arrangement in our space that means more than I may realise.  
+   _SM-009032 · Story starter · pending editorial review_
+133. Create a corner for shared projects or give each person a space that reflects their individual taste?  
+   _SM-009033 · Quick choice · pending editorial review_
+134. Our home has room for only one additional piece of furniture. What needs should guide our choice?  
+   _SM-009034 · Scenario · pending editorial review_
+135. People's ideas of comfort often come from routines they rarely discuss.  
+   _SM-009035 · Observation · pending editorial review_
+136. Designing a shared space should involve asking how people live, not just what looks attractive.  
+   _SM-009036 · Hot take · pending editorial review_
+137. Which household tradition would help visitors feel welcome without exhausting us?  
+   _SM-009037 · Question · pending editorial review_
+138. Recall a time our home arrangement made a simple activity more enjoyable.  
+   _SM-009038 · Story starter · pending editorial review_
+139. We each want a different atmosphere for the same room. How could we explore flexible options?  
+   _SM-009039 · Scenario · pending editorial review_
+140. Use a simple shared design palette or let different spaces express our separate personalities?  
+   _SM-009040 · Quick choice · pending editorial review_
+141. What makes time together feel attentive rather than simply convenient?  
+   _SM-009041 · Question · pending editorial review_
+142. Describe a shared afternoon when nothing special happened but the conversation stayed with you.  
+   _SM-009042 · Story starter · pending editorial review_
+143. Create a regular device-free hour or plan one new activity together each month?  
+   _SM-009043 · Quick choice · pending editorial review_
+144. Our free time overlaps for only one evening this week. How could we decide what would feel worthwhile?  
+   _SM-009044 · Scenario · pending editorial review_
+145. Presence and attention can matter more than the number of hours spent in the same room.  
+   _SM-009045 · Observation · pending editorial review_
+146. More elaborate plans don't automatically create a stronger connection.  
+   _SM-009046 · Hot take · pending editorial review_
+147. Which ordinary routine could become more meaningful if we approached it with curiosity?  
+   _SM-009047 · Question · pending editorial review_
+148. Recall an unexpected conversation that happened while we were doing an everyday errand.  
+   _SM-009048 · Story starter · pending editorial review_
+149. We both feel our time together has become rushed. What practical change would we investigate?  
+   _SM-009049 · Scenario · pending editorial review_
+150. Prepare a meal together and talk or go for an unhurried walk with no destination?  
+   _SM-009050 · Quick choice · pending editorial review_
+151. Which kind of celebration helps you feel appreciated without becoming overwhelmed?  
+   _SM-009051 · Question · pending editorial review_
+152. Tell me about a milestone we marked in a way that was different from our original plan.  
+   _SM-009052 · Story starter · pending editorial review_
+153. Invite a small circle to celebrate with us or create a private tradition for the occasion?  
+   _SM-009053 · Quick choice · pending editorial review_
+154. One of us wants a lively birthday and the other has a quieter preference for anniversaries. How could we honour both?  
+   _SM-009054 · Scenario · pending editorial review_
+155. Couples sometimes measure the importance of an occasion through completely different gestures.  
+   _SM-009055 · Observation · pending editorial review_
+156. The most meaningful anniversary plan reflects the people involved, not somebody else's expectations.  
+   _SM-009056 · Hot take · pending editorial review_
+157. What's a personal achievement you would rather mark thoughtfully than publicly?  
+   _SM-009057 · Question · pending editorial review_
+158. Recall a time we discovered a new reason to appreciate a familiar annual event.  
+   _SM-009058 · Story starter · pending editorial review_
+159. We're marking a year that included both progress and difficulty. What would a balanced celebration acknowledge?  
+   _SM-009059 · Scenario · pending editorial review_
+160. Make a keepsake of shared memories or choose one new experience to symbolise the next chapter?  
+   _SM-009060 · Quick choice · pending editorial review_
+161. What have we taught each other simply by discussing things we are curious about?  
+   _SM-009061 · Question · pending editorial review_
+162. Describe discovering that one of us had learnt an unexpected skill independently.  
+   _SM-009062 · Story starter · pending editorial review_
+163. Choose a course to take together or exchange short lessons about our separate interests?  
+   _SM-009063 · Quick choice · pending editorial review_
+164. We have a free weekend and want to explore a topic neither understands. How could we start?  
+   _SM-009064 · Scenario · pending editorial review_
+165. Partners can learn together without matching each other's pace or preferred methods.  
+   _SM-009065 · Observation · pending editorial review_
+166. Being interested in what the other person is learning matters more than pretending expertise.  
+   _SM-009066 · Hot take · pending editorial review_
+167. What subject do you think we would enjoy exploring through different perspectives?  
+   _SM-009067 · Question · pending editorial review_
+168. Recall a discussion in which my question helped you reconsider a familiar explanation.  
+   _SM-009068 · Story starter · pending editorial review_
+169. We're working on a project together and reach different interpretations of the instructions. What could we test?  
+   _SM-009069 · Scenario · pending editorial review_
+170. Visit a museum about an unfamiliar subject or try a beginner workshop requiring teamwork?  
+   _SM-009070 · Quick choice · pending editorial review_
+171. How do you think our responses to unexpected change have evolved?  
+   _SM-009071 · Question · pending editorial review_
+172. Tell me about a plan we abandoned that opened the door to something useful.  
+   _SM-009072 · Story starter · pending editorial review_
+173. Prepare detailed backup plans or practise adapting together when something goes differently?  
+   _SM-009073 · Quick choice · pending editorial review_
+174. One of us must temporarily change working hours, affecting our usual connection time. What would we discuss first?  
+   _SM-009074 · Scenario · pending editorial review_
+175. A couple's routines can survive change when both people understand which parts matter most.  
+   _SM-009075 · Observation · pending editorial review_
+176. Adaptability in a relationship isn't the same as one person always compromising.  
+   _SM-009076 · Hot take · pending editorial review_
+177. Which past surprise taught you something about the way we solve problems?  
+   _SM-009077 · Question · pending editorial review_
+178. Recall one of us noticing an opportunity in a situation the other initially found disappointing.  
+   _SM-009078 · Story starter · pending editorial review_
+179. We're offered the chance to live somewhere new for a year. What would each of us need to learn before deciding?  
+   _SM-009079 · Scenario · pending editorial review_
+180. Review our previous changes for lessons or talk about the uncertainties we'd handle differently now?  
+   _SM-009080 · Quick choice · pending editorial review_
+181. What would you like us to understand better about each other's relationship with family as we grow older?  
+   _SM-009081 · Question · pending editorial review_
+182. Describe a time our responsibilities to relatives shifted and we had to adjust our plans.  
+   _SM-009082 · Story starter · pending editorial review_
+183. Explore how we each define family duty or discuss the ways our families express appreciation?  
+   _SM-009083 · Quick choice · pending editorial review_
+184. A parent needs more regular assistance, but our schedules are already stretched. What options would we investigate?  
+   _SM-009084 · Scenario · pending editorial review_
+185. Family responsibilities evolve, and couples may need to revisit assumptions made years earlier.  
+   _SM-009085 · Observation · pending editorial review_
+186. Supporting relatives shouldn't require partners to avoid honest conversations about their limits.  
+   _SM-009086 · Hot take · pending editorial review_
+187. Which family relationship has most influenced how you think about responsibility?  
+   _SM-009087 · Question · pending editorial review_
+188. Recall a conversation with a relative that helped us recognise a shared value.  
+   _SM-009088 · Story starter · pending editorial review_
+189. Both families have expectations for an important holiday. How could we negotiate respectfully with everyone involved?  
+   _SM-009089 · Scenario · pending editorial review_
+190. Keep separate family traditions for some occasions or develop shared traditions that include both households?  
+   _SM-009090 · Quick choice · pending editorial review_
+191. Which kind of personal reflection helps you notice progress in our relationship?  
+   _SM-009091 · Question · pending editorial review_
+192. Tell me about recognising an old difficulty that no longer troubles us in the same way.  
+   _SM-009092 · Story starter · pending editorial review_
+193. Talk about the habits we've improved or the values we want to practise more consistently?  
+   _SM-009093 · Quick choice · pending editorial review_
+194. We discover that an agreement made early in our relationship no longer fits our circumstances. How should we revisit it?  
+   _SM-009094 · Scenario · pending editorial review_
+195. Partners sometimes grow closer through recognising small changes that happen slowly.  
+   _SM-009095 · Observation · pending editorial review_
+196. A healthy relationship should allow old agreements to be updated without treating the change as betrayal.  
+   _SM-009096 · Hot take · pending editorial review_
+197. What is something you'd like us to remain curious about instead of assuming we already know it?  
+   _SM-009097 · Question · pending editorial review_
+198. Recall noticing a new strength in me after seeing how I handled an unfamiliar situation.  
+   _SM-009098 · Story starter · pending editorial review_
+199. We each choose one thing the other has taught us this year. How would you want that conversation to begin?  
+   _SM-009099 · Scenario · pending editorial review_
+200. Write each other a thoughtful note about the year or set aside time to talk through the lessons together?  
+   _SM-009100 · Quick choice · pending editorial review_
