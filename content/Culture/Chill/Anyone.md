@@ -307,3 +307,65 @@ Initial target: 200. Entries remain editorial drafts until human approval.
    _SM-005246 · Scenario · pending editorial review_
 147. Which local place has changed so much its old name now sounds surprising?  
    _SM-005247 · Question · pending editorial review_
+
+
+148. What small change in everyday life tells you a new season has arrived?  
+   _SM-005248 · Question · pending editorial review_
+149. Tell me about a yearly household task that always reminds you of a particular time of year.  
+   _SM-005249 · Story starter · pending editorial review_
+150. The first cool evening of the season or the first heavy rain after a dry spell?  
+   _SM-005250 · Quick choice · pending editorial review_
+151. Some seasonal traditions begin with practical chores and end up becoming family rituals.  
+   _SM-005251 · Observation · pending editorial review_
+152. You're planning a relaxed weekend for a visitor during your favourite season. What local routine would you include?  
+   _SM-005252 · Scenario · pending editorial review_
+153. Which food do people around you start looking for when the weather changes?  
+   _SM-005253 · Question · pending editorial review_
+154. A familiar seasonal routine can be as memorable as a major annual festival.  
+   _SM-005254 · Hot take · pending editorial review_
+155. Describe a day when the weather changed the usual way your neighbourhood spent time together.  
+   _SM-005255 · Story starter · pending editorial review_
+156. Someone asks what to expect during the rainy season where you live. What everyday detail would you mention first?  
+   _SM-005256 · Scenario · pending editorial review_
+157. What's a seasonal saying people use in your area even when the forecast doesn't match?  
+   _SM-005257 · Question · pending editorial review_
+158. What do people usually chat about during a long shared journey in your area?  
+   _SM-005258 · Question · pending editorial review_
+159. Tell me about learning a local transport custom from another passenger.  
+   _SM-005259 · Story starter · pending editorial review_
+160. A ferry ride where everybody watches the water or a bus journey full of lively conversation?  
+   _SM-005260 · Quick choice · pending editorial review_
+161. Regular commuters often recognise each other without ever learning one another's names.  
+   _SM-005261 · Observation · pending editorial review_
+162. You're helping a visitor use your town's public transport for the first time. What unwritten rule would you mention?  
+   _SM-005262 · Scenario · pending editorial review_
+163. Which familiar call or phrase do you associate with getting around your city?  
+   _SM-005263 · Question · pending editorial review_
+164. The conversations on a short journey sometimes reveal more local character than a guidebook.  
+   _SM-005264 · Hot take · pending editorial review_
+165. Describe a journey where fellow passengers made an unexpected delay enjoyable.  
+   _SM-005265 · Story starter · pending editorial review_
+166. A friend wants to travel like a local rather than book a tour. What everyday route would you suggest?  
+   _SM-005266 · Scenario · pending editorial review_
+167. What travel habit from your area would seem unusual to someone visiting for the first time?  
+   _SM-005267 · Question · pending editorial review_
+168. What's a small gesture people use around you to show appreciation without saying much?  
+   _SM-005268 · Question · pending editorial review_
+169. Tell me about misunderstanding a friendly gesture before somebody explained it.  
+   _SM-005269 · Story starter · pending editorial review_
+170. A cheerful wave across the street or a quiet nod of recognition?  
+   _SM-005270 · Quick choice · pending editorial review_
+171. People sometimes know exactly what a gesture means within a family even if nobody has explained it.  
+   _SM-005271 · Observation · pending editorial review_
+172. You're meeting someone whose greeting gestures differ from yours. How would you follow their lead comfortably?  
+   _SM-005272 · Scenario · pending editorial review_
+173. Which hand gesture do people around you use to ask for patience?  
+   _SM-005273 · Question · pending editorial review_
+174. The smallest gestures of courtesy often become the easiest customs to adopt.  
+   _SM-005274 · Hot take · pending editorial review_
+175. Describe seeing a familiar gesture used in a new setting and noticing its meaning had changed.  
+   _SM-005275 · Story starter · pending editorial review_
+176. A friend wants to learn how people politely get someone's attention in your area. What would you demonstrate?  
+   _SM-005276 · Scenario · pending editorial review_
+177. What's a gesture older relatives use that younger people rarely seem to copy?  
+   _SM-005277 · Question · pending editorial review_
