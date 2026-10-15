@@ -1,0 +1,1607 @@
+{
+  "topic": "Relationships",
+  "mood": "Curious",
+  "audience": "Group",
+  "prompts": [
+    {
+      "text": "Which ordinary decision reveals more about trustworthiness than a big promise does?",
+      "format": "Question",
+      "relatedThemes": [
+        "trust",
+        "habits"
+      ]
+    },
+    {
+      "text": "Which matters more in a friendship, shared values or shared interests?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "friendship",
+        "values"
+      ]
+    },
+    {
+      "text": "What is a green flag people often overlook when meeting someone new?",
+      "format": "Question",
+      "relatedThemes": [
+        "green flags",
+        "first impressions"
+      ]
+    },
+    {
+      "text": "Which friendship origin story in this group would make the best short film?",
+      "format": "Story starter",
+      "relatedThemes": [
+        "friendship origins",
+        "surprise"
+      ]
+    },
+    {
+      "text": "People reveal more through how they listen than through what they say. Agree or disagree?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "listening",
+        "communication"
+      ]
+    },
+    {
+      "text": "What makes a group chat feel close instead of merely active?",
+      "format": "Question",
+      "relatedThemes": [
+        "group dynamics",
+        "connection"
+      ]
+    },
+    {
+      "text": "Which relationship lesson took you longer than expected to learn?",
+      "format": "Question",
+      "relatedThemes": [
+        "lessons",
+        "growth"
+      ]
+    },
+    {
+      "text": "A friend goes quiet for weeks, then returns as if nothing happened. How do you respond?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "distance",
+        "reconnection"
+      ]
+    },
+    {
+      "text": "What detail in an apology tells you the person understands the harm they caused?",
+      "format": "Question",
+      "relatedThemes": [
+        "apologies",
+        "repair"
+      ]
+    },
+    {
+      "text": "Would you rather have one dependable friend or five spontaneous friends?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "dependability",
+        "social circle"
+      ]
+    },
+    {
+      "text": "What helps you feel included when you enter an established group?",
+      "format": "Question",
+      "relatedThemes": [
+        "belonging",
+        "groups"
+      ]
+    },
+    {
+      "text": "Tell us about a time someone remembered a detail which mattered to you.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "attention",
+        "care"
+      ]
+    },
+    {
+      "text": "What separates healthy privacy from secrecy in a close relationship?",
+      "format": "Question",
+      "relatedThemes": [
+        "privacy",
+        "boundaries"
+      ]
+    },
+    {
+      "text": "Friendships need clear expectations as much as romantic relationships do. Agree or disagree?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "expectations",
+        "friendship"
+      ]
+    },
+    {
+      "text": "What makes advice feel supportive instead of controlling?",
+      "format": "Question",
+      "relatedThemes": [
+        "advice",
+        "support"
+      ]
+    },
+    {
+      "text": "Someone in the group always cancels at the last minute. What would a fair response look like?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "reliability",
+        "accountability"
+      ]
+    },
+    {
+      "text": "Which creates stronger bonds, frequent contact or memorable experiences?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "bonding",
+        "time"
+      ]
+    },
+    {
+      "text": "What question helps you understand how someone handles conflict?",
+      "format": "Question",
+      "relatedThemes": [
+        "conflict",
+        "understanding"
+      ]
+    },
+    {
+      "text": "Tell us about a boundary that improved one of your relationships.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "boundaries",
+        "improvement"
+      ]
+    },
+    {
+      "text": "How do you notice when friendly teasing has gone too far?",
+      "format": "Question",
+      "relatedThemes": [
+        "humour",
+        "respect"
+      ]
+    },
+    {
+      "text": "What role does consistency play in keeping people close?",
+      "format": "Question",
+      "relatedThemes": [
+        "consistency",
+        "closeness"
+      ]
+    },
+    {
+      "text": "Would you rather receive honest feedback immediately or after you have cooled down?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "feedback",
+        "timing"
+      ]
+    },
+    {
+      "text": "A mutual friend shares private information with you. What should happen next?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "confidentiality",
+        "loyalty"
+      ]
+    },
+    {
+      "text": "What makes someone feel emotionally safe to talk to?",
+      "format": "Question",
+      "relatedThemes": [
+        "emotional safety",
+        "openness"
+      ]
+    },
+    {
+      "text": "People often confuse chemistry with compatibility. What is the difference to you?",
+      "format": "Question",
+      "relatedThemes": [
+        "chemistry",
+        "compatibility"
+      ]
+    },
+    {
+      "text": "Tell us about someone who changed your idea of what friendship means.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "friendship",
+        "perspective"
+      ]
+    },
+    {
+      "text": "Strong relationships survive awkward conversations. Agree or disagree?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "honesty",
+        "difficult conversations"
+      ]
+    },
+    {
+      "text": "What is one sign a friendship has become one-sided?",
+      "format": "Question",
+      "relatedThemes": [
+        "reciprocity",
+        "friendship"
+      ]
+    },
+    {
+      "text": "Would you rather resolve tension through a long conversation or a thoughtful message?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "conflict repair",
+        "communication"
+      ]
+    },
+    {
+      "text": "How does your behaviour change when you feel fully accepted by a group?",
+      "format": "Question",
+      "relatedThemes": [
+        "acceptance",
+        "authenticity"
+      ]
+    },
+    {
+      "text": "A close friend dislikes your partner. Whose perspective deserves more weight?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "loyalty",
+        "romance"
+      ]
+    },
+    {
+      "text": "What does loyalty look like when your friend is clearly wrong?",
+      "format": "Question",
+      "relatedThemes": [
+        "loyalty",
+        "accountability"
+      ]
+    },
+    {
+      "text": "When has correcting a false assumption revealed something valuable about a relationship?",
+      "format": "Story starter",
+      "relatedThemes": [
+        "misunderstanding",
+        "repair"
+      ]
+    },
+    {
+      "text": "What makes a compliment feel personal rather than polite?",
+      "format": "Question",
+      "relatedThemes": [
+        "compliments",
+        "attention"
+      ]
+    },
+    {
+      "text": "It is easier to maintain old friendships than build new ones. Agree or disagree?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "old friends",
+        "new friends"
+      ]
+    },
+    {
+      "text": "What unspoken rule keeps your closest relationships working?",
+      "format": "Question",
+      "relatedThemes": [
+        "unspoken rules",
+        "closeness"
+      ]
+    },
+    {
+      "text": "Would you rather know exactly where you stand with everyone or let some relationships stay undefined?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "clarity",
+        "labels"
+      ]
+    },
+    {
+      "text": "What makes someone good at bringing different personalities together?",
+      "format": "Question",
+      "relatedThemes": [
+        "leadership",
+        "group harmony"
+      ]
+    },
+    {
+      "text": "A friend achieves something you wanted for yourself. How do you manage both joy and envy?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "envy",
+        "support"
+      ]
+    },
+    {
+      "text": "Which is harder for you, asking for help or accepting it?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "support",
+        "vulnerability"
+      ]
+    },
+    {
+      "text": "Tell us about a relationship that improved after spending less time together.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "space",
+        "balance"
+      ]
+    },
+    {
+      "text": "What is the difference between being needed and being valued?",
+      "format": "Question",
+      "relatedThemes": [
+        "value",
+        "dependence"
+      ]
+    },
+    {
+      "text": "Every close friendship eventually needs a reset conversation. Agree or disagree?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "friendship maintenance",
+        "communication"
+      ]
+    },
+    {
+      "text": "How do you decide which disagreements are worth addressing?",
+      "format": "Question",
+      "relatedThemes": [
+        "conflict",
+        "judgement"
+      ]
+    },
+    {
+      "text": "Would you rather have friends who challenge you or friends who comfort you?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "challenge",
+        "comfort"
+      ]
+    },
+    {
+      "text": "How does someone show they value the preparation behind your time together?",
+      "format": "Question",
+      "relatedThemes": [
+        "respect",
+        "time"
+      ]
+    },
+    {
+      "text": "A new person joins your circle and changes the group dynamic. What helps everyone adjust?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "group change",
+        "inclusion"
+      ]
+    },
+    {
+      "text": "Tell us about a friendship you outgrew without any major conflict.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "growth",
+        "drifting apart"
+      ]
+    },
+    {
+      "text": "What makes emotional support feel mutual rather than transactional?",
+      "format": "Question",
+      "relatedThemes": [
+        "reciprocity",
+        "support"
+      ]
+    },
+    {
+      "text": "How much should friends know about each other's finances?",
+      "format": "Question",
+      "relatedThemes": [
+        "money",
+        "privacy"
+      ]
+    },
+    {
+      "text": "Sharing history does not always mean sharing a future. Agree or disagree?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "history",
+        "change"
+      ]
+    },
+    {
+      "text": "Would you rather reconnect with an old friend or deepen a newer friendship?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "reconnection",
+        "new bonds"
+      ]
+    },
+    {
+      "text": "What makes someone enjoyable to travel with?",
+      "format": "Question",
+      "relatedThemes": [
+        "travel",
+        "compatibility"
+      ]
+    },
+    {
+      "text": "A friend keeps making jokes at your expense in public. How would you address it?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "respect",
+        "public embarrassment"
+      ]
+    },
+    {
+      "text": "Tell us about a conversation which changed how you saw someone.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "perspective",
+        "conversation"
+      ]
+    },
+    {
+      "text": "What makes you feel remembered by people who live far away?",
+      "format": "Question",
+      "relatedThemes": [
+        "distance",
+        "care"
+      ]
+    },
+    {
+      "text": "Which reveals more about a person, how they treat strangers or how they treat close friends?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "character",
+        "kindness"
+      ]
+    },
+    {
+      "text": "What relationship skill should schools teach?",
+      "format": "Question",
+      "relatedThemes": [
+        "skills",
+        "education"
+      ]
+    },
+    {
+      "text": "A group member dominates every conversation. What is a kind way to create space for others?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "group conversation",
+        "inclusion"
+      ]
+    },
+    {
+      "text": "People should ask before giving emotional advice. Agree or disagree?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "consent",
+        "advice"
+      ]
+    },
+    {
+      "text": "Tell us about a time a simple check-in arrived at the right moment.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "check-ins",
+        "timing"
+      ]
+    },
+    {
+      "text": "What helps you rebuild trust after a small betrayal?",
+      "format": "Question",
+      "relatedThemes": [
+        "trust repair",
+        "betrayal"
+      ]
+    },
+    {
+      "text": "Would you rather have a friend who remembers every detail or one who always makes time?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "attention",
+        "availability"
+      ]
+    },
+    {
+      "text": "How do shared routines shape a relationship?",
+      "format": "Question",
+      "relatedThemes": [
+        "routines",
+        "bonding"
+      ]
+    },
+    {
+      "text": "What makes silence comfortable between two people?",
+      "format": "Question",
+      "relatedThemes": [
+        "silence",
+        "comfort"
+      ]
+    },
+    {
+      "text": "A close friend starts copying your style and interests. When does admiration become uncomfortable?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "identity",
+        "imitation"
+      ]
+    },
+    {
+      "text": "Tell us about a person who makes you feel more like yourself.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "authenticity",
+        "acceptance"
+      ]
+    },
+    {
+      "text": "A long shared history earns understanding, but never unlimited chances. Agree or disagree?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "patience",
+        "history"
+      ]
+    },
+    {
+      "text": "What does healthy independence look like inside a close bond?",
+      "format": "Question",
+      "relatedThemes": [
+        "independence",
+        "closeness"
+      ]
+    },
+    {
+      "text": "Which strengthens a relationship more, celebrating wins or showing up during setbacks?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "celebration",
+        "support"
+      ]
+    },
+    {
+      "text": "How do you tell whether someone wants comfort, solutions, or space?",
+      "format": "Question",
+      "relatedThemes": [
+        "empathy",
+        "needs"
+      ]
+    },
+    {
+      "text": "A friend repeatedly ignores your advice, then returns with the same problem. What do you do?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "advice",
+        "boundaries"
+      ]
+    },
+    {
+      "text": "Tell us about a friendship tradition you would like to keep for years.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "traditions",
+        "continuity"
+      ]
+    },
+    {
+      "text": "What kind of honesty builds closeness, and what kind merely causes harm?",
+      "format": "Question",
+      "relatedThemes": [
+        "honesty",
+        "care"
+      ]
+    },
+    {
+      "text": "People know us differently in every relationship. Agree or disagree?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "identity",
+        "perspective"
+      ]
+    },
+    {
+      "text": "Would you rather be the organiser or the person who brings energy to the group?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "group roles",
+        "personality"
+      ]
+    },
+    {
+      "text": "What makes a friendship feel balanced even when people give in different ways?",
+      "format": "Question",
+      "relatedThemes": [
+        "balance",
+        "reciprocity"
+      ]
+    },
+    {
+      "text": "Someone forgets your birthday but supports you all year. How much does the missed date matter?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "expectations",
+        "support"
+      ]
+    },
+    {
+      "text": "Tell us about a person you misjudged at first.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "first impressions",
+        "change"
+      ]
+    },
+    {
+      "text": "What is a respectful way to say you need more effort from someone?",
+      "format": "Question",
+      "relatedThemes": [
+        "needs",
+        "communication"
+      ]
+    },
+    {
+      "text": "Which feels more intimate, sharing fears or sharing hopes?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "vulnerability",
+        "aspirations"
+      ]
+    },
+    {
+      "text": "How does social media affect the way people measure closeness?",
+      "format": "Question",
+      "relatedThemes": [
+        "social media",
+        "closeness"
+      ]
+    },
+    {
+      "text": "A friend posts your photo without asking. Is removing it enough, or does the issue need a conversation?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "consent",
+        "social media"
+      ]
+    },
+    {
+      "text": "Being easy to reach does not mean being emotionally available. Agree or disagree?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "availability",
+        "presence"
+      ]
+    },
+    {
+      "text": "Tell us about a relationship where humour helped you through a hard season.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "humour",
+        "resilience"
+      ]
+    },
+    {
+      "text": "What qualities make someone a good keeper of secrets?",
+      "format": "Question",
+      "relatedThemes": [
+        "confidentiality",
+        "trust"
+      ]
+    },
+    {
+      "text": "Would you rather meet a friend's family or their oldest friends first?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "social circles",
+        "background"
+      ]
+    },
+    {
+      "text": "What makes a person feel heard during a group discussion?",
+      "format": "Question",
+      "relatedThemes": [
+        "listening",
+        "groups"
+      ]
+    },
+    {
+      "text": "A friend changes after entering a new relationship. Which changes deserve concern?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "romance",
+        "friendship"
+      ]
+    },
+    {
+      "text": "Which kindness once changed the way you treated other people afterwards?",
+      "format": "Story starter",
+      "relatedThemes": [
+        "kindness",
+        "memory"
+      ]
+    },
+    {
+      "text": "What is one friendship expectation people rarely discuss openly?",
+      "format": "Question",
+      "relatedThemes": [
+        "expectations",
+        "friendship"
+      ]
+    },
+    {
+      "text": "Forgiveness does not require returning to the same level of closeness. Agree or disagree?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "forgiveness",
+        "boundaries"
+      ]
+    },
+    {
+      "text": "Which matters more after conflict, the apology or the changed behaviour?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "apology",
+        "accountability"
+      ]
+    },
+    {
+      "text": "How do cultural differences shape what people expect from close relationships?",
+      "format": "Question",
+      "relatedThemes": [
+        "culture",
+        "expectations"
+      ]
+    },
+    {
+      "text": "A group plans an outing one member cannot afford. What would thoughtful planning look like?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "money",
+        "inclusion"
+      ]
+    },
+    {
+      "text": "Tell us about someone who showed care in a way you did not expect.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "care",
+        "surprise"
+      ]
+    },
+    {
+      "text": "What helps a friendship survive different life stages?",
+      "format": "Question",
+      "relatedThemes": [
+        "life stages",
+        "friendship"
+      ]
+    },
+    {
+      "text": "Would you rather talk every day for ten minutes or once a week for two hours?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "communication",
+        "frequency"
+      ]
+    },
+    {
+      "text": "What is the difference between protecting someone's feelings and avoiding honesty?",
+      "format": "Question",
+      "relatedThemes": [
+        "honesty",
+        "avoidance"
+      ]
+    },
+    {
+      "text": "A friend tells a story about you inaccurately in front of others. Do you correct them immediately?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "accuracy",
+        "public conflict"
+      ]
+    },
+    {
+      "text": "Tell us about a time distance clarified how much a relationship meant to you.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "distance",
+        "appreciation"
+      ]
+    },
+    {
+      "text": "Good friends should notice when something is wrong without being told. Agree or disagree?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "communication",
+        "expectations"
+      ]
+    },
+    {
+      "text": "What hosting detail tells a guest they are free to relax rather than perform?",
+      "format": "Question",
+      "relatedThemes": [
+        "hospitality",
+        "belonging"
+      ]
+    },
+    {
+      "text": "Which group role fits you best, peacemaker, planner, storyteller, or quiet observer?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "group roles",
+        "self-awareness"
+      ]
+    },
+    {
+      "text": "How do you know when a relationship needs more curiosity and fewer assumptions?",
+      "format": "Question",
+      "relatedThemes": [
+        "curiosity",
+        "assumptions"
+      ]
+    },
+    {
+      "text": "Someone you care about has a different memory of the same conflict. How do you move forward?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "memory",
+        "conflict"
+      ]
+    },
+    {
+      "text": "Tell us about a friendship strengthened by a shared responsibility.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "responsibility",
+        "teamwork"
+      ]
+    },
+    {
+      "text": "What makes a promise feel reliable before it has been tested?",
+      "format": "Question",
+      "relatedThemes": [
+        "promises",
+        "trust"
+      ]
+    },
+    {
+      "text": "People should match each other's communication effort. Agree or disagree?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "effort",
+        "communication"
+      ]
+    },
+    {
+      "text": "Would you rather hear a difficult truth privately or receive gentle hints over time?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "truth",
+        "directness"
+      ]
+    },
+    {
+      "text": "What helps you stay connected with someone whose daily life looks nothing like yours?",
+      "format": "Question",
+      "relatedThemes": [
+        "differences",
+        "connection"
+      ]
+    },
+    {
+      "text": "A friend expects an invitation to every plan. How would you set a boundary without rejecting them?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "invitations",
+        "boundaries"
+      ]
+    },
+    {
+      "text": "Tell us about a person who taught you how to communicate better.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "communication",
+        "learning"
+      ]
+    },
+    {
+      "text": "What makes shared laughter such a strong relationship memory?",
+      "format": "Question",
+      "relatedThemes": [
+        "laughter",
+        "memory"
+      ]
+    },
+    {
+      "text": "Which builds trust faster, admitting a mistake or keeping a small promise?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "trust",
+        "accountability"
+      ]
+    },
+    {
+      "text": "How does your idea of friendship differ from what you saw growing up?",
+      "format": "Question",
+      "relatedThemes": [
+        "upbringing",
+        "friendship"
+      ]
+    },
+    {
+      "text": "A close friend becomes friends with someone who hurt you. What information should shape your response?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "loyalty",
+        "hurt"
+      ]
+    },
+    {
+      "text": "Relationship endings deserve as much care as beginnings. Agree or disagree?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "endings",
+        "care"
+      ]
+    },
+    {
+      "text": "Tell us about a goodbye which brought unexpected peace.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "goodbyes",
+        "peace"
+      ]
+    },
+    {
+      "text": "What is one sign someone feels comfortable enough to be honest with you?",
+      "format": "Question",
+      "relatedThemes": [
+        "comfort",
+        "honesty"
+      ]
+    },
+    {
+      "text": "Would you rather share a home with your closest friend or travel together for a month?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "compatibility",
+        "shared space"
+      ]
+    },
+    {
+      "text": "What makes group traditions meaningful rather than repetitive?",
+      "format": "Question",
+      "relatedThemes": [
+        "traditions",
+        "meaning"
+      ]
+    },
+    {
+      "text": "One person always organises plans but feels unappreciated. How should the group respond?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "appreciation",
+        "group effort"
+      ]
+    },
+    {
+      "text": "Tell us about a time someone defended you when you were absent.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "loyalty",
+        "advocacy"
+      ]
+    },
+    {
+      "text": "What is the difference between checking on someone and checking up on them?",
+      "format": "Question",
+      "relatedThemes": [
+        "care",
+        "control"
+      ]
+    },
+    {
+      "text": "Every relationship has an unofficial exchange of effort. Agree or disagree?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "effort",
+        "reciprocity"
+      ]
+    },
+    {
+      "text": "Which creates more closeness, asking thoughtful questions or sharing openly first?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "curiosity",
+        "vulnerability"
+      ]
+    },
+    {
+      "text": "How do you make room for a quieter person's personality in a loud group?",
+      "format": "Question",
+      "relatedThemes": [
+        "introversion",
+        "inclusion"
+      ]
+    },
+    {
+      "text": "A friend apologises well but repeats the same behaviour. What would you believe?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "apologies",
+        "patterns"
+      ]
+    },
+    {
+      "text": "Tell us about a relationship which surprised you by lasting.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "longevity",
+        "surprise"
+      ]
+    },
+    {
+      "text": "What helps people disagree without making each other feel small?",
+      "format": "Question",
+      "relatedThemes": [
+        "disagreement",
+        "respect"
+      ]
+    },
+    {
+      "text": "Would you rather receive affection through words, time, help, gifts, or touch?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "affection",
+        "preferences"
+      ]
+    },
+    {
+      "text": "Where do you see people offering emotional credit before every fact is clear?",
+      "format": "Question",
+      "relatedThemes": [
+        "generosity",
+        "emotional support"
+      ]
+    },
+    {
+      "text": "A friend asks you to keep a secret which affects someone else. Where does loyalty end?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "secrets",
+        "ethics"
+      ]
+    },
+    {
+      "text": "Tell us about a moment when someone gave you the benefit of the doubt.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "grace",
+        "trust"
+      ]
+    },
+    {
+      "text": "Closeness should be measured by ease, not frequency. Agree or disagree?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "closeness",
+        "frequency"
+      ]
+    },
+    {
+      "text": "What makes a person feel safe enough to change their mind publicly?",
+      "format": "Question",
+      "relatedThemes": [
+        "psychological safety",
+        "change"
+      ]
+    },
+    {
+      "text": "Which is more meaningful, being someone's first call or their calmest place?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "support",
+        "security"
+      ]
+    },
+    {
+      "text": "How should friendship change when one person's responsibilities increase?",
+      "format": "Question",
+      "relatedThemes": [
+        "responsibility",
+        "adaptation"
+      ]
+    },
+    {
+      "text": "A member of your circle feels excluded by an inside joke. What should happen next?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "inside jokes",
+        "inclusion"
+      ]
+    },
+    {
+      "text": "Tell us about a relationship that became stronger after expectations changed.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "expectations",
+        "adaptation"
+      ]
+    },
+    {
+      "text": "What does respectful curiosity about someone's background sound like?",
+      "format": "Question",
+      "relatedThemes": [
+        "background",
+        "respect"
+      ]
+    },
+    {
+      "text": "People become closer when they solve a problem together. Agree or disagree?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "teamwork",
+        "bonding"
+      ]
+    },
+    {
+      "text": "Would you rather meet people through shared work or shared fun?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "meeting people",
+        "connection"
+      ]
+    },
+    {
+      "text": "What helps a relationship recover after one person feels taken for granted?",
+      "format": "Question",
+      "relatedThemes": [
+        "appreciation",
+        "repair"
+      ]
+    },
+    {
+      "text": "A friend gives you an expensive gift you cannot match. How would you handle the imbalance?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "gifts",
+        "reciprocity"
+      ]
+    },
+    {
+      "text": "Tell us about a time someone's patience changed the direction of a conversation.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "patience",
+        "communication"
+      ]
+    },
+    {
+      "text": "What makes a shared memory belong to a whole group rather than one storyteller?",
+      "format": "Question",
+      "relatedThemes": [
+        "shared memories",
+        "groups"
+      ]
+    },
+    {
+      "text": "Which deserves more weight, someone's intention or the impact of their action?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "intention",
+        "impact"
+      ]
+    },
+    {
+      "text": "How do you recognise when concern has turned into interference?",
+      "format": "Question",
+      "relatedThemes": [
+        "concern",
+        "boundaries"
+      ]
+    },
+    {
+      "text": "Someone often arrives late but brings energy everyone enjoys. How should the group address it?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "punctuality",
+        "group norms"
+      ]
+    },
+    {
+      "text": "Tell us about a relationship where your differences became an advantage.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "differences",
+        "strengths"
+      ]
+    },
+    {
+      "text": "A relationship can be meaningful even if it is temporary. Agree or disagree?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "temporary bonds",
+        "meaning"
+      ]
+    },
+    {
+      "text": "What helps you understand how another person prefers to receive care?",
+      "format": "Question",
+      "relatedThemes": [
+        "care",
+        "preferences"
+      ]
+    },
+    {
+      "text": "Would you rather repair a strained friendship slowly or address everything in one conversation?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "repair",
+        "pace"
+      ]
+    },
+    {
+      "text": "What part of maintaining relationships feels least visible to others?",
+      "format": "Question",
+      "relatedThemes": [
+        "emotional labour",
+        "maintenance"
+      ]
+    },
+    {
+      "text": "A friend changes plans to suit everyone except you. What would you say?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "consideration",
+        "assertiveness"
+      ]
+    },
+    {
+      "text": "Tell us about someone whose consistency earned your respect.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "consistency",
+        "respect"
+      ]
+    },
+    {
+      "text": "What makes certain people easy to celebrate without comparison?",
+      "format": "Question",
+      "relatedThemes": [
+        "celebration",
+        "comparison"
+      ]
+    },
+    {
+      "text": "Which matters more in a group, fairness or flexibility?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "fairness",
+        "flexibility"
+      ]
+    },
+    {
+      "text": "How do personality differences affect the way people apologise?",
+      "format": "Question",
+      "relatedThemes": [
+        "personality",
+        "apologies"
+      ]
+    },
+    {
+      "text": "A group decision leaves one person unhappy. What would a fair follow-up look like?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "decision making",
+        "fairness"
+      ]
+    },
+    {
+      "text": "Tell us about a time someone respected your no without taking it personally.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "consent",
+        "respect"
+      ]
+    },
+    {
+      "text": "The strongest relationships leave room for separate lives. Agree or disagree?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "independence",
+        "closeness"
+      ]
+    },
+    {
+      "text": "What is a subtle sign of mutual respect between two people?",
+      "format": "Question",
+      "relatedThemes": [
+        "respect",
+        "subtle signals"
+      ]
+    },
+    {
+      "text": "Would you rather know why someone drifted away or accept the distance without an explanation?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "closure",
+        "distance"
+      ]
+    },
+    {
+      "text": "What helps a group move beyond surface-level conversation?",
+      "format": "Question",
+      "relatedThemes": [
+        "depth",
+        "groups"
+      ]
+    },
+    {
+      "text": "A friend only reaches out when they need something. Which pattern would make you step back?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "one-sided bonds",
+        "boundaries"
+      ]
+    },
+    {
+      "text": "Tell us about a friendship which became easier after you stopped forcing it.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "ease",
+        "acceptance"
+      ]
+    },
+    {
+      "text": "What does generosity with attention look like in a busy season?",
+      "format": "Question",
+      "relatedThemes": [
+        "attention",
+        "busyness"
+      ]
+    },
+    {
+      "text": "Which feels more respectful, asking direct questions or waiting for someone to volunteer details?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "curiosity",
+        "privacy"
+      ]
+    },
+    {
+      "text": "How does competition affect relationships between people who care about each other?",
+      "format": "Question",
+      "relatedThemes": [
+        "competition",
+        "care"
+      ]
+    },
+    {
+      "text": "Two friends in the same group stop speaking. What responsibility does everyone else have?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "group conflict",
+        "neutrality"
+      ]
+    },
+    {
+      "text": "Tell us about a shared challenge which revealed someone's character.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "challenge",
+        "character"
+      ]
+    },
+    {
+      "text": "Knowing someone's history does not excuse harmful behaviour. Agree or disagree?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "accountability",
+        "history"
+      ]
+    },
+    {
+      "text": "What makes feedback easier to receive from one person than another?",
+      "format": "Question",
+      "relatedThemes": [
+        "feedback",
+        "trust"
+      ]
+    },
+    {
+      "text": "Would you rather host the gathering or arrive as a guest?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "hospitality",
+        "social roles"
+      ]
+    },
+    {
+      "text": "What keeps affection from becoming entitlement?",
+      "format": "Question",
+      "relatedThemes": [
+        "affection",
+        "boundaries"
+      ]
+    },
+    {
+      "text": "A friend shares good news with everyone else before you. What meaning would you attach to it?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "expectations",
+        "significance"
+      ]
+    },
+    {
+      "text": "Tell us about a relationship where curiosity prevented a wrong assumption.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "curiosity",
+        "assumptions"
+      ]
+    },
+    {
+      "text": "What makes somebody feel like part of the group before they know everyone well?",
+      "format": "Question",
+      "relatedThemes": [
+        "belonging",
+        "welcome"
+      ]
+    },
+    {
+      "text": "Which strengthens bonds more, shared responsibility or shared celebration?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "responsibility",
+        "celebration"
+      ]
+    },
+    {
+      "text": "How do people show respect differently across generations?",
+      "format": "Question",
+      "relatedThemes": [
+        "generations",
+        "respect"
+      ]
+    },
+    {
+      "text": "One person keeps changing the subject when emotions arise. How should the group respond?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "emotions",
+        "avoidance"
+      ]
+    },
+    {
+      "text": "Tell us about a time someone asked a question which made you feel understood.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "questions",
+        "understanding"
+      ]
+    },
+    {
+      "text": "Friendship compatibility matters as much as romantic compatibility. Agree or disagree?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "friendship",
+        "compatibility"
+      ]
+    },
+    {
+      "text": "What is one sign a person handles other people's vulnerability with care?",
+      "format": "Question",
+      "relatedThemes": [
+        "vulnerability",
+        "care"
+      ]
+    },
+    {
+      "text": "Would you rather have plans made weeks ahead or decide on the same day?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "planning",
+        "spontaneity"
+      ]
+    },
+    {
+      "text": "What makes it easier to admit jealousy without damaging a relationship?",
+      "format": "Question",
+      "relatedThemes": [
+        "jealousy",
+        "honesty"
+      ]
+    },
+    {
+      "text": "A group member changes their opinion to match whoever is speaking. What might be behind it?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "people pleasing",
+        "identity"
+      ]
+    },
+    {
+      "text": "Tell us about a bond which grew through ordinary moments rather than major events.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "ordinary moments",
+        "bonding"
+      ]
+    },
+    {
+      "text": "What makes someone dependable without making them feel responsible for everyone?",
+      "format": "Question",
+      "relatedThemes": [
+        "dependability",
+        "boundaries"
+      ]
+    },
+    {
+      "text": "Which feels closer, being understood without explaining or being listened to while explaining?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "understanding",
+        "listening"
+      ]
+    },
+    {
+      "text": "How do you separate a bad day from a harmful pattern in someone's behaviour?",
+      "format": "Question",
+      "relatedThemes": [
+        "patterns",
+        "grace"
+      ]
+    },
+    {
+      "text": "A friend becomes less available after a promotion. What expectations remain reasonable?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "career change",
+        "expectations"
+      ]
+    },
+    {
+      "text": "Tell us about a time you changed your approach to support someone better.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "support",
+        "adaptation"
+      ]
+    },
+    {
+      "text": "Relationships often improve when people stop keeping score. Agree or disagree?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "scorekeeping",
+        "generosity"
+      ]
+    },
+    {
+      "text": "What type of question helps people move from politeness to genuine connection?",
+      "format": "Question",
+      "relatedThemes": [
+        "questions",
+        "connection"
+      ]
+    },
+    {
+      "text": "Would you rather spend time together doing an activity or talking without a plan?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "quality time",
+        "activities"
+      ]
+    },
+    {
+      "text": "What helps you remain fair when two people you care about disagree?",
+      "format": "Question",
+      "relatedThemes": [
+        "fairness",
+        "conflict"
+      ]
+    }
+  ]
+}
