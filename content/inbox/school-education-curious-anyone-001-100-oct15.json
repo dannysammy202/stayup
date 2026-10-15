@@ -1,0 +1,507 @@
+{
+  "topic": "School & Education",
+  "mood": "Curious",
+  "audience": "Anyone",
+  "prompts": [
+    {
+      "format": "Question",
+      "text": "Which part of your old school would you recognise immediately if you visited it today?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a school corridor, courtyard or classroom connected to a happy memory.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Revisit a familiar school library or watch a recording of an old school assembly?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your childhood school invites former students to create a memory exhibition. What would you contribute?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Ordinary school spaces often become memorable because of the people we met there.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "The best thing about revisiting a school is sometimes noticing how small it now feels.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's one change to your school building you'd be interested in seeing?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a school day when an unexpected event changed everyone's routine.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You're designing a guided tour of your old school for a visitor. Where would you begin?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Explore the old science room or sit in your former classroom for ten minutes?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What quality made a teacher especially easy for you to learn from?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a teacher who found a surprisingly simple way to explain a difficult idea.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Learn from someone who uses lively examples or someone who asks careful questions?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A teacher wants to make a complicated topic accessible to beginners. What kind of example might help?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Students remember how a teacher responded to mistakes long after forgetting particular lessons.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A patient explanation is more useful than showing everybody how much the teacher knows.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What subject became more interesting because of one particular teacher?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about receiving encouraging feedback that changed your willingness to try.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You are asked to thank a teacher from years ago in one sentence. What would you mention?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A teacher who tells brilliant stories or one who makes practical demonstrations look effortless?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "When you're learning something new, what helps you realise you've genuinely understood it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall discovering that a different explanation finally made a difficult topic click.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Learn by building a small example or talk through each step with another person?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You're preparing to teach a skill to someone with no prior experience. How would you find a good starting point?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Being able to repeat information isn't always the same as knowing how to use it.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Asking a basic question is often a sign of careful learning, not weakness.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which learning method works well for you but seems unusual to other people?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe changing the way you practised a skill after an unsuccessful first attempt.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Two students disagree about whether to read first or experiment first. What combination could help both?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Take short frequent practice sessions or reserve one long block of focused study?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a school friendship you remember mainly because of an ordinary shared routine?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about meeting a classmate through a group task rather than a social event.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Work on a project with close friends or be assigned to a team of unfamiliar classmates?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A student transfers into a class halfway through the year. How could others help them settle in?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Working towards the same deadline can create friendships between very different people.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A classroom is better when quieter students can contribute without having to compete for attention.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which group project taught you something unexpected about a classmate?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a classmate helping you understand a subject in their own words.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A school wants students of different ages to collaborate for one afternoon. What activity would suit them?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Organise a peer study circle or have classmates teach short lessons about their interests?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a useful skill that traditional exams sometimes struggle to measure?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time you understood a subject better after the test was already over.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Show what you've learnt through a project or answer a written assessment?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A school wants to assess teamwork fairly. What evidence might be better than one group grade?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Feedback can be valuable even when it doesn't lead directly to a mark.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "The purpose of a test should be clearer than the fear of getting something wrong.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which kind of feedback helped you make the biggest improvement as a learner?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall receiving a disappointing grade that eventually led to better study habits.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You can redesign one classroom assessment to be less stressful but equally useful. What would change?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Receive detailed comments on your work or have a chance to revise it after feedback?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which subject do you wish you'd had a chance to explore more deeply at school?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about discovering an unexpected connection between two subjects.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Spend a day exploring astronomy or learning how everyday machines work?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your school gives students a free week to investigate one question. What would you choose?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Subjects often become more interesting when students encounter the practical problems behind them.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Learning an unfamiliar topic for pleasure doesn't have to lead to a qualification.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's an everyday question that could turn into a fascinating classroom lesson?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a school experiment or demonstration that surprised you.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You're invited to design a course that combines art with science. What would its first project be?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Study the history of a local landmark or explore the mathematics behind a favourite sport?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What extracurricular activity taught you something you didn't learn in normal lessons?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe participating in a school club even though you were nervous at first.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Join a debate club or help produce a school newspaper?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A school can fund only one new student club this term. What information should guide its decision?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Activities outside lessons often reveal talents that aren't obvious in a classroom.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "An extracurricular club deserves support even when its members never win competitions.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which activity would you encourage a shy student to try without pressure?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall helping organise a performance, exhibition or school event.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your old school asks you to lead a short workshop on one personal interest. What would you teach?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Prepare a small art exhibition or arrange a friendly inter-class trivia contest?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What did you discover about learning when you first took an online course?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a digital lesson that was surprisingly engaging.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Watch a short recorded explanation or join a live lesson where you can ask questions?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A student has unreliable internet access but needs to follow a course. What could the school provide?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Convenient learning technology doesn't automatically create a good learning environment.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A useful educational app should work well for people who need to pause and revisit lessons.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which feature makes a digital learning platform easier to understand?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall using an unexpected online resource to finally understand a subject.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You're helping a teacher adapt a hands-on lesson for remote students. What would you preserve?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Learn with interactive simulations or work through simple exercises with instant feedback?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's the most memorable book you discovered through a school library?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe the first time a book led you to research something beyond its pages.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Browse shelves without a plan or ask a librarian for one unexpected recommendation?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A school library wants teenagers to read more widely. What new section or event would help?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Libraries can introduce people to subjects they wouldn't have searched for themselves.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A quiet reading space is an important educational resource, not an optional luxury.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which kind of reference book would you enjoy exploring for no particular reason?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall borrowing a book that you wanted to discuss with other people afterwards.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You're asked to select five books for a tiny travelling library. What balance of genres would you choose?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Join a book discussion circle or spend an afternoon exploring a local archive?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's something valuable you've learnt outside a classroom that formal education could recognise better?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a workshop, apprenticeship or community lesson that taught you a practical skill.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Learn from someone demonstrating their trade or practise alongside a mentor?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A person wants to change careers without returning to full-time school. What learning options might they explore?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People develop expertise through practice, mistakes and reflection in very different settings.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A qualification and the ability to apply a skill should both matter in conversations about learning.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which everyday skill would you like schools to teach more explicitly?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall getting practical advice from somebody whose education followed an unusual route.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A community centre offers a free weekend course for adults. Which skill would attract a useful mix of learners?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Attend a short practical training session or take a longer self-paced course?",
+      "relatedThemes": []
+    }
+  ]
+}
