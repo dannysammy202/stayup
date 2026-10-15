@@ -811,3 +811,205 @@ Target: 500. Entries remain editorial drafts until human approval.
    _SM-002399 · Quick choice · pending editorial review_
 400. Our imaginary traffic report would somehow include updates about queues for the best roadside snacks.  
    _SM-002400 · Hot take · pending editorial review_
+
+
+401. What's the funniest story your friends keep bringing up even though everybody already knows how it ends?  
+   _SM-002401 · Question · pending editorial review_
+402. Tell me about an old mistake that became a running joke only after enough time had passed.  
+   _SM-002402 · Story starter · pending editorial review_
+403. A friend who retells a story with new sound effects or one who always corrects the smallest detail?  
+   _SM-002403 · Quick choice · pending editorial review_
+404. At least one person in every group remembers the exact words somebody wished they'd never said.  
+   _SM-002404 · Hot take · pending editorial review_
+405. We each have to retell the same holiday mishap from our own point of view. Whose version sounds least believable?  
+   _SM-002405 · Scenario · pending editorial review_
+406. Some inside jokes survive long after everyone has forgotten what started them.  
+   _SM-002406 · Observation · pending editorial review_
+407. Which story about your friends sounds completely fabricated even though it really happened?  
+   _SM-002407 · Question · pending editorial review_
+408. Describe a moment when everybody started laughing before anyone could finish explaining the problem.  
+   _SM-002408 · Story starter · pending editorial review_
+409. Watching an old recording of your group's most chaotic moment or hearing someone narrate it dramatically?  
+   _SM-002409 · Quick choice · pending editorial review_
+410. The person who says 'That's not what happened' should be required to provide their full version.  
+   _SM-002410 · Hot take · pending editorial review_
+411. Who's the friend whose advice sounds absurd until it unexpectedly works?  
+   _SM-002411 · Question · pending editorial review_
+412. Your friend tells you to put a spoon in your shoe to remember an appointment. Do you ask why or test it?  
+   _SM-002412 · Scenario · pending editorial review_
+413. Taking practical advice from the person who's always organised or experimental advice from the group's wild card?  
+   _SM-002413 · Quick choice · pending editorial review_
+414. Friends can turn a two-minute request for help into a debate with six competing solutions.  
+   _SM-002414 · Observation · pending editorial review_
+415. Tell me about a piece of peculiar advice you received that turned out surprisingly useful.  
+   _SM-002415 · Story starter · pending editorial review_
+416. A friend who admits they have absolutely no idea can still provide excellent moral support.  
+   _SM-002416 · Hot take · pending editorial review_
+417. What is your most ridiculous but harmless trick for remembering things?  
+   _SM-002417 · Question · pending editorial review_
+418. We're trying to untangle a chain and everybody claims to know the best method. Who should be trusted?  
+   _SM-002418 · Scenario · pending editorial review_
+419. Getting advice in the form of a detailed checklist or a two-line voice note with great confidence?  
+   _SM-002419 · Quick choice · pending editorial review_
+420. What happened when somebody in your group ignored instructions and somehow succeeded anyway?  
+   _SM-002420 · Story starter · pending editorial review_
+421. Which friend would take a microphone at an event just to thank everybody for absolutely nothing?  
+   _SM-002421 · Question · pending editorial review_
+422. We're invited to introduce each other on stage without using names. What clue would you use for me?  
+   _SM-002422 · Scenario · pending editorial review_
+423. A karaoke duet where neither person remembers the lyrics or an improvised speech about a random household object?  
+   _SM-002423 · Quick choice · pending editorial review_
+424. A microphone adds at least thirty percent extra confidence to the friend who least needs it.  
+   _SM-002424 · Hot take · pending editorial review_
+425. People who swear they'll never sing suddenly become unstoppable when their favourite chorus starts.  
+   _SM-002425 · Observation · pending editorial review_
+426. Tell me about a performance so unexpected the whole room stopped talking.  
+   _SM-002426 · Story starter · pending editorial review_
+427. What song would you choose if our friends had to sing one chorus together without rehearsing?  
+   _SM-002427 · Question · pending editorial review_
+428. Our speaker cuts out in the middle of a party. Who starts providing live entertainment?  
+   _SM-002428 · Scenario · pending editorial review_
+429. Making a ridiculous podcast intro with friends or pretending to be commentators at a game of table tennis?  
+   _SM-002429 · Quick choice · pending editorial review_
+430. Have you ever been asked to speak unexpectedly and found a funny way to survive it?  
+   _SM-002430 · Story starter · pending editorial review_
+431. Whose voice can your friends imitate with just one familiar expression?  
+   _SM-002431 · Question · pending editorial review_
+432. Some people have a catchphrase so predictable the whole group finishes it for them.  
+   _SM-002432 · Observation · pending editorial review_
+433. We ban every friend's favourite saying for a day. Who breaks the rule in the first ten minutes?  
+   _SM-002433 · Scenario · pending editorial review_
+434. Inventing a new phrase for our group or choosing a hilariously formal motto?  
+   _SM-002434 · Quick choice · pending editorial review_
+435. Tell me about a phrase that started as a joke and accidentally became part of your everyday speech.  
+   _SM-002435 · Story starter · pending editorial review_
+436. The funniest verbal habits are the ones you only notice after somebody imitates you.  
+   _SM-002436 · Hot take · pending editorial review_
+437. What word do your friends claim you use far too often?  
+   _SM-002437 · Question · pending editorial review_
+438. Our group must write a dictionary of words only we understand. What's the very first entry?  
+   _SM-002438 · Scenario · pending editorial review_
+439. A group motto printed on a mug or a secret greeting that requires an unnecessary handshake?  
+   _SM-002439 · Quick choice · pending editorial review_
+440. Describe a moment when somebody used an inside phrase at exactly the wrong time.  
+   _SM-002440 · Story starter · pending editorial review_
+441. We unpack a picnic and discover three people brought bread but nobody brought anything to put on it. What now?  
+   _SM-002441 · Scenario · pending editorial review_
+442. Which friend would bring a full tablecloth to a casual picnic on the grass?  
+   _SM-002442 · Question · pending editorial review_
+443. A picnic with an elaborate homemade cake or one featuring snacks picked at random from a corner shop?  
+   _SM-002443 · Quick choice · pending editorial review_
+444. The best picnic guest is the one who remembers napkins rather than an expensive speaker.  
+   _SM-002444 · Hot take · pending editorial review_
+445. Food somehow tastes different when everybody is sitting on a blanket and trying not to spill drinks.  
+   _SM-002445 · Observation · pending editorial review_
+446. Tell me about an outdoor meal where nature made an unexpected appearance.  
+   _SM-002446 · Story starter · pending editorial review_
+447. What one item would your friends be most grateful you remembered to pack?  
+   _SM-002447 · Question · pending editorial review_
+448. A gust of wind sends our paper plates flying. Who chases them and who protects the cake?  
+   _SM-002448 · Scenario · pending editorial review_
+449. A sunrise breakfast in a park or a late-afternoon picnic that accidentally lasts until dark?  
+   _SM-002449 · Quick choice · pending editorial review_
+450. An ant has never respected a group's decision about who gets the final biscuit.  
+   _SM-002450 · Hot take · pending editorial review_
+451. Tell me about bumping into someone at such an unlikely place that you questioned whether it was really them.  
+   _SM-002451 · Story starter · pending editorial review_
+452. Which friend always seems to recognise somebody no matter what city they're in?  
+   _SM-002452 · Question · pending editorial review_
+453. We're on holiday and spot an old schoolmate at the same tiny café. Who calls their name first?  
+   _SM-002453 · Scenario · pending editorial review_
+454. An unexpected reunion at an airport or finding out a new acquaintance knows your oldest friend?  
+   _SM-002454 · Quick choice · pending editorial review_
+455. A friend who knows everybody can make a short walk take three times as long.  
+   _SM-002455 · Observation · pending editorial review_
+456. There's something wonderfully awkward about two people recognising each other but forgetting exactly where from.  
+   _SM-002456 · Hot take · pending editorial review_
+457. What's your funniest story about meeting a familiar person somewhere completely unfamiliar?  
+   _SM-002457 · Question · pending editorial review_
+458. At a crowded event, our group accidentally adopts someone who thought they knew us. How long before anybody notices?  
+   _SM-002458 · Scenario · pending editorial review_
+459. Introducing two friends who turn out to have history or discovering everybody attended the same obscure event?  
+   _SM-002459 · Quick choice · pending editorial review_
+460. When has a brief chance meeting led to a surprisingly enjoyable afternoon?  
+   _SM-002460 · Story starter · pending editorial review_
+461. Which friend's most ordinary achievement have you celebrated with completely unnecessary enthusiasm?  
+   _SM-002461 · Question · pending editorial review_
+462. Your friend finally assembles furniture without any spare screws. What award do you present?  
+   _SM-002462 · Scenario · pending editorial review_
+463. A mock press conference about finishing laundry or a victory parade after finding a lost earring?  
+   _SM-002463 · Quick choice · pending editorial review_
+464. A good friend can make even a routine personal success feel worth telling somebody about.  
+   _SM-002464 · Observation · pending editorial review_
+465. Somebody completing a difficult phone call deserves a celebratory biscuit.  
+   _SM-002465 · Hot take · pending editorial review_
+466. Tell me about a small win that became an unexpectedly funny group moment.  
+   _SM-002466 · Story starter · pending editorial review_
+467. What task have you put off for so long that completing it would deserve a cake?  
+   _SM-002467 · Question · pending editorial review_
+468. We have to make a five-second victory song for our friend's successful driving test. Who writes the lyrics?  
+   _SM-002468 · Scenario · pending editorial review_
+469. An over-the-top congratulatory voice note or a homemade certificate signed by everyone?  
+   _SM-002469 · Quick choice · pending editorial review_
+470. Have your friends ever cheered you up by treating a tiny improvement like a huge milestone?  
+   _SM-002470 · Story starter · pending editorial review_
+471. Have you ever waved at somebody who wasn't waving at you, while your friends watched?  
+   _SM-002471 · Question · pending editorial review_
+472. Tell me about a time someone confidently thought they recognised you and you had no idea who they were.  
+   _SM-002472 · Story starter · pending editorial review_
+473. A stranger congratulates our friend for winning a contest they've never entered. Who asks for details first?  
+   _SM-002473 · Scenario · pending editorial review_
+474. Being mistaken for an actor you've never heard of or accidentally sharing a name with a local celebrity?  
+   _SM-002474 · Quick choice · pending editorial review_
+475. There's a very specific kind of confidence required to greet the wrong person twice.  
+   _SM-002475 · Observation · pending editorial review_
+476. The person who smiles and waves back before checking who's waving has the right attitude.  
+   _SM-002476 · Hot take · pending editorial review_
+477. Which friend would be the least helpful person to have nearby during an embarrassing mix-up?  
+   _SM-002477 · Question · pending editorial review_
+478. We attend a fancy event and the staff assume one of us is the host. How quickly does the truth come out?  
+   _SM-002478 · Scenario · pending editorial review_
+479. Getting called by the wrong name for one evening or somebody mistaking you for an expert on a subject you know nothing about?  
+   _SM-002479 · Quick choice · pending editorial review_
+480. Tell me about a misunderstanding that became funny only after both people realised what happened.  
+   _SM-002480 · Story starter · pending editorial review_
+481. Your remote control has vanished, and five friends have five theories. Who begins an actual investigation?  
+   _SM-002481 · Scenario · pending editorial review_
+482. What's an item your friends are forever borrowing and forgetting to return?  
+   _SM-002482 · Question · pending editorial review_
+483. A house where every object has a label or one where someone has a mysterious drawer for everything?  
+   _SM-002483 · Quick choice · pending editorial review_
+484. The missing phone is frequently found beside the person who insisted someone else moved it.  
+   _SM-002484 · Observation · pending editorial review_
+485. Tell me about a time you searched everywhere for something you were carrying all along.  
+   _SM-002485 · Story starter · pending editorial review_
+486. A shared-household lost-and-found box would eventually become an archaeological site.  
+   _SM-002486 · Hot take · pending editorial review_
+487. Which friend is most likely to own three chargers and still be asking for yours?  
+   _SM-002487 · Question · pending editorial review_
+488. We establish a detective agency solely to locate missing socks. What clues do we examine?  
+   _SM-002488 · Scenario · pending editorial review_
+489. Finding a forgotten banknote in an old jacket or discovering where your missing sunglasses have been for months?  
+   _SM-002489 · Quick choice · pending editorial review_
+490. What's the most unlikely place you've found something that went missing?  
+   _SM-002490 · Story starter · pending editorial review_
+491. If your group opened a time capsule in ten years, what harmless object would make everybody laugh immediately?  
+   _SM-002491 · Question · pending editorial review_
+492. We each contribute a note predicting what we'll be arguing about in a decade. What does yours say?  
+   _SM-002492 · Scenario · pending editorial review_
+493. Sealing a box of funny memories or recording ten short messages to our future selves?  
+   _SM-002493 · Quick choice · pending editorial review_
+494. A good friendship time capsule should include a photograph where everybody was trying to look serious and failed.  
+   _SM-002494 · Hot take · pending editorial review_
+495. The smallest object from an old day out can carry a whole crowd of memories with it.  
+   _SM-002495 · Observation · pending editorial review_
+496. Tell me about rediscovering a message you wrote years ago and being surprised by your old self.  
+   _SM-002496 · Story starter · pending editorial review_
+497. Which current inside joke do you think your friends will still remember twenty years from now?  
+   _SM-002497 · Question · pending editorial review_
+498. Future-us opens a recording where everyone made outrageous predictions. Who will have been the least accurate?  
+   _SM-002498 · Scenario · pending editorial review_
+499. An envelope of handwritten letters or a flash drive with our favourite songs from this year?  
+   _SM-002499 · Quick choice · pending editorial review_
+500. What ordinary detail of life right now do you think you might feel nostalgic about later?  
+   _SM-002500 · Story starter · pending editorial review_
