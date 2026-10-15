@@ -35,3 +35,7 @@ Initial target: 200. Entries remain editorial drafts until human approval.
    _SM-004811 · Story starter · pending editorial review_
 12. An old proverb sometimes makes more sense as you grow older.  
    _SM-004812 · Observation · pending editorial review_
+
+
+13. What's a local design you enjoy seeing?  
+   _SM-004813 · Question · pending editorial review_
