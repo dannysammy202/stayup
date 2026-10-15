@@ -1,46 +1,23 @@
 # Say More — Conversation Companion
 
-Say More replaces the original StayUp interface in the existing `dannysammy202/stayup` repository.
+Say More continues in `dannysammy202/stayup`. Approved responsive Explore, Topics, Focus, Saved, History and Settings screens use Iconsax Linear. The library spans 19 topics, six moods and seven audiences, with optional filters, saved/history support, a separate opt-in adults-only area and user-requested optional Gemini. Curated content, not Gemini, supplies the default feed.
 
-## Product experience
+## First-pass target: 200 per eligible combination
 
-- Approved responsive Explore, Topics, Focus, Saved, History and Settings screens.
-- Iconsax Linear is the exclusive interface icon system.
-- 19 topics, six moods, seven audiences with optional filters.
-- Curated-first browsing, related angles, local history, favourites and hiding.
-- A separate opt-in curated adults-only area.
-- Optional Gemini 3.6 Flash (fresh prompts) and Gemini 3.8 Flash (More Angles), only when users request them. Gemini does not supply the default feed.
+Of 798 theoretical topic/mood/audience combinations, 102 remain excluded. The 696 eligible combinations each require **200 original conversation starters** initially, giving **139,200 required slots**. This is a minimum-coverage target, not a limit on how many records may remain from earlier production.
 
-## Curated library: production reality
+There are **4,500 existing published starters** across nine 500-entry collections. Keep every entry in those collections. The first 100 carry historical human-review status and 4,400 remain screened candidates pending individual review. With 200 slots per combination counted towards initial coverage, **1,800 of 139,200 required slots are covered**, leaving **137,400**. Publishing 200 in each of the other 687 combinations yields **141,900 physical entries** because the previous 2,700 over-target entries remain intact.
 
-**Editorial quota:** 500 original, reviewed prompts for each socially appropriate topic/mood/audience combination.
+Future expansion is deliberate: increase an individual combination's target beyond 200 before publishing further entries into it. Historical 500-entry combinations carry `legacyExpanded: true` and are excluded from additional publication until their targets change. The up-to-date source of truth is `public/library-data/manifest.json`.
 
-19 × 6 × 7 = 798 theoretical combinations. The editorial policy excludes 102 unsuitable pairings, leaving **696 eligible combinations** and an eventual **348,000-starter target**.
+The manifest separates `publishedCount` (all real entries), `coverageCount` (up to the current target per combination), `remainingToTarget` (the still-unfilled slots) and `targetCount` (the sum of combination targets). Never calculate unfinished slots by subtracting physical published count from the target.
 
-**Current inventory:** 1,600 built-in entries across four combinations. Relationships / Chill / Anyone, Someone new and Friends have 500 each. Relationships / Chill / Crush / Talking stage has its first 100 of 500. The first 100 starters have prior editorial review status; the remaining 1,500 are machine-screened candidates awaiting human editorial review and fuller semantic similarity screening. **346,400** additional slots remain unwritten and are not presented as complete.
+## Workflow and delivery
 
-### Built-in content delivery
+The curated catalogue ships as local JSON shards under `public/library-data/`. The client loads a maximum of eight relevant shards at a time, supporting incremental browsing and stable saved/history IDs. No user import or runtime Gemini generation fills the curated catalogue.
 
-The approved scope is 348,000 starters over 696 eligible combinations; the 102 exclusions remain in the published manifest. Original UI and Iconsax are unchanged. Google Gemini is strictly optional for fresh ideas and additional angles; it is not the default source.
+Write individually authored batches of at most 100 to `content/inbox/`. GitHub Actions publishes them and validates full-file counts, stable unique IDs, duplicate text, editorial provenance, eligible combinations, UI checks and build. Merge only passing content branches, deploy the exact commit to Vercel and verify production.
 
-All curated data is shipped inside the Say More repository and Vercel deployment under `public/library-data/`, with no user imports and no runtime Gemini generation. `manifest.json` contains the publication inventory and a `publishedCollections` index mapping each topic/mood/audience triple to its local JSON shards. The app loads a maximum of eight relevant shards per selection instead of fetching the entire eventual catalogue on startup. Further shards load through the existing More conversation ideas control. Saved and History views rehydrate their relevant files using stable IDs.
+Keep screened entries marked `screened_pending_editorial_review` until they receive individual human review. Never bulk reuse the old 100,000-draft source or generate superficial text permutations.
 
-When publishing another editorial batch, add a local JSON content shard, update `publishedFiles`, `publishedCollections`, its slot's `published` count and the total/editorial counters in the manifest. Add matching Markdown source under `content/`. Run `npm test` before deployment: checks cover eligible combinations, duplicate IDs/text, quality metadata, discovery, Iconsax, JavaScript syntax and shard selection.
-
-**Editorial honesty:** exact matching and lexical screening do not equal human acceptance or full semantic de-duplication. Keep the `screened_pending_editorial_review` status until an individual reviewer signs off. Do not populate quotas with templated variants or mark ungenerated entries as complete.
-
-## Running and deployment
-
-Node 22 or newer.
-
-- `npm start` runs the local server on port 4173.
-- `npm test` runs application and curated-library tests.
-- `npm run build` assembles the static production site.
-- Vercel serves the PWA and `api/ai/generate.js` plus `api/health.js`.
-
-Set `GEMINI_API_KEY` for optional AI support. Do not commit secrets. Gemini stays outside the curated adults-only area. Full production age assurance and distributed usage limits still require completion before public launch.
-
-
-## Continuous editorial production
-
-New authored batches are committed to `content/inbox/` on a content branch. GitHub Actions runs `npm run content:publish` on each batch, validates the whole corpus, builds Say More, and commits generated local JSON, Markdown and manifest files back to that branch. Only validated branches are merged to `main` and deployed. No browser upload step or runtime Gemini call is used to populate the normal feed. See `content/CONTENT_PRODUCTION.md` for content quality, exclusions and editorial sign-off policy.
+Node 22+: `npm start`, `npm test`, `npm run content:validate`, `npm run build`. Set `GEMINI_API_KEY` server-side for optional AI, and do not include it in the curated pipeline. See `content/CONTENT_PRODUCTION.md`.

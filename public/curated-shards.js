@@ -7,16 +7,16 @@
   'use strict';
   const VALID = /^[a-z0-9/_-]+\.json$/i;
   function assertManifest(manifest) {
-    if (!manifest || manifest.version !== 2 || manifest.targetPerCombination !== 500 ||
+    if (!manifest || manifest.version !== 2 || manifest.targetPerCombination !== 200 ||
         manifest.eligibleCombinations !== 696 || manifest.excludedCombinations !== 102 ||
-        manifest.targetCount !== 348000 || !Array.isArray(manifest.publishedCollections) ||
+        manifest.targetCount < 139200 || !Array.isArray(manifest.publishedCollections) ||
         !Array.isArray(manifest.publishedFiles) || !Array.isArray(manifest.combinations)) {
       throw new Error('Built-in library manifest does not match the approved scope.');
     }
     if (manifest.combinations.length !== 798) throw new Error('Incorrect combination count.');
     const eligible = manifest.combinations.filter(x => x.eligible);
-    if (eligible.length !== 696 || eligible.some(x => x.target !== 500) ||
-        eligible.reduce((sum,x) => sum + x.target, 0) !== 348000 ||
+    if (eligible.length !== 696 || eligible.some(x => !Number.isInteger(x.target) || x.target < 200 || x.target > 500 || x.published > (x.legacyExpanded === true ? 500 : x.target)) ||
+        eligible.reduce((sum,x) => sum + x.target, 0) !== manifest.targetCount ||
         manifest.combinations.some(x => !x.eligible && (x.target !== 0 || x.published > 0))) {
       throw new Error('Invalid eligible/excluded combination allocation.');
     }
@@ -40,7 +40,9 @@
     }
     if (total !== manifest.publishedCount || paths.size !== manifest.publishedFiles.length ||
         manifest.publishedFiles.some(path => !paths.has(path)) ||
-        manifest.humanReviewedCount + manifest.aiAuthoredScreenedCount !== total) {
+        manifest.humanReviewedCount + manifest.aiAuthoredScreenedCount !== total ||
+        manifest.coverageCount !== manifest.combinations.reduce((sum,x) => sum + Math.min(x.published,x.target),0) ||
+        manifest.remainingToTarget !== manifest.targetCount - manifest.coverageCount) {
       throw new Error('Published collection index and content totals differ.');
     }
     return true;

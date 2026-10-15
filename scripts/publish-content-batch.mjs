@@ -24,8 +24,8 @@ export function prepareContentBatch(input, manifest, existing){
   fail('Input must contain an array of individually written prompts.');
  const cell=manifest.combinations.find(c=>c.topic===input.topic&&c.mood===input.mood&&c.audience===input.audience);
  if(!cell||!cell.eligible)fail('Selected combination is excluded or unknown.');
- if(input.prompts.length<1||input.prompts.length>Math.min(100,500-cell.published))
-  fail('Batch must contain 1-100 starters and must not exceed the 500-starter cap.');
+ if(input.prompts.length<1||input.prompts.length>Math.min(100,cell.target-cell.published))
+  fail('Batch must contain 1-100 starters and must not exceed the current combination target.');
  const existingText=new Set(existing.map(p=>normalize(p.text))),existingIds=new Set(existing.map(p=>p.id));
  const localText=new Set(),candidates=[];
  const similar=existing.filter(p=>p.topic===input.topic&&p.moods?.[0]===input.mood&&p.audiences?.[0]===input.audience).map(p=>({id:p.id,tokens:tokens(p.text)}));
@@ -85,8 +85,10 @@ export function publishContentBatch(file,root='.'){
  manifest.aiAuthoredScreenedCount+=records.length;
  manifest.publishedFiles.push(batch.filename);
  manifest.editorialStatus='in_progress';
- manifest.lastContentBatch=topic+' / '+mood+' / '+audience+': '+cell.published+' of 500';
- manifest.editorialNote=manifest.publishedCount+' starters available as built-in files: '+manifest.humanReviewedCount+' previously reviewed, '+manifest.aiAuthoredScreenedCount+' machine-screened drafts awaiting individual editorial review. '+(manifest.targetCount-manifest.publishedCount)+' slots remain unwritten.';
+ manifest.lastContentBatch=topic+' / '+mood+' / '+audience+': '+cell.published+' of '+cell.target;
+ manifest.coverageCount=manifest.combinations.reduce((s,c)=>s+Math.min(c.published,c.target),0);
+ manifest.remainingToTarget=manifest.targetCount-manifest.coverageCount;
+ manifest.editorialNote=manifest.publishedCount+' built-in starters: '+manifest.humanReviewedCount+' human-reviewed, '+manifest.aiAuthoredScreenedCount+' screened pending individual editorial review. Coverage: '+manifest.coverageCount+'/'+manifest.targetCount+', '+manifest.remainingToTarget+' required slots remain; historic expansions retained.';
  manifest.qualityGate={
    ...(manifest.qualityGate||{}),
    exactDuplicateCheck:'validated_'+manifest.publishedCount,
@@ -97,7 +99,7 @@ export function publishContentBatch(file,root='.'){
  };
  const mdPath=join(root,'content',topic,mood,audience.replace(/[^a-zA-Z0-9 -]/g,'').replace(/\s+/g,'-')+'.md');
  const previous=existsSync(mdPath)?readFileSync(mdPath,'utf8'):'';
- const head=previous||'# Say More · '+topic+' / '+mood+' / '+audience+'\n\nTarget: 500. Entries remain editorial drafts until human approval.\n';
+ const head=previous||'# Say More · '+topic+' / '+mood+' / '+audience+'\n\nInitial target: '+cell.target+'. Entries remain editorial drafts until human approval.\n';
  const listing=records.map((p,i)=>'\n'+(cell.published-records.length+i+1)+'. '+p.text+'  \n   _'+p.id+' · '+p.format+' · pending editorial review_').join('');
  mkdirSync(dirname(mdPath),{recursive:true});
  writeFileSync(output,JSON.stringify(records));

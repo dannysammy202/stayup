@@ -1,51 +1,43 @@
-# Say More — autonomous editorial production
+# Say More — editorial production policy
 
-## Confirmed target
+## Initial coverage
 
-- 19 topics × 6 moods × 7 audiences = 798 possible selections.
-- Exclude the **102** unsuitable combinations recorded in `public/library-data/manifest.json`. Do not quietly revise this policy.
-- Publish **500 genuinely different, naturally worded starters** per eligible combination, across **696 combinations**, for a target of **348,000**.
-- The 18+ library is **separate** and outside this quota.
-- All published content must be bundled in the repository and loaded locally by `public/curated-shards.js`. There is no import flow for app users.
-- The approved interface and **Iconsax Linear** are frozen. Gemini is an explicit, optional action; the default feed contains only repository content.
+- 19 topics × 6 moods × 7 audiences = 798 theoretical combinations.
+- Preserve 102 unsuitable exclusions and zero entries in their slots.
+- Target 200 individually written, natural starters across each of 696 eligible combinations: **139,200 initial required slots**.
+- Do not delete nine previously completed 500-entry combinations. All 4,500 existing starters remain live and 2,700 historic extras remain available.
+- At 4,500 total starters the initial coverage is 1,800/139,200, leaving 137,400 required slots. Meeting the remaining 687 combination goals yields 141,900 actual starters, rather than 139,200.
+- Additional content above 200 for any combination is a later, explicit expansion. Increase its target deliberately before publishing more. Existing 500-entry collections carry `legacyExpanded: true` to preserve historic overages.
+- Adults-only content remains separate and outside the general quota. Do not change approved UI, Iconsax Linear, local curated feed, or optional user-requested Gemini.
 
-## Production state and source of truth
+## Read source of truth on every run
 
-Never use a previous conversation summary as the inventory. Read `public/library-data/manifest.json` **fresh for each run**. It contains every slot's `eligible`, `target`, and `published`, plus shard locations, published totals and editorial statuses. Run `npm run content:validate` to check actual files against the manifest.
+Read `public/library-data/manifest.json`, not earlier conversation counts. Its fields mean:
+- `publishedCount`: all available starter records.
+- `targetCount`: sum of current eligible combination goals, initially 139,200.
+- `coverageCount`: sum of min(published,target) over eligible combinations.
+- `remainingToTarget`: sum of max(0,target-published). Initial coverage finishes at zero.
+- `legacyExpanded`: historic 500-entry collection preserved above the new target. No additional publication unless its target rises.
 
-For editorial honesty, distinguish:
+Never mark unwritten capacity as published. Maintain stable `SM-` IDs, unique normalised text and matching physical shards. Run `npm run content:validate` against every update.
 
-- **approved:** independently reviewed entry with recorded review evidence (currently only the first 100 legacy-reviewed entries).
-- **screened_pending_editorial_review:** original AI-assisted candidate; structural and lexical checks pass, but individual human review and comprehensive meaning-level similarity assessment remain pending.
-- **unwritten:** neither approved nor screened; must never be counted as published.
+## Editorial quality
 
-Do not use old 100,000-record prototype drafts to fill quotas indiscriminately. Their previous quality report flagged semantic repetition and inadequate individual review.
+- `approved`: individual human editorial review supported by evidence. The historical reviewed pool contains 100 entries.
+- `screened_pending_editorial_review`: individually authored and structurally/lexically screened candidates, still awaiting human approval and semantic-similarity assessment.
+- `unwritten`: no record and no published count.
+- Diversify questions, hot takes, scenarios, quick choices, story starters and observations. Match topic, mood and audience, avoiding inappropriate romance contexts.
+- Reject duplicates, placeholders, cosmetic permutations and inappropriate content. High lexical overlap requires revision. Screening does not prove full semantic originality.
+- Never reuse the old 100,000 synthetic draft as if it were approved. No unapproved paid mass generation or secrets in Git.
 
-## Batch authoring
+## Continuous workflow
 
-Work on the oldest partially completed eligible combination first, unless a deliberate topic-diversity decision makes another selection more useful.
+1. Check main and the live Vercel production commit and manifest. If production lags, deploy and verify main before writing more content.
+2. Select the oldest partially filled eligible combination with `published<target`, or begin another appropriate topic for coverage.
+3. Write up to 100 varied, natural conversation starters in a JSON batch of `{topic,mood,audience,prompts:[{text,format,relatedThemes}]}`. Never exceed remaining slot capacity.
+4. Commit new authored batches under `content/inbox/` on a content branch. The publisher adds built-in JSON shards, source Markdown and updates `publishedCount`, `coverageCount` and `remainingToTarget`.
+5. Run `npm run content:validate`, `npm test` and `npm run build`. Fix rejected batches. Only merge checks-passing branches.
+6. Deploy the resulting main SHA and verify the deployed production commit and published manifest. Continue in the next hourly execution without asking for 'continue'.
+7. Report at verified coverage milestones or genuine non-transient blockers, never each hourly batch. Preserve human-review status separately.
 
-1. Author **100 varied conversation starters** for one exact (topic, mood, audience). Each sentence must have a distinct conversational premise rather than superficial word changes. Create naturally flowing questions, hot takes, scenarios, quick choices, story starters and observations.
-2. Ensure that every scenario matches the audience and mood. A Chill/Partner starter must sound unlike a Playful/Friends prompt. Never force romance on group, family, underage or otherwise unsuitable contexts.
-3. Write the batch as a JSON file with `{topic,mood,audience,prompts:[{text,format,relatedThemes}]}`. Text fields are individually authored; do not generate all 100 with random phrase interpolation.
-4. Check for exact duplication, topic-mood-audience mismatch, awkward sentences, social inappropriateness and conceptual rewording. Rework rejected entries.
-5. Run `npm run content:validate` on the existing library.
-6. Run `npm run content:publish -- content/inbox/BATCH_NAME.json` locally. This appends built-in JSON, the manifest and source Markdown, and reruns corpus validation. **The editor must review any flagged lexical overlaps before publishing.**
-7. Run `npm test` and `npm run build`. Commit changes to a content branch, open a PR, check GitHub Actions, merge green changes and ensure the connected Vercel production deployment updates. Verify the published commit. Never report deployment as complete from a GitHub merge alone.
-8. Save the next incomplete slot in the manifest automatically. Do not rely on the user saying "continue."
-
-## Quality gates and limits
-
-- Preserve globally unique, stable `SM-000001` to `SM-348000` identifiers and unique **normalised text**.
-- The publisher rejects placeholder texts and batches over 100; all accepted entries remain `screened_pending_editorial_review` until real review.
-- Evaluate high word overlap and similar underlying stories; automated lexical overlap checking cannot guarantee semantic originality. Clearly state any incomplete review.
-- Check a spread of formats across each new combination, not 500 repeated questions or forced scenarios.
-- The publication stage must not read, print, copy or commit `GEMINI_API_KEY` or other credentials.
-- Never trigger mass Gemini API calls, paid computing or external billing without a clear budget agreement. Optional in-app Gemini remains under the existing server-side controls.
-- Every run should publish only a batch it can properly inspect and test. Never manufacture progress by templating the remaining 346,500 items.
-
-## User-facing progress
-
-The user specifically requested uninterrupted continuation rather than typing "continue." Where recurring execution is available, keep producing and publishing approved-to-publish batches automatically. Notify at meaningful milestones (for example 5,000, 10,000, 25,000 or final completion), not on each hourly check. If a real blocker arises, state it instead of claiming success.
-
-**Completion requires the manifest to show `publishedCount: 348000`, 696 fully populated collections, 102 excluded combinations at zero, passing source and app checks, and all files present and deployed.** Content count is distinct from individual human review, which must be reported separately.
+Initial coverage is complete only when all 696 eligible combinations meet at least their 200-entry target, exclusions remain empty, `remainingToTarget===0`, checks pass and Vercel serves the confirmed main commit. The actual physical published count will exceed 139,200 because historic overages remain. Future expansions use newly agreed quotas.

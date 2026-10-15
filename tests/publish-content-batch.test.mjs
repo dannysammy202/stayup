@@ -5,7 +5,7 @@ import { prepareContentBatch } from '../scripts/publish-content-batch.mjs';
 
 const manifest=JSON.parse(readFileSync('public/library-data/manifest.json','utf8'));
 const published=manifest.publishedFiles.flatMap(file=>JSON.parse(readFileSync('public/library-data/'+file,'utf8')));
-const eligibleSlot=manifest.combinations.find(c=>c.eligible&&c.published<=498);
+const eligibleSlot=manifest.combinations.find(c=>c.eligible&&c.published<=c.target-2);
 if(!eligibleSlot)throw new Error('No available eligible slot for content publisher test');
 const pick={
  topic:eligibleSlot.topic,mood:eligibleSlot.mood,audience:eligibleSlot.audience,
@@ -40,4 +40,13 @@ test('publisher does not mark machine-authored content as independently human ap
  assert.equal(result.records.every(p=>p.editorialStatus!=='approved'&&p.humanReviewed===false),true);
  assert.equal(result.records.every(p=>p.source==='published-library'),true);
  assert.equal(result.records.every(p=>/human approval/.test(p.reviewMethod)),true);
+});
+
+
+test('publisher halts at 200 and does not remove the historic 500-entry collections',()=>{
+ const old=manifest.combinations.find(c=>c.legacyExpanded&&c.published===500);
+ assert.ok(old);
+ assert.throws(()=>prepareContentBatch({...pick,topic:old.topic,mood:old.mood,audience:old.audience},manifest,published),/current combination target/);
+ const near={...manifest,combinations:manifest.combinations.map(c=>c===eligibleSlot?{...c,published:199}:c)};
+ assert.throws(()=>prepareContentBatch(pick,near,published),/current combination target/);
 });
