@@ -429,3 +429,45 @@ Target: 500. Entries remain editorial drafts until human approval.
    _SM-001709 · Scenario · pending editorial review_
 210. A ferry ride with fresh air or a scenic railway trip where you watch the landscape change?  
    _SM-001710 · Quick choice · pending editorial review_
+
+
+211. Which simple game brings out your competitive side even when the stakes are tiny?  
+   _SM-001711 · Question · pending editorial review_
+212. A game is more enjoyable when everyone understands the rules before the first round starts.  
+   _SM-001712 · Hot take · pending editorial review_
+213. We're playing a guessing game and I keep giving terrible clues. Do you offer advice or enjoy the chaos?  
+   _SM-001713 · Scenario · pending editorial review_
+214. A cooperative puzzle where we work together or a quick card game where someone has to win?  
+   _SM-001714 · Quick choice · pending editorial review_
+215. Tell me about a game you learnt from an older relative and still remember how to play.  
+   _SM-001715 · Story starter · pending editorial review_
+216. People who claim they aren't competitive sometimes become the loudest players by round three.  
+   _SM-001716 · Observation · pending editorial review_
+217. What's a game you enjoy watching others play even if you rarely join in?  
+   _SM-001717 · Question · pending editorial review_
+218. The funniest moment in a game often comes from a mistake rather than a clever move.  
+   _SM-001718 · Hot take · pending editorial review_
+219. You realise I misunderstood a rule and have been playing incorrectly. Would you stop the game to explain?  
+   _SM-001719 · Scenario · pending editorial review_
+220. A word game which tests quick thinking or a strategy game which rewards patience?  
+   _SM-001720 · Quick choice · pending editorial review_
+221. What's the first thing you pay attention to when a film starts, the music, the visuals or the dialogue?  
+   _SM-001721 · Question · pending editorial review_
+222. A good film discussion doesn't need both people to agree about the ending.  
+   _SM-001722 · Hot take · pending editorial review_
+223. We're choosing a film and the trailer reveals almost the whole story. Do you still want to watch it?  
+   _SM-001723 · Scenario · pending editorial review_
+224. A cinema with a huge screen or a small screening room with comfortable seats?  
+   _SM-001724 · Quick choice · pending editorial review_
+225. Tell me about a film scene which made the whole audience react at once.  
+   _SM-001725 · Story starter · pending editorial review_
+226. The conversation on the way home sometimes becomes the best part of a cinema outing.  
+   _SM-001726 · Observation · pending editorial review_
+227. Do you prefer knowing almost nothing about a film before watching or reading a little about it first?  
+   _SM-001727 · Question · pending editorial review_
+228. A slow opening scene deserves a fair chance when the rest of the story earns it.  
+   _SM-001728 · Hot take · pending editorial review_
+229. The person behind us keeps whispering spoilers. Who is more likely to politely say something?  
+   _SM-001729 · Scenario · pending editorial review_
+230. An old film you've never seen or a new release everyone seems to be discussing?  
+   _SM-001730 · Quick choice · pending editorial review_
