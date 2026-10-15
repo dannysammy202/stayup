@@ -407,3 +407,25 @@ Target: 500. Entries remain editorial drafts until human approval.
    _SM-001699 · Scenario · pending editorial review_
 200. Sitting by a window overlooking a lively street or finding a bench with an uninterrupted view of the sky?  
    _SM-001700 · Quick choice · pending editorial review_
+
+
+201. What's the most interesting thing you've noticed while waiting for a journey to begin?  
+   _SM-001701 · Question · pending editorial review_
+202. The unplanned stop on a trip sometimes deserves more attention than the destination.  
+   _SM-001702 · Hot take · pending editorial review_
+203. Our train is delayed for an hour in a town neither of us knows. What would you want to do nearby?  
+   _SM-001703 · Scenario · pending editorial review_
+204. A window seat with a view of the countryside or an aisle seat where you have more room?  
+   _SM-001704 · Quick choice · pending editorial review_
+205. Tell me about a journey where you met someone whose story surprised you.  
+   _SM-001705 · Story starter · pending editorial review_
+206. The objects people pack for a short trip often reveal their priorities better than their luggage size.  
+   _SM-001706 · Observation · pending editorial review_
+207. Is there a journey you remember mainly for the conversations you had along the way?  
+   _SM-001707 · Question · pending editorial review_
+208. Getting lost for a few minutes is more enjoyable when nobody feels responsible for knowing every turn.  
+   _SM-001708 · Hot take · pending editorial review_
+209. We're visiting a new city and have one free evening. How would you choose between exploring and resting?  
+   _SM-001709 · Scenario · pending editorial review_
+210. A ferry ride with fresh air or a scenic railway trip where you watch the landscape change?  
+   _SM-001710 · Quick choice · pending editorial review_
