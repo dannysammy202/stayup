@@ -131,3 +131,25 @@ Initial target: 200. Entries remain editorial drafts until human approval.
    _SM-005759 · Story starter · pending editorial review_
 60. Which of your habits would you proudly call a personality feature?  
    _SM-005760 · Question · pending editorial review_
+
+
+61. If we explored your city like tourists, which overlooked place would you show me?  
+   _SM-005761 · Question · pending editorial review_
+62. Tell me about a trip where a small mistake became the best story.  
+   _SM-005762 · Story starter · pending editorial review_
+63. We're at a train station with an hour to spare. How would you spend the time?  
+   _SM-005763 · Scenario · pending editorial review_
+64. A scenic walk with plenty of stops or a lively neighbourhood full of surprises?  
+   _SM-005764 · Quick choice · pending editorial review_
+65. Getting a little lost together is fun when neither person insists on being the expert navigator.  
+   _SM-005765 · Hot take · pending editorial review_
+66. You learn a lot about someone's curiosity by what catches their attention on a walk.  
+   _SM-005766 · Observation · pending editorial review_
+67. What souvenir would you choose for someone you're still getting to know?  
+   _SM-005767 · Question · pending editorial review_
+68. We're allowed to take only three pictures during an outing. Which moments deserve them?  
+   _SM-005768 · Scenario · pending editorial review_
+69. Plan the route together or let a coin toss decide our next turn?  
+   _SM-005769 · Quick choice · pending editorial review_
+70. What nearby place have you always meant to visit but keep postponing?  
+   _SM-005770 · Question · pending editorial review_
