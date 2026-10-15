@@ -8,8 +8,11 @@ vm.runInContext(script,context,{filename:'curated-shards.js'});
 const selector=context.SayMoreCuratedShards;
 const manifest=JSON.parse(readFileSync('public/library-data/manifest.json','utf8'));
 
-test('validated shard index tracks 348k intended slots without filling unfinished combinations',()=>{
+test('validated shard index tracks the 139,200-slot initial target with expanded collections retained',()=>{
  assert.equal(selector.assertManifest(manifest),true);
+ assert.equal(manifest.targetPerCombination,200);
+ assert.equal(manifest.targetCount,139200);
+ assert.equal(manifest.remainingToTarget,137400);
  assert.equal(manifest.contentDelivery.externalUploadRequired,false);
  assert.equal(manifest.publishedCollections.reduce((n,c)=>n+c.loadedCount,0),manifest.publishedCount);
 });

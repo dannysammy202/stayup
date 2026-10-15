@@ -15,8 +15,8 @@ export function validateCuratedLibrary(root='.') {
  const base=resolve(root);
  const manifest=JSON.parse(readFileSync(resolve(base,'public/library-data/manifest.json'),'utf8'));
  assert(manifest.version===2, 'manifest version must be 2');
- assert(manifest.targetPerCombination===500, 'target per combination must be 500');
- assert(manifest.targetCount===348000, 'target total must be 348,000');
+ assert(manifest.targetPerCombination===200, 'initial target per combination must be 200');
+ assert(manifest.targetCount>=139200&&manifest.targetCount===manifest.combinations.filter(c=>c.eligible).reduce((sum,c)=>sum+c.target,0),'target total must cover all current goals');
  assert(manifest.theoreticalCombinations===798&&manifest.eligibleCombinations===696&&manifest.excludedCombinations===102,'matrix counts');
  assert(JSON.stringify(manifest.topics)===JSON.stringify(TOPICS), 'topic list mismatch');
  assert(JSON.stringify(manifest.moods)===JSON.stringify(MOODS), 'mood list mismatch');
@@ -29,7 +29,7 @@ export function validateCuratedLibrary(root='.') {
    const key=slotKey(cell.topic,cell.mood,cell.audience);
    assert(!slots.has(key),'duplicate combination '+key);
    assert(Number.isInteger(cell.published)&&cell.published>=0, 'invalid published count for '+key);
-   assert(cell.eligible?cell.target===500&&cell.published<=500:cell.target===0&&cell.published===0,'invalid quota or excluded publication '+key);
+   assert(cell.eligible?Number.isInteger(cell.target)&&cell.target>=200&&cell.target<=500&&cell.published<=(cell.legacyExpanded===true?500:cell.target):cell.target===0&&cell.published===0,'invalid quota or excluded publication '+key);
    slots.set(key,cell);
    if(!cell.eligible)excluded.push(key);
  }
@@ -92,10 +92,14 @@ export function validateCuratedLibrary(root='.') {
  assert(manifest.publishedFiles.length===paths.size,'publishedFiles length mismatch');
  assert(new Set(manifest.publishedFiles).size===paths.size&&manifest.publishedFiles.every(p=>paths.has(p)),'publishedFiles index mismatch');
  assert(manifest.combinations.reduce((sum,c)=>sum+c.published,0)===total,'matrix published count mismatch');
- assert(total<=348000,'published beyond scope');
+ const covered=manifest.combinations.reduce((s,c)=>s+Math.min(c.published,c.target),0);
+ const remaining=manifest.combinations.reduce((s,c)=>s+Math.max(0,c.target-c.published),0);
+ assert(covered+remaining===manifest.targetCount,'coverage and remaining do not add up');
+ assert(manifest.coverageCount===covered&&manifest.remainingToTarget===remaining,'coverage counters mismatch');
+ assert(total<=manifest.eligibleCombinations*500,'published beyond possible expanded scope');
  assert(formats.size>=Math.min(6,total), 'insufficient format diversity');
- return {target:348000,published:total,remaining:348000-total,eligible:696,excluded:102,files:paths.size,
-   publishedCombinations:manifest.publishedCollections.length,fullyPopulated:manifest.combinations.filter(x=>x.published===500).length,
+ return {target:manifest.targetCount,published:total,covered,remaining,eligible:696,excluded:102,files:paths.size,
+   publishedCombinations:manifest.publishedCollections.length,fullyPopulated:manifest.combinations.filter(x=>x.eligible&&x.published>=x.target).length,
    approved,awaitingReview:screened,uniqueIds:ids.size,uniqueText: texts.size,formats:[...formats].sort()};
 }
 if(process.argv[1] && resolve(process.argv[1])===fileURLToPath(import.meta.url)){

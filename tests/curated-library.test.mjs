@@ -9,13 +9,14 @@ const manifest=JSON.parse(readFileSync('public/library-data/manifest.json','utf8
 const html=readFileSync('public/index.html','utf8');
 
 test('all 798 combinations are tracked with 696 eligible and 102 excluded',()=>{
- assert.equal(report.target,348000);
+ assert.equal(report.target,139200);
  assert.equal(report.eligible,696);
  assert.equal(report.excluded,102);
  assert.equal(manifest.combinations.length,798);
  assert.equal(manifest.combinations.filter(x=>x.eligible).length,696);
  assert.equal(manifest.combinations.filter(x=>!x.eligible).length,102);
- assert.equal(manifest.combinations.reduce((n,c)=>n+c.target,0),348000);
+ assert.equal(manifest.combinations.reduce((n,c)=>n+c.target,0),139200);
+ assert.equal(manifest.targetPerCombination,200);
 });
 
 test('entire published catalogue validates against files and honest review metadata',()=>{
@@ -25,10 +26,12 @@ test('entire published catalogue validates against files and honest review metad
  assert.equal(report.approved,manifest.humanReviewedCount);
  assert.equal(report.awaitingReview,manifest.aiAuthoredScreenedCount);
  assert.equal(report.approved+report.awaitingReview,report.published);
- assert.equal(report.remaining,348000-report.published);
+ assert.equal(report.covered,manifest.coverageCount);
+ assert.equal(report.remaining,manifest.remainingToTarget);
+ assert.equal(report.covered+report.remaining,report.target);
  assert.equal(report.files,manifest.publishedFiles.length);
  assert.equal(report.publishedCombinations,manifest.publishedCollections.length);
- assert.equal(report.fullyPopulated,manifest.combinations.filter(c=>c.eligible&&c.published===500).length);
+ assert.equal(report.fullyPopulated,manifest.combinations.filter(c=>c.eligible&&c.published>=c.target).length);
  assert.ok(report.formats.length>=6);
 });
 
@@ -57,4 +60,14 @@ test('Iconsax remains the exclusive UI icon system and Gemini stays optional',()
  assert.match(html,/quiet-ai-toggle/);
  assert.match(html,/aiPrompts/);
  assert.match(html,/aiAngles/);
+});
+
+
+test('preserves all existing 500-entry expanded collections under the new 200-entry initial goal',()=>{
+ const old=manifest.combinations.filter(c=>c.legacyExpanded);
+ assert.equal(old.length,9);
+ assert.ok(old.every(c=>c.target===200&&c.published===500));
+ assert.equal(report.published,4500);
+ assert.equal(report.covered,1800);
+ assert.equal(report.remaining,137400);
 });
