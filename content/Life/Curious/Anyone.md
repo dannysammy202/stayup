@@ -405,3 +405,205 @@ Target: 500. Entries remain editorial drafts until human approval.
    _SM-002699 · Story starter · pending editorial review_
 200. What would you like people to notice more about the living things in their neighbourhoods?  
    _SM-002700 · Question · pending editorial review_
+
+
+201. What is something people assume is easy about your day that actually takes effort?  
+   _SM-002701 · Question · pending editorial review_
+202. Tell me about following somebody else's routine and discovering how different it was from yours.  
+   _SM-002702 · Story starter · pending editorial review_
+203. You could spend one full workday alongside a person whose life seems very different from yours. Who would you choose?  
+   _SM-002703 · Scenario · pending editorial review_
+204. Curiosity about people's routines can teach us more than comparing their achievements.  
+   _SM-002704 · Hot take · pending editorial review_
+205. Seeing what a busy hospital does before sunrise or learning how a restaurant prepares before opening?  
+   _SM-002705 · Quick choice · pending editorial review_
+206. The same hour can feel completely different to someone finishing a shift and someone just waking up.  
+   _SM-002706 · Observation · pending editorial review_
+207. Who has helped you understand a kind of work you'd never previously noticed?  
+   _SM-002707 · Question · pending editorial review_
+208. A neighbour offers to explain an unfamiliar tradition you see every week. What would you ask first?  
+   _SM-002708 · Scenario · pending editorial review_
+209. Describe a conversation that made another person's daily responsibilities more visible to you.  
+   _SM-002709 · Story starter · pending editorial review_
+210. If somebody followed you around for a day, what part would be most unlike what they expected?  
+   _SM-002710 · Question · pending editorial review_
+211. Who taught you something important without ever officially being your teacher?  
+   _SM-002711 · Question · pending editorial review_
+212. You could ask a skilled craftsperson just one question about how they learned their trade. What would you ask?  
+   _SM-002712 · Scenario · pending editorial review_
+213. Tell me about somebody taking the time to explain a simple mistake without making you feel embarrassed.  
+   _SM-002713 · Story starter · pending editorial review_
+214. The best teaching sometimes begins with noticing that somebody is curious.  
+   _SM-002714 · Hot take · pending editorial review_
+215. Learning by watching a patient expert or working alongside another beginner while you both figure things out?  
+   _SM-002715 · Quick choice · pending editorial review_
+216. A five-minute conversation with the right person can save hours of trying to understand something alone.  
+   _SM-002716 · Observation · pending editorial review_
+217. What's a skill you've learned from somebody much younger than you?  
+   _SM-002717 · Question · pending editorial review_
+218. A new colleague seems uncomfortable asking basic questions. How would you make it easier for them?  
+   _SM-002718 · Scenario · pending editorial review_
+219. Describe a moment when an offhand remark from someone became unexpectedly useful years later.  
+   _SM-002719 · Story starter · pending editorial review_
+220. How do you recognise when somebody enjoys sharing knowledge rather than simply showing what they know?  
+   _SM-002720 · Question · pending editorial review_
+221. What's the biggest difference between the neighbourhood you remember and the one there today?  
+   _SM-002721 · Question · pending editorial review_
+222. Tell me about finding a familiar shop replaced by something entirely different.  
+   _SM-002722 · Story starter · pending editorial review_
+223. You can preserve one ordinary building in your area for its stories, not its beauty. Which one would you choose?  
+   _SM-002723 · Scenario · pending editorial review_
+224. A changing city can feel exciting and unsettling at exactly the same time.  
+   _SM-002724 · Hot take · pending editorial review_
+225. Seeing photographs of your hometown fifty years ago or walking through a possible version of it fifty years from now?  
+   _SM-002725 · Quick choice · pending editorial review_
+226. Sometimes a familiar place changes one sign, one shop and one road at a time until it's barely recognisable.  
+   _SM-002726 · Observation · pending editorial review_
+227. Is there a public space you wish more people had been able to experience before it changed?  
+   _SM-002727 · Question · pending editorial review_
+228. A visitor asks where the heart of your community used to be. What story would you tell?  
+   _SM-002728 · Scenario · pending editorial review_
+229. Describe discovering that a place you thought had vanished was still there, just slightly hidden.  
+   _SM-002729 · Story starter · pending editorial review_
+230. How can a neighbourhood welcome new people while keeping the stories that matter to long-time residents?  
+   _SM-002730 · Question · pending editorial review_
+231. What's an ordinary sight you've found beautiful even though nobody around you seemed to notice?  
+   _SM-002731 · Question · pending editorial review_
+232. Tell me about encountering something visually striking in a completely unexpected place.  
+   _SM-002732 · Story starter · pending editorial review_
+233. Beauty is often easier to appreciate when you aren't trying to photograph it perfectly.  
+   _SM-002733 · Hot take · pending editorial review_
+234. You can hang one huge photograph on the wall of a busy station. What subject would you choose for strangers to see?  
+   _SM-002734 · Scenario · pending editorial review_
+235. An intricate piece of handmade jewellery or a landscape shaped entirely by nature?  
+   _SM-002735 · Quick choice · pending editorial review_
+236. Some people's favourite views are places others walk past without giving them a second glance.  
+   _SM-002736 · Observation · pending editorial review_
+237. Have you ever changed your mind about a style of art or architecture after learning more about it?  
+   _SM-002737 · Question · pending editorial review_
+238. A friend calls a building ugly but you love it. How would you explain what you see?  
+   _SM-002738 · Scenario · pending editorial review_
+239. Describe a moment when the light transformed somewhere familiar into something new.  
+   _SM-002739 · Story starter · pending editorial review_
+240. What makes an everyday object pleasing to you beyond whether it works well?  
+   _SM-002740 · Question · pending editorial review_
+241. What's a question somebody asked you that you've continued thinking about long after the conversation?  
+   _SM-002741 · Question · pending editorial review_
+242. You can ask your future self one question and receive an entirely truthful answer. What would it be?  
+   _SM-002742 · Scenario · pending editorial review_
+243. Tell me about a conversation that made you realise you hadn't examined one of your assumptions.  
+   _SM-002743 · Story starter · pending editorial review_
+244. A thoughtful question can stay useful even when nobody agrees on an answer.  
+   _SM-002744 · Hot take · pending editorial review_
+245. A conversation that changes your view or one that helps you articulate a view you've quietly held for years?  
+   _SM-002745 · Quick choice · pending editorial review_
+246. The most interesting questions sometimes appear while discussing something completely ordinary.  
+   _SM-002746 · Observation · pending editorial review_
+247. What do you wish people would ask more often when they're genuinely trying to understand each other?  
+   _SM-002747 · Question · pending editorial review_
+248. You're designing a conversation game for strangers waiting on a train. What kind of question would you include?  
+   _SM-002748 · Scenario · pending editorial review_
+249. Describe a time somebody responded to your question with a better question.  
+   _SM-002749 · Story starter · pending editorial review_
+250. How can you tell when your curiosity is welcome and when someone would rather not explain?  
+   _SM-002750 · Question · pending editorial review_
+251. What do you find yourself making time for even during a particularly busy season?  
+   _SM-002751 · Question · pending editorial review_
+252. Tell me about a time you stopped pursuing one plan and found room for something more worthwhile.  
+   _SM-002752 · Story starter · pending editorial review_
+253. Your calendar unexpectedly opens up for an entire month. What would you experiment with first?  
+   _SM-002753 · Scenario · pending editorial review_
+254. The things we repeatedly choose can say more about our priorities than the things we say we value.  
+   _SM-002754 · Hot take · pending editorial review_
+255. Protecting a little time every day for something meaningful or setting aside one whole day each month?  
+   _SM-002755 · Quick choice · pending editorial review_
+256. A schedule can become full long before its owner decides whether it's satisfying.  
+   _SM-002756 · Observation · pending editorial review_
+257. Have you noticed something becoming important to you only after you'd lived without it for a while?  
+   _SM-002757 · Question · pending editorial review_
+258. A friend asks how to decide which of three hobbies to keep. What would you ask before offering advice?  
+   _SM-002758 · Scenario · pending editorial review_
+259. Describe a commitment you made for a small reason that eventually became meaningful.  
+   _SM-002759 · Story starter · pending editorial review_
+260. What's one activity you would protect from your calendar even if it never brought you recognition?  
+   _SM-002760 · Question · pending editorial review_
+261. What small action makes somebody seem dependable to you?  
+   _SM-002761 · Question · pending editorial review_
+262. A stranger returns an item you didn't realise you'd dropped. What detail of the encounter would stay with you?  
+   _SM-002762 · Scenario · pending editorial review_
+263. Tell me about a moment somebody quietly did the right thing when nobody was watching.  
+   _SM-002763 · Story starter · pending editorial review_
+264. Trust often grows through modest promises kept rather than impressive declarations.  
+   _SM-002764 · Hot take · pending editorial review_
+265. Someone being consistently punctual or someone who warns you early whenever plans change?  
+   _SM-002765 · Quick choice · pending editorial review_
+266. Being dependable can become so normal that people forget to acknowledge it.  
+   _SM-002766 · Observation · pending editorial review_
+267. Have you ever become more trusting after seeing somebody admit they made a mistake?  
+   _SM-002767 · Question · pending editorial review_
+268. Your teammate notices an error that nobody else has seen. What response would encourage them to speak up?  
+   _SM-002768 · Scenario · pending editorial review_
+269. Describe a time you learned not to judge somebody solely by their first impression.  
+   _SM-002769 · Story starter · pending editorial review_
+270. What makes an apology feel sincere to you, even over an everyday misunderstanding?  
+   _SM-002770 · Question · pending editorial review_
+271. What's something simple that used to intimidate you but now feels normal?  
+   _SM-002771 · Question · pending editorial review_
+272. Tell me about entering an unfamiliar place on your own and discovering it wasn't as daunting as expected.  
+   _SM-002772 · Story starter · pending editorial review_
+273. Asking an honest question can require more courage than pretending to understand.  
+   _SM-002773 · Hot take · pending editorial review_
+274. You're invited to a class where everybody seems more experienced than you. What might help you participate?  
+   _SM-002774 · Scenario · pending editorial review_
+275. Trying a new skill in front of others or asking an expert to look at something you've made?  
+   _SM-002775 · Quick choice · pending editorial review_
+276. We don't always notice when an old fear has quietly lost its hold on our routines.  
+   _SM-002776 · Observation · pending editorial review_
+277. Is there a decision you respect in somebody else because you know it wasn't easy for them?  
+   _SM-002777 · Question · pending editorial review_
+278. You could give your younger self encouragement about one everyday challenge. What would you choose?  
+   _SM-002778 · Scenario · pending editorial review_
+279. Describe somebody whose confidence helped you feel calmer without them giving a speech.  
+   _SM-002779 · Story starter · pending editorial review_
+280. How does feeling brave differ from simply becoming familiar with something over time?  
+   _SM-002780 · Question · pending editorial review_
+281. What meal brings back a particular period of your life more vividly than anything else?  
+   _SM-002781 · Question · pending editorial review_
+282. You could preserve a recipe that otherwise might disappear from your family. How would you learn it properly?  
+   _SM-002782 · Scenario · pending editorial review_
+283. Tell me about trying a dish in a new place and finding it unexpectedly familiar.  
+   _SM-002783 · Story starter · pending editorial review_
+284. The story behind a recipe can matter just as much as whether the finished food tastes good.  
+   _SM-002784 · Hot take · pending editorial review_
+285. Learning to cook an old family favourite or discovering the history of a dish you already enjoy?  
+   _SM-002785 · Quick choice · pending editorial review_
+286. Some foods become tied to seasons, celebrations and people without anyone planning it.  
+   _SM-002786 · Observation · pending editorial review_
+287. Have you ever learned about another culture through the way somebody prepared a meal?  
+   _SM-002787 · Question · pending editorial review_
+288. A visitor asks what makes the food where you grew up distinctive. What would you introduce first?  
+   _SM-002788 · Scenario · pending editorial review_
+289. Describe a kitchen memory involving someone who taught you something while you weren't really paying attention.  
+   _SM-002789 · Story starter · pending editorial review_
+290. What everyday food do you think tells an interesting story about where people live?  
+   _SM-002790 · Question · pending editorial review_
+291. When have you felt comfortable sharing silence with somebody rather than feeling pressured to speak?  
+   _SM-002791 · Question · pending editorial review_
+292. A group is watching a beautiful view, and one person starts talking loudly. How might you make space for the moment?  
+   _SM-002792 · Scenario · pending editorial review_
+293. Tell me about an occasion where nobody needed to say much for everyone to understand what mattered.  
+   _SM-002793 · Story starter · pending editorial review_
+294. Silence in company can be a sign of trust rather than awkwardness.  
+   _SM-002794 · Hot take · pending editorial review_
+295. A peaceful morning sharing a view or a quiet evening where everyone works on their own little projects nearby?  
+   _SM-002795 · Quick choice · pending editorial review_
+296. Some experiences are remembered partly because people stopped speaking and simply paid attention.  
+   _SM-002796 · Observation · pending editorial review_
+297. Do you find silence more comfortable outdoors, at home or while travelling?  
+   _SM-002797 · Question · pending editorial review_
+298. You're meeting someone who prefers fewer words than you do. What might help you enjoy the time together?  
+   _SM-002798 · Scenario · pending editorial review_
+299. Describe a time a short pause changed the mood of an important conversation.  
+   _SM-002799 · Story starter · pending editorial review_
+300. How do you distinguish an uncomfortable silence from a peaceful one?  
+   _SM-002800 · Question · pending editorial review_
