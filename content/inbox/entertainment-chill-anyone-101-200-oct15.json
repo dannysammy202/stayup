@@ -1,0 +1,507 @@
+{
+  "topic": "Entertainment",
+  "mood": "Chill",
+  "audience": "Anyone",
+  "prompts": [
+    {
+      "format": "Question",
+      "text": "What kind of podcast do you enjoy when you want something easy to listen to?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about an episode that led you to learn more about an unexpected subject.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A relaxed interview with one guest or a lively discussion among familiar presenters?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You get to plan a short podcast about an ordinary interest. What would its first episode explore?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "A good audio conversation can keep someone's attention without needing elaborate visuals.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "An entertaining podcast doesn't have to be longer than the journey it's played during.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which topic would you enjoy hearing two curious people discuss without trying to win an argument?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall discovering a podcast because somebody recommended one particularly good episode.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A friend wants an audio programme for a long journey. What would you ask about their taste?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A thoughtful interview about creative work or a light programme of surprising facts?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What kind of radio drama or audio story could keep you listening without pictures?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe hearing a storyteller create a vivid setting using only a voice and background sound.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "An atmospheric mystery told through sound or a warm comedy with distinctive characters?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You have to make a five-minute audio scene set in a busy market. Which sounds would establish the place?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Listeners often imagine different faces and spaces when they hear the same audio story.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A simple sound effect can make an audio scene more convincing than a long explanation.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What everyday location would make a good setting for a short audio drama?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a spoken story that made you feel as though you were present.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A local storytelling festival invites one original short audio piece. What kind of story would you submit?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Listen to a classic story read aloud or discover a contemporary audio-fiction series?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which video game world would you explore even if you didn't have to complete any challenges?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a game you enjoyed because of its characters rather than its difficulty.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A relaxed exploration game or a puzzle game that rewards patient observation?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Somebody has never played a video game and wants an easy introduction. What features would make a game welcoming?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Interactive stories can give people a sense of discovery that feels different from watching a film.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Games that allow people to move at their own pace deserve as much appreciation as competitive ones.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which game soundtrack or visual style has stayed with you after you finished playing?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall playing a cooperative game with someone and discovering how differently you approached challenges.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You get to design a game about running a small neighbourhood shop. What would make its routine enjoyable?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Solve quiet mysteries through exploration or build and decorate a space creatively?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What quiz-show format would you enjoy joining with a few friends?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe knowing an unexpectedly obscure answer during a casual trivia game.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A general-knowledge quiz with varied subjects or a game focused on everyday observations?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You have to write five fun questions for a community quiz without making anybody feel excluded. What topics would you choose?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Quiz nights can be fun for people who don't win when the questions invite discussion.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A creative question can be more memorable than a difficult one.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which subject would you volunteer to answer questions about on a team?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall watching a game show where the contestants' personalities made it entertaining.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A neighbourhood fundraiser includes a short quiz round. How would you keep the questions fair to different ages?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A fast round of humorous guesses or fewer questions with time to explain the answers?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which museum exhibit feels like entertainment rather than a formal lesson?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about an exhibition you visited almost by accident and ended up enjoying.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Interact with hands-on displays or spend time looking closely at a small collection?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You can curate an exhibition about everyday entertainment from the past fifty years. What object would greet visitors?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "An exhibit becomes engaging when visitors understand the stories behind ordinary objects.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A museum doesn't need expensive technology to encourage people to explore.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What object from recent popular culture deserves a place in a future museum?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall seeing a costume, prop or original artwork in person and noticing details photographs missed.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your local museum wants to attract people who rarely visit. What kind of evening programme would you suggest?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A guided gallery tour with stories or independent browsing with a simple audio guide?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What kind of magic or illusion performance do you enjoy watching most?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe seeing a performer do something surprising and wondering how much was practice.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A close-up card trick or a large stage illusion with theatrical presentation?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You're organising a family-friendly evening with an illusionist. What would help both children and adults enjoy it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Much of a magic performance's appeal comes from the storytelling surrounding the trick.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Knowing the secret of an illusion doesn't automatically make the performance less impressive.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which harmless everyday skill could be presented as a convincing stage trick?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall watching somebody demonstrate an unusual dexterity skill during an event.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A performer offers to teach one safe beginner trick after a show. What would you choose to learn?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Watch a mind-bending puzzle performance or a humorous act built around misdirection?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's something you enjoy about hearing people discuss a finished film or series?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about an interpretation of a story that you'd never considered until a friend mentioned it.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Hear a creator discuss why a scene was changed or listen to viewers compare their reactions?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You and a friend finish a series with opposite opinions about its ending. Which question should begin your conversation?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Stories can stay interesting after the credits because viewers notice different details.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Enjoying a story doesn't require agreeing with the choices every character makes.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which fictional character would you like to hear interviewed as if they were a real person?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall learning a behind-the-scenes detail that changed how you appreciated a performance.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You host a friendly discussion after a screening with people who disagree. How would you keep it constructive?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Discuss how a story was made or debate which characters grew the most?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's an entertaining event you've stumbled into without planning to attend?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe hearing music or laughter nearby and deciding to stay for a performance.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Spend an afternoon at a small creative market or attend a relaxed public demonstration?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your town hosts a weekend event featuring many short performances. What would help visitors explore without rushing?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Surprising entertainment often comes from giving unfamiliar activities a little attention.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A smaller event can offer a better sense of community than an enormous festival.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which kind of street performance would make you stop for a few minutes?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall somebody sharing a craft or talent in public that drew an appreciative crowd.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A group of local artists is planning its first open studio day. How could the day feel welcoming to newcomers?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Watch performers rehearsing in public or see the finished show with a lively audience?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What makes a creator's behind-the-scenes video worth watching?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about learning how a costume, set or visual effect was made and gaining new appreciation for it.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Watch a costume designer explain a look or a set builder demonstrate a practical effect?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You get to visit one department behind a theatre or film production. Where would you go?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Entertaining productions depend on skilled workers whose names most viewers never know.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Learning about production constraints can make a finished creative choice more impressive.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which creative job behind a show would you enjoy trying for one afternoon?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a rehearsal or making-of feature that helped you understand a difficult performance.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A school puts on a short play with minimal resources. Which backstage contribution deserves special attention?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Explore sound design and editing or discover how props and costumes are created?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a relaxed entertainment habit you've maintained through several stages of life?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe changing your tastes while keeping a fondness for one familiar kind of programme.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Save something new to watch each weekend or revisit favourites when you need an easy evening?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You have one entertainment-free day followed by a free evening. What would you most look forward to?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People's favourite forms of entertainment often change with their available time and energy.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Not keeping up with every popular release is a perfectly reasonable way to enjoy culture.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which older entertainment format would you like to see gain popularity again?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall enjoying a shared activity with someone despite having very different tastes.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your friends create an annual evening devoted to rediscovering forgotten favourites. How would you choose the programme?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Spend an evening discovering new talent or return to an experience that's made you happy before?",
+      "relatedThemes": []
+    }
+  ]
+}
