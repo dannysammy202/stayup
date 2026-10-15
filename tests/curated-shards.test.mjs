@@ -52,7 +52,7 @@ test('saved and seen items resolve to the correct local shard after reload', () 
   assert.ok(paths.includes('approved.json'));
   assert.ok(paths.includes('relationships-chill-anyone-101-200.json'));
   assert.ok(paths.includes('relationships-chill-someone-new-601-700.json'));
-  assert.ok(paths.includes('relationships-chill-friends-1101-1500.json'));
+  assert.ok(paths.includes('relationships-chill-friends-1101-1200.json'));
   assert.equal(selector.pathsForIds(manifest,ids,new Set(paths),8).length,0);
 });
 
