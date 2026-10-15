@@ -1,0 +1,507 @@
+{
+  "topic": "Relationships",
+  "mood": "Curious",
+  "audience": "Friends",
+  "prompts": [
+    {
+      "format": "Question",
+      "text": "What makes a friendship feel different after people have worked through a disagreement together?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe the first time a friend surprised you by understanding a difficult choice.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Learn about a friend's earliest ambition or how their priorities have changed since then?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "One friend sees an old disagreement as resolved while the other still has questions. How could they start again?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "A friendship sometimes changes more through one careful conversation than years of casual contact.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Being able to disagree without an audience is an underrated skill between friends.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What does a friend do that makes it easier to tell them you've changed your mind?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about an assumption you made about someone close to you that proved inaccurate.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Two old friends realise they remember the same turning point differently. What might they ask each other?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Understand why a friend made a difficult decision or hear how they felt after it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which part of your upbringing most influences the way you show affection to friends?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall learning that a friend's household had very different rules about visiting.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Compare family traditions around welcoming guests or how relatives celebrate small achievements?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Two friends each assume the other prefers frequent phone calls. What question could clear that up?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People often bring unspoken expectations from home into adult friendships.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Differences in communication can reflect upbringing rather than a difference in commitment.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a childhood experience that explains something important about how you make friends now?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a family saying that helped you understand a friend's reaction to an event.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A friend tells you that a gesture you consider casual is deeply significant in their family. How would you learn more?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Ask about a friend's childhood neighbourhood or the person who helped them feel included at school?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "How do you recognise a friend who's growing more confident in their own decisions?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about supporting someone through an ambition that wasn't part of their original plan.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Hear about a friend's most recent change of direction or the goal they're reconsidering?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A friend accepts a job far away from everyone they know. What would you ask beyond the obvious logistics?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Encouraging a friend's growth can mean accepting changes that make your routine less convenient.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A close friend doesn't have to understand every ambition in order to respect it.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which personal achievement of a friend changed the way you saw their abilities?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a time you discovered an interest or talent a long-time friend had never mentioned.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "One person in your circle begins a new course and has less free time. How should the group adapt?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Celebrate a friend's completed project or spend an afternoon learning how they made it happen?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What signals that a person wants encouragement rather than an immediate solution?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time you felt supported because someone listened without trying to fix anything.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Ask a struggling friend what kind of help they want or offer one specific practical favour?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A friend says work has become overwhelming but isn't ready to explain why. What might a respectful check-in sound like?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "The kind of help someone appreciates can change with the circumstances.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Support becomes less useful when the helper insists on being indispensable.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "How do you tell a friend you'd rather have company than advice?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall somebody recognising that you needed time before discussing a disappointment.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A friend worries they're becoming a burden by asking for support. How could the group respond without making promises it can't keep?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Bring someone a meal during a difficult week or quietly take an errand off their list?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which values do you think matter most when friends share money or belongings?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about arranging a group purchase where expectations needed to be clarified.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Set written expectations before lending something valuable or simply agree on a return date?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A friend accidentally damages an item they borrowed. What would help both people discuss it fairly?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Money misunderstandings between friends often begin with assumptions neither person said aloud.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Discussing a budget early is a form of consideration, not a sign of mistrust.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What makes you comfortable contributing to a group expense?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a friend suggesting a more affordable plan when someone else was hesitant to speak.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Someone can't contribute equally to a shared gift but wants to participate. What alternatives would you offer?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Pool money for one experience or exchange small personalised gifts among friends?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a sign that a friend's humour is helping you relax rather than distracting from the issue?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a moment somebody's gentle joke turned an awkward meeting into an honest conversation.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Share an old funny memory during a tense week or create a lighthearted new distraction?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Someone tells a joke about an absent friend and you aren't sure they'd appreciate it. What could you ask?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People can be close for years and still have very different limits around teasing.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Knowing when to apologise for a joke matters more than explaining why it should have been funny.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "How have your boundaries around friendly teasing changed since your school days?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall discovering that a joke you enjoyed made somebody else uncomfortable.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A group tradition began as teasing but no longer feels inclusive. How would you suggest changing it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Keep humour spontaneous or agree on a few topics your group avoids?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which unfamiliar perspective have you gained from a friend in a different generation?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a friendship with someone older or younger that changed your habits.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Ask an older friend what they wish they'd understood earlier or a younger friend what surprises them about adulthood?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Two friends have opposite expectations about when to settle down. How could they explore the reasons without judging?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Age differences can be less important than the experiences friends are willing to share.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A younger friend can be a mentor in an area where an older friend lacks experience.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's one life lesson you learned from somebody who was at a different stage of life?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall someone helping you navigate a situation they'd already encountered.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A group of friends spans several generations and plans a shared project. How could their different experiences help?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Trade stories about first jobs or compare the way each generation learnt to make friends?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What part of being a friend becomes harder when people live in different places?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe meeting an old friend after a long gap and noticing what remained familiar.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Schedule regular short calls or make occasional longer visits when possible?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Two friends keep missing each other's calls because their work hours differ. What small routine could help?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Distance often changes how friendships are maintained, not necessarily how much they matter.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A friendship shouldn't require people to be available at the same hour every day.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "How do you distinguish a natural quiet period from a friendship that needs attention?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall receiving a thoughtful message from someone you hadn't spoken with for months.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your friend abroad misses a milestone in person but wants to participate. What would make them feel included?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Exchange small voice recordings over time or set aside one unhurried conversation each month?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What can a person learn about a friendship from how the pair handles an unexpected change?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a plan that fell apart and revealed something useful about your friend's character.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Reflect on what makes friendships last or talk about the people who helped you become more independent?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A friend is no longer interested in a shared hobby that brought you together. What else could sustain the connection?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Relationships often need new forms when the original reason people met is no longer central.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A friendship can become quieter and still be important to both people.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which habit in your friendships would you like to carry into the next decade?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a time you deliberately made space for someone whose life had changed.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your circle wants to create a tradition that accommodates different budgets and schedules. What qualities should it have?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Keep one dependable annual reunion or build smaller, flexible ways to connect throughout the year?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which friend has challenged you to be kinder in a way you hadn't expected?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall somebody treating a stranger with respect and inspiring you to do the same.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Discuss the everyday kindnesses you notice or the gestures people tend to overlook?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You and a friend witness somebody being excluded at an event. How might you act together?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "A person's treatment of strangers can teach friends more than the way they talk about kindness.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Consistency in ordinary kindness is more revealing than occasional public generosity.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a compassionate quality you developed through knowing a particular friend?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time you and a friend volunteered together and learned different things from it.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A friend wants to help someone but isn't sure their offer is welcome. What question would you suggest?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Support a friend's community project by helping in person or contributing a skill remotely?",
+      "relatedThemes": []
+    }
+  ]
+}
