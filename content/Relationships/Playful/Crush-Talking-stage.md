@@ -109,3 +109,25 @@ Initial target: 200. Entries remain editorial drafts until human approval.
    _SM-005749 · Quick choice · pending editorial review_
 50. Which musician would you enjoy introducing me to and why?  
    _SM-005750 · Question · pending editorial review_
+
+
+51. What's a small habit of yours I'd notice after spending an afternoon together?  
+   _SM-005751 · Question · pending editorial review_
+52. Tell me about a funny quirk your friends remember about you.  
+   _SM-005752 · Story starter · pending editorial review_
+53. We both reach for the last biscuit. How should we decide who gets it?  
+   _SM-005753 · Scenario · pending editorial review_
+54. Unusual everyday routines make better stories than formal introductions.  
+   _SM-005754 · Hot take · pending editorial review_
+55. A person who talks to plants or someone who names every household appliance?  
+   _SM-005755 · Quick choice · pending editorial review_
+56. Inside jokes often begin with habits nobody initially thought were interesting.  
+   _SM-005756 · Observation · pending editorial review_
+57. What's a harmless pet peeve you find difficult to explain?  
+   _SM-005757 · Question · pending editorial review_
+58. You need to prepare a one-minute speech about your favourite snack. What's the opening line?  
+   _SM-005758 · Scenario · pending editorial review_
+59. What's the funniest everyday habit you've picked up from a friend?  
+   _SM-005759 · Story starter · pending editorial review_
+60. Which of your habits would you proudly call a personality feature?  
+   _SM-005760 · Question · pending editorial review_
