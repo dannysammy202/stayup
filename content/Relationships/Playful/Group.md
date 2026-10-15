@@ -203,3 +203,205 @@ Initial target: 200. Entries remain editorial drafts until human approval.
    _SM-007399 · Scenario · pending editorial review_
 100. Leave our next reunion date open to spontaneity or choose it together before we say goodbye?  
    _SM-007400 · Quick choice · pending editorial review_
+
+
+101. What's a funny way our group could welcome somebody who has just moved to the city?  
+   _SM-007401 · Question · pending editorial review_
+102. Tell us about a new acquaintance who made a lasting impression at an ordinary event.  
+   _SM-007402 · Story starter · pending editorial review_
+103. An introduction through a shared hobby or a casual meal with mutual friends?  
+   _SM-007403 · Quick choice · pending editorial review_
+104. We're hosting an event where everyone knows exactly one person. How do we stop people splitting into pairs?  
+   _SM-007404 · Scenario · pending editorial review_
+105. The quietest newcomer may have the most interesting story once the right topic comes up.  
+   _SM-007405 · Observation · pending editorial review_
+106. A good host doesn't make a newcomer explain why they're shy.  
+   _SM-007406 · Hot take · pending editorial review_
+107. What first-meeting question tells you something more interesting than someone's job?  
+   _SM-007407 · Question · pending editorial review_
+108. Recall joining a conversation halfway through and unexpectedly feeling included.  
+   _SM-007408 · Story starter · pending editorial review_
+109. A guest has travelled far to meet the group but knows none of our traditions. What could we do differently?  
+   _SM-007409 · Scenario · pending editorial review_
+110. Invite a new person to help choose the music or ask them to pick the first game?  
+   _SM-007410 · Quick choice · pending editorial review_
+111. What's the funniest form of affection you've seen between two close friends?  
+   _SM-007411 · Question · pending editorial review_
+112. Tell us about people who greet each other in an unusual way for a perfectly ordinary reason.  
+   _SM-007412 · Story starter · pending editorial review_
+113. A friendship expressed through teasing or one expressed through thoughtful little surprises?  
+   _SM-007413 · Quick choice · pending editorial review_
+114. Two friends compete to give each other the most impractical handmade gifts. What prize should their audience award?  
+   _SM-007414 · Scenario · pending editorial review_
+115. People often communicate closeness through personal routines that outsiders don't notice.  
+   _SM-007415 · Observation · pending editorial review_
+116. A friendship can be affectionate without everybody expressing it in the same way.  
+   _SM-007416 · Hot take · pending editorial review_
+117. Who taught you that kindness can look different from what you expected?  
+   _SM-007417 · Question · pending editorial review_
+118. Recall somebody showing care through a practical action rather than a conversation.  
+   _SM-007418 · Story starter · pending editorial review_
+119. We must write a playful appreciation note for each person at the table. What detail would you include?  
+   _SM-007419 · Scenario · pending editorial review_
+120. A funny compliment that still feels sincere or a straightforward thank-you for something specific?  
+   _SM-007420 · Quick choice · pending editorial review_
+121. Which relationship milestone do you think deserves a more entertaining celebration?  
+   _SM-007421 · Question · pending editorial review_
+122. Recall somebody celebrating their first year in a new city with the friends who helped them settle.  
+   _SM-007422 · Story starter · pending editorial review_
+123. Mark friendship anniversaries with a shared photo or a new activity each time?  
+   _SM-007423 · Quick choice · pending editorial review_
+124. Two members of our group celebrate separate achievements on the same day. How do we honour both?  
+   _SM-007424 · Scenario · pending editorial review_
+125. People often remember the friends who witnessed a milestone as clearly as the achievement itself.  
+   _SM-007425 · Observation · pending editorial review_
+126. You don't have to throw a party for an accomplishment to feel celebrated.  
+   _SM-007426 · Hot take · pending editorial review_
+127. What's a small personal achievement you'd be happy for our group to recognise?  
+   _SM-007427 · Question · pending editorial review_
+128. Describe receiving unexpected congratulations from someone you didn't realise had been following your progress.  
+   _SM-007428 · Story starter · pending editorial review_
+129. We organise a mini awards night where every prize must honour an ordinary quality. What categories are on the list?  
+   _SM-007429 · Scenario · pending editorial review_
+130. A heartfelt toast from friends or a scrapbook full of amusing shared memories?  
+   _SM-007430 · Quick choice · pending editorial review_
+131. What's an embarrassing but harmless relationship lesson you learnt from a group game?  
+   _SM-007431 · Question · pending editorial review_
+132. Tell us about accidentally teaming up with someone who turned out to be a perfect collaborator.  
+   _SM-007432 · Story starter · pending editorial review_
+133. Partner with your closest friend or someone whose strengths are the opposite of yours?  
+   _SM-007433 · Quick choice · pending editorial review_
+134. Our group has to build something together from recycled materials. How should we assign roles?  
+   _SM-007434 · Scenario · pending editorial review_
+135. Trust often grows fastest when people work through an unexpected inconvenience together.  
+   _SM-007435 · Observation · pending editorial review_
+136. A helpful teammate is someone who can admit when another person has a better idea.  
+   _SM-007436 · Hot take · pending editorial review_
+137. Which friend would you ask to teach the group a skill they've never demonstrated before?  
+   _SM-007437 · Question · pending editorial review_
+138. Recall a time a small group project revealed a friend's hidden patience.  
+   _SM-007438 · Story starter · pending editorial review_
+139. We split into teams for a challenge, but one person feels overlooked. What would be a fair way to rebalance?  
+   _SM-007439 · Scenario · pending editorial review_
+140. Solve a mystery cooperatively or race in pairs to complete simple tasks?  
+   _SM-007440 · Quick choice · pending editorial review_
+141. What's a surprisingly good question to ask friends who've been together as a couple for years?  
+   _SM-007441 · Question · pending editorial review_
+142. Tell us about watching two people cooperate in a way that made everyone smile.  
+   _SM-007442 · Story starter · pending editorial review_
+143. A couple that finishes each other's sentences or one that lovingly disagrees on everything?  
+   _SM-007443 · Quick choice · pending editorial review_
+144. A pair asks us to help plan an anniversary that suits both their personalities. How would we find a compromise?  
+   _SM-007444 · Scenario · pending editorial review_
+145. A couple's shared humour is often a little different from either person's humour with friends.  
+   _SM-007445 · Observation · pending editorial review_
+146. Friends can support a relationship without acting like its unofficial committee.  
+   _SM-007446 · Hot take · pending editorial review_
+147. What's a playful way to make someone's new partner feel welcome without overwhelming them?  
+   _SM-007447 · Question · pending editorial review_
+148. Recall seeing a friend become happier through a relationship while staying recognisably themselves.  
+   _SM-007448 · Story starter · pending editorial review_
+149. Our group plans a double date and everybody has different preferences. What planning question comes first?  
+   _SM-007449 · Scenario · pending editorial review_
+150. A casual picnic for two couples or a cooperative activity that gives everyone something to do?  
+   _SM-007450 · Quick choice · pending editorial review_
+151. What's one social habit that shows someone has considered other people's time?  
+   _SM-007451 · Question · pending editorial review_
+152. Describe a friend making a complicated group arrangement easier with one thoughtful decision.  
+   _SM-007452 · Story starter · pending editorial review_
+153. Invite people with clear details or make an open-ended plan and decide together?  
+   _SM-007453 · Quick choice · pending editorial review_
+154. One friend regularly arrives with extra guests and nobody wants to embarrass them. How should we discuss it?  
+   _SM-007454 · Scenario · pending editorial review_
+155. Respect can be expressed through small logistical choices as much as through words.  
+   _SM-007455 · Observation · pending editorial review_
+156. An invitation should never be treated like an obligation to attend.  
+   _SM-007456 · Hot take · pending editorial review_
+157. What makes it easiest for you to decline a gathering while keeping the friendship comfortable?  
+   _SM-007457 · Question · pending editorial review_
+158. Recall somebody gracefully accepting a last-minute change you couldn't avoid.  
+   _SM-007458 · Story starter · pending editorial review_
+159. We plan a group outing but a friend has accessibility needs nobody considered. What's our next step?  
+   _SM-007459 · Scenario · pending editorial review_
+160. Set a fixed end time for a gathering or agree that people can leave without explanation?  
+   _SM-007460 · Quick choice · pending editorial review_
+161. What misunderstanding between friends would be funny to reenact once everyone has made peace?  
+   _SM-007461 · Question · pending editorial review_
+162. Tell us about an argument that turned out to be about two different definitions of the same word.  
+   _SM-007462 · Story starter · pending editorial review_
+163. Talk through a misunderstanding during a short walk or over a quiet meal?  
+   _SM-007463 · Quick choice · pending editorial review_
+164. Two friends think the other deliberately ignored their message, but both phones had failed. How would the reveal go?  
+   _SM-007464 · Scenario · pending editorial review_
+165. A small misunderstanding can grow when everyone waits for the other person to speak first.  
+   _SM-007465 · Observation · pending editorial review_
+166. Winning an argument rarely matters as much as understanding what the other person intended.  
+   _SM-007466 · Hot take · pending editorial review_
+167. What's a lighthearted way to restart a conversation after an awkward pause?  
+   _SM-007467 · Question · pending editorial review_
+168. Recall a friend admitting they were wrong without turning the moment into a performance.  
+   _SM-007468 · Story starter · pending editorial review_
+169. We decide to write an apology using only clear, ordinary language. What should we leave out?  
+   _SM-007469 · Scenario · pending editorial review_
+170. Resolve a minor disagreement promptly or take a quiet break before discussing it?  
+   _SM-007470 · Quick choice · pending editorial review_
+171. Which relationship advice from a film sounds brilliant until you imagine it in everyday life?  
+   _SM-007471 · Question · pending editorial review_
+172. Tell us about a fictional friendship that reminded you of people in our group.  
+   _SM-007472 · Story starter · pending editorial review_
+173. Watch a heartwarming film about friendship or a comedy about an unlikely group?  
+   _SM-007473 · Quick choice · pending editorial review_
+174. We cast each person here as a character in a fictional family sitcom. Who gets the unexpectedly wise role?  
+   _SM-007474 · Scenario · pending editorial review_
+175. Stories about friendship are often more convincing when they include disagreements and repair.  
+   _SM-007475 · Observation · pending editorial review_
+176. A charming fictional gesture isn't necessarily a good idea to copy in real life.  
+   _SM-007476 · Hot take · pending editorial review_
+177. What's a movie friendship you'd like to discuss with people who saw it differently?  
+   _SM-007477 · Question · pending editorial review_
+178. Recall a book character whose loyalty reminded you of somebody you know.  
+   _SM-007478 · Story starter · pending editorial review_
+179. Our group must invent a plot about strangers who become friends while stranded at a festival. What's the twist?  
+   _SM-007479 · Scenario · pending editorial review_
+180. A mystery where old friends solve a problem together or a comedy about awkward first meetings?  
+   _SM-007480 · Quick choice · pending editorial review_
+181. What's a social rule your younger self would be surprised you no longer follow?  
+   _SM-007481 · Question · pending editorial review_
+182. Describe a change in your friendships that initially felt strange but became healthy.  
+   _SM-007482 · Story starter · pending editorial review_
+183. Keep an old group tradition or allow newcomers to reshape it over time?  
+   _SM-007483 · Quick choice · pending editorial review_
+184. Our circle is growing and one person worries they'll be forgotten. What's a practical way to include everyone?  
+   _SM-007484 · Scenario · pending editorial review_
+185. People sometimes need different kinds of friendship at different points in their lives.  
+   _SM-007485 · Observation · pending editorial review_
+186. Growing apart doesn't automatically mean anybody did something wrong.  
+   _SM-007486 · Hot take · pending editorial review_
+187. What positive change in someone you know took time for the rest of the group to notice?  
+   _SM-007487 · Question · pending editorial review_
+188. Recall reconnecting with an old friend and finding your conversations had matured.  
+   _SM-007488 · Story starter · pending editorial review_
+189. The people in this room meet again in ten years. Which shared value would you hope is unchanged?  
+   _SM-007489 · Scenario · pending editorial review_
+190. Revive an old friendship with a simple hello or make space for a new connection?  
+   _SM-007490 · Quick choice · pending editorial review_
+191. Which unexpected friendship has reminded you not to judge people by first impressions?  
+   _SM-007491 · Question · pending editorial review_
+192. Tell us about meeting somebody through an entirely different social circle and finding unexpected common ground.  
+   _SM-007492 · Story starter · pending editorial review_
+193. Ask each person what they're learning lately or what they're looking forward to next month?  
+   _SM-007493 · Quick choice · pending editorial review_
+194. We create a group tradition where each person chooses a different guest to join us once. What keeps it welcoming?  
+   _SM-007494 · Scenario · pending editorial review_
+195. A group becomes richer when people are free to introduce interests the others haven't tried.  
+   _SM-007495 · Observation · pending editorial review_
+196. Strong friendships leave room for one person to change without everyone feeling abandoned.  
+   _SM-007496 · Hot take · pending editorial review_
+197. What would you like people you care about to feel after spending time with this group?  
+   _SM-007497 · Question · pending editorial review_
+198. Recall a moment when a person's friendliness changed the atmosphere of an entire gathering.  
+   _SM-007498 · Story starter · pending editorial review_
+199. We're putting together a cheerful farewell for a friend relocating overseas. What's one memory worth highlighting?  
+   _SM-007499 · Scenario · pending editorial review_
+200. A group photo with everybody sharing one wish or individual notes that the friend can read later?  
+   _SM-007500 · Quick choice · pending editorial review_
