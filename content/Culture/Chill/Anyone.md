@@ -285,3 +285,25 @@ Initial target: 200. Entries remain editorial drafts until human approval.
    _SM-005236 · Scenario · pending editorial review_
 137. What's something your family still uses in a way younger people find unusual?  
    _SM-005237 · Question · pending editorial review_
+
+
+138. Does your neighbourhood have a nickname that visitors wouldn't find on a map?  
+   _SM-005238 · Question · pending editorial review_
+139. Tell me about learning why people call a particular junction or street by an unexpected name.  
+   _SM-005239 · Story starter · pending editorial review_
+140. A street named after a historical person or a place named after something that used to stand there?  
+   _SM-005240 · Quick choice · pending editorial review_
+141. Local nicknames for places sometimes last longer than their official names.  
+   _SM-005241 · Observation · pending editorial review_
+142. You're giving directions using only names longtime residents use. Which stop might confuse a newcomer?  
+   _SM-005242 · Scenario · pending editorial review_
+143. What's a place name people in your area pronounce differently from how it's written?  
+   _SM-005243 · Question · pending editorial review_
+144. The stories behind ordinary street names deserve a place in local history.  
+   _SM-005244 · Hot take · pending editorial review_
+145. Describe someone correcting your name for a place and explaining the version they grew up with.  
+   _SM-005245 · Story starter · pending editorial review_
+146. A friend asks why an old neighbourhood name still appears in conversation. Who would you ask for the story?  
+   _SM-005246 · Scenario · pending editorial review_
+147. Which local place has changed so much its old name now sounds surprising?  
+   _SM-005247 · Question · pending editorial review_
