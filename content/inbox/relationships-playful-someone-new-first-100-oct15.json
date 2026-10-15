@@ -1,0 +1,507 @@
+{
+  "topic": "Relationships",
+  "mood": "Playful",
+  "audience": "Someone new",
+  "prompts": [
+    {
+      "format": "Question",
+      "text": "What's a small detail you notice when you're deciding whether you enjoy talking to someone?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Start a new conversation with a funny observation or a curious question?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about meeting somebody when neither of you expected to make a new friend.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We meet at an event with a confusing dress code. What's the first thing you'd say?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "A relaxed introduction often tells you more about a person than their rehearsed biography.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A good opening question shouldn't require someone to explain their entire life story.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's the least predictable thing someone has asked you during an introduction?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a first conversation that became interesting because of a harmless misunderstanding.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Someone asks you to introduce yourself without mentioning your work or studies. What would you lead with?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Get to know somebody while walking or over a snack at a quiet table?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which everyday habit would you admit to a new friend with a smile?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about the time somebody caught you doing something endearingly odd.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Share your least impressive talent or reveal your most surprising useful skill?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We're each asked to teach the other something simple in two minutes. What would you teach?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "It's often easier to relax around someone who admits they don't know everything.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Being able to laugh at a minor mistake is a better social skill than having a perfect comeback.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a funny little routine you'd only explain if somebody asked?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall somebody appreciating a skill you thought was completely ordinary.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You have to show a new acquaintance one harmless party trick. What would you demonstrate?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Try a guessing game about each other's hobbies or compare embarrassing childhood talents?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a surprisingly good sign when you're getting to know someone?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a stranger who made a thoughtful first impression without doing anything grand.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We're both waiting in a long queue with nothing to do. What might start a friendly conversation?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Talk about the most interesting thing nearby or ask where someone grew up?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People reveal their interests through the questions they ask back.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A person remembering a small detail is more engaging than a long introduction.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What makes a conversation feel comfortable even when you have different interests?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe someone who surprised you by listening closely during a casual conversation.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A new acquaintance asks you a question you weren't expecting. How would you make the exchange playful?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "An easy back-and-forth conversation or a story so funny you almost forget to ask questions?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which harmless opinion would you defend on a first coffee date with a new friend?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall an ordinary topic that sparked a surprisingly lively discussion with someone new.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Compare favourite street-food snacks or debate the most underrated breakfast?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A café offers to name a drink after your personality. How would you describe it to a new acquaintance?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Food opinions often produce lively debates without requiring personal disclosures.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "You don't need identical tastes to enjoy someone's company.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's an everyday preference people are surprised to learn about you?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about trying somebody else's favourite snack and changing your mind.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We each get to recommend one inexpensive thing to try around town. What's yours?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A spontaneous café visit or a quick walk around a lively market?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's one harmless question you think reveals a person's sense of humour?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe the first time someone else's odd joke made you laugh unexpectedly.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You must introduce a new acquaintance to your friends using a fictional job title. What's theirs?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Swap ridiculous hypothetical jobs or invent harmless superhero names for each other?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People often find common ground in the things they both find unexpectedly funny.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Making a person comfortable is more impressive than making everyone laugh.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a joke you've learnt to save until you know somebody a little better?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a new acquaintance who understood a joke immediately when nobody else did.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Two people have completely different comedy tastes. What harmless game might get them laughing together?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A quick word-association game or a story about a funny mix-up?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which place would you suggest to someone new who wanted to see your city through your eyes?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a place you first visited because somebody recommended it during a chat.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Explore a bookshop or sit somewhere with an interesting view and talk?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We've got an unexpected free hour near a museum. What would you want to see first?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People reveal what interests them by what they notice in an unfamiliar place.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A modest outing with easy conversation beats an elaborate plan that feels rushed.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a place you think reflects your personality more than your home does?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall meeting someone whose description made an ordinary neighbourhood sound fascinating.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A new friend has one afternoon in your area. What's an unusual but easy stop you'd suggest?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A quiet garden walk or a neighbourhood food stop with plenty to discuss?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What kind of music makes you want to know more about the person playing it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a song recommendation that led to an unexpectedly good conversation.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Swap one song you loved as a child or one you recently found?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A shared playlist needs a name after our first conversation. What would you call it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Musical tastes are easier to understand when people explain the memories behind them.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Disagreeing about a favourite artist makes for good conversation when nobody treats it as a contest.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a song you'd be slightly embarrassed but happy to recommend to somebody new?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall somebody introducing you to a sound you'd never considered listening to.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We're attending a music quiz together and know different genres. How would we divide the rounds?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Hear somebody's favourite concert story or their most awkward karaoke experience?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a skill you'd enjoy trying with someone you've only recently met?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about learning something in a class alongside a person who became a friend.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Try a beginner cooking session together or visit a creative workshop?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We accidentally sign up for a class that's harder than advertised. How do we keep it enjoyable?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Two beginners often connect more easily when neither person expects to perform well.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Someone's willingness to try something unfamiliar reveals more than their level of expertise.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's something you'd confidently teach a stranger in ten minutes?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a moment when a new acquaintance helped you understand something tricky.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your new friend chooses a hobby for you to try once. What limits would you agree on?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Learn a few words in a new language or practise a simple dance step?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which social habit helps you feel someone genuinely wants to know you?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a time a new person respected your boundaries without making them awkward.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Receive a friendly follow-up message or an invitation to another casual outing?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You enjoy chatting to somebody but both have to leave soon. How would you suggest staying in touch?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Not every pleasant first conversation needs to become a long-term commitment.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A kind goodbye is a useful social skill even when you don't expect another meeting.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a comfortable way for somebody new to suggest meeting again?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a time a casual introduction led to another conversation much later.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A new acquaintance sends you a joke related to your first meeting. How might you respond?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Swap numbers before leaving or connect through a shared group event later?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's something people often assume about you after a first conversation?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe meeting somebody who turned out completely different from your initial impression.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We each get to ask one question designed to correct a common misconception about ourselves. What's yours?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Share an unexpected personal interest or reveal an everyday habit nobody predicts?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "First impressions improve when people give each other room to show new sides of themselves.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A little unpredictability makes getting to know someone more enjoyable.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which side of your personality tends to emerge once you're comfortable with someone?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a person who gave you time to warm up instead of demanding instant energy.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We meet again after several months and have forgotten half our first conversation. What would be a fun way to restart?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Ask each other what changed since we met or revisit the funniest detail from our first chat?",
+      "relatedThemes": []
+    }
+  ]
+}
