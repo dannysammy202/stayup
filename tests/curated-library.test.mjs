@@ -22,15 +22,15 @@ test('500 per suitable combination and exclusion rules remain intact',()=>{
  for(const x of manifest.combinations.filter(x=>!x.eligible))assert.equal(x.target,0);
 });
 
-test('two complete combinations are available with accurate editorial status',()=>{
- assert.equal(manifest.publishedCount,1000);
- assert.equal(manifest.publishedFiles.length,10);
- assert.equal(published.length,1000);
+test('two complete combinations and one Friends batch preserve editorial status',()=>{
+ assert.equal(manifest.publishedCount,1100);
+ assert.equal(manifest.publishedFiles.length,11);
+ assert.equal(published.length,1100);
  assert.equal(manifest.humanReviewedCount,100);
- assert.equal(manifest.aiAuthoredScreenedCount,900);
+ assert.equal(manifest.aiAuthoredScreenedCount,1000);
  const ids=new Set(),texts=new Set(),formats=new Set(),statuses={};
  for(let i=0;i<published.length;i++){
-  const p=published[i],reviewed=i<100,expectedAudience=i<500?'Anyone':'Someone new';
+  const p=published[i],reviewed=i<100,expectedAudience=i<500?'Anyone':i<1000?'Someone new':'Friends';
   assert.equal(p.id,'SM-'+String(i+1).padStart(6,'0'));
   assert.equal(p.editorialStatus,reviewed?'approved':'screened_pending_editorial_review',p.id);
   assert.equal(p.source,'published-library');
@@ -47,13 +47,16 @@ test('two complete combinations are available with accurate editorial status',()
  }
  assert.ok(formats.size>=6);
  assert.equal(statuses.approved,100);
- assert.equal(statuses.screened_pending_editorial_review,900);
+ assert.equal(statuses.screened_pending_editorial_review,1000);
  for(const audience of ['Anyone','Someone new']){
   const slot=manifest.combinations.find(x=>x.topic==='Relationships'&&x.mood==='Chill'&&x.audience===audience);
   assert.equal(slot.published,500);
   assert.equal(slot.target,500);
  }
  assert.equal(manifest.combinations.filter(x=>x.eligible&&x.published===500).length,2);
+ const friends=manifest.combinations.find(x=>x.topic==='Relationships'&&x.mood==='Chill'&&x.audience==='Friends');
+ assert.equal(friends.published,100);
+ assert.equal(friends.target,500);
 });
 
 
@@ -65,6 +68,7 @@ test('app exposes the complete collection without an arbitrary 72-starter limit'
  assert.match(html,/rest\.slice\(0,state\.feedVisible\)/);
  assert.match(html,/loadPublishedLibrary\(\)/);
  assert.match(html,/screened_pending_editorial_review/);
+ assert.match(html,/p\.source==='published-library'\?p\.audiences\.includes\(state\.audience\)/);
  assert.match(html,/IN REVIEW/);
  assert.match(html,/Gemini-powered ideas, only when you ask/);
  assert.match(html,/quiet-ai-toggle/);
