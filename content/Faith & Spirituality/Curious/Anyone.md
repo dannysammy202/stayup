@@ -203,3 +203,205 @@ Initial target: 200. Entries remain editorial drafts until human approval.
    _SM-008199 · Scenario · pending editorial review_
 100. Contribute a practical skill to a service project or help coordinate resources for volunteers?  
    _SM-008200 · Quick choice · pending editorial review_
+
+
+101. What is a symbolic object whose meaning you'd like to understand better?  
+   _SM-008201 · Question · pending editorial review_
+102. Describe visiting a place where ordinary-looking objects were treated with particular care.  
+   _SM-008202 · Story starter · pending editorial review_
+103. Learn the history of a ceremonial garment or the significance of a traditional colour?  
+   _SM-008203 · Quick choice · pending editorial review_
+104. A museum labels a religious object without explaining its meaning. What questions should the curator address?  
+   _SM-008204 · Scenario · pending editorial review_
+105. A symbol can have several interpretations even within one spiritual tradition.  
+   _SM-008205 · Observation · pending editorial review_
+106. Displaying a sacred object responsibly requires more than an attractive photograph.  
+   _SM-008206 · Hot take · pending editorial review_
+107. Which symbol have you seen used differently across cultures or faiths?  
+   _SM-008207 · Question · pending editorial review_
+108. Recall someone explaining why a familiar object mattered during a ceremony.  
+   _SM-008208 · Story starter · pending editorial review_
+109. A class is creating a visual guide to spiritual symbols. How could it avoid oversimplifying them?  
+   _SM-008209 · Scenario · pending editorial review_
+110. Explore the story of an ancient symbol or how its meaning is understood today?  
+   _SM-008210 · Quick choice · pending editorial review_
+111. What helps people read an old spiritual text in its historical context?  
+   _SM-008211 · Question · pending editorial review_
+112. Tell me about hearing a passage interpreted in a way you hadn't considered before.  
+   _SM-008212 · Story starter · pending editorial review_
+113. Explore the language of an ancient text or the circumstances in which it was written?  
+   _SM-008213 · Quick choice · pending editorial review_
+114. Two readers understand a traditional teaching differently. Which questions might clarify their approaches?  
+   _SM-008214 · Scenario · pending editorial review_
+115. Translations can preserve meaning while changing the rhythm or emphasis of a passage.  
+   _SM-008215 · Observation · pending editorial review_
+116. Reading a short quotation without its context can lead to an unfair interpretation.  
+   _SM-008216 · Hot take · pending editorial review_
+117. What makes a commentary or explanation of a sacred text easier to follow?  
+   _SM-008217 · Question · pending editorial review_
+118. Recall learning how a community keeps an important oral teaching alive.  
+   _SM-008218 · Story starter · pending editorial review_
+119. A library wants to introduce students to several spiritual writings. What background should accompany each?  
+   _SM-008219 · Scenario · pending editorial review_
+120. Hear a skilled storyteller recite a traditional narrative or read a carefully annotated version?  
+   _SM-008220 · Quick choice · pending editorial review_
+121. How do different spiritual communities make room for sincere uncertainty?  
+   _SM-008221 · Question · pending editorial review_
+122. Describe hearing someone discuss a difficult question with humility rather than certainty.  
+   _SM-008222 · Story starter · pending editorial review_
+123. Join a small discussion group about belief or reflect privately before sharing questions?  
+   _SM-008223 · Quick choice · pending editorial review_
+124. A young adult asks a question their community finds uncomfortable. What response would invite careful thought?  
+   _SM-008224 · Scenario · pending editorial review_
+125. Asking why a belief matters can be different from rejecting it.  
+   _SM-008225 · Observation · pending editorial review_
+126. A meaningful spiritual conversation doesn't need every question to be resolved that day.  
+   _SM-008226 · Hot take · pending editorial review_
+127. What kinds of questions about life's meaning do you think people should be free to explore?  
+   _SM-008227 · Question · pending editorial review_
+128. Recall someone acknowledging that a difficult topic deserved more study.  
+   _SM-008228 · Story starter · pending editorial review_
+129. You're helping organise a respectful question-and-answer event on spirituality. What would the moderator need to do?  
+   _SM-008229 · Scenario · pending editorial review_
+130. Explore a question through several written perspectives or talk with an experienced practitioner?  
+   _SM-008230 · Quick choice · pending editorial review_
+131. What experience in nature has made you reflect on questions bigger than your daily routine?  
+   _SM-008231 · Question · pending editorial review_
+132. Describe watching a sunrise, night sky or ocean that left you unexpectedly thoughtful.  
+   _SM-008232 · Story starter · pending editorial review_
+133. Contemplate the night sky in silence or discuss the stories different cultures tell about it?  
+   _SM-008233 · Quick choice · pending editorial review_
+134. A community group plans a reflective walk through a park. How might it welcome people with different beliefs?  
+   _SM-008234 · Scenario · pending editorial review_
+135. Experiences of wonder can lead people toward artistic, scientific and spiritual questions alike.  
+   _SM-008235 · Observation · pending editorial review_
+136. Awe doesn't belong exclusively to any particular worldview.  
+   _SM-008236 · Hot take · pending editorial review_
+137. Which natural place would you choose for a day of quiet thinking?  
+   _SM-008237 · Question · pending editorial review_
+138. Recall learning a spiritual story connected to a mountain, river or forest.  
+   _SM-008238 · Story starter · pending editorial review_
+139. You are creating an exhibition about nature and human wonder. Which voices would you invite?  
+   _SM-008239 · Scenario · pending editorial review_
+140. Read reflective poetry outdoors or listen to stories about the night sky from different traditions?  
+   _SM-008240 · Quick choice · pending editorial review_
+141. What makes an apology meaningful within a spiritual or ethical tradition?  
+   _SM-008241 · Question · pending editorial review_
+142. Tell me about seeing people work patiently to repair a strained relationship.  
+   _SM-008242 · Story starter · pending editorial review_
+143. Explore teachings about forgiveness or examples of reconciliation in community life?  
+   _SM-008243 · Quick choice · pending editorial review_
+144. Two neighbours want to restore trust after a disagreement. What questions could help them understand each other?  
+   _SM-008244 · Scenario · pending editorial review_
+145. Different traditions distinguish forgiveness from forgetting or avoiding responsibility.  
+   _SM-008245 · Observation · pending editorial review_
+146. A conversation about reconciliation should never ignore the needs of those who were hurt.  
+   _SM-008246 · Hot take · pending editorial review_
+147. How can communities practise patience with people who hold different views?  
+   _SM-008247 · Question · pending editorial review_
+148. Recall witnessing an act of mercy that challenged your expectations.  
+   _SM-008248 · Story starter · pending editorial review_
+149. A discussion group wants to explore how to make amends after a mistake. What everyday example would help?  
+   _SM-008249 · Scenario · pending editorial review_
+150. Discuss a story about choosing restraint or one about taking responsibility?  
+   _SM-008250 · Quick choice · pending editorial review_
+151. How might personal values influence the way someone approaches their work?  
+   _SM-008251 · Question · pending editorial review_
+152. Describe meeting someone whose professional choices were shaped by a sense of service.  
+   _SM-008252 · Story starter · pending editorial review_
+153. Explore the ethics of a workplace decision or the meaning of vocation in different traditions?  
+   _SM-008253 · Quick choice · pending editorial review_
+154. An employee's spiritual observance overlaps with a regular meeting. What would a respectful discussion include?  
+   _SM-008254 · Scenario · pending editorial review_
+155. People can bring strong moral commitments to work without expecting colleagues to share their beliefs.  
+   _SM-008255 · Observation · pending editorial review_
+156. Respecting religious differences at work should coexist with fair treatment of everyone.  
+   _SM-008256 · Hot take · pending editorial review_
+157. What question would help you understand the values guiding someone's career choices?  
+   _SM-008257 · Question · pending editorial review_
+158. Recall a mentor explaining how they handled a conflict between convenience and principle.  
+   _SM-008258 · Story starter · pending editorial review_
+159. A team is planning its annual calendar with several religious holidays. What information should it gather?  
+   _SM-008259 · Scenario · pending editorial review_
+160. Hear how a person chose a service-focused career or how they approach integrity in daily decisions?  
+   _SM-008260 · Quick choice · pending editorial review_
+161. What has technology made easier for people who participate in spiritual communities?  
+   _SM-008261 · Question · pending editorial review_
+162. Tell me about discovering a thoughtful online discussion that expanded your understanding of a tradition.  
+   _SM-008262 · Story starter · pending editorial review_
+163. Access a digital archive of historical religious texts or a live-streamed community discussion?  
+   _SM-008263 · Quick choice · pending editorial review_
+164. A faith community starts streaming its gatherings. How could it protect the privacy of participants?  
+   _SM-008264 · Scenario · pending editorial review_
+165. Online access can widen participation while changing how people experience a shared ritual.  
+   _SM-008265 · Observation · pending editorial review_
+166. Convenient digital tools shouldn't replace care for people who cannot use them.  
+   _SM-008266 · Hot take · pending editorial review_
+167. Which part of spiritual education benefits most from face-to-face conversation?  
+   _SM-008267 · Question · pending editorial review_
+168. Recall watching an online explanation that encouraged you to seek a more reliable source.  
+   _SM-008268 · Story starter · pending editorial review_
+169. A small community wants to put its history online. What should it ask before uploading personal stories?  
+   _SM-008269 · Scenario · pending editorial review_
+170. Join a moderated online study group or attend a small local discussion in person?  
+   _SM-008270 · Quick choice · pending editorial review_
+171. What spiritual or reflective custom have you noticed changing across generations?  
+   _SM-008271 · Question · pending editorial review_
+172. Describe an older relative explaining a tradition whose original purpose you hadn't known.  
+   _SM-008272 · Story starter · pending editorial review_
+173. Learn a ceremony from an elder or hear how younger members are adapting it today?  
+   _SM-008273 · Quick choice · pending editorial review_
+174. A community wants to preserve a tradition while welcoming newcomers. Whose perspectives should guide the discussion?  
+   _SM-008274 · Scenario · pending editorial review_
+175. People may share a faith while expressing it differently because of their age or upbringing.  
+   _SM-008275 · Observation · pending editorial review_
+176. Preserving a tradition and asking questions about it are not necessarily opposites.  
+   _SM-008276 · Hot take · pending editorial review_
+177. Which part of a family celebration carries a meaning that's easy for outsiders to miss?  
+   _SM-008277 · Question · pending editorial review_
+178. Recall a younger person bringing a fresh interpretation to an old community practice.  
+   _SM-008278 · Story starter · pending editorial review_
+179. A family is documenting an annual spiritual tradition. What details would future generations need?  
+   _SM-008279 · Scenario · pending editorial review_
+180. Record elders explaining an observance or compile photographs and written memories from several generations?  
+   _SM-008280 · Quick choice · pending editorial review_
+181. What kinds of spiritual questions often arise during major life changes?  
+   _SM-008281 · Question · pending editorial review_
+182. Tell me about hearing someone reflect on how a new responsibility affected their priorities.  
+   _SM-008282 · Story starter · pending editorial review_
+183. Read a story about courage during change or one about patience when plans are uncertain?  
+   _SM-008283 · Quick choice · pending editorial review_
+184. A friend is making a difficult transition and asks how different traditions offer perspective. Where would you begin?  
+   _SM-008284 · Scenario · pending editorial review_
+185. Periods of change often lead people to revisit values they rarely discuss day to day.  
+   _SM-008285 · Observation · pending editorial review_
+186. Offering support can be more important than having a perfect explanation for someone's uncertainty.  
+   _SM-008286 · Hot take · pending editorial review_
+187. Which practice helps people reflect on a new chapter without rushing to conclusions?  
+   _SM-008287 · Question · pending editorial review_
+188. Recall somebody finding encouragement in a community during an unfamiliar season of life.  
+   _SM-008288 · Story starter · pending editorial review_
+189. A group creates a space for people navigating life transitions. What would make its conversations safe?  
+   _SM-008289 · Scenario · pending editorial review_
+190. Hear personal stories of adaptation or explore traditional teachings about perseverance?  
+   _SM-008290 · Quick choice · pending editorial review_
+191. What gives people a sense of meaning beyond their immediate responsibilities?  
+   _SM-008291 · Question · pending editorial review_
+192. Describe a person whose commitment to an idea or community made you curious about their worldview.  
+   _SM-008292 · Story starter · pending editorial review_
+193. Explore how different traditions define purpose or how people express a sense of belonging?  
+   _SM-008293 · Quick choice · pending editorial review_
+194. A community discussion asks what makes a life well spent. How could the facilitator welcome several perspectives?  
+   _SM-008294 · Scenario · pending editorial review_
+195. People sometimes find a shared sense of purpose while disagreeing about ultimate explanations.  
+   _SM-008295 · Observation · pending editorial review_
+196. A thoughtful conversation about life's meaning should leave room for people who are still exploring.  
+   _SM-008296 · Hot take · pending editorial review_
+197. What kind of contribution would you like your community to remember in the future?  
+   _SM-008297 · Question · pending editorial review_
+198. Recall meeting someone whose quiet dedication changed how you understood service.  
+   _SM-008298 · Story starter · pending editorial review_
+199. A youth group wants to interview elders about purpose and hope. Which question should they ask first?  
+   _SM-008299 · Scenario · pending editorial review_
+200. Discuss what responsibility means across generations or explore what makes a community resilient?  
+   _SM-008300 · Quick choice · pending editorial review_
