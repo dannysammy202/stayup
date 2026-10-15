@@ -87,3 +87,25 @@ Initial target: 200. Entries remain editorial drafts until human approval.
    _SM-005739 · Quick choice · pending editorial review_
 40. What's a dish you'd enjoy teaching someone to make, even if the kitchen gets messy?  
    _SM-005740 · Question · pending editorial review_
+
+
+41. Which song would you choose to introduce your personality to someone new?  
+   _SM-005741 · Question · pending editorial review_
+42. We get to pick two songs for a short road trip. What's your opener?  
+   _SM-005742 · Scenario · pending editorial review_
+43. An intimate acoustic concert or a lively outdoor music event?  
+   _SM-005743 · Quick choice · pending editorial review_
+44. Tell me about a song you recommended so enthusiastically your friends still remember it.  
+   _SM-005744 · Story starter · pending editorial review_
+45. Disagreeing about music taste is often a fun way to get to know someone.  
+   _SM-005745 · Hot take · pending editorial review_
+46. People's reactions to unfamiliar music reveal their sense of curiosity.  
+   _SM-005746 · Observation · pending editorial review_
+47. What's a song you know by heart but rarely mention?  
+   _SM-005747 · Question · pending editorial review_
+48. A karaoke host invites us to sing a duet. What song would you suggest?  
+   _SM-005748 · Scenario · pending editorial review_
+49. Trade playlists before meeting or introduce favourite tracks in person?  
+   _SM-005749 · Quick choice · pending editorial review_
+50. Which musician would you enjoy introducing me to and why?  
+   _SM-005750 · Question · pending editorial review_
