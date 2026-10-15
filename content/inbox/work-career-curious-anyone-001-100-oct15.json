@@ -1,0 +1,507 @@
+{
+  "topic": "Work & Career",
+  "mood": "Curious",
+  "audience": "Anyone",
+  "prompts": [
+    {
+      "format": "Question",
+      "text": "What's the most useful skill you've learnt from watching somebody do their job?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about seeing an ordinary role differently after spending a day with someone who does it.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Learn how a trade is practised or follow a professional through a typical working day?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You're invited to observe a job you've never considered. What would you want explained before arriving?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "The most demanding part of a job is often invisible to the people who receive its results.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A job title rarely tells you what someone enjoys about their work.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which occupation would you like to understand beyond its public-facing tasks?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall somebody explaining a professional tool in a way that made it understandable.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A teenager asks you how your work actually helps other people. What example would you choose?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Hear how a professional started their career or what has surprised them since beginning?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a useful question to ask when you're exploring an unfamiliar career path?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a conversation that changed your assumptions about a particular industry.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Find out which qualifications are essential or which practical experiences are most valuable?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A friend wants to leave one industry for another. What might they ask people already doing the work?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Career transitions often involve skills that people learnt without calling them transferable.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A career change needn't mean the previous years were wasted.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which ability from your first job do you still use, even in a different role?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about someone whose unusual career journey gave you an idea for your own.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You're researching a role with many different job titles. How would you decide which descriptions are reliable?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Shadow a professional for an afternoon or attend a short introductory workshop?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "How can you tell when a team welcomes questions from people who are still learning?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a colleague who made it safe to admit you were unfamiliar with a process.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Get a detailed onboarding guide or a patient teammate who can answer questions as they arise?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A new employee joins a team where everyone uses unfamiliar abbreviations. How should coworkers help?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "A welcoming workplace often reveals itself through the questions nobody is embarrassed to ask.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A manager's patience with beginners is more important than an impressive welcome speech.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's one thing you wish you'd understood during your first week in a job?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe learning a workplace routine that everybody else took for granted.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You've been asked to welcome a teammate working remotely. What would you make sure they know?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Meet the team through short one-to-one conversations or a relaxed group introduction?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's the hardest aspect of teamwork to explain to someone who's only worked independently?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a shared project where a teammate's unusual strength became essential.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Plan a project together in detail or agree on outcomes and let people choose their methods?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Two teammates have different ideas about what finished work should look like. What could clarify expectations?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Teams often communicate a great deal through habits that were never written down.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A useful meeting needs a decision or shared understanding, not necessarily a full agenda.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What makes feedback from a colleague easier to act on?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a work problem that was solved because somebody asked an overlooked question.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your team discovers duplicated work shortly before a deadline. How would you organise a constructive review?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Receive specific feedback on a draft or observe somebody demonstrate a better approach?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What part of learning a new skill tends to frustrate people more than they expect?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe practising a skill long enough to notice a small but meaningful improvement.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Learn from a structured course or a series of practical mini-projects?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You have six weeks to become comfortable with a new tool. How would you structure the first few sessions?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People often overestimate what they can learn in one afternoon and underestimate gradual practice.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Being willing to practise awkwardly is part of becoming good at any professional skill.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which skill would you most enjoy learning simply because it would make work more interesting?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a teacher or colleague making a complex task suddenly feel manageable.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Two beginners learn the same software at different speeds. What would help them support each other?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Master one tool deeply or understand the basics of several tools that work together?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which everyday workplace habit saves more time than people realise?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about simplifying a routine that used to involve unnecessary steps.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Organise your tasks by urgency or by the concentration each one requires?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A team has three different places where it records decisions. How might they choose one consistent approach?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "A small improvement to a repeated process can matter more than a dramatic one-time change.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "The best productivity method is one people will actually maintain.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which work habit became more valuable as your responsibilities increased?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall discovering that a familiar task could be done more reliably with a checklist.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your workday keeps being interrupted by small requests. What information would help you redesign it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Use short focus periods with breaks or reserve a longer block for complicated tasks?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What makes a workplace mentor particularly helpful at the beginning of a career?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe advice you received that only made sense after you gained more experience.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Ask a mentor how they handled early mistakes or what they wish they'd learnt sooner?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A junior colleague asks for career guidance but has very different ambitions from yours. What would you clarify first?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Good mentoring can involve learning from someone who has less formal experience in a particular field.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Useful advice should help a person make their own decision instead of copying the mentor's path.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which professional lesson would you gladly pass on without turning it into a rule?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall helping someone new discover an approach that suited their strengths.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Two people in your workplace want mentoring but need different things. How could you set expectations?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Meet a mentor regularly to discuss goals or ask for feedback only when specific challenges arise?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What does a healthy working relationship look like when teammates rarely meet in person?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about collaborating successfully with someone who lived in another city.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Use a shared written project board or frequent short team calls?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A remote colleague misses important context because decisions happen in the office. How should the team adapt?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Remote collaboration can make clear writing more important than informal hallway conversations.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A video call isn't automatically more effective than a carefully written update.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which communication habit helps you trust colleagues you seldom meet face to face?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a time a detailed handover prevented an avoidable misunderstanding.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A teammate in another time zone needs an answer while you're offline. What could make your documentation useful?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Have a predictable daily update or a weekly discussion focused on major decisions?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "How do you decide when a job is teaching you something valuable versus simply keeping you busy?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe an early work responsibility that helped you understand your strengths.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Choose a role with varied responsibilities or one with a clear specialist path?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A friend is offered a promotion that includes work they don't enjoy. What should they investigate?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "A job can become more satisfying when a person understands the purpose behind routine tasks.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Professional success isn't always best measured by how quickly someone changes titles.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which part of your working life would you like to understand more clearly before setting your next goal?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall discovering a kind of work you enjoyed more than you'd predicted.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You're reviewing the last year of your career. Which experiences would you study besides your achievements?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Focus next on learning something difficult or on making an existing strength more useful?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which quality makes you willing to recommend somebody for a professional opportunity?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about meeting a reliable collaborator through a casual community event.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Introduce two people through a shared project or through a short informal conversation?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Someone asks you to recommend a colleague for work outside your expertise. What would you want to know?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Professional networks often grow through people remembering helpful and dependable behaviour.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Networking doesn't have to involve trying to get something from every conversation.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What has made a professional introduction feel thoughtful rather than transactional?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall learning something useful from a person you only met once at an event.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Two colleagues might benefit from knowing each other but have never met. How would you introduce them?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Join a professional community to exchange skills or attend small talks with people from other fields?",
+      "relatedThemes": []
+    }
+  ]
+}
