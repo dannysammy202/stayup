@@ -22,33 +22,40 @@ test('500 per suitable combination and exclusion rules remain intact',()=>{
  for(const x of manifest.combinations.filter(x=>!x.eligible))assert.equal(x.target,0);
 });
 
-test('first collection contains 500 distinct, publication-ready records',()=>{
- assert.equal(manifest.publishedCount,500);
- assert.equal(manifest.publishedFiles.length,5);
- assert.equal(published.length,500);
+test('two complete combinations are available with accurate editorial status',()=>{
+ assert.equal(manifest.publishedCount,1000);
+ assert.equal(manifest.publishedFiles.length,10);
+ assert.equal(published.length,1000);
  assert.equal(manifest.humanReviewedCount,100);
- assert.equal(manifest.aiAuthoredScreenedCount,400);
- const seenId=new Set(),seenText=new Set(),formats=new Set();
+ assert.equal(manifest.aiAuthoredScreenedCount,900);
+ const ids=new Set(),texts=new Set(),formats=new Set(),statuses={};
  for(let i=0;i<published.length;i++){
-  const p=published[i];
+  const p=published[i],reviewed=i<100,expectedAudience=i<500?'Anyone':'Someone new';
   assert.equal(p.id,'SM-'+String(i+1).padStart(6,'0'));
-  assert.equal(p.editorialStatus,'approved');
+  assert.equal(p.editorialStatus,reviewed?'approved':'screened_pending_editorial_review',p.id);
   assert.equal(p.source,'published-library');
   assert.equal(p.adult,false);
   assert.equal(p.topic,'Relationships');
   assert.deepEqual(p.moods,['Chill']);
-  assert.deepEqual(p.audiences,['Anyone']);
-  assert.ok(p.text.length>=25 && p.text.length<=260);
-  assert.ok(!seenId.has(p.id),'Duplicate id: '+p.id);
-  assert.ok(!seenText.has(norm(p.text)),'Duplicate text: '+p.id);
-  if(i>=100){assert.equal(p.humanReviewed,false);assert.ok(p.reviewMethod.includes('AI-authored'));}
-  seenId.add(p.id);seenText.add(norm(p.text));formats.add(p.format);
+  assert.deepEqual(p.audiences,[expectedAudience]);
+  assert.ok(p.text.length>=25&&p.text.length<=260,p.id);
+  assert.ok(!ids.has(p.id),'Duplicate id: '+p.id);
+  assert.ok(!texts.has(norm(p.text)),'Duplicate text: '+p.id);
+  if(!reviewed){assert.equal(p.humanReviewed,false,p.id);assert.match(p.reviewMethod,/editorial approval pending|AI-authored/);}
+  ids.add(p.id);texts.add(norm(p.text));formats.add(p.format);
+  statuses[p.editorialStatus]=(statuses[p.editorialStatus]||0)+1;
  }
  assert.ok(formats.size>=6);
- const slot=manifest.combinations.find(x=>x.topic==='Relationships'&&x.mood==='Chill'&&x.audience==='Anyone');
- assert.equal(slot.published,500);
- assert.equal(slot.target,500);
+ assert.equal(statuses.approved,100);
+ assert.equal(statuses.screened_pending_editorial_review,900);
+ for(const audience of ['Anyone','Someone new']){
+  const slot=manifest.combinations.find(x=>x.topic==='Relationships'&&x.mood==='Chill'&&x.audience===audience);
+  assert.equal(slot.published,500);
+  assert.equal(slot.target,500);
+ }
+ assert.equal(manifest.combinations.filter(x=>x.eligible&&x.published===500).length,2);
 });
+
 
 test('app exposes the complete collection without an arbitrary 72-starter limit',()=>{
  assert.match(html,/return matches;/);
@@ -57,6 +64,9 @@ test('app exposes the complete collection without an arbitrary 72-starter limit'
  assert.match(html,/state\.feedVisible\+=48/);
  assert.match(html,/rest\.slice\(0,state\.feedVisible\)/);
  assert.match(html,/loadPublishedLibrary\(\)/);
+ assert.match(html,/screened_pending_editorial_review/);
+ assert.match(html,/IN REVIEW/);
+ assert.match(html,/Gemini-powered ideas, only when you ask/);
  assert.match(html,/quiet-ai-toggle/);
  assert.match(html,/aiPrompts/);
  assert.match(html,/aiAngles/);
