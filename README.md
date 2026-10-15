@@ -17,11 +17,17 @@ Say More replaces the original StayUp interface in the existing `dannysammy202/s
 
 19 × 6 × 7 = 798 theoretical combinations. The editorial policy excludes 102 unsuitable pairings, leaving **696 eligible combinations** and an eventual **348,000-starter target**.
 
-The **Relationships / Chill / Anyone** and **Relationships / Chill / Someone new** collections each contain 500 built-in starters. A third collection, **Relationships / Chill / Friends**, has its first 100 of 500 starters. The initial 100 records retain prior editorial approval; the other 1,000 are AI-authored candidates that passed structural, exact-duplicate and lexical checks but await individual human review and complete semantic screening. The source Markdown is under `content/Relationships/Chill/`, and production chunks are under `public/library-data/`. Legacy sample prompts remain outside the 348,000-starter quota.
+**Current inventory:** 1,200 built-in entries from three combinations. Relationships / Chill / Anyone and Relationships / Chill / Someone new each have 500 starters. Relationships / Chill / Friends has 200 of 500. The first 100 were previously reviewed; the remaining 1,100 are machine-screened editorial drafts. They are not individually human-approved and must not be described as such. The other 346,800 starters have not been authored and validated.
 
-`public/library-data/manifest.json` tracks 798 theoretical combinations, 102 exclusions, quotas and publication status. Currently **1,100 built-in entries out of 348,000 planned** are accessible, with 100 previously reviewed records and 1,000 screened drafts. Two combinations have reached their structural quota of 500, and the third has 100 of 500. Never present these screened candidates as individually approved.
+### Built-in content delivery
 
-The app loads built-in prompts itself: no user ZIP upload, no runtime AI generation required. New batches must pass originality, quality, suitability and manifest-count checks before publication. The feed reveals 48 prompts at a time through a More conversation ideas control, so all matching entries remain accessible without rendering hundreds of cards at once. Preserve the editorial status of every record and show screened drafts with an In Review label. Never present unreviewed content as human-approved.
+The approved scope is 348,000 starters over 696 eligible combinations; the 102 exclusions remain in the published manifest. Original UI and Iconsax are unchanged. Google Gemini is strictly optional for fresh ideas and additional angles; it is not the default source.
+
+All curated data is shipped inside the Say More repository and Vercel deployment under `public/library-data/`, with no user imports and no runtime Gemini generation. `manifest.json` contains the publication inventory and a `publishedCollections` index mapping each topic/mood/audience triple to its local JSON shards. The app loads a maximum of eight relevant shards per selection instead of fetching the entire eventual catalogue on startup. Further shards load through the existing More conversation ideas control. Saved and History views rehydrate their relevant files using stable IDs.
+
+When publishing another editorial batch, add a local JSON content shard, update `publishedFiles`, `publishedCollections`, its slot's `published` count and the total/editorial counters in the manifest. Add matching Markdown source under `content/`. Run `npm test` before deployment: checks cover eligible combinations, duplicate IDs/text, quality metadata, discovery, Iconsax, JavaScript syntax and shard selection.
+
+**Editorial honesty:** exact matching and lexical screening do not equal human acceptance or full semantic de-duplication. Keep the `screened_pending_editorial_review` status until an individual reviewer signs off. Do not populate quotas with templated variants or mark ungenerated entries as complete.
 
 ## Running and deployment
 
