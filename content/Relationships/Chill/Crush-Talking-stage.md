@@ -305,3 +305,105 @@ Target: 500. Entries remain editorial drafts until human approval.
    _SM-001649 · Scenario · pending editorial review_
 150. Making a homemade gift for someone or taking them to choose something they genuinely want?  
    _SM-001650 · Quick choice · pending editorial review_
+
+
+151. What sort of creative work makes you stop and look twice, even when you don't know much about it?  
+   _SM-001651 · Question · pending editorial review_
+152. Enjoying a painting doesn't require explaining what the artist intended.  
+   _SM-001652 · Hot take · pending editorial review_
+153. We're at an exhibition and choose completely different favourite pieces. How would you defend your pick?  
+   _SM-001653 · Scenario · pending editorial review_
+154. Trying pottery with uneven results or learning to draw simple portraits of each other?  
+   _SM-001654 · Quick choice · pending editorial review_
+155. Tell me about something you made with your hands and felt quietly pleased to finish.  
+   _SM-001655 · Story starter · pending editorial review_
+156. Watching someone concentrate on a small creative project is often more interesting than seeing the result.  
+   _SM-001656 · Observation · pending editorial review_
+157. Have you seen a piece of public art which changed how you looked at a familiar street?  
+   _SM-001657 · Question · pending editorial review_
+158. An imperfect handmade object often has a better story than a polished shop-bought one.  
+   _SM-001658 · Hot take · pending editorial review_
+159. I bring a sketchbook and ask you to draw the first thing you notice. What lands on the page?  
+   _SM-001659 · Scenario · pending editorial review_
+160. A gallery with a handful of unusual pieces or a busy craft market full of handmade things?  
+   _SM-001660 · Quick choice · pending editorial review_
+161. Which app do you enjoy using, and which one steals more of your time than you intend?  
+   _SM-001661 · Question · pending editorial review_
+162. Putting a phone away during a conversation feels better when nobody makes a formal rule about it.  
+   _SM-001662 · Hot take · pending editorial review_
+163. We both forget our chargers on a long train ride. What would we end up talking about first?  
+   _SM-001663 · Scenario · pending editorial review_
+164. A day with no social media or a day with no streaming services?  
+   _SM-001664 · Quick choice · pending editorial review_
+165. Tell me about something interesting you found while looking for something completely different online.  
+   _SM-001665 · Story starter · pending editorial review_
+166. People sometimes remember the comments under a video longer than the video itself.  
+   _SM-001666 · Observation · pending editorial review_
+167. What's a piece of technology you wish still worked as simply as it did years ago?  
+   _SM-001667 · Question · pending editorial review_
+168. Sharing funny things online works best when you understand the other person's sense of humour.  
+   _SM-001668 · Hot take · pending editorial review_
+169. I show you a strange photo from my camera roll with no explanation. What's your first question?  
+   _SM-001669 · Scenario · pending editorial review_
+170. Printing a few favourite photos or keeping a carefully organised digital album?  
+   _SM-001670 · Quick choice · pending editorial review_
+171. What's a question you've asked recently because you genuinely wanted to know the answer?  
+   _SM-001671 · Question · pending editorial review_
+172. A good explanation leaves room for someone to ask a second question without feeling embarrassed.  
+   _SM-001672 · Hot take · pending editorial review_
+173. We join a beginner's workshop where neither of us knows what we're doing. Who asks for help first?  
+   _SM-001673 · Scenario · pending editorial review_
+174. Learning a few phrases in a new language or figuring out how an everyday object is made?  
+   _SM-001674 · Quick choice · pending editorial review_
+175. Tell me about a fact you learnt by accident and still bring up in conversations.  
+   _SM-001675 · Story starter · pending editorial review_
+176. Some interesting conversations begin with somebody admitting they don't know something.  
+   _SM-001676 · Observation · pending editorial review_
+177. If you had a free afternoon with an expert in any field, what would you ask them to show you?  
+   _SM-001677 · Question · pending editorial review_
+178. Curiosity is more enjoyable when you don't turn every interesting topic into homework.  
+   _SM-001678 · Hot take · pending editorial review_
+179. We're at a science museum and one exhibit has a queue. What would persuade you to wait?  
+   _SM-001679 · Scenario · pending editorial review_
+180. A hands-on lesson where you make mistakes or a relaxed talk where you leave with new questions?  
+   _SM-001680 · Quick choice · pending editorial review_
+181. When did a stranger last make an ordinary errand easier for you?  
+   _SM-001681 · Question · pending editorial review_
+182. A polite gesture matters more when someone does it without expecting attention.  
+   _SM-001682 · Hot take · pending editorial review_
+183. We're carrying shopping bags and notice somebody struggling with a heavy door. What happens next?  
+   _SM-001683 · Scenario · pending editorial review_
+184. Receiving a thoughtful handwritten note or hearing someone mention a kind thing you did weeks ago?  
+   _SM-001684 · Quick choice · pending editorial review_
+185. Tell me about a time you were unexpectedly grateful for someone's patience.  
+   _SM-001685 · Story starter · pending editorial review_
+186. A brief exchange with a stranger sometimes improves your mood for the rest of the day.  
+   _SM-001686 · Observation · pending editorial review_
+187. What's a simple way someone shows respect which you notice immediately?  
+   _SM-001687 · Question · pending editorial review_
+188. Being considerate is easier when you ask what helps instead of assuming you already know.  
+   _SM-001688 · Hot take · pending editorial review_
+189. I realise the café has given me somebody else's order. Would you return it straight away or ask the staff for help?  
+   _SM-001689 · Scenario · pending editorial review_
+190. Helping someone find their way around a new place or lending a useful item when they need it?  
+   _SM-001690 · Quick choice · pending editorial review_
+191. What's something people do in queues which always catches your attention?  
+   _SM-001691 · Question · pending editorial review_
+192. Ordinary conversations overheard on public transport sometimes sound like the start of a novel.  
+   _SM-001692 · Hot take · pending editorial review_
+193. We notice two strangers wearing almost identical outfits. Do you point it out or keep the observation to yourself?  
+   _SM-001693 · Scenario · pending editorial review_
+194. Watching a busy market wake up in the morning or seeing a quiet street come alive after work?  
+   _SM-001694 · Quick choice · pending editorial review_
+195. Tell me about a harmless misunderstanding in public which turned into a funny story.  
+   _SM-001695 · Story starter · pending editorial review_
+196. You learn a lot about a place by noticing what people stop to look at.  
+   _SM-001696 · Observation · pending editorial review_
+197. What's a tiny detail in restaurants or cafés which you notice before most people do?  
+   _SM-001697 · Question · pending editorial review_
+198. A little people-watching is more fun when you're curious rather than judgemental.  
+   _SM-001698 · Hot take · pending editorial review_
+199. We're waiting for a bus when someone starts an impromptu street performance. Would you stop to watch?  
+   _SM-001699 · Scenario · pending editorial review_
+200. Sitting by a window overlooking a lively street or finding a bench with an uninterrupted view of the sky?  
+   _SM-001700 · Quick choice · pending editorial review_
