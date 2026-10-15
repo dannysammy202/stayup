@@ -203,3 +203,205 @@ Initial target: 200. Entries remain editorial drafts until human approval.
    _SM-006399 · Story starter · pending editorial review_
 100. A live musician at a neighbourhood gathering or somebody playing familiar songs from a small speaker?  
    _SM-006400 · Quick choice · pending editorial review_
+
+
+101. The same tune sometimes follows you through several different places on a single day.  
+   _SM-006401 · Observation · pending editorial review_
+102. You're making a playlist for someone spending their first weekend in your town. Which mood would you start with?  
+   _SM-006402 · Scenario · pending editorial review_
+103. What song makes people around you start singing even when nobody planned to?  
+   _SM-006403 · Question · pending editorial review_
+104. Music heard in ordinary public places becomes part of how we remember them.  
+   _SM-006404 · Hot take · pending editorial review_
+105. Describe a time a familiar local tune started a conversation with a stranger.  
+   _SM-006405 · Story starter · pending editorial review_
+106. A visitor hears a song playing everywhere and asks why people love it. Whose story would you share?  
+   _SM-006406 · Scenario · pending editorial review_
+107. What type of music seems to appear at almost every family gathering you attend?  
+   _SM-006407 · Question · pending editorial review_
+108. What's a small everyday custom you noticed on a trip before you noticed any major attractions?  
+   _SM-006408 · Question · pending editorial review_
+109. Tell me about buying something ordinary in another place and learning a new way to do it.  
+   _SM-006409 · Story starter · pending editorial review_
+110. Learning how locals order breakfast or joining a familiar-looking game with different rules?  
+   _SM-006410 · Quick choice · pending editorial review_
+111. The smallest differences in daily routines sometimes stay with travellers longer than the sights.  
+   _SM-006411 · Observation · pending editorial review_
+112. You're spending one free afternoon in a new town with a local friend. What ordinary activity would you ask to join?  
+   _SM-006412 · Scenario · pending editorial review_
+113. What have you seen people do in public elsewhere that would attract attention where you live?  
+   _SM-006413 · Question · pending editorial review_
+114. A good local recommendation often starts with somewhere people go on a normal weekday.  
+   _SM-006414 · Hot take · pending editorial review_
+115. Describe a moment when somebody patiently helped you understand a custom you hadn't encountered before.  
+   _SM-006415 · Story starter · pending editorial review_
+116. A friend from abroad visits your area and finds a familiar routine surprising. How would you explain it?  
+   _SM-006416 · Scenario · pending editorial review_
+117. What's a habit you brought home from a trip because you liked the way people did it there?  
+   _SM-006417 · Question · pending editorial review_
+118. What do you enjoy looking at first when you enter a local market?  
+   _SM-006418 · Question · pending editorial review_
+119. Tell me about an unexpected conversation you had while shopping at a stall.  
+   _SM-006419 · Story starter · pending editorial review_
+120. A market famous for fabric or one known for fresh produce?  
+   _SM-006420 · Quick choice · pending editorial review_
+121. Some stallholders remember regular customers by their usual order.  
+   _SM-006421 · Observation · pending editorial review_
+122. You're buying something at a market you've never visited. How do you decide which stall to try?  
+   _SM-006422 · Scenario · pending editorial review_
+123. Which market smell tells you you're close before you see the stalls?  
+   _SM-006423 · Question · pending editorial review_
+124. Market conversations sometimes teach more local slang than a language lesson.  
+   _SM-006424 · Hot take · pending editorial review_
+125. Describe watching a vendor demonstrate something you didn't know how to use.  
+   _SM-006425 · Story starter · pending editorial review_
+126. Your friend has ten minutes at your favourite market. What would you insist they see?  
+   _SM-006426 · Scenario · pending editorial review_
+127. What do people in your area normally say when they leave a shop without buying anything?  
+   _SM-006427 · Question · pending editorial review_
+128. What's an ordinary object at home whose story gets retold whenever somebody notices it?  
+   _SM-006428 · Question · pending editorial review_
+129. Tell me about finding an old item and asking a relative why the family kept it.  
+   _SM-006429 · Story starter · pending editorial review_
+130. A box of handwritten notes or a collection of old family photographs?  
+   _SM-006430 · Quick choice · pending editorial review_
+131. The objects people keep often reveal which memories they want close by.  
+   _SM-006431 · Observation · pending editorial review_
+132. You're choosing one small item to represent your family's everyday life today. What would you save?  
+   _SM-006432 · Scenario · pending editorial review_
+133. Which piece of furniture has stayed in your family longer than anyone expected?  
+   _SM-006433 · Question · pending editorial review_
+134. A well-used household item sometimes carries more history than an expensive souvenir.  
+   _SM-006434 · Hot take · pending editorial review_
+135. Describe learning the story behind a gift somebody in your family has treasured for years.  
+   _SM-006435 · Story starter · pending editorial review_
+136. An older relative offers to explain the history of one object in the house. Which would you point to?  
+   _SM-006436 · Scenario · pending editorial review_
+137. What's something your family still uses in a way younger people find unusual?  
+   _SM-006437 · Question · pending editorial review_
+138. Does your neighbourhood have a nickname that visitors wouldn't find on a map?  
+   _SM-006438 · Question · pending editorial review_
+139. Tell me about learning why people call a particular junction or street by an unexpected name.  
+   _SM-006439 · Story starter · pending editorial review_
+140. A street named after a historical person or a place named after something that used to stand there?  
+   _SM-006440 · Quick choice · pending editorial review_
+141. Local nicknames for places sometimes last longer than their official names.  
+   _SM-006441 · Observation · pending editorial review_
+142. You're giving directions using only names longtime residents use. Which stop might confuse a newcomer?  
+   _SM-006442 · Scenario · pending editorial review_
+143. What's a place name people in your area pronounce differently from how it's written?  
+   _SM-006443 · Question · pending editorial review_
+144. The stories behind ordinary street names deserve a place in local history.  
+   _SM-006444 · Hot take · pending editorial review_
+145. Describe someone correcting your name for a place and explaining the version they grew up with.  
+   _SM-006445 · Story starter · pending editorial review_
+146. A friend asks why an old neighbourhood name still appears in conversation. Who would you ask for the story?  
+   _SM-006446 · Scenario · pending editorial review_
+147. Which local place has changed so much its old name now sounds surprising?  
+   _SM-006447 · Question · pending editorial review_
+148. What small change in everyday life tells you a new season has arrived?  
+   _SM-006448 · Question · pending editorial review_
+149. Tell me about a yearly household task that always reminds you of a particular time of year.  
+   _SM-006449 · Story starter · pending editorial review_
+150. The first cool evening of the season or the first heavy rain after a dry spell?  
+   _SM-006450 · Quick choice · pending editorial review_
+151. Some seasonal traditions begin with practical chores and end up becoming family rituals.  
+   _SM-006451 · Observation · pending editorial review_
+152. You're planning a relaxed weekend for a visitor during your favourite season. What local routine would you include?  
+   _SM-006452 · Scenario · pending editorial review_
+153. Which food do people around you start looking for when the weather changes?  
+   _SM-006453 · Question · pending editorial review_
+154. A familiar seasonal routine can be as memorable as a major annual festival.  
+   _SM-006454 · Hot take · pending editorial review_
+155. Describe a day when the weather changed the usual way your neighbourhood spent time together.  
+   _SM-006455 · Story starter · pending editorial review_
+156. Someone asks what to expect during the rainy season where you live. What everyday detail would you mention first?  
+   _SM-006456 · Scenario · pending editorial review_
+157. What's a seasonal saying people use in your area even when the forecast doesn't match?  
+   _SM-006457 · Question · pending editorial review_
+158. What do people usually chat about during a long shared journey in your area?  
+   _SM-006458 · Question · pending editorial review_
+159. Tell me about learning a local transport custom from another passenger.  
+   _SM-006459 · Story starter · pending editorial review_
+160. A ferry ride where everybody watches the water or a bus journey full of lively conversation?  
+   _SM-006460 · Quick choice · pending editorial review_
+161. Regular commuters often recognise each other without ever learning one another's names.  
+   _SM-006461 · Observation · pending editorial review_
+162. You're helping a visitor use your town's public transport for the first time. What unwritten rule would you mention?  
+   _SM-006462 · Scenario · pending editorial review_
+163. Which familiar call or phrase do you associate with getting around your city?  
+   _SM-006463 · Question · pending editorial review_
+164. The conversations on a short journey sometimes reveal more local character than a guidebook.  
+   _SM-006464 · Hot take · pending editorial review_
+165. Describe a journey where fellow passengers made an unexpected delay enjoyable.  
+   _SM-006465 · Story starter · pending editorial review_
+166. A friend wants to travel like a local rather than book a tour. What everyday route would you suggest?  
+   _SM-006466 · Scenario · pending editorial review_
+167. What travel habit from your area would seem unusual to someone visiting for the first time?  
+   _SM-006467 · Question · pending editorial review_
+168. What's a small gesture people use around you to show appreciation without saying much?  
+   _SM-006468 · Question · pending editorial review_
+169. Tell me about misunderstanding a friendly gesture before somebody explained it.  
+   _SM-006469 · Story starter · pending editorial review_
+170. A cheerful wave across the street or a quiet nod of recognition?  
+   _SM-006470 · Quick choice · pending editorial review_
+171. People sometimes know exactly what a gesture means within a family even if nobody has explained it.  
+   _SM-006471 · Observation · pending editorial review_
+172. You're meeting someone whose greeting gestures differ from yours. How would you follow their lead comfortably?  
+   _SM-006472 · Scenario · pending editorial review_
+173. Which hand gesture do people around you use to ask for patience?  
+   _SM-006473 · Question · pending editorial review_
+174. The smallest gestures of courtesy often become the easiest customs to adopt.  
+   _SM-006474 · Hot take · pending editorial review_
+175. Describe seeing a familiar gesture used in a new setting and noticing its meaning had changed.  
+   _SM-006475 · Story starter · pending editorial review_
+176. A friend wants to learn how people politely get someone's attention in your area. What would you demonstrate?  
+   _SM-006476 · Scenario · pending editorial review_
+177. What's a gesture older relatives use that younger people rarely seem to copy?  
+   _SM-006477 · Question · pending editorial review_
+178. What's a local story people tell differently depending on who you ask?  
+   _SM-006478 · Question · pending editorial review_
+179. Tell me about hearing an older neighbour describe how your area used to look.  
+   _SM-006479 · Story starter · pending editorial review_
+180. A funny story about a local character or a surprising tale about a familiar building?  
+   _SM-006480 · Quick choice · pending editorial review_
+181. A story becomes part of neighbourhood history when enough people keep retelling it.  
+   _SM-006481 · Observation · pending editorial review_
+182. You're collecting light-hearted stories for a community newsletter. What would you ask people to share?  
+   _SM-006482 · Scenario · pending editorial review_
+183. Which local story always seems to come up when visitors ask questions?  
+   _SM-006483 · Question · pending editorial review_
+184. The funniest community stories often involve ordinary events nobody planned to remember.  
+   _SM-006484 · Hot take · pending editorial review_
+185. Describe a time a casual chat revealed a story about a place you pass every day.  
+   _SM-006485 · Story starter · pending editorial review_
+186. Someone claims to know the true origin of a neighbourhood nickname. What would you ask them?  
+   _SM-006486 · Scenario · pending editorial review_
+187. What's a story about your hometown you'd like to hear from someone who was there?  
+   _SM-006487 · Question · pending editorial review_
+188. What's a handmade item you often see people using in everyday life where you live?  
+   _SM-006488 · Question · pending editorial review_
+189. Tell me about watching someone repair an object using a skill you didn't know existed.  
+   _SM-006489 · Story starter · pending editorial review_
+190. A handwoven basket or a piece of pottery made for daily use?  
+   _SM-006490 · Quick choice · pending editorial review_
+191. Small workshops often have a familiar rhythm that regular visitors learn to recognise.  
+   _SM-006491 · Observation · pending editorial review_
+192. You're visiting a local maker's stall with a friend. What would you ask about before choosing something?  
+   _SM-006492 · Scenario · pending editorial review_
+193. Which everyday object do you think looks better when somebody makes it by hand?  
+   _SM-006493 · Question · pending editorial review_
+194. A useful handmade object deserves as much appreciation as a decorative one.  
+   _SM-006494 · Hot take · pending editorial review_
+195. Describe learning why a maker preferred one simple tool over a newer alternative.  
+   _SM-006495 · Story starter · pending editorial review_
+196. A neighbour offers to teach you one practical skill they learnt growing up. What would you choose?  
+   _SM-006496 · Scenario · pending editorial review_
+197. What's a small handmade gift people in your community enjoy giving?  
+   _SM-006497 · Question · pending editorial review_
+198. Which little custom in your area do you hope people will still practise years from now?  
+   _SM-006498 · Question · pending editorial review_
+199. Tell me about a simple habit you picked up from another household and kept.  
+   _SM-006499 · Story starter · pending editorial review_
+200. You're asked to teach a newcomer one cheerful local custom in five minutes. Which would you choose?  
+   _SM-006500 · Scenario · pending editorial review_
