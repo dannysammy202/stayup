@@ -1,0 +1,507 @@
+{
+  "topic": "Entertainment",
+  "mood": "Chill",
+  "audience": "Anyone",
+  "prompts": [
+    {
+      "format": "Question",
+      "text": "What's a film you enjoy revisiting even though you know every major turn?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about watching a movie at the right moment for its story to resonate.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Rewatch a dependable favourite or choose a film you've heard about for years?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You have one quiet evening and can't decide what to watch. What helps narrow the choice?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "The films people return to often reflect moods as much as genres.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "An enjoyable movie doesn't have to be complicated to deserve another viewing.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which film do you associate with a particular place or person?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a friend recommending a film that turned out to suit you perfectly.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You are curating a small cinema evening for people with different tastes. What would you ask them first?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A character-driven drama or a light comedy with a familiar cast?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What makes a television series easy for you to settle into after a long day?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe discovering a show several years after everyone else had finished discussing it.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Watch one episode at a time or save a few to enjoy over the weekend?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your favourite series ends and you want something with a similar feeling. What would you look for?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "A series can become comforting through familiar characters even when individual episodes are ordinary.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Shorter seasons can make a story more satisfying when there's less filler.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which supporting character has made a show more enjoyable for you?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a series finale that encouraged a thoughtful conversation among friends.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Someone wants a show they can watch in short sessions. What matters more than its popularity?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A complete miniseries or an ongoing story you can follow over time?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a documentary that made an everyday subject surprisingly interesting?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about watching something factual that led you to ask more questions.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Explore a nature documentary or one about a creative person's working process?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You can choose the subject of a short documentary about your neighbourhood. What would you film?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Good nonfiction storytelling can make an unfamiliar topic understandable without removing its complexity.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A documentary should make viewers curious enough to ask what might be missing.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which ordinary profession would you enjoy seeing explored in a behind-the-scenes film?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall learning about a historical event through a documentary rather than a textbook.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You could interview one person for a ten-minute documentary. What life experience would interest you?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Follow one personal story or explore a big subject through several perspectives?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What kind of book holds your attention even when you're reading in short bursts?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe discovering a favourite author through an unexpected recommendation.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "An engaging collection of short stories or a novel you can stay immersed in?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A friend is getting back into reading after years away. What would you ask before recommending a book?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Readers sometimes connect most strongly with characters who make mistakes they recognise.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A book doesn't have to be long to leave a lasting impression.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which story setting do you enjoy spending time in, even if the plot moves slowly?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall reading a passage that made you notice something different about ordinary life.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You have to choose one book for a relaxed neighbourhood discussion. What would make it approachable?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A mystery you want to solve or a reflective story about familiar relationships?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a board game that makes a gathering more relaxed rather than more competitive?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about learning a game from somebody who was especially patient with beginners.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Play a cooperative game where everyone shares a goal or a simple turn-based challenge?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Four people meet for an evening and none knows the others' games. What would you choose first?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "The best games for a casual group are often easy to explain but leave room for surprising choices.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A good game night doesn't require anyone to keep score.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which childhood game still works well at an adult gathering?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a friendly competition where the funniest moment had nothing to do with winning.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You need to adapt a game for players with different abilities. What would you ask them about comfort and access?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A quick guessing game or a longer puzzle you can solve together?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What theatre performance or stage production would you like to experience again?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe seeing performers create an entire world with a small stage and few props.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A small intimate play or a large musical with an elaborate production?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A friend has never seen a live stage performance. How would you help them choose a suitable first show?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "The audience's reactions can make a stage production feel different on every night.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Creative staging can be more memorable than expensive scenery.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which kind of story do you think works particularly well in live theatre?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall an actor's performance changing how you understood a character.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A local theatre group asks residents what stories matter to them. What might you suggest?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Watch a familiar classic staged differently or discover a completely new play?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which childhood cartoon or animated film would you happily watch today?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about discovering a clever detail in a children's story that you missed when younger.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Hand-drawn animation with expressive characters or detailed computer animation?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A friend asks for one animated film suitable for a relaxed evening. What would guide your suggestion?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Animation can convey emotions and ideas that would feel very different in live action.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "An animated story doesn't become less serious simply because children can enjoy it.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which animated character did you understand differently as an adult?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall hearing a familiar voice actor in another programme and recognising them immediately.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You can design an animated short based on an ordinary event. Which moment would you choose?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "An imaginative fantasy setting or a warm story about everyday life?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's your favourite part of visiting a cinema aside from watching the film itself?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a screening where the audience helped make the experience memorable.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Attend a quiet early showing or an evening screening with friends?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A cinema offers a relaxed classic-film night with a discussion afterwards. What kind of film would suit it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Watching a story with strangers can feel different from watching it alone at home.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A comfortable cinema seat and clear sound matter more than elaborate extras.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which film would you most enjoy introducing to somebody who's never seen it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall seeing a familiar film on a large screen for the first time.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You could improve one aspect of the cinema experience for regular visitors. What would you change?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A small independent cinema or a large modern multiplex?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which kind of comedy helps you relax without needing to pay attention to every detail?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a performance that made you laugh for an unexpected reason.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Observational stand-up about everyday life or a situation comedy with familiar characters?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A friend is visiting and wants a light evening of entertainment. What would you offer besides a film?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Comedians often make ordinary frustrations interesting by noticing details everyone shares.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A good joke doesn't need to embarrass somebody in the room.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which everyday topic would you enjoy hearing a clever comedian explore?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a funny show you discovered because somebody played you a short clip.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You can plan a local evening where amateurs share short funny stories. What would make the event welcoming?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A thoughtful comedy special or a lively improv performance?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's an entertainment experience you'd enjoy that doesn't involve a screen?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe visiting a community event and discovering a performer or storyteller you didn't know.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "An afternoon storytelling session or a small cultural festival with different activities?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You have a free weekend and want something relaxing but unfamiliar. How would you find a suitable event?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Local entertainment can reveal as much about a community as its famous attractions.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A free public event can be more memorable than a heavily advertised attraction.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which small cultural event would you like your city to host more often?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a public performance that made you stop and watch longer than you planned.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your neighbourhood can host one monthly entertainment activity in a shared space. What would appeal to different age groups?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A public storytelling evening or a casual outdoor film screening?",
+      "relatedThemes": []
+    }
+  ]
+}
