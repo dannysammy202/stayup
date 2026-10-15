@@ -1,0 +1,507 @@
+{
+  "topic": "Relationships",
+  "mood": "Curious",
+  "audience": "Anyone",
+  "prompts": [
+    {
+      "format": "Question",
+      "text": "What makes it easier to understand someone whose communication style differs from yours?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about discovering that a person you misunderstood was trying to be considerate.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Two colleagues interpret the same short message differently. What context would help them understand it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Ask for clarification immediately or explain how you interpreted a message first?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People often rely on tone and timing as much as the words in a conversation.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Asking what someone meant is more useful than building a theory about their intentions.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "When do you prefer a direct answer over a gentler explanation?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a conversation when a small clarification prevented a much larger misunderstanding.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Someone takes your quietness as disagreement. How would you explain what silence means for you?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Discuss an important issue by phone or in person where you can read each other's reactions?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which quality do you notice first in somebody who makes others feel included?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time a group welcomed you without asking you to change your personality.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A new person joins a close group but struggles with existing inside jokes. What would you want the others to notice?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Include someone by asking their opinion or by inviting them into a shared activity?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Belonging sometimes begins with being remembered rather than being the centre of attention.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A group isn't particularly welcoming if everyone has to behave in the same way to fit in.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "How do you recognise when someone feels left out even though they're smiling?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a person who helped you feel part of something unfamiliar.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "One participant rarely speaks during a lively discussion. How would you find out whether they want a turn?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A gathering with structured introductions or one where people connect in smaller conversations?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "How have your expectations of friendship changed since your teenage years?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about becoming closer to someone after a difficult but respectful disagreement.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Two old friends now lead very different lives. What could help them maintain a connection without forcing old routines?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A friendship built on frequent conversations or on shared experiences over many years?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "The reasons people become friends sometimes differ from the reasons they stay friends.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Friendships deserve the freedom to change without automatically being considered weaker.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What kind of change in a friend would make you curious rather than concerned?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall realising a casual acquaintance had become someone you relied on.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A friend develops a new interest that changes their social schedule. How might the friendship adapt?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Reconnect through a shared childhood memory or discover something new about each other's present lives?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What helps you decide which details about your life you're comfortable sharing?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time someone respected your privacy without asking for an explanation.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A relative asks about a personal decision during a public gathering. What would help you respond comfortably?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Set a boundary with a brief explanation or agree to discuss it privately later?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Different people distinguish privacy from secrecy in different ways.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Closeness doesn't entitle someone to every detail of another person's life.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "How can a person show interest in you without asking questions that feel intrusive?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about learning an important boundary by listening rather than making assumptions.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A friend shares news with you but not the rest of the group. How do you handle later questions?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Ask whether a subject is comfortable before discussing it or let the person introduce it themselves?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which small action tells you somebody is dependable?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall someone fulfilling a promise you had almost forgotten they'd made.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Two friends agree to help organise an event, but one becomes unexpectedly busy. What would responsible follow-up look like?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A person who gives realistic commitments or one who volunteers enthusiastically and adjusts later?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Reliability becomes visible through ordinary decisions long before a crisis arrives.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Clear limits often build more trust than ambitious promises.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What would make you reconsider an early negative impression of someone's reliability?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe discovering that somebody had quietly prepared for something important to you.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A person misses an agreed deadline but tells you promptly and offers a solution. What matters most in your response?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Receive a timely update about a delay or an unexpected effort to make up for it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What makes it easier to talk about disappointment without blaming somebody?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about discussing a disagreement with someone who helped you feel understood.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Two people remember an agreement differently. What should happen before either assigns blame?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Begin with how an event affected you or with your understanding of what happened?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People sometimes need time to distinguish disappointment from anger.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A fair disagreement includes room for somebody to change their mind.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What usually tells you that a difficult conversation is becoming productive?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall an apology that made a difference because the person's behaviour changed afterwards.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Someone wants to make amends but isn't sure what the other person needs. What could they ask?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Repair a misunderstanding through conversation or through an agreed practical change?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which relationship in your life taught you the most about patience?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe learning something unexpected from a person whose pace was different from yours.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A younger family member is eager to make a decision an older relative considers premature. What might each learn by listening?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Learn from a mentor with a different background or from a peer facing similar experiences?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Differences in life stage can shape the same relationship in very different ways.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Respect across generations requires curiosity in both directions.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "How do you recognise advice that comes from experience rather than from personal preference?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a conversation with an elder that changed your understanding of their choices.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Two relatives disagree about what counts as an important milestone. How would you explore their reasons?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Ask someone about a decision they regret or a decision they're still glad they made?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "How do you tell when somebody wants solutions rather than understanding?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time practical help mattered more to you than encouraging words.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A friend has a stressful week and doesn't know what they need. Which question might reveal what would help?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Offer a specific practical favour or ask whether someone wants company?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "The support people appreciate can change according to the situation, not only their personality.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Giving useful support includes respecting when someone prefers to handle a problem alone.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which type of help do you find hardest to ask for, and why?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall someone helping you without making you feel obligated to return the favour.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Two friends want to support the same person but have conflicting ideas. How should they coordinate?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Receive support quietly without discussion or talk through the situation with someone you trust?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What makes certain everyday rituals feel meaningful between people?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a small routine that strengthened a friendship without anybody planning it.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Two people stop sharing a routine because their schedules change. How might they preserve what mattered about it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Share a meal once a month or exchange a short update at the end of each week?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "A ritual becomes important when people attach meaning to the time spent together.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Revisiting a shared routine occasionally keeps it from becoming an obligation.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which repeated activity has helped you understand somebody better over time?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a simple tradition whose meaning changed as you grew older.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your family wants to include a distant relative in a yearly custom. What parts of the custom could travel?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Keep a familiar tradition going or create one that fits your present circumstances better?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "How does your understanding of a person change when you meet their closest friends?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall learning an unexpected side of someone's personality through the people they care about.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Two people have strong friendships in different circles. How could they introduce their friends without forcing closeness?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Learn about somebody through their favourite memories or through the people who inspire them?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "A person's social circles often reflect different stages and parts of their life.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Having separate friendships is compatible with building a close relationship.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What do you hope the people close to you understand about how you choose friends?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a person who connected different parts of your life unexpectedly.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Someone in a new relationship feels pressured to abandon an old friendship. What questions should they explore?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Spend time with friends who challenge your ideas or those who share your long-standing interests?",
+      "relatedThemes": []
+    }
+  ]
+}
