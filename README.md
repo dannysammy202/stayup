@@ -17,11 +17,11 @@ Say More replaces the original StayUp interface in the existing `dannysammy202/s
 
 19 × 6 × 7 = 798 theoretical combinations. The editorial policy excludes 102 unsuitable pairings, leaving **696 eligible combinations** and an eventual **348,000-starter target**.
 
-The first 100 previously reviewed Say More starters are hard-coded in `public/library-data/approved.json`. They cover Relationships / Chill / Anyone only. The app also contains the existing sample prompts for wider topic coverage, which are not counted towards this editorial quota.
+The first Relationships / Chill / Anyone collection now contains **500 locally bundled starters**. Entries 1–100 retain the earlier editorial review. Entries 101–500 are newly authored and passed ID, exact-duplicate, high-overlap lexical, format, length and relevance checks. Independent human review and full semantic similarity screening remain outstanding. Read the editable file at `content/Relationships/Chill/Anyone.md`, or the five production JSON chunks under `public/library-data/`. Existing sample prompts for the other topics remain in the application and do not count towards this editorial quota.
 
-`public/library-data/manifest.json` provides all 798 combinations, exclusions, targets, and published totals. The current total is **100 reviewed entries out of 348,000 planned**. More entries will require actual editorial writing and review; the earlier 99,900 auto-generated drafts were not incorporated because they are not approved and repeat underlying scenarios.
+`public/library-data/manifest.json` provides all 798 combinations, exclusions, targets, and published totals. The current total is **500 published entries out of 348,000 planned**, of which 100 retain prior human editorial review and 400 await independent human review. More entries will require actual editorial writing and review; the earlier 99,900 auto-generated drafts were not incorporated because they are not approved and repeat underlying scenarios.
 
-The app loads built-in prompts itself: no user ZIP upload, no runtime AI generation required. Each newly released batch must pass originality, quality, suitability and manifest-count checks before publication. Keep approved prompts separate from pending editorial drafts.
+The app loads built-in prompts itself: no user ZIP upload, no runtime AI generation required. New batches must pass originality, quality, suitability and manifest-count checks before publication. The feed reveals 48 prompts at a time through a More conversation ideas control, so all matching entries remain accessible without rendering hundreds of cards at once. Keep approved prompts separate from pending editorial drafts.
 
 ## Running and deployment
 
