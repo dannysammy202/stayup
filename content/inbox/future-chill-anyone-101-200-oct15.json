@@ -1,0 +1,507 @@
+{
+  "topic": "Future & Ambitions",
+  "mood": "Chill",
+  "audience": "Anyone",
+  "prompts": [
+    {
+      "format": "Question",
+      "text": "What's an experience you'd like to save up for without rushing to book it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe finally doing something you'd planned for years and noticing what you enjoyed most.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Build a fund for one big experience or set aside smaller amounts for regular discoveries?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You have a year to prepare for an inexpensive adventure. What would be the first practical step?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Planning something enjoyable can be part of the pleasure long before it happens.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A future goal doesn't have to be expensive to deserve a plan.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which meaningful experience would you rather arrange yourself than receive as a surprise?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a time saving for something helped you clarify how much you actually wanted it.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A group of friends wants a shared experience in two years. How should they keep plans flexible?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Create a simple savings calendar for an outing or research the experience before choosing a date?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which older person would you enjoy asking about a decision they made decades ago?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about receiving practical guidance that became useful much later.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Learn about someone's biggest change in priorities or the habit they've maintained for years?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You could spend an afternoon interviewing somebody whose life has taken an unusual path. What would you ask first?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People often pass on wisdom through ordinary stories rather than formal lessons.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A mentor's honesty about uncertainty can be more helpful than a flawless success story.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What lesson from an older relative would you want future family members to understand?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a time a younger person taught you something that challenged your assumptions.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You have to create a short guide for someone beginning a stage of life you've already experienced. What would you include?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Share practical advice in writing or demonstrate a useful habit side by side?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a simple habit you'd like to maintain as you get older?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe finding an activity that gave you more energy than you expected.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Make time for regular gentle movement or maintain a steady routine for rest?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your schedule changes substantially next year. What low-pressure wellbeing activity would you try to preserve?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Sustainable wellbeing often depends on the small choices people can keep making.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A realistic routine is preferable to a dramatic plan that only works on ideal days.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What kind of outdoor activity would you like to enjoy for many years?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall learning that a small adjustment to your day helped you feel more comfortable.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You and a friend want a weekly activity that works at different fitness levels. What could you choose?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Take a relaxing evening walk or spend time in a quiet green space?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which everyday environmental improvement would you be happy to see in your city?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about learning to reuse an item in a way that was unexpectedly convenient.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Support more reliable recycling collection or better shaded public walking routes?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your neighbourhood plans a small sustainability project. What change could residents maintain without much expense?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Environmental goals become easier to understand when linked to daily routines.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Useful local improvements matter even when they don't come with impressive slogans.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What household habit could reduce waste without making life complicated?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall somebody showing you a practical repair or reuse method that you kept using.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You can redesign one ordinary product to last longer. What feature would you change?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Learn basic repairs for common objects or choose products with simpler reusable packaging?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a professional skill you'd enjoy developing even outside a formal course?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe seeing somebody's everyday work and appreciating an ability you hadn't noticed before.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Practise public speaking in a friendly group or develop a technical skill through small projects?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You have one hour a week for learning related to your career. What would make the habit sustainable?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Career growth often happens through repeated practical experiences rather than sudden promotions.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A title change isn't the only evidence that somebody is progressing.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What aspect of your work would you enjoy explaining to a curious teenager?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall someone asking a question about your work that made you think about it differently.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your organisation offers a chance to spend a day with another team. What would you want to observe?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Learn to collaborate more effectively or become more confident working independently?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which experience would you like to share with relatives from different generations someday?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a family plan that improved once everybody contributed their own ideas.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Take a multigenerational day trip or start a shared collection of family stories?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You are organising a future family reunion for people with different interests and needs. What would you plan first?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "A shared tradition can survive change when each generation has room to contribute.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Family plans work best when participation is welcoming rather than compulsory.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What family story would you like to hear before there are fewer chances to ask?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a relative passing on a skill or custom in an unexpectedly memorable way.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You want to create a keepsake future relatives will appreciate. What ordinary details would make it personal?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Preserve an old recipe with its story or record several family members explaining their childhood routines?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's an independent project you'd be curious to attempt with a friend?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe an idea you and somebody else explored for fun without needing a business plan.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Make a short documentary about local life or put together a community guide?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Two friends with different skills decide to create something useful over a few weekends. What should they ask before starting?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Shared projects can teach people about cooperation even when the result is modest.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A project can be successful because of what participants learn rather than what it earns.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What everyday problem would you like to explore through a small personal experiment?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a hobby project that became more interesting after someone else joined.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You have a modest budget for a side project with no deadline. How would you decide where to begin?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Collaborate on a creative experiment or try building a practical household solution?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which public place would you like future generations to enjoy as much as you do?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about returning to a familiar neighbourhood after years away and appreciating what remained.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Preserve the character of an old community space or create new places for people to gather?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your town is planning a small park to serve residents for decades. What should the designers ask the community?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People often understand the value of a public place through the habits it supports.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A well-maintained ordinary space may matter more than a dramatic new landmark.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a place from your own childhood you'd want to see cared for in the future?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall seeing a building or park restored and noticing how people began using it again.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You could improve one everyday street for children and older residents. What would be your first suggestion?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Invest in a local library or improve a public square where neighbours can spend time?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a life skill you hope more people learn before they have to use it urgently?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe learning something practical because a trusted person showed you patiently.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Become confident with basic home maintenance or learn how to plan a simple household budget?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A community centre offers three free everyday-life courses. What would make the programme useful to different ages?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People often discover gaps in practical knowledge during their first independent responsibilities.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Asking for help with everyday tasks is a sensible part of learning to be independent.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which skill you've learnt informally would you enjoy teaching someone else?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall handling a once-confusing responsibility confidently for the first time.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You can spend one day learning from a skilled tradesperson. Which practical process would you want to understand?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Learn how to plan home upkeep or understand the steps involved in a routine official application?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What would make you feel content with the direction of your life even if some plans changed?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a path you didn't choose and a benefit you found in the one you took.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Measure a decade by the experiences you shared or by the skills and habits you built?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You are writing a short description of your hopes for the coming years without listing achievements. What would you mention?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Long-term contentment can grow from priorities that remain steady while plans evolve.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A fulfilling future doesn't require every ambition to become reality.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which ordinary activity would you love to still enjoy twenty years from now?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall meeting somebody who seemed content with a life very different from what you'd imagined for yourself.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your future self invites you to ask one question about how they spent their free time. What would you ask?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Keep exploring new possibilities or become exceptionally good at appreciating familiar routines?",
+      "relatedThemes": []
+    }
+  ]
+}
