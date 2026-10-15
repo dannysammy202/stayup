@@ -1,0 +1,507 @@
+{
+  "topic": "Relationships",
+  "mood": "Playful",
+  "audience": "Family",
+  "prompts": [
+    {
+      "format": "Question",
+      "text": "Which relative has the funniest way of telling an ordinary story?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a family meal when one small misunderstanding made everyone laugh.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A cousins-only game night or an all-ages family talent show?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Our relatives are filming a comedy about family life. Which person would direct it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Every family seems to have a person who knows the embarrassing stories nobody else remembers.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "The best family jokes are the ones everyone, including the subject, enjoys.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's an innocent childhood nickname your relatives still use for you?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a time someone in the family tried to keep a surprise secret and failed spectacularly.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You must introduce your family using fictional superhero team names. Who gets which role?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Hear an uncle's funniest school story or an aunt's most mischievous childhood adventure?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which childhood disagreement with a sibling seems ridiculous to you now?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a sibling or cousin helping you escape a small childhood scrape.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Swap funny stories about childhood chores or play the games you used to argue about?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Two cousins insist they invented the same family catchphrase. How would you settle it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Siblings sometimes remember the same family holiday as entirely different adventures.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Being the oldest sibling doesn't automatically make someone the official referee.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's the most unexpected thing you've learnt about a sibling as an adult?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe the first time you and a sibling worked together against a harmless challenge.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You have to assign a funny job title to every cousin at a reunion. What's your own?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Compete with siblings in a harmless quiz or join forces against the adults?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which relative would make the best host of a family quiz show?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a family gathering where somebody revealed a surprising hidden talent.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A family cooking competition or a team puzzle-solving tournament?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your relatives invent a new sport using only household items. How would it work?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Family competitions often create rules that are suspiciously favourable to whoever organised them.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A good family game matters more than the person who wins.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What tiny challenge do you think you'd beat most of your relatives at?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a family game where the most confident player lost unexpectedly.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "The children get to set the rules for game night. What's the first rule they change?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Let the youngest choose the next game or let the oldest invent the scoring system?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a family saying that makes you laugh every time you hear it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe explaining an old family expression to a friend who was completely confused.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Collect our family's funniest sayings in a notebook or record everyone saying them aloud?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your household creates a dictionary of words used only at home. What's the first entry?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Family language sometimes sounds like a collection of references from old conversations.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "The most memorable family expressions rarely make sense without their backstories.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which phrase from an elder have you accidentally started using?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a time a family member used an expression at exactly the wrong moment.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You have to teach a younger cousin one old family saying. How would you act it out?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Try translating family jokes into another language or invent new expressions together?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Who in your family is most likely to bring more food than anybody requested?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a relative whose cooking experiment surprised the whole table.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Make an old family recipe with a playful twist or invent a dessert named after a relative?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Everyone contributes one ingredient to a mystery family dish. What would you secretly hope someone brings?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Food disagreements can be surprisingly funny when nobody takes them personally.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Every family needs a dish whose recipe comes with a story.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's the strangest food combination you remember a relative enjoying?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a holiday meal when everyone had to improvise after the plan changed.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "The family opens a fictional restaurant. Which relative is the chef and who handles complaints?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A blind taste test between family recipes or a baking contest with friendly judges?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a harmless way relatives show affection without saying anything sentimental?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a relative who made you feel welcome through an unexpected joke.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A silly family greeting at the door or a familiar nickname shouted from the kitchen?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A visiting cousin seems shy around the older relatives. What playful activity might help?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "The way families express warmth often reflects traditions younger people don't notice until later.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A welcoming family gathering shouldn't require a newcomer to perform for everyone.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Who has the best way of bringing people of different ages into the same conversation?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall meeting a relative for the first time and finding an unexpected shared interest.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Two relatives from different generations are asked to host an event together. What roles might suit them?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Pair grandparents and grandchildren for storytelling or let them teach each other games?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which relative would be most entertaining as a travel guide for your hometown?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a family outing where getting lost became the funniest part.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Visit a childhood landmark together or explore a new attraction with the extended family?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Everyone has ten minutes to recommend one stop for a family road trip. What's yours?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Family trips reveal who enjoys the journey and who only wants to arrive.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "An outing doesn't need to go exactly to plan to become a great family memory.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What landmark would you use as a meeting place because every relative knows it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall somebody insisting on a shortcut that took the family the long way around.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your family has to choose a road-trip playlist with one song from each generation. Who starts?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Listen to everyone's travel stories or recreate a favourite family photo along the route?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's the funniest thing a relative has mistakenly believed about your job or studies?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about trying to explain your work to a younger family member through a silly analogy.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Give the family a tour of your hobby or let relatives teach you one of theirs?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your relatives are asked to describe your profession without using its actual name. What would they say?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Families often remember our childhood interests long after our careers have changed.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Being curious about a relative's work matters more than remembering their job title.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which family member has an unexpected talent that would surprise their colleagues?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a relative encouraging you in an unusual but memorable way.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "The family forms a fictional company for one day. Who gets the most surprising job assignment?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A family skills swap or a relaxed evening sharing creative projects?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which family celebration has a tradition that feels wonderfully peculiar?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a birthday surprise that went wrong in a way everyone enjoyed.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Make handmade decorations together or create a funny photo booth for a gathering?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You are put in charge of a family award ceremony with ridiculous categories. What's the top prize?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Some family traditions began as last-minute solutions that nobody ever replaced.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "The most enjoyable family celebrations have room for people who prefer quiet moments.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a harmless family costume or outfit choice people still talk about?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a reunion when someone arrived looking completely different from how you remembered.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your family decides to reenact an old photograph. Who is least likely to cooperate with the pose?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Create an annual family quiz or gather everyone's funniest memories into a booklet?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's something a younger relative has taught you that made you laugh at yourself?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe discovering that a family elder had a surprisingly playful side.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Let children teach adults a modern game or ask elders to introduce a forgotten pastime?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Everyone in the family has to teach a five-minute lesson about a harmless skill. What do you present?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Different generations often share an interest even when they describe it with different words.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Letting younger relatives lead an activity sometimes makes the whole family closer.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which family activity would be funniest if everybody swapped their usual roles?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a time an elder joined in a playful activity nobody thought they'd enjoy.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your family has a free evening and no screens. What activity would bring the generations together?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "End a gathering with one funny family prediction or one favourite memory from the day?",
+      "relatedThemes": []
+    }
+  ]
+}
