@@ -1,0 +1,507 @@
+{
+  "topic": "Relationships",
+  "mood": "Playful",
+  "audience": "Crush / Talking stage",
+  "prompts": [
+    {
+      "format": "Question",
+      "text": "What's the cutest harmless reason you've found to message someone you liked?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about an opening message that made you smile before you even replied.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A playful voice note or a clever one-line message from someone you're getting to know?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We both keep typing and deleting our first message. Who would you bet presses send first?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People sometimes spend longer choosing an emoji than writing the actual message.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A simple thoughtful message is better than an elaborate line someone copied from elsewhere.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What sort of good-morning message would feel natural rather than rehearsed?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall receiving a message with a small detail the sender remembered about you.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You get a reply full of emojis and no explanation. How would you playfully ask what it means?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "An unexpected photo of something that reminded them of you or a short check-in after a busy day?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What small detail about someone makes you think you'd enjoy spending more time together?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe realising you liked somebody because of the way they treated another person.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Someone who makes you laugh during a dull errand or someone who remembers your favourite snack?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We have ten minutes to get to know each other at a crowded event. What question would you save for last?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People sometimes become attractive through ordinary gestures rather than dramatic entrances.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Remembering a person's boundaries says more than remembering their favourite colour.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which everyday habit of yours would someone find endearing after getting to know you?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a moment someone noticed something thoughtful you'd done without mentioning it.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We're both trying to appear relaxed during a first meeting. Who do you think gives it away first?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "An easy conversation filled with laughter or a surprisingly thoughtful question?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a date idea that would feel fun even if both people were nervous?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a simple outing that became memorable because of the company.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Browse a weekend market together or try a board-game café for the first time?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We plan to meet outdoors and it starts raining. What's our backup plan?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "A short activity together often makes first-date conversation less formal.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A first date shouldn't require either person to spend beyond their comfort.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What activity would let somebody learn your playful side without too much pressure?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe the funniest harmless misunderstanding you've had while arranging a meeting.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We realise we've accidentally booked seats for completely different films. How would you rescue the evening?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "An afternoon coffee with no strict ending or a planned two-hour outing?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What kind of compliment would make you smile without knowing how to respond?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a compliment you replayed in your head long after the conversation ended.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Have somebody admire your sense of humour or notice the effort behind something you've made?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We must compliment each other without mentioning appearance. What would you start with?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "A specific compliment often feels more personal than a dramatic declaration.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A genuine compliment doesn't need a perfect moment.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's something about your personality you wish people noticed sooner?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall somebody appreciating a quality you rarely think about yourself.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You get to leave one short note for somebody you're beginning to like. What would it say?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A handwritten compliment on a small card or a thoughtful message after your first outing?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's the funniest way somebody has tried to hide a crush?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time a friend recognised your interest in somebody before you admitted it.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Have friends tease you gently about a crush or keep the whole thing private?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your friends unexpectedly invite the person you like to a group outing. How would you keep your composure?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People sometimes become unusually formal around someone they normally speak to easily.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Trying to look completely unbothered often makes a crush more obvious.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which tiny mistake would instantly reveal that you're nervous around somebody?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall giving yourself a pep talk before a conversation that turned out easy.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You accidentally call someone you like by a nickname you only use in your head. How do you recover?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Make eye contact and smile first or start talking and hope the nerves fade?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a question you'd like someone to ask before planning a surprise for you?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a moment somebody respected your preferences and made the plan better.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A thoughtful surprise within an agreed plan or a completely spontaneous outing?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "I want to suggest a second date without knowing your schedule. What's the least awkward way to ask?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "A comfortable invitation leaves room for the other person to decline without embarrassment.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A low-pressure invitation is often more attractive than an impressive proposal.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What makes it easy for you to say yes to spending time with someone?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about an invitation that felt considerate because the person knew your routine.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We both suggest places to meet and choose the same one. What would you read into the coincidence?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Pick the next date together or take turns choosing the activity?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which harmless competitive activity would bring out your playful side?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about losing a game and still having more fun than the winner.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Play a two-person trivia game or challenge each other to a silly drawing contest?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We compete to find the best inexpensive dessert. How should we judge our choices?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People sometimes show their funniest reactions when they're terrible at a game.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Being a good sport matters more than winning a friendly date challenge.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What game would you want a potential partner to play with you once?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall someone making a boring activity enjoyable through a spontaneous competition.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Our first shared quiz ends in a tie. What should the tie-breaker be?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A playful dance lesson or a beginner cooking challenge together?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a small sign a conversation is turning into a connection for you?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a chat that started lightly but left you curious about the other person.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Exchange funny childhood stories or talk about an unusual shared interest?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We each ask three questions and must invent a fourth based on the answers. What's your first one?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Interest often shows through follow-up questions rather than dramatic statements.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "You don't have to reveal everything about yourself during the first few conversations.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which topic makes you forget to check how much time has passed?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a conversation where an unexpected point of agreement made you feel closer.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We realise it's late but neither person wants to end the call. How would you suggest finishing it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "An unhurried phone call or a long exchange of messages throughout the evening?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What kind of playful teasing makes you feel closer to somebody?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about an inside joke that began during an early conversation.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Let somebody give you a funny nickname or invent one together?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We realise we have opposite views about a harmless everyday choice. How would you turn it into a running joke?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Teasing works best when both people understand what topics are off limits.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Someone respecting a boundary is more charming than somebody testing it.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What joke would you only make once you knew somebody well enough to appreciate it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time someone laughed at themselves and made the whole conversation easier.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You accidentally tease me about something I find sensitive. How would you want to put it right?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A shared silly catchphrase or a recurring question at the start of every call?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's something you'd enjoy looking forward to with somebody you're getting to know?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall the first moment you realised another person was becoming part of your routine.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Plan a casual weekend outing or agree to watch the same film and discuss it afterwards?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We both keep finding reasons to continue our conversation. What friendly challenge would you suggest next?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Early connections often develop through small repeat encounters rather than grand milestones.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "It's fine to enjoy getting to know someone without rushing to label everything.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What helps you decide whether you want to see somebody again?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a goodbye that made you look forward to your next meeting.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Our first outing ends with an unfinished story. What's a playful way to follow up later?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A message saying you enjoyed the day or an invitation to continue the conversation next week?",
+      "relatedThemes": []
+    }
+  ]
+}
