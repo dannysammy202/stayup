@@ -203,3 +203,205 @@ Initial target: 200. Entries remain editorial drafts until human approval.
    _SM-005799 · Scenario · pending editorial review_
 100. A message saying you enjoyed the day or an invitation to continue the conversation next week?  
    _SM-005800 · Quick choice · pending editorial review_
+
+
+101. What's an unexpected subject you'd enjoy discussing over a long walk with someone you fancy?  
+   _SM-005801 · Question · pending editorial review_
+102. Tell me about a conversation that started with a tiny observation and turned into an entire evening.  
+   _SM-005802 · Story starter · pending editorial review_
+103. Talk about funny childhood ambitions or share strange things you've learnt as an adult?  
+   _SM-005803 · Quick choice · pending editorial review_
+104. We're stuck in a lift for five harmless minutes. What question would you ask to make the time fun?  
+   _SM-005804 · Scenario · pending editorial review_
+105. People often reveal their curiosity through the stories they choose to follow up.  
+   _SM-005805 · Observation · pending editorial review_
+106. An interesting conversation doesn't need to become a test of compatibility.  
+   _SM-005806 · Hot take · pending editorial review_
+107. What's a question you would find charming because nobody usually thinks to ask?  
+   _SM-005807 · Question · pending editorial review_
+108. Recall a time someone remembered an unfinished conversation and brought it up days later.  
+   _SM-005808 · Story starter · pending editorial review_
+109. We both have one funny story we haven't told each other. Who should go first?  
+   _SM-005809 · Scenario · pending editorial review_
+110. Finish a story in person or save the surprise ending for a voice note?  
+   _SM-005810 · Quick choice · pending editorial review_
+111. Which ordinary errand would make a surprisingly fun date with the right person?  
+   _SM-005811 · Question · pending editorial review_
+112. Describe getting to know somebody better while completing a simple practical task.  
+   _SM-005812 · Story starter · pending editorial review_
+113. Go grocery shopping for a shared recipe or hunt for a thoughtful gift for a mutual friend?  
+   _SM-005813 · Quick choice · pending editorial review_
+114. We're choosing ingredients for a meal neither of us has cooked. What's the first decision you want to make?  
+   _SM-005814 · Scenario · pending editorial review_
+115. Small decisions reveal whether two people enjoy improvising together.  
+   _SM-005815 · Observation · pending editorial review_
+116. A date can feel special without a venue that requires booking.  
+   _SM-005816 · Hot take · pending editorial review_
+117. What's an everyday skill you'd love someone you're seeing to teach you?  
+   _SM-005817 · Question · pending editorial review_
+118. Tell me about someone turning a routine journey into something you remember fondly.  
+   _SM-005818 · Story starter · pending editorial review_
+119. Our planned activity takes half the time we expected. How should we fill the unexpected free hour?  
+   _SM-005819 · Scenario · pending editorial review_
+120. Make something together or try finding the best inexpensive snack nearby?  
+   _SM-005820 · Quick choice · pending editorial review_
+121. What's a harmless competition you'd challenge somebody you liked to?  
+   _SM-005821 · Question · pending editorial review_
+122. Recall somebody playfully challenging you and accidentally revealing their competitive side.  
+   _SM-005822 · Story starter · pending editorial review_
+123. A mini bowling contest or a race to solve a simple puzzle?  
+   _SM-005823 · Quick choice · pending editorial review_
+124. We make a friendly bet where the loser chooses a song for the winner. What's your strategy?  
+   _SM-005824 · Scenario · pending editorial review_
+125. The way somebody handles losing can be as entertaining as the game itself.  
+   _SM-005825 · Observation · pending editorial review_
+126. Friendly competition is best when nobody feels obliged to pretend they're good at the activity.  
+   _SM-005826 · Hot take · pending editorial review_
+127. Which little skill would give you an unfair advantage on a first activity date?  
+   _SM-005827 · Question · pending editorial review_
+128. Describe a game where you were hopeless but laughed throughout it.  
+   _SM-005828 · Story starter · pending editorial review_
+129. The scoreboard malfunctions and declares us both winners. How should we celebrate?  
+   _SM-005829 · Scenario · pending editorial review_
+130. Teach each other a favourite game or pick a completely unfamiliar one?  
+   _SM-005830 · Quick choice · pending editorial review_
+131. What's a memorable way someone has shown they care about your interests?  
+   _SM-005831 · Question · pending editorial review_
+132. Tell me about a person who asked you to explain a hobby they'd never tried.  
+   _SM-005832 · Story starter · pending editorial review_
+133. Have someone join your favourite activity once or ask thoughtful questions about it afterwards?  
+   _SM-005833 · Quick choice · pending editorial review_
+134. We each get fifteen minutes to introduce an interest the other knows nothing about. What would you choose?  
+   _SM-005834 · Scenario · pending editorial review_
+135. Taking an interest in someone's enthusiasm creates conversation even when preferences differ.  
+   _SM-005835 · Observation · pending editorial review_
+136. You don't have to share every hobby to appreciate why it matters to somebody.  
+   _SM-005836 · Hot take · pending editorial review_
+137. What's a personal interest you'd rather explain face to face than through text?  
+   _SM-005837 · Question · pending editorial review_
+138. Describe a time a new person surprised you by enjoying one of your favourite activities.  
+   _SM-005838 · Story starter · pending editorial review_
+139. You invite me to see something you've been working on. What's one question you'd want me to ask?  
+   _SM-005839 · Scenario · pending editorial review_
+140. Attend a beginner workshop together or take turns choosing short activities from our existing hobbies?  
+   _SM-005840 · Quick choice · pending editorial review_
+141. Which small sign tells you somebody enjoys your company rather than merely being polite?  
+   _SM-005841 · Question · pending editorial review_
+142. Recall realising you were looking forward to hearing a particular person's opinion.  
+   _SM-005842 · Story starter · pending editorial review_
+143. Someone laughing at your odd observations or remembering the question you asked last time?  
+   _SM-005843 · Quick choice · pending editorial review_
+144. We're saying goodbye and both suggest meeting again at exactly the same moment. How would you react?  
+   _SM-005844 · Scenario · pending editorial review_
+145. Shared enthusiasm sometimes shows itself in the simplest choices about spending time.  
+   _SM-005845 · Observation · pending editorial review_
+146. Paying attention to what a person says matters more than trying to sound charming.  
+   _SM-005846 · Hot take · pending editorial review_
+147. What's something you'd notice about a person after seeing them interact with close friends?  
+   _SM-005847 · Question · pending editorial review_
+148. Tell me about a small respectful gesture that made someone more appealing to you.  
+   _SM-005848 · Story starter · pending editorial review_
+149. A friend asks what you like about somebody beyond their looks. What would be your first answer?  
+   _SM-005849 · Scenario · pending editorial review_
+150. A person who remembers your favourite jokes or one who spots your mood changing?  
+   _SM-005850 · Quick choice · pending editorial review_
+151. What's a funny assumption somebody might make about your ideal date?  
+   _SM-005851 · Question · pending editorial review_
+152. Describe planning something you'd thought was your style and discovering you preferred a simpler outing.  
+   _SM-005852 · Story starter · pending editorial review_
+153. A picnic with homemade snacks or a late afternoon walk that ends at a café?  
+   _SM-005853 · Quick choice · pending editorial review_
+154. A friend designs a date for you based on three clues. What three clues would you provide?  
+   _SM-005854 · Scenario · pending editorial review_
+155. A person's dream outing often says as much about their energy levels as their interests.  
+   _SM-005855 · Observation · pending editorial review_
+156. Being able to say what you don't enjoy makes shared plans better.  
+   _SM-005856 · Hot take · pending editorial review_
+157. What's an unusual place you'd love to visit with somebody who enjoys asking questions?  
+   _SM-005857 · Question · pending editorial review_
+158. Recall somebody introducing you to a venue that wasn't your usual choice but suited you.  
+   _SM-005858 · Story starter · pending editorial review_
+159. We each get to nominate one place for a relaxed Saturday. How do we decide the order?  
+   _SM-005859 · Scenario · pending editorial review_
+160. Choose a familiar favourite and talk for hours or explore a new spot together?  
+   _SM-005860 · Quick choice · pending editorial review_
+161. What's a playful way to find out whether two people have matching senses of humour?  
+   _SM-005861 · Question · pending editorial review_
+162. Tell me about a harmless joke that made you realise somebody understood your personality.  
+   _SM-005862 · Story starter · pending editorial review_
+163. Trade amusing observations about the day or invent absurd scenarios for each other?  
+   _SM-005863 · Quick choice · pending editorial review_
+164. We have to write captions for the same ridiculous stock photograph. What style of caption would yours use?  
+   _SM-005864 · Scenario · pending editorial review_
+165. Two people sometimes bond through laughing at details nobody else has noticed.  
+   _SM-005865 · Observation · pending editorial review_
+166. Someone who checks whether a joke landed is more attractive than someone determined to be funny.  
+   _SM-005866 · Hot take · pending editorial review_
+167. What's a joke topic you'd want somebody to avoid until they knew you better?  
+   _SM-005867 · Question · pending editorial review_
+168. Recall someone making a social situation easier by gently laughing at their own mistake.  
+   _SM-005868 · Story starter · pending editorial review_
+169. Our harmless joke confuses somebody nearby. How would we explain without making anyone uncomfortable?  
+   _SM-005869 · Scenario · pending editorial review_
+170. An ongoing inside joke or a new ridiculous question every time we meet?  
+   _SM-005870 · Quick choice · pending editorial review_
+171. What kind of shared memory would you want to create before calling something a relationship?  
+   _SM-005871 · Question · pending editorial review_
+172. Describe an ordinary outing that helped you feel at ease around somebody new.  
+   _SM-005872 · Story starter · pending editorial review_
+173. Take photos during a special moment or keep your phones away and enjoy it?  
+   _SM-005873 · Quick choice · pending editorial review_
+174. We decide to make a tiny souvenir from an outing instead of buying anything. What would we keep?  
+   _SM-005874 · Scenario · pending editorial review_
+175. Meaningful early memories often involve details people didn't plan beforehand.  
+   _SM-005875 · Observation · pending editorial review_
+176. It's fine to value consistency over constant surprises in a developing connection.  
+   _SM-005876 · Hot take · pending editorial review_
+177. What's a small promise someone might keep that would increase your trust in them?  
+   _SM-005877 · Question · pending editorial review_
+178. Tell me about a moment when somebody's reliability impressed you more than a romantic gesture.  
+   _SM-005878 · Story starter · pending editorial review_
+179. One of us has to cancel a plan unexpectedly. What response would help maintain goodwill?  
+   _SM-005879 · Scenario · pending editorial review_
+180. Agree on a regular short catch-up or plan dates when our schedules align naturally?  
+   _SM-005880 · Quick choice · pending editorial review_
+181. Which topic would you enjoy learning about someone's family without becoming too personal?  
+   _SM-005881 · Question · pending editorial review_
+182. Recall a funny family story somebody told you that revealed their sense of humour.  
+   _SM-005882 · Story starter · pending editorial review_
+183. Share childhood nicknames or describe favourite family meals?  
+   _SM-005883 · Quick choice · pending editorial review_
+184. We're talking about how different households celebrate birthdays. What tradition would you tell me about?  
+   _SM-005884 · Scenario · pending editorial review_
+185. Family stories often explain the little habits people carry into adulthood.  
+   _SM-005885 · Observation · pending editorial review_
+186. Respectful curiosity about someone's upbringing is better than making assumptions about their values.  
+   _SM-005886 · Hot take · pending editorial review_
+187. What tradition from your upbringing would you enjoy showing somebody special someday?  
+   _SM-005887 · Question · pending editorial review_
+188. Tell me about an elder whose humour influences the way you tell stories.  
+   _SM-005888 · Story starter · pending editorial review_
+189. Your family has a saying that needs context. How would you explain it to someone you're getting to know?  
+   _SM-005889 · Scenario · pending editorial review_
+190. Compare funny childhood rules or share stories about family celebrations?  
+   _SM-005890 · Quick choice · pending editorial review_
+191. What's something you'd want to understand about a person before making bigger plans together?  
+   _SM-005891 · Question · pending editorial review_
+192. Describe a time somebody's honesty made a light conversation feel more comfortable.  
+   _SM-005892 · Story starter · pending editorial review_
+193. Talk through a future plan as a hypothetical or focus on the next fun thing to do together?  
+   _SM-005893 · Quick choice · pending editorial review_
+194. We discover we organise our days in completely different ways. What's a playful way to compare routines?  
+   _SM-005894 · Scenario · pending editorial review_
+195. Early connections become easier when people explain how they like to communicate.  
+   _SM-005895 · Observation · pending editorial review_
+196. A thoughtful question about boundaries is more appealing than treating every preference as a challenge.  
+   _SM-005896 · Hot take · pending editorial review_
+197. What helps you feel comfortable telling somebody you need an evening to yourself?  
+   _SM-005897 · Question · pending editorial review_
+198. Recall a person responding graciously when your plans changed at the last minute.  
+   _SM-005898 · Story starter · pending editorial review_
+199. We both enjoy getting to know each other but have busy weeks ahead. How might we stay connected without pressure?  
+   _SM-005899 · Scenario · pending editorial review_
+200. A short call when we're both free or a few thoughtful messages over the week?  
+   _SM-005900 · Quick choice · pending editorial review_
