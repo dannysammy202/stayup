@@ -1,0 +1,507 @@
+{
+  "topic": "Future & Ambitions",
+  "mood": "Chill",
+  "audience": "Anyone",
+  "prompts": [
+    {
+      "format": "Question",
+      "text": "What's something you'd like to become a little better at by this time next year?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a skill you learnt slowly and eventually started enjoying.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Choose one ambitious new hobby or build on a skill you already use?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You get a free class in any practical subject for six months. What would you learn?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "A long-term goal can begin as curiosity about one very small thing.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "You don't need a dramatic transformation for a year to feel worthwhile.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which small achievement would make your future self quietly proud?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a goal you began without realising how important it would become.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "An opportunity to practise a new skill appears in your neighbourhood. What would make you sign up?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Set a clear milestone for next year or choose a direction and leave room to explore?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which part of your daily routine would you most like to simplify?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time a small improvement freed up energy for something enjoyable.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Have more free time in the mornings or a calmer end to your evenings?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You can redesign one ordinary weekday without changing your work responsibilities. What would move first?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "The future people hope for often includes fewer inconveniences, not just bigger achievements.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A sustainable routine is more valuable than a perfect schedule that lasts one week.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What ordinary task would you be happy to spend less time doing in five years?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a period when your routine changed and you discovered a better way to organise your day.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your ideal weekday includes an unexpected hour of free time. How would you like to use it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A steadier weekly rhythm or more flexibility to choose each day as it comes?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a place you'd love to visit because you're curious about daily life there?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a destination that became interesting after somebody described it personally.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Spend a month getting to know one city or take several short trips to different places?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You can stay in an unfamiliar town for a week and follow local routines. What would you want to try?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Travel ambitions can be about understanding a place rather than collecting landmarks.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A nearby destination can be as rewarding as an expensive overseas trip.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which journey would you like to take at a more relaxed pace someday?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall discovering that your favourite part of a trip wasn't on the original itinerary.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You can plan one thoughtful future outing with a close friend. What would make it meaningful?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Visit a place connected to your family's history or somewhere entirely unfamiliar?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What kind of home environment do you imagine enjoying a decade from now?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe staying somewhere that helped you realise what you value in a living space.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A small, easy-to-maintain home near activity or a quieter place with more room?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You have to sketch one corner of an ideal future home. What would you put there?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "A comfortable home is often defined by how people spend their time in it.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A future living plan should reflect real habits rather than only impressive photographs.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's one feature of your current space you'd want to keep wherever you live next?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a home you visited where one ordinary detail made it welcoming.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You can design a shared courtyard for a future neighbourhood. What activity should it support?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A bright space for hosting a few friends or a private corner for reading and thinking?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which kind of community project would you like to see succeed in your area?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about watching a small local initiative grow through consistent effort.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Help create a neighbourhood reading room or improve a local walking space?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your community receives a modest grant to improve daily life. What would you ask residents before proposing ideas?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Shared improvements often begin with people noticing the same small problem.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A useful community goal doesn't need to be the most visible project in town.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What practical change would make your neighbourhood more welcoming to newcomers?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall someone who quietly contributed to a place you cared about.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You have one weekend to help launch a small volunteer project. What would make it manageable?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Support a short, clearly defined local project or a routine that people can maintain together?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a creative project you hope to try before worrying whether you're good at it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe having an idea you put aside because you didn't know where to begin.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Spend a month experimenting with a new art form or finish something you've already started?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You get access to a creative studio for a day with no expectation of producing a finished piece. What would you explore?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Some ambitions begin as things people enjoy imagining rather than targets they must immediately reach.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "It can be worthwhile to pursue a creative idea that never becomes a business.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What would you make if the result didn't have to impress anybody?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall discovering a surprising interest through somebody else's creative project.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "An old project notebook turns up in five years. What would you hope to see you've followed through on?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Keep a portfolio of little experiments or work patiently towards one larger piece?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a relationship or friendship habit you'd like to practise more consistently?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about changing how you keep in touch with someone and finding it easier for both of you.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Make more time for familiar friends or get to know people outside your usual circle?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your future schedule becomes busier. Which kind of social commitment would you want to protect?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Future plans are often easier to sustain when they account for other people's lives too.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A good social goal may be about being more present rather than meeting more people.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What would a well-balanced social week look like for you?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a friendship that grew because somebody made a simple recurring effort.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You'd like to establish an inexpensive monthly gathering. What would make it welcoming and easy to maintain?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Plan a regular coffee with one friend or host a small rotating group activity?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What have you begun caring less about as your priorities have changed?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a goal that sounded attractive until you learnt what it would demand day to day.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Spend more energy improving a familiar strength or exploring whether an old ambition still suits you?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A future opportunity looks impressive but leaves little room for things you enjoy. What would you want to clarify?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Not every abandoned plan represents a failure; sometimes the underlying priorities change.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Changing direction after learning more can be a sign of sound judgement.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which expectation about adulthood do you now see differently?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall learning that somebody you admired had chosen an unexpected path.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You can ask a version of yourself ten years older one question about priorities. What would it be?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Keep a long-term goal unchanged or revisit it every year to see if it still fits?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's one topic you'd like to understand better as the world changes?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about learning a useful new technology later than most people around you.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Become more confident with practical digital tools or learn a hands-on craft that technology can't replace?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your local library offers free workshops about everyday technology. What should the first session cover?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People often learn new tools most easily when the tools solve a familiar problem.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "The best future technology is often the kind that requires less attention from people.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What everyday invention would you like to see made easier to repair?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a new tool that seemed confusing until someone explained it simply.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You can improve one public service through better design rather than adding new features. What would you choose?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Learn how an emerging tool works or focus on understanding the privacy choices around it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What would you like people close to you to remember about the way you spent your time?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe an ordinary moment that helped you realise what makes a day satisfying.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Build a tradition that lasts for years or create many small shared experiences along the way?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You write a short note to open in ten years. Which everyday detail would you include so it feels real?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "A meaningful future can be measured by recurring moments rather than a single major achievement.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Some of the best life ambitions don't fit neatly on a résumé.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which quality would you like to become known for through your everyday actions?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall seeing somebody live in a way that made you rethink what success meant.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Someone asks you to describe your ideal future without mentioning possessions or job titles. What would you say?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A life with steady familiar rituals or one with room for frequent new discoveries?",
+      "relatedThemes": []
+    }
+  ]
+}
