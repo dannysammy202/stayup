@@ -1,0 +1,507 @@
+{
+  "topic": "Relationships",
+  "mood": "Chill",
+  "audience": "Partner",
+  "prompts": [
+    {
+      "format": "Question",
+      "text": "Which part of preparing food together feels relaxing to you, and which part feels like work?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Pick a recipe together before shopping or choose ingredients at the market and decide later?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a meal from your family home which has a particular memory attached to it.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We accidentally buy ingredients for two different dinners. What would you make from both?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Cooking styles often reveal whether someone likes precise instructions or a little improvisation.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Sharing responsibility for meals matters more than taking turns with the exact same chores.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What kitchen task would you happily teach me if I wanted to learn?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a time a dish went wrong and we enjoyed the evening anyway.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "One of us wants to host dinner and the other worries about the work involved. What would make hosting fair?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A simple dish we prepare well or a new recipe neither of us has tried?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "How do you like to spend the first ten minutes after you get home?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Coming home feels different when someone understands whether you need conversation or quiet.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a day when something ordinary at home helped you recover from a tiring experience.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Our weekend plans fall through at the last minute. What's your favourite way to rescue the day?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Small rituals are worth protecting even when nobody else understands their importance.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which corner of our home would you like to make more comfortable?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Spend an afternoon rearranging furniture or browse second-hand shops for a useful find?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a room you once lived in which felt completely yours.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We inherit a piece of furniture with sentimental value, but it doesn't suit our space. How should we decide?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People sometimes disagree about clutter because objects carry different memories for them.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What do you think makes visitors feel welcome without requiring a perfect house?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Keeping a home pleasant is a shared responsibility, not a measure of one person's care.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A neighbour regularly asks us for favours. How should we decide what we're comfortable offering?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall an occasion when someone welcomed us into their home in a way you appreciated.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Invite two close friends for an unhurried evening or gather a larger group for games?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which friendships would you like us to make more time to nurture?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Some friends become part of a couple's shared life while others remain important individually.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a friend who influenced the way you approach relationships.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A friend confides in one of us about a sensitive matter. How do we respect their privacy as a couple?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Trust includes knowing which stories belong to someone else.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What helps you feel confident speaking up when you disagree with a plan I suggest?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Talk through a decision immediately or each think it over and return to it later?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time you changed your mind during a conversation without feeling pressured.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "I interrupt you while you're explaining something important. How would you like me to correct it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Some people think aloud while others need time before they know what they mean.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which expression or tone tends to make a conversation feel more tense than intended?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Listening well sometimes means asking one clear question instead of offering a quick solution.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Remember a question I asked which showed I had been paying attention.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A discussion gets heated before guests arrive. How should we handle it without pretending nothing happened?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Leave a disagreement unresolved until morning or pause it and agree on a time to revisit?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What makes you feel appreciated on days when you haven't achieved anything notable?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about receiving encouragement which felt specific rather than routine.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Praise means more to some people when it names the effort behind the result.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You've spent hours on a project which doesn't work out. What kind of evening would help you reset?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Support should leave people room to make their own decisions.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "When have you felt proud of something you did quietly without telling many people?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Mark the end of a demanding week with a favourite meal or with an early night?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a small success you almost overlooked until someone pointed it out.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We each complete a difficult task on the same day. How would you like us to celebrate together?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "A person might need reassurance after a success as much as after a setback.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What is one skill you admire in me which you think I underestimate?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Being curious about your partner's work matters even when the field is unfamiliar.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about the first time you explained a passion of yours and felt I understood the appeal.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "I ask you for feedback on something personal. How should I make clear whether I want candour or encouragement?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Read side by side in silence or share an article and discuss it afterwards?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which subject would you enjoy studying for no reason beyond interest?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People sometimes reveal new sides of themselves when they become beginners again.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a hobby you left behind and what made it important at the time.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We sign up to learn something together and both find it harder than expected. What would keep us motivated?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Trying a new activity together works best when neither person feels pressured to excel.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which belief or principle guides your decisions when the easy option feels wrong?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about someone who taught you what fairness in a partnership looks like.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Talk about values during a long drive or write down thoughts separately and compare them?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A choice benefits us but inconveniences someone we care about. How should we weigh their needs?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People sometimes share a value while disagreeing about how to practise it.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What personal conviction would you want me to respect even if I don't share it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Respecting a difference is more meaningful than claiming the difference never matters.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a conversation where you learnt why someone saw a moral question differently.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A family gathering includes a conversation we both find uncomfortable. How would you like us to support each other?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Leave a gathering together at an agreed time or decide when we're ready on the day?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which signs tell you you're starting to feel overwhelmed before you say anything?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "One partner might process worry by talking while the other prefers to do something practical.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time you took a rest you initially thought you hadn't earned.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We're both managing difficult personal news. What does giving each other space without withdrawing look like?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Checking how someone wants to receive support beats assuming you already know.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What would a genuinely restful day look like if there were no expectations from anyone?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A day without screens or a day without commitments?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about the last time you felt fully rested and what helped.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "One of us needs a medical appointment and feels nervous. What kind of company or help would be welcome?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Looking after your health gets easier when practical support doesn't take away your independence.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "How do you feel about keeping shared calendars for our plans while maintaining personal privacy?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Convenience doesn't require sharing every password or private conversation.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "One of us wants to post a photograph while the other prefers to keep the moment private. What should decide?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Put phones away during meals or agree on a screen-free hour each evening?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a time a photograph or recording changed the way you remembered an occasion.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which online habit would you most like us to improve together?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People develop different expectations about how quickly a message deserves a reply.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "I'm busy and see your message but don't have time for a proper answer. Which response would you appreciate?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A delayed reply doesn't automatically mean someone's attention has changed.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which shared memory would you choose to revisit if we had only one photograph from it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a surprising detail you noticed on a day we spent together.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Make an album of our favourite moments or keep a small box of tickets and notes?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We're choosing which old belongings to keep before moving. What would deserve space because of its story?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Sentimental objects often mean more after somebody explains the memory connected to them.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What part of our story would you want us to tell with greater care when we look back?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A good relationship leaves room for ordinary days that never become special occasions.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a lesson about patience you've learnt from living or planning life alongside me.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Tomorrow offers us both a fresh start after an awkward week. What small change would you want us to make first?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "End the day sharing one good moment or begin the morning naming one thing we're looking forward to?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What would you like us to remember about how we treated each other this year?",
+      "relatedThemes": []
+    }
+  ]
+}
