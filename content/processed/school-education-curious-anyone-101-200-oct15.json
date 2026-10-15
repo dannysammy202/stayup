@@ -1,0 +1,507 @@
+{
+  "topic": "School & Education",
+  "mood": "Curious",
+  "audience": "Anyone",
+  "prompts": [
+    {
+      "format": "Question",
+      "text": "What small classroom adjustment can make learning easier for a wider range of students?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time a teacher found another way to include somebody in an activity.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Provide lesson notes in several formats or allow more choices in how students demonstrate learning?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A school wants to redesign its study area for students with different sensory needs. What should it ask first?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "An adjustment that helps one learner often makes a lesson clearer for many others.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Accessible teaching should be considered during planning rather than added only after someone struggles.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which feature of a classroom would you improve to reduce unnecessary distractions?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall learning effectively because somebody gave you additional time or a different explanation.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A school receives funding for one accessibility improvement. How could students help assess priorities?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Offer quiet spaces for focused work or varied ways for students to participate in discussions?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What did school uniforms change about the way students expressed themselves?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a dress-code rule that students interpreted in an unexpected way.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Let students choose from several practical uniform options or use a simple colour-based dress code?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A school is reviewing its dress code with parents and students. Whose experiences should it hear?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Rules about clothing can affect comfort, affordability and belonging in different ways.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A school dress policy should be judged by its practical effects, not just how tidy it looks.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which detail of your old school uniform do you remember most clearly?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a school event when everybody was allowed to wear something other than their usual uniform.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Students want a dress policy that suits hot weather. What questions should the school consider?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Choose comfortable sportswear for activity days or keep a flexible everyday uniform?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What is the most interesting way a language teacher has helped you understand an expression?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall learning a word that didn't translate neatly into your first language.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Learn a new language through conversation games or by reading short stories?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A class includes students who speak several home languages. How might they share this knowledge respectfully?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Multilingual classrooms can connect language lessons to the way people communicate at home.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Understanding a phrase's context matters more than translating its words perfectly.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which school subject would you enjoy studying partly through another language?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe the first time you understood a conversation using a language you were learning.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A student wants to practise speaking without fear of embarrassment. What classroom activity might help?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Create a bilingual school newsletter or host an informal language-exchange afternoon?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which artistic activity helped you understand a subject that wasn't usually considered creative?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a school performance that taught you more than you expected.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Design a history exhibit with illustrations or explain a science idea through a short play?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A teacher wants to combine music and mathematics for one lesson. What could students explore?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Creative projects can reveal how students understand ideas beyond memorised definitions.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Artistic subjects deserve attention even when students plan careers in other fields.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a creative assignment you still remember because you enjoyed making it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall an unexpected compliment for something you created at school.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You're organising a student showcase with very little equipment. How would you let different talents appear?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Make a short documentary about school life or produce an illustrated community history booklet?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What made a school lunch break feel like a real break rather than another scheduled task?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a favourite lunch-time routine with classmates.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Give students more outdoor space to eat or create quieter indoor lunch areas?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A school wants to improve its lunch arrangements without increasing costs much. What would you ask students?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "The way breaks are organised affects friendships as well as concentration.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Unstructured time can be an important part of a school day.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What simple change would have improved your lunch experience at school?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a funny moment around a shared snack or school meal.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Students want a more practical system for bringing lunches from home. What might help?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A longer lunch break or several shorter breaks spread through the day?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which school field trip helped you see a familiar subject differently?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about visiting a place for an assignment and noticing something beyond the lesson.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Take a class to a local museum or invite a practitioner to demonstrate their work at school?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A teacher wants to organise a meaningful trip with a limited budget. Where might they start?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Real-world examples can make classroom concepts feel more relevant.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A nearby field trip can be just as educational as an expensive journey.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which local business or community service would make an interesting place for students to learn?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a school outing when another student's question made everyone think.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Students are visiting a public park to study the environment. What would make the visit more than a walk?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Explore a local heritage site with a guide or conduct a simple neighbourhood survey?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What basic spending decision could help students learn about budgeting without using real money?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a school project that taught you to plan resources carefully.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Run a pretend shop for one lesson or plan a class event with a fixed fictional budget?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A group must organise a small exhibition with shared materials. How should they decide what to buy?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Class projects reveal how limited resources can encourage creative problem-solving.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Practical money lessons should allow students to make mistakes safely.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which school activity would teach the most about the difference between needs and wants?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a teacher explaining a practical cost that surprised the class.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Students want to raise funds for a library project. What should they learn before asking for contributions?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Compare prices for a class project or design a simple savings goal together?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What environmental change at your school would have made daily life more pleasant?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a classroom or school garden project that gave students responsibility.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Introduce a composting project or plant shade trees around the playground?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A school wants students to investigate water use. What could they measure without special equipment?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Small environmental habits become easier when students understand their practical benefits.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "School sustainability projects should teach real measurement rather than just display slogans.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which local environmental issue would make a good student research project?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall discovering something unexpected about plants, insects or weather during a school activity.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Students want to improve waste sorting but the current bins confuse everyone. What would help?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Explore how rainfall affects the school grounds or track how much paper a class uses?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "How should students be able to suggest changes to ordinary school routines?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a school representative who listened to classmates rather than speaking for them.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Collect anonymous suggestions or hold short open meetings with elected representatives?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Students disagree about whether to extend library hours. How should their views be gathered fairly?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Student councils teach more when members can explain decisions as well as make proposals.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Young people can contribute useful ideas about rules they experience every day.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a school policy you would want students to help review?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time a school listened to a practical concern raised by students.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A student group wants more recreational space but other needs compete for funding. How could they make a case?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Let students propose small improvement projects or join staff discussions on existing plans?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What do you think schools should teach about deciding whether online information is reliable?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about an occasion when checking a source changed your understanding of a topic.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Practise spotting misleading headlines or learn how to verify a claim using several sources?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "An AI tool gives two students different explanations for the same question. How should their teacher respond?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Easy access to information makes evaluating it more important, not less.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Digital literacy includes knowing when to put a tool aside and think independently.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which task would you prefer students to learn without relying on automation first?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall using technology to explore a subject that would once have been difficult to study.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Your school is designing a responsible AI-use policy for assignments. Which principle belongs at the top?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Explore how an AI model can make mistakes or practise writing clearer questions for digital tools?",
+      "relatedThemes": []
+    }
+  ]
+}
