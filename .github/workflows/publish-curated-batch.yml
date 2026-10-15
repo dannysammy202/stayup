@@ -31,8 +31,18 @@ jobs:
           fi
           mkdir -p content/processed
           for file in "${batches[@]}"; do
+            processed="content/processed/$(basename "$file")"
+            if [ -f "$processed" ]; then
+              if cmp -s "$file" "$processed"; then
+                echo "Already published: $file; removing stale duplicate input."
+                rm "$file"
+                continue
+              fi
+              echo "Conflicting batch filename: $file"
+              exit 1
+            fi
             npm run content:publish -- "$file"
-            mv "$file" "content/processed/$(basename "$file")"
+            mv "$file" "$processed"
           done
       - name: Validate the whole catalogue
         run: npm run content:validate
