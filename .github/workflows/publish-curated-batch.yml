@@ -1,0 +1,55 @@
+name: Publish curated content batch
+on:
+  push:
+    branches:
+      - 'content/**'
+      - 'automation/**'
+    paths:
+      - 'content/inbox/**.json'
+permissions:
+  contents: write
+jobs:
+  publish-content:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Publish all new authored batches
+        shell: bash
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+          batches=(content/inbox/*.json)
+          if [ ${#batches[@]} -eq 0 ]; then
+            echo "No pending inbox files."
+            exit 0
+          fi
+          mkdir -p content/processed
+          for file in "${batches[@]}"; do
+            npm run content:publish -- "$file"
+            mv "$file" "content/processed/$(basename "$file")"
+          done
+      - name: Validate the whole catalogue
+        run: npm run content:validate
+      - name: Run UI and content tests
+        run: npm test
+      - name: Build the deployable app
+        run: npm run build
+      - name: Commit generated built-in files on this branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "saymore-content-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A -- content public/library-data
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "Publish validated Say More content batches"
+          git push origin HEAD:"${GITHUB_REF_NAME}"
