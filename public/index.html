@@ -176,18 +176,18 @@ async function fetchPublishedFiles(paths){
  publishedLoading=true;
  try{
   const batches=await Promise.all(paths.map(async path=>{
-   if(!/^[a-z0-9/_-]+\\.json$/i.test(path))throw new Error('Invalid built-in content path.');
+   if(!/^[a-z0-9/_-]+\.json$/i.test(path))throw new Error('Invalid built-in content path.');
    const response=await fetch('/library-data/'+path);
    if(!response.ok)throw new Error('A built-in content collection could not be loaded.');
    return response.json();
   }));
   const incoming=batches.flat();
   const ids=new Set(PROMPTS.filter(p=>p.source==='published-library').map(p=>p.id));
-  const texts=new Set(PROMPTS.filter(p=>p.source==='published-library').map(p=>(p.text||'').toLowerCase().replace(/[^\\p{L}\\p{N}]+/gu,' ').trim()));
+  const texts=new Set(PROMPTS.filter(p=>p.source==='published-library').map(p=>(p.text||'').toLowerCase().replace(/[^\p{L}\p{N}]+/gu,' ').trim()));
   let unique=0;
   for(const p of incoming){
-   const text=(p.text||'').toLowerCase().replace(/[^\\p{L}\\p{N}]+/gu,' ').trim();
-   if(!/^SM-\\d{6}$/.test(p.id||'')||!text||ids.has(p.id)||texts.has(text)||
+   const text=(p.text||'').toLowerCase().replace(/[^\p{L}\p{N}]+/gu,' ').trim();
+   if(!/^SM-\d{6}$/.test(p.id||'')||!text||ids.has(p.id)||texts.has(text)||
       p.adult||!['approved','screened_pending_editorial_review'].includes(p.editorialStatus)||
       p.source!=='published-library'||!TOPICS.includes(p.topic)||!Array.isArray(p.moods)||
       p.moods.length!==1||!MOODS.includes(p.moods[0])||!Array.isArray(p.audiences)||
