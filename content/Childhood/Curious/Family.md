@@ -203,3 +203,105 @@ Initial target: 200. Entries remain editorial drafts until human approval.
    _SM-006099 · Scenario · pending editorial review_
 100. What question about growing up would you like every generation of our family to answer?  
    _SM-006100 · Question · pending editorial review_
+
+
+101. What hobby did you pick up as a child because another family member enjoyed it?  
+   _SM-006101 · Question · pending editorial review_
+102. Tell me about the first time you became completely absorbed in making something.  
+   _SM-006102 · Story starter · pending editorial review_
+103. We set up a family afternoon to revisit old childhood hobbies. What materials should we collect?  
+   _SM-006103 · Scenario · pending editorial review_
+104. Bring back an old drawing habit or try the musical instrument you once wanted to learn?  
+   _SM-006104 · Quick choice · pending editorial review_
+105. Children sometimes spend weeks fascinated by something adults barely notice.  
+   _SM-006105 · Observation · pending editorial review_
+106. An abandoned childhood hobby still teaches us something about what we used to enjoy.  
+   _SM-006106 · Hot take · pending editorial review_
+107. Which childhood interest surprised your family because nobody else shared it?  
+   _SM-006107 · Question · pending editorial review_
+108. Describe a project you started as a child and never quite finished.  
+   _SM-006108 · Story starter · pending editorial review_
+109. A younger relative wants to try a hobby you once loved. What's the first thing you'd show them?  
+   _SM-006109 · Scenario · pending editorial review_
+110. What activity did you think you'd grow up doing professionally when you were small?  
+   _SM-006110 · Question · pending editorial review_
+111. What family outing felt like a major expedition when you were young?  
+   _SM-006111 · Question · pending editorial review_
+112. Tell me about a journey where the conversations in the vehicle became the main entertainment.  
+   _SM-006112 · Story starter · pending editorial review_
+113. We recreate a childhood family outing with one afternoon available. Which stop should we keep?  
+   _SM-006113 · Scenario · pending editorial review_
+114. Visit a childhood picnic spot or revisit a place where the family used to shop together?  
+   _SM-006114 · Quick choice · pending editorial review_
+115. Children often remember the snacks and songs from a journey more clearly than the destination.  
+   _SM-006115 · Observation · pending editorial review_
+116. A short outing with plenty of surprises can leave a bigger childhood memory than a long holiday.  
+   _SM-006116 · Hot take · pending editorial review_
+117. Who in the family always remembered to pack the things everyone else forgot?  
+   _SM-006117 · Question · pending editorial review_
+118. Describe the first time you travelled somewhere without a parent beside you.  
+   _SM-006118 · Story starter · pending editorial review_
+119. A younger relative asks what travelling was like before map apps. What family story would you share?  
+   _SM-006119 · Scenario · pending editorial review_
+120. What journey from childhood would you like to retrace as an adult?  
+   _SM-006120 · Question · pending editorial review_
+121. What's the strangest thing you tried to build using whatever you found at home?  
+   _SM-006121 · Question · pending editorial review_
+122. Tell me about a childhood experiment that produced an unexpected result.  
+   _SM-006122 · Story starter · pending editorial review_
+123. We give the children cardboard, string and tape for an afternoon. What challenge should they attempt?  
+   _SM-006123 · Scenario · pending editorial review_
+124. Build a miniature town from boxes or invent a new board game with handmade pieces?  
+   _SM-006124 · Quick choice · pending editorial review_
+125. A child's improvised invention sometimes solves a problem adults have stopped noticing.  
+   _SM-006125 · Observation · pending editorial review_
+126. The most useful part of a childhood experiment is often the question it creates.  
+   _SM-006126 · Hot take · pending editorial review_
+127. Did you ever take something apart because you wanted to know how it worked?  
+   _SM-006127 · Question · pending editorial review_
+128. Describe an invention you proudly presented to your family, even if it barely worked.  
+   _SM-006128 · Story starter · pending editorial review_
+129. A young cousin asks us to help design a simple paper bridge. What would you let them try first?  
+   _SM-006129 · Scenario · pending editorial review_
+130. What everyday household object seemed mysterious to you when you were little?  
+   _SM-006130 · Question · pending editorial review_
+131. Which family joke makes more sense when someone explains where it started?  
+   _SM-006131 · Question · pending editorial review_
+132. Tell me about a childhood misunderstanding that still makes the family laugh.  
+   _SM-006132 · Story starter · pending editorial review_
+133. We're making a light-hearted family quiz about growing up. What question should everyone attempt?  
+   _SM-006133 · Scenario · pending editorial review_
+134. Retell a funny family story or act out a harmless moment from an old gathering?  
+   _SM-006134 · Quick choice · pending editorial review_
+135. The same family story often gets a little funnier each time a different person tells it.  
+   _SM-006135 · Observation · pending editorial review_
+136. A running family joke is worth keeping only while the person at its centre enjoys it.  
+   _SM-006136 · Hot take · pending editorial review_
+137. Who in the family had the best way of making children laugh without telling a joke?  
+   _SM-006137 · Question · pending editorial review_
+138. Describe an ordinary childhood moment that became unexpectedly funny.  
+   _SM-006138 · Story starter · pending editorial review_
+139. Two relatives claim to have invented the same family catchphrase. How do we settle the debate?  
+   _SM-006139 · Scenario · pending editorial review_
+140. What's a childhood phrase our family used that outsiders would find confusing?  
+   _SM-006140 · Question · pending editorial review_
+141. What was the first household task you felt genuinely proud to handle on your own?  
+   _SM-006141 · Question · pending editorial review_
+142. Tell me about a time an older relative trusted you with a small responsibility.  
+   _SM-006142 · Story starter · pending editorial review_
+143. We want to teach younger family members a practical task. How do we make it interesting rather than a chore?  
+   _SM-006143 · Scenario · pending editorial review_
+144. Learn to organise a family meal or learn how to care for a small garden?  
+   _SM-006144 · Quick choice · pending editorial review_
+145. A task that seems simple to an adult can feel like a milestone to a child.  
+   _SM-006145 · Observation · pending editorial review_
+146. Children often grow more confident when adults explain why a job matters.  
+   _SM-006146 · Hot take · pending editorial review_
+147. Which childhood chore do you still do the same way you were taught?  
+   _SM-006147 · Question · pending editorial review_
+148. Describe a mistake you made while learning a task and the useful lesson it left you.  
+   _SM-006148 · Story starter · pending editorial review_
+149. A younger cousin wants to help prepare for visitors. Which job would you offer them?  
+   _SM-006149 · Scenario · pending editorial review_
+150. What family responsibility taught you the most about working with other people?  
+   _SM-006150 · Question · pending editorial review_
