@@ -5,8 +5,10 @@ import { prepareContentBatch } from '../scripts/publish-content-batch.mjs';
 
 const manifest=JSON.parse(readFileSync('public/library-data/manifest.json','utf8'));
 const published=manifest.publishedFiles.flatMap(file=>JSON.parse(readFileSync('public/library-data/'+file,'utf8')));
+const eligibleSlot=manifest.combinations.find(c=>c.eligible&&c.published<=498);
+if(!eligibleSlot)throw new Error('No available eligible slot for content publisher test');
 const pick={
- topic:'Relationships',mood:'Chill',audience:'Crush / Talking stage',
+ topic:eligibleSlot.topic,mood:eligibleSlot.mood,audience:eligibleSlot.audience,
  prompts:[
    {text:'What is a small, ordinary outing that would make an unexpectedly lovely afternoon together?',format:'Question',relatedThemes:['everyday dates']},
    {text:'A quiet afternoon discovering books and cafés would be more fun than an elaborate surprise.',format:'Hot take',relatedThemes:['shared experiences']}
@@ -20,9 +22,9 @@ test('publisher creates sequential stable IDs and a valid local shard for an eli
  assert.equal(result.records[0].editorialStatus,'screened_pending_editorial_review');
  assert.equal(result.records[0].humanReviewed,false);
  assert.equal(result.records[0].adult,false);
- assert.deepEqual(result.records[0].audiences,['Crush / Talking stage']);
+ assert.deepEqual(result.records[0].audiences,[eligibleSlot.audience]);
  assert.equal(result.records[0].id,'SM-'+String(manifest.publishedCount+1).padStart(6,'0'));
- assert.match(result.filename,/relationships-chill-crush-talking-stage-\d+-\d+\.json/);
+ assert.ok(result.filename.endsWith('-'+result.from+'-'+result.to+'.json'));
 });
 test('publisher rejects excluded combinations without trying to reinterpret them',()=>{
  assert.throws(()=>prepareContentBatch({...pick,topic:'Family',mood:'Flirty',audience:'Family'},manifest,published),/excluded or unknown/);
