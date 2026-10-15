@@ -1,6 +1,7 @@
 import { readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { createHash } from 'node:crypto';
 
 const TOPICS = ['Relationships','Friendships','Life','Childhood','Family','Money','Culture','Personal Experiences','Future & Ambitions','Random & Hypothetical','Faith & Spirituality','Music','Entertainment','Work & Career','School & Education','Dating','Pop Culture','Would You Rather','Controversial Opinions'];
 const MOODS = ['Chill','Playful','Curious','Deep','Flirty','Bold'];
@@ -35,7 +36,7 @@ export function validateCuratedLibrary(root='.') {
  }
  assert(slots.size===798&&excluded.length===102,'exclusion coverage');
  assert(slots.size-excluded.length===696,'eligible coverage');
- let total=0,approved=0,screened=0;
+ let total=0,approved=0,screened=0,aiEditorialReviewed=0;
  const ids=new Set(),texts=new Map(),paths=new Set(),seenSlots=new Set(),formats=new Set();
  const reviews={approved:0,screened_pending_editorial_review:0};
  for(const collection of manifest.publishedCollections){
@@ -80,6 +81,15 @@ export function validateCuratedLibrary(root='.') {
          screened++;
        }
        reviews[p.editorialStatus]++;
+       if(p.aiEditorialReview){
+         const r=p.aiEditorialReview;
+         assert(r.reviewerType==='AI'&&r.humanReviewed===false&&r.decision==='pass','invalid AI review provenance '+p.id);
+         assert(r.textSha256===createHash('sha256').update(p.text).digest('hex'),'copy changed after AI review '+p.id);
+         assert(/^content\/reviews\/[a-z0-9-]+-editorial\.json$/.test(r.evidence),'unsafe review evidence path '+p.id);
+         const evidence=JSON.parse(readFileSync(resolve(base,r.evidence),'utf8'));
+         assert(evidence.reviewerType==='AI'&&evidence.humanReviewed===false&&evidence.decisions.some(d=>d.textSha256===r.textSha256&&d.decision==='pass'),'missing individual AI decision '+p.id);
+         aiEditorialReviewed++;
+       }
        total++;entries++;
      }
    }
@@ -89,6 +99,11 @@ export function validateCuratedLibrary(root='.') {
  assert(manifest.humanReviewedCount===approved,'human-reviewed count mismatch');
  assert(manifest.aiAuthoredScreenedCount===screened,'pending editorial count mismatch');
  assert(approved+screened===total,'review count mismatch');
+ assert((manifest.aiEditorialReviewedCount||0)===aiEditorialReviewed,'AI editorial review count mismatch');
+ if(manifest.releaseGoalPublishedCount!==undefined){
+  assert(manifest.releaseGoalPublishedCount===139100,'latest published release goal mismatch');
+  assert(total<=139100&&manifest.remainingToReleaseGoal===139100-total,'published release goal accounting mismatch');
+ }
  assert(manifest.publishedFiles.length===paths.size,'publishedFiles length mismatch');
  assert(new Set(manifest.publishedFiles).size===paths.size&&manifest.publishedFiles.every(p=>paths.has(p)),'publishedFiles index mismatch');
  assert(manifest.combinations.reduce((sum,c)=>sum+c.published,0)===total,'matrix published count mismatch');
@@ -100,7 +115,7 @@ export function validateCuratedLibrary(root='.') {
  assert(formats.size>=Math.min(6,total), 'insufficient format diversity');
  return {target:manifest.targetCount,published:total,covered,remaining,eligible:696,excluded:102,files:paths.size,
    publishedCombinations:manifest.publishedCollections.length,fullyPopulated:manifest.combinations.filter(x=>x.eligible&&x.published>=x.target).length,
-   approved,awaitingReview:screened,uniqueIds:ids.size,uniqueText: texts.size,formats:[...formats].sort()};
+   approved,awaitingReview:screened,aiEditorialReviewed,uniqueIds:ids.size,uniqueText: texts.size,formats:[...formats].sort()};
 }
 if(process.argv[1] && resolve(process.argv[1])===fileURLToPath(import.meta.url)){
  const result=validateCuratedLibrary(process.cwd());

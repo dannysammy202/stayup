@@ -41,3 +41,13 @@ Never mark unwritten capacity as published. Maintain stable `SM-` IDs, unique no
 7. Report at verified coverage milestones or genuine non-transient blockers, never each hourly batch. Preserve human-review status separately.
 
 Initial coverage is complete only when all 696 eligible combinations meet at least their 200-entry target, exclusions remain empty, `remainingToTarget===0`, checks pass and Vercel serves the confirmed main commit. The actual physical published count will exceed 139,200 because historic overages remain. Future expansions use newly agreed quotas.
+
+## Renewed publication assignment, 15 October 2026
+
+The user accepted the current 10,100 published starters and instructed autonomous completion to **139,100 total published starters**. This is a physical publication milestone, separate from the original 139,200-slot coverage matrix. Preserve that matrix and its exclusions rather than falsifying its arithmetic. Preserve all nine legacy overages.
+
+Continue topic by topic from the first eligible combination with remaining publication capacity. Existing screened entries remain available and retain their original editorial status. Human approval provenance remains separate and does not block the renewed publication assignment.
+
+For new entries, complete individual AI editorial assessment and whole-library similarity candidate retrieval before publication. Save a per-prompt text hash, distinct conversational angle, quality decisions, reviewer type and retrieval evidence under content/reviews/. The reviewed publisher checks the current catalogue fingerprint, evidence completeness and unchanged copy. Never label an AI review as human review. AI-reviewed entries keep humanReviewed:false, retain the established public editorial status, and carry a separate aiEditorialReview record. No bulk status upgrade is permitted.
+
+Use `node scripts/publish-reviewed-batch.mjs <batch> <individual-review> <retrieval-evidence>`. No batch exceeds 100 new entries. Do not author the next batch until GitHub main matches a READY production deployment and the public manifest and new shard match the release files. The publication checkpoint and human approval checkpoint serve different purposes.

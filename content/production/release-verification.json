@@ -3,11 +3,11 @@
   "alias": "say-more.vercel.app",
   "projectId": "prj_NjmBrm6o2JyULFIBv2wp79y4o7pV",
   "teamId": "team_e7bbCZisElJ1KfHReVa7E7jj",
-  "deploymentId": "dpl_5Zu6KSZGSjtkVRXKe7QGE3uVotsd",
+  "deploymentId": "dpl_8sZTKthPM6qkG7sgVpm29GNt56hH",
   "productionState": "READY",
-  "productionCommitSha": "6452168c7f97fe808a8f595898c962d74cf71afc",
-  "githubMainSha": "6452168c7f97fe808a8f595898c962d74cf71afc",
-  "metadataSource": "Authenticated Vercel get_deployment and GitHub merge response",
+  "productionCommitSha": "f3876623238c9e4530f72080050449ad3bdb77bf",
+  "githubMainSha": "f3876623238c9e4530f72080050449ad3bdb77bf",
+  "metadataSource": "Authenticated Vercel alias verification plus GitHub main. Public tree unchanged from 6452168; final live manifest byte comparison also passed.",
   "files": [
     {
       "path": "library-data/manifest.json",
