@@ -369,3 +369,51 @@ Initial target: 200. Entries remain editorial drafts until human approval.
    _SM-005276 · Scenario · pending editorial review_
 177. What's a gesture older relatives use that younger people rarely seem to copy?  
    _SM-005277 · Question · pending editorial review_
+
+
+178. What's a local story people tell differently depending on who you ask?  
+   _SM-005278 · Question · pending editorial review_
+179. Tell me about hearing an older neighbour describe how your area used to look.  
+   _SM-005279 · Story starter · pending editorial review_
+180. A funny story about a local character or a surprising tale about a familiar building?  
+   _SM-005280 · Quick choice · pending editorial review_
+181. A story becomes part of neighbourhood history when enough people keep retelling it.  
+   _SM-005281 · Observation · pending editorial review_
+182. You're collecting light-hearted stories for a community newsletter. What would you ask people to share?  
+   _SM-005282 · Scenario · pending editorial review_
+183. Which local story always seems to come up when visitors ask questions?  
+   _SM-005283 · Question · pending editorial review_
+184. The funniest community stories often involve ordinary events nobody planned to remember.  
+   _SM-005284 · Hot take · pending editorial review_
+185. Describe a time a casual chat revealed a story about a place you pass every day.  
+   _SM-005285 · Story starter · pending editorial review_
+186. Someone claims to know the true origin of a neighbourhood nickname. What would you ask them?  
+   _SM-005286 · Scenario · pending editorial review_
+187. What's a story about your hometown you'd like to hear from someone who was there?  
+   _SM-005287 · Question · pending editorial review_
+188. What's a handmade item you often see people using in everyday life where you live?  
+   _SM-005288 · Question · pending editorial review_
+189. Tell me about watching someone repair an object using a skill you didn't know existed.  
+   _SM-005289 · Story starter · pending editorial review_
+190. A handwoven basket or a piece of pottery made for daily use?  
+   _SM-005290 · Quick choice · pending editorial review_
+191. Small workshops often have a familiar rhythm that regular visitors learn to recognise.  
+   _SM-005291 · Observation · pending editorial review_
+192. You're visiting a local maker's stall with a friend. What would you ask about before choosing something?  
+   _SM-005292 · Scenario · pending editorial review_
+193. Which everyday object do you think looks better when somebody makes it by hand?  
+   _SM-005293 · Question · pending editorial review_
+194. A useful handmade object deserves as much appreciation as a decorative one.  
+   _SM-005294 · Hot take · pending editorial review_
+195. Describe learning why a maker preferred one simple tool over a newer alternative.  
+   _SM-005295 · Story starter · pending editorial review_
+196. A neighbour offers to teach you one practical skill they learnt growing up. What would you choose?  
+   _SM-005296 · Scenario · pending editorial review_
+197. What's a small handmade gift people in your community enjoy giving?  
+   _SM-005297 · Question · pending editorial review_
+198. Which little custom in your area do you hope people will still practise years from now?  
+   _SM-005298 · Question · pending editorial review_
+199. Tell me about a simple habit you picked up from another household and kept.  
+   _SM-005299 · Story starter · pending editorial review_
+200. You're asked to teach a newcomer one cheerful local custom in five minutes. Which would you choose?  
+   _SM-005300 · Scenario · pending editorial review_
