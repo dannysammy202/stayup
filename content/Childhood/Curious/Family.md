@@ -347,3 +347,15 @@ Initial target: 200. Entries remain editorial drafts until human approval.
    _SM-006169 · Scenario · pending editorial review_
 170. What would you ask your younger self about the things they were curious about?  
    _SM-006170 · Question · pending editorial review_
+
+
+171. What device from your childhood would a younger family member struggle to operate?  
+   _SM-006171 · Question · pending editorial review_
+172. Tell me about the first piece of technology in our home that seemed extraordinary at the time.  
+   _SM-006172 · Story starter · pending editorial review_
+173. We set up a family demonstration of old household gadgets. Which one should be first?  
+   _SM-006173 · Scenario · pending editorial review_
+174. Show everyone how a cassette player works or explain how photographs were developed on film?  
+   _SM-006174 · Quick choice · pending editorial review_
+175. New technology changes family routines long before people notice the change.  
+   _SM-006175 · Observation · pending editorial review_
