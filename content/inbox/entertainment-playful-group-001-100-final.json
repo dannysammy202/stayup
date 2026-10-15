@@ -1,0 +1,707 @@
+{
+  "topic": "Entertainment",
+  "mood": "Playful",
+  "audience": "Group",
+  "prompts": [
+    {
+      "format": "Question",
+      "text": "Which film would divide this group most if we tried to rank it?",
+      "relatedThemes": [
+        "Movie night arguments"
+      ]
+    },
+    {
+      "format": "Scenario",
+      "text": "We have ten minutes to agree on a movie, but everyone wants a different genre. What's the fairest method?",
+      "relatedThemes": [
+        "Movie night arguments"
+      ]
+    },
+    {
+      "format": "Quick choice",
+      "text": "A comedy everyone has seen or a mystery nobody knows anything about?",
+      "relatedThemes": [
+        "Movie night arguments"
+      ]
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a movie you watched with friends that was funnier because of their reactions.",
+      "relatedThemes": [
+        "Movie night arguments"
+      ]
+    },
+    {
+      "format": "Hot take",
+      "text": "A film night needs good snacks more than a perfectly chosen film.",
+      "relatedThemes": [
+        "Movie night arguments"
+      ]
+    },
+    {
+      "format": "Observation",
+      "text": "Some movies become group favourites because of the jokes people make while watching.",
+      "relatedThemes": [
+        "Movie night arguments"
+      ]
+    },
+    {
+      "format": "Question",
+      "text": "Who here is most likely to predict a film's ending halfway through?",
+      "relatedThemes": [
+        "Movie night arguments"
+      ]
+    },
+    {
+      "format": "Scenario",
+      "text": "We must create a movie poster starring everyone in this room. What's the title?",
+      "relatedThemes": [
+        "Movie night arguments"
+      ]
+    },
+    {
+      "format": "Quick choice",
+      "text": "Pause to debate every plot twist or save all opinions until the credits roll?",
+      "relatedThemes": [
+        "Movie night arguments"
+      ]
+    },
+    {
+      "format": "Question",
+      "text": "Which fictional villain would struggle most to survive a group chat with us?",
+      "relatedThemes": [
+        "Movie night arguments"
+      ]
+    },
+    {
+      "format": "Question",
+      "text": "Who in this group is most likely to finish a whole series in one weekend?",
+      "relatedThemes": [
+        "Television habits"
+      ]
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a show you recommended so strongly your friends finally gave in.",
+      "relatedThemes": [
+        "Television habits"
+      ]
+    },
+    {
+      "format": "Scenario",
+      "text": "We are contestants on a fictional game show. What challenge would expose our different personalities?",
+      "relatedThemes": [
+        "Television habits"
+      ]
+    },
+    {
+      "format": "Quick choice",
+      "text": "One episode every week or a whole season available at once?",
+      "relatedThemes": [
+        "Television habits"
+      ]
+    },
+    {
+      "format": "Hot take",
+      "text": "A satisfying series finale matters more than the first episode being spectacular.",
+      "relatedThemes": [
+        "Television habits"
+      ]
+    },
+    {
+      "format": "Observation",
+      "text": "People often remember who introduced them to a series as clearly as the story itself.",
+      "relatedThemes": [
+        "Television habits"
+      ]
+    },
+    {
+      "format": "Question",
+      "text": "Which television character would become the most entertaining member of our group?",
+      "relatedThemes": [
+        "Television habits"
+      ]
+    },
+    {
+      "format": "Scenario",
+      "text": "Everyone must pitch a spin-off for a side character from a familiar show. Who goes first?",
+      "relatedThemes": [
+        "Television habits"
+      ]
+    },
+    {
+      "format": "Quick choice",
+      "text": "Watch a short sitcom together or debate a complicated drama?",
+      "relatedThemes": [
+        "Television habits"
+      ]
+    },
+    {
+      "format": "Question",
+      "text": "What's the most surprising show you've ever enjoyed despite expecting to dislike it?",
+      "relatedThemes": [
+        "Television habits"
+      ]
+    },
+    {
+      "format": "Question",
+      "text": "What kind of comedy makes nearly everyone in this group laugh?",
+      "relatedThemes": [
+        "Comedy and laughter"
+      ]
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a stand-up joke whose timing was funnier than the words.",
+      "relatedThemes": [
+        "Comedy and laughter"
+      ]
+    },
+    {
+      "format": "Scenario",
+      "text": "We have to put together a five-minute comedy sketch using only objects on this table. What's the premise?",
+      "relatedThemes": [
+        "Comedy and laughter"
+      ]
+    },
+    {
+      "format": "Quick choice",
+      "text": "A comedian with sharp observations or one who tells ridiculous stories?",
+      "relatedThemes": [
+        "Comedy and laughter"
+      ]
+    },
+    {
+      "format": "Hot take",
+      "text": "The funniest group memories often begin with a completely ordinary mistake.",
+      "relatedThemes": [
+        "Comedy and laughter"
+      ]
+    },
+    {
+      "format": "Observation",
+      "text": "Different people sometimes laugh at different parts of the same joke.",
+      "relatedThemes": [
+        "Comedy and laughter"
+      ]
+    },
+    {
+      "format": "Question",
+      "text": "Who here has the best talent for telling a story with dramatic sound effects?",
+      "relatedThemes": [
+        "Comedy and laughter"
+      ]
+    },
+    {
+      "format": "Scenario",
+      "text": "We're making a silent comedy scene about getting ready for a party. Who plays which role?",
+      "relatedThemes": [
+        "Comedy and laughter"
+      ]
+    },
+    {
+      "format": "Quick choice",
+      "text": "An improv comedy show or a classic comedy film?",
+      "relatedThemes": [
+        "Comedy and laughter"
+      ]
+    },
+    {
+      "format": "Question",
+      "text": "What harmless running joke would make a good title for our group's comedy special?",
+      "relatedThemes": [
+        "Comedy and laughter"
+      ]
+    },
+    {
+      "format": "Question",
+      "text": "Which board game would reveal everyone's competitive side fastest?",
+      "relatedThemes": [
+        "Game night personalities"
+      ]
+    },
+    {
+      "format": "Scenario",
+      "text": "Our game night needs a new rule to stop one person winning every round. What do we invent?",
+      "relatedThemes": [
+        "Game night personalities"
+      ]
+    },
+    {
+      "format": "Quick choice",
+      "text": "A cooperative puzzle or a fast-paced trivia contest?",
+      "relatedThemes": [
+        "Game night personalities"
+      ]
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a game night where a surprising player became the champion.",
+      "relatedThemes": [
+        "Game night personalities"
+      ]
+    },
+    {
+      "format": "Hot take",
+      "text": "A good party game makes the losing team laugh as much as the winners.",
+      "relatedThemes": [
+        "Game night personalities"
+      ]
+    },
+    {
+      "format": "Observation",
+      "text": "People who seem quiet at dinner sometimes become the loudest players in a guessing game.",
+      "relatedThemes": [
+        "Game night personalities"
+      ]
+    },
+    {
+      "format": "Question",
+      "text": "Who in this group would make the most convincing game-show host?",
+      "relatedThemes": [
+        "Game night personalities"
+      ]
+    },
+    {
+      "format": "Scenario",
+      "text": "We must design a party game using only paper, pens and a timer. What's the objective?",
+      "relatedThemes": [
+        "Game night personalities"
+      ]
+    },
+    {
+      "format": "Quick choice",
+      "text": "Charades with impossible clues or drawing games with terrible artists?",
+      "relatedThemes": [
+        "Game night personalities"
+      ]
+    },
+    {
+      "format": "Question",
+      "text": "What game would you bring to entertain a group where nobody knows one another?",
+      "relatedThemes": [
+        "Game night personalities"
+      ]
+    },
+    {
+      "format": "Question",
+      "text": "What hidden talent would surprise the rest of us most if you performed it tonight?",
+      "relatedThemes": [
+        "Talent show surprises"
+      ]
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a performance where somebody unexpectedly stole the show.",
+      "relatedThemes": [
+        "Talent show surprises"
+      ]
+    },
+    {
+      "format": "Scenario",
+      "text": "Our group enters a talent show and must perform one act together. What should we attempt?",
+      "relatedThemes": [
+        "Talent show surprises"
+      ]
+    },
+    {
+      "format": "Quick choice",
+      "text": "A group dance routine or a comedy song with original lyrics?",
+      "relatedThemes": [
+        "Talent show surprises"
+      ]
+    },
+    {
+      "format": "Hot take",
+      "text": "Confidence makes an ordinary talent-show act more entertaining than expensive props.",
+      "relatedThemes": [
+        "Talent show surprises"
+      ]
+    },
+    {
+      "format": "Observation",
+      "text": "The best audience reactions often come when a performer takes a playful risk.",
+      "relatedThemes": [
+        "Talent show surprises"
+      ]
+    },
+    {
+      "format": "Question",
+      "text": "Who here would volunteer to perform first without any rehearsal?",
+      "relatedThemes": [
+        "Talent show surprises"
+      ]
+    },
+    {
+      "format": "Scenario",
+      "text": "We have to assign everyone a stage name for one night. What's our naming rule?",
+      "relatedThemes": [
+        "Talent show surprises"
+      ]
+    },
+    {
+      "format": "Quick choice",
+      "text": "A magic trick with audience volunteers or a dramatic storytelling performance?",
+      "relatedThemes": [
+        "Talent show surprises"
+      ]
+    },
+    {
+      "format": "Question",
+      "text": "What's a talent you admire because it looks much easier than it is?",
+      "relatedThemes": [
+        "Talent show surprises"
+      ]
+    },
+    {
+      "format": "Question",
+      "text": "Which animated film would be funniest if all of us voiced its characters?",
+      "relatedThemes": [
+        "Animated worlds"
+      ]
+    },
+    {
+      "format": "Scenario",
+      "text": "Our group gets to invent a new cartoon sidekick. What unusual ability should it have?",
+      "relatedThemes": [
+        "Animated worlds"
+      ]
+    },
+    {
+      "format": "Quick choice",
+      "text": "A clever animated adventure or a comedy full of visual jokes?",
+      "relatedThemes": [
+        "Animated worlds"
+      ]
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about an animated character you liked more than the main hero.",
+      "relatedThemes": [
+        "Animated worlds"
+      ]
+    },
+    {
+      "format": "Hot take",
+      "text": "Animation is often at its best when it takes a completely silly idea seriously.",
+      "relatedThemes": [
+        "Animated worlds"
+      ]
+    },
+    {
+      "format": "Observation",
+      "text": "An animated character's smallest facial expression can be the funniest moment in a scene.",
+      "relatedThemes": [
+        "Animated worlds"
+      ]
+    },
+    {
+      "format": "Question",
+      "text": "Which animated setting would make the best location for our next group outing?",
+      "relatedThemes": [
+        "Animated worlds"
+      ]
+    },
+    {
+      "format": "Scenario",
+      "text": "We're writing the opening scene of a cartoon about this group. What goes wrong first?",
+      "relatedThemes": [
+        "Animated worlds"
+      ]
+    },
+    {
+      "format": "Quick choice",
+      "text": "Rewatch a childhood animated favourite or try a new animated film together?",
+      "relatedThemes": [
+        "Animated worlds"
+      ]
+    },
+    {
+      "format": "Question",
+      "text": "What's an animated scene whose humour works even without dialogue?",
+      "relatedThemes": [
+        "Animated worlds"
+      ]
+    },
+    {
+      "format": "Question",
+      "text": "What kind of live show would make this group most enthusiastic to go out together?",
+      "relatedThemes": [
+        "Live entertainment"
+      ]
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a live performance where the audience became part of the entertainment.",
+      "relatedThemes": [
+        "Live entertainment"
+      ]
+    },
+    {
+      "format": "Scenario",
+      "text": "We get free tickets to one event tonight, but the organiser won't tell us the act. Who's coming?",
+      "relatedThemes": [
+        "Live entertainment"
+      ]
+    },
+    {
+      "format": "Quick choice",
+      "text": "An outdoor comedy festival or a small theatre production?",
+      "relatedThemes": [
+        "Live entertainment"
+      ]
+    },
+    {
+      "format": "Hot take",
+      "text": "A memorable live show doesn't need a famous performer if the audience feels involved.",
+      "relatedThemes": [
+        "Live entertainment"
+      ]
+    },
+    {
+      "format": "Observation",
+      "text": "The same performance can feel different depending on the crowd watching it.",
+      "relatedThemes": [
+        "Live entertainment"
+      ]
+    },
+    {
+      "format": "Question",
+      "text": "Who here is most likely to end up participating in a stage show unexpectedly?",
+      "relatedThemes": [
+        "Live entertainment"
+      ]
+    },
+    {
+      "format": "Scenario",
+      "text": "Our group must choose a seat at a theatre with an unusual stage layout. What matters most?",
+      "relatedThemes": [
+        "Live entertainment"
+      ]
+    },
+    {
+      "format": "Quick choice",
+      "text": "A spontaneous open-mic evening or a carefully rehearsed musical production?",
+      "relatedThemes": [
+        "Live entertainment"
+      ]
+    },
+    {
+      "format": "Question",
+      "text": "What's one live entertainment experience you'd like everyone to try at least once?",
+      "relatedThemes": [
+        "Live entertainment"
+      ]
+    },
+    {
+      "format": "Question",
+      "text": "If our group appeared in a mystery film, who would spot the first clue?",
+      "relatedThemes": [
+        "Fictional group adventures"
+      ]
+    },
+    {
+      "format": "Scenario",
+      "text": "We're a team in a heist comedy, but the only thing we're stealing is a giant birthday cake. What's the plan?",
+      "relatedThemes": [
+        "Fictional group adventures"
+      ]
+    },
+    {
+      "format": "Quick choice",
+      "text": "Play characters in a fantasy adventure or become detectives in a cosy mystery?",
+      "relatedThemes": [
+        "Fictional group adventures"
+      ]
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a film where a group of unlikely characters worked surprisingly well together.",
+      "relatedThemes": [
+        "Fictional group adventures"
+      ]
+    },
+    {
+      "format": "Hot take",
+      "text": "The funniest fictional teams have members with completely different approaches to simple problems.",
+      "relatedThemes": [
+        "Fictional group adventures"
+      ]
+    },
+    {
+      "format": "Observation",
+      "text": "A good ensemble story gives every character a chance to contribute something unexpected.",
+      "relatedThemes": [
+        "Fictional group adventures"
+      ]
+    },
+    {
+      "format": "Question",
+      "text": "Which fictional world would test our group's patience the most?",
+      "relatedThemes": [
+        "Fictional group adventures"
+      ]
+    },
+    {
+      "format": "Scenario",
+      "text": "We're given a talking vehicle as the main character in our film. What personality should it have?",
+      "relatedThemes": [
+        "Fictional group adventures"
+      ]
+    },
+    {
+      "format": "Quick choice",
+      "text": "A superhero team with useless powers or a space crew with terrible navigation?",
+      "relatedThemes": [
+        "Fictional group adventures"
+      ]
+    },
+    {
+      "format": "Question",
+      "text": "What fictional character would become our group's unofficial organiser?",
+      "relatedThemes": [
+        "Fictional group adventures"
+      ]
+    },
+    {
+      "format": "Question",
+      "text": "What kind of podcast episode would keep this entire group interested for an hour?",
+      "relatedThemes": [
+        "Podcasts and audio shows"
+      ]
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about an audio story whose ending made you want to discuss it with someone.",
+      "relatedThemes": [
+        "Podcasts and audio shows"
+      ]
+    },
+    {
+      "format": "Scenario",
+      "text": "We launch a group podcast tomorrow. What's our first episode about?",
+      "relatedThemes": [
+        "Podcasts and audio shows"
+      ]
+    },
+    {
+      "format": "Quick choice",
+      "text": "A funny interview with a guest or a group discussion of an unusual mystery?",
+      "relatedThemes": [
+        "Podcasts and audio shows"
+      ]
+    },
+    {
+      "format": "Hot take",
+      "text": "A good podcast host knows when to let an interesting guest finish a story.",
+      "relatedThemes": [
+        "Podcasts and audio shows"
+      ]
+    },
+    {
+      "format": "Observation",
+      "text": "Audio storytelling leaves plenty of room for listeners to picture the scene differently.",
+      "relatedThemes": [
+        "Podcasts and audio shows"
+      ]
+    },
+    {
+      "format": "Question",
+      "text": "Who here would be best at introducing guests without reading from a script?",
+      "relatedThemes": [
+        "Podcasts and audio shows"
+      ]
+    },
+    {
+      "format": "Scenario",
+      "text": "Our podcast needs a fifteen-second opening sound. What should listeners hear?",
+      "relatedThemes": [
+        "Podcasts and audio shows"
+      ]
+    },
+    {
+      "format": "Quick choice",
+      "text": "Listen to an investigative audio series or a collection of short funny stories?",
+      "relatedThemes": [
+        "Podcasts and audio shows"
+      ]
+    },
+    {
+      "format": "Question",
+      "text": "What's a subject you'd listen to a podcast about even if you knew almost nothing about it?",
+      "relatedThemes": [
+        "Podcasts and audio shows"
+      ]
+    },
+    {
+      "format": "Question",
+      "text": "Which entertainment category would you choose as your specialist subject in a quiz?",
+      "relatedThemes": [
+        "Entertainment trivia"
+      ]
+    },
+    {
+      "format": "Scenario",
+      "text": "We have to write a trivia round about our shared memories. What's the first question?",
+      "relatedThemes": [
+        "Entertainment trivia"
+      ]
+    },
+    {
+      "format": "Quick choice",
+      "text": "Guess films from one line of dialogue or identify shows from their opening music?",
+      "relatedThemes": [
+        "Entertainment trivia"
+      ]
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about confidently giving the wrong answer to a pop-culture question.",
+      "relatedThemes": [
+        "Entertainment trivia"
+      ]
+    },
+    {
+      "format": "Hot take",
+      "text": "A fun trivia night needs surprising questions more than obscure facts.",
+      "relatedThemes": [
+        "Entertainment trivia"
+      ]
+    },
+    {
+      "format": "Observation",
+      "text": "People often remember a film's poster while forgetting its title.",
+      "relatedThemes": [
+        "Entertainment trivia"
+      ]
+    },
+    {
+      "format": "Question",
+      "text": "Who here has the most unexpectedly detailed knowledge of a television show?",
+      "relatedThemes": [
+        "Entertainment trivia"
+      ]
+    },
+    {
+      "format": "Scenario",
+      "text": "We create a quiz where the answers are all members of this group. What clue would make everyone laugh?",
+      "relatedThemes": [
+        "Entertainment trivia"
+      ]
+    },
+    {
+      "format": "Quick choice",
+      "text": "A picture round with familiar characters or an audio round with sound effects?",
+      "relatedThemes": [
+        "Entertainment trivia"
+      ]
+    },
+    {
+      "format": "Question",
+      "text": "What's one entertainment fact you know that nobody ever asks about?",
+      "relatedThemes": [
+        "Entertainment trivia"
+      ]
+    }
+  ]
+}
