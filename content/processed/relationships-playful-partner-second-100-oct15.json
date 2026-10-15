@@ -1,0 +1,507 @@
+{
+  "topic": "Relationships",
+  "mood": "Playful",
+  "audience": "Partner",
+  "prompts": [
+    {
+      "format": "Question",
+      "text": "What imaginary title would you give a travel documentary starring the two of us?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a trip where one tiny surprise became our favourite story.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Plan a journey using a paper map or follow unusual local recommendations?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We have to create a travel guide using only places we've visited together. What's the funniest chapter?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Couples sometimes remember opposite details about the same holiday.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Being able to recover from travel mishaps together is a useful kind of romance.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which place we've visited would you enjoy exploring again with no schedule?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a time we misunderstood directions and ended up somewhere unexpectedly interesting.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We're allowed to pack only three nonessential items for a weekend away. What would you insist on taking?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A road trip with our favourite songs or a short train journey with a shared book?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's an expression from your family you think I would misuse in a funny way?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about learning a word or phrase from each other and using it at the wrong moment.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Teach each other tongue-twisters or invent nicknames in a language we're learning?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We try to speak only in a language we're both beginners at for ten minutes. What goes wrong first?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "A couple's private vocabulary often grows from small misunderstandings.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Learning each other's favourite phrases is more entertaining than memorising complicated speeches.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which saying of mine have you unexpectedly started using yourself?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a time one of us translated a joke badly and made it even funnier.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We have to write a postcard together using five words from different languages. What would we say?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A phrase-of-the-day challenge or a silly pronunciation contest?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "If we adopted a pet with a mischievous personality, what would we call it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe an animal encounter we shared that became a story you still retell.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Visit a farm together or volunteer at a local animal shelter for a day?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Our imaginary pet chooses its favourite person in the house. What clues would give it away?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Partners often disagree about whether an animal looks innocent or is plotting trouble.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Giving a pet a ridiculous nickname is almost inevitable when two people care for it.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which animal do you think would copy your personality more closely than mine?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about seeing me react to an animal in a way you hadn't expected.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We design a tiny welcome sign for a pet's first day at home. What does it say?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A curious cat who investigates everything or a cheerful dog who loves visitors?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What would be the funniest way to assign us gardening responsibilities?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall trying to care for a plant and learning something surprising from the result.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Grow herbs we cook with or compete to grow the healthiest houseplant?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Our plants begin giving quarterly feedback on their caretakers. Who gets the better review?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "The person who remembers watering schedules isn't always the one who chooses the plants.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A tiny shared garden is worth the effort even if the first harvest is unimpressive.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which plant would you choose as a symbol of our different personalities?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about seeing something grow after we thought we'd made a mistake caring for it.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We have to design a balcony garden on a small budget. What would our first purchase be?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A weekend visit to a botanical garden or an afternoon planting seeds at home?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What board game would expose our different approaches to taking risks?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time one of us nearly won a game and made a spectacular final mistake.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Cooperate to solve a mystery game or compete in a ridiculous trivia contest?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We have to invent a game based on our house rules. What would count as a winning move?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Partners often discover how differently they handle competition when the stakes are imaginary.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A playful rematch is better than taking a friendly loss personally.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which game would you want to teach me and then challenge me to beat you at?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about cheering each other on in a competition neither of us was good at.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Our friends ask us to enter a quiz as a couple. Which topic should we volunteer to answer?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Win a game as a team or have a close contest against each other?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's an active weekend date that feels more like play than exercise?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about an outing where we discovered one of us had unexpected stamina.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A gentle bike ride or a beginner dance class with no spectators?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We decide to train together for a fun local event. How should we encourage each other?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Different fitness levels make shared activities easier when the goal is enjoyment, not competition.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "An easy walk together is a legitimate date even if nobody records the distance.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which physical activity would make us laugh more than it would make us sweat?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a moment a friendly outdoor challenge brought out our silly sides.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Our first attempt at a new sport goes badly. What's the kindest way to suggest another try?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Learn a simple dance routine or try a casual doubles sport together?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which fictional couple reminds you of our funniest disagreements?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about watching a film together and predicting completely different endings.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Take turns choosing surprise films or revisit a show we both quote often?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We're asked to dub the dialogue of a silent film together. What kind of characters would we play?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Couples sometimes recognise each other's reactions before a movie's funniest scene arrives.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Disagreeing about a fictional character is an excellent reason for a harmless debate.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which book character would you most enjoy asking for relationship advice as a joke?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a film recommendation from me that surprised you in a good way.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We each get to redesign the ending of a favourite story. Whose version would be more dramatic?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A cinema outing with a lively discussion afterwards or a quiet reading date?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What would you nominate as the funniest thing we've ever tried to save money on?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a low-cost day together that ended up feeling more special than expected.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Plan a no-spend challenge for an afternoon or find the best free event in town?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We're each given a tiny budget to surprise the other with something thoughtful. What would you choose?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Couples sometimes discover their favourite treats cost much less than elaborate plans.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A thoughtful bargain isn't less meaningful than an expensive present.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which free activity would you love to repeat with me every few months?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about us discovering that a simple idea was better than the original expensive plan.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We have to find a birthday gift for each other using only objects we've made. What's your idea?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "A handmade scrapbook or an afternoon dedicated to teaching each other something useful?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which relative do you think would win a playful two-person quiz about our relationship?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about your family discovering something amusing about the way we cooperate.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Host an informal family game or cook a shared dish with our relatives?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Our families challenge us to explain how we met in one minute each. Whose story would be more dramatic?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Families sometimes remember a couple's first meeting differently from the couple themselves.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "The best family introductions let people be themselves rather than perform.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which family tradition would be funniest to try for the first time together?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall somebody in our families making you feel welcome through an unexpected joke.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We plan a relaxed dinner bringing together relatives with different interests. What's one conversation starter?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Exchange favourite family recipes or trade childhood photographs with permission?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What playful tradition would you want us to start next year?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a tiny celebration we made up without needing any special occasion.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Write future-us a funny letter or record one shared prediction each year?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We invent a time capsule containing five objects from our life together. Which unexpected item earns a place?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "A relationship's history includes ordinary days that only the two people involved remember.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "It's worth leaving space for new traditions instead of repeating everything automatically.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's one imaginative challenge we could revisit every anniversary?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a small choice we made together that became a lasting part of our routine.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "We find a letter our younger selves wrote about love. How would we answer it together?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Make a new memory in a familiar place or visit somewhere entirely unexpected?",
+      "relatedThemes": []
+    }
+  ]
+}

@@ -203,3 +203,205 @@ Initial target: 200. Entries remain editorial drafts until human approval.
    _SM-005999 · Scenario · pending editorial review_
 100. End the day with one funny story or begin the morning with a playful question?  
    _SM-006000 · Quick choice · pending editorial review_
+
+
+101. What imaginary title would you give a travel documentary starring the two of us?  
+   _SM-006001 · Question · pending editorial review_
+102. Tell me about a trip where one tiny surprise became our favourite story.  
+   _SM-006002 · Story starter · pending editorial review_
+103. Plan a journey using a paper map or follow unusual local recommendations?  
+   _SM-006003 · Quick choice · pending editorial review_
+104. We have to create a travel guide using only places we've visited together. What's the funniest chapter?  
+   _SM-006004 · Scenario · pending editorial review_
+105. Couples sometimes remember opposite details about the same holiday.  
+   _SM-006005 · Observation · pending editorial review_
+106. Being able to recover from travel mishaps together is a useful kind of romance.  
+   _SM-006006 · Hot take · pending editorial review_
+107. Which place we've visited would you enjoy exploring again with no schedule?  
+   _SM-006007 · Question · pending editorial review_
+108. Recall a time we misunderstood directions and ended up somewhere unexpectedly interesting.  
+   _SM-006008 · Story starter · pending editorial review_
+109. We're allowed to pack only three nonessential items for a weekend away. What would you insist on taking?  
+   _SM-006009 · Scenario · pending editorial review_
+110. A road trip with our favourite songs or a short train journey with a shared book?  
+   _SM-006010 · Quick choice · pending editorial review_
+111. What's an expression from your family you think I would misuse in a funny way?  
+   _SM-006011 · Question · pending editorial review_
+112. Tell me about learning a word or phrase from each other and using it at the wrong moment.  
+   _SM-006012 · Story starter · pending editorial review_
+113. Teach each other tongue-twisters or invent nicknames in a language we're learning?  
+   _SM-006013 · Quick choice · pending editorial review_
+114. We try to speak only in a language we're both beginners at for ten minutes. What goes wrong first?  
+   _SM-006014 · Scenario · pending editorial review_
+115. A couple's private vocabulary often grows from small misunderstandings.  
+   _SM-006015 · Observation · pending editorial review_
+116. Learning each other's favourite phrases is more entertaining than memorising complicated speeches.  
+   _SM-006016 · Hot take · pending editorial review_
+117. Which saying of mine have you unexpectedly started using yourself?  
+   _SM-006017 · Question · pending editorial review_
+118. Recall a time one of us translated a joke badly and made it even funnier.  
+   _SM-006018 · Story starter · pending editorial review_
+119. We have to write a postcard together using five words from different languages. What would we say?  
+   _SM-006019 · Scenario · pending editorial review_
+120. A phrase-of-the-day challenge or a silly pronunciation contest?  
+   _SM-006020 · Quick choice · pending editorial review_
+121. If we adopted a pet with a mischievous personality, what would we call it?  
+   _SM-006021 · Question · pending editorial review_
+122. Describe an animal encounter we shared that became a story you still retell.  
+   _SM-006022 · Story starter · pending editorial review_
+123. Visit a farm together or volunteer at a local animal shelter for a day?  
+   _SM-006023 · Quick choice · pending editorial review_
+124. Our imaginary pet chooses its favourite person in the house. What clues would give it away?  
+   _SM-006024 · Scenario · pending editorial review_
+125. Partners often disagree about whether an animal looks innocent or is plotting trouble.  
+   _SM-006025 · Observation · pending editorial review_
+126. Giving a pet a ridiculous nickname is almost inevitable when two people care for it.  
+   _SM-006026 · Hot take · pending editorial review_
+127. Which animal do you think would copy your personality more closely than mine?  
+   _SM-006027 · Question · pending editorial review_
+128. Tell me about seeing me react to an animal in a way you hadn't expected.  
+   _SM-006028 · Story starter · pending editorial review_
+129. We design a tiny welcome sign for a pet's first day at home. What does it say?  
+   _SM-006029 · Scenario · pending editorial review_
+130. A curious cat who investigates everything or a cheerful dog who loves visitors?  
+   _SM-006030 · Quick choice · pending editorial review_
+131. What would be the funniest way to assign us gardening responsibilities?  
+   _SM-006031 · Question · pending editorial review_
+132. Recall trying to care for a plant and learning something surprising from the result.  
+   _SM-006032 · Story starter · pending editorial review_
+133. Grow herbs we cook with or compete to grow the healthiest houseplant?  
+   _SM-006033 · Quick choice · pending editorial review_
+134. Our plants begin giving quarterly feedback on their caretakers. Who gets the better review?  
+   _SM-006034 · Scenario · pending editorial review_
+135. The person who remembers watering schedules isn't always the one who chooses the plants.  
+   _SM-006035 · Observation · pending editorial review_
+136. A tiny shared garden is worth the effort even if the first harvest is unimpressive.  
+   _SM-006036 · Hot take · pending editorial review_
+137. Which plant would you choose as a symbol of our different personalities?  
+   _SM-006037 · Question · pending editorial review_
+138. Tell me about seeing something grow after we thought we'd made a mistake caring for it.  
+   _SM-006038 · Story starter · pending editorial review_
+139. We have to design a balcony garden on a small budget. What would our first purchase be?  
+   _SM-006039 · Scenario · pending editorial review_
+140. A weekend visit to a botanical garden or an afternoon planting seeds at home?  
+   _SM-006040 · Quick choice · pending editorial review_
+141. What board game would expose our different approaches to taking risks?  
+   _SM-006041 · Question · pending editorial review_
+142. Describe a time one of us nearly won a game and made a spectacular final mistake.  
+   _SM-006042 · Story starter · pending editorial review_
+143. Cooperate to solve a mystery game or compete in a ridiculous trivia contest?  
+   _SM-006043 · Quick choice · pending editorial review_
+144. We have to invent a game based on our house rules. What would count as a winning move?  
+   _SM-006044 · Scenario · pending editorial review_
+145. Partners often discover how differently they handle competition when the stakes are imaginary.  
+   _SM-006045 · Observation · pending editorial review_
+146. A playful rematch is better than taking a friendly loss personally.  
+   _SM-006046 · Hot take · pending editorial review_
+147. Which game would you want to teach me and then challenge me to beat you at?  
+   _SM-006047 · Question · pending editorial review_
+148. Tell me about cheering each other on in a competition neither of us was good at.  
+   _SM-006048 · Story starter · pending editorial review_
+149. Our friends ask us to enter a quiz as a couple. Which topic should we volunteer to answer?  
+   _SM-006049 · Scenario · pending editorial review_
+150. Win a game as a team or have a close contest against each other?  
+   _SM-006050 · Quick choice · pending editorial review_
+151. What's an active weekend date that feels more like play than exercise?  
+   _SM-006051 · Question · pending editorial review_
+152. Tell me about an outing where we discovered one of us had unexpected stamina.  
+   _SM-006052 · Story starter · pending editorial review_
+153. A gentle bike ride or a beginner dance class with no spectators?  
+   _SM-006053 · Quick choice · pending editorial review_
+154. We decide to train together for a fun local event. How should we encourage each other?  
+   _SM-006054 · Scenario · pending editorial review_
+155. Different fitness levels make shared activities easier when the goal is enjoyment, not competition.  
+   _SM-006055 · Observation · pending editorial review_
+156. An easy walk together is a legitimate date even if nobody records the distance.  
+   _SM-006056 · Hot take · pending editorial review_
+157. Which physical activity would make us laugh more than it would make us sweat?  
+   _SM-006057 · Question · pending editorial review_
+158. Recall a moment a friendly outdoor challenge brought out our silly sides.  
+   _SM-006058 · Story starter · pending editorial review_
+159. Our first attempt at a new sport goes badly. What's the kindest way to suggest another try?  
+   _SM-006059 · Scenario · pending editorial review_
+160. Learn a simple dance routine or try a casual doubles sport together?  
+   _SM-006060 · Quick choice · pending editorial review_
+161. Which fictional couple reminds you of our funniest disagreements?  
+   _SM-006061 · Question · pending editorial review_
+162. Tell me about watching a film together and predicting completely different endings.  
+   _SM-006062 · Story starter · pending editorial review_
+163. Take turns choosing surprise films or revisit a show we both quote often?  
+   _SM-006063 · Quick choice · pending editorial review_
+164. We're asked to dub the dialogue of a silent film together. What kind of characters would we play?  
+   _SM-006064 · Scenario · pending editorial review_
+165. Couples sometimes recognise each other's reactions before a movie's funniest scene arrives.  
+   _SM-006065 · Observation · pending editorial review_
+166. Disagreeing about a fictional character is an excellent reason for a harmless debate.  
+   _SM-006066 · Hot take · pending editorial review_
+167. Which book character would you most enjoy asking for relationship advice as a joke?  
+   _SM-006067 · Question · pending editorial review_
+168. Recall a film recommendation from me that surprised you in a good way.  
+   _SM-006068 · Story starter · pending editorial review_
+169. We each get to redesign the ending of a favourite story. Whose version would be more dramatic?  
+   _SM-006069 · Scenario · pending editorial review_
+170. A cinema outing with a lively discussion afterwards or a quiet reading date?  
+   _SM-006070 · Quick choice · pending editorial review_
+171. What would you nominate as the funniest thing we've ever tried to save money on?  
+   _SM-006071 · Question · pending editorial review_
+172. Describe a low-cost day together that ended up feeling more special than expected.  
+   _SM-006072 · Story starter · pending editorial review_
+173. Plan a no-spend challenge for an afternoon or find the best free event in town?  
+   _SM-006073 · Quick choice · pending editorial review_
+174. We're each given a tiny budget to surprise the other with something thoughtful. What would you choose?  
+   _SM-006074 · Scenario · pending editorial review_
+175. Couples sometimes discover their favourite treats cost much less than elaborate plans.  
+   _SM-006075 · Observation · pending editorial review_
+176. A thoughtful bargain isn't less meaningful than an expensive present.  
+   _SM-006076 · Hot take · pending editorial review_
+177. Which free activity would you love to repeat with me every few months?  
+   _SM-006077 · Question · pending editorial review_
+178. Tell me about us discovering that a simple idea was better than the original expensive plan.  
+   _SM-006078 · Story starter · pending editorial review_
+179. We have to find a birthday gift for each other using only objects we've made. What's your idea?  
+   _SM-006079 · Scenario · pending editorial review_
+180. A handmade scrapbook or an afternoon dedicated to teaching each other something useful?  
+   _SM-006080 · Quick choice · pending editorial review_
+181. Which relative do you think would win a playful two-person quiz about our relationship?  
+   _SM-006081 · Question · pending editorial review_
+182. Tell me about your family discovering something amusing about the way we cooperate.  
+   _SM-006082 · Story starter · pending editorial review_
+183. Host an informal family game or cook a shared dish with our relatives?  
+   _SM-006083 · Quick choice · pending editorial review_
+184. Our families challenge us to explain how we met in one minute each. Whose story would be more dramatic?  
+   _SM-006084 · Scenario · pending editorial review_
+185. Families sometimes remember a couple's first meeting differently from the couple themselves.  
+   _SM-006085 · Observation · pending editorial review_
+186. The best family introductions let people be themselves rather than perform.  
+   _SM-006086 · Hot take · pending editorial review_
+187. Which family tradition would be funniest to try for the first time together?  
+   _SM-006087 · Question · pending editorial review_
+188. Recall somebody in our families making you feel welcome through an unexpected joke.  
+   _SM-006088 · Story starter · pending editorial review_
+189. We plan a relaxed dinner bringing together relatives with different interests. What's one conversation starter?  
+   _SM-006089 · Scenario · pending editorial review_
+190. Exchange favourite family recipes or trade childhood photographs with permission?  
+   _SM-006090 · Quick choice · pending editorial review_
+191. What playful tradition would you want us to start next year?  
+   _SM-006091 · Question · pending editorial review_
+192. Describe a tiny celebration we made up without needing any special occasion.  
+   _SM-006092 · Story starter · pending editorial review_
+193. Write future-us a funny letter or record one shared prediction each year?  
+   _SM-006093 · Quick choice · pending editorial review_
+194. We invent a time capsule containing five objects from our life together. Which unexpected item earns a place?  
+   _SM-006094 · Scenario · pending editorial review_
+195. A relationship's history includes ordinary days that only the two people involved remember.  
+   _SM-006095 · Observation · pending editorial review_
+196. It's worth leaving space for new traditions instead of repeating everything automatically.  
+   _SM-006096 · Hot take · pending editorial review_
+197. What's one imaginative challenge we could revisit every anniversary?  
+   _SM-006097 · Question · pending editorial review_
+198. Tell me about a small choice we made together that became a lasting part of our routine.  
+   _SM-006098 · Story starter · pending editorial review_
+199. We find a letter our younger selves wrote about love. How would we answer it together?  
+   _SM-006099 · Scenario · pending editorial review_
+200. Make a new memory in a familiar place or visit somewhere entirely unexpected?  
+   _SM-006100 · Quick choice · pending editorial review_
