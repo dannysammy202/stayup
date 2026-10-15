@@ -809,3 +809,205 @@ Target: 500. Entries remain editorial drafts until human approval.
    _SM-004399 · Quick choice · pending editorial review_
 400. What's one thing you wish we had asked each other sooner when we began spending time together?  
    _SM-004400 · Question · pending editorial review_
+
+
+401. What's one question about your younger self you wish I had asked before now?  
+   _SM-004401 · Question · pending editorial review_
+402. Tell me about a school day which shaped the way you respond to challenges.  
+   _SM-004402 · Story starter · pending editorial review_
+403. We come across a photograph of you as a teenager. Which part of the story behind it would you share first?  
+   _SM-004403 · Scenario · pending editorial review_
+404. Childhood interests sometimes return in adulthood once people have time and freedom to revisit them.  
+   _SM-004404 · Observation · pending editorial review_
+405. Revisit an old hobby together or help each other find one entirely new interest?  
+   _SM-004405 · Quick choice · pending editorial review_
+406. Growing older shouldn't mean giving up the activities which once made you curious.  
+   _SM-004406 · Hot take · pending editorial review_
+407. What did you once expect adulthood to feel like which turned out differently?  
+   _SM-004407 · Question · pending editorial review_
+408. Describe a time an adult trusted you with responsibility before you felt ready.  
+   _SM-004408 · Story starter · pending editorial review_
+409. We meet someone from your childhood who remembers a side of you I don't know. What would you hope to hear?  
+   _SM-004409 · Scenario · pending editorial review_
+410. Look through old school photographs or read entries from a forgotten notebook?  
+   _SM-004410 · Quick choice · pending editorial review_
+411. Which teacher or mentor gave you feedback you still use?  
+   _SM-004411 · Question · pending editorial review_
+412. The words people hear at an important age sometimes remain with them longer than the speaker realises.  
+   _SM-004412 · Observation · pending editorial review_
+413. Tell me about a person who believed in an ability you hadn't recognised in yourself.  
+   _SM-004413 · Story starter · pending editorial review_
+414. We get a chance to thank someone who influenced your life years ago. What would you want to say?  
+   _SM-004414 · Scenario · pending editorial review_
+415. A thoughtful thank-you sometimes arrives more meaningfully years after the original kindness.  
+   _SM-004415 · Hot take · pending editorial review_
+416. What skill do you enjoy helping other people learn?  
+   _SM-004416 · Question · pending editorial review_
+417. Teach me something you know well or let me show you a trick I only recently learnt?  
+   _SM-004417 · Quick choice · pending editorial review_
+418. Describe the first time you realised someone looked up to you.  
+   _SM-004418 · Story starter · pending editorial review_
+419. A younger relative asks us for advice about handling friendship pressure. How would you want us to approach it?  
+   _SM-004419 · Scenario · pending editorial review_
+420. Good advice makes room for the other person's experience rather than forcing an answer.  
+   _SM-004420 · Observation · pending editorial review_
+421. Which everyday skill do you think people should learn before living independently?  
+   _SM-004421 · Question · pending editorial review_
+422. Sharing practical knowledge is a meaningful way of caring for someone.  
+   _SM-004422 · Hot take · pending editorial review_
+423. One of us learns a useful household skill from a neighbour. How should we pass the favour on?  
+   _SM-004423 · Scenario · pending editorial review_
+424. Recall a moment when solving a small problem yourself felt unusually satisfying.  
+   _SM-004424 · Story starter · pending editorial review_
+425. Learn basic furniture repairs or practise making simple clothes last longer?  
+   _SM-004425 · Quick choice · pending editorial review_
+426. Which object in our house has a design you genuinely admire?  
+   _SM-004426 · Question · pending editorial review_
+427. People sometimes choose beautiful objects for reasons which have nothing to do with fashion.  
+   _SM-004427 · Observation · pending editorial review_
+428. Tell me about something you once made by hand and how you felt when it was finished.  
+   _SM-004428 · Story starter · pending editorial review_
+429. We decide to decorate one wall together. How should we choose what belongs on it?  
+   _SM-004429 · Scenario · pending editorial review_
+430. Displaying memories openly is better than leaving meaningful objects buried in boxes.  
+   _SM-004430 · Hot take · pending editorial review_
+431. If we made a small garden together, what would you want to grow first?  
+   _SM-004431 · Question · pending editorial review_
+432. Fresh herbs on a windowsill or flowers beside the front door?  
+   _SM-004432 · Quick choice · pending editorial review_
+433. A plant we've cared for starts failing. Would you rather investigate what went wrong or begin again?  
+   _SM-004433 · Scenario · pending editorial review_
+434. Describe a place outdoors which helps you think clearly.  
+   _SM-004434 · Story starter · pending editorial review_
+435. The same outdoor space feels different depending on the weather and the company.  
+   _SM-004435 · Observation · pending editorial review_
+436. Which season's weather changes your mood in a way you notice?  
+   _SM-004436 · Question · pending editorial review_
+437. An afternoon outdoors deserves space in a calendar as much as an organised event.  
+   _SM-004437 · Hot take · pending editorial review_
+438. Sit in a shaded park with a book or explore a new walking path?  
+   _SM-004438 · Quick choice · pending editorial review_
+439. We decide to spend a Saturday outdoors but the forecast changes. What's a comfortable alternative?  
+   _SM-004439 · Scenario · pending editorial review_
+440. Tell me about an unexpected animal encounter which made you smile.  
+   _SM-004440 · Story starter · pending editorial review_
+441. If we considered caring for a pet, what responsibility would you want us to discuss first?  
+   _SM-004441 · Question · pending editorial review_
+442. People's attitudes towards animals often reflect experiences they had growing up.  
+   _SM-004442 · Observation · pending editorial review_
+443. A lost pet appears near our door. What would be your first practical step to help it?  
+   _SM-004443 · Scenario · pending editorial review_
+444. Visit an animal shelter to volunteer or support an environmental clean-up?  
+   _SM-004444 · Quick choice · pending editorial review_
+445. Caring about animals involves understanding the work behind their wellbeing.  
+   _SM-004445 · Hot take · pending editorial review_
+446. Recall a time you cared for something living and felt responsible for its progress.  
+   _SM-004446 · Story starter · pending editorial review_
+447. Which cause would you choose to support if we set aside a few hours each month?  
+   _SM-004447 · Question · pending editorial review_
+448. We volunteer together and get assigned tasks with different levels of difficulty. How should we approach them?  
+   _SM-004448 · Scenario · pending editorial review_
+449. Working alongside others on a shared cause often reveals people's patience and priorities.  
+   _SM-004449 · Observation · pending editorial review_
+450. Help organise donated books or prepare meals for people in need?  
+   _SM-004450 · Quick choice · pending editorial review_
+451. A shared act of service should support a real need, not mainly produce a good photograph.  
+   _SM-004451 · Hot take · pending editorial review_
+452. Describe a time someone helped you without asking for recognition.  
+   _SM-004452 · Story starter · pending editorial review_
+453. What does receiving help gracefully look like to you?  
+   _SM-004453 · Question · pending editorial review_
+454. A friend insists on paying us back for a favour we meant as a gift. How would you respond?  
+   _SM-004454 · Scenario · pending editorial review_
+455. People attach different meanings to repayment, gratitude and obligation.  
+   _SM-004455 · Observation · pending editorial review_
+456. Give useful time to someone or buy a practical item they need?  
+   _SM-004456 · Quick choice · pending editorial review_
+457. Offering help is easier when you ask what the other person wants rather than deciding for them.  
+   _SM-004457 · Hot take · pending editorial review_
+458. Tell me about a kind gesture you almost missed because it was so subtle.  
+   _SM-004458 · Story starter · pending editorial review_
+459. What's a courtesy you appreciate in crowded public places?  
+   _SM-004459 · Question · pending editorial review_
+460. We witness someone being treated rudely in a queue. How would you want us to respond safely?  
+   _SM-004460 · Scenario · pending editorial review_
+461. A person's response to minor inconvenience often says something about their habits under pressure.  
+   _SM-004461 · Observation · pending editorial review_
+462. Take a quieter route which takes longer or use a busy shortcut to arrive sooner?  
+   _SM-004462 · Quick choice · pending editorial review_
+463. Recall a journey we shared with a stranger whose conversation surprised you.  
+   _SM-004463 · Story starter · pending editorial review_
+464. What helps you stay calm when transport delays disrupt your day?  
+   _SM-004464 · Question · pending editorial review_
+465. Giving one another accurate updates is more reassuring than promising an arrival time you don't know.  
+   _SM-004465 · Hot take · pending editorial review_
+466. One of us gets stranded and the other is far away. Which information would help us make a sensible plan?  
+   _SM-004466 · Scenario · pending editorial review_
+467. Practical emergencies test whether a couple communicates clearly before reacting emotionally.  
+   _SM-004467 · Observation · pending editorial review_
+468. Prepare a shared emergency checklist or keep useful contact details in an agreed place?  
+   _SM-004468 · Quick choice · pending editorial review_
+469. Which personal safety habit did you adopt because of a past experience?  
+   _SM-004469 · Question · pending editorial review_
+470. Tell me about a difficult moment when someone helped you regain a sense of control.  
+   _SM-004470 · Story starter · pending editorial review_
+471. We face an urgent problem with several possible solutions. How would you want us to divide the thinking?  
+   _SM-004471 · Scenario · pending editorial review_
+472. Keeping your voice steady during a problem is a form of consideration for the people around you.  
+   _SM-004472 · Hot take · pending editorial review_
+473. How do you want us to discuss the lessons from a stressful day once things settle?  
+   _SM-004473 · Question · pending editorial review_
+474. Some people want to revisit a difficult event, while others prefer to close it after resolving the problem.  
+   _SM-004474 · Observation · pending editorial review_
+475. Write down the useful lesson from a mistake or talk it through once and move forward?  
+   _SM-004475 · Quick choice · pending editorial review_
+476. Recall a problem we solved which seemed worse at first than it turned out to be.  
+   _SM-004476 · Story starter · pending editorial review_
+477. We realise we've both overlooked an important deadline. What's the fairest way to respond?  
+   _SM-004477 · Scenario · pending editorial review_
+478. How do you notice when you're becoming too hard on yourself?  
+   _SM-004478 · Question · pending editorial review_
+479. Treating mistakes as information is more constructive than using them as evidence of someone's character.  
+   _SM-004479 · Hot take · pending editorial review_
+480. Tell me about a failure which eventually made you more patient with somebody else.  
+   _SM-004480 · Story starter · pending editorial review_
+481. Two people share responsibility for a mistake without always sharing it in equal proportions.  
+   _SM-004481 · Observation · pending editorial review_
+482. I admit I've handled an obligation poorly. What response would help me take responsibility and improve?  
+   _SM-004482 · Scenario · pending editorial review_
+483. Discuss a difficult mistake face to face or begin by writing down how you feel?  
+   _SM-004483 · Quick choice · pending editorial review_
+484. Which compliment makes you feel recognised for your character rather than your achievements?  
+   _SM-004484 · Question · pending editorial review_
+485. Describe a time you saw someone treat me kindly and it meant more than you expected.  
+   _SM-004485 · Story starter · pending editorial review_
+486. Small promises matter especially when no one outside the relationship is watching.  
+   _SM-004486 · Hot take · pending editorial review_
+487. We commit to helping someone and realise the task is bigger than expected. How should we adjust our promise?  
+   _SM-004487 · Scenario · pending editorial review_
+488. Relationships feel safer when people explain limitations before they become disappointments.  
+   _SM-004488 · Observation · pending editorial review_
+489. What is one way our communication has become clearer since we first met?  
+   _SM-004489 · Question · pending editorial review_
+490. Ask each other one thoughtful question every week or keep an occasional shared journal?  
+   _SM-004490 · Quick choice · pending editorial review_
+491. Tell me about a conversation we nearly postponed which you're glad we had.  
+   _SM-004491 · Story starter · pending editorial review_
+492. We find ourselves disagreeing about the same thing repeatedly. What new approach would be worth trying?  
+   _SM-004492 · Scenario · pending editorial review_
+493. Changing how a conversation happens is sometimes more useful than repeating the same argument.  
+   _SM-004493 · Hot take · pending editorial review_
+494. Which part of our partnership are you most interested in learning more about over time?  
+   _SM-004494 · Question · pending editorial review_
+495. Tell me about something you learned through our relationship which surprised you about yourself.  
+   _SM-004495 · Story starter · pending editorial review_
+496. We're planning a weekend and realise both of us have kept a personal wish quiet. How should we choose what to do?  
+   _SM-004496 · Scenario · pending editorial review_
+497. People share more freely when they know curiosity won't turn into criticism.  
+   _SM-004497 · Observation · pending editorial review_
+498. Maintaining a sense of individuality is worth discussing openly throughout a partnership.  
+   _SM-004498 · Hot take · pending editorial review_
+499. Plant a tree to mark a shared milestone or donate books in honour of the occasion?  
+   _SM-004499 · Quick choice · pending editorial review_
+500. Which ordinary moment from this month would you want to remember a year from now?  
+   _SM-004500 · Question · pending editorial review_
