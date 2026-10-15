@@ -203,3 +203,205 @@ Initial target: 200. Entries remain editorial drafts until human approval.
    _SM-005399 · Scenario · pending editorial review_
 100. Ask each other what changed since we met or revisit the funniest detail from our first chat?  
    _SM-005400 · Quick choice · pending editorial review_
+
+
+101. What's the most memorable way someone has described their hometown to you?  
+   _SM-005401 · Question · pending editorial review_
+102. Tell me about a local custom that surprised you when you first experienced it.  
+   _SM-005402 · Story starter · pending editorial review_
+103. Swap favourite childhood sayings or compare the foods people associate with home?  
+   _SM-005403 · Quick choice · pending editorial review_
+104. We both grew up with different words for the same everyday object. Which would you try to teach me first?  
+   _SM-005404 · Scenario · pending editorial review_
+105. A familiar place often sounds new when somebody else describes what they notice.  
+   _SM-005405 · Observation · pending editorial review_
+106. Asking about someone's hometown is more interesting when you go beyond famous landmarks.  
+   _SM-005406 · Hot take · pending editorial review_
+107. What's a tiny detail about your neighbourhood that makes you smile?  
+   _SM-005407 · Question · pending editorial review_
+108. Recall someone showing you a side of their city that tourists rarely see.  
+   _SM-005408 · Story starter · pending editorial review_
+109. A newcomer asks for the most unusual local tradition worth experiencing. What would you recommend?  
+   _SM-005409 · Scenario · pending editorial review_
+110. Take a guided walk through a new neighbourhood or ask a resident for their favourite stories?  
+   _SM-005410 · Quick choice · pending editorial review_
+111. What's a word your friends use that a stranger would need explained?  
+   _SM-005411 · Question · pending editorial review_
+112. Describe a time you confidently misunderstood an expression someone used.  
+   _SM-005412 · Story starter · pending editorial review_
+113. Learn a funny saying from another language or teach one from your own?  
+   _SM-005413 · Quick choice · pending editorial review_
+114. A new acquaintance asks for a friendly phrase they can use in your language. Which would you teach?  
+   _SM-005414 · Scenario · pending editorial review_
+115. People often learn the personality of a language through its everyday jokes.  
+   _SM-005415 · Observation · pending editorial review_
+116. Good humour travels better when someone explains the context rather than repeating the punchline.  
+   _SM-005416 · Hot take · pending editorial review_
+117. Which expression would you find difficult to translate for somebody new?  
+   _SM-005417 · Question · pending editorial review_
+118. Tell me about a word you learnt through a conversation instead of a dictionary.  
+   _SM-005418 · Story starter · pending editorial review_
+119. We create a two-word phrase to describe our first meeting. What should it mean?  
+   _SM-005419 · Scenario · pending editorial review_
+120. Try a tongue-twister from your language or exchange two unusual local proverbs?  
+   _SM-005420 · Quick choice · pending editorial review_
+121. Which small decision makes you trust someone's judgement in an unfamiliar place?  
+   _SM-005421 · Question · pending editorial review_
+122. Recall a new acquaintance helping you figure out something that seemed confusing.  
+   _SM-005422 · Story starter · pending editorial review_
+123. Ask someone how they solve everyday problems or how they choose what to learn?  
+   _SM-005423 · Quick choice · pending editorial review_
+124. A simple task turns into a puzzle while we're together. Would you investigate first or brainstorm out loud?  
+   _SM-005424 · Scenario · pending editorial review_
+125. People show different problem-solving styles even when facing the same tiny inconvenience.  
+   _SM-005425 · Observation · pending editorial review_
+126. An ability to admit uncertainty makes somebody easier to collaborate with.  
+   _SM-005426 · Hot take · pending editorial review_
+127. What's a skill you admire most when you see somebody demonstrate it casually?  
+   _SM-005427 · Question · pending editorial review_
+128. Tell me about watching someone solve a problem in a way you'd never considered.  
+   _SM-005428 · Story starter · pending editorial review_
+129. You're given an unfamiliar piece of equipment and one helpful new acquaintance. How would you divide the task?  
+   _SM-005429 · Scenario · pending editorial review_
+130. Work through a short puzzle together or ask each other to explain one useful life trick?  
+   _SM-005430 · Quick choice · pending editorial review_
+131. What's something people assume is everyone's favourite activity but isn't yours?  
+   _SM-005431 · Question · pending editorial review_
+132. Describe a time you politely skipped an activity and found a different way to join in.  
+   _SM-005432 · Story starter · pending editorial review_
+133. Try a social game for ten minutes or take a break to chat with another newcomer?  
+   _SM-005433 · Quick choice · pending editorial review_
+134. We join a group activity and realise neither of us understands the rules. Who asks for help first?  
+   _SM-005434 · Scenario · pending editorial review_
+135. People often feel more comfortable joining in after someone explains what participation involves.  
+   _SM-005435 · Observation · pending editorial review_
+136. It's easier to enjoy meeting someone when nobody insists they join every activity.  
+   _SM-005436 · Hot take · pending editorial review_
+137. How do you prefer people invite you to something unfamiliar?  
+   _SM-005437 · Question · pending editorial review_
+138. Recall enjoying an event more once you knew you were free to leave early.  
+   _SM-005438 · Story starter · pending editorial review_
+139. A new acquaintance suggests a sport you've never played. What would make you willing to try?  
+   _SM-005439 · Scenario · pending editorial review_
+140. Join a friendly beginner competition or cheer from the sidelines and ask questions?  
+   _SM-005440 · Quick choice · pending editorial review_
+141. What's an unusual item you'd pack for a short trip purely because it makes you happy?  
+   _SM-005441 · Question · pending editorial review_
+142. Tell me about a travel habit you learnt from somebody you met along the way.  
+   _SM-005442 · Story starter · pending editorial review_
+143. Travel with somebody who takes photographs of everything or one who collects local stories?  
+   _SM-005443 · Quick choice · pending editorial review_
+144. We're waiting at an airport and each get to choose a conversation topic with zero travel complaints. What's yours?  
+   _SM-005444 · Scenario · pending editorial review_
+145. Two travellers can visit the same place and return with completely different memories.  
+   _SM-005445 · Observation · pending editorial review_
+146. A person's curiosity matters more to a trip than how many destinations they tick off.  
+   _SM-005446 · Hot take · pending editorial review_
+147. What's the most interesting thing a fellow passenger has taught you?  
+   _SM-005447 · Question · pending editorial review_
+148. Recall learning something about another person's background during a long journey.  
+   _SM-005448 · Story starter · pending editorial review_
+149. A new acquaintance asks you to recommend a journey worth taking even without a final destination. What route comes to mind?  
+   _SM-005449 · Scenario · pending editorial review_
+150. Compare our most surprising travel discoveries or our funniest packing mistakes?  
+   _SM-005450 · Quick choice · pending editorial review_
+151. What does someone have to say for you to suspect they're a fellow book lover?  
+   _SM-005451 · Question · pending editorial review_
+152. Tell me about a conversation that convinced you to read a book you would otherwise have ignored.  
+   _SM-005452 · Story starter · pending editorial review_
+153. Swap one paragraph from a favourite book or explain a story you wish more people knew?  
+   _SM-005453 · Quick choice · pending editorial review_
+154. A new acquaintance challenges you to recommend one story without revealing the genre. What would you say?  
+   _SM-005454 · Scenario · pending editorial review_
+155. People sometimes reveal more about their values through a favourite character than a direct question.  
+   _SM-005455 · Observation · pending editorial review_
+156. Disagreeing with a story's ending often makes for a better discussion than agreeing about everything.  
+   _SM-005456 · Hot take · pending editorial review_
+157. What kind of character immediately catches your attention in a story?  
+   _SM-005457 · Question · pending editorial review_
+158. Recall a book or article that changed the way you viewed a familiar situation.  
+   _SM-005458 · Story starter · pending editorial review_
+159. We pick books for each other based on a ten-minute conversation. What clues would help you choose mine?  
+   _SM-005459 · Scenario · pending editorial review_
+160. Discuss a surprising plot twist or compare the characters we rooted for?  
+   _SM-005460 · Quick choice · pending editorial review_
+161. What's a childhood curiosity you still haven't found a satisfying answer to?  
+   _SM-005461 · Question · pending editorial review_
+162. Tell me about asking somebody a question and receiving a fascinating unexpected story.  
+   _SM-005462 · Story starter · pending editorial review_
+163. Learn why a familiar tradition began or how an ordinary household invention works?  
+   _SM-005463 · Quick choice · pending editorial review_
+164. We're asked to create a tiny exhibition about one everyday curiosity. What would you put in it?  
+   _SM-005464 · Scenario · pending editorial review_
+165. The questions people ask often reveal interests they haven't named as hobbies.  
+   _SM-005465 · Observation · pending editorial review_
+166. It's worthwhile to ask simple questions even when everyone else seems to know the answer.  
+   _SM-005466 · Hot take · pending editorial review_
+167. What's one topic you enjoy hearing someone explain enthusiastically?  
+   _SM-005467 · Question · pending editorial review_
+168. Describe someone who made an unfamiliar subject understandable through a funny comparison.  
+   _SM-005468 · Story starter · pending editorial review_
+169. A new acquaintance is passionate about a subject you know nothing about. What's the first detail you'd ask them to explain?  
+   _SM-005469 · Scenario · pending editorial review_
+170. Listen to a person's unusual hobby story or let them demonstrate a small part of it?  
+   _SM-005470 · Quick choice · pending editorial review_
+171. Which harmless superstition did you grow up hearing about?  
+   _SM-005471 · Question · pending editorial review_
+172. Tell me about discovering another family's unusual tradition during a visit.  
+   _SM-005472 · Story starter · pending editorial review_
+173. Swap funny childhood warnings or compare the rules adults gave you about good manners?  
+   _SM-005473 · Quick choice · pending editorial review_
+174. We each describe a childhood rule without explaining its purpose. Whose rule sounds stranger?  
+   _SM-005474 · Scenario · pending editorial review_
+175. Stories from childhood are often funniest when people realise their homes had different rules.  
+   _SM-005475 · Observation · pending editorial review_
+176. A childhood myth becomes more entertaining when you learn where the story originated.  
+   _SM-005476 · Hot take · pending editorial review_
+177. What's something your family did that you assumed every household did?  
+   _SM-005477 · Question · pending editorial review_
+178. Recall explaining one of your childhood customs to a person who'd never encountered it.  
+   _SM-005478 · Story starter · pending editorial review_
+179. A new friend invites you to a festival you've never attended. What would you want to understand first?  
+   _SM-005479 · Scenario · pending editorial review_
+180. Hear a story about an old celebration or learn how its modern version developed?  
+   _SM-005480 · Quick choice · pending editorial review_
+181. What kind of message makes it easy to continue a conversation the next day?  
+   _SM-005481 · Question · pending editorial review_
+182. Tell me about somebody who remembered to follow up on a small story you mentioned.  
+   _SM-005482 · Story starter · pending editorial review_
+183. Receive a photo connected to yesterday's conversation or a short question about how things went?  
+   _SM-005483 · Quick choice · pending editorial review_
+184. We've been talking for a while and both need to return to work. What's a natural way to leave the conversation open?  
+   _SM-005484 · Scenario · pending editorial review_
+185. Some friendships begin with occasional exchanges rather than constant conversation.  
+   _SM-005485 · Observation · pending editorial review_
+186. A clear, low-pressure invitation is better than trying to hint at a future meeting.  
+   _SM-005486 · Hot take · pending editorial review_
+187. What helps you tell whether you both want to keep getting to know each other?  
+   _SM-005487 · Question · pending editorial review_
+188. Recall an introduction that grew into friendship through a series of brief encounters.  
+   _SM-005488 · Story starter · pending editorial review_
+189. You want to invite someone you recently met to a group event. What information would make the invitation comfortable?  
+   _SM-005489 · Scenario · pending editorial review_
+190. Suggest a specific casual activity or ask a new acquaintance which outings they prefer?  
+   _SM-005490 · Quick choice · pending editorial review_
+191. What's one thing you'd be interested to learn about me before choosing another activity together?  
+   _SM-005491 · Question · pending editorial review_
+192. Tell me about discovering a surprising shared interest after several conversations.  
+   _SM-005492 · Story starter · pending editorial review_
+193. Share an unusual personal goal or explain one everyday habit you want to improve?  
+   _SM-005493 · Quick choice · pending editorial review_
+194. We each get to plan a ten-minute activity that reflects something about us. What would yours be?  
+   _SM-005494 · Scenario · pending editorial review_
+195. The things people enjoy practising often tell you more than their lists of favourites.  
+   _SM-005495 · Observation · pending editorial review_
+196. Friendship grows more naturally when people leave space for differences in taste.  
+   _SM-005496 · Hot take · pending editorial review_
+197. What's a side of your personality that takes a few conversations to reveal?  
+   _SM-005497 · Question · pending editorial review_
+198. Describe someone who made you feel welcome without expecting you to act outgoing.  
+   _SM-005498 · Story starter · pending editorial review_
+199. You meet an acquaintance after a year and both have new interests. How would you get reacquainted?  
+   _SM-005499 · Scenario · pending editorial review_
+200. Explore a shared interest in more depth or introduce each other to something unfamiliar?  
+   _SM-005500 · Quick choice · pending editorial review_
