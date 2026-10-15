@@ -371,3 +371,25 @@ Initial target: 200. Entries remain editorial drafts until human approval.
    _SM-006179 · Scenario · pending editorial review_
 180. Which childhood technology do you miss for reasons other than nostalgia?  
    _SM-006180 · Question · pending editorial review_
+
+
+181. What childhood freedom did older relatives enjoy that feels unusual to younger people now?  
+   _SM-006181 · Question · pending editorial review_
+182. Tell me about a conversation where two generations realised they shared the same childhood worry.  
+   _SM-006182 · Story starter · pending editorial review_
+183. Three generations of our family answer one question about growing up. Which question would produce the best discussion?  
+   _SM-006183 · Scenario · pending editorial review_
+184. Compare childhood school bags or compare the games each generation played after school?  
+   _SM-006184 · Quick choice · pending editorial review_
+185. A childhood experience can be common in one generation and unfamiliar in the next.  
+   _SM-006185 · Observation · pending editorial review_
+186. Comparing generations works best when everyone explains their circumstances rather than defends their choices.  
+   _SM-006186 · Hot take · pending editorial review_
+187. What part of your childhood would you want younger relatives to understand without copying exactly?  
+   _SM-006187 · Question · pending editorial review_
+188. Describe a time an older relative was surprised by how similar your childhood experience was to theirs.  
+   _SM-006188 · Story starter · pending editorial review_
+189. We're recording a family history conversation. How do we make sure quieter relatives get a chance to contribute?  
+   _SM-006189 · Scenario · pending editorial review_
+190. What is one childhood experience you hope future family members will have in their own way?  
+   _SM-006190 · Question · pending editorial review_
