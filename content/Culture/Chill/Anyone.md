@@ -39,3 +39,15 @@ Initial target: 200. Entries remain editorial drafts until human approval.
 
 13. What's a local design you enjoy seeing?  
    _SM-004813 · Question · pending editorial review_
+
+
+14. What's a familiar sound from where you grew up?  
+   _SM-004814 · Question · pending editorial review_
+15. Tell us about an enjoyable local festival.  
+   _SM-004815 · Story starter · pending editorial review_
+
+
+16. An outdoor concert or a community theatre show?  
+   _SM-004816 · Quick choice · pending editorial review_
+17. A visitor asks for a local snack recommendation. What would you suggest?  
+   _SM-004817 · Scenario · pending editorial review_
