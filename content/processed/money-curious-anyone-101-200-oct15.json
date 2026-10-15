@@ -1,0 +1,507 @@
+{
+  "topic": "Money",
+  "mood": "Curious",
+  "audience": "Anyone",
+  "prompts": [
+    {
+      "format": "Question",
+      "text": "Which subscription would you miss most if you had to cancel every recurring service?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall realising you were still paying for something you'd stopped using.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Pay monthly for flexibility or annually when a service offers a genuine discount?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You're helping a friend compare two streaming plans with different benefits. What matters besides price?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Recurring charges can become invisible because they don't require a new decision each month.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A free trial isn't truly useful when its cancellation terms are hard to understand.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's the most important detail to check before accepting an automatic renewal?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about replacing a paid service with a free option that met your needs.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A service quietly removes a feature while keeping its fee unchanged. What would you ask the company?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Keep one premium service you love or several smaller services you use occasionally?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's something you've repaired that made you appreciate how it was built?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe deciding to maintain an old item instead of replacing it.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Learn to mend simple clothing or fix a basic household appliance safely?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A chair needs a small repair, but a replacement is on sale. What should you consider?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "The cost of owning an object can continue long after you've paid for it.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Learning basic maintenance can be more valuable than finding the next discount.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which everyday item would benefit most from being easier to repair?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall borrowing a tool instead of buying one you'd use only once.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A community wants to organise a repair workshop. What items should people learn to maintain first?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Buy a well-kept second-hand item or a basic new alternative for the same price?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What do you find most confusing about comparing the cost of different journeys?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about choosing a slower route and finding an unexpected benefit.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Use public transport with predictable costs or a faster ride that varies in price?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A friend is planning a daily commute to a new job. Which expenses might they overlook?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "The cheapest route on paper doesn't always fit someone's schedule or circumstances.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Time, comfort and reliability belong in a conversation about transport value.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which travel expense surprises people when they plan their first independent trip?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a day you spent less on travel because you planned several errands together.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Our group is comparing two ways to reach a weekend event. What would make the comparison fair?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Pay a little more for a direct trip or save by making a convenient transfer?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What does a good second-hand shop do to help you trust an item?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a pre-owned purchase that had an interesting story behind it.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Browse used books for hidden discoveries or second-hand furniture for practical pieces?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You find two used bicycles with different wear. What would you inspect before choosing one?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Buying an older item can be rewarding when the seller explains its condition clearly.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A clear return policy can matter more than a persuasive sales description.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which category of used goods would you always want to inspect in person?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about passing on an item that someone else found genuinely useful.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A neighbourhood wants to organise a swap event. How might it keep exchanges fair and welcoming?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Exchange rarely used tools with neighbours or organise a seasonal clothing swap?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What makes a small business's pricing feel transparent to you?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall learning about the hidden effort behind a handmade product's price.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Buy from a business that explains its costs or one that emphasises speed and convenience?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A home baker wants to price cupcakes fairly. Which ingredients and expenses should be considered?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Customers often see the product but not the preparation, transport or time behind it.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "The cheapest seller isn't always the most sustainable choice for a neighbourhood.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which small local service do you think people regularly undervalue?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe an encounter with a business owner who helped you understand their craft.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A new café wants to create a loyalty programme without confusing customers. What should it offer?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Pay for a custom-made item or choose a ready-made version available immediately?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What payment safety habit do you wish more people learnt early?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe discovering a suspicious message before it caused a financial problem.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Use spending alerts after every transaction or review your account activity at a regular time?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A message claims you must pay an unexpected fee through a strange link. What would you verify first?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Scammers often create urgency so people skip the checks they normally perform.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A payment method should be judged partly by how it handles mistakes and disputes.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which detail would make you suspicious of an unfamiliar online shop?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall helping somebody recognise that a supposed bargain was too good to be true.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You receive a duplicate payment confirmation. What records would help you resolve it safely?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Make an important purchase through a trusted marketplace or directly from a verified seller?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a practical example that helps explain why people buy insurance?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about learning the difference between a routine expense and an unexpected one.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Understand basic insurance terms or learn how warranties differ from guarantees?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Someone is comparing two phone-protection plans. What exclusions might matter more than the headline fee?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Financial protection products can sound simple until the conditions need explaining.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "A clear explanation of what's not covered is as important as a list of benefits.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which financial term should never be explained using only technical language?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall an everyday example that helped you understand the idea of financial risk.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A community workshop introduces the concept of an emergency fund. What relatable example might help?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Compare ways to prepare for small surprises or learn how claims processes work?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What's a surprising way a community has pooled resources for a shared purpose?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe watching neighbours work together to make an event affordable.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Contribute supplies to a community project or offer time and a useful skill?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A local group wants to improve its reading room with small contributions. How should it explain the budget?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "People are more willing to contribute when they understand how resources will be used.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Transparent record-keeping matters even when a project handles only small amounts.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which shared facility would make everyday life easier for people in your area?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall a fundraiser that made a visible difference in your community.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "Volunteers raise more funds than needed for an activity. How might they decide on the remainder?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Support a clearly defined one-off project or a smaller recurring community programme?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which public service do you notice most when it works reliably?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about learning how an everyday service is funded or maintained.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Read a simple explanation of local taxes or learn how public project budgets are decided?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A town can improve either street lighting or park maintenance this year. What information should residents receive?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "Many public costs are easiest to understand when linked to a service people use.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Good budget explanations should allow ordinary residents to ask meaningful questions.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What local improvement would you want to understand the cost of before debating it?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall hearing a practical explanation of a public expense that changed your perspective.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A school committee wants to report how donated funds were spent. What should its summary include?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "See an accessible chart of community spending or read short stories about completed projects?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "Which everyday technology do you think will most change how people spend money in ten years?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Recall seeing a shopping habit change rapidly after a new service became common.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Explore how contactless payments work or learn what makes online marketplaces trustworthy?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "A future shop opens without traditional checkout counters. What customer concerns should it address?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Observation",
+      "text": "A technology can make payments faster without making purchase decisions any simpler.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Hot take",
+      "text": "Progress in financial tools should be measured by clarity and trust, not just novelty.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Question",
+      "text": "What money-related skill will people still need even if most transactions become automated?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a payment method your family once used regularly that now seems old-fashioned.",
+      "relatedThemes": []
+    },
+    {
+      "format": "Scenario",
+      "text": "You help design a money-learning game for teenagers. What real-world decision would become the first challenge?",
+      "relatedThemes": []
+    },
+    {
+      "format": "Quick choice",
+      "text": "Learn how digital receipts work or explore why some people still prefer physical cash?",
+      "relatedThemes": []
+    }
+  ]
+}
