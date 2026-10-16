@@ -1,0 +1,357 @@
+{
+  "topic": "Relationships",
+  "mood": "Flirty",
+  "audience": "Crush / Talking stage",
+  "prompts": [
+    {
+      "text": "When you like someone, what gives you away before you say a word?",
+      "format": "Question",
+      "relatedThemes": [
+        "subtle signals"
+      ]
+    },
+    {
+      "text": "We run into each other at a bookshop and have ten minutes to talk. What section are you taking me to first?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "chance encounters"
+      ]
+    },
+    {
+      "text": "A teasing voice note after work or a thoughtful message waiting when you wake up?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "communication style"
+      ]
+    },
+    {
+      "text": "Someone remembering a tiny detail from your story feels more romantic than an expensive surprise. Agree?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "attention"
+      ]
+    },
+    {
+      "text": "Which ordinary part of your day would you secretly enjoy sharing with someone new?",
+      "format": "Question",
+      "relatedThemes": [
+        "everyday closeness"
+      ]
+    },
+    {
+      "text": "We both reach for the last slice of cake. How are you negotiating ownership?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "playful banter"
+      ]
+    },
+    {
+      "text": "Tell me about a compliment someone gave you that stayed in your head longer than expected.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "compliments"
+      ]
+    },
+    {
+      "text": "A conversation sometimes feels different when neither person rushes to fill a pause. Have you noticed?",
+      "format": "Observation",
+      "relatedThemes": [
+        "comfortable silence"
+      ]
+    },
+    {
+      "text": "What sort of harmless teasing makes you laugh rather than roll your eyes?",
+      "format": "Question",
+      "relatedThemes": [
+        "humour"
+      ]
+    },
+    {
+      "text": "Would you rather trade favourite songs or swap the most embarrassing photos on your camera roll?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "opening up"
+      ]
+    },
+    {
+      "text": "A café loses our reservation, so we have to improvise. Where does the afternoon go?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "spontaneity"
+      ]
+    },
+    {
+      "text": "How do you usually tell when a friendly conversation has turned into flirting?",
+      "format": "Question",
+      "relatedThemes": [
+        "chemistry"
+      ]
+    },
+    {
+      "text": "A shared inside joke tells you more about chemistry than a perfect first date does. What's your verdict?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "shared humour"
+      ]
+    },
+    {
+      "text": "Has a completely unplanned conversation ever made you want to see someone again? What happened?",
+      "format": "Story starter",
+      "relatedThemes": [
+        "memorable moments"
+      ]
+    },
+    {
+      "text": "What would make a first walk together feel easy rather than awkward?",
+      "format": "Question",
+      "relatedThemes": [
+        "first meetings"
+      ]
+    },
+    {
+      "text": "A silly nickname you both understand or a private playlist with a ridiculous title?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "small rituals"
+      ]
+    },
+    {
+      "text": "We join a trivia night as a team. Which category are you trusting yourself to carry?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "teamwork"
+      ]
+    },
+    {
+      "text": "Which habit of yours tends to surprise people once they get past your first impression?",
+      "format": "Question",
+      "relatedThemes": [
+        "personality"
+      ]
+    },
+    {
+      "text": "Sometimes the sweetest part of a date is the conversation on the way home. Would you agree?",
+      "format": "Observation",
+      "relatedThemes": [
+        "date reflections"
+      ]
+    },
+    {
+      "text": "Would you rather someone notice your confidence or your kindness first, and why?",
+      "format": "Question",
+      "relatedThemes": [
+        "first impressions"
+      ]
+    },
+    {
+      "text": "You're showing me one place in your neighbourhood that means something to you. Where are we going?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "personal places"
+      ]
+    },
+    {
+      "text": "An unexpected afternoon adventure or a relaxed evening with endless conversation?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "date preferences"
+      ]
+    },
+    {
+      "text": "What is your favourite way for someone to show interest without putting pressure on you?",
+      "format": "Question",
+      "relatedThemes": [
+        "respectful flirting"
+      ]
+    },
+    {
+      "text": "A little awkwardness makes a first meeting more memorable. Are you buying it?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "authenticity"
+      ]
+    },
+    {
+      "text": "Tell me about a time someone's sense of humour completely changed your opinion of them.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "attraction"
+      ]
+    },
+    {
+      "text": "We're cooking together for the first time. Which job are you assigning me, and what are you making?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "shared activities"
+      ]
+    },
+    {
+      "text": "If someone asked your best friend what you're like when you have a crush, what story would they tell?",
+      "format": "Question",
+      "relatedThemes": [
+        "friends perspectives"
+      ]
+    },
+    {
+      "text": "Getting a handwritten note in your bag or finding a funny photo someone printed for you?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "thoughtful gestures"
+      ]
+    },
+    {
+      "text": "Remembering how someone takes their tea sounds small until they remember yours. Does that matter to you?",
+      "format": "Observation",
+      "relatedThemes": [
+        "little details"
+      ]
+    },
+    {
+      "text": "What topic makes you forget you're meant to be playing it cool?",
+      "format": "Question",
+      "relatedThemes": [
+        "passions"
+      ]
+    },
+    {
+      "text": "We're stuck in traffic for an hour without music. What conversation would save the journey?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "conversation"
+      ]
+    },
+    {
+      "text": "Good timing matters almost as much as mutual interest when two people start talking. Agree or disagree?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "timing"
+      ]
+    },
+    {
+      "text": "Which question would you love someone to ask you on a first date but hardly anyone does?",
+      "format": "Question",
+      "relatedThemes": [
+        "curiosity"
+      ]
+    },
+    {
+      "text": "Would you choose a competitive board game or a slightly chaotic art class for an early date?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "date ideas"
+      ]
+    },
+    {
+      "text": "Have you ever gone home from meeting someone and replayed one funny moment all evening?",
+      "format": "Story starter",
+      "relatedThemes": [
+        "early attraction"
+      ]
+    },
+    {
+      "text": "I hand you the aux cable on our first drive. What's the first song you play to make an impression?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "music taste"
+      ]
+    },
+    {
+      "text": "What kind of attention makes you feel seen without making you feel watched?",
+      "format": "Question",
+      "relatedThemes": [
+        "boundaries"
+      ]
+    },
+    {
+      "text": "Being comfortable admitting you're nervous is more attractive than pretending you never are. Thoughts?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "vulnerability"
+      ]
+    },
+    {
+      "text": "A short spontaneous call or a long conversation that starts with one random meme?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "phone habits"
+      ]
+    },
+    {
+      "text": "What is one surprisingly charming thing someone does without realising it?",
+      "format": "Question",
+      "relatedThemes": [
+        "unplanned charm"
+      ]
+    },
+    {
+      "text": "You get to pick a tiny challenge for us on our next outing. What are we competing over?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "playful connection"
+      ]
+    },
+    {
+      "text": "Two people laughing at an ordinary mistake often feels like a better start than a flawless introduction. True?",
+      "format": "Observation",
+      "relatedThemes": [
+        "shared laughter"
+      ]
+    },
+    {
+      "text": "What's an unexpected shared interest that would make you instantly more curious about someone?",
+      "format": "Question",
+      "relatedThemes": [
+        "common ground"
+      ]
+    },
+    {
+      "text": "Tell me about the most creative but respectful way someone started a conversation with you.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "conversation openings"
+      ]
+    },
+    {
+      "text": "One meaningful question over dinner or a dozen silly questions during a long walk?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "conversation pace"
+      ]
+    },
+    {
+      "text": "It's raining just as our outdoor plan begins. Do we find somewhere cosy or embrace the weather?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "adaptability"
+      ]
+    },
+    {
+      "text": "Which small act of consideration tells you a person pays attention to your comfort?",
+      "format": "Question",
+      "relatedThemes": [
+        "thoughtfulness"
+      ]
+    },
+    {
+      "text": "Keeping a little mystery at the talking stage is fun only when both people communicate clearly. Agree?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "clarity"
+      ]
+    },
+    {
+      "text": "We each have to teach the other one tiny skill in fifteen minutes. What are you teaching me?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "learning together"
+      ]
+    },
+    {
+      "text": "What would make you feel comfortable saying, 'I'd like to see you again,' without second-guessing yourself?",
+      "format": "Question",
+      "relatedThemes": [
+        "honest interest"
+      ]
+    }
+  ]
+}
