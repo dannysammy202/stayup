@@ -26,6 +26,12 @@
     "nextMissingCombination": "Relationships / Bold / Crush / Talking stage",
     "editorialStatus": "screened_pending_editorial_review",
     "humanReviewed": false,
-    "verificationStatus": "preview_pending"
+    "verificationStatus": "blocked_vercel_preview_quota",
+    "blocker": {
+      "code": "api-deployments-free-per-day",
+      "observedAt": "2026-10-16T10:37:19+01:00",
+      "retryAfter": "2026-10-17T10:37:19+01:00",
+      "detail": "Vercel rejected an exact-head preview deployment with HTTP 402 after the free daily deployment limit was reached. PR remains open and unmerged; no production claim was made."
+    }
   }
 }
