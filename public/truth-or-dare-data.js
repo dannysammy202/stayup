@@ -11,6 +11,7 @@ if(!truthBanks||!dareBanks)throw new Error('Truth or Dare theme bank unavailable
 const levels=['Chill','Playful','Bold'];
 const cards=[];
 const forms=['text','voice-note','call','text-game'];
+const channels=['Text','Call'];
 const truthVariants=[
 (m,c,i)=>[
  `Have you ever found yourself ${m} ${c.inConvo}? What happened?`,
@@ -52,6 +53,7 @@ for(const adult of [false,true]){
    const key=Object.keys(contexts).indexOf(audience)+1;
    const levelKey=levels.indexOf(level)+1;
    for(const [type,rows] of [['Truth',rowsT],['Dare',rowsD]]){
+   for(const medium of channels){
     let index=0;
     for(const [i,line] of rows.entries()){
      const parts=line.split('|');
@@ -69,18 +71,25 @@ for(const adult of [false,true]){
        else if(j===1)txt=`Send ${c.target} a short voice note: ${task}.`;
        else txt=`On a call with ${c.callTarget}, ${task}.`;
       }
-      const id=`tod-${mode}-${key}-${levelKey}-${type==='Truth'?'T':'D'}-${String(++index).padStart(3,'0')}`;
-      cards.push({id,type,text:txt,audiences:[audience],level,adult,channel:type==='Truth'?'conversation':forms[j],editorialStatus:'screened_pending_editorial_review',humanReviewed:false,source:'authored-theme-matrix'});
+      if(medium==='Call'){
+       if(type==='Truth')txt=`On your call, ${txt.charAt(0).toLowerCase()+txt.slice(1)}`;
+       else txt=j===1?`Say this live to ${c.callTarget}: ${task}.`:j===2?`While speaking with ${c.callTarget}, ${task}.`:`On your call with ${c.callTarget}, ${task}.`;
+      }else if(type==='Dare'){
+       txt=j===1?`Send ${c.target} a text message: ${task}.`:j===2?`Write a message to ${c.target}: ${task}.`:`In ${c.text}, ${task}.`;
+      }
+      const id=`tod-${mode}-${medium==='Call'?'C':'X'}-${key}-${levelKey}-${type==='Truth'?'T':'D'}-${String(++index).padStart(3,'0')}`;
+      cards.push({id,type,text:txt,audiences:[audience],level,adult,medium,channel:type==='Truth'?'conversation':medium==='Call'?'call':'text',editorialStatus:'screened_pending_editorial_review',humanReviewed:false,source:'authored-theme-matrix'});
      }
     }
     if(index!==100)throw new Error('Incorrect card count');
    }
+   }
   }
  }
 }
-if(cards.length!==8400)throw new Error('Incorrect total card count');
+if(cards.length!==16800)throw new Error('Incorrect total card count');
 const normalise=s=>s.toLowerCase().replace(/[^\p{L}\p{N}]+/gu,' ').trim();
 if(new Set(cards.map(c=>normalise(c.text))).size!==cards.length)throw new Error('Repeated card detected');
 window.SayMoreTruthOrDare=Object.freeze(cards);
-window.SayMoreTruthOrDareSummary=Object.freeze({total:cards.length,everyday:4200,adult:4200,truth:4200,dare:4200,perCombinationPerType:100});
+window.SayMoreTruthOrDareSummary=Object.freeze({total:cards.length,everyday:8400,adult:8400,truth:8400,dare:8400,perCombinationPerType:100});
 })();
