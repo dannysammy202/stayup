@@ -1,0 +1,357 @@
+{
+  "topic": "Relationships",
+  "mood": "Bold",
+  "audience": "Someone new",
+  "prompts": [
+    {
+      "text": "What is a first impression people often get wrong about you?",
+      "format": "Question",
+      "relatedThemes": [
+        "first impressions"
+      ]
+    },
+    {
+      "text": "Would you rather someone ask a direct question or circle around a sensitive topic politely?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "direct communication"
+      ]
+    },
+    {
+      "text": "We discover within ten minutes that we strongly disagree on something important. What keeps the conversation worth having?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "respectful disagreement"
+      ]
+    },
+    {
+      "text": "Small talk is useful only when it leads somewhere more honest. Agree or disagree?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "small talk"
+      ]
+    },
+    {
+      "text": "What question helps you decide whether someone is genuinely curious or merely being polite?",
+      "format": "Question",
+      "relatedThemes": [
+        "genuine interest"
+      ]
+    },
+    {
+      "text": "Tell me about a time a stranger's honesty completely changed the direction of your day.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "unexpected honesty"
+      ]
+    },
+    {
+      "text": "Which subject do you avoid with new people because it reveals too much too quickly?",
+      "format": "Question",
+      "relatedThemes": [
+        "early boundaries"
+      ]
+    },
+    {
+      "text": "A confident introduction can be warm without being impressive. What makes that possible?",
+      "format": "Observation",
+      "relatedThemes": [
+        "authentic confidence"
+      ]
+    },
+    {
+      "text": "Would you rather be remembered as unusually honest or unexpectedly kind?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "memorable qualities"
+      ]
+    },
+    {
+      "text": "Someone you just met corrects you in front of others. How do you decide whether to appreciate it or push back?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "public correction"
+      ]
+    },
+    {
+      "text": "Which unpopular opinion are you willing to explain rather than defend?",
+      "format": "Question",
+      "relatedThemes": [
+        "open-minded conviction"
+      ]
+    },
+    {
+      "text": "People reveal more through the questions they avoid than the answers they give. What's your verdict?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "avoidance"
+      ]
+    },
+    {
+      "text": "When did an awkward first conversation turn into a relationship you valued?",
+      "format": "Story starter",
+      "relatedThemes": [
+        "unexpected connection"
+      ]
+    },
+    {
+      "text": "What is one assumption you never want a new acquaintance to make on your behalf?",
+      "format": "Question",
+      "relatedThemes": [
+        "assumptions"
+      ]
+    },
+    {
+      "text": "We have five minutes before going separate ways. Do you ask one meaningful question or trade contact details first?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "brief encounters"
+      ]
+    },
+    {
+      "text": "A new acquaintance starts sharing gossip about a mutual friend. How do you stop the conversation without creating a scene?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "gossip boundaries"
+      ]
+    },
+    {
+      "text": "How quickly should someone earn the right to challenge your opinion?",
+      "format": "Question",
+      "relatedThemes": [
+        "earned candour"
+      ]
+    },
+    {
+      "text": "Being easy to talk to is not the same as being entitled to personal details. Agree?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "privacy"
+      ]
+    },
+    {
+      "text": "Which compliment from someone new would make you suspicious rather than pleased?",
+      "format": "Question",
+      "relatedThemes": [
+        "compliments and trust"
+      ]
+    },
+    {
+      "text": "You realise you have forgotten the name of someone who clearly remembers yours. What do you say?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "social honesty"
+      ]
+    },
+    {
+      "text": "Tell me about a time you trusted your first instinct about someone and were completely wrong.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "misjudgement"
+      ]
+    },
+    {
+      "text": "Would you rather meet someone who challenges your thinking or someone who immediately understands your humour?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "connection styles"
+      ]
+    },
+    {
+      "text": "What personal question are you comfortable answering only when someone explains why they are asking?",
+      "format": "Question",
+      "relatedThemes": [
+        "context and consent"
+      ]
+    },
+    {
+      "text": "A polished introduction can hide more than a clumsy one. Do you agree?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "authenticity"
+      ]
+    },
+    {
+      "text": "Someone new makes a joke that crosses your line, then says they were testing your sense of humour. How do you respond?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "respect testing"
+      ]
+    },
+    {
+      "text": "What is the fastest respectful way for a new person to lose your trust?",
+      "format": "Question",
+      "relatedThemes": [
+        "early trust"
+      ]
+    },
+    {
+      "text": "Describe a conversation with someone new that made you reconsider an old opinion.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "changed perspective"
+      ]
+    },
+    {
+      "text": "Direct eye contact or an unexpectedly thoughtful question: which makes a stronger introduction?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "presence"
+      ]
+    },
+    {
+      "text": "What would make you leave a conversation even if doing so seemed impolite?",
+      "format": "Question",
+      "relatedThemes": [
+        "personal safety"
+      ]
+    },
+    {
+      "text": "New connections need boundaries before they need vulnerability. Thoughts?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "boundaries first"
+      ]
+    },
+    {
+      "text": "We are seated together at an event where neither of us knows anyone. What truth would make the situation less awkward?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "shared awkwardness"
+      ]
+    },
+    {
+      "text": "What trait do you notice early because experience taught you not to ignore it?",
+      "format": "Question",
+      "relatedThemes": [
+        "warning signs"
+      ]
+    },
+    {
+      "text": "Would you rather risk seeming too serious or risk leaving a meaningful question unasked?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "conversation courage"
+      ]
+    },
+    {
+      "text": "A person you just met asks for a favour that would take an entire afternoon. What determines your answer?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "early requests"
+      ]
+    },
+    {
+      "text": "Which version of honesty feels rude from a stranger but caring from a close friend?",
+      "format": "Question",
+      "relatedThemes": [
+        "relational context"
+      ]
+    },
+    {
+      "text": "You can respect someone's boundaries without understanding them. Agree or disagree?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "respect"
+      ]
+    },
+    {
+      "text": "Tell me about a time you decided not to pursue a promising new connection. What did you notice?",
+      "format": "Story starter",
+      "relatedThemes": [
+        "discernment"
+      ]
+    },
+    {
+      "text": "Someone new shares a vulnerable story and asks you to keep it private. What response shows care without promising too much?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "confidentiality"
+      ]
+    },
+    {
+      "text": "How do you tell the difference between someone being confidently curious and deliberately provocative?",
+      "format": "Question",
+      "relatedThemes": [
+        "social judgement"
+      ]
+    },
+    {
+      "text": "Would you rather know immediately that someone dislikes you or discover later that they were pretending?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "social honesty"
+      ]
+    },
+    {
+      "text": "People who are comfortable saying 'I don't know' are easier to trust. Have you found that?",
+      "format": "Observation",
+      "relatedThemes": [
+        "humility"
+      ]
+    },
+    {
+      "text": "You overhear someone you just met taking credit for another person's idea. Do you challenge it, ask a question, or stay out?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "integrity"
+      ]
+    },
+    {
+      "text": "What is one value you prefer to state clearly rather than let people discover slowly?",
+      "format": "Question",
+      "relatedThemes": [
+        "stated values"
+      ]
+    },
+    {
+      "text": "Tell me about a stranger who made you feel respected without trying to impress you.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "quiet respect"
+      ]
+    },
+    {
+      "text": "A candid answer with an awkward pause or a smooth answer that says very little?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "substance"
+      ]
+    },
+    {
+      "text": "What do you listen for when someone describes a person who is not present?",
+      "format": "Question",
+      "relatedThemes": [
+        "character clues"
+      ]
+    },
+    {
+      "text": "You and a new acquaintance both want the same limited opportunity. How would you compete without damaging mutual respect?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "ethical competition"
+      ]
+    },
+    {
+      "text": "Chemistry can make people overlook incompatibility before they know each other well. Agree?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "chemistry and judgement"
+      ]
+    },
+    {
+      "text": "What would you disclose first if the goal were to skip the performance and meet honestly?",
+      "format": "Question",
+      "relatedThemes": [
+        "honest introductions"
+      ]
+    },
+    {
+      "text": "A new person says, 'Trust me,' before giving you any reason to. What would you need to see next?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "trust signals"
+      ]
+    }
+  ]
+}
