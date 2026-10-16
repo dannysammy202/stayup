@@ -1,0 +1,357 @@
+{
+  "topic": "Relationships",
+  "mood": "Flirty",
+  "audience": "Partner",
+  "prompts": [
+    {
+      "text": "Which look from me still makes you stop mid-sentence?",
+      "format": "Question",
+      "relatedThemes": [
+        "attraction"
+      ]
+    },
+    {
+      "text": "We have one unexpected hour together before a busy week. Where are you taking us?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "quality time"
+      ]
+    },
+    {
+      "text": "A playful message during a long meeting or a surprise dessert waiting at home?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "thoughtful surprises"
+      ]
+    },
+    {
+      "text": "Flirting should never stop simply because two people know each other well. Agree?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "long-term romance"
+      ]
+    },
+    {
+      "text": "Tell me about a moment between us that still makes you grin when nobody is watching.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "shared memories"
+      ]
+    },
+    {
+      "text": "What tiny thing do I do that makes you feel pursued all over again?",
+      "format": "Question",
+      "relatedThemes": [
+        "affection"
+      ]
+    },
+    {
+      "text": "We decide to recreate our first date, but one detail has to change. What are you changing?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "date memories"
+      ]
+    },
+    {
+      "text": "A familiar smile across a crowded room still feels like a private conversation. Do you get the same feeling?",
+      "format": "Observation",
+      "relatedThemes": [
+        "connection"
+      ]
+    },
+    {
+      "text": "A dress-up date somewhere new or an evening dancing badly in our living room?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "shared fun"
+      ]
+    },
+    {
+      "text": "Which compliment from me would you like to hear more often?",
+      "format": "Question",
+      "relatedThemes": [
+        "affirmation"
+      ]
+    },
+    {
+      "text": "You get to plan a surprise without spending money. What's your opening move?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "creativity"
+      ]
+    },
+    {
+      "text": "What's the funniest time one of us tried to act smooth and failed completely?",
+      "format": "Story starter",
+      "relatedThemes": [
+        "playfulness"
+      ]
+    },
+    {
+      "text": "What part of our ordinary routine deserves a little more romance?",
+      "format": "Question",
+      "relatedThemes": [
+        "daily rituals"
+      ]
+    },
+    {
+      "text": "Keeping a little anticipation in a relationship makes everyday plans more fun. What's your view?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "anticipation"
+      ]
+    },
+    {
+      "text": "A slow breakfast together or a late-night drive with our favourite songs?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "time together"
+      ]
+    },
+    {
+      "text": "We each write three clues for a mystery date. What would your first clue say?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "surprise date"
+      ]
+    },
+    {
+      "text": "What makes you feel most noticed when we're out together?",
+      "format": "Question",
+      "relatedThemes": [
+        "attention"
+      ]
+    },
+    {
+      "text": "Which inside joke of ours would make absolutely no sense to anyone else?",
+      "format": "Story starter",
+      "relatedThemes": [
+        "inside jokes"
+      ]
+    },
+    {
+      "text": "It's funny how the same old nickname starts sounding sweeter after a long day apart. True?",
+      "format": "Observation",
+      "relatedThemes": [
+        "nicknames"
+      ]
+    },
+    {
+      "text": "How do you like me to remind you I still have a crush on you?",
+      "format": "Question",
+      "relatedThemes": [
+        "romantic signals"
+      ]
+    },
+    {
+      "text": "Stealing a dance while cooking or sharing a sofa and rating terrible films?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "lighthearted love"
+      ]
+    },
+    {
+      "text": "We swap roles and plan a date in each other's style. What surprise would I find?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "understanding"
+      ]
+    },
+    {
+      "text": "Which picture of us tells a story our friends don't know?",
+      "format": "Question",
+      "relatedThemes": [
+        "private memories"
+      ]
+    },
+    {
+      "text": "A couple who laugh at themselves have a better time on dates than a couple chasing perfection. Agree?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "humour"
+      ]
+    },
+    {
+      "text": "I'm having a long day and you have five minutes to cheer me up. What do you do?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "care"
+      ]
+    },
+    {
+      "text": "When did I surprise you by being more thoughtful or silly than you expected?",
+      "format": "Story starter",
+      "relatedThemes": [
+        "appreciation"
+      ]
+    },
+    {
+      "text": "What's something romantic you've always wanted us to try on an ordinary weekday?",
+      "format": "Question",
+      "relatedThemes": [
+        "small adventures"
+      ]
+    },
+    {
+      "text": "Leaving an unexpected note in my pocket or sending me a private playlist?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "love notes"
+      ]
+    },
+    {
+      "text": "A partner knowing your exact food order is a quiet kind of flirtation. Does it count?",
+      "format": "Observation",
+      "relatedThemes": [
+        "familiarity"
+      ]
+    },
+    {
+      "text": "We must pick an entirely new hobby for two weekends. What are you signing us up for?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "learning together"
+      ]
+    },
+    {
+      "text": "What's the most attractive part of how we handle disagreements?",
+      "format": "Question",
+      "relatedThemes": [
+        "emotional maturity"
+      ]
+    },
+    {
+      "text": "Little moments of intentional eye contact deserve more credit in long relationships. Do you agree?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "nonverbal affection"
+      ]
+    },
+    {
+      "text": "Tell me about a time we turned a boring errand into a date without planning to.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "spontaneity"
+      ]
+    },
+    {
+      "text": "Our own made-up handshake or a secret code for 'meet me outside'?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "private traditions"
+      ]
+    },
+    {
+      "text": "What's the kindest way to interrupt me when I'm taking life too seriously?",
+      "format": "Question",
+      "relatedThemes": [
+        "reassurance"
+      ]
+    },
+    {
+      "text": "You choose one song as the soundtrack to a night we'll remember. What's playing?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "music connection"
+      ]
+    },
+    {
+      "text": "Sometimes sitting next to each other doing separate things feels surprisingly close. Romantic or not?",
+      "format": "Observation",
+      "relatedThemes": [
+        "comfortable company"
+      ]
+    },
+    {
+      "text": "What would make you feel celebrated on a day with no special occasion?",
+      "format": "Question",
+      "relatedThemes": [
+        "celebration"
+      ]
+    },
+    {
+      "text": "A surprise lunch delivery or a handwritten invitation to a simple evening out?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "romantic gestures"
+      ]
+    },
+    {
+      "text": "We get lost somewhere new with an empty afternoon. Who takes charge, and who gets distracted?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "travelling together"
+      ]
+    },
+    {
+      "text": "Which small act of affection from our early days would you like us to bring back?",
+      "format": "Story starter",
+      "relatedThemes": [
+        "relationship history"
+      ]
+    },
+    {
+      "text": "What's a playful challenge you'd love to win against me?",
+      "format": "Question",
+      "relatedThemes": [
+        "friendly competition"
+      ]
+    },
+    {
+      "text": "Sometimes the most romantic answer is, 'I already took care of it.' Agree or disagree?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "acts of service"
+      ]
+    },
+    {
+      "text": "You have to introduce me as a character in a romantic comedy. What's my entrance scene?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "imagination"
+      ]
+    },
+    {
+      "text": "Which part of our future together makes you smile even when you haven't told me?",
+      "format": "Question",
+      "relatedThemes": [
+        "shared future"
+      ]
+    },
+    {
+      "text": "Two tickets to something neither of us understands or dinner at our familiar favourite place?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "adventure"
+      ]
+    },
+    {
+      "text": "The way a couple greet each other after a short trip often says more than their holiday photos. Thoughts?",
+      "format": "Observation",
+      "relatedThemes": [
+        "reunions"
+      ]
+    },
+    {
+      "text": "What is one ordinary conversation with me you wish you'd recorded because it made you laugh so hard?",
+      "format": "Story starter",
+      "relatedThemes": [
+        "shared humour"
+      ]
+    },
+    {
+      "text": "We're playing a game where every answer earns us a date idea. What's the first question you ask?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "date games"
+      ]
+    },
+    {
+      "text": "What should we do this month to make our relationship feel a little more playful?",
+      "format": "Question",
+      "relatedThemes": [
+        "reconnecting"
+      ]
+    }
+  ]
+}
