@@ -1,0 +1,13 @@
+{
+  "targetActive": 34800,
+  "eligibleCombinations": 696,
+  "excludedCombinations": 102,
+  "activePerEligibleCombination": 50,
+  "existingStaged": 2600,
+  "draftCandidateSelected": 32200,
+  "physicalPublished": 44450,
+  "archivedPreserved": 9650,
+  "reviewProvenance": "New 32,200 records selected using machine-based scoring from user-supplied 100,000-starter draft; not individually human-reviewed. Human approval pending.",
+  "deployment": "NOT LIVE until GitHub main and Vercel production verified",
+  "createdAt": "2026-10-16"
+}
