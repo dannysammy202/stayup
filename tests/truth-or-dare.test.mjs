@@ -63,7 +63,8 @@ test('game loads banks before generator, isolates audience/mode and preserves na
  assert.ok(html.includes("menuItem('shuffle','Truth or Dare','truthordare')"));
  assert.ok(html.includes("mobileItem('shuffle','Play','truthordare')"));
  assert.ok(html.includes('truthordare:todView'));
- assert.ok(html.includes('data-tod-medium'));\n assert.ok(html.includes('data-tod-audience'));
+ assert.ok(html.includes('data-tod-medium'));
+ assert.ok(html.includes('data-tod-audience'));
  assert.ok(html.includes('data-tod-level'));
  assert.ok(html.includes('data-tod-type'));
  assert.ok(css.includes('grid-template-columns:repeat(6'));
