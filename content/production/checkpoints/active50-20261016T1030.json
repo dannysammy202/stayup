@@ -1,0 +1,31 @@
+{
+  "policy": "active50",
+  "targetActiveCount": 34800,
+  "targetPerEligibleCombination": 50,
+  "eligibleCombinations": 696,
+  "excludedCombinations": 102,
+  "baseProduction": {
+    "commitSha": "08700bacca966574feadd1b5888c350fe2fd7439",
+    "deploymentId": "dpl_4uUZTRU5xqwUhXYqTfoUK3ACKBtM",
+    "publishedCount": 12150,
+    "activeCount": 2500,
+    "archivedCount": 9650,
+    "remainingToTarget": 32300
+  },
+  "candidate": {
+    "branch": "content/relationships-bold-2x50-20261016-1030",
+    "publishedHeadSha": "45e87d4a1bb157859560935e3a98b0220c345f1e",
+    "publishedCount": 12250,
+    "activeCount": 2600,
+    "archivedCount": 9650,
+    "remainingToTarget": 32200,
+    "completedCombinations": [
+      "Relationships / Bold / Someone new",
+      "Relationships / Bold / Friends"
+    ],
+    "nextMissingCombination": "Relationships / Bold / Crush / Talking stage",
+    "editorialStatus": "screened_pending_editorial_review",
+    "humanReviewed": false,
+    "verificationStatus": "preview_pending"
+  }
+}
