@@ -15,7 +15,7 @@ const pick={
  ]
 };
 test('publisher creates sequential stable IDs and a valid local shard for an eligible combination',()=>{
- const result=prepareContentBatch(pick,manifest,published);
+ const result=prepareContentBatch(pick,fixtureManifest,published);
  assert.equal(result.records.length,2);
  assert.equal(result.from,manifest.publishedCount+1);
  assert.equal(result.to,manifest.publishedCount+2);
@@ -31,12 +31,12 @@ test('publisher rejects excluded combinations without trying to reinterpret them
 });
 test('publisher rejects duplicate ideas, weak placeholders and overlong batches',()=>{
  const old=published[0].text;
- assert.throws(()=>prepareContentBatch({...pick,prompts:[{text:old,format:'Question'}]},manifest,published),/Duplicate prompt/);
- assert.throws(()=>prepareContentBatch({...pick,prompts:[{text:'Placeholder question 5 - insert question here',format:'Question'}]},manifest,published),/Placeholder detected/);
- assert.throws(()=>prepareContentBatch({...pick,prompts:Array.from({length:201},(_,i)=>({text:'Could our next proper conversation revolve around a different film and its ending '+i+'?',format:'Question'}))},manifest,published),/Collection must contain/);
+ assert.throws(()=>prepareContentBatch({...pick,prompts:[{text:old,format:'Question'}]},fixtureManifest,published),/Duplicate prompt/);
+ assert.throws(()=>prepareContentBatch({...pick,prompts:[{text:'Placeholder question 5 - insert question here',format:'Question'}]},fixtureManifest,published),/Placeholder detected/);
+ assert.throws(()=>prepareContentBatch({...pick,prompts:Array.from({length:201},(_,i)=>({text:'Could our next proper conversation revolve around a different film and its ending '+i+'?',format:'Question'}))},fixtureManifest,published),/Collection must contain/);
 });
 test('publisher does not mark machine-authored content as independently human approved',()=>{
- const result=prepareContentBatch(pick,manifest,published);
+ const result=prepareContentBatch(pick,fixtureManifest,published);
  assert.equal(result.records.every(p=>p.editorialStatus!=='approved'&&p.humanReviewed===false),true);
  assert.equal(result.records.every(p=>p.source==='published-library'),true);
  assert.equal(result.records.every(p=>/human approval/.test(p.reviewMethod)),true);

@@ -8,13 +8,13 @@ import {checkFullReleaseCounts} from '../scripts/check-full-release.mjs';
 
 test('preparation accepts 50 authored entries and rejects 51 for each new eligible combination',()=>{
  const manifest=JSON.parse(readFileSync('public/library-data/manifest.json'));
- const slot=manifest.combinations.find(c=>c.eligible&&c.published===0);
+ const reference=manifest.combinations.find(c=>c.eligible&&c.published===50);\n const slot={...reference,published:0,active:0};\n const testManifest={...manifest,combinations:[slot]};
  const prompts=Array.from({length:50},(_,i)=>({text:'A distinctive editorial fixture '+i+' for testing removal of the old arbitrary processing limit.',format:'Question'}));
  // The fixture deliberately bypasses lexical similarity: short token sets exercise size accounting only.
  for(let i=0;i<prompts.length;i++)prompts[i].text='Unique '+String(i)+' abc def ghi jkl mno pqr stu vwx.';
- const prepared=prepareContentBatch({...slot,prompts},manifest,[]);
+ const prepared=prepareContentBatch({...slot,prompts},testManifest,[]);
  assert.equal(prepared.records.length,50);
- assert.throws(()=>prepareContentBatch({...slot,prompts:[...prompts,{text:'Unique 51 abc def ghi jkl mno pqr stu vwx.',format:'Question'}]},manifest,[]),/current combination target/);
+ assert.throws(()=>prepareContentBatch({...slot,prompts:[...prompts,{text:'Unique 51 abc def ghi jkl mno pqr stu vwx.',format:'Question'}]},testManifest,[]),/current combination target/);
  const hash=s=>createHash('sha256').update(s).digest('hex');
  const batch={prompts};const bytes=Buffer.from('{}');
  const retrieval={baselineManifestSha256:hash(bytes),rows:prompts.map(p=>({textSha256:hash(p.text)}))};
