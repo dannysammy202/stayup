@@ -1,0 +1,50 @@
+/* Truth or Dare. Say More's custom controls and Iconsax symbols only. */
+.tod-wrap{max-width:900px;margin:0 auto;padding-bottom:45px}
+.tod-hero{background:#233D30;color:#F8F7F3;position:relative;overflow:hidden;border-radius:28px;padding:34px 36px 38px;min-height:205px}
+.tod-hero:after{content:"";position:absolute;right:-72px;bottom:-130px;width:290px;height:290px;border:1px solid rgba(220,239,155,.29);border-radius:50%;pointer-events:none;box-shadow:0 0 0 34px rgba(220,239,155,.04),0 0 0 70px rgba(220,239,155,.03)}
+.tod-hero .tod-overline{font-size:10px;font-weight:800;letter-spacing:1.8px;color:#DBEBB2}
+.tod-hero h1{font:normal clamp(39px,4.8vw,58px)/1.05 Georgia,serif;letter-spacing:-2px;margin:16px 0 12px;max-width:570px}
+.tod-hero h1 em{color:#DCEF9B}
+.tod-hero p{font-size:13px;line-height:1.65;color:#DEE5DC;max-width:440px;margin:0}
+.tod-section{margin-top:25px}
+.tod-section h2{font-size:16px;font-weight:750;letter-spacing:-.3px;margin:0 0 5px}
+.tod-section p{font-size:12px;color:#777D74;line-height:1.6;margin:0 0 13px}
+.tod-choice-row{display:flex;flex-wrap:wrap;gap:8px}
+.tod-chip{border:1px solid #DADFD5;background:#fff;color:#525E52;border-radius:999px;min-height:40px;padding:10px 14px;font-size:12px;font-weight:700;transition:background .15s,border-color .15s}
+.tod-chip.selected{background:#2A4535;color:#fff;border-color:#2A4535}
+.tod-chip:focus-visible,.tod-type:focus-visible,.tod-action:focus-visible{outline:3px solid #8CAD74;outline-offset:3px}
+.tod-section-sub{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.tod-section-sub .tod-round{color:#6B7C68;font-size:11px;font-weight:700}
+.tod-types{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:23px}
+.tod-type{border:1px solid #E4E0D8;border-radius:22px;text-align:left;padding:22px 23px;display:flex;min-height:156px;flex-direction:column;align-items:flex-start;justify-content:space-between;gap:20px}
+.tod-type.truth{background:#F6E5D8;color:#3B3831}
+.tod-type.dare{background:#E6EDC8;color:#243B2C}
+.tod-type .tod-type-top{display:flex;justify-content:space-between;align-items:center;width:100%}
+.tod-type svg{width:25px;height:25px}
+.tod-type strong{display:block;font:normal 29px/1 Georgia,serif;letter-spacing:-.4px}
+.tod-type small{display:block;font-size:12px;color:#687267;margin-top:7px;font-weight:600}
+.tod-card{border:1px solid #DFE4D6;background:#fff;border-radius:24px;padding:27px 29px;margin-top:18px;min-height:280px;display:flex;flex-direction:column;justify-content:space-between;gap:18px}
+.tod-card.truth{background:#FFF9F3;border-color:#ECDDD1}
+.tod-card.dare{background:#F4F8E9;border-color:#D8E2BA}
+.tod-card-meta{display:flex;justify-content:space-between;align-items:center;gap:15px;font-size:10px;font-weight:800;letter-spacing:1.2px;color:#60755E}
+.tod-card-meta span:first-child{display:inline-flex;align-items:center;gap:8px}
+.tod-card-meta svg{width:17px;height:17px}
+.tod-card h2{font:normal clamp(25px,3vw,39px)/1.2 Georgia,serif;letter-spacing:-.75px;margin:5px 0;overflow-wrap:break-word}
+.tod-card-footer{display:flex;justify-content:space-between;gap:16px;align-items:center;flex-wrap:wrap}
+.tod-card-footer span{font-size:11px;color:#69766C}
+.tod-actions{display:flex;gap:9px;flex-wrap:wrap}
+.tod-action{min-height:42px;padding:11px 15px;background:#fff;border:1px solid #D8DFD2;color:#344A38;border-radius:12px;display:inline-flex;align-items:center;justify-content:center;gap:8px;font-size:12px;font-weight:750}
+.tod-action svg{width:17px;height:17px}
+.tod-action.primary{background:#2F503B;border-color:#2F503B;color:#fff}
+.tod-action:disabled{opacity:.4}
+.tod-rules{display:flex;gap:10px;align-items:flex-start;margin-top:20px;padding:15px 17px;border:1px solid #E5E7DF;background:#F8F9F5;border-radius:14px}
+.tod-rules svg{width:18px;height:18px;color:#66826E}
+.tod-rules p{font-size:12px;line-height:1.65;color:#657066;margin:0}
+.tod-adult-note{margin-top:16px;border-radius:15px;padding:16px;background:#F1E9EF;color:#66546A;display:flex;align-items:center;justify-content:space-between;gap:10px;font-size:12px}
+.tod-adult-note button{border:0;background:transparent;color:#514057;font-size:12px;font-weight:800;display:inline-flex;align-items:center;gap:5px;white-space:nowrap}
+.tod-adult-note button svg{width:15px;height:15px}
+.tod-empty{margin-top:20px;border:1px dashed #D4DAD0;background:#FFF;border-radius:16px;padding:25px;font-size:13px;line-height:1.6;color:#607066}
+.mobile-nav{grid-template-columns:repeat(6,minmax(0,1fr))}
+@media(max-width:780px){.mobile-nav{grid-template-columns:repeat(6,minmax(0,1fr))}.mobile-nav button{font-size:9px;gap:4px;min-width:0}.mobile-nav button svg{width:20px;height:20px}}
+@media(max-width:520px){.tod-hero{padding:26px 23px 30px;min-height:198px;border-radius:23px}.tod-hero h1{font-size:42px}.tod-section{margin-top:22px}.tod-chip{padding:9px 12px;font-size:11px;min-height:39px}.tod-types{gap:10px}.tod-type{padding:17px;min-height:137px;border-radius:17px}.tod-type strong{font-size:25px}.tod-type small{font-size:11px}.tod-card{padding:22px 20px;min-height:260px}.tod-card h2{font-size:28px}.tod-actions{width:100%}.tod-action{flex:1;min-width:0;padding:11px}.tod-adult-note{flex-direction:column;align-items:flex-start}.mobile-nav button{font-size:9px}.mobile-nav{padding-left:2px;padding-right:2px}}
+@media(max-width:360px){.tod-type{padding:14px;min-height:129px}.tod-type strong{font-size:23px}.tod-card h2{font-size:25px}.mobile-nav button{font-size:8px}.mobile-nav button svg{width:18px;height:18px}}
