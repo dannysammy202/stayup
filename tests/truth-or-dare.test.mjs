@@ -5,54 +5,70 @@ import {Script,runInNewContext} from 'node:vm';
 
 const html=readFileSync('public/index.html','utf8');
 const css=readFileSync('public/truth-or-dare.css','utf8');
-const dataset=readFileSync('public/truth-or-dare-data.js','utf8');
+const sources=['tod-truth-banks.js','tod-dare-banks.js','truth-or-dare-data.js'];
 const sandbox={window:{}};
-runInNewContext(dataset,sandbox);
+for(const name of sources)runInNewContext(readFileSync('public/'+name,'utf8'),sandbox);
 const cards=Array.from(sandbox.window.SayMoreTruthOrDare);
 const audiences=['Anyone','Someone new','Friends','Crush / Talking stage','Partner','Family','Group'];
 const levels=['Chill','Playful','Bold'];
-const normalize=s=>s.toLowerCase().replace(/[^\p{L}\p{N}]+/gu,' ').trim();
+const normalise=s=>s.toLowerCase().replace(/[^\p{L}\p{N}]+/gu,' ').trim();
 
-test('184 original cards, even Truth/Dare split and no duplicates',()=>{
- assert.equal(cards.length,184);
- assert.equal(cards.filter(x=>x.type==='Truth').length,92);
- assert.equal(cards.filter(x=>x.type==='Dare').length,92);
- assert.equal(new Set(cards.map(x=>x.id)).size,cards.length);
- assert.equal(new Set(cards.map(x=>normalize(x.text))).size,cards.length);
+test('8,400 cards split evenly between modes and types, without exact duplicates',()=>{
+ assert.equal(cards.length,8400);
+ assert.equal(cards.filter(c=>!c.adult).length,4200);
+ assert.equal(cards.filter(c=>c.adult).length,4200);
+ assert.equal(cards.filter(c=>c.type==='Truth').length,4200);
+ assert.equal(cards.filter(c=>c.type==='Dare').length,4200);
+ assert.equal(new Set(cards.map(c=>c.id)).size,8400);
+ assert.equal(new Set(cards.map(c=>normalise(c.text))).size,8400);
+ assert.equal(sandbox.window.SayMoreTruthOrDareSummary.total,8400);
+});
+test('100 Truths and 100 Dares in each of all 42 audience/level/mode selections',()=>{
+ for(const adult of [false,true])for(const audience of audiences)for(const level of levels){
+  const pool=cards.filter(c=>c.adult===adult&&c.audiences.length===1&&c.audiences[0]===audience&&c.level===level);
+  assert.equal(pool.length,200,[adult,audience,level].join('/'));
+  assert.equal(pool.filter(c=>c.type==='Truth').length,100);
+  assert.equal(pool.filter(c=>c.type==='Dare').length,100);
+ }
+});
+test('all dares work over text, voice note or voice call',()=>{
+ const acceptable=new Set(['text','text-game','voice-note','call']);
  for(const c of cards){
-  assert.match(c.id,/^tod-\d{3}$/);
-  assert.ok(['Truth','Dare'].includes(c.type));
-  assert.ok(typeof c.text==='string'&&c.text.length>=22&&c.text.length<=220);
+  assert.ok(c.id.startsWith('tod-'),c.id);
+  assert.ok(c.text.length>=35&&c.text.length<350,c.id+': '+c.text);
+  assert.ok(audiences.includes(c.audiences[0]));
   assert.ok(levels.includes(c.level));
-  assert.ok(c.audiences.every(a=>audiences.includes(a)));
-  assert.equal(typeof c.adult,'boolean');
+  assert.equal(c.humanReviewed,false);
+  assert.equal(c.editorialStatus,'screened_pending_editorial_review');
+  if(c.type==='Dare'){
+    assert.ok(acceptable.has(c.channel),c.id+': '+c.channel);
+    assert.match(c.text,/^(In |Send |On a call )/);
+    assert.doesNotMatch(c.text,/send (an? )?(intimate |nude |private )?(photo|picture|video)\b/i);
+    assert.doesNotMatch(c.text,/\b(post publicly|call a stranger|contact your ex|kiss someone|touch someone)\b/i);
+  }else assert.equal(c.channel,'conversation');
  }
 });
-test('all seven audiences and three levels have everyday Truth and Dare content',()=>{
- for(const audience of audiences)for(const level of levels)for(const type of ['Truth','Dare']){
-  const matching=cards.filter(c=>!c.adult&&c.type===type&&c.level===level&&(c.audiences.includes(audience)||c.audiences.includes('Anyone')));
-  assert.ok(matching.length>=4,`${audience}/${level}/${type} has ${matching.length} cards`);
- }
+test('family, group and general-audience 18+ cards avoid romantic physical dares',()=>{
+ const nonromantic=new Set(['Anyone','Someone new','Friends','Family','Group']);
+ const mature=cards.filter(c=>c.adult&&nonromantic.has(c.audiences[0]));
+ assert.equal(mature.length,5*3*2*100);
+ assert.ok(mature.every(c=>!(/\b(kiss|sext|undress|naked|touch your|sexual fantasy)\b/i.test(c.text))));
 });
-test('adult cards remain explicitly marked and use appropriate audiences',()=>{
- const adult=cards.filter(c=>c.adult);
- assert.equal(adult.length,16);
- assert.ok(adult.every(c=>c.level==='Bold'&&c.audiences.every(a=>['Partner','Crush / Talking stage'].includes(a))));
- assert.ok(cards.some(c=>!c.adult));
-});
-test('game is present in desktop and mobile navigation without changing catalogue',()=>{
+test('game loads banks before generator, isolates audience/mode and preserves navigation',()=>{
+ const a=html.indexOf('/tod-truth-banks.js');
+ const b=html.indexOf('/tod-dare-banks.js');
+ const c=html.indexOf('/truth-or-dare-data.js');
+ assert.ok(a>=0&&b>a&&c>b);
+ assert.ok(html.includes("c.audiences.includes(todState.audience)&&c.level===todState.level&&c.adult===state.adult"));
  assert.ok(html.includes("menuItem('shuffle','Truth or Dare','truthordare')"));
  assert.ok(html.includes("mobileItem('shuffle','Play','truthordare')"));
  assert.ok(html.includes('truthordare:todView'));
  assert.ok(html.includes('data-tod-audience'));
  assert.ok(html.includes('data-tod-level'));
  assert.ok(html.includes('data-tod-type'));
- assert.ok(html.includes("!c.adult||state.adult"));
- assert.ok(html.includes('/truth-or-dare.css'));
- assert.ok(html.includes('/truth-or-dare-data.js'));
  assert.ok(css.includes('grid-template-columns:repeat(6'));
 });
-test('application inline script compiles',()=>{
+test('inline application script remains syntactically valid',()=>{
  const match=html.match(/<script>([\s\S]*?)<\/script>/);
  assert.ok(match);
  assert.doesNotThrow(()=>new Script(match[1]));
