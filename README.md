@@ -16,7 +16,7 @@ The manifest separates `publishedCount` (all real entries), `coverageCount` (up 
 
 The curated catalogue ships as local JSON shards under `public/library-data/`. The client loads a maximum of eight relevant shards at a time, supporting incremental browsing and stable saved/history IDs. No user import or runtime Gemini generation fills the curated catalogue.
 
-Write individually authored batches of at most 100 to `content/inbox/`. GitHub Actions publishes them and validates full-file counts, stable unique IDs, duplicate text, editorial provenance, eligible combinations, UI checks and build. Merge only passing content branches, deploy the exact commit to Vercel and verify production.
+Prepare the complete remaining library in staging, topic by topic, without a 100-entry cap or a deployment after each collection. Preserve individual editorial evidence and global uniqueness checks. Run catalogue validation, tests, build and the complete-release readiness gate, then publish one final GitHub/Vercel release and verify production. The user's latest physical publication goal is 139,100. The original coverage matrix remains separately recorded.
 
 Keep screened entries marked `screened_pending_editorial_review` until they receive individual human review. Never bulk reuse the old 100,000-draft source or generate superficial text permutations.
 

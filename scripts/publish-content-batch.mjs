@@ -24,8 +24,8 @@ export function prepareContentBatch(input, manifest, existing){
   fail('Input must contain an array of individually written prompts.');
  const cell=manifest.combinations.find(c=>c.topic===input.topic&&c.mood===input.mood&&c.audience===input.audience);
  if(!cell||!cell.eligible)fail('Selected combination is excluded or unknown.');
- if(input.prompts.length<1||input.prompts.length>Math.min(100,cell.target-cell.published))
-  fail('Batch must contain 1-100 starters and must not exceed the current combination target.');
+ if(input.prompts.length<1||input.prompts.length>cell.target-cell.published)
+  fail('Collection must contain at least one starter and must not exceed the current combination target.');
  const existingText=new Set(existing.map(p=>normalize(p.text))),existingIds=new Set(existing.map(p=>p.id));
  const localText=new Set(),candidates=[];
  const similar=existing.filter(p=>p.topic===input.topic&&p.moods?.[0]===input.mood&&p.audiences?.[0]===input.audience).map(p=>({id:p.id,tokens:tokens(p.text)}));
@@ -82,6 +82,7 @@ export function publishContentBatch(file,root='.'){
  }
  cell.published+=records.length;
  manifest.publishedCount+=records.length;
+ if(manifest.releaseGoalPublishedCount!==undefined)manifest.remainingToReleaseGoal=Math.max(0,manifest.releaseGoalPublishedCount-manifest.publishedCount);
  manifest.aiAuthoredScreenedCount+=records.length;
  manifest.publishedFiles.push(batch.filename);
  manifest.editorialStatus='in_progress';

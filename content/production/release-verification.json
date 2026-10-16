@@ -1,20 +1,14 @@
 {
-  "verifiedAt": "2026-10-15T22:40:35.862198+00:00",
+  "verifiedAt": "2026-10-15T22:57:58.562144+00:00",
   "alias": "say-more.vercel.app",
   "projectId": "prj_NjmBrm6o2JyULFIBv2wp79y4o7pV",
   "teamId": "team_e7bbCZisElJ1KfHReVa7E7jj",
-  "deploymentId": "dpl_8sZTKthPM6qkG7sgVpm29GNt56hH",
+  "deploymentId": "dpl_DRoJWVCtoM1jnr2akEvSc9a26qg6",
   "productionState": "READY",
-  "productionCommitSha": "f3876623238c9e4530f72080050449ad3bdb77bf",
-  "githubMainSha": "f3876623238c9e4530f72080050449ad3bdb77bf",
-  "metadataSource": "Authenticated Vercel alias verification plus GitHub main. Public tree unchanged from 6452168; final live manifest byte comparison also passed.",
+  "productionCommitSha": "01c1017b22cdf6563f75bf180721b23122211945",
+  "githubMainSha": "01c1017b22cdf6563f75bf180721b23122211945",
+  "metadataSource": "Authenticated Vercel READY alias and GitHub main, exact public manifest/new shard byte comparisons. Other public file hashes unchanged.",
   "files": [
-    {
-      "path": "library-data/manifest.json",
-      "matches": true,
-      "sha256": "3244921cc50873c106b4e43050a0d88fe356f5c50a88e3f15cb3f6cbe14a50f2",
-      "bytes": 104803
-    },
     {
       "path": "index.html",
       "matches": true,
@@ -674,6 +668,18 @@
       "matches": true,
       "sha256": "f52b9cd3a8382d884540e6eb60b2bd805dc04e31974493ba59f14fb1f98b74c1",
       "bytes": 50719
+    },
+    {
+      "path": "library-data/manifest.json",
+      "matches": true,
+      "sha256": "81a9916435293b887d2a98450603f8db0ef7f4cfee47054a184edc3596085c23",
+      "bytes": 105275
+    },
+    {
+      "path": "library-data/relationships-curious-family-10101-10200.json",
+      "matches": true,
+      "sha256": "05ecb7cd113430e6d7932b5416fe890f9e362acfd24085100c04dc6ae2a1b6d0",
+      "bytes": 96459
     }
   ],
   "allFilesMatch": true,

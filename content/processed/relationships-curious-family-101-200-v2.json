@@ -1,0 +1,407 @@
+{
+  "topic": "Relationships",
+  "mood": "Curious",
+  "audience": "Family",
+  "prompts": [
+    {
+      "text": "What do you learn about a relative from the way they treat somebody who cannot do anything for them?",
+      "format": "Question"
+    },
+    {
+      "text": "A family member changes their name. How would you help the rest of us get used to using it?",
+      "format": "Scenario"
+    },
+    {
+      "text": "Tell us about a family disagreement where discovering one missing fact changed the whole conversation.",
+      "format": "Story starter"
+    },
+    {
+      "text": "Which relative would you ask to help you write a difficult message, and why?",
+      "format": "Question"
+    },
+    {
+      "text": "Make a joint decision through a group discussion or hear each person's view privately first?",
+      "format": "Quick choice"
+    },
+    {
+      "text": "Somebody often becomes the family messenger without choosing the job. How do we make sure news reaches people directly?",
+      "format": "Observation"
+    },
+    {
+      "text": "How do you tell the difference between somebody being private and somebody feeling left out?",
+      "format": "Question"
+    },
+    {
+      "text": "Living nearby does not automatically make someone responsible for every family errand. How should we share the load?",
+      "format": "Hot take"
+    },
+    {
+      "text": "Which relative has taught you the value of doing a job at a slower pace?",
+      "format": "Question"
+    },
+    {
+      "text": "Two households in our family have different rules for children. What should visitors ask before offering advice?",
+      "format": "Scenario"
+    },
+    {
+      "text": "What kind of update would you like to receive directly rather than through another relative?",
+      "format": "Question"
+    },
+    {
+      "text": "Describe a moment when a relative defended your right to choose without agreeing with your choice.",
+      "format": "Story starter"
+    },
+    {
+      "text": "Who do you enjoy celebrating for a small achievement other people might overlook?",
+      "format": "Question"
+    },
+    {
+      "text": "Ask how a decision feels or ask what practical help would make it easier?",
+      "format": "Quick choice"
+    },
+    {
+      "text": "What have you learnt from a relative who does not share your faith or beliefs?",
+      "format": "Question"
+    },
+    {
+      "text": "An offer to host sometimes becomes an expectation to host forever. How would we notice when somebody wants a break?",
+      "format": "Observation"
+    },
+    {
+      "text": "An older relative asks a younger one for help with a phone, then worries about being a nuisance. What response would feel reassuring?",
+      "format": "Scenario"
+    },
+    {
+      "text": "What makes a family introduction feel warm without sharing too much about the person?",
+      "format": "Question"
+    },
+    {
+      "text": "Tell us about a time you discovered a relative was nervous about something you assumed they found easy.",
+      "format": "Story starter"
+    },
+    {
+      "text": "Which relative has influenced how you treat people outside the family?",
+      "format": "Question"
+    },
+    {
+      "text": "Trying to be fair does not always mean treating every relative identically. What difference in needs do you wish we understood better?",
+      "format": "Hot take"
+    },
+    {
+      "text": "What would you like us to stop assuming about the amount of free time you have?",
+      "format": "Question"
+    },
+    {
+      "text": "A relative shares a view in a group chat which seems unlike them. How would you check whether you understood it properly?",
+      "format": "Scenario"
+    },
+    {
+      "text": "How do you like people to acknowledge a favour after you have helped them?",
+      "format": "Question"
+    },
+    {
+      "text": "Offer a relative two ways to help or ask them to name a task they would willingly take on?",
+      "format": "Quick choice"
+    },
+    {
+      "text": "What helps you trust a relative with an unfinished idea?",
+      "format": "Question"
+    },
+    {
+      "text": "Describe a time an unfamiliar family member became familiar through regular brief encounters.",
+      "format": "Story starter"
+    },
+    {
+      "text": "Which relative has surprised you by remembering someone else's important date?",
+      "format": "Question"
+    },
+    {
+      "text": "We often know who keeps the family running but rarely ask what support they need. Who should we ask today?",
+      "format": "Observation"
+    },
+    {
+      "text": "A family member brings a dietary restriction we have never catered for. What would you ask before planning their meal?",
+      "format": "Scenario"
+    },
+    {
+      "text": "Which relative would you like to hear explain a decision you once found puzzling?",
+      "format": "Question"
+    },
+    {
+      "text": "Which relative is good at turning a practical question into a conversation you did not expect?",
+      "format": "Question"
+    },
+    {
+      "text": "Receive a check-in before a stressful appointment or have someone call after it is over?",
+      "format": "Quick choice"
+    },
+    {
+      "text": "What do you pick up from a relative's gestures which you might miss over the phone?",
+      "format": "Question"
+    },
+    {
+      "text": "Tell us about a moment when two relatives quietly worked together without needing anyone to direct them.",
+      "format": "Story starter"
+    },
+    {
+      "text": "Somebody wants to share a family photograph publicly, but one person prefers to stay offline. How would we include everyone in the decision?",
+      "format": "Scenario"
+    },
+    {
+      "text": "Who in the family gives praise you find easy to believe?",
+      "format": "Question"
+    },
+    {
+      "text": "A family member does not have to turn every skill into a service for everyone. How do we respect a hobby they want to keep personal?",
+      "format": "Hot take"
+    },
+    {
+      "text": "How have your conversations with cousins changed since you stopped seeing one another through school holidays?",
+      "format": "Question"
+    },
+    {
+      "text": "What do you wish people understood about your relationship with a relative they find difficult?",
+      "format": "Question"
+    },
+    {
+      "text": "Our youngest relatives see adults in roles we barely notice anymore. What have they noticed about us?",
+      "format": "Observation"
+    },
+    {
+      "text": "We disagree about whether a family occasion should be small or open to everyone. What should we decide before making a guest list?",
+      "format": "Scenario"
+    },
+    {
+      "text": "Describe a time someone from outside the family helped you appreciate a relative's kindness.",
+      "format": "Story starter"
+    },
+    {
+      "text": "Which relative would you trust to tell you when you have misunderstood somebody?",
+      "format": "Question"
+    },
+    {
+      "text": "Share one concern before a family trip or agree on a way to raise concerns during it?",
+      "format": "Quick choice"
+    },
+    {
+      "text": "How do you prefer us to respond when a plan you were proud of does not work out?",
+      "format": "Question"
+    },
+    {
+      "text": "A repeated compliment sometimes turns into pressure to stay the same. Has a label ever felt limiting to you?",
+      "format": "Hot take"
+    },
+    {
+      "text": "What would you like a relative to ask before signing you up for an activity on your behalf?",
+      "format": "Question"
+    },
+    {
+      "text": "A family member returns from abroad and everyone asks for gifts before asking about their life. How would you change the welcome?",
+      "format": "Scenario"
+    },
+    {
+      "text": "Which relative would you like to hear speak about something other than their usual area of expertise?",
+      "format": "Question"
+    },
+    {
+      "text": "Tell us about an unexpected bond between two relatives who rarely meet.",
+      "format": "Story starter"
+    },
+    {
+      "text": "What do you appreciate about a relative's partner which has nothing to do with how well they fit our routines?",
+      "format": "Question"
+    },
+    {
+      "text": "Some relatives keep photographs, while others remember names or dates. How do these different kinds of remembering help us understand one another?",
+      "format": "Observation"
+    },
+    {
+      "text": "Ask a relative to explain a joke you missed or ask them to tell you what made it funny at the time?",
+      "format": "Quick choice"
+    },
+    {
+      "text": "Who would you ask for an honest account of how you behave when you are tired?",
+      "format": "Question"
+    },
+    {
+      "text": "A relative has moved into their own home and wants to set new visiting routines. Which details should we ask them to choose?",
+      "format": "Scenario"
+    },
+    {
+      "text": "Which part of a relative's personality becomes clearer when they teach somebody?",
+      "format": "Question"
+    },
+    {
+      "text": "Describe a time a relative's short answer made sense once you heard what their day had involved.",
+      "format": "Story starter"
+    },
+    {
+      "text": "What helps relatives of different ages enjoy a conversation without turning it into a lesson?",
+      "format": "Question"
+    },
+    {
+      "text": "Checking whether help is wanted takes less effort than repairing resentment later. What sort of help should always start with a question?",
+      "format": "Hot take"
+    },
+    {
+      "text": "Which relative notices when somebody else deserves credit?",
+      "format": "Question"
+    },
+    {
+      "text": "Our family collects contributions for a gift, and some people want to give less. How would you keep their choices private?",
+      "format": "Scenario"
+    },
+    {
+      "text": "Discuss an awkward subject while doing something side by side or sit down with no other activity?",
+      "format": "Quick choice"
+    },
+    {
+      "text": "Who in the family has helped you take somebody else's worries seriously?",
+      "format": "Question"
+    },
+    {
+      "text": "The relative everyone calls dependable sometimes needs permission to be uncertain. How do we make room for their questions?",
+      "format": "Observation"
+    },
+    {
+      "text": "Tell us about seeing a relative refuse an advantage because it would have been unfair to someone else.",
+      "format": "Story starter"
+    },
+    {
+      "text": "What do you like about a relative's way of bringing a conversation to an end?",
+      "format": "Question"
+    },
+    {
+      "text": "A sibling says they would like a relationship which involves more than sorting out family tasks. What might you suggest doing together?",
+      "format": "Scenario"
+    },
+    {
+      "text": "How do we know whether advice from an elder reflects a preference or a firm expectation?",
+      "format": "Question"
+    },
+    {
+      "text": "Hear why a relative enjoys solitude or ask what makes company feel worthwhile to them?",
+      "format": "Quick choice"
+    },
+    {
+      "text": "Which relative would you invite to explain a family custom to a newcomer, and why?",
+      "format": "Question"
+    },
+    {
+      "text": "Being proud of a relative need not turn into speaking on their behalf. When should we let them tell their own story?",
+      "format": "Hot take"
+    },
+    {
+      "text": "Describe a family relationship which became easier when you stopped expecting identical reactions.",
+      "format": "Story starter"
+    },
+    {
+      "text": "What would help us ask about your progress without making you feel we are checking a deadline?",
+      "format": "Question"
+    },
+    {
+      "text": "A relative tells the same story twice during a visit. How would you work out whether they want company, an answer or simply an audience?",
+      "format": "Scenario"
+    },
+    {
+      "text": "Which relative has shown you a useful way to accept a compliment?",
+      "format": "Question"
+    },
+    {
+      "text": "Some family members ask for help indirectly because a direct request feels awkward. What signals do you notice?",
+      "format": "Observation"
+    },
+    {
+      "text": "Choose a family activity nobody has tried or let somebody introduce an activity they already love?",
+      "format": "Quick choice"
+    },
+    {
+      "text": "What helps you stay close to a sibling whose daily life differs from yours?",
+      "format": "Question"
+    },
+    {
+      "text": "Two relatives volunteer for the same task and both want to take charge. What would you ask before dividing the work?",
+      "format": "Scenario"
+    },
+    {
+      "text": "Tell us about a time a relative changed their approach after listening to you.",
+      "format": "Story starter"
+    },
+    {
+      "text": "Who in the family asks newcomers about interests before asking about their job?",
+      "format": "Question"
+    },
+    {
+      "text": "A family discussion does not need an agreed conclusion to feel worthwhile. What makes a difference of opinion worth hearing?",
+      "format": "Hot take"
+    },
+    {
+      "text": "Which relative would you ask to accompany you to an important conversation, and what support would you want from them?",
+      "format": "Question"
+    },
+    {
+      "text": "A young adult in our family asks to handle a situation themselves. How would we stay available without taking control?",
+      "format": "Scenario"
+    },
+    {
+      "text": "What helps you enjoy a relative's success without comparing your own progress?",
+      "format": "Question"
+    },
+    {
+      "text": "Receive encouragement privately or hear someone praise your effort in front of the family?",
+      "format": "Quick choice"
+    },
+    {
+      "text": "An unfinished conversation sometimes needs an invitation rather than a reminder. How would you invite someone to return to it?",
+      "format": "Observation"
+    },
+    {
+      "text": "Describe a time a relative noticed you had become better at something you found difficult.",
+      "format": "Story starter"
+    },
+    {
+      "text": "Which relative do you enjoy watching meet new people?",
+      "format": "Question"
+    },
+    {
+      "text": "Our family wants to check in on someone having a busy week. How would we coordinate without overwhelming their phone?",
+      "format": "Scenario"
+    },
+    {
+      "text": "What do you wish we noticed about the effort behind something you make look easy?",
+      "format": "Question"
+    },
+    {
+      "text": "Including a relative means asking what participation suits them rather than deciding for them. Where do we get this right?",
+      "format": "Hot take"
+    },
+    {
+      "text": "Talk through a disagreement on the day or agree on a specific time after everyone has rested?",
+      "format": "Quick choice"
+    },
+    {
+      "text": "Ask a relative to challenge your assumptions or ask them to help you explain your view more clearly?",
+      "format": "Story starter"
+    },
+    {
+      "text": "What difference in the way two relatives show loyalty have you found interesting?",
+      "format": "Question"
+    },
+    {
+      "text": "We want to visit a relative who has a new baby. What should we ask before deciding when to arrive and how long to stay?",
+      "format": "Scenario"
+    },
+    {
+      "text": "Whose opinion do you seek when you want a fresh perspective rather than agreement?",
+      "format": "Question"
+    },
+    {
+      "text": "Some relatives use affectionate language while others prefer a straightforward greeting. How do we learn what feels right for each person?",
+      "format": "Observation"
+    },
+    {
+      "text": "Which family discussion would benefit from hearing the youngest person's view before anyone else speaks?",
+      "format": "Question"
+    }
+  ]
+}

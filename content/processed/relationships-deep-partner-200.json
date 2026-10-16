@@ -1,0 +1,807 @@
+{
+  "topic": "Relationships",
+  "mood": "Deep",
+  "audience": "Partner",
+  "prompts": [
+    {
+      "format": "Question",
+      "text": "Which part of our shared life reflects a choice we have never discussed?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a moment you understood the weight of a responsibility I carry."
+    },
+    {
+      "format": "Question",
+      "text": "What would help us make important decisions without one person becoming the default authority?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Our relationship needs room for disappointment which is not a threat to staying together. How do we create it?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A goal important to one of us requires sacrifices from both. What should we agree before proceeding?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Reconsider a habit which saves time or a habit which protects emotional comfort?"
+    },
+    {
+      "format": "Question",
+      "text": "What would you like me to understand about how your parents handled money?"
+    },
+    {
+      "format": "Observation",
+      "text": "We sometimes thank each other for visible tasks and miss the planning behind them. What planning should I recognise?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time you felt we were on the same side despite wanting different outcomes."
+    },
+    {
+      "format": "Question",
+      "text": "What do you want our shared future to leave room for in your individual life?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A work opportunity benefits one person while disrupting both routines. What would fair consideration involve?"
+    },
+    {
+      "format": "Question",
+      "text": "Which form of reassurance have we made too dependent on perfect wording?"
+    },
+    {
+      "format": "Hot take",
+      "text": "A shared decision deserves revisiting when its cost becomes clearer. Which decision would benefit from another look?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a journey we took which changed how you saw us as a couple."
+    },
+    {
+      "format": "Quick choice",
+      "text": "Protect a familiar way of spending time or create a ritual suited to our current responsibilities?"
+    },
+    {
+      "format": "Question",
+      "text": "What does feeling consulted involve before a plan reaches its final stage?"
+    },
+    {
+      "format": "Observation",
+      "text": "Our different reactions to uncertainty sometimes hide different responsibilities. What responsibility shapes your reaction?"
+    },
+    {
+      "format": "Scenario",
+      "text": "One of us needs practical relief while the other offers affection. How could we translate the need clearly?"
+    },
+    {
+      "format": "Question",
+      "text": "Which expectation about partnership have we accepted mainly because other people call it normal?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time our relationship made it easier for you to act on a personal value."
+    },
+    {
+      "format": "Question",
+      "text": "What would make a conversation about unequal effort feel fair to you?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Our private way of repairing conflict matters more than appearing harmonious to others. What should remain private?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A family expectation conflicts with something we agreed together. What would we need to discuss before responding?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Review how we make plans or how we decide a plan needs changing?"
+    },
+    {
+      "format": "Question",
+      "text": "Which part of being dependable for me leaves you needing support elsewhere?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a moment we handled vulnerability better than either expected."
+    },
+    {
+      "format": "Question",
+      "text": "How should we decide whose belongings have a place in a shared room?"
+    },
+    {
+      "format": "Question",
+      "text": "What helps you feel I respect your judgement when I do not follow your advice?"
+    },
+    {
+      "format": "Scenario",
+      "text": "One of us wants a purchase the other finds difficult to justify. What meanings should we explore before numbers?"
+    },
+    {
+      "format": "Hot take",
+      "text": "A partnership needs permission to admit an agreed plan is no longer working. What makes that admission easier?"
+    },
+    {
+      "format": "Question",
+      "text": "Which difference between us has become a source of balance rather than friction?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Hear what I need less of or what I want more space for?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a moment when you noticed our relationship becoming more resilient."
+    },
+    {
+      "format": "Question",
+      "text": "What do you want me to understand before calling a task easy?"
+    },
+    {
+      "format": "Observation",
+      "text": "One person's flexibility sometimes becomes the foundation of everyone's plans. Where should we check for this in us?"
+    },
+    {
+      "format": "Scenario",
+      "text": "We need to choose between comfort now and a longer-term benefit. What would help both views be heard?"
+    },
+    {
+      "format": "Question",
+      "text": "Which part of our relationship has benefited from help or perspective outside it?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Neither of us should need to become distressed before a concern receives attention. What would early attention look like?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a time you enjoyed watching me become absorbed in something I love."
+    },
+    {
+      "format": "Quick choice",
+      "text": "Understand how we each recover after conflict or how we prevent the same conflict recurring?"
+    },
+    {
+      "format": "Question",
+      "text": "What does a fair division of responsibility need to account for beyond available hours?"
+    },
+    {
+      "format": "Scenario",
+      "text": "An old disagreement returns through a new practical issue. How would we identify the earlier concern?"
+    },
+    {
+      "format": "Observation",
+      "text": "We might agree about a goal and disagree about how much uncertainty to tolerate. Where does this show up?"
+    },
+    {
+      "format": "Question",
+      "text": "Which small decision gives you a strong sense of belonging in our shared life?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time I helped you protect a boundary with somebody outside our relationship."
+    },
+    {
+      "format": "Hot take",
+      "text": "Being partners does not remove the value of asking before offering an opinion. Which subjects deserve a check-in?"
+    },
+    {
+      "format": "Question",
+      "text": "If one of us needs care during an illness, which preferences should the other know before making arrangements?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Set aside uninterrupted time or remove a recurring source of interruption?"
+    },
+    {
+      "format": "Scenario",
+      "text": "One of us wants company while completing chores; the other wants quiet. What should we understand about each need?"
+    },
+    {
+      "format": "Observation",
+      "text": "A partner's competence sometimes hides the effort required to remain competent. Which effort deserves rest?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a time you felt I valued your limits as well as your generosity."
+    },
+    {
+      "format": "Question",
+      "text": "What would help us discuss the possibility of parenthood without treating uncertainty as a hidden answer?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Shared plans should reflect both people's ambitions, including the quieter ambition. What ambition needs a clearer place?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A change in income alters what each person contributes. What should stay equal even if amounts differ?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Revisit what we mean by stability or what we mean by progress?"
+    },
+    {
+      "format": "Question",
+      "text": "What does moving somewhere new represent to each of us beyond a change of address?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a moment you felt I understood why an ordinary decision mattered emotionally."
+    },
+    {
+      "format": "Observation",
+      "text": "We sometimes solve a practical issue while leaving an emotional question unanswered. What question should we notice?"
+    },
+    {
+      "format": "Question",
+      "text": "Which part of your relationship with your body would you like me to approach more thoughtfully?"
+    },
+    {
+      "format": "Scenario",
+      "text": "Someone offers us advice based on a relationship very different from ours. How would we assess its fit?"
+    },
+    {
+      "format": "Question",
+      "text": "Which holiday from your childhood would you like me to understand before we plan our own?"
+    },
+    {
+      "format": "Question",
+      "text": "What would make your personal downtime feel genuinely protected in our relationship?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Plan how to share a demanding week or agree how to recognise when the plan becomes too much?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time we were good company for each other without doing anything memorable."
+    },
+    {
+      "format": "Observation",
+      "text": "The person who remembers a deadline often becomes responsible for it. Which reminders should belong to both of us?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A commitment one of us made alone affects a shared weekend. What would a fair conversation include?"
+    },
+    {
+      "format": "Question",
+      "text": "How should we handle a situation where one of our friends confides something about the other?"
+    },
+    {
+      "format": "Hot take",
+      "text": "A practical favour should not silently purchase decision-making power. How do we keep help free from control?"
+    },
+    {
+      "format": "Question",
+      "text": "What helps you tell me a familiar form of comfort does not fit today?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe an occasion when we respected each other's different grieving or recovery pace."
+    },
+    {
+      "format": "Quick choice",
+      "text": "Understand the meaning of a difficult memory or discuss what it affects in our present routines?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A goal we once shared matters less to one person now. How would we explore the change without accusing them of giving up?"
+    },
+    {
+      "format": "Observation",
+      "text": "We sometimes use the same word for different needs. What does 'support' mean in a difficult week for you?"
+    },
+    {
+      "format": "Question",
+      "text": "What would help you feel comfortable attending something alone when I do not want to go?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Commitment includes maintaining honest conversations about consent and comfort. Which everyday assumption should we check?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a time our different strengths helped without making either person feel less capable."
+    },
+    {
+      "format": "Question",
+      "text": "What does a closed door mean to each of us when we are at home?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Improve how we begin difficult conversations or how we return after a pause?"
+    },
+    {
+      "format": "Scenario",
+      "text": "One of us wants to share a personal success publicly while the other values privacy around it. What should we clarify?"
+    },
+    {
+      "format": "Question",
+      "text": "How would you like us to talk about an inheritance before assumptions grow around it?"
+    },
+    {
+      "format": "Question",
+      "text": "Which outside relationship helps you bring a fuller version of yourself into ours?"
+    },
+    {
+      "format": "Hot take",
+      "text": "A partner's change does not always signal dissatisfaction with the relationship. What helps us remain curious about change?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time you felt we protected each other's dignity during a disagreement."
+    },
+    {
+      "format": "Question",
+      "text": "Which demands of your work are hardest for me to understand from the outside?"
+    },
+    {
+      "format": "Scenario",
+      "text": "One of us needs help but feels protective of how a task gets done. What would respectful assistance involve?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Share responsibility for a recurring task or alternate complete ownership of it?"
+    },
+    {
+      "format": "Question",
+      "text": "What would make it easier to tell me you dislike a gift while appreciating the thought behind it?"
+    },
+    {
+      "format": "Question",
+      "text": "Which wish have you described as impractical before letting me hear its meaning?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a moment when meeting someone from my past helped you understand me differently."
+    },
+    {
+      "format": "Hot take",
+      "text": "Partners should be able to ask for help with the relationship without assigning all fault. What would make this safe?"
+    },
+    {
+      "format": "Question",
+      "text": "What would a thoughtful conversation about our different social needs include?"
+    },
+    {
+      "format": "Scenario",
+      "text": "An unexpected expense forces us to change a plan important to one person. What should we acknowledge before adjusting it?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Understand how we each recognise exhaustion or how we ask for relief?"
+    },
+    {
+      "format": "Question",
+      "text": "How should we decide what happens to photographs and messages from before our relationship?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time we let a disappointing day remain disappointing without blaming each other."
+    },
+    {
+      "format": "Question",
+      "text": "Which expectations about hospitality did we each bring into our relationship?"
+    },
+    {
+      "format": "Hot take",
+      "text": "A relationship should leave room for changing a preference without defending every earlier choice. What has changed for you?"
+    },
+    {
+      "format": "Scenario",
+      "text": "We receive conflicting invitations from people important to each of us. What would a fair decision-making process look like?"
+    },
+    {
+      "format": "Question",
+      "text": "What would you want me to know about your wishes if you were unable to speak for yourself?"
+    },
+    {
+      "format": "Question",
+      "text": "Discuss how we welcome overnight guests or how we protect time to ourselves afterwards?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a time I trusted your judgement before I understood your reasoning."
+    },
+    {
+      "format": "Question",
+      "text": "What do our separate morning routines reveal about how we each prepare to face a day?"
+    },
+    {
+      "format": "Question",
+      "text": "Which part of my care feels different from what you learnt to expect earlier in life?"
+    },
+    {
+      "format": "Hot take",
+      "text": "A partner needs room to disappoint an expectation which was never agreed. What expectation should we examine?"
+    },
+    {
+      "format": "Scenario",
+      "text": "One of us wants advice about a problem involving the other's family. How could we make the conversation fair?"
+    },
+    {
+      "format": "Question",
+      "text": "How do you want me to respond if someone comments on your appearance in front of us?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Name what we have become better at or acknowledge what still takes effort?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time one of us changed a plan because we understood the other's emotional cost."
+    },
+    {
+      "format": "Question",
+      "text": "Which experiences have shaped what borrowing or lending money means to you?"
+    },
+    {
+      "format": "Question",
+      "text": "Which part of our relationship becomes clearer when we spend time apart?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Mutual respect includes noticing when humour no longer feels mutual. What would make it easy to say so?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A person outside the relationship treats one of us disrespectfully at a gathering. What support would the affected person want?"
+    },
+    {
+      "format": "Question",
+      "text": "What does returning home feel like to you after you have spent time with your family?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Understand a personal value I hold quietly or explain one of yours which shapes many small decisions?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a time a practical decision revealed how much we trusted each other."
+    },
+    {
+      "format": "Observation",
+      "text": "A partner's wish for predictability and another's wish for novelty both have meanings. What meanings matter to us?"
+    },
+    {
+      "format": "Question",
+      "text": "Which possessions would you want us to photograph before parting with them?"
+    },
+    {
+      "format": "Hot take",
+      "text": "We need not agree that a feeling is reasonable before responding with care. What makes this difficult sometimes?"
+    },
+    {
+      "format": "Question",
+      "text": "If we chose to care for an animal, which responsibilities should we discuss before falling in love with one?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Make space for an individual ambition this year or reassess the pace of a shared ambition?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time you felt I protected your confidence without hiding a difficult truth."
+    },
+    {
+      "format": "Question",
+      "text": "What would help us notice when a compromise costs the same person more repeatedly?"
+    },
+    {
+      "format": "Question",
+      "text": "Which of our conversations would you like us to have while walking rather than sitting face to face?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Taking responsibility for a mistake should not require agreeing with every interpretation of it. How would we separate these?"
+    },
+    {
+      "format": "Scenario",
+      "text": "One of us wants to return to a difficult conversation sooner than the other. What would make a pause trustworthy?"
+    },
+    {
+      "format": "Question",
+      "text": "What would make it easier to tell me a familiar scent, sound or touch has become uncomfortable?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Understand how the other person experiences a responsibility or trade it briefly to learn through doing?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a time you felt we respected an important difference without trying to solve it."
+    },
+    {
+      "format": "Observation",
+      "text": "One person's calm might look like indifference to another. How would you like us to check meanings?"
+    },
+    {
+      "format": "Question",
+      "text": "What helps you tell me you want closeness without needing to create a problem first?"
+    },
+    {
+      "format": "Question",
+      "text": "How do you want us to handle a birthday when the person celebrating has had a difficult year?"
+    },
+    {
+      "format": "Scenario",
+      "text": "We reach an important milestone and feel differently about it. How could both emotional responses belong?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time we were guests somewhere and learnt something about our own way of living."
+    },
+    {
+      "format": "Question",
+      "text": "Which part of sharing a bed or sleeping space is hardest to explain without sounding unromantic?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Ask for a change to the plan or ask for a change to how we make plans?"
+    },
+    {
+      "format": "Question",
+      "text": "What should happen when a promised surprise clashes with something the other person needs to plan?"
+    },
+    {
+      "format": "Question",
+      "text": "What have you learnt about my relationship with food which you wish you had understood earlier?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A difficult week leaves both of us less generous than usual. What would protect respect while we recover?"
+    },
+    {
+      "format": "Question",
+      "text": "What do you want us to understand about how stress changes your way of speaking?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a time we looked after something together and felt proud of its progress."
+    },
+    {
+      "format": "Quick choice",
+      "text": "Recognise the care we already give or identify care neither of us has known how to ask for?"
+    },
+    {
+      "format": "Observation",
+      "text": "We sometimes hold a partner to a standard we silently exempt ourselves from. Which standard deserves a fair review?"
+    },
+    {
+      "format": "Question",
+      "text": "How would you like us to respond if a medical professional addresses only one of us?"
+    },
+    {
+      "format": "Hot take",
+      "text": "A relationship needs space for personal growth which has no immediate explanation. What kind of patience does this require?"
+    },
+    {
+      "format": "Scenario",
+      "text": "Someone assumes one of us has the final say in our relationship. What would you want our response to express?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time you noticed I had taken something you said seriously through a later action."
+    },
+    {
+      "format": "Question",
+      "text": "Which places in our neighbourhood have become part of our relationship story?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Name a shared strength we rely on or a vulnerability we should care for more deliberately?"
+    },
+    {
+      "format": "Observation",
+      "text": "Partners sometimes ask for a solution when they first need someone to witness a difficulty. How do we signal the difference?"
+    },
+    {
+      "format": "Question",
+      "text": "What does a fair approach to our different tolerances for financial risk involve?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Love should not make either person the permanent translator of every emotional need. What could we both learn to say directly?"
+    },
+    {
+      "format": "Scenario",
+      "text": "One of us accepts extra work assuming the other will absorb its effects. What should have been discussed first?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a time you heard me speak about you when I did not realise you were listening."
+    },
+    {
+      "format": "Question",
+      "text": "Which memory helps you trust we have learnt from an earlier difficulty?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Discuss what security means in daily life or what freedom means within commitment?"
+    },
+    {
+      "format": "Observation",
+      "text": "A person might enjoy being needed while needing relief from responsibility. How would we talk about both honestly?"
+    },
+    {
+      "format": "Question",
+      "text": "How should we navigate a religious or spiritual practice one of us values and the other does not share?"
+    },
+    {
+      "format": "Scenario",
+      "text": "We disagree about giving help to somebody outside the relationship. What commitments and limits should we consider together?"
+    },
+    {
+      "format": "Question",
+      "text": "What helps you feel your interests deserve time even when they do not produce practical benefits?"
+    },
+    {
+      "format": "Question",
+      "text": "Which habit from living alone do you miss, and what part of it would you like back?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Keep a difficult discussion between us or ask an agreed, trusted person to help us understand it?"
+    },
+    {
+      "format": "Observation",
+      "text": "Our ways of showing commitment may have changed since the beginning. What current behaviour carries that meaning?"
+    },
+    {
+      "format": "Question",
+      "text": "What would help us notice when alcohol or another coping habit is changing how we relate?"
+    },
+    {
+      "format": "Question",
+      "text": "What are you comfortable with me sharing about your life in a group chat?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A shared plan succeeds but leaves one of us feeling unseen. What would be worth hearing after the celebration?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a time I made room for your feelings about something I experienced differently."
+    },
+    {
+      "format": "Question",
+      "text": "How do you want us to respond if one person enjoys a shared hobby more seriously than the other?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Discuss what an ideal day allows us to do or what it allows us to stop carrying?"
+    },
+    {
+      "format": "Question",
+      "text": "Which room or corner would you like to feel more like a refuge, and why?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Our relationship should leave room for saying 'I need help learning how to do this.' What needs learning now?"
+    },
+    {
+      "format": "Scenario",
+      "text": "An opportunity requires one of us to move temporarily. What emotional questions belong beside the logistics?"
+    },
+    {
+      "format": "Question",
+      "text": "What would you like me to understand about your relationship with your own name?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time you felt we shared responsibility for a conversation instead of waiting for one person to begin it."
+    },
+    {
+      "format": "Quick choice",
+      "text": "Revisit an agreement made in a calmer season or make a temporary arrangement for the present one?"
+    },
+    {
+      "format": "Question",
+      "text": "What happens emotionally for you when we are running late, and how should I respond?"
+    },
+    {
+      "format": "Question",
+      "text": "How do you want us to handle invitations which include one of us and leave the other out?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Shared history should help us ask better questions rather than stop asking them. What question has matured for us?"
+    },
+    {
+      "format": "Question",
+      "text": "What would a thoughtful conversation about supporting an ageing relative need to include for both of us?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a time I respected a personal choice which made our shared life less convenient."
+    },
+    {
+      "format": "Question",
+      "text": "Which language or expression from your background carries a feeling you struggle to translate for me?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Understand what makes a decision feel safe or what makes it feel freely chosen?"
+    },
+    {
+      "format": "Question",
+      "text": "How should we handle a shared digital account which one person wants to stop using?"
+    },
+    {
+      "format": "Hot take",
+      "text": "We should be allowed to celebrate improvement without claiming every problem is solved. What improvement deserves recognition?"
+    },
+    {
+      "format": "Scenario",
+      "text": "One of us is ready to discuss a future responsibility while the other feels overwhelmed. How would we agree on a next conversation?"
+    },
+    {
+      "format": "Question",
+      "text": "What does having savings of your own mean to you emotionally?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a moment when we made a difficult situation feel more humane for each other."
+    },
+    {
+      "format": "Quick choice",
+      "text": "Ask what a partner wants to preserve or what they need permission to change?"
+    },
+    {
+      "format": "Observation",
+      "text": "Our relationship includes choices which outsiders never notice. Which private choice are you glad we made?"
+    },
+    {
+      "format": "Question",
+      "text": "What would help us talk openly about feeling lonely while living together?"
+    },
+    {
+      "format": "Question",
+      "text": "How would you like us to respond when a child asks us a difficult question about our relationship?"
+    },
+    {
+      "format": "Scenario",
+      "text": "We discover a shared goal means different things emotionally to each of us. How would we compare those meanings?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a time you noticed a quality in me which I did not recognise in myself."
+    },
+    {
+      "format": "Question",
+      "text": "Which form of mutual respect do you want us to practise more consistently?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Protect time for a personal concern or share it early enough for joint understanding?"
+    },
+    {
+      "format": "Question",
+      "text": "What would you want us to discuss before either of us made a public announcement about our future?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Being a team should include making room for an individual answer. Where do we need this most?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A plan important to both of us is no longer possible. What would we need to acknowledge before choosing a replacement?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time you felt our commitment made room for your uncertainty rather than removing it."
+    },
+    {
+      "format": "Question",
+      "text": "Which experience would you prefer us to leave undocumented so we stay present together?"
+    },
+    {
+      "format": "Question",
+      "text": "What have we learnt about offering comfort when neither of us knows what happens next?"
+    }
+  ]
+}

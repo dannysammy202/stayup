@@ -1,0 +1,407 @@
+{
+  "topic": "Relationships",
+  "mood": "Flirty",
+  "audience": "Someone new",
+  "prompts": [
+    {
+      "format": "Question",
+      "text": "What would be your excuse to keep this conversation going after everyone else leaves?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Make a good first impression or leave me curious enough to ask another question?"
+    },
+    {
+      "format": "Question",
+      "text": "Which detail about you would I notice only if I were paying proper attention?"
+    },
+    {
+      "format": "Scenario",
+      "text": "We are both pretending not to notice the last seat is beside you. Who breaks first?"
+    },
+    {
+      "format": "Question",
+      "text": "What is your most charming way of admitting you have forgotten someone's name?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a time a completely ordinary introduction caught you off guard."
+    },
+    {
+      "format": "Question",
+      "text": "What should I ask if I want to see the less rehearsed version of you?"
+    },
+    {
+      "format": "Observation",
+      "text": "You seem like someone with a story behind that smile. Which story is safe for a first meeting?"
+    },
+    {
+      "format": "Question",
+      "text": "What kind of invitation would tempt you to put your phone away for an afternoon?"
+    },
+    {
+      "format": "Hot take",
+      "text": "The best flirting leaves the other person room to surprise you. How would you surprise me?"
+    },
+    {
+      "format": "Question",
+      "text": "What would make you realise I am enjoying this more than I am letting on?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Win me over with an unexpectedly good question or an unexpectedly bad joke?"
+    },
+    {
+      "format": "Question",
+      "text": "Which harmless opinion of yours is worth a little playful arguing?"
+    },
+    {
+      "format": "Scenario",
+      "text": "We keep choosing the same queue. At what point does one of us have to say hello?"
+    },
+    {
+      "format": "Question",
+      "text": "What would I learn about your sense of humour in the first ten minutes?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a compliment you were not prepared to receive gracefully."
+    },
+    {
+      "format": "Question",
+      "text": "Which part of your personality arrives after the polite introductions?"
+    },
+    {
+      "format": "Observation",
+      "text": "I think a shared detour tells you more than a perfect plan. Where would you lead one?"
+    },
+    {
+      "format": "Question",
+      "text": "What makes someone interesting enough for you to miss your stop in a conversation?"
+    },
+    {
+      "format": "Question",
+      "text": "If I asked you to recommend one place, which choice would reveal the most about you?"
+    },
+    {
+      "format": "Question",
+      "text": "How would you challenge me to impress you without making it feel like an audition?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Discover we share a favourite place or discover you have one I need to see?"
+    },
+    {
+      "format": "Question",
+      "text": "What would make you glad someone approached you at exactly the wrong moment?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A friend asks how we know each other and the answer is 'about twelve minutes'. What do you add?"
+    },
+    {
+      "format": "Question",
+      "text": "What is something you enjoy being teased about by someone who gets the tone right?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a time somebody's laugh made you want to know them better."
+    },
+    {
+      "format": "Question",
+      "text": "Which interest of yours deserves a better opening line than 'so, what do you do'?"
+    },
+    {
+      "format": "Observation",
+      "text": "You look as though you have already decided which dessert is best. Should I trust you?"
+    },
+    {
+      "format": "Question",
+      "text": "What would convince you to swap your usual order for my recommendation?"
+    },
+    {
+      "format": "Hot take",
+      "text": "A little awkwardness can make an introduction memorable. What is your most endearing kind?"
+    },
+    {
+      "format": "Question",
+      "text": "What would be the giveaway if you were trying to act cooler than you felt?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Let me pick the soundtrack or let me guess yours?"
+    },
+    {
+      "format": "Question",
+      "text": "If your favourite song came on now, would I get to see a different side of you?"
+    },
+    {
+      "format": "Scenario",
+      "text": "We both reach for the same book. Do you defend your choice or ask about mine?"
+    },
+    {
+      "format": "Question",
+      "text": "What tiny act of confidence do you find unexpectedly appealing?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a conversation which turned a boring wait into the best part of your day."
+    },
+    {
+      "format": "Question",
+      "text": "What is the least impressive skill you would still show off if I asked nicely?"
+    },
+    {
+      "format": "Observation",
+      "text": "I suspect your polite answer and your honest answer are different. Which question would prove it?"
+    },
+    {
+      "format": "Question",
+      "text": "What would you hope I remembered about you tomorrow?"
+    },
+    {
+      "format": "Question",
+      "text": "Which shared discovery would make this feel less like meeting a stranger?"
+    },
+    {
+      "format": "Question",
+      "text": "What makes an invitation feel personal before two people know much about each other?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Catch me noticing your best quality or tell me what I have missed?"
+    },
+    {
+      "format": "Question",
+      "text": "Which of your recommendations comes with a warning you think makes it better?"
+    },
+    {
+      "format": "Scenario",
+      "text": "We have five minutes before we must go in different directions. What is worth saying now?"
+    },
+    {
+      "format": "Question",
+      "text": "What kind of friendly competition would bring out your most charmingly stubborn side?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a time someone made a simple goodbye surprisingly difficult."
+    },
+    {
+      "format": "Question",
+      "text": "What would I have to say to get your 'tell me more' face?"
+    },
+    {
+      "format": "Observation",
+      "text": "Some people make a room feel smaller in a good way. What makes you forget the room around you?"
+    },
+    {
+      "format": "Question",
+      "text": "Which local secret would you share only after deciding I have decent taste?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Being a little intrigued is a better start than having everything worked out. What are you curious about so far?"
+    },
+    {
+      "format": "Question",
+      "text": "Which spontaneous idea would get you saying yes before you remembered to be sensible?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Trade one surprisingly useful tip or one completely useless talent?"
+    },
+    {
+      "format": "Question",
+      "text": "What is a small kindness you find difficult not to notice?"
+    },
+    {
+      "format": "Scenario",
+      "text": "I get your favourite film completely wrong. Are you correcting me gently or enjoying the debate?"
+    },
+    {
+      "format": "Question",
+      "text": "Which question do you wish people asked before they asked for your social handle?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a time an accidental seat assignment worked out beautifully."
+    },
+    {
+      "format": "Question",
+      "text": "What would make you curious about someone whose hobbies are nothing like yours?"
+    },
+    {
+      "format": "Observation",
+      "text": "I like people who have a favourite corner of a city. What is yours doing right?"
+    },
+    {
+      "format": "Question",
+      "text": "What is your most convincing invitation to take the scenic route?"
+    },
+    {
+      "format": "Question",
+      "text": "Which expression gives away that you are trying not to laugh?"
+    },
+    {
+      "format": "Question",
+      "text": "What would make a very ordinary errand better with the right company?"
+    },
+    {
+      "format": "Question",
+      "text": "Who is more likely to charm the person at the next table into settling our debate?"
+    },
+    {
+      "format": "Question",
+      "text": "What is your favourite way for a conversation to go slightly off script?"
+    },
+    {
+      "format": "Scenario",
+      "text": "We agree to recommend each other one thing by tomorrow. What category gives you the advantage?"
+    },
+    {
+      "format": "Question",
+      "text": "What detail in someone's voice makes you want to keep listening?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a time you were pleasantly surprised by who you clicked with."
+    },
+    {
+      "format": "Question",
+      "text": "Which outing would reveal your playful side faster than a formal dinner?"
+    },
+    {
+      "format": "Observation",
+      "text": "There is a story in the way you said 'usually'. What is the exception?"
+    },
+    {
+      "format": "Question",
+      "text": "How good are you at keeping a straight face when you know someone is flirting?"
+    },
+    {
+      "format": "Hot take",
+      "text": "A confident 'I have no idea' has its own appeal. What would you happily admit not knowing?"
+    },
+    {
+      "format": "Question",
+      "text": "What do you enjoy explaining to someone who is interested for the right reasons?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Choose the next stop together or each suggest somewhere and let curiosity decide?"
+    },
+    {
+      "format": "Question",
+      "text": "Which small adventure would you say yes to with very little planning?"
+    },
+    {
+      "format": "Scenario",
+      "text": "We have opposite views on a song playing nearby. How do you make your case charmingly?"
+    },
+    {
+      "format": "Question",
+      "text": "What would give someone away as a good listener without them saying much?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about an invitation you accepted because the wording made you smile."
+    },
+    {
+      "format": "Question",
+      "text": "What is something I should not mistake for you being uninterested?"
+    },
+    {
+      "format": "Observation",
+      "text": "You seem comfortable with a little mystery. Which fact would spoil yours too soon?"
+    },
+    {
+      "format": "Question",
+      "text": "Which part of a person's enthusiasm tends to win you over?"
+    },
+    {
+      "format": "Question",
+      "text": "What would be a pleasantly bold question to ask before this coffee gets cold?"
+    },
+    {
+      "format": "Question",
+      "text": "What would make you smile if you found a note with a recommendation from me?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Let me see your competitive side or your hopeless-at-this side first?"
+    },
+    {
+      "format": "Question",
+      "text": "Which assumption about your taste would be fun for me to get wrong?"
+    },
+    {
+      "format": "Scenario",
+      "text": "We are introduced twice by two different people. What do you say the second time?"
+    },
+    {
+      "format": "Question",
+      "text": "Which dance would you be willing to teach someone with more enthusiasm than coordination?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a time you noticed chemistry before you had a word for it."
+    },
+    {
+      "format": "Question",
+      "text": "Which side of you would come out if we got caught in unexpected rain?"
+    },
+    {
+      "format": "Observation",
+      "text": "A good conversation sometimes makes leaving feel oddly formal. How would you end this one?"
+    },
+    {
+      "format": "Question",
+      "text": "What would make a quiet invitation more appealing than a grand gesture?"
+    },
+    {
+      "format": "Question",
+      "text": "A person who remembers how you take your tea has a head start. What little detail matters to you?"
+    },
+    {
+      "format": "Question",
+      "text": "What small sign would tell you I took your recommendation seriously?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Be the person with a plan or the person who makes the plan more interesting?"
+    },
+    {
+      "format": "Question",
+      "text": "Which unexpected shared preference would make you laugh right now?"
+    },
+    {
+      "format": "Question",
+      "text": "If we tried something neither of us was good at, who would start laughing first?"
+    },
+    {
+      "format": "Question",
+      "text": "What would you call this conversation if it were the opening scene of a film?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a time someone made you feel interesting without asking a single impressive question."
+    },
+    {
+      "format": "Question",
+      "text": "What is your way of saying 'I am enjoying your company' without those exact words?"
+    },
+    {
+      "format": "Question",
+      "text": "Which accent or expression do you find yourself borrowing from people you enjoy being around?"
+    },
+    {
+      "format": "Question",
+      "text": "What would you put on a tiny menu designed to show off your excellent taste to me?"
+    },
+    {
+      "format": "Question",
+      "text": "If we pick this conversation up another day, where should we begin?"
+    }
+  ]
+}

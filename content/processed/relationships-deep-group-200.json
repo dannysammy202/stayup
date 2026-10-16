@@ -1,0 +1,807 @@
+{
+  "topic": "Relationships",
+  "mood": "Deep",
+  "audience": "Group",
+  "prompts": [
+    {
+      "format": "Question",
+      "text": "Who taught you something about relationships without knowing they were teaching you?"
+    },
+    {
+      "format": "Question",
+      "text": "What makes a group feel welcoming after the first introduction is over?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Share a moment when someone's presence changed the atmosphere of a room for the better."
+    },
+    {
+      "format": "Question",
+      "text": "Which relationship in a story helped you recognise something in real life?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A group keeps meeting but one person rarely speaks. What would you want someone to notice?"
+    },
+    {
+      "format": "Question",
+      "text": "When does a shared experience create closeness, and when does it only create a shared memory?"
+    },
+    {
+      "format": "Observation",
+      "text": "Some people connect others without becoming close to either person. What value do those connections have?"
+    },
+    {
+      "format": "Question",
+      "text": "What makes being invited back feel different from being invited once?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Understand a person's loyalties or understand their doubts first?"
+    },
+    {
+      "format": "Question",
+      "text": "Which social rule helps people relax but rarely gets spoken aloud?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a time a stranger's kindness changed how you treated someone close to you."
+    },
+    {
+      "format": "Question",
+      "text": "How do we know when familiarity is turning into taking someone for granted?"
+    },
+    {
+      "format": "Question",
+      "text": "What do people misunderstand about relationships maintained mostly at a distance?"
+    },
+    {
+      "format": "Hot take",
+      "text": "A group identity should leave room for individual change. What helps that happen?"
+    },
+    {
+      "format": "Question",
+      "text": "What makes reconnecting feel possible after both people have changed?"
+    },
+    {
+      "format": "Scenario",
+      "text": "Two people in a group disagree privately and others notice tension. What belongs to the wider group?"
+    },
+    {
+      "format": "Question",
+      "text": "Which kind of social courage becomes easier when someone stands beside you?"
+    },
+    {
+      "format": "Question",
+      "text": "How does a person's treatment of an outsider affect your trust in them?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time a relationship became healthier without becoming closer."
+    },
+    {
+      "format": "Question",
+      "text": "What do you learn about someone from the way they receive good news about another person?"
+    },
+    {
+      "format": "Observation",
+      "text": "A shared joke can create an inside and an outside in seconds. How do we notice the boundary?"
+    },
+    {
+      "format": "Question",
+      "text": "Which relationships are hard to name but still matter to you?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Hear how someone handles disappointment or how they share excitement?"
+    },
+    {
+      "format": "Question",
+      "text": "What helps a person keep their dignity when asking a group for help?"
+    },
+    {
+      "format": "Scenario",
+      "text": "One person becomes everyone's first call in a crisis. What would responsible care for that person involve?"
+    },
+    {
+      "format": "Question",
+      "text": "How does knowing someone's context change what you consider inconsiderate?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Share a time you learnt something important by watching two people interact."
+    },
+    {
+      "format": "Question",
+      "text": "Which everyday relationships receive less gratitude than they deserve?"
+    },
+    {
+      "format": "Question",
+      "text": "What is the difference between being included in a plan and influencing it?"
+    },
+    {
+      "format": "Hot take",
+      "text": "A disagreement does not need an audience to become real. Why do people seek one?"
+    },
+    {
+      "format": "Question",
+      "text": "When has someone's curiosity felt like an offer of connection?"
+    },
+    {
+      "format": "Question",
+      "text": "What can people learn about each other by sharing responsibility for a living thing?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a time you found common ground without finding a shared opinion."
+    },
+    {
+      "format": "Question",
+      "text": "What have you learnt about joining an established circle?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A new member notices a problem everyone else has normalised. How should a group respond?"
+    },
+    {
+      "format": "Question",
+      "text": "Which assumptions about social confidence have you changed?"
+    },
+    {
+      "format": "Observation",
+      "text": "People sometimes perform being fine to avoid becoming the focus. What makes honesty less exposing?"
+    },
+    {
+      "format": "Question",
+      "text": "What makes an introduction feel like recognition rather than a list of facts?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Understand how someone spends time alone or how they behave in company?"
+    },
+    {
+      "format": "Question",
+      "text": "What would make a group apology meaningful to the person receiving it?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a moment when someone shared credit in a way you remembered."
+    },
+    {
+      "format": "Question",
+      "text": "When does remembering a detail about someone feel caring, and when does it feel intrusive?"
+    },
+    {
+      "format": "Question",
+      "text": "What helps people disagree across differences in status?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Being easy to get along with can hide a lot of self-editing. What is the cost?"
+    },
+    {
+      "format": "Question",
+      "text": "Which forms of loyalty become harmful when nobody questions them?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A gathering becomes dominated by talk of people who are absent. How would you change the conversation?"
+    },
+    {
+      "format": "Question",
+      "text": "What do you wish people knew about being the newest person somewhere?"
+    },
+    {
+      "format": "Question",
+      "text": "What has shared silence taught you about who you feel comfortable with?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a relationship improved by clearer expectations."
+    },
+    {
+      "format": "Question",
+      "text": "How do you recognise an invitation which leaves a real choice to decline?"
+    },
+    {
+      "format": "Observation",
+      "text": "Group memories often settle into one official version. What gets lost when that happens?"
+    },
+    {
+      "format": "Question",
+      "text": "Which part of relating to others have you had to unlearn?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Learn why someone stayed connected or why they needed distance?"
+    },
+    {
+      "format": "Question",
+      "text": "How does a group decide whether a private joke is worth explaining to a newcomer?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A person shares something personal and the room goes quiet. What might a thoughtful next sentence be?"
+    },
+    {
+      "format": "Question",
+      "text": "How does shared responsibility change the way people see one another?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Share a time someone made a social situation easier without drawing attention to it."
+    },
+    {
+      "format": "Question",
+      "text": "Which relationship expectation depends more on culture than people admit?"
+    },
+    {
+      "format": "Question",
+      "text": "What distinguishes making someone laugh from making them feel understood?"
+    },
+    {
+      "format": "Hot take",
+      "text": "No group should need a permanent target for its jokes. What keeps humour generous?"
+    },
+    {
+      "format": "Question",
+      "text": "What have you learnt from someone whose social style differs sharply from yours?"
+    },
+    {
+      "format": "Question",
+      "text": "When has a relationship mattered more than its frequency of contact suggested?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe seeing someone handle a mistake without passing the discomfort to others."
+    },
+    {
+      "format": "Question",
+      "text": "What does a person risk when they question a group's favourite story about itself?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A group wants to celebrate someone who dislikes public attention. What would a thoughtful celebration consider?"
+    },
+    {
+      "format": "Question",
+      "text": "What makes a connection with an online creator feel personal, even when they do not know you?"
+    },
+    {
+      "format": "Observation",
+      "text": "Knowing everyone in a room does not always mean feeling known. What makes the difference?"
+    },
+    {
+      "format": "Question",
+      "text": "Which shared activity reveals care more clearly than a long conversation?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Hear a story about someone receiving help well or offering help thoughtfully?"
+    },
+    {
+      "format": "Question",
+      "text": "How should a group respond when one member admits they have changed their mind?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about an encounter which made you question who you normally listen to."
+    },
+    {
+      "format": "Question",
+      "text": "What helps people maintain warmth while setting a clear limit?"
+    },
+    {
+      "format": "Question",
+      "text": "What have relationships across age groups taught you about timing in life?"
+    },
+    {
+      "format": "Hot take",
+      "text": "A person's absence from social events tells only part of their story. What else should we remember?"
+    },
+    {
+      "format": "Question",
+      "text": "When does encouragement become pressure to perform happiness?"
+    },
+    {
+      "format": "Scenario",
+      "text": "Someone is repeatedly interrupted but laughs it off. How would you make room without embarrassing them?"
+    },
+    {
+      "format": "Question",
+      "text": "Which kind of reliability takes time to recognise?"
+    },
+    {
+      "format": "Question",
+      "text": "What does being a good witness to another person's experience involve?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time a person translated more than words between two people."
+    },
+    {
+      "format": "Question",
+      "text": "How does being seen together change a relationship which mostly exists in private?"
+    },
+    {
+      "format": "Observation",
+      "text": "A person's generosity may be easier to see than their discomfort receiving. How do we welcome both?"
+    },
+    {
+      "format": "Question",
+      "text": "Which relationships have helped you become less certain and more thoughtful?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Understand what a person protects or what they are willing to risk for someone?"
+    },
+    {
+      "format": "Question",
+      "text": "What makes a question appropriate in one setting and intrusive in another?"
+    },
+    {
+      "format": "Scenario",
+      "text": "Someone confuses two members of a group repeatedly. How should it be addressed?"
+    },
+    {
+      "format": "Question",
+      "text": "What do we learn about a group from who gets to be complicated?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time you felt respected by someone who did not especially like you."
+    },
+    {
+      "format": "Question",
+      "text": "How does a group make room for someone who has less money to spend?"
+    },
+    {
+      "format": "Question",
+      "text": "What helps people receive correction without feeling expelled from a group?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Social ease is often supported by someone else's planning. Whose work do we miss?"
+    },
+    {
+      "format": "Question",
+      "text": "Which relationships have changed your understanding of a place?"
+    },
+    {
+      "format": "Question",
+      "text": "What makes acknowledging a mistake feel proportionate rather than theatrical?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a time two people repaired a misunderstanding without deciding who was better."
+    },
+    {
+      "format": "Question",
+      "text": "How do you recognise someone trying to connect through a subject they know little about?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A conversation turns to a life stage one person has not reached or does not want. How do we keep them included?"
+    },
+    {
+      "format": "Question",
+      "text": "What does sharing a difficult task reveal about a relationship?"
+    },
+    {
+      "format": "Observation",
+      "text": "Some people are known mostly for what they provide. What helps us see the rest of them?"
+    },
+    {
+      "format": "Question",
+      "text": "What would help a group disagree without recruiting allies?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Hear what made someone feel respected or what helped them trust again?"
+    },
+    {
+      "format": "Question",
+      "text": "What can a shared journey reveal about who expects to lead and who expects to follow?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Share a moment when a person noticed you were ready for more responsibility."
+    },
+    {
+      "format": "Question",
+      "text": "Which form of attention helps you feel part of a conversation without putting you on display?"
+    },
+    {
+      "format": "Question",
+      "text": "What have you learnt about relationships through sharing public space?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Agreement can be genuine or a way to escape a conversation. How do we tell?"
+    },
+    {
+      "format": "Question",
+      "text": "What does social generosity look like when a person has little energy?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A person wants to tell their own story after others have told it for years. What does the group owe them?"
+    },
+    {
+      "format": "Question",
+      "text": "What makes a thoughtful follow-up different from checking whether advice was followed?"
+    },
+    {
+      "format": "Question",
+      "text": "Which relationships have helped you revise your idea of maturity?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a small act which restored someone's dignity after an embarrassing moment."
+    },
+    {
+      "format": "Question",
+      "text": "How do shared spaces affect whether people feel entitled to speak?"
+    },
+    {
+      "format": "Observation",
+      "text": "A group can be close and still know little about how each person lives. What would bridge that gap?"
+    },
+    {
+      "format": "Question",
+      "text": "When have you appreciated being asked rather than being predicted?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Explore a relationship built through repetition or one changed by a single encounter?"
+    },
+    {
+      "format": "Question",
+      "text": "What makes a person safe to disagree with in public?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A group's usual meeting place becomes inaccessible to one member. What should happen next?"
+    },
+    {
+      "format": "Question",
+      "text": "How should people acknowledge harm done before they joined a group?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a time someone welcomed your contribution without comparing it to anyone else's."
+    },
+    {
+      "format": "Question",
+      "text": "Which relationships taught you the difference between admiration and closeness?"
+    },
+    {
+      "format": "Question",
+      "text": "What helps people ask for clarification without feeling foolish?"
+    },
+    {
+      "format": "Hot take",
+      "text": "A relationship need not last forever to have been worthwhile. What makes that hard to accept?"
+    },
+    {
+      "format": "Question",
+      "text": "When does a shared challenge create unfair expectations of lifelong closeness?"
+    },
+    {
+      "format": "Question",
+      "text": "What helps a person admit they do not know how to support someone?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Share a time a routine exchange became a real conversation."
+    },
+    {
+      "format": "Question",
+      "text": "What does a group's response to a cancelled plan reveal?"
+    },
+    {
+      "format": "Scenario",
+      "text": "Two members need opposite things from a gathering: quiet and activity. How would you approach the difference?"
+    },
+    {
+      "format": "Question",
+      "text": "Which social skill do we praise without noticing its emotional cost?"
+    },
+    {
+      "format": "Observation",
+      "text": "Some relationships happen around thresholds: doorways, queues, departures. Which brief connection has mattered to you?"
+    },
+    {
+      "format": "Question",
+      "text": "How do you recognise when someone wants company without wanting to talk?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Learn how someone welcomes people or how they say goodbye?"
+    },
+    {
+      "format": "Question",
+      "text": "What makes a group feel able to survive one person's honest disappointment?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time someone treated a newcomer as a contributor rather than a guest."
+    },
+    {
+      "format": "Question",
+      "text": "How do shared interests sometimes hide important differences between people?"
+    },
+    {
+      "format": "Question",
+      "text": "Which relationship has helped you understand the limits of your own experience?"
+    },
+    {
+      "format": "Hot take",
+      "text": "The most confident interpretation is not always the most accurate. How should groups handle uncertainty about people?"
+    },
+    {
+      "format": "Question",
+      "text": "What makes an offer to mediate welcome rather than intrusive?"
+    },
+    {
+      "format": "Scenario",
+      "text": "Someone wants to leave a group chat without ending the relationships. What would a respectful response look like?"
+    },
+    {
+      "format": "Question",
+      "text": "How does the way people wait together affect their connection?"
+    },
+    {
+      "format": "Question",
+      "text": "What do you learn from how a person treats someone they will never meet again?"
+    },
+    {
+      "format": "Question",
+      "text": "What makes it possible to build trust with someone whose language you are still learning?"
+    },
+    {
+      "format": "Question",
+      "text": "What helps a group notice whose preferences are repeatedly treated as optional?"
+    },
+    {
+      "format": "Observation",
+      "text": "People may tell the same story differently depending on who is listening. What does a caring listener allow?"
+    },
+    {
+      "format": "Question",
+      "text": "Which relationships have taught you to be less quick with advice?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Hear about someone's first impression changing or a long-held impression being confirmed?"
+    },
+    {
+      "format": "Question",
+      "text": "What distinguishes being trusted with information from being made responsible for it?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A person apologises, but the group keeps retelling their mistake. What needs to change?"
+    },
+    {
+      "format": "Question",
+      "text": "How do you know when concern for someone has become a need to feel useful?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Share a time you learnt a person's name after knowing their face for years."
+    },
+    {
+      "format": "Question",
+      "text": "What makes it possible to express affection without expecting the same style in return?"
+    },
+    {
+      "format": "Question",
+      "text": "Which kinds of relationships are missing from the stories society celebrates?"
+    },
+    {
+      "format": "Hot take",
+      "text": "A group is not automatically neutral when it stays silent. What might silence communicate?"
+    },
+    {
+      "format": "Question",
+      "text": "What helps people share a room with someone after a disagreement remains unresolved?"
+    },
+    {
+      "format": "Question",
+      "text": "How does being remembered by someone affect your sense of belonging somewhere?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time someone let you contribute in a way which suited your abilities."
+    },
+    {
+      "format": "Question",
+      "text": "What do you want people to understand about your relationship with attention?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A group receives praise for an idea borrowed from someone outside it. What should acknowledgement involve?"
+    },
+    {
+      "format": "Question",
+      "text": "How do people reveal whether their curiosity has room for an unexpected answer?"
+    },
+    {
+      "format": "Observation",
+      "text": "People often arrive carrying relationships the room cannot see. How might remembering that change our patience?"
+    },
+    {
+      "format": "Question",
+      "text": "What makes a group ritual meaningful to someone who did not help create it?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Explore why a relationship endured or why its ending felt respectful?"
+    },
+    {
+      "format": "Question",
+      "text": "How does a relationship change when one person becomes publicly successful?"
+    },
+    {
+      "format": "Question",
+      "text": "What helps people stay connected after the place where they met closes?"
+    },
+    {
+      "format": "Question",
+      "text": "Which relationship has changed what you consider a meaningful contribution?"
+    },
+    {
+      "format": "Question",
+      "text": "How should we respond when someone says a supposedly inclusive plan leaves them out?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Knowing someone's history should improve our questions rather than settle our answers. Where does this matter?"
+    },
+    {
+      "format": "Question",
+      "text": "What makes an offer of company feel different from an offer of supervision?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A member has become less available after a major life change. How should the group adjust expectations?"
+    },
+    {
+      "format": "Question",
+      "text": "What helps people distinguish a personal preference from a judgement of others?"
+    },
+    {
+      "format": "Question",
+      "text": "What does the way people share scarce time reveal about relationships?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Share a time someone treated a disagreement as something to understand rather than win."
+    },
+    {
+      "format": "Question",
+      "text": "Which social setting brings out a version of you other people rarely meet?"
+    },
+    {
+      "format": "Observation",
+      "text": "Sometimes the person who brings everyone together feels least free to leave. How do we share that freedom?"
+    },
+    {
+      "format": "Question",
+      "text": "What helps someone be honest about not enjoying a shared activity?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Understand how someone repairs trust or how they avoid making assumptions?"
+    },
+    {
+      "format": "Question",
+      "text": "What has a relationship taught you about receiving an answer you did not want?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A person asks the group to stop using an old description of them. What would taking this seriously look like?"
+    },
+    {
+      "format": "Question",
+      "text": "How do people show respect for a relationship they do not personally understand?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time somebody's thoughtful departure made you feel cared for."
+    },
+    {
+      "format": "Question",
+      "text": "What makes a group memory worth preserving even if no photograph exists?"
+    },
+    {
+      "format": "Question",
+      "text": "Which relationship has made you more curious about ordinary lives?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Feeling comfortable is not the same as making others comfortable. How do we balance both?"
+    },
+    {
+      "format": "Question",
+      "text": "What helps people remain themselves when they become part of a close circle?"
+    },
+    {
+      "format": "Scenario",
+      "text": "Someone offers criticism of a group they still want to belong to. How should their belonging be protected?"
+    },
+    {
+      "format": "Question",
+      "text": "What do you notice about how people make room for one more person?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time someone shared access to an opportunity rather than merely offering encouragement."
+    },
+    {
+      "format": "Question",
+      "text": "What makes mutual respect possible when people want different levels of closeness?"
+    },
+    {
+      "format": "Observation",
+      "text": "A relationship may matter to two people in different ways. What helps them talk about that honestly?"
+    },
+    {
+      "format": "Question",
+      "text": "Which kind of support is easiest to overlook because it arrives before a problem?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Hear about a relationship which surprised someone or one they slowly learnt to appreciate?"
+    },
+    {
+      "format": "Question",
+      "text": "What helps someone say they need a different role in a group?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A long-standing member returns after years away and expects everything to be the same. How do we welcome them into what exists now?"
+    },
+    {
+      "format": "Question",
+      "text": "How do people show care when they cannot offer agreement or reassurance?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Share a time an unexpected person remembered something important to you."
+    },
+    {
+      "format": "Question",
+      "text": "What makes it easier to thank someone without turning their help into a debt?"
+    },
+    {
+      "format": "Hot take",
+      "text": "A healthy circle has room for people who connect differently. What does that look like in practice?"
+    },
+    {
+      "format": "Question",
+      "text": "How does caring for the same place connect people who would not otherwise meet?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A group wants to help but the person involved has asked for privacy. What options remain respectful?"
+    },
+    {
+      "format": "Question",
+      "text": "How do we recognise when a conversation has changed how we will treat someone?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time a relationship grew through something neither person planned."
+    },
+    {
+      "format": "Question",
+      "text": "What would you want a group to remember about someone who is leaving it?"
+    },
+    {
+      "format": "Question",
+      "text": "What do you think we owe the people who introduce us to someone important in our lives?"
+    }
+  ]
+}

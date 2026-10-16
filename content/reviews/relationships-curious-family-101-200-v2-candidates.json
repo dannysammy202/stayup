@@ -1,0 +1,4116 @@
+{
+  "input": "content/inbox/relationships-curious-family-101-200-v2.json",
+  "baselineManifestSha256": "81a9916435293b887d2a98450603f8db0ef7f4cfee47054a184edc3596085c23",
+  "existingRecords": 10200,
+  "incomingRecords": 100,
+  "methods": [
+    "whole-library exact normalisation",
+    "word unigram/bigram TF-IDF retrieval",
+    "128-dimensional LSA retrieval"
+  ],
+  "limitation": "Latent semantic analysis is candidate retrieval, not a neural embedding uniqueness guarantee. Individual editorial judgement remains required.",
+  "rows": [
+    {
+      "row": 1,
+      "text": "What do you learn about a relative from the way they treat somebody who cannot do anything for them?",
+      "textSha256": "3416888b8976b768617354fe486350418d34ce824109fc67491b62552ddf61d3",
+      "candidates": [
+        {
+          "id": "SM-000415",
+          "text": "A compliment about your taste or one about the way you treat people?",
+          "method": "tfidf",
+          "score": 0.3119
+        },
+        {
+          "id": "incoming-67",
+          "text": "What do you like about a relative's way of bringing a conversation to an end?",
+          "method": "tfidf",
+          "score": 0.2367
+        },
+        {
+          "id": "SM-010105",
+          "text": "Learn a relative's favourite joke or hear how they met their closest friend?",
+          "method": "tfidf",
+          "score": 0.209
+        },
+        {
+          "id": "SM-005175",
+          "text": "Taking someone's recommendation seriously is one way to learn their tastes.",
+          "method": "lsa",
+          "score": 0.6906
+        },
+        {
+          "id": "incoming-61",
+          "text": "Which relative notices when somebody else deserves credit?",
+          "method": "lsa",
+          "score": 0.6326
+        },
+        {
+          "id": "SM-004614",
+          "text": "A relative rarely replies to messages but enjoys phone conversations. What would be a considerate way to stay in touch?",
+          "method": "lsa",
+          "score": 0.6297
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "text": "A family member changes their name. How would you help the rest of us get used to using it?",
+      "textSha256": "1d3a4f5fcaf34e23e3edd9d41138d0f2ab5b32bcca962b6d08cb9dc554532f33",
+      "candidates": [
+        {
+          "id": "SM-006738",
+          "text": "Recall a time a family member used an expression at exactly the wrong moment.",
+          "method": "tfidf",
+          "score": 0.1758
+        },
+        {
+          "id": "SM-010182",
+          "text": "Which family member has a way of disagreeing you find helpful?",
+          "method": "tfidf",
+          "score": 0.1707
+        },
+        {
+          "id": "SM-007331",
+          "text": "Which family member of one of our friends would fit into this group surprisingly well?",
+          "method": "tfidf",
+          "score": 0.1567
+        },
+        {
+          "id": "SM-004686",
+          "text": "A family apology matters more when behaviour changes afterwards.",
+          "method": "lsa",
+          "score": 0.6532
+        },
+        {
+          "id": "SM-006868",
+          "text": "Tell us about a family member who made space for a guest despite a crowded house.",
+          "method": "lsa",
+          "score": 0.6455
+        },
+        {
+          "id": "SM-004504",
+          "text": "We find a box of family photographs without names on them. Who would you ask to help identify everyone?",
+          "method": "lsa",
+          "score": 0.635
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "text": "Tell us about a family disagreement where discovering one missing fact changed the whole conversation.",
+      "textSha256": "d0e681fea87763763618f82ce63cae8039d70f372f8a9f1ce3a5e98f291d61a8",
+      "candidates": [
+        {
+          "id": "SM-008707",
+          "text": "What's an opinion you've changed because a conversation made you reconsider it?",
+          "method": "tfidf",
+          "score": 0.2017
+        },
+        {
+          "id": "SM-002489",
+          "text": "Finding a forgotten banknote in an old jacket or discovering where your missing sunglasses have been for months?",
+          "method": "tfidf",
+          "score": 0.1677
+        },
+        {
+          "id": "SM-006082",
+          "text": "Tell me about your family discovering something amusing about the way we cooperate.",
+          "method": "tfidf",
+          "score": 0.1607
+        },
+        {
+          "id": "SM-005682",
+          "text": "Tell us about reconnecting with someone and discovering your routines had changed.",
+          "method": "lsa",
+          "score": 0.7783
+        },
+        {
+          "id": "SM-006968",
+          "text": "Tell me about a conversation with an elder that changed your understanding of their choices.",
+          "method": "lsa",
+          "score": 0.73
+        },
+        {
+          "id": "SM-004678",
+          "text": "Describe an unexpected conversation at a family table that changed your mind about someone.",
+          "method": "lsa",
+          "score": 0.6572
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "text": "Which relative would you ask to help you write a difficult message, and why?",
+      "textSha256": "432ab5cb00b91b41d97cc6364c5c3b5fe384e9e64d4e428ef3956bbc647acfaf",
+      "candidates": [
+        {
+          "id": "SM-000667",
+          "text": "Is it easier for you to ask for help or to offer it to somebody else?",
+          "method": "tfidf",
+          "score": 0.2089
+        },
+        {
+          "id": "incoming-48",
+          "text": "What would you like a relative to ask before signing you up for an activity on your behalf?",
+          "method": "tfidf",
+          "score": 0.19
+        },
+        {
+          "id": "incoming-95",
+          "text": "Ask a relative to challenge your assumptions or ask them to help you explain your view more clearly?",
+          "method": "tfidf",
+          "score": 0.1895
+        },
+        {
+          "id": "incoming-25",
+          "text": "Offer a relative two ways to help or ask them to name a task they would willingly take on?",
+          "method": "lsa",
+          "score": 0.8442
+        },
+        {
+          "id": "SM-000421",
+          "text": "How do you ask someone for help without turning the request into an apology?",
+          "method": "lsa",
+          "score": 0.7384
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "text": "Make a joint decision through a group discussion or hear each person's view privately first?",
+      "textSha256": "f70d34c70445f4e3a74fe4458199b216078e817c16ed6a294010485871e16ef9",
+      "candidates": [
+        {
+          "id": "incoming-100",
+          "text": "Which family discussion would benefit from hearing the youngest person's view before anyone else speaks?",
+          "method": "tfidf",
+          "score": 0.1844
+        },
+        {
+          "id": "SM-004779",
+          "text": "A friend feels embarrassed after sharing an unpopular view. How should the group keep the discussion respectful?",
+          "method": "tfidf",
+          "score": 0.172
+        },
+        {
+          "id": "SM-006584",
+          "text": "A funny interview with a guest or a group discussion of an unusual mystery?",
+          "method": "tfidf",
+          "score": 0.1477
+        },
+        {
+          "id": "SM-006637",
+          "text": "Who in this group would make the most expressive narrator in a stage show?",
+          "method": "lsa",
+          "score": 0.7008
+        },
+        {
+          "id": "SM-000125",
+          "text": "An outgoing person and a reserved person often make an excellent pair of companions.",
+          "method": "lsa",
+          "score": 0.671
+        },
+        {
+          "id": "SM-000338",
+          "text": "Every group seems to have one person who reads the instructions before everyone else starts.",
+          "method": "lsa",
+          "score": 0.6648
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "text": "Somebody often becomes the family messenger without choosing the job. How do we make sure news reaches people directly?",
+      "textSha256": "30e58c6c049f564ec346c50915ebf76b2e8b02a7725b0dbca93f100924565554",
+      "candidates": [
+        {
+          "id": "SM-003152",
+          "text": "Tell me about discovering the favourite artist of somebody in your family.",
+          "method": "tfidf",
+          "score": 0.13
+        },
+        {
+          "id": "SM-006289",
+          "text": "We're recording a family history conversation. How do we make sure quieter relatives get a chance to contribute?",
+          "method": "tfidf",
+          "score": 0.1281
+        },
+        {
+          "id": "SM-003563",
+          "text": "You're visiting a home where the dining customs are unfamiliar. How would you make sure you're respectful?",
+          "method": "tfidf",
+          "score": 0.1265
+        },
+        {
+          "id": "SM-007152",
+          "text": "What made-up job sounds ridiculous but might genuinely make somebody happy?",
+          "method": "lsa",
+          "score": 0.7283
+        },
+        {
+          "id": "SM-006348",
+          "text": "What's an outfit people in your area wear for comfort rather than to make an impression?",
+          "method": "lsa",
+          "score": 0.6002
+        },
+        {
+          "id": "SM-010134",
+          "text": "Which family role have you grown out of, even if people still associate it with you?",
+          "method": "lsa",
+          "score": 0.579
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "text": "How do you tell the difference between somebody being private and somebody feeling left out?",
+      "textSha256": "635d79c3efe7b623dc3cec967282ffad9480f26b75b1962f9cf753ae04e954c1",
+      "candidates": [
+        {
+          "id": "SM-002791",
+          "text": "When have you felt comfortable sharing silence with somebody rather than feeling pressured to speak?",
+          "method": "tfidf",
+          "score": 0.1809
+        },
+        {
+          "id": "SM-002681",
+          "text": "How can you tell the difference between being physically tired and needing a change of activity?",
+          "method": "tfidf",
+          "score": 0.17
+        },
+        {
+          "id": "SM-005667",
+          "text": "What difference between you and a friend has become something you appreciate?",
+          "method": "tfidf",
+          "score": 0.0908
+        },
+        {
+          "id": "SM-004480",
+          "text": "Tell me about a failure which eventually made you more patient with somebody else.",
+          "method": "lsa",
+          "score": 0.9365
+        },
+        {
+          "id": "SM-000271",
+          "text": "Tell me about somebody who encouraged you without expecting a result.",
+          "method": "lsa",
+          "score": 0.9357
+        },
+        {
+          "id": "SM-007018",
+          "text": "Tell me about somebody respectfully challenging a belief you hadn't examined closely.",
+          "method": "lsa",
+          "score": 0.9296
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "text": "Living nearby does not automatically make someone responsible for every family errand. How should we share the load?",
+      "textSha256": "63c5e51ac1b73dd8e715f5383b5de3a5fbdff15b783643bbfd5ce2d7295fe1e5",
+      "candidates": [
+        {
+          "id": "SM-003971",
+          "text": "How does a major annual festival change the everyday work of people living nearby?",
+          "method": "tfidf",
+          "score": 0.179
+        },
+        {
+          "id": "SM-006716",
+          "text": "Being the oldest sibling doesn't automatically make someone the official referee.",
+          "method": "tfidf",
+          "score": 0.1427
+        },
+        {
+          "id": "SM-010056",
+          "text": "Knowing the secret of an illusion doesn't automatically make the performance less impressive.",
+          "method": "tfidf",
+          "score": 0.1354
+        },
+        {
+          "id": "SM-003738",
+          "text": "A school invites family members to share cultural skills. What would make the exchange respectful and engaging?",
+          "method": "lsa",
+          "score": 0.7957
+        },
+        {
+          "id": "SM-004961",
+          "text": "Which fictional character would make the most entertaining person to share a flat with?",
+          "method": "lsa",
+          "score": 0.623
+        },
+        {
+          "id": "SM-004640",
+          "text": "Share useful second-hand items within the family or organise a seasonal swap?",
+          "method": "lsa",
+          "score": 0.6173
+        }
+      ]
+    },
+    {
+      "row": 9,
+      "text": "Which relative has taught you the value of doing a job at a slower pace?",
+      "textSha256": "3788488dc0480c77f897ca60d87748dced6935e610679b510c1c82d0daafbb1b",
+      "candidates": [
+        {
+          "id": "SM-006791",
+          "text": "What's something a younger relative has taught you that made you laugh at yourself?",
+          "method": "tfidf",
+          "score": 0.258
+        },
+        {
+          "id": "SM-004502",
+          "text": "Tell us about the relative who first taught you to cook something on your own.",
+          "method": "tfidf",
+          "score": 0.2489
+        },
+        {
+          "id": "SM-001626",
+          "text": "The same street looks different after rain, especially when everyone moves at a slower pace.",
+          "method": "tfidf",
+          "score": 0.2307
+        },
+        {
+          "id": "SM-006181",
+          "text": "What's a useful skill an older relative taught you when you were little?",
+          "method": "lsa",
+          "score": 0.6153
+        }
+      ]
+    },
+    {
+      "row": 10,
+      "text": "Two households in our family have different rules for children. What should visitors ask before offering advice?",
+      "textSha256": "facc1b591317885dcf1eec107346b189a7d0c5e88df6b85e6809edb7efa7120c",
+      "candidates": [
+        {
+          "id": "SM-002758",
+          "text": "A friend asks how to decide which of three hobbies to keep. What would you ask before offering advice?",
+          "method": "tfidf",
+          "score": 0.3059
+        },
+        {
+          "id": "SM-008417",
+          "text": "What question do you wish friends would ask before offering advice about your decisions?",
+          "method": "tfidf",
+          "score": 0.301
+        },
+        {
+          "id": "SM-008719",
+          "text": "I mention I'm having a rough week but don't explain why. What would you ask before offering advice?",
+          "method": "tfidf",
+          "score": 0.2498
+        },
+        {
+          "id": "SM-003520",
+          "text": "What would you ask someone preparing a family recipe that they learned without written instructions?",
+          "method": "lsa",
+          "score": 0.6456
+        },
+        {
+          "id": "SM-004669",
+          "text": "A younger family member receives two offers with different benefits. Which questions should we encourage them to ask?",
+          "method": "lsa",
+          "score": 0.5837
+        },
+        {
+          "id": "SM-004504",
+          "text": "We find a box of family photographs without names on them. Who would you ask to help identify everyone?",
+          "method": "lsa",
+          "score": 0.5736
+        }
+      ]
+    },
+    {
+      "row": 11,
+      "text": "What kind of update would you like to receive directly rather than through another relative?",
+      "textSha256": "2b3540fb466b1a4c1e0b0f25f2a03f8ba2c815c3489ddd8da7d00468380dcf53",
+      "candidates": [
+        {
+          "id": "SM-007347",
+          "text": "What kind of update from a distant friend makes everybody immediately want to respond?",
+          "method": "tfidf",
+          "score": 0.2115
+        },
+        {
+          "id": "SM-008842",
+          "text": "Describe someone remembering how you like to receive support and responding accordingly.",
+          "method": "tfidf",
+          "score": 0.2093
+        },
+        {
+          "id": "SM-010195",
+          "text": "Receive a short update while a relative travels or hear their whole story once they return?",
+          "method": "tfidf",
+          "score": 0.1619
+        },
+        {
+          "id": "incoming-50",
+          "text": "Which relative would you like to hear speak about something other than their usual area of expertise?",
+          "method": "lsa",
+          "score": 0.6939
+        },
+        {
+          "id": "SM-004630",
+          "text": "What's a hobby you would like to enjoy with a relative from another generation?",
+          "method": "lsa",
+          "score": 0.6219
+        },
+        {
+          "id": "SM-009741",
+          "text": "Which kind of community project would you like to see succeed in your area?",
+          "method": "lsa",
+          "score": 0.6172
+        }
+      ]
+    },
+    {
+      "row": 12,
+      "text": "Describe a moment when a relative defended your right to choose without agreeing with your choice.",
+      "textSha256": "23254bf28779078360bb8447ed37ee6142abd93a2fcdbb49302fe11a84884fb9",
+      "candidates": [
+        {
+          "id": "SM-010174",
+          "text": "Describe a moment when a relative's encouragement helped you attempt something unfamiliar.",
+          "method": "tfidf",
+          "score": 0.1811
+        },
+        {
+          "id": "SM-000192",
+          "text": "Describe an invitation you received at exactly the right moment.",
+          "method": "tfidf",
+          "score": 0.1033
+        },
+        {
+          "id": "SM-005949",
+          "text": "We each get to choose the other's entrance music for one day. What's your choice for me?",
+          "method": "tfidf",
+          "score": 0.101
+        },
+        {
+          "id": "SM-002000",
+          "text": "What's a recent moment when you realised you'd become more patient with yourself?",
+          "method": "lsa",
+          "score": 0.6308
+        }
+      ]
+    },
+    {
+      "row": 13,
+      "text": "Who do you enjoy celebrating for a small achievement other people might overlook?",
+      "textSha256": "4995da03c0944ef6be7c1575577d81908c37755b9d532071ac03c488e4aa257d",
+      "candidates": [
+        {
+          "id": "SM-000054",
+          "text": "What's your go-to way of celebrating someone's small win?",
+          "method": "tfidf",
+          "score": 0.3121
+        },
+        {
+          "id": "SM-001567",
+          "text": "Is there an activity you think most people overlook until somebody introduces them to it?",
+          "method": "tfidf",
+          "score": 0.2512
+        },
+        {
+          "id": "SM-001081",
+          "text": "What's a small achievement your friends celebrated more enthusiastically than you expected?",
+          "method": "tfidf",
+          "score": 0.2161
+        },
+        {
+          "id": "SM-005815",
+          "text": "Small decisions reveal whether two people enjoy improvising together.",
+          "method": "lsa",
+          "score": 0.8627
+        },
+        {
+          "id": "SM-009433",
+          "text": "Keep a small wardrobe of versatile favourites or enjoy changing your style regularly?",
+          "method": "lsa",
+          "score": 0.8531
+        },
+        {
+          "id": "SM-006497",
+          "text": "What's a small handmade gift people in your community enjoy giving?",
+          "method": "lsa",
+          "score": 0.8298
+        }
+      ]
+    },
+    {
+      "row": 14,
+      "text": "Ask how a decision feels or ask what practical help would make it easier?",
+      "textSha256": "2e7a41796855a97bedbb4597864a02c5510b700f198b9afc91080d372aa2fbab",
+      "candidates": [
+        {
+          "id": "SM-001467",
+          "text": "Which friend would be the best person to ask for practical help with a small repair?",
+          "method": "tfidf",
+          "score": 0.2996
+        },
+        {
+          "id": "SM-006970",
+          "text": "Ask someone about a decision they regret or a decision they're still glad they made?",
+          "method": "tfidf",
+          "score": 0.2485
+        },
+        {
+          "id": "SM-000670",
+          "text": "Encouragement from somebody new or practical help from somebody you know well?",
+          "method": "tfidf",
+          "score": 0.16
+        },
+        {
+          "id": "SM-000667",
+          "text": "Is it easier for you to ask for help or to offer it to somebody else?",
+          "method": "lsa",
+          "score": 0.7173
+        },
+        {
+          "id": "SM-000421",
+          "text": "How do you ask someone for help without turning the request into an apology?",
+          "method": "lsa",
+          "score": 0.6669
+        },
+        {
+          "id": "SM-000519",
+          "text": "You see someone struggling to carry too many shopping bags. Would you offer help or wait for them to ask?",
+          "method": "lsa",
+          "score": 0.6574
+        }
+      ]
+    },
+    {
+      "row": 15,
+      "text": "What have you learnt from a relative who does not share your faith or beliefs?",
+      "textSha256": "38c4465d4d56d994f022ae7a41effa8e1275e6e625b90d5ca8b7b196f022b518",
+      "candidates": [
+        {
+          "id": "SM-008421",
+          "text": "What has friendship taught you about people whose faith or beliefs differ from yours?",
+          "method": "tfidf",
+          "score": 0.2885
+        },
+        {
+          "id": "SM-010131",
+          "text": "What have you learnt about a relative from seeing them around their friends?",
+          "method": "tfidf",
+          "score": 0.2738
+        },
+        {
+          "id": "SM-008275",
+          "text": "People may share a faith while expressing it differently because of their age or upbringing.",
+          "method": "tfidf",
+          "score": 0.2323
+        },
+        {
+          "id": "SM-010155",
+          "text": "Which personality trait do you share with a relative you don't physically resemble?",
+          "method": "lsa",
+          "score": 0.6942
+        },
+        {
+          "id": "SM-008500",
+          "text": "Share the lesson that changed you most or thank someone for a quality you've learnt from them?",
+          "method": "lsa",
+          "score": 0.5736
+        }
+      ]
+    },
+    {
+      "row": 16,
+      "text": "An offer to host sometimes becomes an expectation to host forever. How would we notice when somebody wants a break?",
+      "textSha256": "15e488e2e65c1cd8d243deb6079a4889c3dc00b6de0a27dfa8c866e4eb02c99b",
+      "candidates": [
+        {
+          "id": "SM-006971",
+          "text": "How do you tell when somebody wants solutions rather than understanding?",
+          "method": "tfidf",
+          "score": 0.1656
+        },
+        {
+          "id": "SM-006911",
+          "text": "Which quality do you notice first in somebody who makes others feel included?",
+          "method": "tfidf",
+          "score": 0.1537
+        },
+        {
+          "id": "SM-007389",
+          "text": "We have a chatty group gathering and someone wants a quiet break. How should the host arrange it?",
+          "method": "tfidf",
+          "score": 0.1463
+        },
+        {
+          "id": "SM-001683",
+          "text": "We're carrying shopping bags and notice somebody struggling with a heavy door. What happens next?",
+          "method": "lsa",
+          "score": 0.7771
+        },
+        {
+          "id": "SM-002436",
+          "text": "The funniest verbal habits are the ones you only notice after somebody imitates you.",
+          "method": "lsa",
+          "score": 0.6024
+        }
+      ]
+    },
+    {
+      "row": 17,
+      "text": "An older relative asks a younger one for help with a phone, then worries about being a nuisance. What response would feel reassuring?",
+      "textSha256": "29f6fc1b2efad02aca5dfff876e293b1eb772298eafbf587399cb4850325475a",
+      "candidates": [
+        {
+          "id": "SM-002662",
+          "text": "An older relative asks why people work from caf\u00e9s. How would you explain the appeal?",
+          "method": "tfidf",
+          "score": 0.1853
+        },
+        {
+          "id": "SM-006278",
+          "text": "Describe learning to use a new device from a younger or older relative.",
+          "method": "tfidf",
+          "score": 0.1427
+        },
+        {
+          "id": "SM-006269",
+          "text": "A younger relative asks why two generations remember the same event differently. How might we discuss it?",
+          "method": "tfidf",
+          "score": 0.1422
+        },
+        {
+          "id": "SM-006259",
+          "text": "A younger relative asks why people used to plan their evenings around television schedules. How would you explain it?",
+          "method": "lsa",
+          "score": 0.6295
+        }
+      ]
+    },
+    {
+      "row": 18,
+      "text": "What makes a family introduction feel warm without sharing too much about the person?",
+      "textSha256": "8514f8d3f67478e0f3fef10f9453907b691693f9ab492ab05da50ac04250cc20",
+      "candidates": [
+        {
+          "id": "SM-008597",
+          "text": "What has made a professional introduction feel thoughtful rather than transactional?",
+          "method": "tfidf",
+          "score": 0.2241
+        },
+        {
+          "id": "SM-000061",
+          "text": "What makes a goodbye feel warm without turning it into a thirty-minute second conversation?",
+          "method": "tfidf",
+          "score": 0.2024
+        },
+        {
+          "id": "SM-006232",
+          "text": "Tell me about a childhood misunderstanding that still makes the family laugh.",
+          "method": "tfidf",
+          "score": 0.1818
+        },
+        {
+          "id": "SM-002900",
+          "text": "What makes you feel that you've learned something about a person rather than simply gathered facts about them?",
+          "method": "lsa",
+          "score": 0.7461
+        },
+        {
+          "id": "SM-001547",
+          "text": "Are you the person who makes terrible puns or the one who groans and secretly enjoys them?",
+          "method": "lsa",
+          "score": 0.7141
+        },
+        {
+          "id": "SM-004561",
+          "text": "Which part of family life makes you feel most supported?",
+          "method": "lsa",
+          "score": 0.7085
+        }
+      ]
+    },
+    {
+      "row": 19,
+      "text": "Tell us about a time you discovered a relative was nervous about something you assumed they found easy.",
+      "textSha256": "c46e78a14460154304d9f52c510770ae1a01230fddad60f6ee55b2352fd75ebe",
+      "candidates": [
+        {
+          "id": "SM-009202",
+          "text": "Describe the first time you discovered something meaningful about me through one of my friends.",
+          "method": "tfidf",
+          "score": 0.2565
+        },
+        {
+          "id": "SM-008328",
+          "text": "Recall a time you discovered an interest or talent a long-time friend had never mentioned.",
+          "method": "tfidf",
+          "score": 0.1933
+        },
+        {
+          "id": "SM-002887",
+          "text": "Have you ever discovered that something you assumed was expensive was actually simple to do yourself?",
+          "method": "tfidf",
+          "score": 0.1667
+        },
+        {
+          "id": "SM-010181",
+          "text": "Tell us about a time a relative gave you space and stayed connected.",
+          "method": "lsa",
+          "score": 0.9092
+        },
+        {
+          "id": "SM-010135",
+          "text": "Tell us about a time you enjoyed a relative's company without doing anything special.",
+          "method": "lsa",
+          "score": 0.8869
+        },
+        {
+          "id": "SM-004662",
+          "text": "Tell us about the first time you saw a relative working and understood what their job involved.",
+          "method": "lsa",
+          "score": 0.8731
+        }
+      ]
+    },
+    {
+      "row": 20,
+      "text": "Which relative has influenced how you treat people outside the family?",
+      "textSha256": "02dffe4d6f9ef5efbaf96ef198c1b1b06ba9e88af8b305714370102b8dc6f508",
+      "candidates": [
+        {
+          "id": "SM-000415",
+          "text": "A compliment about your taste or one about the way you treat people?",
+          "method": "tfidf",
+          "score": 0.259
+        },
+        {
+          "id": "incoming-43",
+          "text": "Describe a time someone from outside the family helped you appreciate a relative's kindness.",
+          "method": "tfidf",
+          "score": 0.2372
+        },
+        {
+          "id": "SM-006858",
+          "text": "Recall somebody calling your name in a way no one outside your family would use.",
+          "method": "tfidf",
+          "score": 0.2042
+        },
+        {
+          "id": "SM-006749",
+          "text": "The family opens a fictional restaurant. Which relative is the chef and who handles complaints?",
+          "method": "lsa",
+          "score": 0.7968
+        },
+        {
+          "id": "SM-004689",
+          "text": "A relative shares news they aren't ready to tell the wider family. How should we respect their choice?",
+          "method": "lsa",
+          "score": 0.7159
+        },
+        {
+          "id": "SM-010115",
+          "text": "What do people in our family often guess incorrectly about your personality?",
+          "method": "lsa",
+          "score": 0.6976
+        }
+      ]
+    },
+    {
+      "row": 21,
+      "text": "Trying to be fair does not always mean treating every relative identically. What difference in needs do you wish we understood better?",
+      "textSha256": "f6d3ba4ba067f93d4217a01c80b8f95a39d8bb80aba5c0fe3b31838085d541ef",
+      "candidates": [
+        {
+          "id": "SM-004670",
+          "text": "What do you wish your relatives understood better about your daily work?",
+          "method": "tfidf",
+          "score": 0.1896
+        },
+        {
+          "id": "SM-008527",
+          "text": "What's one thing you wish you'd understood during your first week in a job?",
+          "method": "tfidf",
+          "score": 0.1841
+        },
+        {
+          "id": "SM-004375",
+          "text": "What personal habit from your culture do you wish outsiders understood better?",
+          "method": "tfidf",
+          "score": 0.1695
+        },
+        {
+          "id": "SM-005636",
+          "text": "Being a guest works better when you're interested in the occasion rather than trying to impress everyone.",
+          "method": "lsa",
+          "score": 0.6713
+        },
+        {
+          "id": "SM-001569",
+          "text": "I insist that rainy evenings are better than sunny afternoons. What's your counterargument?",
+          "method": "lsa",
+          "score": 0.6109
+        },
+        {
+          "id": "SM-004636",
+          "text": "Teaching budgeting works better with real examples than with warnings alone.",
+          "method": "lsa",
+          "score": 0.5814
+        }
+      ]
+    },
+    {
+      "row": 22,
+      "text": "What would you like us to stop assuming about the amount of free time you have?",
+      "textSha256": "0ded61d1d10a45997a2c42d3cfadc1eacb36f4e5da6d6aad0ec6931013c64b9a",
+      "candidates": [
+        {
+          "id": "SM-009719",
+          "text": "Your ideal weekday includes an unexpected hour of free time. How would you like to use it?",
+          "method": "tfidf",
+          "score": 0.1764
+        },
+        {
+          "id": "SM-009713",
+          "text": "Have more free time in the mornings or a calmer end to your evenings?",
+          "method": "tfidf",
+          "score": 0.1732
+        },
+        {
+          "id": "SM-007661",
+          "text": "What's an ordinary habit that tells you something about how a person spends their free time?",
+          "method": "tfidf",
+          "score": 0.1728
+        },
+        {
+          "id": "SM-009473",
+          "text": "Read a few pages every evening or settle into longer sessions when you have free time?",
+          "method": "lsa",
+          "score": 0.7346
+        }
+      ]
+    },
+    {
+      "row": 23,
+      "text": "A relative shares a view in a group chat which seems unlike them. How would you check whether you understood it properly?",
+      "textSha256": "9d1dfd6728f7de000adac0d4f0d2f5e03ee372d52bb9dcb43c308d960e4ad2d4",
+      "candidates": [
+        {
+          "id": "SM-010169",
+          "text": "A relative shares good news but wants to keep the details private for now. How would you celebrate within those limits?",
+          "method": "tfidf",
+          "score": 0.1471
+        },
+        {
+          "id": "SM-000891",
+          "text": "What's the funniest misunderstanding you've had in a group chat?",
+          "method": "tfidf",
+          "score": 0.1452
+        },
+        {
+          "id": "SM-004779",
+          "text": "A friend feels embarrassed after sharing an unpopular view. How should the group keep the discussion respectful?",
+          "method": "tfidf",
+          "score": 0.1382
+        },
+        {
+          "id": "SM-007230",
+          "text": "A constitutional monarchy based on group-chat polls would be the least efficient government imaginable.",
+          "method": "lsa",
+          "score": 0.7729
+        },
+        {
+          "id": "SM-006510",
+          "text": "Which fictional villain would struggle most to survive a group chat with us?",
+          "method": "lsa",
+          "score": 0.7688
+        },
+        {
+          "id": "SM-002032",
+          "text": "Every group chat has one sticker that means absolutely nothing to anybody outside it.",
+          "method": "lsa",
+          "score": 0.7565
+        }
+      ]
+    },
+    {
+      "row": 24,
+      "text": "How do you like people to acknowledge a favour after you have helped them?",
+      "textSha256": "5e2f854314684d08659f2e39c2e98968ef1cbcb3d581b036c97b46247bb91d0c",
+      "candidates": [
+        {
+          "id": "SM-000517",
+          "text": "Has a small favour ever helped you feel comfortable around a new person?",
+          "method": "tfidf",
+          "score": 0.3029
+        },
+        {
+          "id": "SM-008127",
+          "text": "How do different cultures encourage people to acknowledge kindness?",
+          "method": "tfidf",
+          "score": 0.2695
+        },
+        {
+          "id": "SM-007497",
+          "text": "What would you like people you care about to feel after spending time with this group?",
+          "method": "tfidf",
+          "score": 0.1861
+        },
+        {
+          "id": "SM-000636",
+          "text": "People seem more relaxed when they're doing something they genuinely like.",
+          "method": "lsa",
+          "score": 0.6624
+        },
+        {
+          "id": "SM-008196",
+          "text": "The needs of the people being helped should shape a charitable project more than its publicity.",
+          "method": "lsa",
+          "score": 0.6516
+        },
+        {
+          "id": "SM-006138",
+          "text": "Describe a neighbour who helped make the area feel like a community.",
+          "method": "lsa",
+          "score": 0.6258
+        }
+      ]
+    },
+    {
+      "row": 25,
+      "text": "Offer a relative two ways to help or ask them to name a task they would willingly take on?",
+      "textSha256": "f18ed57f2bebbf58fe9b671035ec762080c088243b3a7782ea73e33d7c16eb9b",
+      "candidates": [
+        {
+          "id": "incoming-74",
+          "text": "What would help us ask about your progress without making you feel we are checking a deadline?",
+          "method": "tfidf",
+          "score": 0.1607
+        },
+        {
+          "id": "SM-000667",
+          "text": "Is it easier for you to ask for help or to offer it to somebody else?",
+          "method": "tfidf",
+          "score": 0.1366
+        },
+        {
+          "id": "SM-005620",
+          "text": "A short encouraging message or an offer to help with a practical task?",
+          "method": "tfidf",
+          "score": 0.1259
+        },
+        {
+          "id": "incoming-4",
+          "text": "Which relative would you ask to help you write a difficult message, and why?",
+          "method": "lsa",
+          "score": 0.8442
+        },
+        {
+          "id": "SM-000519",
+          "text": "You see someone struggling to carry too many shopping bags. Would you offer help or wait for them to ask?",
+          "method": "lsa",
+          "score": 0.8024
+        },
+        {
+          "id": "incoming-95",
+          "text": "Ask a relative to challenge your assumptions or ask them to help you explain your view more clearly?",
+          "method": "lsa",
+          "score": 0.7999
+        }
+      ]
+    },
+    {
+      "row": 26,
+      "text": "What helps you trust a relative with an unfinished idea?",
+      "textSha256": "efd052aeeb79cf412899ce260c591789faa6c1080c9ca7549ebe6dabb170a61a",
+      "candidates": [
+        {
+          "id": "SM-008577",
+          "text": "Which communication habit helps you trust colleagues you seldom meet face to face?",
+          "method": "tfidf",
+          "score": 0.1962
+        },
+        {
+          "id": "SM-004690",
+          "text": "What helps you recognise the right moment to revisit an unfinished family conversation?",
+          "method": "tfidf",
+          "score": 0.1419
+        },
+        {
+          "id": "incoming-44",
+          "text": "Which relative would you trust to tell you when you have misunderstood somebody?",
+          "method": "tfidf",
+          "score": 0.1281
+        },
+        {
+          "id": "SM-004681",
+          "text": "When a relative disagrees with you, what helps you feel they are still listening?",
+          "method": "lsa",
+          "score": 0.8056
+        },
+        {
+          "id": "incoming-86",
+          "text": "What helps you enjoy a relative's success without comparing your own progress?",
+          "method": "lsa",
+          "score": 0.77
+        },
+        {
+          "id": "incoming-34",
+          "text": "What do you pick up from a relative's gestures which you might miss over the phone?",
+          "method": "lsa",
+          "score": 0.7047
+        }
+      ]
+    },
+    {
+      "row": 27,
+      "text": "Describe a time an unfamiliar family member became familiar through regular brief encounters.",
+      "textSha256": "816eec8713444eb2baed91a0a8169be953ead9ebb7035cd95aeb462e52e3c13f",
+      "candidates": [
+        {
+          "id": "SM-005488",
+          "text": "Recall an introduction that grew into friendship through a series of brief encounters.",
+          "method": "tfidf",
+          "score": 0.245
+        },
+        {
+          "id": "SM-010182",
+          "text": "Which family member has a way of disagreeing you find helpful?",
+          "method": "tfidf",
+          "score": 0.1551
+        },
+        {
+          "id": "SM-006179",
+          "text": "A younger family member finds an unfamiliar old gadget. How would you demonstrate what it did?",
+          "method": "tfidf",
+          "score": 0.1445
+        },
+        {
+          "id": "SM-010143",
+          "text": "Describe a time a family member took your suggestion seriously when you expected them to dismiss it.",
+          "method": "lsa",
+          "score": 0.6945
+        },
+        {
+          "id": "SM-006753",
+          "text": "A silly family greeting at the door or a familiar nickname shouted from the kitchen?",
+          "method": "lsa",
+          "score": 0.6739
+        }
+      ]
+    },
+    {
+      "row": 28,
+      "text": "Which relative has surprised you by remembering someone else's important date?",
+      "textSha256": "9b550dac3648e33e0d1b5e0af91d5b8cd6cfde729206febde27ab2c7f50efa0a",
+      "candidates": [
+        {
+          "id": "SM-000111",
+          "text": "Tell me about a conversation where someone surprised you by remembering a detail from much earlier.",
+          "method": "tfidf",
+          "score": 0.3288
+        },
+        {
+          "id": "SM-004781",
+          "text": "Who in your circle is best at remembering important dates?",
+          "method": "tfidf",
+          "score": 0.288
+        },
+        {
+          "id": "SM-005978",
+          "text": "Tell me about a funny coincidence we experienced on an important date.",
+          "method": "tfidf",
+          "score": 0.2684
+        },
+        {
+          "id": "SM-004506",
+          "text": "Remembering the names of people important to a relative is a quiet form of respect.",
+          "method": "lsa",
+          "score": 0.7526
+        },
+        {
+          "id": "SM-009383",
+          "text": "Keep important paperwork organised digitally or in a clearly labelled physical folder?",
+          "method": "lsa",
+          "score": 0.6587
+        },
+        {
+          "id": "SM-007807",
+          "text": "What's the most important detail to check before accepting an automatic renewal?",
+          "method": "lsa",
+          "score": 0.6481
+        }
+      ]
+    },
+    {
+      "row": 29,
+      "text": "We often know who keeps the family running but rarely ask what support they need. Who should we ask today?",
+      "textSha256": "3a37c45e14902242cf3176f8653bcdcf2e6cf947dd7c21651109393f40be0106",
+      "candidates": [
+        {
+          "id": "SM-010185",
+          "text": "Knowing a relative for years doesn't remove the need to ask what they prefer now. What preference of yours has changed?",
+          "method": "tfidf",
+          "score": 0.1256
+        },
+        {
+          "id": "SM-002556",
+          "text": "Much of what keeps daily life running happens outside most people's view.",
+          "method": "tfidf",
+          "score": 0.0927
+        },
+        {
+          "id": "SM-000763",
+          "text": "You sit next to a passionate fan during a match and don't know the rules. Do you ask for a running commentary?",
+          "method": "tfidf",
+          "score": 0.0901
+        },
+        {
+          "id": "SM-003520",
+          "text": "What would you ask someone preparing a family recipe that they learned without written instructions?",
+          "method": "lsa",
+          "score": 0.7335
+        },
+        {
+          "id": "incoming-55",
+          "text": "Who would you ask for an honest account of how you behave when you are tired?",
+          "method": "lsa",
+          "score": 0.7057
+        },
+        {
+          "id": "SM-008324",
+          "text": "A friend accepts a job far away from everyone they know. What would you ask beyond the obvious logistics?",
+          "method": "lsa",
+          "score": 0.6937
+        }
+      ]
+    },
+    {
+      "row": 30,
+      "text": "A family member brings a dietary restriction we have never catered for. What would you ask before planning their meal?",
+      "textSha256": "150f7abfc9aaa90ec164658299efc5d4058394dca16e4e9c4915095e7c841c7b",
+      "candidates": [
+        {
+          "id": "SM-005751",
+          "text": "What's a question you'd like someone to ask before planning a surprise for you?",
+          "method": "tfidf",
+          "score": 0.1883
+        },
+        {
+          "id": "SM-010182",
+          "text": "Which family member has a way of disagreeing you find helpful?",
+          "method": "tfidf",
+          "score": 0.1378
+        },
+        {
+          "id": "SM-003903",
+          "text": "Two friends from different cultures want to celebrate a shared achievement. What might they ask each other before planning?",
+          "method": "tfidf",
+          "score": 0.1335
+        },
+        {
+          "id": "SM-003520",
+          "text": "What would you ask someone preparing a family recipe that they learned without written instructions?",
+          "method": "lsa",
+          "score": 0.7691
+        },
+        {
+          "id": "SM-004669",
+          "text": "A younger family member receives two offers with different benefits. Which questions should we encourage them to ask?",
+          "method": "lsa",
+          "score": 0.6859
+        },
+        {
+          "id": "SM-006744",
+          "text": "Everyone contributes one ingredient to a mystery family dish. What would you secretly hope someone brings?",
+          "method": "lsa",
+          "score": 0.6754
+        }
+      ]
+    },
+    {
+      "row": 31,
+      "text": "Which relative would you like to hear explain a decision you once found puzzling?",
+      "textSha256": "336937dbf570005aa0ebe85dc72493c4a782f223e2748962d015072ddfa27e7a",
+      "candidates": [
+        {
+          "id": "incoming-50",
+          "text": "Which relative would you like to hear speak about something other than their usual area of expertise?",
+          "method": "tfidf",
+          "score": 0.3155
+        },
+        {
+          "id": "SM-006487",
+          "text": "What's a story about your hometown you'd like to hear from someone who was there?",
+          "method": "tfidf",
+          "score": 0.2402
+        },
+        {
+          "id": "SM-010179",
+          "text": "Who would you choose for a conversation about something you both find puzzling?",
+          "method": "tfidf",
+          "score": 0.1894
+        },
+        {
+          "id": "incoming-11",
+          "text": "What kind of update would you like to receive directly rather than through another relative?",
+          "method": "lsa",
+          "score": 0.606
+        }
+      ]
+    },
+    {
+      "row": 32,
+      "text": "Which relative is good at turning a practical question into a conversation you did not expect?",
+      "textSha256": "2f2625a7fb70371733beccd2f231b1377ecfd3ee8223bf8426f897d6f27df09b",
+      "candidates": [
+        {
+          "id": "SM-004407",
+          "text": "What did you once expect adulthood to feel like which turned out differently?",
+          "method": "tfidf",
+          "score": 0.2053
+        },
+        {
+          "id": "SM-005771",
+          "text": "What's a small sign a conversation is turning into a connection for you?",
+          "method": "tfidf",
+          "score": 0.0996
+        },
+        {
+          "id": "SM-000281",
+          "text": "What's something an older person taught you in a conversation you didn't expect?",
+          "method": "tfidf",
+          "score": 0.0971
+        },
+        {
+          "id": "SM-004666",
+          "text": "A good career conversation starts with curiosity rather than comparisons.",
+          "method": "lsa",
+          "score": 0.6286
+        },
+        {
+          "id": "SM-007046",
+          "text": "The ability to accept an unanswered question is part of being a good conversationalist.",
+          "method": "lsa",
+          "score": 0.6105
+        },
+        {
+          "id": "SM-001568",
+          "text": "A gentle disagreement can be good conversation if nobody treats it as a competition.",
+          "method": "lsa",
+          "score": 0.5603
+        }
+      ]
+    },
+    {
+      "row": 33,
+      "text": "Receive a check-in before a stressful appointment or have someone call after it is over?",
+      "textSha256": "e7907c1814bd32381a002c0124410976e51797c50658bbc92f920a35a92e13db",
+      "candidates": [
+        {
+          "id": "SM-001099",
+          "text": "A friend wants company while waiting for a routine appointment. How would you spend the time?",
+          "method": "tfidf",
+          "score": 0.1094
+        },
+        {
+          "id": "SM-009398",
+          "text": "Recall noticing that a once-stressful task had become easy through experience.",
+          "method": "tfidf",
+          "score": 0.1028
+        },
+        {
+          "id": "SM-009419",
+          "text": "You have an important appointment and a few optional tasks nearby. How would you avoid rushing?",
+          "method": "tfidf",
+          "score": 0.1014
+        },
+        {
+          "id": "SM-007757",
+          "text": "Which payment confirmation detail do you always check after a transaction?",
+          "method": "lsa",
+          "score": 0.7153
+        },
+        {
+          "id": "SM-004563",
+          "text": "A practical favour during a busy day or a thoughtful check-in afterwards?",
+          "method": "lsa",
+          "score": 0.554
+        },
+        {
+          "id": "SM-001370",
+          "text": "A gentle weekly check-in or a spontaneous message when someone remembers your goal?",
+          "method": "lsa",
+          "score": 0.5446
+        }
+      ]
+    },
+    {
+      "row": 34,
+      "text": "What do you pick up from a relative's gestures which you might miss over the phone?",
+      "textSha256": "6066b09fda912b2c12493f4da63b1cce14f42ad7e66de7fabd1102e1da09ed46",
+      "candidates": [
+        {
+          "id": "SM-001957",
+          "text": "What's a gadget you miss even though your phone can probably do the same job?",
+          "method": "tfidf",
+          "score": 0.3012
+        },
+        {
+          "id": "SM-009451",
+          "text": "How do you decide when to put your phone away for a while?",
+          "method": "tfidf",
+          "score": 0.0999
+        },
+        {
+          "id": "SM-010117",
+          "text": "A relative says they miss us but dislikes large gatherings. What smaller plan would suit them?",
+          "method": "tfidf",
+          "score": 0.0978
+        },
+        {
+          "id": "SM-006761",
+          "text": "Which relative would be most entertaining as a travel guide for your hometown?",
+          "method": "lsa",
+          "score": 0.8803
+        },
+        {
+          "id": "incoming-52",
+          "text": "What do you appreciate about a relative's partner which has nothing to do with how well they fit our routines?",
+          "method": "lsa",
+          "score": 0.8631
+        },
+        {
+          "id": "SM-010124",
+          "text": "Which relative knows a side of you the rest of us seldom see?",
+          "method": "lsa",
+          "score": 0.8593
+        }
+      ]
+    },
+    {
+      "row": 35,
+      "text": "Tell us about a moment when two relatives quietly worked together without needing anyone to direct them.",
+      "textSha256": "54a1ca06b5ae2b8908774bb1fd0cbc24d71030ba5dfcd86e1d6b4d51cc1ac99a",
+      "candidates": [
+        {
+          "id": "SM-002763",
+          "text": "Tell me about a moment somebody quietly did the right thing when nobody was watching.",
+          "method": "tfidf",
+          "score": 0.1726
+        },
+        {
+          "id": "SM-000371",
+          "text": "Tell me about a moment when you and someone tried not to laugh and made it worse.",
+          "method": "tfidf",
+          "score": 0.1485
+        },
+        {
+          "id": "SM-005902",
+          "text": "Tell me about a moment we both started laughing and couldn't explain why.",
+          "method": "tfidf",
+          "score": 0.1335
+        },
+        {
+          "id": "SM-007185",
+          "text": "Tell us about a moment you tried explaining something obvious and realised it wasn't obvious at all.",
+          "method": "lsa",
+          "score": 0.8416
+        },
+        {
+          "id": "SM-006604",
+          "text": "Tell us about a reality-show moment where a contestant's reaction was more memorable than the result.",
+          "method": "lsa",
+          "score": 0.7601
+        },
+        {
+          "id": "SM-005878",
+          "text": "Tell me about a moment when somebody's reliability impressed you more than a romantic gesture.",
+          "method": "lsa",
+          "score": 0.7586
+        }
+      ]
+    },
+    {
+      "row": 36,
+      "text": "Somebody wants to share a family photograph publicly, but one person prefers to stay offline. How would we include everyone in the decision?",
+      "textSha256": "7d6ca1649fa3e53d8e0e119ffed1d78d1902dd0d34320286e9422b65097729ac",
+      "candidates": [
+        {
+          "id": "SM-006971",
+          "text": "How do you tell when somebody wants solutions rather than understanding?",
+          "method": "tfidf",
+          "score": 0.1471
+        },
+        {
+          "id": "SM-008934",
+          "text": "Our group has tickets, but one person prefers to avoid the crowd. How should we plan the evening?",
+          "method": "tfidf",
+          "score": 0.1416
+        },
+        {
+          "id": "SM-006122",
+          "text": "Tell me about a family photograph whose backstory is more interesting than the picture.",
+          "method": "tfidf",
+          "score": 0.133
+        },
+        {
+          "id": "SM-004664",
+          "text": "Someone wants to switch careers but worries about disappointing the family. What would be a supportive first response?",
+          "method": "lsa",
+          "score": 0.6038
+        },
+        {
+          "id": "SM-000148",
+          "text": "Your friend wants to share a picture of you online, but you dislike the photo. What do you say?",
+          "method": "lsa",
+          "score": 0.6013
+        },
+        {
+          "id": "SM-008331",
+          "text": "What signals that a person wants encouragement rather than an immediate solution?",
+          "method": "lsa",
+          "score": 0.5919
+        }
+      ]
+    },
+    {
+      "row": 37,
+      "text": "Who in the family gives praise you find easy to believe?",
+      "textSha256": "df482ac2c4e985ab936dd75f37dcd3e7abcf1cf6aece304eb75789f017353920",
+      "candidates": [
+        {
+          "id": "SM-001051",
+          "text": "Which friend gives feedback in a way you find easy to hear?",
+          "method": "tfidf",
+          "score": 0.1302
+        },
+        {
+          "id": "incoming-87",
+          "text": "Receive encouragement privately or hear someone praise your effort in front of the family?",
+          "method": "tfidf",
+          "score": 0.1176
+        },
+        {
+          "id": "SM-000401",
+          "text": "What's a compliment about your effort that meant more than praise for the result?",
+          "method": "tfidf",
+          "score": 0.1118
+        },
+        {
+          "id": "SM-006784",
+          "text": "You are put in charge of a family award ceremony with ridiculous categories. What's the top prize?",
+          "method": "lsa",
+          "score": 0.9023
+        },
+        {
+          "id": "SM-004595",
+          "text": "We're putting together a family keepsake with one contribution from everyone. What would you add?",
+          "method": "lsa",
+          "score": 0.8907
+        },
+        {
+          "id": "SM-005133",
+          "text": "Your family stages a talent show based on skills nobody normally celebrates. What would your entry be?",
+          "method": "lsa",
+          "score": 0.8843
+        }
+      ]
+    },
+    {
+      "row": 38,
+      "text": "A family member does not have to turn every skill into a service for everyone. How do we respect a hobby they want to keep personal?",
+      "textSha256": "274697e39f499d6b672d4d1aa242c0f6f727fb2e9be741f95e26d52dfa752b5f",
+      "candidates": [
+        {
+          "id": "SM-006201",
+          "text": "What hobby did you pick up as a child because another family member enjoyed it?",
+          "method": "tfidf",
+          "score": 0.1584
+        },
+        {
+          "id": "SM-008200",
+          "text": "Contribute a practical skill to a service project or help coordinate resources for volunteers?",
+          "method": "tfidf",
+          "score": 0.1447
+        },
+        {
+          "id": "SM-010182",
+          "text": "Which family member has a way of disagreeing you find helpful?",
+          "method": "tfidf",
+          "score": 0.1387
+        },
+        {
+          "id": "SM-006899",
+          "text": "Every family member chooses one new skill to practise over a weekend. What would you pick?",
+          "method": "lsa",
+          "score": 0.6409
+        },
+        {
+          "id": "SM-003800",
+          "text": "What would you want a future family member to understand about the celebrations photographed today?",
+          "method": "lsa",
+          "score": 0.5789
+        },
+        {
+          "id": "SM-007336",
+          "text": "Being welcomed into a friend's family shouldn't mean losing your personal boundaries.",
+          "method": "lsa",
+          "score": 0.5767
+        }
+      ]
+    },
+    {
+      "row": 39,
+      "text": "How have your conversations with cousins changed since you stopped seeing one another through school holidays?",
+      "textSha256": "0a512e6355cf6f283dddd97560b74417811795f6d52be2921502cc3171b939bd",
+      "candidates": [
+        {
+          "id": "SM-006155",
+          "text": "Cousins who see each other only at holidays sometimes develop their own traditions.",
+          "method": "tfidf",
+          "score": 0.1966
+        },
+        {
+          "id": "SM-007907",
+          "text": "What's one change to your school building you'd be interested in seeing?",
+          "method": "tfidf",
+          "score": 0.0931
+        },
+        {
+          "id": "SM-006151",
+          "text": "What harmless competition between siblings or cousins became a family tradition?",
+          "method": "tfidf",
+          "score": 0.0821
+        },
+        {
+          "id": "SM-008357",
+          "text": "How have your boundaries around friendly teasing changed since your school days?",
+          "method": "lsa",
+          "score": 0.8142
+        },
+        {
+          "id": "SM-009062",
+          "text": "Describe seeing a video that completely changed your mental picture of a track.",
+          "method": "lsa",
+          "score": 0.619
+        },
+        {
+          "id": "SM-008080",
+          "text": "Explore how rainfall affects the school grounds or track how much paper a class uses?",
+          "method": "lsa",
+          "score": 0.6159
+        }
+      ]
+    },
+    {
+      "row": 40,
+      "text": "What do you wish people understood about your relationship with a relative they find difficult?",
+      "textSha256": "3916f58eb75a401ed4f04787ae9bf302aa94b0eda39c284ad9a4227fe5c83c1a",
+      "candidates": [
+        {
+          "id": "SM-008777",
+          "text": "Which relationship lesson do you wish people learnt before their first serious dating experience?",
+          "method": "tfidf",
+          "score": 0.217
+        },
+        {
+          "id": "SM-004240",
+          "text": "What's a quality in one of your friends you wish more people appreciated?",
+          "method": "tfidf",
+          "score": 0.2039
+        },
+        {
+          "id": "SM-005737",
+          "text": "What's something about your personality you wish people noticed sooner?",
+          "method": "tfidf",
+          "score": 0.2005
+        },
+        {
+          "id": "SM-005936",
+          "text": "Sharing the last bite is a bigger relationship negotiation than people admit.",
+          "method": "lsa",
+          "score": 0.6303
+        },
+        {
+          "id": "incoming-20",
+          "text": "Which relative has influenced how you treat people outside the family?",
+          "method": "lsa",
+          "score": 0.569
+        },
+        {
+          "id": "SM-006811",
+          "text": "Which relative gives the most entertaining directions around town?",
+          "method": "lsa",
+          "score": 0.5676
+        }
+      ]
+    },
+    {
+      "row": 41,
+      "text": "Our youngest relatives see adults in roles we barely notice anymore. What have they noticed about us?",
+      "textSha256": "56bde9be375e869cc9f6ac3d5d2c6717b725d8e057529ae42fb518af3fda1f26",
+      "candidates": [
+        {
+          "id": "SM-006205",
+          "text": "Children sometimes spend weeks fascinated by something adults barely notice.",
+          "method": "tfidf",
+          "score": 0.2163
+        },
+        {
+          "id": "SM-002606",
+          "text": "A familiar sound can disappear from a neighbourhood so slowly that people barely notice until it's gone.",
+          "method": "tfidf",
+          "score": 0.148
+        },
+        {
+          "id": "SM-002544",
+          "text": "Making steady progress you barely notice or experiencing one big breakthrough after months of effort?",
+          "method": "tfidf",
+          "score": 0.1331
+        },
+        {
+          "id": "SM-004478",
+          "text": "How do you notice when you're becoming too hard on yourself?",
+          "method": "lsa",
+          "score": 0.758
+        },
+        {
+          "id": "SM-000302",
+          "text": "How do you react when you notice someone has copied one of your expressions?",
+          "method": "lsa",
+          "score": 0.7526
+        },
+        {
+          "id": "SM-001693",
+          "text": "We notice two strangers wearing almost identical outfits. Do you point it out or keep the observation to yourself?",
+          "method": "lsa",
+          "score": 0.7516
+        }
+      ]
+    },
+    {
+      "row": 42,
+      "text": "We disagree about whether a family occasion should be small or open to everyone. What should we decide before making a guest list?",
+      "textSha256": "a569fe0a85679eca636b9d2056dba587c6d0a3af9a30269b19661ca8c4fba70a",
+      "candidates": [
+        {
+          "id": "SM-001500",
+          "text": "An open-house afternoon where people come and go or an intimate meal with a fixed guest list?",
+          "method": "tfidf",
+          "score": 0.2002
+        },
+        {
+          "id": "SM-006878",
+          "text": "Tell us about joining a family occasion over the phone and still feeling involved.",
+          "method": "tfidf",
+          "score": 0.1508
+        },
+        {
+          "id": "SM-006360",
+          "text": "A spontaneous celebration with neighbours or a family occasion planned weeks ahead?",
+          "method": "tfidf",
+          "score": 0.1362
+        },
+        {
+          "id": "SM-006849",
+          "text": "A family keepsake has no known owner. How should everyone decide where it belongs?",
+          "method": "lsa",
+          "score": 0.6401
+        },
+        {
+          "id": "SM-009825",
+          "text": "Sustainable wellbeing often depends on the small choices people can keep making.",
+          "method": "lsa",
+          "score": 0.6203
+        },
+        {
+          "id": "SM-006874",
+          "text": "Your family accidentally plans two gatherings for the same date. How should the organisers decide?",
+          "method": "lsa",
+          "score": 0.5902
+        }
+      ]
+    },
+    {
+      "row": 43,
+      "text": "Describe a time someone from outside the family helped you appreciate a relative's kindness.",
+      "textSha256": "32f80a76c900f6507476aa4f9c088ab574a3fcd3265d50c42ca1477808f99fb6",
+      "candidates": [
+        {
+          "id": "incoming-20",
+          "text": "Which relative has influenced how you treat people outside the family?",
+          "method": "tfidf",
+          "score": 0.2372
+        },
+        {
+          "id": "incoming-52",
+          "text": "What do you appreciate about a relative's partner which has nothing to do with how well they fit our routines?",
+          "method": "tfidf",
+          "score": 0.2294
+        },
+        {
+          "id": "SM-010146",
+          "text": "Who in our family would you like to spend time with outside the usual gathering?",
+          "method": "tfidf",
+          "score": 0.2246
+        },
+        {
+          "id": "SM-010157",
+          "text": "What has helped you maintain a connection with a relative whose schedule rarely matches yours?",
+          "method": "lsa",
+          "score": 0.7406
+        },
+        {
+          "id": "SM-004647",
+          "text": "Which neighbour or family friend helped your household during a difficult time?",
+          "method": "lsa",
+          "score": 0.677
+        },
+        {
+          "id": "SM-003749",
+          "text": "Describe a time a colourful detail helped you recognise where a photograph had been taken.",
+          "method": "lsa",
+          "score": 0.6652
+        }
+      ]
+    },
+    {
+      "row": 44,
+      "text": "Which relative would you trust to tell you when you have misunderstood somebody?",
+      "textSha256": "f787263641d4e2a641aba748dfd5320373d5df5b98d343b570bbecdcbe5fefce",
+      "candidates": [
+        {
+          "id": "SM-005221",
+          "text": "Which person do you trust to tell you when you're being unintentionally dramatic?",
+          "method": "tfidf",
+          "score": 0.2649
+        },
+        {
+          "id": "incoming-26",
+          "text": "What helps you trust a relative with an unfinished idea?",
+          "method": "tfidf",
+          "score": 0.1281
+        },
+        {
+          "id": "SM-006267",
+          "text": "What's something you misunderstood as a child because nobody explained the full story?",
+          "method": "tfidf",
+          "score": 0.1249
+        },
+        {
+          "id": "incoming-61",
+          "text": "Which relative notices when somebody else deserves credit?",
+          "method": "lsa",
+          "score": 0.8318
+        },
+        {
+          "id": "incoming-57",
+          "text": "Which part of a relative's personality becomes clearer when they teach somebody?",
+          "method": "lsa",
+          "score": 0.7773
+        },
+        {
+          "id": "SM-006812",
+          "text": "Tell us about a relative who knew a surprising shortcut nobody else believed in.",
+          "method": "lsa",
+          "score": 0.777
+        }
+      ]
+    },
+    {
+      "row": 45,
+      "text": "Share one concern before a family trip or agree on a way to raise concerns during it?",
+      "textSha256": "83a088eddfa3b439610b97522c93d34b5f3f29cb1ef0adf7a721fbc3a69b16bb",
+      "candidates": [
+        {
+          "id": "SM-008904",
+          "text": "We have fifteen minutes before leaving for a trip. How would we agree on the first three songs?",
+          "method": "tfidf",
+          "score": 0.2249
+        },
+        {
+          "id": "SM-008145",
+          "text": "People can share concern for others while giving different reasons for their values.",
+          "method": "tfidf",
+          "score": 0.2093
+        },
+        {
+          "id": "SM-008605",
+          "text": "People are more likely to raise concerns early when mistakes aren't treated as personal failures.",
+          "method": "tfidf",
+          "score": 0.1977
+        },
+        {
+          "id": "SM-006877",
+          "text": "What's the most inventive way your family has celebrated something remotely?",
+          "method": "lsa",
+          "score": 0.7622
+        },
+        {
+          "id": "SM-006882",
+          "text": "Describe witnessing two family members settle a silly disagreement in a surprising way.",
+          "method": "lsa",
+          "score": 0.681
+        },
+        {
+          "id": "SM-006321",
+          "text": "The way people share the last piece of food says a lot about the mood at the table.",
+          "method": "lsa",
+          "score": 0.6653
+        }
+      ]
+    },
+    {
+      "row": 46,
+      "text": "How do you prefer us to respond when a plan you were proud of does not work out?",
+      "textSha256": "747ef41711c603eb300a4d070855849b07684354af5c70bc8618f89f679598ab",
+      "candidates": [
+        {
+          "id": "SM-004045",
+          "text": "How do you prefer I respond when you tell me about a frustrating experience?",
+          "method": "tfidf",
+          "score": 0.27
+        },
+        {
+          "id": "SM-007655",
+          "text": "People reveal patience through how they respond when a plan needs adjusting.",
+          "method": "tfidf",
+          "score": 0.2136
+        },
+        {
+          "id": "SM-004336",
+          "text": "What part of your work are you proud of even though others rarely see it?",
+          "method": "tfidf",
+          "score": 0.1718
+        },
+        {
+          "id": "SM-001022",
+          "text": "The friend who keeps everyone updated about a delayed plan is doing valuable work.",
+          "method": "lsa",
+          "score": 0.7752
+        },
+        {
+          "id": "SM-005724",
+          "text": "We plan to meet outdoors and it starts raining. What's our backup plan?",
+          "method": "lsa",
+          "score": 0.6319
+        }
+      ]
+    },
+    {
+      "row": 47,
+      "text": "A repeated compliment sometimes turns into pressure to stay the same. Has a label ever felt limiting to you?",
+      "textSha256": "52583570ee6e20dda8f16773099eeb708780ed41e77b7acce7bdfae7b8ac7cab",
+      "candidates": [
+        {
+          "id": "SM-000028",
+          "text": "What's a compliment about your personality you still think about?",
+          "method": "tfidf",
+          "score": 0.0861
+        },
+        {
+          "id": "SM-002483",
+          "text": "A house where every object has a label or one where someone has a mysterious drawer for everything?",
+          "method": "tfidf",
+          "score": 0.0858
+        },
+        {
+          "id": "SM-005899",
+          "text": "We both enjoy getting to know each other but have busy weeks ahead. How might we stay connected without pressure?",
+          "method": "tfidf",
+          "score": 0.0857
+        },
+        {
+          "id": "SM-004511",
+          "text": "What was the first household responsibility you felt proud to handle?",
+          "method": "lsa",
+          "score": 0.8038
+        },
+        {
+          "id": "SM-006241",
+          "text": "What was the first household task you felt genuinely proud to handle on your own?",
+          "method": "lsa",
+          "score": 0.7365
+        },
+        {
+          "id": "SM-004146",
+          "text": "When have you felt proud of something you did quietly without telling many people?",
+          "method": "lsa",
+          "score": 0.7179
+        }
+      ]
+    },
+    {
+      "row": 48,
+      "text": "What would you like a relative to ask before signing you up for an activity on your behalf?",
+      "textSha256": "859339df6f52c1fe69e3791986aee0234e3ee30442e4f5e6908f4160a804f235",
+      "candidates": [
+        {
+          "id": "incoming-67",
+          "text": "What do you like about a relative's way of bringing a conversation to an end?",
+          "method": "tfidf",
+          "score": 0.1981
+        },
+        {
+          "id": "incoming-4",
+          "text": "Which relative would you ask to help you write a difficult message, and why?",
+          "method": "tfidf",
+          "score": 0.19
+        },
+        {
+          "id": "incoming-84",
+          "text": "Which relative would you ask to accompany you to an important conversation, and what support would you want from them?",
+          "method": "tfidf",
+          "score": 0.1706
+        },
+        {
+          "id": "SM-010196",
+          "text": "How would you like us to respond when you say you'd rather observe than join an activity?",
+          "method": "lsa",
+          "score": 0.674
+        },
+        {
+          "id": "incoming-50",
+          "text": "Which relative would you like to hear speak about something other than their usual area of expertise?",
+          "method": "lsa",
+          "score": 0.6186
+        },
+        {
+          "id": "incoming-11",
+          "text": "What kind of update would you like to receive directly rather than through another relative?",
+          "method": "lsa",
+          "score": 0.5597
+        }
+      ]
+    },
+    {
+      "row": 49,
+      "text": "A family member returns from abroad and everyone asks for gifts before asking about their life. How would you change the welcome?",
+      "textSha256": "16e3a204829a783cbe2e3971298bc53f121c83b3674ee13561087b06994b98b1",
+      "candidates": [
+        {
+          "id": "SM-004659",
+          "text": "A family member returns from living overseas and finds old routines unfamiliar. How would you make space for their changes?",
+          "method": "tfidf",
+          "score": 0.2009
+        },
+        {
+          "id": "SM-010182",
+          "text": "Which family member has a way of disagreeing you find helpful?",
+          "method": "tfidf",
+          "score": 0.1355
+        },
+        {
+          "id": "SM-007331",
+          "text": "Which family member of one of our friends would fit into this group surprisingly well?",
+          "method": "tfidf",
+          "score": 0.1244
+        },
+        {
+          "id": "SM-004651",
+          "text": "What's one change in family life you handled more easily than you expected?",
+          "method": "lsa",
+          "score": 0.7356
+        },
+        {
+          "id": "SM-004550",
+          "text": "What would you change about how we organise family celebrations?",
+          "method": "lsa",
+          "score": 0.6007
+        },
+        {
+          "id": "incoming-82",
+          "text": "Who in the family asks newcomers about interests before asking about their job?",
+          "method": "lsa",
+          "score": 0.598
+        }
+      ]
+    },
+    {
+      "row": 50,
+      "text": "Which relative would you like to hear speak about something other than their usual area of expertise?",
+      "textSha256": "5ce4a64afd751805ed92b996dbcc35588adc5dc55a9c867ab03d8f9bcba162b3",
+      "candidates": [
+        {
+          "id": "incoming-31",
+          "text": "Which relative would you like to hear explain a decision you once found puzzling?",
+          "method": "tfidf",
+          "score": 0.3155
+        },
+        {
+          "id": "SM-006487",
+          "text": "What's a story about your hometown you'd like to hear from someone who was there?",
+          "method": "tfidf",
+          "score": 0.2164
+        },
+        {
+          "id": "SM-006191",
+          "text": "What's a childhood story about our parents or grandparents you would like to hear in more detail?",
+          "method": "tfidf",
+          "score": 0.1638
+        },
+        {
+          "id": "incoming-11",
+          "text": "What kind of update would you like to receive directly rather than through another relative?",
+          "method": "lsa",
+          "score": 0.6939
+        }
+      ]
+    },
+    {
+      "row": 51,
+      "text": "Tell us about an unexpected bond between two relatives who rarely meet.",
+      "textSha256": "e38fef5369a16d9693708659b23e67b831f9eb80187226135208837a6424648d",
+      "candidates": [
+        {
+          "id": "SM-010121",
+          "text": "Family closeness does not always follow the family tree. Which unexpected bond have you enjoyed watching grow?",
+          "method": "tfidf",
+          "score": 0.1956
+        },
+        {
+          "id": "SM-006419",
+          "text": "Tell me about an unexpected conversation you had while shopping at a stall.",
+          "method": "tfidf",
+          "score": 0.1854
+        },
+        {
+          "id": "SM-008571",
+          "text": "What does a healthy working relationship look like when teammates rarely meet in person?",
+          "method": "tfidf",
+          "score": 0.1845
+        },
+        {
+          "id": "SM-007196",
+          "text": "Tell us about a holiday where an unexpected attraction became the highlight.",
+          "method": "lsa",
+          "score": 0.8373
+        },
+        {
+          "id": "SM-004440",
+          "text": "Tell me about an unexpected animal encounter which made you smile.",
+          "method": "lsa",
+          "score": 0.8337
+        },
+        {
+          "id": "SM-007822",
+          "text": "Tell me about choosing a slower route and finding an unexpected benefit.",
+          "method": "lsa",
+          "score": 0.7437
+        }
+      ]
+    },
+    {
+      "row": 52,
+      "text": "What do you appreciate about a relative's partner which has nothing to do with how well they fit our routines?",
+      "textSha256": "09af64def032d945e4a45e02f0a8670e4b277c948e6c232275d4fd96c6f4b9f6",
+      "candidates": [
+        {
+          "id": "incoming-43",
+          "text": "Describe a time someone from outside the family helped you appreciate a relative's kindness.",
+          "method": "tfidf",
+          "score": 0.2294
+        },
+        {
+          "id": "SM-010170",
+          "text": "Which relative has a sense of humour you appreciate more as you get older?",
+          "method": "tfidf",
+          "score": 0.1204
+        },
+        {
+          "id": "SM-007029",
+          "text": "Friends reunite after years and one assumes their old routines still fit. How could they discover their current preferences?",
+          "method": "tfidf",
+          "score": 0.1162
+        },
+        {
+          "id": "SM-006761",
+          "text": "Which relative would be most entertaining as a travel guide for your hometown?",
+          "method": "lsa",
+          "score": 0.8695
+        },
+        {
+          "id": "incoming-34",
+          "text": "What do you pick up from a relative's gestures which you might miss over the phone?",
+          "method": "lsa",
+          "score": 0.8631
+        },
+        {
+          "id": "SM-006811",
+          "text": "Which relative gives the most entertaining directions around town?",
+          "method": "lsa",
+          "score": 0.8609
+        }
+      ]
+    },
+    {
+      "row": 53,
+      "text": "Some relatives keep photographs, while others remember names or dates. How do these different kinds of remembering help us understand one another?",
+      "textSha256": "7396c989cf66022a4879c5d170334dbd8267500b0cfea3155dafb00c2cd19751",
+      "candidates": [
+        {
+          "id": "SM-008401",
+          "text": "What first taught you that two friends can need very different kinds of personal space?",
+          "method": "tfidf",
+          "score": 0.1524
+        },
+        {
+          "id": "SM-007485",
+          "text": "People sometimes need different kinds of friendship at different points in their lives.",
+          "method": "tfidf",
+          "score": 0.1515
+        },
+        {
+          "id": "SM-008781",
+          "text": "What place would you show somebody to help them understand what you value?",
+          "method": "tfidf",
+          "score": 0.1502
+        },
+        {
+          "id": "SM-008753",
+          "text": "We both receive an opportunity in different cities. What questions would help us understand each other's priorities?",
+          "method": "lsa",
+          "score": 0.7079
+        },
+        {
+          "id": "SM-007539",
+          "text": "We're listening to two different accounts of one event. What would help us understand both?",
+          "method": "lsa",
+          "score": 0.7004
+        },
+        {
+          "id": "SM-008779",
+          "text": "We find we define loyalty differently. What examples might help us understand each other?",
+          "method": "lsa",
+          "score": 0.6366
+        }
+      ]
+    },
+    {
+      "row": 54,
+      "text": "Ask a relative to explain a joke you missed or ask them to tell you what made it funny at the time?",
+      "textSha256": "81be8a5a8973bb0d9f22987fa8f447995037341f17a5d60ca35846844aa7b24b",
+      "candidates": [
+        {
+          "id": "SM-010198",
+          "text": "We each get to ask one relative a question we've never thought to ask before. Whom would you choose, and what would you ask?",
+          "method": "tfidf",
+          "score": 0.2009
+        },
+        {
+          "id": "incoming-95",
+          "text": "Ask a relative to challenge your assumptions or ask them to help you explain your view more clearly?",
+          "method": "tfidf",
+          "score": 0.1948
+        },
+        {
+          "id": "SM-001545",
+          "text": "Tell me about something that wasn't funny at the time but makes you laugh now.",
+          "method": "tfidf",
+          "score": 0.19
+        },
+        {
+          "id": "SM-008667",
+          "text": "Which part of a job description would you ask an employer to explain in concrete examples?",
+          "method": "lsa",
+          "score": 0.6444
+        },
+        {
+          "id": "SM-008354",
+          "text": "Someone tells a joke about an absent friend and you aren't sure they'd appreciate it. What could you ask?",
+          "method": "lsa",
+          "score": 0.5865
+        }
+      ]
+    },
+    {
+      "row": 55,
+      "text": "Who would you ask for an honest account of how you behave when you are tired?",
+      "textSha256": "6b09c3c458db402c6ad20e3cb00aa7eeaa0e5d591533ad9e961eb5499a60c330",
+      "candidates": [
+        {
+          "id": "SM-006310",
+          "text": "What's a local song you never get tired of hearing?",
+          "method": "tfidf",
+          "score": 0.1249
+        },
+        {
+          "id": "SM-009331",
+          "text": "What's a simple meal you never get tired of preparing?",
+          "method": "tfidf",
+          "score": 0.1213
+        },
+        {
+          "id": "SM-001636",
+          "text": "Some animals behave as though every visitor has arrived specifically to see them.",
+          "method": "tfidf",
+          "score": 0.1071
+        },
+        {
+          "id": "SM-005709",
+          "text": "You get a reply full of emojis and no explanation. How would you playfully ask what it means?",
+          "method": "lsa",
+          "score": 0.9423
+        },
+        {
+          "id": "SM-003883",
+          "text": "A maker gives you clay, reeds and wood from their region. What would you ask before attempting a design?",
+          "method": "lsa",
+          "score": 0.9392
+        },
+        {
+          "id": "SM-004860",
+          "text": "Ask permission before taking photos or take them freely but ask before sharing?",
+          "method": "lsa",
+          "score": 0.9173
+        }
+      ]
+    },
+    {
+      "row": 56,
+      "text": "A relative has moved into their own home and wants to set new visiting routines. Which details should we ask them to choose?",
+      "textSha256": "869d86e9e6e7e84799683d3b308de7225f00b59e897851d7778cab4609498a80",
+      "candidates": [
+        {
+          "id": "SM-010198",
+          "text": "We each get to ask one relative a question we've never thought to ask before. Whom would you choose, and what would you ask?",
+          "method": "tfidf",
+          "score": 0.1735
+        },
+        {
+          "id": "SM-004609",
+          "text": "Someone at home wants a quiet place to study while others have visitors. How should we arrange the space?",
+          "method": "tfidf",
+          "score": 0.1281
+        },
+        {
+          "id": "SM-009509",
+          "text": "A younger relative asks you to describe your childhood home without pictures. Which details would you start with?",
+          "method": "tfidf",
+          "score": 0.0882
+        },
+        {
+          "id": "SM-007844",
+          "text": "A home baker wants to price cupcakes fairly. Which ingredients and expenses should be considered?",
+          "method": "lsa",
+          "score": 0.6117
+        },
+        {
+          "id": "SM-001609",
+          "text": "I ask for somewhere peaceful near your home, but the usual parks are crowded. Where do we go?",
+          "method": "lsa",
+          "score": 0.5943
+        }
+      ]
+    },
+    {
+      "row": 57,
+      "text": "Which part of a relative's personality becomes clearer when they teach somebody?",
+      "textSha256": "b4676536e6d15da707d401d6dd7e6502b11be4a077ecfb2ecce7149788dead6a",
+      "candidates": [
+        {
+          "id": "SM-009513",
+          "text": "Play a familiar skipping game or teach somebody a counting rhyme from childhood?",
+          "method": "tfidf",
+          "score": 0.1718
+        },
+        {
+          "id": "SM-007137",
+          "text": "We accidentally teach somebody in ancient times a modern nursery rhyme. What bizarre legend develops?",
+          "method": "tfidf",
+          "score": 0.1436
+        },
+        {
+          "id": "SM-004489",
+          "text": "What is one way our communication has become clearer since we first met?",
+          "method": "tfidf",
+          "score": 0.1227
+        },
+        {
+          "id": "incoming-61",
+          "text": "Which relative notices when somebody else deserves credit?",
+          "method": "lsa",
+          "score": 0.8744
+        },
+        {
+          "id": "incoming-44",
+          "text": "Which relative would you trust to tell you when you have misunderstood somebody?",
+          "method": "lsa",
+          "score": 0.7773
+        },
+        {
+          "id": "SM-003798",
+          "text": "An older relative recognises somebody in a photograph but not the occasion. What clues would you examine together?",
+          "method": "lsa",
+          "score": 0.7183
+        }
+      ]
+    },
+    {
+      "row": 58,
+      "text": "Describe a time a relative's short answer made sense once you heard what their day had involved.",
+      "textSha256": "141cc0bddb6165441aab3e46e9e928bde38e65c1f87ee73290c1962dd5a6d6f7",
+      "candidates": [
+        {
+          "id": "incoming-89",
+          "text": "Describe a time a relative noticed you had become better at something you found difficult.",
+          "method": "tfidf",
+          "score": 0.1759
+        },
+        {
+          "id": "incoming-81",
+          "text": "Tell us about a time a relative changed their approach after listening to you.",
+          "method": "tfidf",
+          "score": 0.1657
+        },
+        {
+          "id": "SM-010181",
+          "text": "Tell us about a time a relative gave you space and stayed connected.",
+          "method": "tfidf",
+          "score": 0.1455
+        },
+        {
+          "id": "SM-005132",
+          "text": "Describe the day a relative caught you pretending you knew how to do something.",
+          "method": "lsa",
+          "score": 0.6295
+        },
+        {
+          "id": "SM-006338",
+          "text": "What happens at almost the same time each day where you live?",
+          "method": "lsa",
+          "score": 0.5526
+        },
+        {
+          "id": "SM-010170",
+          "text": "Which relative has a sense of humour you appreciate more as you get older?",
+          "method": "lsa",
+          "score": 0.5094
+        }
+      ]
+    },
+    {
+      "row": 59,
+      "text": "What helps relatives of different ages enjoy a conversation without turning it into a lesson?",
+      "textSha256": "5cdb6b14e2b730c176beab8648ba7addbd90d994dcee1600884b6bc1a9c3b7e4",
+      "candidates": [
+        {
+          "id": "SM-010166",
+          "text": "Who has changed your mind about what two relatives of different ages might have in common?",
+          "method": "tfidf",
+          "score": 0.3262
+        },
+        {
+          "id": "SM-005771",
+          "text": "What's a small sign a conversation is turning into a connection for you?",
+          "method": "tfidf",
+          "score": 0.23
+        },
+        {
+          "id": "SM-006757",
+          "text": "Who has the best way of bringing people of different ages into the same conversation?",
+          "method": "tfidf",
+          "score": 0.2051
+        },
+        {
+          "id": "SM-000282",
+          "text": "How do you keep a conversation going with someone from a different generation?",
+          "method": "lsa",
+          "score": 0.6573
+        },
+        {
+          "id": "SM-007621",
+          "text": "What's a topic you enjoy exploring with someone who has read different books from you?",
+          "method": "lsa",
+          "score": 0.6177
+        },
+        {
+          "id": "SM-006089",
+          "text": "We plan a relaxed dinner bringing together relatives with different interests. What's one conversation starter?",
+          "method": "lsa",
+          "score": 0.5961
+        }
+      ]
+    },
+    {
+      "row": 60,
+      "text": "Checking whether help is wanted takes less effort than repairing resentment later. What sort of help should always start with a question?",
+      "textSha256": "10e4d2966e6a9bb32c48d474e4dc176292956846b5d654ce8134393590bfdd39",
+      "candidates": [
+        {
+          "id": "SM-009416",
+          "text": "A system that takes more effort than the chores it tracks isn't a useful system.",
+          "method": "tfidf",
+          "score": 0.1577
+        },
+        {
+          "id": "SM-002701",
+          "text": "What is something people assume is easy about your day that actually takes effort?",
+          "method": "tfidf",
+          "score": 0.1529
+        },
+        {
+          "id": "SM-000429",
+          "text": "Someone wants feedback on a CV but has already sent it to ten people. What sort of help would be useful?",
+          "method": "tfidf",
+          "score": 0.143
+        },
+        {
+          "id": "SM-002299",
+          "text": "A medal for perfectly peeling an orange or one for opening a stubborn jar without help?",
+          "method": "lsa",
+          "score": 0.8118
+        },
+        {
+          "id": "SM-007859",
+          "text": "You receive a duplicate payment confirmation. What records would help you resolve it safely?",
+          "method": "lsa",
+          "score": 0.7998
+        },
+        {
+          "id": "SM-000930",
+          "text": "Bringing dessert to someone's house or offering to help wash the dishes afterwards?",
+          "method": "lsa",
+          "score": 0.7886
+        }
+      ]
+    },
+    {
+      "row": 61,
+      "text": "Which relative notices when somebody else deserves credit?",
+      "textSha256": "1749fbf1ad79d10ddfe50e9df37856cfdbad2b1f03ddd5cbb9294ba5811752a7",
+      "candidates": [
+        {
+          "id": "SM-000015",
+          "text": "Being comfortable in silence deserves more credit than people give it. What's your view?",
+          "method": "tfidf",
+          "score": 0.3097
+        },
+        {
+          "id": "SM-010104",
+          "text": "Who in our family notices when somebody needs company, even before they ask?",
+          "method": "tfidf",
+          "score": 0.2552
+        },
+        {
+          "id": "SM-001068",
+          "text": "The person coordinating schedules deserves more credit than the person suggesting a place.",
+          "method": "tfidf",
+          "score": 0.2512
+        },
+        {
+          "id": "incoming-57",
+          "text": "Which part of a relative's personality becomes clearer when they teach somebody?",
+          "method": "lsa",
+          "score": 0.8744
+        },
+        {
+          "id": "incoming-44",
+          "text": "Which relative would you trust to tell you when you have misunderstood somebody?",
+          "method": "lsa",
+          "score": 0.8318
+        },
+        {
+          "id": "SM-003798",
+          "text": "An older relative recognises somebody in a photograph but not the occasion. What clues would you examine together?",
+          "method": "lsa",
+          "score": 0.7704
+        }
+      ]
+    },
+    {
+      "row": 62,
+      "text": "Our family collects contributions for a gift, and some people want to give less. How would you keep their choices private?",
+      "textSha256": "7dc3878aa0ccf90ea27ab7aa24edb122f7db1221173d6dcf169e80fa9d5de06b",
+      "candidates": [
+        {
+          "id": "SM-006497",
+          "text": "What's a small handmade gift people in your community enjoy giving?",
+          "method": "tfidf",
+          "score": 0.1686
+        },
+        {
+          "id": "SM-001964",
+          "text": "The best public spaces somehow make room for both people who want conversation and people who want silence.",
+          "method": "tfidf",
+          "score": 0.1666
+        },
+        {
+          "id": "SM-004322",
+          "text": "Taste isn't a competition, especially between people who want to understand each other.",
+          "method": "tfidf",
+          "score": 0.1237
+        },
+        {
+          "id": "SM-001806",
+          "text": "People who say they want to relax often have surprisingly elaborate ideas of what relaxing involves.",
+          "method": "lsa",
+          "score": 0.712
+        },
+        {
+          "id": "SM-007585",
+          "text": "People often describe their ideal rest through the things they want less of, not just more of.",
+          "method": "lsa",
+          "score": 0.7091
+        },
+        {
+          "id": "SM-002188",
+          "text": "We have one free museum ticket and six people want it. How do we determine the winner?",
+          "method": "lsa",
+          "score": 0.6895
+        }
+      ]
+    },
+    {
+      "row": 63,
+      "text": "Discuss an awkward subject while doing something side by side or sit down with no other activity?",
+      "textSha256": "32bd7072a9137f957158a537d99eba934b1c33d13d760735c182de94c35d0f0a",
+      "candidates": [
+        {
+          "id": "SM-000937",
+          "text": "Is there an activity you prefer doing with somebody rather than on your own?",
+          "method": "tfidf",
+          "score": 0.1227
+        },
+        {
+          "id": "SM-000144",
+          "text": "What is a friendly way to tell somebody you would rather not discuss a subject?",
+          "method": "tfidf",
+          "score": 0.1135
+        },
+        {
+          "id": "SM-000607",
+          "text": "Is there a subject you could happily listen to someone discuss for ages?",
+          "method": "tfidf",
+          "score": 0.1099
+        },
+        {
+          "id": "SM-007450",
+          "text": "A casual picnic for two couples or a cooperative activity that gives everyone something to do?",
+          "method": "lsa",
+          "score": 0.664
+        },
+        {
+          "id": "SM-009482",
+          "text": "Describe a recurring activity that began accidentally but became something you looked forward to.",
+          "method": "lsa",
+          "score": 0.6438
+        }
+      ]
+    },
+    {
+      "row": 64,
+      "text": "Who in the family has helped you take somebody else's worries seriously?",
+      "textSha256": "4ee7fc8e1dfa2ce83707471ba9aba25f99c5a79529bb47a07b8f691ffabd6e76",
+      "candidates": [
+        {
+          "id": "incoming-43",
+          "text": "Describe a time someone from outside the family helped you appreciate a relative's kindness.",
+          "method": "tfidf",
+          "score": 0.2126
+        },
+        {
+          "id": "SM-001265",
+          "text": "Tell me about a time you and friends helped somebody without making a big announcement about it.",
+          "method": "tfidf",
+          "score": 0.2069
+        },
+        {
+          "id": "SM-005518",
+          "text": "Recall a time friends helped somebody prepare for a meeting without making them nervous.",
+          "method": "tfidf",
+          "score": 0.1873
+        },
+        {
+          "id": "SM-000671",
+          "text": "Has travelling ever helped you connect with somebody you wouldn't otherwise have met?",
+          "method": "lsa",
+          "score": 0.7693
+        },
+        {
+          "id": "SM-007048",
+          "text": "Describe a time curiosity about somebody's background helped correct an assumption.",
+          "method": "lsa",
+          "score": 0.7212
+        },
+        {
+          "id": "SM-002779",
+          "text": "Describe somebody whose confidence helped you feel calmer without them giving a speech.",
+          "method": "lsa",
+          "score": 0.7114
+        }
+      ]
+    },
+    {
+      "row": 65,
+      "text": "The relative everyone calls dependable sometimes needs permission to be uncertain. How do we make room for their questions?",
+      "textSha256": "c28a3e76175fd520aa17e849b9de96f6852700e0a2a44eb795361bbd18ebd333",
+      "candidates": [
+        {
+          "id": "SM-008221",
+          "text": "How do different spiritual communities make room for sincere uncertainty?",
+          "method": "tfidf",
+          "score": 0.1276
+        },
+        {
+          "id": "SM-000458",
+          "text": "Rituals often make room for connection before anyone has to organise something elaborate.",
+          "method": "tfidf",
+          "score": 0.1246
+        },
+        {
+          "id": "SM-004348",
+          "text": "We're coordinating two important appointments on the same day. How should we make room for both?",
+          "method": "tfidf",
+          "score": 0.122
+        },
+        {
+          "id": "SM-000198",
+          "text": "Being included often starts with someone shifting a chair to make room.",
+          "method": "lsa",
+          "score": 0.7523
+        },
+        {
+          "id": "SM-009176",
+          "text": "A healthy partnership should make room for ambitions that aren't joint projects.",
+          "method": "lsa",
+          "score": 0.7421
+        }
+      ]
+    },
+    {
+      "row": 66,
+      "text": "Tell us about seeing a relative refuse an advantage because it would have been unfair to someone else.",
+      "textSha256": "7bfbf36284434a964bd01b42c43c34cc560d529abe03d52d1d2369d99babf72d",
+      "candidates": [
+        {
+          "id": "SM-005827",
+          "text": "Which little skill would give you an unfair advantage on a first activity date?",
+          "method": "tfidf",
+          "score": 0.2136
+        },
+        {
+          "id": "SM-001195",
+          "text": "Tell me about seeing a friend succeed at something they once found difficult.",
+          "method": "tfidf",
+          "score": 0.1663
+        },
+        {
+          "id": "SM-001355",
+          "text": "Tell me about seeing a familiar place differently because a friend showed it to you.",
+          "method": "tfidf",
+          "score": 0.1451
+        },
+        {
+          "id": "SM-006038",
+          "text": "Tell me about seeing something grow after we thought we'd made a mistake caring for it.",
+          "method": "lsa",
+          "score": 0.7602
+        },
+        {
+          "id": "SM-006812",
+          "text": "Tell us about a relative who knew a surprising shortcut nobody else believed in.",
+          "method": "lsa",
+          "score": 0.7335
+        },
+        {
+          "id": "SM-010103",
+          "text": "Tell us about a relative whose first impression of you turned out to be wrong.",
+          "method": "lsa",
+          "score": 0.6762
+        }
+      ]
+    },
+    {
+      "row": 67,
+      "text": "What do you like about a relative's way of bringing a conversation to an end?",
+      "textSha256": "a5c2204b84d2fc2bef9d572685fb7e0964363f7518672d57e91e124ec8249ceb",
+      "candidates": [
+        {
+          "id": "SM-006757",
+          "text": "Who has the best way of bringing people of different ages into the same conversation?",
+          "method": "tfidf",
+          "score": 0.2804
+        },
+        {
+          "id": "incoming-1",
+          "text": "What do you learn about a relative from the way they treat somebody who cannot do anything for them?",
+          "method": "tfidf",
+          "score": 0.2367
+        },
+        {
+          "id": "incoming-48",
+          "text": "What would you like a relative to ask before signing you up for an activity on your behalf?",
+          "method": "tfidf",
+          "score": 0.1981
+        },
+        {
+          "id": "SM-007467",
+          "text": "What's a lighthearted way to restart a conversation after an awkward pause?",
+          "method": "lsa",
+          "score": 0.6746
+        },
+        {
+          "id": "SM-005241",
+          "text": "What's the most amusing way a neighbour has started a conversation with you?",
+          "method": "lsa",
+          "score": 0.6636
+        },
+        {
+          "id": "SM-005399",
+          "text": "We meet again after several months and have forgotten half our first conversation. What would be a fun way to restart?",
+          "method": "lsa",
+          "score": 0.6365
+        }
+      ]
+    },
+    {
+      "row": 68,
+      "text": "A sibling says they would like a relationship which involves more than sorting out family tasks. What might you suggest doing together?",
+      "textSha256": "e2e3fc1b0ced85ec93939be6fa66a447553c6dbf0f7034796a8dec10e2a7f543",
+      "candidates": [
+        {
+          "id": "SM-001049",
+          "text": "A friend says they've had a tiring day but don't want advice. What do you suggest doing together?",
+          "method": "tfidf",
+          "score": 0.1673
+        },
+        {
+          "id": "SM-009385",
+          "text": "Adulthood often involves learning small administrative tasks nobody thought to teach.",
+          "method": "tfidf",
+          "score": 0.0935
+        },
+        {
+          "id": "SM-001097",
+          "text": "Do you enjoy company while doing practical tasks, or would you rather finish them alone?",
+          "method": "tfidf",
+          "score": 0.092
+        },
+        {
+          "id": "SM-007143",
+          "text": "A fridge that gives advice or a mirror that reviews your outfits like a fashion critic?",
+          "method": "lsa",
+          "score": 0.5814
+        },
+        {
+          "id": "SM-006211",
+          "text": "What family outing felt like a major expedition when you were young?",
+          "method": "lsa",
+          "score": 0.5809
+        },
+        {
+          "id": "SM-007446",
+          "text": "Friends can support a relationship without acting like its unofficial committee.",
+          "method": "lsa",
+          "score": 0.5661
+        }
+      ]
+    },
+    {
+      "row": 69,
+      "text": "How do we know whether advice from an elder reflects a preference or a firm expectation?",
+      "textSha256": "16ad797f90479eee6f9ece08118a414159ee661b7ed7023a0930ff58904c9711",
+      "candidates": [
+        {
+          "id": "SM-008738",
+          "text": "Recall an elder whose relationship advice made more sense once you were older.",
+          "method": "tfidf",
+          "score": 0.112
+        },
+        {
+          "id": "SM-009777",
+          "text": "Which expectation about adulthood do you now see differently?",
+          "method": "tfidf",
+          "score": 0.1118
+        },
+        {
+          "id": "SM-006967",
+          "text": "How do you recognise advice that comes from experience rather than from personal preference?",
+          "method": "tfidf",
+          "score": 0.1109
+        },
+        {
+          "id": "SM-009462",
+          "text": "Describe successfully growing something you didn't initially know how to care for.",
+          "method": "lsa",
+          "score": 0.737
+        },
+        {
+          "id": "SM-010085",
+          "text": "Entertaining productions depend on skilled workers whose names most viewers never know.",
+          "method": "lsa",
+          "score": 0.736
+        },
+        {
+          "id": "SM-000772",
+          "text": "Respecting a polite 'not today' matters when you're getting to know someone.",
+          "method": "lsa",
+          "score": 0.6971
+        }
+      ]
+    },
+    {
+      "row": 70,
+      "text": "Hear why a relative enjoys solitude or ask what makes company feel worthwhile to them?",
+      "textSha256": "ae270993bc69d5fe9b44578aea94209827f4c5c9f543c7bfb57b7bd5b147ba59",
+      "candidates": [
+        {
+          "id": "SM-010188",
+          "text": "Hear a relative describe you in three qualities or ask them which shared experience they remember most?",
+          "method": "tfidf",
+          "score": 0.1826
+        },
+        {
+          "id": "SM-000528",
+          "text": "People shouldn't have to reply immediately for a conversation to feel worthwhile.",
+          "method": "tfidf",
+          "score": 0.1627
+        },
+        {
+          "id": "SM-009706",
+          "text": "You don't need a dramatic transformation for a year to feel worthwhile.",
+          "method": "tfidf",
+          "score": 0.1585
+        },
+        {
+          "id": "SM-009077",
+          "text": "Which sonic detail makes a track feel peaceful without becoming dull?",
+          "method": "lsa",
+          "score": 0.6381
+        },
+        {
+          "id": "SM-004010",
+          "text": "What makes an apology feel sincere to you beyond the words?",
+          "method": "lsa",
+          "score": 0.6131
+        },
+        {
+          "id": "SM-004141",
+          "text": "What makes you feel appreciated on days when you haven't achieved anything notable?",
+          "method": "lsa",
+          "score": 0.6117
+        }
+      ]
+    },
+    {
+      "row": 71,
+      "text": "Which relative would you invite to explain a family custom to a newcomer, and why?",
+      "textSha256": "0d5027ddfd3c6d73588038a1023194c79d6f823ff26ff6e8d2086d5c90f955f1",
+      "candidates": [
+        {
+          "id": "SM-002612",
+          "text": "Tell me about a family custom whose origin nobody seems to remember.",
+          "method": "tfidf",
+          "score": 0.2331
+        },
+        {
+          "id": "SM-007337",
+          "text": "What's a family custom you once assumed everybody practised?",
+          "method": "tfidf",
+          "score": 0.2136
+        },
+        {
+          "id": "SM-006375",
+          "text": "Describe an occasion when you learned a family's custom simply by watching everyone else.",
+          "method": "tfidf",
+          "score": 0.1988
+        },
+        {
+          "id": "SM-006749",
+          "text": "The family opens a fictional restaurant. Which relative is the chef and who handles complaints?",
+          "method": "lsa",
+          "score": 0.7287
+        },
+        {
+          "id": "SM-004689",
+          "text": "A relative shares news they aren't ready to tell the wider family. How should we respect their choice?",
+          "method": "lsa",
+          "score": 0.6679
+        },
+        {
+          "id": "SM-006436",
+          "text": "An older relative offers to explain the history of one object in the house. Which would you point to?",
+          "method": "lsa",
+          "score": 0.6514
+        }
+      ]
+    },
+    {
+      "row": 72,
+      "text": "Being proud of a relative need not turn into speaking on their behalf. When should we let them tell their own story?",
+      "textSha256": "56410e01c7b1fc9e1fc3545c50313654124164e9f2883a199783f924144ed3d7",
+      "candidates": [
+        {
+          "id": "SM-000698",
+          "text": "You don't need to turn every disagreement into a debate to enjoy talking about it.",
+          "method": "tfidf",
+          "score": 0.1768
+        },
+        {
+          "id": "SM-004570",
+          "text": "What is a gentle way to tell a relative you need more personal space?",
+          "method": "tfidf",
+          "score": 0.176
+        },
+        {
+          "id": "SM-005700",
+          "text": "Settle a harmless disagreement with a vote or let someone tell the best story?",
+          "method": "tfidf",
+          "score": 0.1621
+        },
+        {
+          "id": "SM-006831",
+          "text": "Which relative would win a competition for telling the longest story before reaching the point?",
+          "method": "lsa",
+          "score": 0.7363
+        },
+        {
+          "id": "SM-001852",
+          "text": "Tell me about a relative who could turn a simple errand into an entertaining story.",
+          "method": "lsa",
+          "score": 0.7278
+        },
+        {
+          "id": "SM-001215",
+          "text": "Tell me about a present whose story mattered more than the present itself.",
+          "method": "lsa",
+          "score": 0.6282
+        }
+      ]
+    },
+    {
+      "row": 73,
+      "text": "Describe a family relationship which became easier when you stopped expecting identical reactions.",
+      "textSha256": "7e22719af701a87cac5be5641ce2d50b109df8e1cf931ad9096535efdddbd33a",
+      "candidates": [
+        {
+          "id": "SM-010113",
+          "text": "Which family relationship grew through a shared interest nobody expected?",
+          "method": "tfidf",
+          "score": 0.1947
+        },
+        {
+          "id": "SM-009287",
+          "text": "Which family relationship has most influenced how you think about responsibility?",
+          "method": "tfidf",
+          "score": 0.1885
+        },
+        {
+          "id": "SM-005531",
+          "text": "Which family relationship has taught you the most about good-natured teasing?",
+          "method": "tfidf",
+          "score": 0.1657
+        },
+        {
+          "id": "SM-001296",
+          "text": "Friendships often get easier once everyone stops assuming the same boundaries apply to all.",
+          "method": "lsa",
+          "score": 0.7025
+        },
+        {
+          "id": "SM-000797",
+          "text": "Do you find it easier to give compliments than accept them?",
+          "method": "lsa",
+          "score": 0.6474
+        },
+        {
+          "id": "SM-006550",
+          "text": "What's a talent you admire because it looks much easier than it is?",
+          "method": "lsa",
+          "score": 0.644
+        }
+      ]
+    },
+    {
+      "row": 74,
+      "text": "What would help us ask about your progress without making you feel we are checking a deadline?",
+      "textSha256": "51825c1f03e3090035e8ec65203ac418d91e4e0fa6371c51d4d2ac27b1703183",
+      "candidates": [
+        {
+          "id": "incoming-25",
+          "text": "Offer a relative two ways to help or ask them to name a task they would willingly take on?",
+          "method": "tfidf",
+          "score": 0.1607
+        },
+        {
+          "id": "SM-004757",
+          "text": "What helps a group support someone without making them feel watched?",
+          "method": "tfidf",
+          "score": 0.1549
+        },
+        {
+          "id": "SM-004026",
+          "text": "Your work becomes demanding for a few weeks. What kind of support would help without making you feel crowded?",
+          "method": "tfidf",
+          "score": 0.1464
+        },
+        {
+          "id": "SM-009111",
+          "text": "Which conversations help you feel we are genuinely making room for each other?",
+          "method": "lsa",
+          "score": 0.7402
+        },
+        {
+          "id": "SM-006977",
+          "text": "Which type of help do you find hardest to ask for, and why?",
+          "method": "lsa",
+          "score": 0.6763
+        }
+      ]
+    },
+    {
+      "row": 75,
+      "text": "A relative tells the same story twice during a visit. How would you work out whether they want company, an answer or simply an audience?",
+      "textSha256": "99d413bdc12f18dc5a471916a295ac34cdefd6b0956bd17a46f5811c4fd07898",
+      "candidates": [
+        {
+          "id": "SM-003511",
+          "text": "What's a dish whose preparation tells a story about the place it came from?",
+          "method": "tfidf",
+          "score": 0.1434
+        },
+        {
+          "id": "SM-000821",
+          "text": "Does rainy weather make you want company or a quiet evening to yourself?",
+          "method": "tfidf",
+          "score": 0.1394
+        },
+        {
+          "id": "SM-003161",
+          "text": "Can you think of an instrumental piece that tells you a story without using a voice?",
+          "method": "tfidf",
+          "score": 0.1341
+        },
+        {
+          "id": "SM-006831",
+          "text": "Which relative would win a competition for telling the longest story before reaching the point?",
+          "method": "lsa",
+          "score": 0.6021
+        },
+        {
+          "id": "SM-004657",
+          "text": "Which part of a new city would you want a relative to show you first?",
+          "method": "lsa",
+          "score": 0.5394
+        },
+        {
+          "id": "SM-002830",
+          "text": "What would you want a stranger to understand about you beyond your work and your hobbies?",
+          "method": "lsa",
+          "score": 0.5035
+        }
+      ]
+    },
+    {
+      "row": 76,
+      "text": "Which relative has shown you a useful way to accept a compliment?",
+      "textSha256": "b7d31d3c9ef8f50fc69660f1316d53f706e3b3ea8b0d95d53a4b3481ef75e454",
+      "candidates": [
+        {
+          "id": "SM-002903",
+          "text": "Tell me about a moment you saw somebody resolve a disagreement in a way everyone could accept.",
+          "method": "tfidf",
+          "score": 0.2019
+        },
+        {
+          "id": "SM-002352",
+          "text": "One friend can pause time for exactly eight seconds. What's the least useful way they could use it?",
+          "method": "tfidf",
+          "score": 0.1677
+        },
+        {
+          "id": "SM-005831",
+          "text": "What's a memorable way someone has shown they care about your interests?",
+          "method": "tfidf",
+          "score": 0.1653
+        },
+        {
+          "id": "SM-004614",
+          "text": "A relative rarely replies to messages but enjoys phone conversations. What would be a considerate way to stay in touch?",
+          "method": "lsa",
+          "score": 0.75
+        },
+        {
+          "id": "SM-004360",
+          "text": "What's a thoughtful way for us to support an elderly relative while respecting their independence?",
+          "method": "lsa",
+          "score": 0.7231
+        },
+        {
+          "id": "SM-004568",
+          "text": "Recall an occasion when a relative apologised in a way you appreciated.",
+          "method": "lsa",
+          "score": 0.6449
+        }
+      ]
+    },
+    {
+      "row": 77,
+      "text": "Some family members ask for help indirectly because a direct request feels awkward. What signals do you notice?",
+      "textSha256": "abca8b2a7742ab460fd532546223c444981c75fcd53d3fdaae55c44d3fdd4214",
+      "candidates": [
+        {
+          "id": "SM-000421",
+          "text": "How do you ask someone for help without turning the request into an apology?",
+          "method": "tfidf",
+          "score": 0.2002
+        },
+        {
+          "id": "SM-010167",
+          "text": "Tell us about a time you introduced two family members to a shared interest.",
+          "method": "tfidf",
+          "score": 0.141
+        },
+        {
+          "id": "SM-000667",
+          "text": "Is it easier for you to ask for help or to offer it to somebody else?",
+          "method": "tfidf",
+          "score": 0.1392
+        },
+        {
+          "id": "SM-004504",
+          "text": "We find a box of family photographs without names on them. Who would you ask to help identify everyone?",
+          "method": "lsa",
+          "score": 0.7807
+        },
+        {
+          "id": "SM-006977",
+          "text": "Which type of help do you find hardest to ask for, and why?",
+          "method": "lsa",
+          "score": 0.6746
+        }
+      ]
+    },
+    {
+      "row": 78,
+      "text": "Choose a family activity nobody has tried or let somebody introduce an activity they already love?",
+      "textSha256": "c6dbd0ccdc314837ffede7035f25f3daa6add130eb235a241d085c502fffa7a7",
+      "candidates": [
+        {
+          "id": "SM-004536",
+          "text": "Letting younger people choose a family activity occasionally teaches everyone something new.",
+          "method": "tfidf",
+          "score": 0.2528
+        },
+        {
+          "id": "SM-009897",
+          "text": "Which ordinary activity would you love to still enjoy twenty years from now?",
+          "method": "tfidf",
+          "score": 0.2493
+        },
+        {
+          "id": "SM-006077",
+          "text": "Which free activity would you love to repeat with me every few months?",
+          "method": "tfidf",
+          "score": 0.2286
+        },
+        {
+          "id": "SM-002760",
+          "text": "What's one activity you would protect from your calendar even if it never brought you recognition?",
+          "method": "lsa",
+          "score": 0.7164
+        },
+        {
+          "id": "SM-005727",
+          "text": "What activity would let somebody learn your playful side without too much pressure?",
+          "method": "lsa",
+          "score": 0.7115
+        },
+        {
+          "id": "SM-007450",
+          "text": "A casual picnic for two couples or a cooperative activity that gives everyone something to do?",
+          "method": "lsa",
+          "score": 0.6884
+        }
+      ]
+    },
+    {
+      "row": 79,
+      "text": "What helps you stay close to a sibling whose daily life differs from yours?",
+      "textSha256": "b3cd71b2d52cced6510aa6278d476001c8a3cd8fa556306e46b30c9ce1517b70",
+      "candidates": [
+        {
+          "id": "SM-009071",
+          "text": "What kind of music helps you stay present while working on something creative?",
+          "method": "tfidf",
+          "score": 0.1942
+        },
+        {
+          "id": "SM-010108",
+          "text": "Giving relatives room to change helps a family stay close. Where have you seen this happen?",
+          "method": "tfidf",
+          "score": 0.1938
+        },
+        {
+          "id": "SM-001485",
+          "text": "Tell me about an unexpected friendship with someone whose daily life was very different from yours.",
+          "method": "tfidf",
+          "score": 0.1919
+        },
+        {
+          "id": "SM-002881",
+          "text": "What's something inexpensive that provides much more value in your daily life than you expected?",
+          "method": "lsa",
+          "score": 0.6802
+        },
+        {
+          "id": "SM-009496",
+          "text": "A life can become richer without becoming busier.",
+          "method": "lsa",
+          "score": 0.6733
+        },
+        {
+          "id": "SM-002556",
+          "text": "Much of what keeps daily life running happens outside most people's view.",
+          "method": "lsa",
+          "score": 0.6631
+        }
+      ]
+    },
+    {
+      "row": 80,
+      "text": "Two relatives volunteer for the same task and both want to take charge. What would you ask before dividing the work?",
+      "textSha256": "c693d02ce692f273d054b7ebf049d257a0be239d11c26b5b28c1e2134500a99c",
+      "candidates": [
+        {
+          "id": "SM-002908",
+          "text": "Two people contributed different kinds of effort to the same project. What would you want to understand before dividing the credit?",
+          "method": "tfidf",
+          "score": 0.0986
+        },
+        {
+          "id": "SM-006547",
+          "text": "Who here would volunteer to perform first without any rehearsal?",
+          "method": "tfidf",
+          "score": 0.0842
+        },
+        {
+          "id": "SM-009029",
+          "text": "We want to make a listening session about the music our relatives grew up with. Who would we ask first?",
+          "method": "tfidf",
+          "score": 0.084
+        },
+        {
+          "id": "SM-002830",
+          "text": "What would you want a stranger to understand about you beyond your work and your hobbies?",
+          "method": "lsa",
+          "score": 0.615
+        },
+        {
+          "id": "SM-001499",
+          "text": "Your friend says they're happy to host but want everyone to bring their own snacks. Would that work for your circle?",
+          "method": "lsa",
+          "score": 0.606
+        },
+        {
+          "id": "SM-007579",
+          "text": "We're helping a teenager explore different careers. What would you want them to ask actual workers?",
+          "method": "lsa",
+          "score": 0.5964
+        }
+      ]
+    },
+    {
+      "row": 81,
+      "text": "Tell us about a time a relative changed their approach after listening to you.",
+      "textSha256": "995fc63f9e154a6dab468c8892b98638c7b7eb939dcc4a1765979b3389784381",
+      "candidates": [
+        {
+          "id": "SM-010181",
+          "text": "Tell us about a time a relative gave you space and stayed connected.",
+          "method": "tfidf",
+          "score": 0.2591
+        },
+        {
+          "id": "incoming-89",
+          "text": "Describe a time a relative noticed you had become better at something you found difficult.",
+          "method": "tfidf",
+          "score": 0.2222
+        },
+        {
+          "id": "incoming-58",
+          "text": "Describe a time a relative's short answer made sense once you heard what their day had involved.",
+          "method": "tfidf",
+          "score": 0.1657
+        },
+        {
+          "id": "SM-001822",
+          "text": "Tell me about the first time your opinion changed because you gave something a second chance.",
+          "method": "lsa",
+          "score": 0.8331
+        },
+        {
+          "id": "incoming-19",
+          "text": "Tell us about a time you discovered a relative was nervous about something you assumed they found easy.",
+          "method": "lsa",
+          "score": 0.8269
+        }
+      ]
+    },
+    {
+      "row": 82,
+      "text": "Who in the family asks newcomers about interests before asking about their job?",
+      "textSha256": "66287e183c31898055520a45233b0e438939dfb46b0fac35b2ef8d7d41eabf4d",
+      "candidates": [
+        {
+          "id": "SM-010130",
+          "text": "Somebody new to the family asks whom to sit beside at dinner. What would you tell them about each of us?",
+          "method": "tfidf",
+          "score": 0.1789
+        },
+        {
+          "id": "SM-006119",
+          "text": "A child in the family asks what school was like before smartphones. What detail would you explain first?",
+          "method": "tfidf",
+          "score": 0.1677
+        },
+        {
+          "id": "incoming-85",
+          "text": "A young adult in our family asks to handle a situation themselves. How would we stay available without taking control?",
+          "method": "tfidf",
+          "score": 0.1326
+        },
+        {
+          "id": "SM-006263",
+          "text": "A child asks why people in our family speak more than one language. Where would you begin?",
+          "method": "lsa",
+          "score": 0.6473
+        },
+        {
+          "id": "incoming-49",
+          "text": "A family member returns from abroad and everyone asks for gifts before asking about their life. How would you change the welcome?",
+          "method": "lsa",
+          "score": 0.598
+        }
+      ]
+    },
+    {
+      "row": 83,
+      "text": "A family discussion does not need an agreed conclusion to feel worthwhile. What makes a difference of opinion worth hearing?",
+      "textSha256": "6da72fe4b8c1eb2beb6bc3dda8d58ba77993746fce2359a8d92bee1b8f62f28f",
+      "candidates": [
+        {
+          "id": "SM-003281",
+          "text": "What makes a cover version feel worth hearing even when you love the original?",
+          "method": "tfidf",
+          "score": 0.1651
+        },
+        {
+          "id": "SM-009706",
+          "text": "You don't need a dramatic transformation for a year to feel worthwhile.",
+          "method": "tfidf",
+          "score": 0.1552
+        },
+        {
+          "id": "incoming-100",
+          "text": "Which family discussion would benefit from hearing the youngest person's view before anyone else speaks?",
+          "method": "tfidf",
+          "score": 0.1354
+        },
+        {
+          "id": "SM-001577",
+          "text": "What makes a phone call feel easy rather than like something you need to prepare for?",
+          "method": "lsa",
+          "score": 0.6279
+        },
+        {
+          "id": "SM-009077",
+          "text": "Which sonic detail makes a track feel peaceful without becoming dull?",
+          "method": "lsa",
+          "score": 0.605
+        }
+      ]
+    },
+    {
+      "row": 84,
+      "text": "Which relative would you ask to accompany you to an important conversation, and what support would you want from them?",
+      "textSha256": "8725e24ef6c9de683387bcc3c292a2368832e0ef890de60c2023484fa2d1ba59",
+      "candidates": [
+        {
+          "id": "SM-009134",
+          "text": "We've both had difficult days, and neither has the energy for a long conversation. How might we support each other?",
+          "method": "tfidf",
+          "score": 0.1905
+        },
+        {
+          "id": "SM-008762",
+          "text": "Describe someone making time for an important conversation when they could easily have avoided it.",
+          "method": "tfidf",
+          "score": 0.1866
+        },
+        {
+          "id": "incoming-4",
+          "text": "Which relative would you ask to help you write a difficult message, and why?",
+          "method": "tfidf",
+          "score": 0.1851
+        },
+        {
+          "id": "SM-004269",
+          "text": "We're waiting together for important news. What kind of conversation would you want in the meantime?",
+          "method": "lsa",
+          "score": 0.6524
+        },
+        {
+          "id": "SM-004094",
+          "text": "One of us receives an opportunity in another city. What would you want our first conversation to cover?",
+          "method": "lsa",
+          "score": 0.6092
+        },
+        {
+          "id": "incoming-97",
+          "text": "We want to visit a relative who has a new baby. What should we ask before deciding when to arrive and how long to stay?",
+          "method": "lsa",
+          "score": 0.5789
+        }
+      ]
+    },
+    {
+      "row": 85,
+      "text": "A young adult in our family asks to handle a situation themselves. How would we stay available without taking control?",
+      "textSha256": "a15f86d0b29770b9149104923e912e58045de8adbf6917b67057c9364f8e7a10",
+      "candidates": [
+        {
+          "id": "SM-008224",
+          "text": "A young adult asks a question their community finds uncomfortable. What response would invite careful thought?",
+          "method": "tfidf",
+          "score": 0.1641
+        },
+        {
+          "id": "SM-007099",
+          "text": "You discover somebody important to you has developed a new ambition. What question would help you support it without taking control?",
+          "method": "tfidf",
+          "score": 0.143
+        },
+        {
+          "id": "incoming-82",
+          "text": "Who in the family asks newcomers about interests before asking about their job?",
+          "method": "tfidf",
+          "score": 0.1326
+        },
+        {
+          "id": "SM-006263",
+          "text": "A child asks why people in our family speak more than one language. Where would you begin?",
+          "method": "lsa",
+          "score": 0.7782
+        },
+        {
+          "id": "SM-000216",
+          "text": "A companion who tries your hobbies once or one who asks you about them regularly?",
+          "method": "lsa",
+          "score": 0.7059
+        },
+        {
+          "id": "SM-001768",
+          "text": "We're at a workshop and the instructor asks one of us to demonstrate first. Who volunteers?",
+          "method": "lsa",
+          "score": 0.6862
+        }
+      ]
+    },
+    {
+      "row": 86,
+      "text": "What helps you enjoy a relative's success without comparing your own progress?",
+      "textSha256": "3317a293ba9c3a3fb8fa223b8c742aadfca27e42c618e4de8fdf8f67a1957dd1",
+      "candidates": [
+        {
+          "id": "SM-004630",
+          "text": "What's a hobby you would like to enjoy with a relative from another generation?",
+          "method": "tfidf",
+          "score": 0.2227
+        },
+        {
+          "id": "SM-000121",
+          "text": "What helps you enjoy spending time with someone whose energy differs from yours?",
+          "method": "tfidf",
+          "score": 0.2159
+        },
+        {
+          "id": "SM-009291",
+          "text": "Which kind of personal reflection helps you notice progress in our relationship?",
+          "method": "tfidf",
+          "score": 0.1172
+        },
+        {
+          "id": "incoming-26",
+          "text": "What helps you trust a relative with an unfinished idea?",
+          "method": "lsa",
+          "score": 0.77
+        },
+        {
+          "id": "SM-004681",
+          "text": "When a relative disagrees with you, what helps you feel they are still listening?",
+          "method": "lsa",
+          "score": 0.6714
+        }
+      ]
+    },
+    {
+      "row": 87,
+      "text": "Receive encouragement privately or hear someone praise your effort in front of the family?",
+      "textSha256": "be09a2454f019028e3c229a16fb9861a7368ecaa55974db5a9657f1446f015ab",
+      "candidates": [
+        {
+          "id": "SM-000401",
+          "text": "What's a compliment about your effort that meant more than praise for the result?",
+          "method": "tfidf",
+          "score": 0.1532
+        },
+        {
+          "id": "SM-004143",
+          "text": "Praise means more to some people when it names the effort behind the result.",
+          "method": "tfidf",
+          "score": 0.1423
+        },
+        {
+          "id": "incoming-37",
+          "text": "Who in the family gives praise you find easy to believe?",
+          "method": "tfidf",
+          "score": 0.1176
+        },
+        {
+          "id": "SM-006784",
+          "text": "You are put in charge of a family award ceremony with ridiculous categories. What's the top prize?",
+          "method": "lsa",
+          "score": 0.7279
+        },
+        {
+          "id": "SM-004595",
+          "text": "We're putting together a family keepsake with one contribution from everyone. What would you add?",
+          "method": "lsa",
+          "score": 0.7172
+        }
+      ]
+    },
+    {
+      "row": 88,
+      "text": "An unfinished conversation sometimes needs an invitation rather than a reminder. How would you invite someone to return to it?",
+      "textSha256": "086fc2015dcf9ada76ea76c5025d5abda2176814b7a81b53b83bf5b351138e5e",
+      "candidates": [
+        {
+          "id": "SM-005808",
+          "text": "Recall a time someone remembered an unfinished conversation and brought it up days later.",
+          "method": "tfidf",
+          "score": 0.1967
+        },
+        {
+          "id": "SM-005385",
+          "text": "Not every pleasant first conversation needs to become a long-term commitment.",
+          "method": "tfidf",
+          "score": 0.1751
+        },
+        {
+          "id": "SM-000500",
+          "text": "Not every enjoyable conversation needs a reason to continue after the moment passes.",
+          "method": "tfidf",
+          "score": 0.1576
+        },
+        {
+          "id": "SM-008246",
+          "text": "A conversation about reconciliation should never ignore the needs of those who were hurt.",
+          "method": "lsa",
+          "score": 0.9514
+        },
+        {
+          "id": "SM-008486",
+          "text": "An occasional sincere conversation can mean more than frequent messages sent out of obligation.",
+          "method": "lsa",
+          "score": 0.8014
+        },
+        {
+          "id": "SM-004076",
+          "text": "Tea and a conversation before bed or breakfast together without phones?",
+          "method": "lsa",
+          "score": 0.8011
+        }
+      ]
+    },
+    {
+      "row": 89,
+      "text": "Describe a time a relative noticed you had become better at something you found difficult.",
+      "textSha256": "f09f63243ee6415df6849ee9c77c5d006ddb126a199a994d566bf84b717e1896",
+      "candidates": [
+        {
+          "id": "incoming-81",
+          "text": "Tell us about a time a relative changed their approach after listening to you.",
+          "method": "tfidf",
+          "score": 0.2222
+        },
+        {
+          "id": "SM-010181",
+          "text": "Tell us about a time a relative gave you space and stayed connected.",
+          "method": "tfidf",
+          "score": 0.195
+        },
+        {
+          "id": "incoming-58",
+          "text": "Describe a time a relative's short answer made sense once you heard what their day had involved.",
+          "method": "tfidf",
+          "score": 0.1759
+        },
+        {
+          "id": "SM-007942",
+          "text": "Describe a time you understood a subject better after the test was already over.",
+          "method": "lsa",
+          "score": 0.6476
+        },
+        {
+          "id": "SM-004278",
+          "text": "Describe a time we adapted quickly and discovered we worked better together than expected.",
+          "method": "lsa",
+          "score": 0.6034
+        },
+        {
+          "id": "SM-001569",
+          "text": "I insist that rainy evenings are better than sunny afternoons. What's your counterargument?",
+          "method": "lsa",
+          "score": 0.5669
+        }
+      ]
+    },
+    {
+      "row": 90,
+      "text": "Which relative do you enjoy watching meet new people?",
+      "textSha256": "3e37abb29bf4af9f925b419ba4df4b900ce46ca7588bc93c38ae6e4c07bd7372",
+      "candidates": [
+        {
+          "id": "SM-000761",
+          "text": "Do you enjoy watching sport with other people even when you don't follow the teams?",
+          "method": "tfidf",
+          "score": 0.2203
+        },
+        {
+          "id": "SM-001717",
+          "text": "What's a game you enjoy watching others play even if you rarely join in?",
+          "method": "tfidf",
+          "score": 0.2186
+        },
+        {
+          "id": "SM-000764",
+          "text": "Playing a casual game with new people or watching one together?",
+          "method": "tfidf",
+          "score": 0.2184
+        },
+        {
+          "id": "SM-000857",
+          "text": "Do you enjoy introducing people who might get along?",
+          "method": "lsa",
+          "score": 0.5932
+        }
+      ]
+    },
+    {
+      "row": 91,
+      "text": "Our family wants to check in on someone having a busy week. How would we coordinate without overwhelming their phone?",
+      "textSha256": "7c4037326542579f177a2f4157428e0bb98ebd3b29a9c06f4ef40431b7742629",
+      "candidates": [
+        {
+          "id": "SM-000641",
+          "text": "After a busy week, do you recharge around people or by having some time alone?",
+          "method": "tfidf",
+          "score": 0.2121
+        },
+        {
+          "id": "SM-007373",
+          "text": "A practical favour during a busy week or a cheerful check-in once the rush is over?",
+          "method": "tfidf",
+          "score": 0.1953
+        },
+        {
+          "id": "SM-009324",
+          "text": "You get one free afternoon after a very busy week. What would you avoid scheduling?",
+          "method": "tfidf",
+          "score": 0.1636
+        },
+        {
+          "id": "SM-004664",
+          "text": "Someone wants to switch careers but worries about disappointing the family. What would be a supportive first response?",
+          "method": "lsa",
+          "score": 0.7093
+        },
+        {
+          "id": "SM-009639",
+          "text": "A family wants to begin keeping a nature journal together. What simple observations should it include?",
+          "method": "lsa",
+          "score": 0.5848
+        },
+        {
+          "id": "SM-006514",
+          "text": "One episode every week or a whole season available at once?",
+          "method": "lsa",
+          "score": 0.5667
+        }
+      ]
+    },
+    {
+      "row": 92,
+      "text": "What do you wish we noticed about the effort behind something you make look easy?",
+      "textSha256": "8a8e1f2fd967c64a214fd35923e0d343d2927df02df524fc32d78b2f3d165338",
+      "candidates": [
+        {
+          "id": "SM-006950",
+          "text": "Receive a timely update about a delay or an unexpected effort to make up for it?",
+          "method": "tfidf",
+          "score": 0.1898
+        },
+        {
+          "id": "SM-005737",
+          "text": "What's something about your personality you wish people noticed sooner?",
+          "method": "tfidf",
+          "score": 0.1299
+        },
+        {
+          "id": "SM-002701",
+          "text": "What is something people assume is easy about your day that actually takes effort?",
+          "method": "tfidf",
+          "score": 0.1149
+        },
+        {
+          "id": "SM-001968",
+          "text": "We come across a free outdoor exhibition nobody told us about. What would make you stop and look?",
+          "method": "lsa",
+          "score": 0.6317
+        },
+        {
+          "id": "SM-009139",
+          "text": "You're dealing with a challenge I can't solve. What would make my presence genuinely helpful?",
+          "method": "lsa",
+          "score": 0.6212
+        },
+        {
+          "id": "SM-002513",
+          "text": "Most turning points probably look unremarkable while we're living through them.",
+          "method": "lsa",
+          "score": 0.6036
+        }
+      ]
+    },
+    {
+      "row": 93,
+      "text": "Including a relative means asking what participation suits them rather than deciding for them. Where do we get this right?",
+      "textSha256": "f09a1c6ecd20cdc7808a488f5c4c2ecb8c74fcaac54c41698cbe7d5e902667f8",
+      "candidates": [
+        {
+          "id": "SM-004137",
+          "text": "Listening well sometimes means asking one clear question instead of offering a quick solution.",
+          "method": "tfidf",
+          "score": 0.1564
+        },
+        {
+          "id": "SM-004020",
+          "text": "We're choosing a place to live, and one option suits your commute while the other suits mine. What would you want us to consider first?",
+          "method": "tfidf",
+          "score": 0.0936
+        },
+        {
+          "id": "SM-007378",
+          "text": "Recall somebody including you in plans when they knew your schedule was difficult.",
+          "method": "tfidf",
+          "score": 0.0776
+        },
+        {
+          "id": "SM-010124",
+          "text": "Which relative knows a side of you the rest of us seldom see?",
+          "method": "lsa",
+          "score": 0.7413
+        },
+        {
+          "id": "SM-010164",
+          "text": "Invite a relative on an errand you usually do alone or join them for one of theirs?",
+          "method": "lsa",
+          "score": 0.7227
+        },
+        {
+          "id": "SM-004251",
+          "text": "Which relative has a mannerism you recognise in yourself?",
+          "method": "lsa",
+          "score": 0.7079
+        }
+      ]
+    },
+    {
+      "row": 94,
+      "text": "Talk through a disagreement on the day or agree on a specific time after everyone has rested?",
+      "textSha256": "0b8f5a0ad044bd00025fbd325394eb42b0195bfbf1ea16faa372c5f692bd046e",
+      "candidates": [
+        {
+          "id": "SM-004772",
+          "text": "Talk through a disagreement together or leave it for a one-to-one conversation?",
+          "method": "tfidf",
+          "score": 0.2814
+        },
+        {
+          "id": "SM-001257",
+          "text": "Is there a specific time of year when you always reconnect with certain friends?",
+          "method": "tfidf",
+          "score": 0.1946
+        },
+        {
+          "id": "SM-004178",
+          "text": "Tell me about the last time you felt fully rested and what helped.",
+          "method": "tfidf",
+          "score": 0.1396
+        },
+        {
+          "id": "SM-006338",
+          "text": "What happens at almost the same time each day where you live?",
+          "method": "lsa",
+          "score": 0.7424
+        },
+        {
+          "id": "SM-002755",
+          "text": "Protecting a little time every day for something meaningful or setting aside one whole day each month?",
+          "method": "lsa",
+          "score": 0.6849
+        },
+        {
+          "id": "SM-004140",
+          "text": "Leave a disagreement unresolved until morning or pause it and agree on a time to revisit?",
+          "method": "lsa",
+          "score": 0.6249
+        }
+      ]
+    },
+    {
+      "row": 95,
+      "text": "Ask a relative to challenge your assumptions or ask them to help you explain your view more clearly?",
+      "textSha256": "be59c0f74c9fa248181318c866340dbb5d9b683c037f4fadce7748209a6b1576",
+      "candidates": [
+        {
+          "id": "incoming-54",
+          "text": "Ask a relative to explain a joke you missed or ask them to tell you what made it funny at the time?",
+          "method": "tfidf",
+          "score": 0.1948
+        },
+        {
+          "id": "SM-010198",
+          "text": "We each get to ask one relative a question we've never thought to ask before. Whom would you choose, and what would you ask?",
+          "method": "tfidf",
+          "score": 0.1947
+        },
+        {
+          "id": "incoming-4",
+          "text": "Which relative would you ask to help you write a difficult message, and why?",
+          "method": "tfidf",
+          "score": 0.1895
+        },
+        {
+          "id": "incoming-25",
+          "text": "Offer a relative two ways to help or ask them to name a task they would willingly take on?",
+          "method": "lsa",
+          "score": 0.7999
+        },
+        {
+          "id": "SM-006977",
+          "text": "Which type of help do you find hardest to ask for, and why?",
+          "method": "lsa",
+          "score": 0.7906
+        }
+      ]
+    },
+    {
+      "row": 96,
+      "text": "What difference in the way two relatives show loyalty have you found interesting?",
+      "textSha256": "c907ecd2429165989b13ccf35b3eb22469061787aea924541ccdc29abe84d91a",
+      "candidates": [
+        {
+          "id": "SM-006751",
+          "text": "What's a harmless way relatives show affection without saying anything sentimental?",
+          "method": "tfidf",
+          "score": 0.2228
+        },
+        {
+          "id": "SM-006861",
+          "text": "What is the most amusing difference between how two relatives organise their homes?",
+          "method": "tfidf",
+          "score": 0.1302
+        },
+        {
+          "id": "SM-007327",
+          "text": "What difference between two people in our circle makes their friendship more interesting?",
+          "method": "tfidf",
+          "score": 0.1251
+        },
+        {
+          "id": "SM-001797",
+          "text": "Have you ever taken the wrong bus or train and met someone interesting along the way?",
+          "method": "lsa",
+          "score": 0.7923
+        },
+        {
+          "id": "SM-002043",
+          "text": "Stopping at every interesting roadside stall or driving straight through to get there early?",
+          "method": "lsa",
+          "score": 0.6311
+        },
+        {
+          "id": "SM-002834",
+          "text": "Convenience often hides the most interesting parts of how the world works.",
+          "method": "lsa",
+          "score": 0.6108
+        }
+      ]
+    },
+    {
+      "row": 97,
+      "text": "We want to visit a relative who has a new baby. What should we ask before deciding when to arrive and how long to stay?",
+      "textSha256": "96cf300651765e034cdd91ac4bcb776a82ad5625825bd3dcc8919772dcfc8a92",
+      "candidates": [
+        {
+          "id": "SM-004334",
+          "text": "One of us wants to work fewer hours despite earning less. What questions should we ask before deciding?",
+          "method": "tfidf",
+          "score": 0.1393
+        },
+        {
+          "id": "SM-004657",
+          "text": "Which part of a new city would you want a relative to show you first?",
+          "method": "tfidf",
+          "score": 0.0998
+        },
+        {
+          "id": "SM-007597",
+          "text": "What makes you want to stay in touch after a conversation with someone new?",
+          "method": "tfidf",
+          "score": 0.0961
+        },
+        {
+          "id": "SM-000677",
+          "text": "When you visit somewhere new, do you ask locals for recommendations?",
+          "method": "lsa",
+          "score": 0.6512
+        },
+        {
+          "id": "incoming-84",
+          "text": "Which relative would you ask to accompany you to an important conversation, and what support would you want from them?",
+          "method": "lsa",
+          "score": 0.5789
+        }
+      ]
+    },
+    {
+      "row": 98,
+      "text": "Whose opinion do you seek when you want a fresh perspective rather than agreement?",
+      "textSha256": "a2a957d445db5b0983b3c00fbf096353b2b7198d515ddf7cc37f52c28fde5c2e",
+      "candidates": [
+        {
+          "id": "SM-007015",
+          "text": "The history behind an opinion can be more revealing than the opinion itself.",
+          "method": "tfidf",
+          "score": 0.1185
+        },
+        {
+          "id": "SM-003748",
+          "text": "A designer wants to use a cultural colour scheme for a public project. Whose perspective should they seek before proceeding?",
+          "method": "tfidf",
+          "score": 0.1154
+        },
+        {
+          "id": "SM-008782",
+          "text": "Describe a visit somewhere that changed your perspective on your own community.",
+          "method": "tfidf",
+          "score": 0.1002
+        },
+        {
+          "id": "SM-004460",
+          "text": "We witness someone being treated rudely in a queue. How would you want us to respond safely?",
+          "method": "lsa",
+          "score": 0.9191
+        },
+        {
+          "id": "SM-005020",
+          "text": "A five-minute nap whenever you want or the ability to fall asleep instantly at bedtime?",
+          "method": "lsa",
+          "score": 0.8959
+        },
+        {
+          "id": "SM-009157",
+          "text": "What money-related assumption would you want us to reconsider together?",
+          "method": "lsa",
+          "score": 0.8957
+        }
+      ]
+    },
+    {
+      "row": 99,
+      "text": "Some relatives use affectionate language while others prefer a straightforward greeting. How do we learn what feels right for each person?",
+      "textSha256": "713d6dc5652a224c3ec4847ec9d871efdf560f1eb8d0994240dee8f609cf991e",
+      "candidates": [
+        {
+          "id": "SM-006707",
+          "text": "What's an innocent childhood nickname your relatives still use for you?",
+          "method": "tfidf",
+          "score": 0.1659
+        },
+        {
+          "id": "SM-000266",
+          "text": "A gentle reminder from the right person often feels like support rather than nagging.",
+          "method": "tfidf",
+          "score": 0.1503
+        },
+        {
+          "id": "SM-006477",
+          "text": "What's a gesture older relatives use that younger people rarely seem to copy?",
+          "method": "tfidf",
+          "score": 0.1347
+        },
+        {
+          "id": "SM-003466",
+          "text": "The rhythms of spoken language often influence how a melody feels natural to sing.",
+          "method": "lsa",
+          "score": 0.5784
+        },
+        {
+          "id": "SM-002930",
+          "text": "How can a person learn from a mistake without defining themselves by it?",
+          "method": "lsa",
+          "score": 0.5596
+        }
+      ]
+    },
+    {
+      "row": 100,
+      "text": "Which family discussion would benefit from hearing the youngest person's view before anyone else speaks?",
+      "textSha256": "f56dc1592dbdd21760a441f760d9fdf5a35cb2755ca1006e6a3760d8f99e4506",
+      "candidates": [
+        {
+          "id": "incoming-5",
+          "text": "Make a joint decision through a group discussion or hear each person's view privately first?",
+          "method": "tfidf",
+          "score": 0.1844
+        },
+        {
+          "id": "SM-006262",
+          "text": "Tell me about a childhood question that led to a surprisingly interesting family discussion.",
+          "method": "tfidf",
+          "score": 0.1516
+        },
+        {
+          "id": "incoming-83",
+          "text": "A family discussion does not need an agreed conclusion to feel worthwhile. What makes a difference of opinion worth hearing?",
+          "method": "tfidf",
+          "score": 0.1354
+        },
+        {
+          "id": "SM-006805",
+          "text": "The person taking family photos often ends up appearing in the fewest of them.",
+          "method": "lsa",
+          "score": 0.6934
+        },
+        {
+          "id": "SM-002040",
+          "text": "The person who hardly ever writes often returns with the comment that ends the discussion.",
+          "method": "lsa",
+          "score": 0.5808
+        },
+        {
+          "id": "SM-003684",
+          "text": "A photograph can document a culture while still showing only one person's point of view.",
+          "method": "lsa",
+          "score": 0.5689
+        }
+      ]
+    }
+  ]
+}
