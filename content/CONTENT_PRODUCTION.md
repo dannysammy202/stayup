@@ -1,3 +1,9 @@
+# CURRENT ACTIVE QUOTA, 16 OCTOBER 2026
+
+The user's latest confirmed instruction supersedes the historic 200-per-combination and 139,100-publication milestones below. Use 50 starters per each of 696 eligible combinations, target 34,800 visible entries. Preserve all physical source entries as an archive, original IDs, pending-review statuses, nine legacy collections and adult separation. See content/production/ACTIVE_50_POLICY.md and manifest.activePolicy. Rebuild the active index after each content batch. Historical instructions remain below for provenance.
+
+---
+
 # Say More — editorial production policy
 
 ## Initial coverage

@@ -16,9 +16,9 @@ const context=vm.createContext({
 });
 vm.runInContext(counterCode+';this.topicCount=totalTopic;this.topicLabel=topicCountLabel;',context);
 
-test('All Topics shows complete published totals before prompt shards are downloaded',()=>{
+test('All Topics shows active 50-per-combination totals before prompt shards are downloaded',()=>{
  for(const topic of manifest.topics){
-  const expected=manifest.combinations.filter(c=>c.eligible&&c.topic===topic).reduce((n,c)=>n+c.published,0);
+  const expected=manifest.combinations.filter(c=>c.eligible&&c.topic===topic).reduce((n,c)=>n+c.active,0);
   assert.equal(context.topicCount(topic),expected,topic);
   const label=context.topicLabel(topic);
   if(expected)assert.match(label,new RegExp(expected.toLocaleString('en-GB').replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+' published prompts'),topic);
@@ -38,7 +38,7 @@ test('Missing catalogue is never represented by the tiny demonstration collectio
 
 test('PWA fetches updated page and catalogue manifest online before using cache',()=>{
  const sw=readFileSync('public/sw.js','utf8');
- assert.match(sw,/saymore-curated-v5/);
+ assert.match(sw,/saymore-curated-v6/);
  assert.match(sw,/networkFirst=url\.pathname/);
  assert.match(sw,/url\.pathname==='\/library-data\/manifest\.json'/);
  assert.match(sw,/fetch\(request,\{cache:'no-store'\}\)/);
