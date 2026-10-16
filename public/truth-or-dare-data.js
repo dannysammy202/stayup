@@ -60,13 +60,13 @@ for(const adult of [false,true]){
      if(parts.length!==4)throw new Error('Incorrect prompt theme');
      for(let j=0;j<4;j++){
       let txt;
+      const task=type==='Dare'?parts[j].replace(/[.!?]+$/,''):'';
       if(type==='Truth'){
        if(j===0)txt=truthVariants[0](parts[0],c,i);
        if(j===1)txt=truthVariants[1](parts[1],parts[2],c,i);
        if(j===2)txt=truthVariants[2](parts[3],c,i);
        if(j===3)txt=truthVariants[3](parts[3],c,i);
       }else{
-       const task=parts[j].replace(/[.!?]+$/,'');
        if(j===0||j===3)txt=`In ${c.text}, ${task}.`;
        else if(j===1)txt=`Send ${c.target} a short voice note: ${task}.`;
        else txt=`On a call with ${c.callTarget}, ${task}.`;
