@@ -1,0 +1,357 @@
+{
+  "topic": "Relationships",
+  "mood": "Bold",
+  "audience": "Friends",
+  "prompts": [
+    {
+      "text": "What truth should close friends be able to tell each other without risking the whole friendship?",
+      "format": "Question",
+      "relatedThemes": [
+        "honest friendship"
+      ]
+    },
+    {
+      "text": "A friend keeps cancelling plans but insists nothing has changed. Do you confront the pattern or stop initiating?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "uneven effort"
+      ]
+    },
+    {
+      "text": "Long history is not a substitute for present-day respect. Agree or disagree?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "history and respect"
+      ]
+    },
+    {
+      "text": "Tell us about a disagreement that made one of your friendships more honest.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "productive conflict"
+      ]
+    },
+    {
+      "text": "Would you rather have a friend defend you publicly and correct you privately, or be direct wherever the issue happens?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "loyalty and correction"
+      ]
+    },
+    {
+      "text": "Which friendship expectation do you think people should discuss instead of assuming?",
+      "format": "Question",
+      "relatedThemes": [
+        "unspoken expectations"
+      ]
+    },
+    {
+      "text": "Your friend asks you to lie for them about something serious. What do you refuse, and what support do you still offer?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "ethical loyalty"
+      ]
+    },
+    {
+      "text": "A friendship can survive less contact more easily than it can survive hidden resentment. Thoughts?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "resentment"
+      ]
+    },
+    {
+      "text": "What is one sign that friendly teasing has crossed into disrespect?",
+      "format": "Question",
+      "relatedThemes": [
+        "teasing boundaries"
+      ]
+    },
+    {
+      "text": "When did a friend call you out in a way you eventually appreciated?",
+      "format": "Story starter",
+      "relatedThemes": [
+        "accountability"
+      ]
+    },
+    {
+      "text": "A difficult conversation today or a comfortable friendship with an unresolved issue underneath it?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "conflict choice"
+      ]
+    },
+    {
+      "text": "You discover a friend discussed your private problem with the group because they were worried. How do you address both the care and the breach?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "privacy breach"
+      ]
+    },
+    {
+      "text": "Which matters more in friendship: showing up during crisis or noticing before things become a crisis?",
+      "format": "Question",
+      "relatedThemes": [
+        "support"
+      ]
+    },
+    {
+      "text": "Friends who never disagree may simply be avoiding honesty. Agree?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "honest disagreement"
+      ]
+    },
+    {
+      "text": "What would make you end a friendship even if the other person apologised?",
+      "format": "Question",
+      "relatedThemes": [
+        "non-negotiables"
+      ]
+    },
+    {
+      "text": "A friend is excited about an opportunity that looks exploitative to you. How do you raise the concern without dismissing their hope?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "protective honesty"
+      ]
+    },
+    {
+      "text": "Tell us about a friendship that improved after you stopped treating closeness as constant contact.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "flexible closeness"
+      ]
+    },
+    {
+      "text": "Would you rather be the friend people call for brutal honesty or the one they call when they need safety?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "friendship roles"
+      ]
+    },
+    {
+      "text": "What is a boundary you learned only after a friend crossed it?",
+      "format": "Question",
+      "relatedThemes": [
+        "learned boundaries"
+      ]
+    },
+    {
+      "text": "Supporting a friend does not require supporting every choice they make. What's your verdict?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "support and disagreement"
+      ]
+    },
+    {
+      "text": "Your closest friend becomes friendly with someone who seriously hurt you. What conversation needs to happen?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "conflicting loyalties"
+      ]
+    },
+    {
+      "text": "When does a friend's constant need for reassurance become unfair to the friendship?",
+      "format": "Question",
+      "relatedThemes": [
+        "emotional responsibility"
+      ]
+    },
+    {
+      "text": "Describe a moment when a friend's silence told you more than their advice could.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "quiet support"
+      ]
+    },
+    {
+      "text": "A friend who challenges your excuses or one who gives you room to find your own way?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "challenge versus space"
+      ]
+    },
+    {
+      "text": "You are the only person in the group who thinks a joke has gone too far. What do you say?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "group courage"
+      ]
+    },
+    {
+      "text": "What kind of success reveals whether a friendship is genuinely secure?",
+      "format": "Question",
+      "relatedThemes": [
+        "envy and support"
+      ]
+    },
+    {
+      "text": "Outgrowing a shared lifestyle does not have to mean outgrowing the person. Agree?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "growth"
+      ]
+    },
+    {
+      "text": "Which apology from a friend would sound incomplete without a change in behaviour?",
+      "format": "Question",
+      "relatedThemes": [
+        "repair"
+      ]
+    },
+    {
+      "text": "A friend owes you money and avoids the topic while continuing to spend freely. How directly do you address it?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "money and friendship"
+      ]
+    },
+    {
+      "text": "Tell us about a time a friendship survived because one person was willing to be uncomfortable.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "courageous repair"
+      ]
+    },
+    {
+      "text": "Would you rather know every complaint your friends have about you or only the ones you can act on?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "useful feedback"
+      ]
+    },
+    {
+      "text": "What responsibility do friends have to notice when the effort has become one-sided?",
+      "format": "Question",
+      "relatedThemes": [
+        "reciprocity"
+      ]
+    },
+    {
+      "text": "Some friendships continue mainly because nobody wants to be the first to admit they have changed. Do you agree?",
+      "format": "Observation",
+      "relatedThemes": [
+        "drifting apart"
+      ]
+    },
+    {
+      "text": "Your friend shares good news after hiding months of struggle. Do you celebrate first or ask why they felt unable to tell you?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "hidden struggles"
+      ]
+    },
+    {
+      "text": "Which is harder to forgive in a friend: disloyalty, dishonesty, or indifference?",
+      "format": "Question",
+      "relatedThemes": [
+        "friendship wounds"
+      ]
+    },
+    {
+      "text": "If a friendship requires you to stay the same, it is not truly supportive. Agree or disagree?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "personal evolution"
+      ]
+    },
+    {
+      "text": "When did you realise a friend understood you better than you had given them credit for?",
+      "format": "Story starter",
+      "relatedThemes": [
+        "being known"
+      ]
+    },
+    {
+      "text": "A friend posts a photo or story about you that you wanted kept private. Do you ask quietly first or correct it publicly?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "digital boundaries"
+      ]
+    },
+    {
+      "text": "Would you rather repair one important friendship or make room for three new ones?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "repair or renewal"
+      ]
+    },
+    {
+      "text": "What does loyalty require when your friend is clearly the one causing harm?",
+      "format": "Question",
+      "relatedThemes": [
+        "accountable loyalty"
+      ]
+    },
+    {
+      "text": "A friend repeatedly calls only when they need something. What would an honest response sound like?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "transactional friendship"
+      ]
+    },
+    {
+      "text": "Being someone's oldest friend does not automatically make you their closest friend. Thoughts?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "closeness"
+      ]
+    },
+    {
+      "text": "Tell us about a boundary that changed the way your whole friend group treated one another.",
+      "format": "Story starter",
+      "relatedThemes": [
+        "group standards"
+      ]
+    },
+    {
+      "text": "What is one question friends should ask before giving each other relationship advice?",
+      "format": "Question",
+      "relatedThemes": [
+        "advice"
+      ]
+    },
+    {
+      "text": "Your friend is being excluded from a group for a reason they do not know. Do you tell them what you have heard?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "difficult disclosure"
+      ]
+    },
+    {
+      "text": "Honest criticism or unwavering encouragement: which is the rarer gift from a friend?",
+      "format": "Quick choice",
+      "relatedThemes": [
+        "friendship gifts"
+      ]
+    },
+    {
+      "text": "What is the difference between accepting a friend's flaws and enabling their patterns?",
+      "format": "Question",
+      "relatedThemes": [
+        "acceptance versus enabling"
+      ]
+    },
+    {
+      "text": "Friendships deserve intentional endings instead of unexplained disappearance. Agree?",
+      "format": "Hot take",
+      "relatedThemes": [
+        "friendship endings"
+      ]
+    },
+    {
+      "text": "A friend tells you they feel replaced by someone new in your life. How do you answer without making promises you cannot keep?",
+      "format": "Scenario",
+      "relatedThemes": [
+        "friendship insecurity"
+      ]
+    },
+    {
+      "text": "Which conversation would prove that your closest friendship can handle the truth?",
+      "format": "Question",
+      "relatedThemes": [
+        "relational courage"
+      ]
+    }
+  ]
+}
