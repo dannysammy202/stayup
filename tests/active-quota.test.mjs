@@ -39,5 +39,5 @@ test('everyday browsing excludes archive and demonstration content after the cat
  const html=readFileSync('public/index.html','utf8');
  assert.match(html,/activePublishedIds\.has\(p\.id\)/);
  assert.match(html,/CURATED_SHARDS\.activePathsForSelection/);
- assert.match(html,/publishedManifest\.activePolicy/);
+ assert.match(html,/manifest\.activePolicy\.activeCount/);
 });
