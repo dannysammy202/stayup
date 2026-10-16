@@ -1,0 +1,807 @@
+{
+  "topic": "Relationships",
+  "mood": "Deep",
+  "audience": "Family",
+  "prompts": [
+    {
+      "format": "Question",
+      "text": "Which family story sounds different now you have heard another person's version?"
+    },
+    {
+      "format": "Question",
+      "text": "What would you like us to understand about the role you were given when you were young?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a relative you understood better after becoming an adult."
+    },
+    {
+      "format": "Question",
+      "text": "Which kind of help from family leaves you feeling more capable afterwards?"
+    },
+    {
+      "format": "Observation",
+      "text": "Families remember some achievements loudly and others quietly. Which quiet achievement deserves attention?"
+    },
+    {
+      "format": "Question",
+      "text": "When have we mistaken your independence for having no need of us?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A family tradition no longer works for one person. How would we change it without making them the problem?"
+    },
+    {
+      "format": "Question",
+      "text": "What do you wish we asked about your everyday life instead of your next milestone?"
+    },
+    {
+      "format": "Question",
+      "text": "Which expression of affection in our family took you time to recognise?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Revisit a family misunderstanding together or hear a memory we have never shared?"
+    },
+    {
+      "format": "Question",
+      "text": "Who helped you feel part of this family before you knew how to explain that feeling?"
+    },
+    {
+      "format": "Question",
+      "text": "What should being the oldest, youngest or only child never oblige someone to do?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a family member being brave in a way nobody celebrated at the time."
+    },
+    {
+      "format": "Question",
+      "text": "What have you chosen to carry forward from our family, and what have you adapted?"
+    },
+    {
+      "format": "Question",
+      "text": "When does family advice begin to feel like a vote on your life?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Being related does not make understanding automatic. What have we had to learn about each other?"
+    },
+    {
+      "format": "Question",
+      "text": "Which family nickname have you outgrown, even if it once suited you?"
+    },
+    {
+      "format": "Scenario",
+      "text": "Two relatives remember an event differently. How do we make room for both memories?"
+    },
+    {
+      "format": "Question",
+      "text": "Where have practical circumstances shaped our closeness more than anyone's intentions?"
+    },
+    {
+      "format": "Question",
+      "text": "What would make a visit feel less like hosting and more like being together?"
+    },
+    {
+      "format": "Question",
+      "text": "What did a younger relative notice about our family which the adults had stopped noticing?"
+    },
+    {
+      "format": "Question",
+      "text": "Which responsibility did you take on before you understood you had a choice?"
+    },
+    {
+      "format": "Question",
+      "text": "How do you want us to respond when your plans differ from our hopes for you?"
+    },
+    {
+      "format": "Observation",
+      "text": "A person can love a family custom and find it exhausting. Which custom brings both feelings?"
+    },
+    {
+      "format": "Question",
+      "text": "What do we assume is easy for you because you have done it for years?"
+    },
+    {
+      "format": "Question",
+      "text": "How has living near or far from family affected the person you became?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Hear how an older relative made a difficult decision or how a younger one sees a familiar issue?"
+    },
+    {
+      "format": "Question",
+      "text": "Which unspoken rule about asking for help would you like us to reconsider?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time an ordinary family meal gave you something you needed emotionally."
+    },
+    {
+      "format": "Question",
+      "text": "What would you like the next generation to hear us say more often?"
+    },
+    {
+      "format": "Scenario",
+      "text": "Someone wants to leave a family gathering early. How do we let them go without a loyalty test?"
+    },
+    {
+      "format": "Question",
+      "text": "Which family assumption about success fits your life least well?"
+    },
+    {
+      "format": "Question",
+      "text": "What has learning about a relative's working life explained about them?"
+    },
+    {
+      "format": "Question",
+      "text": "How should we include someone whose relationship to the family has changed?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a time someone in the family changed a long-held opinion."
+    },
+    {
+      "format": "Question",
+      "text": "What do you want kept private even when relatives ask out of concern?"
+    },
+    {
+      "format": "Hot take",
+      "text": "A family peacemaker also needs somewhere to be upset. Who gets that space here?"
+    },
+    {
+      "format": "Question",
+      "text": "Which part of your childhood did you experience differently from your siblings or cousins?"
+    },
+    {
+      "format": "Question",
+      "text": "What would help you say you are struggling before things become urgent?"
+    },
+    {
+      "format": "Observation",
+      "text": "A family photograph shows who attended, not who felt at home. What helps people feel at home with us?"
+    },
+    {
+      "format": "Question",
+      "text": "How do we make room for a relative's new partner without treating them like an applicant?"
+    },
+    {
+      "format": "Scenario",
+      "text": "We discover a treasured family story leaves someone out. What should we add to the telling?"
+    },
+    {
+      "format": "Question",
+      "text": "What did a family member teach through consistency rather than a memorable lesson?"
+    },
+    {
+      "format": "Question",
+      "text": "Which act of care would you prefer us to stop thanking you for publicly?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe being surprised by a relative's gentleness."
+    },
+    {
+      "format": "Question",
+      "text": "How has your understanding of what our family survived changed over time?"
+    },
+    {
+      "format": "Question",
+      "text": "When do shared family jokes stop feeling shared to you?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Make room for an unresolved disagreement or work towards one clear practical agreement first?"
+    },
+    {
+      "format": "Question",
+      "text": "How should we handle a family group chat when important news gets buried among everyday messages?"
+    },
+    {
+      "format": "Question",
+      "text": "Who in the family deserves to be known for more than the hardest thing they experienced?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a family reunion which changed an assumption you held."
+    },
+    {
+      "format": "Question",
+      "text": "What have we confused with laziness when it was actually a limit?"
+    },
+    {
+      "format": "Question",
+      "text": "How should we approach traditions linked to beliefs we no longer all share?"
+    },
+    {
+      "format": "Observation",
+      "text": "Some relatives are remembered mainly through other people's stories. Whose own words would you like to hear?"
+    },
+    {
+      "format": "Question",
+      "text": "What would an apology between generations need to acknowledge?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A younger relative asks why an old family rule exists. How do we answer if we no longer believe in it?"
+    },
+    {
+      "format": "Question",
+      "text": "Which shared object carries a different meaning for each of us?"
+    },
+    {
+      "format": "Question",
+      "text": "What does giving a relative a fresh start require us to stop repeating?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time family support arrived in a form you had not expected."
+    },
+    {
+      "format": "Question",
+      "text": "What would make our conversations easier for someone who processes things slowly?"
+    },
+    {
+      "format": "Question",
+      "text": "Which parts of your life do relatives understand only through outdated information?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Age brings experience without making every experience universal. Where do we need to listen across ages?"
+    },
+    {
+      "format": "Question",
+      "text": "How do we show care when someone does not want visitors?"
+    },
+    {
+      "format": "Question",
+      "text": "What did you need from family during a change we treated as purely good news?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Talk about a family strength we rely on or a family habit we are ready to retire?"
+    },
+    {
+      "format": "Question",
+      "text": "Where have we let one person's preferences become the default for everyone?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a relative's interest you dismissed before trying to understand it."
+    },
+    {
+      "format": "Question",
+      "text": "What would you like us to know about the effort involved in travelling to see us?"
+    },
+    {
+      "format": "Question",
+      "text": "When has a smaller family gathering helped you feel more included?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A relative brings a difficult subject to a celebration. How do we choose a better moment without silencing them?"
+    },
+    {
+      "format": "Question",
+      "text": "Which family value becomes more useful when we interpret it differently?"
+    },
+    {
+      "format": "Question",
+      "text": "How do you want family to check in after disappointing news?"
+    },
+    {
+      "format": "Observation",
+      "text": "Doing things for one another sometimes replaces talking. When has that helped, and when has it left a gap?"
+    },
+    {
+      "format": "Question",
+      "text": "What should we learn about a family member's health needs rather than asking them to explain repeatedly?"
+    },
+    {
+      "format": "Question",
+      "text": "Which part of growing older together would you like us to plan for openly?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a moment when a relative trusted you with real responsibility and got it right."
+    },
+    {
+      "format": "Question",
+      "text": "How do we distinguish being available from being permanently on call?"
+    },
+    {
+      "format": "Question",
+      "text": "What does fairness between relatives require beyond giving everyone the same thing?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Keep an imperfect tradition with affection or create a new ritual with a clearer purpose?"
+    },
+    {
+      "format": "Question",
+      "text": "Which family expectation do you still hear in your head when nobody has said it?"
+    },
+    {
+      "format": "Scenario",
+      "text": "One relative always arranges our plans. How do we share the work without making them supervise us?"
+    },
+    {
+      "format": "Question",
+      "text": "What do you wish we understood about a place you once called home?"
+    },
+    {
+      "format": "Question",
+      "text": "When has a relative's silence meant respect rather than disapproval?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a time you felt welcomed back without having to explain your absence."
+    },
+    {
+      "format": "Question",
+      "text": "Which differences between generations are we too quick to treat as character flaws?"
+    },
+    {
+      "format": "Question",
+      "text": "What family knowledge is at risk of disappearing because nobody has asked?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Being the reliable one should not make someone invisible. Whose reliability needs more attention?"
+    },
+    {
+      "format": "Question",
+      "text": "How do we let children hear disagreement without making them feel responsible for it?"
+    },
+    {
+      "format": "Question",
+      "text": "What would make you feel listened to at a noisy family table?"
+    },
+    {
+      "format": "Observation",
+      "text": "A recipe can carry memories its ingredients never explain. What memory lives in a dish for you?"
+    },
+    {
+      "format": "Question",
+      "text": "Which part of a relative's journey did you understand only after facing something similar?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A relative declines a family photograph. How do we respect the choice without making a scene?"
+    },
+    {
+      "format": "Question",
+      "text": "What have you learnt about accepting help from someone you once cared for?"
+    },
+    {
+      "format": "Question",
+      "text": "Where would a clearer agreement protect our relationship better than goodwill alone?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe an ordinary family journey you remember for the conversation along the way."
+    },
+    {
+      "format": "Question",
+      "text": "What do we lose when every visit becomes an update on problems?"
+    },
+    {
+      "format": "Question",
+      "text": "How should we handle a confidence shared with one relative but not the wider family?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Ask about a relative's earlier dreams or about what matters to them now?"
+    },
+    {
+      "format": "Question",
+      "text": "Which family achievement involved people who rarely receive credit?"
+    },
+    {
+      "format": "Question",
+      "text": "Which journey to visit a relative changed your understanding of the life they were living?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a time family membership felt like a choice you were glad to make."
+    },
+    {
+      "format": "Question",
+      "text": "How has our family's way of handling embarrassment affected you?"
+    },
+    {
+      "format": "Question",
+      "text": "What should we stop interpreting as a rejection of the whole family?"
+    },
+    {
+      "format": "Observation",
+      "text": "Some relatives keep a whole branch of the family connected. What happens when they need a break?"
+    },
+    {
+      "format": "Question",
+      "text": "How do we respect the different relationships each of us has with the same relative?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A family member wants to tell a painful story we remember fondly. How do we listen?"
+    },
+    {
+      "format": "Question",
+      "text": "Which habit from a previous generation makes more sense with historical context?"
+    },
+    {
+      "format": "Question",
+      "text": "What would you like a new member of the family to feel free to ask us?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a relative showing an interest in your world without pretending to understand it already."
+    },
+    {
+      "format": "Question",
+      "text": "What does staying connected look like during a season when you have little energy?"
+    },
+    {
+      "format": "Question",
+      "text": "Which family label hides how much a person has changed?"
+    },
+    {
+      "format": "Hot take",
+      "text": "A child should not have to carry messages between adults. What should grown-ups handle directly?"
+    },
+    {
+      "format": "Question",
+      "text": "How would you like us to acknowledge a family anniversary which feels complicated to you?"
+    },
+    {
+      "format": "Question",
+      "text": "What have we learnt about making plans accessible through a relative's experience?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Share one thing our family taught you well or one thing you had to learn elsewhere?"
+    },
+    {
+      "format": "Question",
+      "text": "Which questions about your future make you feel seen, and which make you feel inspected?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a moment when a family disagreement ended with greater understanding."
+    },
+    {
+      "format": "Question",
+      "text": "How do we avoid making one relative the authority on an entire generation?"
+    },
+    {
+      "format": "Question",
+      "text": "What would make you more comfortable saying a family plan is beyond your budget?"
+    },
+    {
+      "format": "Scenario",
+      "text": "Two relatives need support at once and we cannot do everything. How do we decide together?"
+    },
+    {
+      "format": "Question",
+      "text": "Which family expectation changed when you moved into a different stage of life?"
+    },
+    {
+      "format": "Question",
+      "text": "What has a relative taught you about enjoying life without waiting for ideal circumstances?"
+    },
+    {
+      "format": "Observation",
+      "text": "We sometimes praise sacrifice before asking whether it was freely chosen. What sacrifice deserves a more honest conversation?"
+    },
+    {
+      "format": "Question",
+      "text": "How do we recognise when someone needs companionship rather than solutions?"
+    },
+    {
+      "format": "Question",
+      "text": "What would you like us to preserve about a place the family no longer has?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time a relative repaired something between you through a small action."
+    },
+    {
+      "format": "Question",
+      "text": "What does it mean to respect an elder while making a different decision?"
+    },
+    {
+      "format": "Question",
+      "text": "Which family skill would you enjoy learning without being teased for starting late?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Have a difficult conversation one to one or start with a written message and talk afterwards?"
+    },
+    {
+      "format": "Question",
+      "text": "How do we make space for someone's joy when the rest of the family is worried?"
+    },
+    {
+      "format": "Scenario",
+      "text": "Someone misses a milestone because of circumstances we do not know. What should we avoid assuming?"
+    },
+    {
+      "format": "Question",
+      "text": "Which part of the family's history would you like documented by more than one voice?"
+    },
+    {
+      "format": "Question",
+      "text": "What has distance taught you to appreciate without making you want to move back?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a family member who made a place feel safe through an everyday habit."
+    },
+    {
+      "format": "Question",
+      "text": "How do we keep concern about someone's choices from becoming a campaign against them?"
+    },
+    {
+      "format": "Question",
+      "text": "What would you like us to learn about the people you consider family outside this room?"
+    },
+    {
+      "format": "Hot take",
+      "text": "A person deserves privacy even when everyone knows their childhood. Where do we need to remember that?"
+    },
+    {
+      "format": "Question",
+      "text": "Which shared family task brings out a side of someone we rarely see?"
+    },
+    {
+      "format": "Question",
+      "text": "What do you want younger relatives to understand about asking adults questions?"
+    },
+    {
+      "format": "Observation",
+      "text": "We inherit explanations alongside habits. Which explanation have you checked for yourself?"
+    },
+    {
+      "format": "Question",
+      "text": "When has a family member offered you a useful perspective without telling you what to do?"
+    },
+    {
+      "format": "Scenario",
+      "text": "An old joke hurts someone now. What would a thoughtful response from the rest of us be?"
+    },
+    {
+      "format": "Question",
+      "text": "What helps you feel included in a family conversation conducted partly in an unfamiliar language?"
+    },
+    {
+      "format": "Question",
+      "text": "Which private family worry became easier once someone named it calmly?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a relative making room for your excitement about something they did not value personally."
+    },
+    {
+      "format": "Question",
+      "text": "How should we handle requests for photographs of children within the family?"
+    },
+    {
+      "format": "Question",
+      "text": "What does being treated as an adult by your family mean beyond your age?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Ask for a family story's missing context or ask how its teller felt at the time?"
+    },
+    {
+      "format": "Question",
+      "text": "Which expectations around gratitude make it harder to talk honestly about help?"
+    },
+    {
+      "format": "Question",
+      "text": "What would you want us to know before we publish a family story online?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a time a family plan improved because someone admitted a limitation."
+    },
+    {
+      "format": "Question",
+      "text": "How do we avoid treating the person who names a problem as the source of it?"
+    },
+    {
+      "format": "Question",
+      "text": "What would make it easier to welcome a relative whose beliefs have changed?"
+    },
+    {
+      "format": "Observation",
+      "text": "A family's calendar often reflects who has the least flexibility. Whose constraints have we overlooked?"
+    },
+    {
+      "format": "Question",
+      "text": "What did you once think all families did because ours did it?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A keepsake matters to several relatives. What would a fair conversation about its future involve?"
+    },
+    {
+      "format": "Question",
+      "text": "Which qualities do you admire in a relative you often disagree with?"
+    },
+    {
+      "format": "Question",
+      "text": "What kind of contact feels sustainable when life becomes crowded?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe the first time you realised an adult relative was learning alongside you."
+    },
+    {
+      "format": "Question",
+      "text": "How do we notice someone is withdrawing without demanding an explanation in public?"
+    },
+    {
+      "format": "Question",
+      "text": "Which family duty would benefit from an end date rather than continuing by default?"
+    },
+    {
+      "format": "Hot take",
+      "text": "A family should be able to celebrate a person without claiming their achievements. Where is the line?"
+    },
+    {
+      "format": "Question",
+      "text": "What has caring about a relative taught you about accepting uncertainty?"
+    },
+    {
+      "format": "Question",
+      "text": "What would you want us to know before we give away something you left here?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Hear an untold story about a familiar relative or learn about someone from an unfamiliar branch?"
+    },
+    {
+      "format": "Question",
+      "text": "Which family relationship would you like more room to build in your own way?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a time a younger person made a family conversation more honest."
+    },
+    {
+      "format": "Question",
+      "text": "How has a change in someone's circumstances altered what family support means?"
+    },
+    {
+      "format": "Question",
+      "text": "What should we do when a relative asks us to take sides in a dispute?"
+    },
+    {
+      "format": "Scenario",
+      "text": "Someone wants a quieter way to mark a major birthday. How do we honour their preference?"
+    },
+    {
+      "format": "Question",
+      "text": "Which family achievement matters to you even though it has no certificate or photograph?"
+    },
+    {
+      "format": "Question",
+      "text": "What would you like to hear from a relative before a difficult journey or appointment?"
+    },
+    {
+      "format": "Observation",
+      "text": "A familiar house changes when its people change. What makes a place still feel like ours?"
+    },
+    {
+      "format": "Question",
+      "text": "How do we help a relative rejoin a conversation after they have been away for years?"
+    },
+    {
+      "format": "Question",
+      "text": "Which assumption about who provides care in our family needs updating?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe being proud of a relative for setting a limit rather than achieving more."
+    },
+    {
+      "format": "Question",
+      "text": "What does it look like to honour someone's memory without freezing them into a perfect person?"
+    },
+    {
+      "format": "Question",
+      "text": "Where would a family plan benefit from asking the quietest person first?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Pass on a family skill through doing it together or record its instructions for later?"
+    },
+    {
+      "format": "Question",
+      "text": "What would you like us to understand about celebrations you choose not to attend?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A relative tells us our help had an unintended cost. How do we respond without listing our intentions?"
+    },
+    {
+      "format": "Question",
+      "text": "Which family connection has grown through something we once saw as an inconvenience?"
+    },
+    {
+      "format": "Question",
+      "text": "What would you like us to ask a relative while there is still time to hear the answer?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a time you recognised a familiar family strength in someone unexpected."
+    },
+    {
+      "format": "Question",
+      "text": "How do we make room for a person's new name or identity without centring our adjustment?"
+    },
+    {
+      "format": "Question",
+      "text": "What would a less pressured version of family togetherness look like for us?"
+    },
+    {
+      "format": "Observation",
+      "text": "A family habit survives because people keep choosing it. Which habit deserves a conscious choice now?"
+    },
+    {
+      "format": "Question",
+      "text": "How should we decide which family records to preserve when storage and time are limited?"
+    },
+    {
+      "format": "Question",
+      "text": "What would help us leave this conversation knowing one another more accurately?"
+    },
+    {
+      "format": "Question",
+      "text": "How should we decide who speaks for the family when an institution asks for one contact?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell us about a family errand which became an unexpectedly important conversation."
+    },
+    {
+      "format": "Question",
+      "text": "What makes a hand-me-down feel like a gift rather than an obligation to keep it?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A relative's dietary needs change a cherished meal. What would help everyone share the occasion comfortably?"
+    },
+    {
+      "format": "Question",
+      "text": "Which piece of family correspondence would you like to understand in its original context?"
+    },
+    {
+      "format": "Question",
+      "text": "How do you want us to respond when you pronounce or spell something differently from us?"
+    },
+    {
+      "format": "Observation",
+      "text": "An empty chair can mean many things. How should we acknowledge an absent person without speaking for them?"
+    },
+    {
+      "format": "Question",
+      "text": "What do you wish relatives understood about sharing a room or household with you?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Learn how the family chose a name or how someone grew into or away from it?"
+    },
+    {
+      "format": "Question",
+      "text": "Which family emergency taught us something useful we never wrote down?"
+    },
+    {
+      "format": "Question",
+      "text": "How do we make it possible for a relative to apologise privately when the mistake happened publicly?"
+    }
+  ]
+}

@@ -1,0 +1,807 @@
+{
+  "topic": "Relationships",
+  "mood": "Deep",
+  "audience": "Friends",
+  "prompts": [
+    {
+      "format": "Question",
+      "text": "Which version of me do you remember which I rarely mention now?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a moment you realised our friendship mattered beyond shared circumstances."
+    },
+    {
+      "format": "Question",
+      "text": "What have we learnt about handling unequal amounts of free time?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Keep a shared tradition unchanged or let it evolve with our present lives?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Our friendship deserves room for seasons when neither person is entertaining. How do we create it?"
+    },
+    {
+      "format": "Scenario",
+      "text": "One of us achieves a goal the other still struggles towards. What would thoughtful celebration involve?"
+    },
+    {
+      "format": "Question",
+      "text": "Which assumption about our friendship should we check rather than inherit from its beginning?"
+    },
+    {
+      "format": "Observation",
+      "text": "We sometimes retell the same memory for different reasons. What does our favourite shared story mean to you?"
+    },
+    {
+      "format": "Question",
+      "text": "When do you feel I know your present life rather than only our history?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time you wanted my company but did not know how to ask."
+    },
+    {
+      "format": "Question",
+      "text": "What difference between our lives has helped you understand me better?"
+    },
+    {
+      "format": "Scenario",
+      "text": "Our usual way of meeting no longer suits one person's budget. How would we change it gracefully?"
+    },
+    {
+      "format": "Question",
+      "text": "Which subject do we handle better now than when we first became friends?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Friends need a way to express hurt without proving the friendship has failed. What would help us?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Hear an old memory I kept to myself or tell me a memory you think I forgot?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a time our friendship gave you courage outside our friendship."
+    },
+    {
+      "format": "Question",
+      "text": "What do you enjoy about who we become around each other?"
+    },
+    {
+      "format": "Observation",
+      "text": "A familiar joke sometimes belongs to an earlier season. Which joke have we outgrown?"
+    },
+    {
+      "format": "Question",
+      "text": "When have we made room for each other's changing priorities successfully?"
+    },
+    {
+      "format": "Scenario",
+      "text": "One of us needs to leave an event while the other wants to stay. What would supportive independence look like?"
+    },
+    {
+      "format": "Question",
+      "text": "Which part of my life would you like to hear more about without needing an invitation?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a moment when you noticed I had changed before I noticed it myself."
+    },
+    {
+      "format": "Hot take",
+      "text": "Friendship should make asking for company easier than inventing an excuse to meet. How does this feel between us?"
+    },
+    {
+      "format": "Question",
+      "text": "What would make our check-ins feel less like progress reports?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Revisit somewhere important to our friendship or create a new memory somewhere unfamiliar?"
+    },
+    {
+      "format": "Question",
+      "text": "Which difference in our ambitions has required the most understanding?"
+    },
+    {
+      "format": "Scenario",
+      "text": "We disagree about someone we both know. How would we protect independent relationships with that person?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about something I did which you understood differently much later."
+    },
+    {
+      "format": "Observation",
+      "text": "Our friendship includes people who knew us at different times. What do those people miss about our connection?"
+    },
+    {
+      "format": "Question",
+      "text": "When do you feel most free to be ordinary with me?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Friends should be able to say they feel left out without competing for a place. How do we make this possible?"
+    },
+    {
+      "format": "Question",
+      "text": "What have we learnt from a plan which disappointed both of us?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Ask me for a practical favour or invite me to sit with an unresolved feeling?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time we handled a misunderstanding better than our younger selves would have."
+    },
+    {
+      "format": "Question",
+      "text": "Which pressure do we accidentally add when trying to encourage each other?"
+    },
+    {
+      "format": "Scenario",
+      "text": "One of us wants a quieter friendship season without ending the connection. What would we need to discuss?"
+    },
+    {
+      "format": "Question",
+      "text": "What do you wish I asked before assuming I understand your situation?"
+    },
+    {
+      "format": "Observation",
+      "text": "We might remember who initiated our friendship differently. What do you remember about its beginning?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a moment you felt included in my life without being useful to me."
+    },
+    {
+      "format": "Hot take",
+      "text": "Being close friends does not make us responsible for every opinion the other person holds. Where are our limits?"
+    },
+    {
+      "format": "Question",
+      "text": "Which quality of mine have you come to appreciate through seeing its difficult side?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Receive a detailed update less often or exchange brief glimpses of ordinary life regularly?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A mutual friend asks us to keep a disagreement secret from each other. What would feel fair?"
+    },
+    {
+      "format": "Question",
+      "text": "What do you want our friendship to preserve as our daily lives change?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time I underestimated how much something mattered to you."
+    },
+    {
+      "format": "Question",
+      "text": "When has our friendship helped you question a harsh opinion of yourself?"
+    },
+    {
+      "format": "Observation",
+      "text": "We often notice a friend's visible achievements before their private adjustments. Which adjustment would you like me to recognise?"
+    },
+    {
+      "format": "Hot take",
+      "text": "A friend deserves curiosity after a bad decision as well as before it. What does this involve for us?"
+    },
+    {
+      "format": "Question",
+      "text": "Which part of being supported by me feels easiest to accept?"
+    },
+    {
+      "format": "Scenario",
+      "text": "We both need support during the same week. How would we avoid treating care as a competition?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a time you felt proud of me without mentioning it."
+    },
+    {
+      "format": "Question",
+      "text": "What do our disagreements reveal about the different things we try to protect?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Hear my honest first reaction or give me time to offer a more considered response?"
+    },
+    {
+      "format": "Question",
+      "text": "What helps you trust my concern without feeling I am supervising you?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Our friendship should survive an honest change in taste. Which changes have been easiest to share?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A favourite activity becomes difficult for one of us because of health or energy. How would we stay connected?"
+    },
+    {
+      "format": "Observation",
+      "text": "We sometimes ask familiar questions because we do not know a friend's new questions. What occupies your thoughts lately?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time we enjoyed silence for different reasons."
+    },
+    {
+      "format": "Question",
+      "text": "Which small promise between us has carried more meaning than expected?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Plan one dependable meeting each month or leave room for spontaneous contact?"
+    },
+    {
+      "format": "Question",
+      "text": "What would help you tell me I have misunderstood your enthusiasm?"
+    },
+    {
+      "format": "Scenario",
+      "text": "Someone describes our friendship in a way neither of us recognises. What would you want to explain?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Friends should not need to become available immediately to prove they care. What signals of care work for us?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about an experience which showed you a strength in our friendship."
+    },
+    {
+      "format": "Question",
+      "text": "Which comparison with somebody else's friendship distracts us from what works here?"
+    },
+    {
+      "format": "Observation",
+      "text": "We sometimes keep a friend in an old role because it feels familiar. Which role should we reconsider?"
+    },
+    {
+      "format": "Question",
+      "text": "What do you want me to remember when you say you need time alone?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Revisit an unresolved question together or agree it does not need resolving for us to stay close?"
+    },
+    {
+      "format": "Scenario",
+      "text": "One of us changes their social circle. What would help the other avoid treating it as rejection?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time our friendship felt different in a good way."
+    },
+    {
+      "format": "Question",
+      "text": "What have I learnt about you by getting something wrong?"
+    },
+    {
+      "format": "Hot take",
+      "text": "A friend is allowed to notice a change without knowing its cause. How should we ask about it?"
+    },
+    {
+      "format": "Question",
+      "text": "What did watching me change my mind teach you about how I reach a decision?"
+    },
+    {
+      "format": "Observation",
+      "text": "Some friendship milestones have no date attached. What moment counts as a milestone for us?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about something you learnt about my values through watching me treat another person."
+    },
+    {
+      "format": "Scenario",
+      "text": "A shared project ends awkwardly. What would protect the friendship beyond the project?"
+    },
+    {
+      "format": "Question",
+      "text": "What would make borrowing something from each other feel clearer and more comfortable?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Remember our funniest shared mistake or discuss what our hardest shared experience taught us?"
+    },
+    {
+      "format": "Question",
+      "text": "When have I helped you feel less defined by a setback?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Friends should be able to celebrate progress at different speeds. What makes this difficult sometimes?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time I listened in a way you needed but had not requested."
+    },
+    {
+      "format": "Question",
+      "text": "Which limit in our friendship has become easier for you to understand?"
+    },
+    {
+      "format": "Scenario",
+      "text": "One of us needs to cancel repeatedly for a genuine reason. How would we discuss the effect without questioning the reason?"
+    },
+    {
+      "format": "Observation",
+      "text": "We sometimes give a friend the advice our past self needed. How do we check whether it fits now?"
+    },
+    {
+      "format": "Question",
+      "text": "What does being reliable to each other mean at our current stage of life?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Share an unfinished idea with me early or invite me in after you have found your direction?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a time you understood my quiet support only afterwards."
+    },
+    {
+      "format": "Question",
+      "text": "Which kind of honesty between us has taken practice?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Our friendship should leave room for people we do not share. How do we protect this space?"
+    },
+    {
+      "format": "Scenario",
+      "text": "We feel differently about posting a shared memory online. How should we decide what remains private?"
+    },
+    {
+      "format": "Question",
+      "text": "What have we never needed to explain to each other, and why does it feel understood?"
+    },
+    {
+      "format": "Observation",
+      "text": "A friendship sometimes grows through seeing how a person repairs a small mistake. What repair do you remember?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a moment you felt I trusted your judgement even though I chose differently."
+    },
+    {
+      "format": "Quick choice",
+      "text": "Hear what I admire about your consistency or what I admire about your changes?"
+    },
+    {
+      "format": "Question",
+      "text": "Which habit have we mistaken for a requirement of friendship?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Friends should not have to retell pain to keep receiving care. How do we remember what matters?"
+    },
+    {
+      "format": "Scenario",
+      "text": "One of us becomes the organiser by default. What would a fairer arrangement look like?"
+    },
+    {
+      "format": "Question",
+      "text": "What would help you say you need celebration rather than advice?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a time being around me helped you feel more like yourself."
+    },
+    {
+      "format": "Observation",
+      "text": "We sometimes measure closeness by the past. What present choice tells you we are still choosing this friendship?"
+    },
+    {
+      "format": "Question",
+      "text": "What do you want to be able to ask me without rehearsing first?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Hear an honest concern privately now or discuss it once we both have more time?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A joke I enjoy makes you feel reduced to an old version of yourself. What should I hear?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a friendship lesson we learnt without naming it at the time."
+    },
+    {
+      "format": "Question",
+      "text": "When do you feel I celebrate who you are rather than what you achieve?"
+    },
+    {
+      "format": "Hot take",
+      "text": "A friendship is not automatically weaker because it becomes less public. What tells us it remains alive?"
+    },
+    {
+      "format": "Question",
+      "text": "Which difference in how we handle stress deserves more understanding?"
+    },
+    {
+      "format": "Observation",
+      "text": "An old friend knows patterns a newer person might miss. How do we use this knowledge kindly?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a time our friendship made a new place feel less unfamiliar."
+    },
+    {
+      "format": "Scenario",
+      "text": "We remember a hurtful conversation differently. What would let us acknowledge both experiences without erasing either?"
+    },
+    {
+      "format": "Question",
+      "text": "What do you need from me when you are unsure whether your feelings make sense?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Receive comfort before a difficult decision or company while living with its consequences?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Friends sometimes need permission to ask an old question again. Which question has changed meaning for you?"
+    },
+    {
+      "format": "Question",
+      "text": "What helps you tell me about a success without worrying it sounds like showing off?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time I took a small part of your life more seriously than expected."
+    },
+    {
+      "format": "Observation",
+      "text": "We might agree on the facts of a shared experience and differ about its importance. Which experience illustrates this?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A mutual group assumes we always speak for each other. How would we protect our separate voices?"
+    },
+    {
+      "format": "Question",
+      "text": "When have you felt understood by how I remembered something?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Friends need not turn every shared interest into a joint plan. What do you enjoy keeping separate?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Make a new memory during a practical errand or reserve time for an intentional catch-up?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a moment you chose to be patient with a part of me you did not understand."
+    },
+    {
+      "format": "Question",
+      "text": "Which past expectation would you rewrite if our friendship began today?"
+    },
+    {
+      "format": "Scenario",
+      "text": "One of us gives more advice than they receive. What might make the conversation more reciprocal?"
+    },
+    {
+      "format": "Observation",
+      "text": "A friend's growth sometimes changes what they ask from us. What do you ask from me differently now?"
+    },
+    {
+      "format": "Question",
+      "text": "What does protecting my dignity look like when you disagree with my behaviour?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Supporting a friend should not require pretending a plan has no risks. How do we discuss risk kindly?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time one of us recognised the other needed a different sort of day."
+    },
+    {
+      "format": "Quick choice",
+      "text": "Hear a friend say they missed you or hear how they have made room for seeing you?"
+    },
+    {
+      "format": "Question",
+      "text": "When do you feel I allow your answer to surprise me?"
+    },
+    {
+      "format": "Scenario",
+      "text": "Someone criticises me while I am absent. How would you balance fairness, loyalty and incomplete information?"
+    },
+    {
+      "format": "Observation",
+      "text": "We sometimes keep meeting in a setting which no longer suits either person. What setting would fit us now?"
+    },
+    {
+      "format": "Question",
+      "text": "Which part of our friendship do you hope we never treat as automatic?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about learning something important from an ordinary conversation between us."
+    },
+    {
+      "format": "Hot take",
+      "text": "An honest friendship makes room for saying a particular kind of help is unhelpful. What would you like us to notice?"
+    },
+    {
+      "format": "Question",
+      "text": "How do our different approaches to money affect shared plans emotionally?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Explain a changed boundary through a conversation or through a clear practical arrangement?"
+    },
+    {
+      "format": "Scenario",
+      "text": "One of us wants to revisit a friendship ritual the other has outgrown. What would honour both meanings?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time you enjoyed seeing me become close to someone new."
+    },
+    {
+      "format": "Question",
+      "text": "What would make it easier to disagree about how we handled a shared situation?"
+    },
+    {
+      "format": "Observation",
+      "text": "Friends sometimes notice fatigue before the person names it. What response feels caring to you?"
+    },
+    {
+      "format": "Hot take",
+      "text": "We should be able to change plans without making someone prove they are exhausted enough. What makes this fair?"
+    },
+    {
+      "format": "Question",
+      "text": "Which form of attention from me helps you slow down?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A plan important to you matters less to me. How could I participate honestly without dismissing it?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a time you wanted to thank me but did not find the right moment."
+    },
+    {
+      "format": "Quick choice",
+      "text": "Discuss a friendship concern during an ordinary walk or arrange a dedicated conversation?"
+    },
+    {
+      "format": "Question",
+      "text": "What do you appreciate about the differences between how we express affection?"
+    },
+    {
+      "format": "Observation",
+      "text": "We sometimes recognise a turning point only when looking back together. What turning point would you name?"
+    },
+    {
+      "format": "Hot take",
+      "text": "A friend deserves more than a permanent label as the strong one. Which labels should we retire?"
+    },
+    {
+      "format": "Question",
+      "text": "What would let our friendship feel spacious without becoming distant?"
+    },
+    {
+      "format": "Scenario",
+      "text": "One of us says they miss how things used to be. What part of the past would be worth identifying precisely?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time our friendship helped you attempt something outside your usual role."
+    },
+    {
+      "format": "Question",
+      "text": "When have I made a difficult choice feel less lonely without deciding it for you?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Hear about my present uncertainty or learn something I have recently become certain about?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Our friendship should hold room for boredom without treating it as a problem. What makes ordinary company enough?"
+    },
+    {
+      "format": "Observation",
+      "text": "A friendship might feel balanced across years rather than weeks. How do we recognise this without keeping score?"
+    },
+    {
+      "format": "Question",
+      "text": "Which question have you wanted to ask about how I experience our friendship?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a time you felt my support continue after a conversation ended."
+    },
+    {
+      "format": "Scenario",
+      "text": "One of us avoids mentioning a problem to protect a happy occasion. When should we return to it?"
+    },
+    {
+      "format": "Question",
+      "text": "What helps you trust a promise from me after circumstances change?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Friends sometimes mistake shared history for a shared interpretation of it. What memory should we hear from each other anew?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Offer encouragement publicly or protect a friend's privacy while they find their footing?"
+    },
+    {
+      "format": "Observation",
+      "text": "We sometimes notice a friend's need for recognition only after they stop contributing. What should we notice earlier?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time you felt our friendship had room for your mixed feelings about me."
+    },
+    {
+      "format": "Question",
+      "text": "Which kind of misunderstanding do we now recognise before it grows?"
+    },
+    {
+      "format": "Scenario",
+      "text": "We give different meanings to a missed message. What expectations should we compare?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Our friendship need not justify its value through dramatic moments. What makes it valuable on an ordinary week?"
+    },
+    {
+      "format": "Question",
+      "text": "What do you want me to understand about the way you process a difficult conversation afterwards?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Revisit a shared success or recognise something difficult we handled with little acknowledgment?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a time I surprised you by asking instead of assuming."
+    },
+    {
+      "format": "Observation",
+      "text": "A friend's honest limit offers information about their life. What limit of mine helped you understand me?"
+    },
+    {
+      "format": "Question",
+      "text": "Which part of our friendship has become simpler as we have become more honest?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A new responsibility reduces the time one of us has for everyone. How could our friendship adapt without guilt?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Friends should be able to want different futures without turning them into competing arguments. How do we protect this?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a moment when you felt I understood your intention and still helped you see an effect."
+    },
+    {
+      "format": "Question",
+      "text": "What have you learnt about receiving care from how we support one another?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Ask me to help you think something through or ask me to distract you for a while?"
+    },
+    {
+      "format": "Observation",
+      "text": "We sometimes remember a friend's old worries longer than their new confidence. What confidence should I recognise in you?"
+    },
+    {
+      "format": "Scenario",
+      "text": "One of us is quiet during a shared celebration. How would the other check in without demanding a different mood?"
+    },
+    {
+      "format": "Question",
+      "text": "What would you like our friendship to make easier during an uncertain year?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a time you felt chosen in our friendship without anyone making a grand statement."
+    },
+    {
+      "format": "Hot take",
+      "text": "Trust between friends includes believing an honest 'I cannot take this on.' What helps us hear it?"
+    },
+    {
+      "format": "Question",
+      "text": "Which part of my perspective do you understand more sympathetically now?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Share a small daily concern now or save it until we have time for a fuller conversation?"
+    },
+    {
+      "format": "Scenario",
+      "text": "An occasion important to one of us clashes with a commitment important to the other. What would respectful negotiation involve?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time we stayed connected without knowing how to solve the problem between us."
+    },
+    {
+      "format": "Observation",
+      "text": "Friends sometimes develop shared shorthand which hides changing meanings. Which familiar phrase should we explain again?"
+    },
+    {
+      "format": "Question",
+      "text": "What does letting our friendship grow ask you to release from its earlier form?"
+    },
+    {
+      "format": "Hot take",
+      "text": "A friendship needs curiosity about a person's choices, not permission over them. How do we preserve this difference?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Hear what I learnt from you recently or tell me something I have helped you reconsider?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a time our friendship felt stronger because we allowed a difference to remain."
+    },
+    {
+      "format": "Question",
+      "text": "Which response from me makes a difficult day feel more manageable?"
+    },
+    {
+      "format": "Scenario",
+      "text": "One of us worries a favour has created a debt. What would make the intention clear?"
+    },
+    {
+      "format": "Observation",
+      "text": "An old friend sometimes witnesses growth the person struggles to believe. What growth would you like me to reflect back?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Care between friends should survive an honest conversation about imbalance. What would make this conversation fair?"
+    },
+    {
+      "format": "Question",
+      "text": "What would you like us to learn about each other during the next year?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Protect time for a familiar friendship ritual or make room for a new way of staying close?"
+    },
+    {
+      "format": "Scenario",
+      "text": "We both think we have been giving the other space. How would we check whether either person feels neglected?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time you felt safe being less certain around me than you were in public."
+    },
+    {
+      "format": "Observation",
+      "text": "Our friendship contains more than either person's account of it. What would you add to my version?"
+    },
+    {
+      "format": "Question",
+      "text": "What deserves more care between us now, even if it once took care of itself?"
+    }
+  ]
+}

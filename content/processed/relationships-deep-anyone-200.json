@@ -1,0 +1,807 @@
+{
+  "topic": "Relationships",
+  "mood": "Deep",
+  "audience": "Anyone",
+  "prompts": [
+    {
+      "format": "Question",
+      "text": "When did keeping the peace begin to cost you your own peace?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about somebody who respected a truth you struggled to admit."
+    },
+    {
+      "format": "Question",
+      "text": "What part of being understood feels harder than being liked?"
+    },
+    {
+      "format": "Observation",
+      "text": "An easy agreement sometimes hides an unspoken disagreement. When have you noticed this between people?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Be remembered for comforting someone or for helping them face an uncomfortable truth?"
+    },
+    {
+      "format": "Question",
+      "text": "Which relationship changed how you define responsibility towards another person?"
+    },
+    {
+      "format": "Scenario",
+      "text": "Someone misses the version of you who never objected. How would you explain your growth?"
+    },
+    {
+      "format": "Hot take",
+      "text": "An explanation does not automatically create an obligation to forgive. Where do you draw the distinction?"
+    },
+    {
+      "format": "Question",
+      "text": "What do you lose when you always present yourself as the capable person?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time someone stayed curious about you after your views changed."
+    },
+    {
+      "format": "Question",
+      "text": "Which expectation have you mistaken for a promise in a relationship?"
+    },
+    {
+      "format": "Question",
+      "text": "What helps you recognise a connection built on mutual choice rather than convenience?"
+    },
+    {
+      "format": "Observation",
+      "text": "Being needed sometimes disguises a wish to feel valued. How do you recognise the difference in yourself?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A person apologises sincerely but keeps asking when everything will feel normal. What would you want them to understand?"
+    },
+    {
+      "format": "Question",
+      "text": "When has distance given you a fairer view of somebody?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Receive a difficult truth early or discover it later with an explanation for the delay?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a relationship which improved when you stopped trying to be impressive."
+    },
+    {
+      "format": "Question",
+      "text": "Which part of closeness do you find easiest to give and hardest to receive?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Loyalty loses its meaning when it requires pretending harm never happened. What does honest loyalty involve?"
+    },
+    {
+      "format": "Question",
+      "text": "What do you want people to understand about the way you withdraw?"
+    },
+    {
+      "format": "Scenario",
+      "text": "Somebody says, 'I did it for you,' about a choice you never requested. How would you respond?"
+    },
+    {
+      "format": "Question",
+      "text": "What has another person's disappointment taught you about limits you need to keep?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a moment when you felt respected despite hearing an answer you disliked."
+    },
+    {
+      "format": "Observation",
+      "text": "People sometimes grieve a possibility rather than a relationship they experienced. Have you recognised this feeling?"
+    },
+    {
+      "format": "Question",
+      "text": "When does understanding someone's background help you, and when does it become an excuse for them?"
+    },
+    {
+      "format": "Question",
+      "text": "What would change if you stopped treating every misunderstanding as proof of rejection?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Trust somebody's clear limits or their willingness to agree to almost anything?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A relationship feels easier because you have stopped mentioning what bothers you. What would you examine first?"
+    },
+    {
+      "format": "Question",
+      "text": "Who helped you see a need you had learnt to minimise?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a goodbye which felt caring even though it hurt."
+    },
+    {
+      "format": "Hot take",
+      "text": "History gives a relationship context, not unlimited permission. How do you decide what history should count for?"
+    },
+    {
+      "format": "Question",
+      "text": "What do you notice in yourself when another person succeeds at something you want?"
+    },
+    {
+      "format": "Observation",
+      "text": "A person might forgive a mistake while losing confidence in a promise. What helps you distinguish those responses?"
+    },
+    {
+      "format": "Question",
+      "text": "When have you confused being familiar with being safe?"
+    },
+    {
+      "format": "Scenario",
+      "text": "Someone asks you to mediate an argument, but you care about both people. What would fair involvement look like?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time listening changed what you thought someone owed you."
+    },
+    {
+      "format": "Question",
+      "text": "Which relationship revealed a habit you had defended as part of your personality?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Ask someone to explain their intention or explain the effect their words had on you first?"
+    },
+    {
+      "format": "Question",
+      "text": "What does receiving care without earning it bring up for you?"
+    },
+    {
+      "format": "Hot take",
+      "text": "A peaceful ending sometimes requires accepting an incomplete explanation. How do you feel about unfinished answers?"
+    },
+    {
+      "format": "Scenario",
+      "text": "Someone praises you for a sacrifice you now regret. How would you speak honestly about it?"
+    },
+    {
+      "format": "Question",
+      "text": "What have you learnt from a relationship in which affection and compatibility differed?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about somebody who admitted they had misunderstood you without asking you to comfort them."
+    },
+    {
+      "format": "Question",
+      "text": "When do you feel responsible for managing another person's emotions?"
+    },
+    {
+      "format": "Observation",
+      "text": "A relationship's public story sometimes leaves little room for its private reality. What makes honest conversation possible then?"
+    },
+    {
+      "format": "Question",
+      "text": "Which kind of disappointment tempts you to become less generous?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A person wants reassurance you do not honestly feel able to give. What would a kind answer sound like?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Have your effort recognised or have your needs understood without explaining the effort?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time you changed a relationship by changing your own response rather than persuading the other person."
+    },
+    {
+      "format": "Question",
+      "text": "What would respectful disagreement require you to tolerate emotionally?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Consistency matters most when keeping a promise becomes inconvenient. Which promises have taught you this?"
+    },
+    {
+      "format": "Question",
+      "text": "What do you wish you had known before becoming someone's main source of support?"
+    },
+    {
+      "format": "Question",
+      "text": "When has someone's confidence in you felt like pressure rather than encouragement?"
+    },
+    {
+      "format": "Observation",
+      "text": "You sometimes notice a relationship's imbalance only after you need help. What changed your understanding of reciprocity?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A person returns with changed behaviour but no acknowledgment of the past. What would you need to discuss?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a time you felt cared for without feeling watched or managed."
+    },
+    {
+      "format": "Question",
+      "text": "What makes an apology feel like an invitation to repair rather than a request to stop talking?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Resolve a disagreement with full agreement or with a clear plan for living with the difference?"
+    },
+    {
+      "format": "Question",
+      "text": "Which of your needs becomes harder to express when you admire someone?"
+    },
+    {
+      "format": "Hot take",
+      "text": "The person who notices a problem first does not automatically own the job of solving it. Where have you seen this expectation?"
+    },
+    {
+      "format": "Question",
+      "text": "When does patience become a way of postponing a decision you already understand?"
+    },
+    {
+      "format": "Scenario",
+      "text": "Two people care equally but expect very different levels of contact. What should they clarify before blaming each other?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time a relationship became more honest after an awkward conversation."
+    },
+    {
+      "format": "Question",
+      "text": "What is difficult about letting someone see you before you have worked everything out?"
+    },
+    {
+      "format": "Observation",
+      "text": "A person who knows your history still needs to learn your present. What has changed about you recently?"
+    },
+    {
+      "format": "Question",
+      "text": "How do you decide whose criticism deserves your attention?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Be offered help with a task or permission to leave the task unfinished?"
+    },
+    {
+      "format": "Scenario",
+      "text": "Someone calls your new boundary a lack of trust. How would you separate those ideas?"
+    },
+    {
+      "format": "Question",
+      "text": "When have you stayed in a conversation to avoid seeming unkind?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about an act of repair nobody else noticed but which mattered to you."
+    },
+    {
+      "format": "Hot take",
+      "text": "A relationship does not become mutual simply because both people have strong feelings. What else makes it mutual?"
+    },
+    {
+      "format": "Question",
+      "text": "What have you learnt about yourself from the way you ask for reassurance?"
+    },
+    {
+      "format": "Question",
+      "text": "Which relationship taught you to separate gratitude from indebtedness?"
+    },
+    {
+      "format": "Observation",
+      "text": "Sometimes an old argument continues through new subjects. How do you recognise the older concern underneath?"
+    },
+    {
+      "format": "Scenario",
+      "text": "Someone trusts you with information which changes how you view a mutual acquaintance. How would you protect both privacy and fairness?"
+    },
+    {
+      "format": "Question",
+      "text": "What do you find difficult about accepting a thoughtful refusal?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time someone made room for your uncertainty without deciding for you."
+    },
+    {
+      "format": "Quick choice",
+      "text": "Understand why somebody left or understand why you wanted them to stay?"
+    },
+    {
+      "format": "Question",
+      "text": "What do you want to preserve in yourself when a relationship ends badly?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Wanting somebody to improve differs from wanting them to become easier for you. How do you examine your motives?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A person offers practical help after you asked for emotional understanding. How would you explain the difference?"
+    },
+    {
+      "format": "Question",
+      "text": "When have you interpreted somebody's limit as a judgement of your worth?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a time you let someone care for you in a way unfamiliar to you."
+    },
+    {
+      "format": "Question",
+      "text": "Which truth about your needs took you longest to stop apologising for?"
+    },
+    {
+      "format": "Observation",
+      "text": "Trust sometimes grows from hearing a clear 'I don't know.' Who has helped you appreciate this?"
+    },
+    {
+      "format": "Question",
+      "text": "What do you notice when you feel tempted to test someone's loyalty?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Revisit a painful misunderstanding or accept a respectful relationship without complete agreement about the past?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A person wants a second chance while you need evidence over time. What would you explain about rebuilding confidence?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a relationship in which you learnt to enjoy another person's independence."
+    },
+    {
+      "format": "Question",
+      "text": "When does giving advice help you avoid sitting with somebody's pain?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Being considerate includes letting people make choices you would not make. Which choice has tested this for you?"
+    },
+    {
+      "format": "Question",
+      "text": "What has caring for someone through a long illness taught you about asking for help yourself?"
+    },
+    {
+      "format": "Question",
+      "text": "Whose approval becomes louder in your mind when you make a personal decision?"
+    },
+    {
+      "format": "Observation",
+      "text": "A generous person still needs a way to say they have reached their limit. What helps you hear this without taking offence?"
+    },
+    {
+      "format": "Scenario",
+      "text": "Someone remembers your past mistakes more readily than your recent efforts. How would you address the imbalance?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a time an unexpected question helped you feel less alone in a relationship."
+    },
+    {
+      "format": "Quick choice",
+      "text": "Hear an uncomfortable concern from someone close or notice they have quietly stopped trying?"
+    },
+    {
+      "format": "Question",
+      "text": "Which version of yourself appears when you fear losing someone?"
+    },
+    {
+      "format": "Hot take",
+      "text": "A relationship needs room for ordinary days, not only important conversations. What makes ordinary time feel connected?"
+    },
+    {
+      "format": "Question",
+      "text": "What does it mean to be accountable without making yourself the villain in every story?"
+    },
+    {
+      "format": "Scenario",
+      "text": "Somebody accepts your help but rejects your advice. How would you respect the distinction?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time you recognised another person's effort before it produced a result."
+    },
+    {
+      "format": "Question",
+      "text": "When has your wish to protect someone prevented you from asking what they wanted?"
+    },
+    {
+      "format": "Observation",
+      "text": "Somebody's absence sometimes reveals how much they quietly contributed. What have you noticed after a person stepped back?"
+    },
+    {
+      "format": "Question",
+      "text": "Which conversation would become easier if nobody had to prove who cared more?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Offer someone space to reconsider or ask for an immediate clear answer?"
+    },
+    {
+      "format": "Scenario",
+      "text": "Two people describe the same relationship using different words. What would you want them to compare beyond the labels?"
+    },
+    {
+      "format": "Question",
+      "text": "What helps you notice when you are defending your image instead of hearing someone?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a person whose honest limits made them more dependable to you."
+    },
+    {
+      "format": "Hot take",
+      "text": "Forgiveness does not dictate the same future level of access. How have you thought about access after forgiveness?"
+    },
+    {
+      "format": "Question",
+      "text": "What do you need in order to hear 'you hurt me' without immediately explaining yourself?"
+    },
+    {
+      "format": "Question",
+      "text": "When has asking for less become a way of expecting less disappointment?"
+    },
+    {
+      "format": "Observation",
+      "text": "A private disappointment sometimes becomes a public joke before anyone addresses it. How do you notice this shift?"
+    },
+    {
+      "format": "Scenario",
+      "text": "Someone asks you to choose a side before you understand the disagreement. What would help you remain fair?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time you and somebody else found different meanings in a shared experience."
+    },
+    {
+      "format": "Question",
+      "text": "Which relationship changed your understanding of emotional generosity?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Receive an apology with a concrete change or an explanation which helps you understand the mistake?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Taking time to reply does not settle whether someone cares. What evidence do you trust more than speed?"
+    },
+    {
+      "format": "Question",
+      "text": "When do you confuse solving somebody's problem with being useful to them?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A person wants you to keep a promise made before your circumstances changed. What should you discuss honestly?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a time you respected somebody more after seeing a limitation they acknowledged."
+    },
+    {
+      "format": "Question",
+      "text": "What does your response to being misunderstood reveal about what matters to you?"
+    },
+    {
+      "format": "Observation",
+      "text": "A relationship sometimes ends long before its routines do. What helps you recognise when routine has replaced connection?"
+    },
+    {
+      "format": "Question",
+      "text": "Which expectation do you need to express before it turns into resentment?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Be trusted with someone's uncertainty or with a decision they have already made?"
+    },
+    {
+      "format": "Scenario",
+      "text": "Someone wants to restore a relationship exactly as it was. What would you want to keep different?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time your understanding of fairness changed after hearing another person's experience."
+    },
+    {
+      "format": "Hot take",
+      "text": "An honest relationship leaves room for saying, 'I care, and I disagree.' What makes those words hard to hear?"
+    },
+    {
+      "format": "Question",
+      "text": "When have you felt closer to someone after admitting a difference you had hidden?"
+    },
+    {
+      "format": "Question",
+      "text": "Which expression of care do you struggle to recognise because it differs from your own?"
+    },
+    {
+      "format": "Observation",
+      "text": "People sometimes offer certainty when companionship is what they have to give. What has helped you feel supported amid uncertainty?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A person says they no longer know where they stand with you. What would you want to clarify first?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about someone who made it safe for you to correct their impression of you."
+    },
+    {
+      "format": "Quick choice",
+      "text": "Know the limits of somebody's availability or receive unpredictable moments of intense attention?"
+    },
+    {
+      "format": "Question",
+      "text": "What makes you hesitate before asking a person close to you for help?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Knowing somebody well does not mean knowing what they need today. When have you had to ask again?"
+    },
+    {
+      "format": "Question",
+      "text": "When has accepting somebody's kindness challenged an old belief about yourself?"
+    },
+    {
+      "format": "Scenario",
+      "text": "Someone apologises for having a need before telling you what it is. How would you make the conversation less burdensome?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time choosing not to reply immediately helped you answer more honestly."
+    },
+    {
+      "format": "Question",
+      "text": "Which form of conflict makes you feel invisible rather than opposed?"
+    },
+    {
+      "format": "Observation",
+      "text": "A relationship's strongest person sometimes becomes its least consulted person. What makes consultation disappear?"
+    },
+    {
+      "format": "Question",
+      "text": "What helps you recognise affection which comes with conditions you cannot accept?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Ask for reassurance about the relationship or ask for clarity about one particular behaviour?"
+    },
+    {
+      "format": "Scenario",
+      "text": "Someone says a boundary surprised them because you never mentioned it before. How would you discuss a newly recognised limit?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a time you felt proud of how you treated somebody despite an unresolved disagreement."
+    },
+    {
+      "format": "Hot take",
+      "text": "Keeping a connection alive requires more than avoiding its ending. What does active care involve for you?"
+    },
+    {
+      "format": "Question",
+      "text": "When has another person's trust in you encouraged you to become more honest with yourself?"
+    },
+    {
+      "format": "Question",
+      "text": "What are you asking somebody to carry when you say, 'You know what I'm like'?"
+    },
+    {
+      "format": "Observation",
+      "text": "Silence might mean comfort, fear or exhaustion. What helps you resist guessing its meaning for somebody else?"
+    },
+    {
+      "format": "Scenario",
+      "text": "Two people repeatedly miss each other's attempts to repair a disagreement. What might each need to make clearer?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a relationship where a difficult limit prevented a deeper resentment."
+    },
+    {
+      "format": "Quick choice",
+      "text": "Understand someone's reasons without agreeing or receive agreement without feeling understood?"
+    },
+    {
+      "format": "Question",
+      "text": "Which habit of comparison makes it harder to appreciate a particular relationship?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Care feels different when it allows you to remain the author of your choices. When have you experienced this?"
+    },
+    {
+      "format": "Question",
+      "text": "When do you expect someone to recognise a need you have never expressed?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A person wants an honest answer but reacts painfully when they hear it. How would you balance truth and care?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a time a relationship became less intense and more secure."
+    },
+    {
+      "format": "Question",
+      "text": "What do you want to believe about people even after a disappointment?"
+    },
+    {
+      "format": "Observation",
+      "text": "Sometimes the hardest part of accepting an apology is giving up an old explanation of the person. Have you experienced this?"
+    },
+    {
+      "format": "Question",
+      "text": "Which relationship taught you a difference between being responsible and feeling guilty?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Be asked what support you want or be offered a small, specific form of help?"
+    },
+    {
+      "format": "Scenario",
+      "text": "Somebody's effort improves while your feelings remain uncertain. How would you speak honestly without dismissing their effort?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time somebody's straightforward answer freed you from guessing."
+    },
+    {
+      "format": "Hot take",
+      "text": "A person's needs do not become less real because they express them calmly. What do you notice first when somebody asks for help?"
+    },
+    {
+      "format": "Question",
+      "text": "When does being understanding begin to silence an important part of your experience?"
+    },
+    {
+      "format": "Question",
+      "text": "What does a relationship reveal about how you respond to somebody else's freedom?"
+    },
+    {
+      "format": "Observation",
+      "text": "We sometimes ask for an explanation when we want a different outcome. How do you recognise which one you are seeking?"
+    },
+    {
+      "format": "Scenario",
+      "text": "Someone asks whether you still trust them after a small disagreement. How would you separate disagreement from the wider relationship?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a time you accepted care from a person you usually supported."
+    },
+    {
+      "format": "Quick choice",
+      "text": "Receive steady understanding from one person or broad approval from many people?"
+    },
+    {
+      "format": "Question",
+      "text": "Which feeling do you most often disguise as irritation around people close to you?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Repair sometimes begins with naming what both people have been avoiding. What makes naming it feel possible?"
+    },
+    {
+      "format": "Question",
+      "text": "When have you mistaken someone else's confidence for a reason to doubt your own needs?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A person wants you to explain a limit to everyone affected by it. How much explanation would feel fair?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time you became kinder without becoming more available."
+    },
+    {
+      "format": "Question",
+      "text": "What would you like to understand about the relationships you leave unspoken?"
+    },
+    {
+      "format": "Observation",
+      "text": "Some people feel safest when they are useful. What helps you feel welcome when you have nothing to contribute?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Be remembered accurately by someone or be seen generously despite their incomplete understanding?"
+    },
+    {
+      "format": "Scenario",
+      "text": "You realise a relationship rests on an assumption neither person has checked. What would you ask first?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a time you chose a difficult conversation over a reassuring assumption."
+    },
+    {
+      "format": "Question",
+      "text": "Which relationship has helped you stop treating a feeling as a verdict about yourself?"
+    },
+    {
+      "format": "Hot take",
+      "text": "A caring response is sometimes a question which leaves the answer open. Which questions have given you room?"
+    },
+    {
+      "format": "Question",
+      "text": "What do you want to do differently the next time someone trusts you with uncertainty?"
+    },
+    {
+      "format": "Scenario",
+      "text": "Somebody wants to know whether their best effort is enough for you. What would an honest answer need to acknowledge?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a moment when you felt free to belong without hiding a difference."
+    },
+    {
+      "format": "Question",
+      "text": "Which part of caring for another person has made you more aware of your own limits?"
+    },
+    {
+      "format": "Observation",
+      "text": "Two people might agree on what happened and still disagree on what it meant. What helps them keep listening?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Ask what someone intended to preserve or what they feared losing during an argument?"
+    },
+    {
+      "format": "Question",
+      "text": "What would greater honesty require you to risk in a relationship you value?"
+    },
+    {
+      "format": "Scenario",
+      "text": "You notice someone has stopped asking you for anything. How would you find out whether they feel independent or discouraged?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a time someone let your answer remain complicated."
+    },
+    {
+      "format": "Hot take",
+      "text": "Respect sometimes means accepting a decision without receiving an explanation you like. Which decisions test this for you?"
+    },
+    {
+      "format": "Question",
+      "text": "What helps you remain interested in somebody after you stop agreeing on important things?"
+    },
+    {
+      "format": "Observation",
+      "text": "Closeness changes when a person no longer has to make their pain persuasive. What makes you feel believed?"
+    },
+    {
+      "format": "Question",
+      "text": "When has a relationship asked you to become more patient with ambiguity?"
+    },
+    {
+      "format": "Question",
+      "text": "What has a relationship across a large difference in income taught you about dignity?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A former mentor now treats you as an equal, but you still seek permission. What would help you adjust?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a connection which survived after the project bringing you together ended."
+    },
+    {
+      "format": "Question",
+      "text": "Which parts of yourself feel easier to share in one language than another with people close to you?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Defending an absent person requires care about accuracy as well as loyalty. When have you had to balance both?"
+    }
+  ]
+}

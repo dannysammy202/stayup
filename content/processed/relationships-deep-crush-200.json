@@ -1,0 +1,807 @@
+{
+  "topic": "Relationships",
+  "mood": "Deep",
+  "audience": "Crush / Talking stage",
+  "prompts": [
+    {
+      "format": "Question",
+      "text": "What do you want us to learn before either person makes a promise?"
+    },
+    {
+      "format": "Question",
+      "text": "Which part of getting close feels worth taking slowly to you?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Attraction deserves honesty about readiness. What does readiness mean in your present life?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a small interaction which changed how you saw a possible relationship."
+    },
+    {
+      "format": "Quick choice",
+      "text": "Understand our differences early or enjoy discovering similarities before discussing differences?"
+    },
+    {
+      "format": "Scenario",
+      "text": "We enjoy each other but imagine different next steps. What should we say plainly?"
+    },
+    {
+      "format": "Question",
+      "text": "What would help you feel chosen without feeling hurried?"
+    },
+    {
+      "format": "Observation",
+      "text": "An exciting beginning leaves room for ordinary questions too. Which ordinary question matters to you?"
+    },
+    {
+      "format": "Question",
+      "text": "How do you distinguish genuine interest from enjoying someone's attention?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe an early conversation which helped you relax your need to impress."
+    },
+    {
+      "format": "Question",
+      "text": "Which expectation would you rather discuss before it becomes a source of anxiety?"
+    },
+    {
+      "format": "Scenario",
+      "text": "Our texting rhythm feels different from our in-person connection. What would you want to compare?"
+    },
+    {
+      "format": "Hot take",
+      "text": "A slow reply is information about timing before it becomes a story about feelings. What would you ask?"
+    },
+    {
+      "format": "Question",
+      "text": "What would make saying 'not yet' feel safe between us?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Hear how I handle disappointment or how I show enthusiasm?"
+    },
+    {
+      "format": "Question",
+      "text": "Which parts of your independence do you want an early connection to respect?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a time clear intentions made getting to know someone easier."
+    },
+    {
+      "format": "Observation",
+      "text": "People sometimes plan a future before learning a person's present. What about your present deserves attention?"
+    },
+    {
+      "format": "Question",
+      "text": "What do you want curiosity about your past to leave private for now?"
+    },
+    {
+      "format": "Scenario",
+      "text": "One of us feels more certain sooner. How would we avoid turning certainty into pressure?"
+    },
+    {
+      "format": "Question",
+      "text": "What does making space for a possible relationship require you to reconsider?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Chemistry need not settle compatibility. Which practical difference deserves honest discussion?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a moment you realised you liked a person's character as well as their company."
+    },
+    {
+      "format": "Quick choice",
+      "text": "Plan a thoughtful ordinary day together or discuss what an ordinary week would realistically allow?"
+    },
+    {
+      "format": "Question",
+      "text": "What would you like me to understand about how you make important choices?"
+    },
+    {
+      "format": "Scenario",
+      "text": "We have different ideas about paying for dates. How would you raise it without testing the other person?"
+    },
+    {
+      "format": "Question",
+      "text": "Which kind of affection would you prefer us to ask about rather than assume?"
+    },
+    {
+      "format": "Observation",
+      "text": "A meaningful beginning does not require identical timelines. What would a respectful timeline conversation include?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a time someone respected your pace and became more interesting to you."
+    },
+    {
+      "format": "Question",
+      "text": "How would you like us to acknowledge uncertainty while continuing to get acquainted?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Being pursued should not require staying mysterious. What makes direct interest feel comfortable?"
+    },
+    {
+      "format": "Question",
+      "text": "What helps you notice when excitement is making you overlook a genuine concern?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Discuss how we disagree or learn how we each ask for help?"
+    },
+    {
+      "format": "Scenario",
+      "text": "An important difference appears after several good conversations. What would keep the discussion fair?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a gesture which helped you feel considered without creating an obligation."
+    },
+    {
+      "format": "Question",
+      "text": "Which compliment would tell you I have been paying attention beyond appearances?"
+    },
+    {
+      "format": "Observation",
+      "text": "We might be drawn to qualities we do not yet understand. Which quality would you like to understand better in me?"
+    },
+    {
+      "format": "Question",
+      "text": "What would make an honest lack of readiness easier to express?"
+    },
+    {
+      "format": "Scenario",
+      "text": "Friends begin asking where this is going before we have discussed it. How would we handle outside curiosity?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Interest is clearer when neither person needs to guess the rules. Which rule should we question?"
+    },
+    {
+      "format": "Question",
+      "text": "What part of your weekly life would help me understand your availability fairly?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about an early expectation you now prefer to state directly."
+    },
+    {
+      "format": "Quick choice",
+      "text": "Share why a relationship appeals to us now or discuss what we would not want to rush?"
+    },
+    {
+      "format": "Question",
+      "text": "What does emotional steadiness look like during the uncertainty of getting acquainted?"
+    },
+    {
+      "format": "Scenario",
+      "text": "We enjoy different kinds of dates. What would choosing together reveal about how we negotiate?"
+    },
+    {
+      "format": "Observation",
+      "text": "A person's public confidence may hide private uncertainty about being liked. What would help you ask rather than guess?"
+    },
+    {
+      "format": "Question",
+      "text": "Which part of feeling respected matters most before a relationship has a name?"
+    },
+    {
+      "format": "Hot take",
+      "text": "A good date should leave room for an honest preference, not only an agreeable answer. What preference would you share?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a conversation which made you interested in someone's way of thinking."
+    },
+    {
+      "format": "Question",
+      "text": "How do you want us to respond if our interest develops differently?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Ask what makes a relationship fulfilling or ask what would make one impractical right now?"
+    },
+    {
+      "format": "Scenario",
+      "text": "An invitation feels too elaborate for where we are. How would you suggest a simpler alternative?"
+    },
+    {
+      "format": "Question",
+      "text": "What does curiosity about your values look like without making you feel examined?"
+    },
+    {
+      "format": "Observation",
+      "text": "Attention can feel flattering while the pace feels uncomfortable. How would you want to name both feelings?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about learning an unexpected similarity through a disagreement."
+    },
+    {
+      "format": "Question",
+      "text": "Which part of yourself do you hope attraction does not distract me from noticing?"
+    },
+    {
+      "format": "Hot take",
+      "text": "An honest beginning needs room for an answer neither person hoped to hear. What would make this possible?"
+    },
+    {
+      "format": "Question",
+      "text": "What is worth knowing about how you protect time for people already in your life?"
+    },
+    {
+      "format": "Scenario",
+      "text": "One of us shares personal news publicly sooner than the other prefers. What should we agree about privacy?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Learn how I spend time alone or how I make plans involving other people?"
+    },
+    {
+      "format": "Question",
+      "text": "What would you like our conversations to reveal beyond whether we enjoy them?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time someone asked a thoughtful question instead of making a flattering assumption."
+    },
+    {
+      "format": "Observation",
+      "text": "A possible relationship should fit real responsibilities, not only free evenings. What responsibilities shape your choices?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Consistency should allow for a real life outside the connection. What would dependable interest look like to you?"
+    },
+    {
+      "format": "Question",
+      "text": "How do you recognise when you are agreeing because you like a person rather than an idea?"
+    },
+    {
+      "format": "Scenario",
+      "text": "We both avoid mentioning a concern to preserve a good mood. How would we open the subject?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about an ordinary habit which increased your respect for someone you liked."
+    },
+    {
+      "format": "Quick choice",
+      "text": "Discuss what commitment means or discuss how to recognise when we are ready to discuss commitment?"
+    },
+    {
+      "format": "Question",
+      "text": "Which difference in communication would you prefer us to understand before judging it?"
+    },
+    {
+      "format": "Observation",
+      "text": "The wish to be impressive sometimes hides a wish to be accepted. What helps you show an ordinary day?"
+    },
+    {
+      "format": "Question",
+      "text": "What would make you comfortable correcting a story I have formed about you?"
+    },
+    {
+      "format": "Hot take",
+      "text": "A person does not need to compete with an imagined ideal to deserve interest. What keeps expectations grounded?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A shared plan needs changing because of a family responsibility. What response would feel respectful?"
+    },
+    {
+      "format": "Question",
+      "text": "How would you like us to talk about the influence of faith or values on dating?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe an early boundary which helped you feel more comfortable rather than less connected."
+    },
+    {
+      "format": "Quick choice",
+      "text": "Hear what I value in your company or learn what I am still curious about?"
+    },
+    {
+      "format": "Question",
+      "text": "What makes intentional interest different from constant contact for you?"
+    },
+    {
+      "format": "Observation",
+      "text": "Some people find labels reassuring; others need behaviour to give labels meaning. What helps you feel clear?"
+    },
+    {
+      "format": "Scenario",
+      "text": "We realise our hopes involve different cities. Which questions deserve attention before imagining solutions?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Saying what we want should not mean promising what we cannot yet know. How do we balance this?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a time patience made someone's interest easier to trust."
+    },
+    {
+      "format": "Question",
+      "text": "What would you want me to ask before introducing you to people important to me?"
+    },
+    {
+      "format": "Question",
+      "text": "Which kind of date leaves you enough room to notice how you feel afterwards?"
+    },
+    {
+      "format": "Scenario",
+      "text": "One of us prefers calls and the other prefers messages. How would we find a rhythm without ranking either preference?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Ask about a person's hopes for partnership or the daily habits they want partnership to respect?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a moment you appreciated someone's honesty more than a smooth answer."
+    },
+    {
+      "format": "Observation",
+      "text": "A connection sometimes feels promising because a person makes ordinary needs easy to mention. Which need matters to you?"
+    },
+    {
+      "format": "Question",
+      "text": "What does an early disagreement need in order to remain a conversation rather than a verdict?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Getting acquainted should not require disowning earlier parts of your life. What should respectful interest leave intact?"
+    },
+    {
+      "format": "Question",
+      "text": "What would help you notice whether we make room for each other's voice equally?"
+    },
+    {
+      "format": "Scenario",
+      "text": "We have different levels of comfort with affectionate language. How would we learn what fits?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about feeling appreciated for a quality you did not usually advertise."
+    },
+    {
+      "format": "Quick choice",
+      "text": "Discover a shared preference or understand why an opposite preference matters to you?"
+    },
+    {
+      "format": "Question",
+      "text": "What would make you comfortable saying a date was enjoyable without implying a promise?"
+    },
+    {
+      "format": "Observation",
+      "text": "An early connection might reveal what someone wants as well as what they fear. Which would you rather discuss first?"
+    },
+    {
+      "format": "Question",
+      "text": "How would you like us to distinguish a request for clarity from a demand for certainty?"
+    },
+    {
+      "format": "Hot take",
+      "text": "A generous gesture is not a substitute for hearing a person's preference. What preference do you want taken seriously?"
+    },
+    {
+      "format": "Scenario",
+      "text": "One of us needs to slow down after an exciting week. What would a clear, caring message include?"
+    },
+    {
+      "format": "Question",
+      "text": "What would you want us to notice about how we each treat a person who has nothing to offer us?"
+    },
+    {
+      "format": "Question",
+      "text": "How should we handle different meeting-place preferences without either person defending a need to feel safe?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Share how we spend money or discuss what financial independence means to each of us?"
+    },
+    {
+      "format": "Question",
+      "text": "What helps you hear a concern without feeling your whole suitability is under review?"
+    },
+    {
+      "format": "Observation",
+      "text": "A date can feel pleasant without helping us understand each other. What would you like more room for?"
+    },
+    {
+      "format": "Scenario",
+      "text": "Someone assumes we are exclusive before we have discussed it. How would we clarify respectfully?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a time you felt listened to while describing an unpopular preference."
+    },
+    {
+      "format": "Hot take",
+      "text": "A promising connection still needs freedom to change direction honestly. What makes that freedom credible?"
+    },
+    {
+      "format": "Question",
+      "text": "Which part of your temperament becomes clearer when plans go wrong?"
+    },
+    {
+      "format": "Question",
+      "text": "How do you know when you are curious about a person rather than a possible future?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Discuss our different habits early or allow ordinary time together to reveal them?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A friend gives confident advice about us with limited information. How would you weigh it?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe an early conversation which helped you feel less pressure to perform a role."
+    },
+    {
+      "format": "Observation",
+      "text": "We sometimes call a connection effortless because nobody has expressed a difficult preference yet. What would honest ease involve?"
+    },
+    {
+      "format": "Question",
+      "text": "What does taking someone seriously involve before making a commitment?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Interest should survive a person's ordinary fatigue. What response to tiredness would feel caring?"
+    },
+    {
+      "format": "Question",
+      "text": "When faith matters to someone, what makes an invitation to worship feel welcoming rather than like a test?"
+    },
+    {
+      "format": "Scenario",
+      "text": "We notice one person usually initiates plans. What would we want to understand before calling it imbalance?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Hear what I enjoy about getting acquainted or learn what I would want us to clarify next?"
+    },
+    {
+      "format": "Question",
+      "text": "If a friend disliked me before meeting me, how would you want to handle their opinion?"
+    },
+    {
+      "format": "Question",
+      "text": "What would you like a possible relationship to add without replacing what already matters?"
+    },
+    {
+      "format": "Observation",
+      "text": "A person might enjoy closeness and still need time to recognise their feelings. How do you prefer to communicate during this time?"
+    },
+    {
+      "format": "Hot take",
+      "text": "We need not prove compatibility by avoiding every disagreement. Which difference would you feel comfortable exploring?"
+    },
+    {
+      "format": "Question",
+      "text": "What would make meeting my friends feel welcoming rather than like an assessment?"
+    },
+    {
+      "format": "Scenario",
+      "text": "Our ideas of a meaningful occasion differ. How could we learn about each meaning before making plans?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe an interaction which made you notice how a person treats people's limits."
+    },
+    {
+      "format": "Quick choice",
+      "text": "Ask about what partnership would change or what it should leave untouched?"
+    },
+    {
+      "format": "Question",
+      "text": "How do you want someone to ask whether affection is welcome?"
+    },
+    {
+      "format": "Observation",
+      "text": "A flattering assumption can still leave someone misunderstood. Which assumption about attraction would you like to question?"
+    },
+    {
+      "format": "Question",
+      "text": "What helps you feel respected when you do not share someone's level of enthusiasm yet?"
+    },
+    {
+      "format": "Hot take",
+      "text": "A possible partner should not need to become your only source of encouragement. What does support outside romance mean to you?"
+    },
+    {
+      "format": "Scenario",
+      "text": "We discover an important expectation comes from different family customs. How would we compare them fairly?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about someone who made a simple invitation feel thoughtful through attention to your needs."
+    },
+    {
+      "format": "Question",
+      "text": "What do you want us to understand about ambition before imagining a shared future?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Learn how I handle uncertainty or learn how I respond when someone asks for space?"
+    },
+    {
+      "format": "Observation",
+      "text": "Privacy about a new connection might mean care, caution or discomfort. How would you prefer us to check its meaning?"
+    },
+    {
+      "format": "Question",
+      "text": "Which expectation about romance would you rather examine than inherit?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A special gesture feels bigger than the relationship currently feels. How would you acknowledge both kindness and discomfort?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Emotional honesty includes admitting when we do not know what a feeling means. What helps you say this?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a conversation which made you appreciate someone's willingness to ask permission."
+    },
+    {
+      "format": "Question",
+      "text": "What helps you decide which differences invite learning and which require a harder conversation?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Share an expectation which changed with experience or one you still want to keep?"
+    },
+    {
+      "format": "Question",
+      "text": "What would it mean to be considerate of the person waiting for clarity?"
+    },
+    {
+      "format": "Observation",
+      "text": "The way we react to a changed plan may reveal more than the plan itself. What response helps you stay comfortable?"
+    },
+    {
+      "format": "Scenario",
+      "text": "One of us enjoys frequent reassurance while the other finds repetition difficult. What would help us understand each need?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about feeling attracted to someone's patience with a person other than you."
+    },
+    {
+      "format": "Hot take",
+      "text": "A romantic beginning should allow each person to remain recognisable to their friends. What would you want to preserve?"
+    },
+    {
+      "format": "Question",
+      "text": "How would you like us to discuss disappointment without making either person feel trapped?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Hear what makes me feel appreciated or share what makes you feel emotionally comfortable?"
+    },
+    {
+      "format": "Scenario",
+      "text": "We enjoy a conversation but disagree about whether it was a date. How would we clarify without embarrassment?"
+    },
+    {
+      "format": "Question",
+      "text": "Which kind of independence would you want me to understand rather than interpret as disinterest?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time a respectful question deepened your interest more than a compliment."
+    },
+    {
+      "format": "Observation",
+      "text": "Being attentive includes noticing when a person has had enough conversation. How do you signal this?"
+    },
+    {
+      "format": "Question",
+      "text": "What would make discussing future hopes feel exploratory rather than contractual?"
+    },
+    {
+      "format": "Hot take",
+      "text": "A person deserves a clear answer even when the answer is uncertain. What would such an answer sound like?"
+    },
+    {
+      "format": "Scenario",
+      "text": "Our routines offer little overlapping free time. What would help us assess the practical fit honestly?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Learn about a person's private discipline or their way of sharing enjoyment?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about an instance when realistic expectations made a connection more enjoyable."
+    },
+    {
+      "format": "Question",
+      "text": "Which part of compatibility do you think needs observation rather than a convincing answer?"
+    },
+    {
+      "format": "Observation",
+      "text": "Some people approach attraction through certainty; others through curiosity. What feels natural to you?"
+    },
+    {
+      "format": "Question",
+      "text": "How do you prefer someone to respond when you disagree with a romantic expectation?"
+    },
+    {
+      "format": "Scenario",
+      "text": "One of us feels uneasy about a familiar dating custom. How would we make a choice suited to us?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Getting close should not mean losing the ability to say a conversation feels too early. What helps you say so?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a moment you felt an early connection respected your life outside it."
+    },
+    {
+      "format": "Question",
+      "text": "What makes someone's interest feel specific to who you are?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Understand what comfort looks like to me or what meaningful effort looks like to you?"
+    },
+    {
+      "format": "Observation",
+      "text": "We might agree on a label and differ about its practical meaning. Which practical detail would you clarify?"
+    },
+    {
+      "format": "Scenario",
+      "text": "One of us introduces a sensitive topic at a busy moment. How could we find a better time without rejecting it?"
+    },
+    {
+      "format": "Question",
+      "text": "What do you want us to notice about how we handle small misunderstandings?"
+    },
+    {
+      "format": "Hot take",
+      "text": "A shared future needs more than two appealing descriptions of it. Which daily question would ground the discussion?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a time someone's accountability made them more attractive to you."
+    },
+    {
+      "format": "Question",
+      "text": "What makes an honest expression of affection feel proportionate to where a connection stands?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Hear what draws me towards commitment or what helps you feel ready to choose it?"
+    },
+    {
+      "format": "Scenario",
+      "text": "We realise one person thought a boundary was negotiable while the other did not. What should be made clear?"
+    },
+    {
+      "format": "Observation",
+      "text": "A person might be thoughtful in conversation and inconsiderate in planning. How do you weigh the whole picture?"
+    },
+    {
+      "format": "Question",
+      "text": "What would you like me to understand about your response to uncertainty after a good date?"
+    },
+    {
+      "format": "Hot take",
+      "text": "How would you like us to discuss differences in education without turning them into rankings of worth?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a connection which taught you to take a practical concern seriously early."
+    },
+    {
+      "format": "Question",
+      "text": "How would you like an expression of interest to leave room for your own answer?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Learn what keeps a person grounded or what makes them feel hopeful?"
+    },
+    {
+      "format": "Scenario",
+      "text": "Someone important to you has concerns about us. How would you decide what deserves discussion between us?"
+    },
+    {
+      "format": "Observation",
+      "text": "We sometimes try to match another person's certainty instead of describing our own feelings. What would honest difference sound like?"
+    },
+    {
+      "format": "Question",
+      "text": "Which question would help us understand whether our idea of care includes enough freedom?"
+    },
+    {
+      "format": "Hot take",
+      "text": "A connection should not require gratitude for every small act of basic respect. What feels foundational to you?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about an early interaction which showed you a person's willingness to share responsibility."
+    },
+    {
+      "format": "Question",
+      "text": "What would make it comfortable to say you need a different kind of date next time?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Talk about how interest has grown or discuss what we still want to learn?"
+    },
+    {
+      "format": "Scenario",
+      "text": "We discover we have different ideas about staying connected during travel. What would we agree before either leaves?"
+    },
+    {
+      "format": "Observation",
+      "text": "An appealing possibility sometimes makes us stop asking present-tense questions. What would you ask today?"
+    },
+    {
+      "format": "Question",
+      "text": "How do you want to recognise mutual effort without counting every gesture?"
+    },
+    {
+      "format": "Hot take",
+      "text": "A caring beginning allows the answer 'I enjoy this, and I need to think.' How would we make room for it?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time something ordinary revealed a meaningful difference between you and someone you liked."
+    },
+    {
+      "format": "Question",
+      "text": "What helps you feel comfortable being less polished around someone you are attracted to?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Hear how I decide to trust or share how you recognise a connection worth exploring?"
+    },
+    {
+      "format": "Scenario",
+      "text": "One of us wants to plan far ahead while the other prefers one step at a time. How would we compare what each approach offers?"
+    },
+    {
+      "format": "Observation",
+      "text": "A new connection enters lives already full of commitments. Which commitment should we understand better?"
+    },
+    {
+      "format": "Question",
+      "text": "What should interest in your future never assume you owe somebody?"
+    },
+    {
+      "format": "Hot take",
+      "text": "It is possible to value a beginning without deciding its ending. What helps you stay present honestly?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about an early conversation which helped you understand what you did not want to rush."
+    },
+    {
+      "format": "Quick choice",
+      "text": "Choose another date because the first felt easy or because it left you meaningfully curious?"
+    },
+    {
+      "format": "Scenario",
+      "text": "We both enjoy getting acquainted but use different words for it. What would help the words carry shared meaning?"
+    },
+    {
+      "format": "Question",
+      "text": "What would you like the next stage of getting to know each other to make clearer?"
+    }
+  ]
+}

@@ -1,0 +1,807 @@
+{
+  "topic": "Relationships",
+  "mood": "Deep",
+  "audience": "Someone new",
+  "prompts": [
+    {
+      "format": "Question",
+      "text": "What makes a stranger's kindness feel personal to you?"
+    },
+    {
+      "format": "Hot take",
+      "text": "First impressions reveal expectations as much as personalities. What do you notice about your own expectations?"
+    },
+    {
+      "format": "Question",
+      "text": "Which kind of question earns your attention without demanding your trust?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a brief encounter which changed how you viewed people."
+    },
+    {
+      "format": "Quick choice",
+      "text": "Learn someone's values through a disagreement or through a decision they made quietly?"
+    },
+    {
+      "format": "Question",
+      "text": "What makes an introduction feel equal despite differences in status?"
+    },
+    {
+      "format": "Observation",
+      "text": "We often meet somebody during one season of their life. What helps you remember the larger story?"
+    },
+    {
+      "format": "Scenario",
+      "text": "You meet someone whose reputation contradicts their behaviour towards you. What would you stay curious about?"
+    },
+    {
+      "format": "Question",
+      "text": "Which everyday choice tells you somebody thinks beyond their own convenience?"
+    },
+    {
+      "format": "Question",
+      "text": "What distinguishes an interesting conversation from a conversation which feels significant?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a moment when someone unfamiliar treated your question with unexpected seriousness."
+    },
+    {
+      "format": "Question",
+      "text": "What helps you remain curious when somebody's view initially frustrates you?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Shared interests open a conversation; shared conduct determines whether it continues. How do you see this?"
+    },
+    {
+      "format": "Question",
+      "text": "What makes you feel free to decline a personal question?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A new acquaintance shares something tender, then changes the subject. How would you follow their lead?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Hear why someone chose their work or what they protect outside work?"
+    },
+    {
+      "format": "Question",
+      "text": "What do people miss when they judge somebody by confidence alone?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about understanding a person's choices differently after learning one ordinary detail."
+    },
+    {
+      "format": "Question",
+      "text": "How do you decide whether a question comes from curiosity or a wish to classify you?"
+    },
+    {
+      "format": "Observation",
+      "text": "Being welcoming differs from assuming instant familiarity. What makes the difference feel clear?"
+    },
+    {
+      "format": "Question",
+      "text": "What do you appreciate about people who resist making quick comparisons?"
+    },
+    {
+      "format": "Hot take",
+      "text": "A conversation need not become personal to become meaningful. Which subjects prove this for you?"
+    },
+    {
+      "format": "Scenario",
+      "text": "You meet someone at a turning point in their life. What would you ask before offering encouragement?"
+    },
+    {
+      "format": "Question",
+      "text": "Which qualities become visible only when a person stops trying to make an impression?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a conversation where somebody's willingness to listen surprised you more than their answer."
+    },
+    {
+      "format": "Question",
+      "text": "What makes a difference of opinion feel worth exploring with a new person?"
+    },
+    {
+      "format": "Question",
+      "text": "What do you want an introduction to leave open about you?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Ask what someone believes or ask what has changed their beliefs?"
+    },
+    {
+      "format": "Hot take",
+      "text": "A person's accent tells us less than we often assume. Which assumptions would you like people to question?"
+    },
+    {
+      "format": "Question",
+      "text": "How do you recognise interest which leaves you room to choose how much to share?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about someone you initially misread because their warmth looked different from yours."
+    },
+    {
+      "format": "Scenario",
+      "text": "A new acquaintance disagrees with you carefully. What would make you feel invited rather than challenged to win?"
+    },
+    {
+      "format": "Question",
+      "text": "What do you learn about someone from the way they describe people absent from the conversation?"
+    },
+    {
+      "format": "Observation",
+      "text": "A polished life story sometimes hides the questions somebody is still living with. What makes uncertainty welcome?"
+    },
+    {
+      "format": "Question",
+      "text": "Which form of respect feels universal to you, even across unfamiliar customs?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Being articulate and being thoughtful are different qualities. How do you notice thoughtfulness in conversation?"
+    },
+    {
+      "format": "Question",
+      "text": "What helps you feel seen without feeling examined?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time a stranger made a difficult environment easier to navigate."
+    },
+    {
+      "format": "Question",
+      "text": "Which topic helps you understand somebody without asking them to describe their personality?"
+    },
+    {
+      "format": "Scenario",
+      "text": "You discover you share a major goal with someone new but disagree about the route. What would you ask?"
+    },
+    {
+      "format": "Question",
+      "text": "What makes you reconsider an assumption without feeling embarrassed about having held it?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Hear someone's most considered decision or a question they have not resolved?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a conversation which changed a small action you took afterwards."
+    },
+    {
+      "format": "Hot take",
+      "text": "Humility includes admitting what you have never had to understand. What has taught you this?"
+    },
+    {
+      "format": "Question",
+      "text": "When does a person's confidence make it easier for others to speak?"
+    },
+    {
+      "format": "Question",
+      "text": "What do you appreciate about someone who asks for clarification instead of pretending to understand?"
+    },
+    {
+      "format": "Observation",
+      "text": "We sometimes mistake a familiar opinion for a trustworthy person. What else do you look for?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A person from a different generation asks your perspective sincerely. What would make the exchange equal?"
+    },
+    {
+      "format": "Question",
+      "text": "What does a careful introduction reveal about how someone treats identity?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe an encounter which made your world feel less socially separate."
+    },
+    {
+      "format": "Question",
+      "text": "What makes a question feel like an invitation rather than an interview?"
+    },
+    {
+      "format": "Hot take",
+      "text": "A person owes a stranger courtesy, not a complete life explanation. Where do you place that boundary?"
+    },
+    {
+      "format": "Question",
+      "text": "Which ordinary experience has made you more patient with unfamiliar people?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Discuss a belief you share or understand a belief neither of you holds?"
+    },
+    {
+      "format": "Question",
+      "text": "What helps you recognise someone who values learning more than appearing knowledgeable?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a time you enjoyed hearing an answer you would not have given."
+    },
+    {
+      "format": "Scenario",
+      "text": "Someone asks what you do, and you do not want your job to define the introduction. How would you answer?"
+    },
+    {
+      "format": "Question",
+      "text": "What does it mean to offer somebody the benefit of the doubt responsibly?"
+    },
+    {
+      "format": "Observation",
+      "text": "A quiet person's contribution sometimes arrives after everyone else has moved on. How do you keep space for it?"
+    },
+    {
+      "format": "Question",
+      "text": "Which small behaviour helps you recognise fairness in somebody you barely know?"
+    },
+    {
+      "format": "Hot take",
+      "text": "We sometimes use humour to check whether a person will tolerate disrespect. What makes humour feel generous instead?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe learning about a place through somebody's affection for its people."
+    },
+    {
+      "format": "Question",
+      "text": "What do you wish people valued more when choosing whom to listen to?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A new person tells you they have changed direction several times. What would you want to understand beyond the timeline?"
+    },
+    {
+      "format": "Question",
+      "text": "How do you keep curiosity from turning someone into a representative of an entire group?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Learn what somebody stands for or where they make an exception?"
+    },
+    {
+      "format": "Question",
+      "text": "What makes it safe to say you have not formed an opinion yet?"
+    },
+    {
+      "format": "Hot take",
+      "text": "An unfamiliar perspective need not become a lesson directed at its speaker. What makes an exchange reciprocal?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about meeting someone whose priorities made your own clearer."
+    },
+    {
+      "format": "Question",
+      "text": "What do you learn from people who take an ordinary responsibility seriously?"
+    },
+    {
+      "format": "Observation",
+      "text": "We often learn the words people use for success before learning what success costs them. What would you ask?"
+    },
+    {
+      "format": "Question",
+      "text": "Which distinction matters to you when someone calls you a 'good person'?"
+    },
+    {
+      "format": "Scenario",
+      "text": "Someone shares a view associated with a group you distrust. How would you hear the individual account fairly?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a conversation where a modest example carried more weight than a grand statement."
+    },
+    {
+      "format": "Question",
+      "text": "What makes you interested in someone's reasoning even when their conclusion does not persuade you?"
+    },
+    {
+      "format": "Hot take",
+      "text": "A person should not need an impressive story to deserve attention. What makes you slow down and listen?"
+    },
+    {
+      "format": "Question",
+      "text": "Which kind of disagreement has taught you the most about your own values?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Hear how someone spends a free day or how they handle an unplanned responsibility?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about someone who made room for your inexperience."
+    },
+    {
+      "format": "Question",
+      "text": "What helps you recognise confidence built on practice rather than social advantage?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A conversation becomes a competition over who has struggled more. What could restore mutual curiosity?"
+    },
+    {
+      "format": "Observation",
+      "text": "We sometimes ask about origins when we want a sense of belonging. What does belonging mean in introductions?"
+    },
+    {
+      "format": "Question",
+      "text": "What makes you feel respected when somebody mispronounces your name and wants to correct it?"
+    },
+    {
+      "format": "Hot take",
+      "text": "An apology for not knowing something often gets in the way of learning it. How do you make learning comfortable?"
+    },
+    {
+      "format": "Question",
+      "text": "What does treating somebody as an equal require beyond using polite words?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a meeting where a person listened past a label attached to you."
+    },
+    {
+      "format": "Question",
+      "text": "Which everyday situation reminds you how dependent people are on one another?"
+    },
+    {
+      "format": "Scenario",
+      "text": "You meet somebody who is proud of a choice you would have avoided. What might you ask about its meaning?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Share a question you are reconsidering or a value you expect to keep?"
+    },
+    {
+      "format": "Question",
+      "text": "What gives you permission to change the direction of a conversation?"
+    },
+    {
+      "format": "Hot take",
+      "text": "It takes attention to notice who has done the unseen work. When has someone helped you notice it?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a stranger whose small courtesy stayed in your memory."
+    },
+    {
+      "format": "Observation",
+      "text": "People tell different parts of their story in different rooms. What helps you avoid assuming you heard the whole account?"
+    },
+    {
+      "format": "Question",
+      "text": "What makes somebody's account of a mistake more trustworthy to you?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A person shares an achievement and mentions the people who helped. What interests you about their account?"
+    },
+    {
+      "format": "Question",
+      "text": "Which kind of enthusiasm makes you curious about an unfamiliar interest?"
+    },
+    {
+      "format": "Hot take",
+      "text": "A conversation becomes more equal when either person is allowed to be the learner. What helps this happen?"
+    },
+    {
+      "format": "Question",
+      "text": "What helps you notice the difference between caution and unfriendliness?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time hearing somebody's daily responsibilities challenged a simple judgement."
+    },
+    {
+      "format": "Quick choice",
+      "text": "Ask why someone stayed somewhere or why they eventually left?"
+    },
+    {
+      "format": "Question",
+      "text": "What makes a person worth hearing even if their life differs greatly from yours?"
+    },
+    {
+      "format": "Scenario",
+      "text": "Someone asks an overly personal question without seeming to realise it. What reply would protect comfort on both sides?"
+    },
+    {
+      "format": "Observation",
+      "text": "We sometimes tell a success story before we have decided what it meant. How do you listen without assigning a lesson?"
+    },
+    {
+      "format": "Question",
+      "text": "What do you appreciate about people who leave room for mixed feelings?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a conversation which gave you a more complicated, fairer picture of somebody."
+    },
+    {
+      "format": "Hot take",
+      "text": "Curiosity loses something when every answer becomes advice. How do you stay with another person's perspective?"
+    },
+    {
+      "format": "Question",
+      "text": "Which social expectation do you notice more clearly when meeting people outside your usual circle?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Hear about someone's first important responsibility or their first chosen commitment?"
+    },
+    {
+      "format": "Question",
+      "text": "What makes an unfamiliar person's optimism convincing rather than dismissive?"
+    },
+    {
+      "format": "Scenario",
+      "text": "Two new acquaintances describe the same community very differently. What would you ask before choosing an account?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe an encounter where you had to separate your discomfort from another person's wrongdoing."
+    },
+    {
+      "format": "Question",
+      "text": "What has meeting a person with no shared contacts taught you about trust?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Someone's ability to explain a boundary should not decide whether it deserves respect. What do you think?"
+    },
+    {
+      "format": "Question",
+      "text": "Which personal question is worth allowing someone time to answer?"
+    },
+    {
+      "format": "Observation",
+      "text": "Our most confident opinions sometimes concern lives we have never lived. What helps you recognise this?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A new acquaintance admits they are starting again. What would help you avoid treating their life as a failure?"
+    },
+    {
+      "format": "Question",
+      "text": "How does a setting affect which part of yourself you introduce first?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a person whose ordinary courage you noticed during a first meeting."
+    },
+    {
+      "format": "Quick choice",
+      "text": "Hear what somebody protects from change or what they hope will change?"
+    },
+    {
+      "format": "Question",
+      "text": "Which common compliment leaves you unsure what a person has understood about you?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Differences in manners deserve curiosity before moral judgement. Which differences have made you think?"
+    },
+    {
+      "format": "Question",
+      "text": "What do you learn from how people describe the work of others?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A person pauses before answering a simple question. How would you make room without guessing why?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe meeting someone who cared deeply about a problem you had overlooked."
+    },
+    {
+      "format": "Observation",
+      "text": "An introduction often names a person's role before their interests. What else would you like introductions to include?"
+    },
+    {
+      "format": "Question",
+      "text": "What makes a person seem secure enough to let others disagree?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Ask somebody about an unfinished ambition or a satisfaction they already have?"
+    },
+    {
+      "format": "Hot take",
+      "text": "A person's willingness to be corrected matters more than never needing correction. What makes correction easier?"
+    },
+    {
+      "format": "Question",
+      "text": "What helps you connect with someone without claiming their experience resembles yours?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about being included in a conversation where you had little background knowledge."
+    },
+    {
+      "format": "Scenario",
+      "text": "Someone describes a simple pleasure with great care. What does their attention make you curious about?"
+    },
+    {
+      "format": "Question",
+      "text": "Which kind of personal detail changes how you hear the rest of a person's story?"
+    },
+    {
+      "format": "Observation",
+      "text": "We sometimes praise resilience without asking whether support was available. What would a fuller response involve?"
+    },
+    {
+      "format": "Question",
+      "text": "What makes another person's honesty feel careful rather than performative?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Being open-minded includes changing how you ask, not only what you conclude. Have you noticed this?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time a person understood your hesitation without asking you to justify it."
+    },
+    {
+      "format": "Question",
+      "text": "What do you find valuable in a conversation which produces no answer?"
+    },
+    {
+      "format": "Scenario",
+      "text": "Someone says they prefer listening to speaking. What would help you avoid making the encounter one-sided?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Ask about a decision's consequences or the uncertainty before it?"
+    },
+    {
+      "format": "Question",
+      "text": "What makes an apology between strangers feel proportionate?"
+    },
+    {
+      "format": "Hot take",
+      "text": "We reveal respect through the questions we decide not to ask. Which restraint do you appreciate?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a conversation where neither person needed to defend their whole background."
+    },
+    {
+      "format": "Question",
+      "text": "What helps you separate unfamiliarity from incompatibility?"
+    },
+    {
+      "format": "Observation",
+      "text": "An honest 'I see it differently' sometimes keeps a conversation more open than polite agreement. When does it work?"
+    },
+    {
+      "format": "Scenario",
+      "text": "You notice someone uses humour whenever a serious subject appears. How would you let them set their pace?"
+    },
+    {
+      "format": "Question",
+      "text": "What makes someone feel approachable without requiring them to be constantly cheerful?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Understand a person's present priorities or the experiences which formed them?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe meeting a person who changed your idea of what a fulfilling life looks like."
+    },
+    {
+      "format": "Hot take",
+      "text": "Attention is not the same as access. What makes someone feel heard without being pressed to disclose?"
+    },
+    {
+      "format": "Question",
+      "text": "Which expression of respect do you wish people used more with unfamiliar people?"
+    },
+    {
+      "format": "Scenario",
+      "text": "An acquaintance describes a disagreement fairly enough for you to understand both people. What would you notice?"
+    },
+    {
+      "format": "Observation",
+      "text": "A person might be articulate about ideas and hesitant about feelings. How do you give both kinds of speech room?"
+    },
+    {
+      "format": "Question",
+      "text": "What helps you hear an answer which challenges the question you asked?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a time somebody's patience made you ask a better question."
+    },
+    {
+      "format": "Quick choice",
+      "text": "Hear how someone changed a habit or how they accepted a limitation?"
+    },
+    {
+      "format": "Hot take",
+      "text": "A person does not have to resemble us to make us feel understood. What creates understanding across difference?"
+    },
+    {
+      "format": "Question",
+      "text": "What do you notice about the way someone receives an unexpected favour?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A new acquaintance asks whether a topic feels comfortable. What does their check-in change for you?"
+    },
+    {
+      "format": "Question",
+      "text": "Which responsibility has helped you appreciate lives different from your own?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a conversation which made you question how you define competence."
+    },
+    {
+      "format": "Observation",
+      "text": "We sometimes confuse an unfamiliar route through life with a lack of direction. What challenges this assumption?"
+    },
+    {
+      "format": "Question",
+      "text": "What makes a person's uncertainty feel thoughtful rather than evasive?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Trust begins before friendship, in small acts which people are free to decline. Where do you notice this?"
+    },
+    {
+      "format": "Question",
+      "text": "What do you appreciate about someone who asks how you prefer to be addressed?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Learn about a person's long-standing concern or something they only recently noticed?"
+    },
+    {
+      "format": "Scenario",
+      "text": "Someone says a familiar phrase means something different where they grew up. What would you ask about its use?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a person whose seriousness you initially mistook for disapproval."
+    },
+    {
+      "format": "Question",
+      "text": "What helps you keep a person's story from becoming a comparison with your own?"
+    },
+    {
+      "format": "Hot take",
+      "text": "A worthwhile conversation sometimes ends before people feel close. What would make it worthwhile for you?"
+    },
+    {
+      "format": "Observation",
+      "text": "We often remember how a person handled a small inconvenience more than their introduction. What has stayed with you?"
+    },
+    {
+      "format": "Question",
+      "text": "Which question would help you understand how somebody makes room for other people?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A conversation turns towards someone who is not present to explain themselves. What would fair curiosity permit?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Hear what somebody learnt from helping or what they learnt from receiving help?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time you felt welcomed without being expected to become more outgoing."
+    },
+    {
+      "format": "Question",
+      "text": "What makes you interested in the person behind an opinion?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Courtesy becomes more meaningful when nobody is keeping score. Where have you experienced this?"
+    },
+    {
+      "format": "Question",
+      "text": "What do you learn from how a person admits a small misunderstanding?"
+    },
+    {
+      "format": "Observation",
+      "text": "Someone's ordinary day might contain commitments you cannot see. How does this affect your expectations?"
+    },
+    {
+      "format": "Scenario",
+      "text": "A person shares an unpopular preference without apologising. What helps you respond with curiosity?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about an encounter which softened a belief you had held confidently."
+    },
+    {
+      "format": "Question",
+      "text": "Which kind of question helps you understand another person's judgement without testing them?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Hear what somebody considers fair or what they consider kind?"
+    },
+    {
+      "format": "Hot take",
+      "text": "People should be allowed to describe uncertainty without receiving a diagnosis of their character. What helps you do this?"
+    },
+    {
+      "format": "Question",
+      "text": "What does making room for another person look like in a crowded conversation?"
+    },
+    {
+      "format": "Scenario",
+      "text": "You sense a question was received differently from how you intended. What would a careful repair involve?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time a person respected your answer without needing to relate to it."
+    },
+    {
+      "format": "Question",
+      "text": "What distinguishes someone's need for recognition from a wish to dominate a conversation?"
+    },
+    {
+      "format": "Observation",
+      "text": "We sometimes know a person's position before learning what they are protecting. What would help you ask?"
+    },
+    {
+      "format": "Hot take",
+      "text": "Respectful curiosity accepts a partial answer. What makes it difficult to leave a question unfinished?"
+    },
+    {
+      "format": "Quick choice",
+      "text": "Discuss an experience neither of you shares or compare different experiences of a familiar situation?"
+    },
+    {
+      "format": "Question",
+      "text": "Which detail about a person's ordinary relationships helps you understand their values?"
+    },
+    {
+      "format": "Scenario",
+      "text": "An acquaintance revises something they said earlier. How would you acknowledge the revision without making it awkward?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Tell me about a first conversation which felt worthwhile because it remained unhurried."
+    },
+    {
+      "format": "Question",
+      "text": "What makes you want to hear how a person arrived at an unfamiliar conviction?"
+    },
+    {
+      "format": "Hot take",
+      "text": "A conversation becomes safer when people need not turn every experience into a lesson. What would you prefer instead?"
+    },
+    {
+      "format": "Observation",
+      "text": "Someone's confidence might disappear in an unfamiliar setting. What helps you avoid treating this as inconsistency?"
+    },
+    {
+      "format": "Question",
+      "text": "What do you want to practise when you meet someone whose world feels distant from yours?"
+    },
+    {
+      "format": "Scenario",
+      "text": "Someone asks a question you have never considered. What makes it comfortable to think aloud?"
+    },
+    {
+      "format": "Story starter",
+      "text": "Describe a time somebody gave your answer more attention than your social position."
+    },
+    {
+      "format": "Question",
+      "text": "What would make this conversation worth remembering without needing it to lead anywhere?"
+    }
+  ]
+}
