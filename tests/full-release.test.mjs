@@ -8,7 +8,9 @@ import {checkFullReleaseCounts} from '../scripts/check-full-release.mjs';
 
 test('preparation accepts 50 authored entries and rejects 51 for each new eligible combination',()=>{
  const manifest=JSON.parse(readFileSync('public/library-data/manifest.json'));
- const reference=manifest.combinations.find(c=>c.eligible&&c.published===50);\n const slot={...reference,published:0,active:0};\n const testManifest={...manifest,combinations:[slot]};
+ const reference=manifest.combinations.find(c=>c.eligible&&c.published===50);
+ const slot={...reference,published:0,active:0};
+ const testManifest={...manifest,combinations:[slot]};
  const prompts=Array.from({length:50},(_,i)=>({text:'A distinctive editorial fixture '+i+' for testing removal of the old arbitrary processing limit.',format:'Question'}));
  // The fixture deliberately bypasses lexical similarity: short token sets exercise size accounting only.
  for(let i=0;i<prompts.length;i++)prompts[i].text='Unique '+String(i)+' abc def ghi jkl mno pqr stu vwx.';

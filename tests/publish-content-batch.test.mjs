@@ -5,8 +5,9 @@ import { prepareContentBatch } from '../scripts/publish-content-batch.mjs';
 
 const manifest=JSON.parse(readFileSync('public/library-data/manifest.json','utf8'));
 const published=manifest.publishedFiles.flatMap(file=>JSON.parse(readFileSync('public/library-data/'+file,'utf8')));
-const eligibleSlot=manifest.combinations.find(c=>c.eligible&&c.published<=48);
-if(!eligibleSlot)throw new Error('No available eligible slot for content publisher test');
+const eligibleSlot=manifest.combinations.find(c=>c.eligible&&c.topic==='Family'&&c.mood==='Chill'&&c.audience==='Anyone');
+if(!eligibleSlot)throw new Error('No eligible Family / Chill / Anyone fixture');
+const fixtureManifest={...manifest,combinations:manifest.combinations.map(c=>c===eligibleSlot?{...c,published:0,active:0}:c)};
 const pick={
  topic:eligibleSlot.topic,mood:eligibleSlot.mood,audience:eligibleSlot.audience,
  prompts:[
