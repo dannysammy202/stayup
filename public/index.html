@@ -162,11 +162,12 @@ const TOPICS=DATA.topics, PROMPTS=DATA.prompts;
 let librarySummary=null,publishedManifest=null,libraryLoadError='';
 let publishedLoading=false,publishedViewKey='';
 const loadedPublishedShards=new Set();
+let activePublishedIds=new Set();
 const CURATED_SHARDS=window.SayMoreCuratedShards;
 function publishedSelection(){return {topic:state.topic,mood:state.mood,audience:state.audience};}
 function remainingPublishedFiles(){
  if(!publishedManifest||state.adult)return [];
- return CURATED_SHARDS.pathsForSelection(publishedManifest,publishedSelection(),loadedPublishedShards,8);
+ return CURATED_SHARDS.activePathsForSelection(publishedManifest,publishedSelection(),loadedPublishedShards,8);
 }
 function resetFeedAfterContentUpdate(){
  state.feedKey=null;state.feedOrder=[];topicCountCacheKey='';
@@ -213,7 +214,7 @@ async function loadNextPublishedFiles(limit=8,forIds=null){
  if(!publishedManifest||publishedLoading||state.adult)return false;
  const paths=forIds?
   CURATED_SHARDS.pathsForIds(publishedManifest,forIds,loadedPublishedShards,limit):
-  CURATED_SHARDS.pathsForSelection(publishedManifest,publishedSelection(),loadedPublishedShards,limit);
+  CURATED_SHARDS.activePathsForSelection(publishedManifest,publishedSelection(),loadedPublishedShards,limit);
  return fetchPublishedFiles(paths);
 }
 function schedulePublishedForView(){
@@ -235,7 +236,8 @@ async function loadPublishedLibrary(){
   if(!CURATED_SHARDS)throw new Error('Catalogue loader is unavailable');
   CURATED_SHARDS.assertManifest(manifest);
   publishedManifest=manifest;
-  librarySummary={count:manifest.publishedCount,approved:manifest.humanReviewedCount,draft:manifest.aiAuthoredScreenedCount,target:manifest.targetCount,published:true};
+  activePublishedIds=new Set(manifest.publishedCollections.flatMap(c=>c.activeIds));
+  librarySummary={count:manifest.activePolicy.activeCount,archived:manifest.activePolicy.archivedCount,target:manifest.activePolicy.targetCount,remaining:manifest.activePolicy.remainingToTarget,published:true};
   publishedViewKey=JSON.stringify([state.view,state.topic,state.mood,state.audience]);
   if(state.view==='explore'){
    const loaded=await loadNextPublishedFiles(8);
@@ -274,7 +276,7 @@ let state={view:'explore',mood:'All moods',topic:'All topics',audience:'Anyone',
 let orderCache=[];let toastTimer=null;
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 function persist(){try{localStorage.setItem(STORAGE,JSON.stringify({saved:state.saved,seen:state.seen,hidden:state.hidden,large:state.large,compact:state.compact}))}catch(e){/* Preview remains usable when local storage is restricted. */}}
-function inPool(){const hidden=new Set(state.hidden);return PROMPTS.filter(p=>p.adult===state.adult&&!hidden.has(p.id)&&p.editorialStatus!=='generated_pending_editorial_review')}
+function inPool(){const hidden=new Set(state.hidden);return PROMPTS.filter(p=>p.adult===state.adult&&!hidden.has(p.id)&&p.editorialStatus!=='generated_pending_editorial_review'&&(p.source==='published-library'?activePublishedIds.has(p.id):p.source==='ai'||p.adult===true||!publishedManifest))}
 function filtered(){
  const q=state.query.toLowerCase().trim();
  const matches=inPool().filter(p=>(state.mood==='All moods'||p.moods.includes(state.mood))&&(state.topic==='All topics'||p.topic===state.topic)&&(p.source==='published-library'?p.audiences.includes(state.audience):(state.audience==='Anyone'||p.audiences.includes(state.audience)||p.audiences.includes('Anyone')))&&(!q||(p.text+' '+p.topic+' '+p.format).toLowerCase().includes(q)));
@@ -285,7 +287,7 @@ function sorted(list){const key=JSON.stringify([state.view,state.mood,state.topi
 let topicCountCacheKey='',topicCountCache={};
 function totalTopic(topic){
  // Count the published catalogue, not the few shards currently downloaded on this device.
- if(!state.adult&&publishedManifest)return publishedManifest.combinations.reduce((sum,cell)=>sum+(cell.eligible&&cell.topic===topic?cell.published:0),0);
+ if(!state.adult&&publishedManifest)return publishedManifest.combinations.reduce((sum,cell)=>sum+(cell.eligible&&cell.topic===topic?cell.active:0),0);
  const key=[state.adult,state.hidden.length,librarySummary?.count||0].join('|');
  if(topicCountCacheKey!==key){topicCountCache={};for(const p of inPool())topicCountCache[p.topic]=(topicCountCache[p.topic]||0)+1;topicCountCacheKey=key}
  return topicCountCache[topic]||0;
@@ -294,7 +296,7 @@ function topicCountLabel(topic){
  if(state.adult)return totalTopic(topic)+' available 18+ prompts';
  if(!publishedManifest)return libraryLoadError?'Catalogue unavailable · Retry above':'Loading published catalogue…';
  const count=totalTopic(topic);
- return count?count.toLocaleString('en-GB')+' published prompts · All audiences':'No published prompts yet · Preview ideas available';
+ return count?count.toLocaleString('en-GB')+' published prompts · All audiences':'No published prompts yet · Coming soon';
 }
 function menuItem(k,label,view){const active=state.view===view;const n=view==='saved'?state.saved.length:0;return `<button type="button" class="nav-item ${active?'active':''}" data-view="${view}">${icon(k)}<span>${label}</span>${n?`<span class="nav-count">${n}</span>`:''}</button>`}
 function status(){return `<button type="button" class="status" data-action="${state.adult?'leaveAdult':'enterAdult'}"><span class="dot"></span>${state.adult?'18+ mode · Exit':'Everyday mode'} ${icon(state.adult?'lock':'shield')}</button>`}
@@ -370,8 +372,9 @@ function topicsView(){const items=TOPICS.filter(t=>!state.query||t.toLowerCase()
 function savedView(){const pool=state.saved.map(id=>PROMPTS.find(p=>p.id===id)).filter(p=>p&&p.adult===state.adult&&!state.hidden.includes(p.id));orderCache=pool.map(p=>p.id);return `<div class="page-heading"><div class="eyebrow">Your personal collection</div><h1>Worth keeping.</h1><p>All the prompts you've saved for another conversation. They stay here until you remove them.</p></div><div class="feed-caption"><strong>${pool.length} saved prompts in ${state.adult?'18+':'everyday'} mode</strong></div>${promptGrid(pool,'No saved prompts yet','Tap the heart on any prompt to keep it here for later.')}`}
 function historyView(){const pool=[...state.seen].reverse().map(id=>PROMPTS.find(p=>p.id===id)).filter(p=>p&&p.adult===state.adult&&!state.hidden.includes(p.id));orderCache=pool.map(p=>p.id);return `<div class="page-heading"><div class="eyebrow">Where you left off</div><h1>Recent conversations.</h1><p>Pick up an idea you opened before or revisit something you enjoyed.</p></div><div class="toolbar-inline"><span class="eyebrow">${pool.length} VIEWED IN ${state.adult?'18+':'EVERYDAY'} MODE</span><button class="ghost-link" data-action="clearHistory">${icon('trash')} Clear history</button></div>${promptGrid(pool,'No history yet','Open any prompt from Explore to start your history.')}`}
 function librarySettings(){
- const count=librarySummary?.count||0;
- return '<section class="settings-group"><h3>Built-in conversation library</h3><div class="setting-row"><div><strong>'+count.toLocaleString('en-GB')+' built-in starters</strong><p>Built-in content loads automatically as you browse, without uploads or AI. Our initial coverage target is 200 original starters for each of 696 eligible topic, mood and audience combinations.</p><p>The initial coverage target is 139,200. '+(librarySummary?librarySummary.approved.toLocaleString('en-GB')+' have prior editorial approval and '+librarySummary.draft.toLocaleString('en-GB')+' are screened drafts awaiting individual review.':'Published starters and screened drafts will display with clear review labels.')+'</p></div></div></section>';
+ const active=librarySummary?.count||0,archived=librarySummary?.archived||0;
+ const target=librarySummary?.target||34800,remaining=librarySummary?.remaining??target;
+ return '<section class="settings-group"><h3>Built-in conversation library</h3><div class="setting-row"><div><strong>'+active.toLocaleString('en-GB')+' active starters</strong><p>Our active target is 50 unique starters for each of 696 eligible combinations, or '+target.toLocaleString('en-GB')+' in total. '+remaining.toLocaleString('en-GB')+' active slots remain to fill.</p><p>'+archived.toLocaleString('en-GB')+' earlier starters remain in the archive for future expansion. Editorial review labels remain unchanged. Adults-only conversations are separate.</p></div></div></section>';
 }
 function settingsView(){return `<div class="page-heading"><div class="eyebrow">Make it yours</div><h1>Your space, your rules.</h1><p>Keep the experience comfortable, personal and easy to pick up whenever you need it.</p></div><section class="settings-group"><h3>Conversation preferences</h3><div class="setting-row"><div><strong>Roomier text</strong><p>Use a larger reading size for prompt cards and Focus mode.</p></div><button class="toggle ${state.large?'on':''}" aria-label="Toggle roomier text" data-action="toggleLarge"><span class="knob"></span></button></div><div class="setting-row"><div><strong>Compact feed</strong><p>See more prompts while scrolling.</p></div><button class="toggle ${state.compact?'on':''}" aria-label="Toggle compact feed" data-action="toggleCompact"><span class="knob"></span></button></div></section>${librarySettings()}<section class="settings-group"><h3>Optional AI ideas</h3><div class="setting-row"><div><strong>Gemini-powered ideas, only when you ask</strong><p>Fresh prompts use Gemini 3.6 Flash. Additional angles use Gemini 3.8 Flash. We send your selected filters and a small set of recent prompt texts, never your private conversations.</p></div></div><p class="ai-settings-note">Curated prompts work offline. AI actions require an internet connection and a configured server API key. AI remains unavailable in adults-only mode.</p><div class="setting-row"><div><strong>Delete AI-generated ideas</strong><p>Erase AI prompts stored on this device. This does not affect the curated library.</p></div><button class="secondary" data-action="clearGenerated">Delete</button></div></section><section class="settings-group"><h3>18+ content</h3><div class="setting-row"><div><strong>Separate adults-only mode</strong><p>Adult discussions never appear in everyday browsing. Enter deliberately when you want them.</p></div><button class="toggle ${state.adult?'on':''}" aria-label="Toggle adult content" data-action="${state.adult?'leaveAdult':'enterAdult'}"><span class="knob"></span></button></div><p class="tiny-note">18+ content remains separate. Adult access requires additional age assurance before public launch.</p></section><section class="settings-group"><h3>Privacy and your data</h3><div class="setting-row"><div><strong>Clear your viewing history</strong><p>Remove the record of prompts you've opened.</p></div><button class="secondary" data-action="clearHistory">Clear</button></div><div class="setting-row"><div><strong>Reset saved prompts</strong><p>Remove all prompts from your saved collection.</p></div><button class="secondary" data-action="clearSaved">Reset</button></div><div class="setting-row"><div><strong>Restore hidden prompts</strong><p>Bring back prompts you've chosen to hide.</p></div><button class="secondary" data-action="clearHidden">Restore</button></div></section><div class="alert-strip">${icon('shield')} Your favourites, generated ideas and viewing history stay in this browser. Say More does not record your conversations.</div>`}
 function render(){

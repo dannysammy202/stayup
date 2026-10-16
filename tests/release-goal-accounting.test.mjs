@@ -14,7 +14,7 @@ test('successive publications update the physical release goal before catalogue 
   cpSync('content/reviews',join(root,'content/reviews'),{recursive:true});
   const manifestPath=join(root,'public/library-data/manifest.json');
   const before=JSON.parse(readFileSync(manifestPath));
-  const slot=before.combinations.find(c=>c.eligible&&c.target-c.published>=2);
+  const slot=before.combinations.find(c=>c.eligible&&c.published<49);
   const texts=[
    'A conversation between a lighthouse keeper and a costume designer reveals unexpected ways of noticing details. What might they discuss?',
    'Which inscription would you place inside a time capsule intended for the next people to live on your street?'
@@ -26,6 +26,8 @@ test('successive publications update the physical release goal before catalogue 
    const after=JSON.parse(readFileSync(manifestPath));
    assert.equal(after.publishedCount,before.publishedCount+i+1);
    assert.equal(after.remainingToReleaseGoal,139100-after.publishedCount);
+   assert.equal(after.activePolicy.activeCount,before.activePolicy.activeCount+i+1);
+   assert.equal(after.activePolicy.remainingToTarget,before.activePolicy.remainingToTarget-i-1);
   }
  }finally{rmSync(root,{recursive:true,force:true});}
 });

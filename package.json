@@ -9,7 +9,8 @@
     "start": "node server.mjs",
     "dev": "node --watch server.mjs",
     "content:validate": "node scripts/validate-curated-library.mjs",
-    "content:publish": "node scripts/publish-content-batch.mjs"
+    "content:publish": "node scripts/publish-content-batch.mjs",
+    "content:active50": "node scripts/apply-active-quota.mjs"
   },
   "engines": {
     "node": ">=22"

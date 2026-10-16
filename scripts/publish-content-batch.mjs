@@ -10,6 +10,7 @@
 import { readFileSync, mkdirSync, writeFileSync, existsSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { validateCuratedLibrary } from './validate-curated-library.mjs';
+import { applyActiveQuota } from './apply-active-quota.mjs';
 
 const FORMAT=new Set(['Question','Hot take','Scenario','Quick choice','Story starter','Observation','Casual observation']);
 const normalize=s=>String(s).normalize('NFKC').toLowerCase().replace(/[^\p{L}\p{N}]+/gu,' ').trim();
@@ -24,7 +25,7 @@ export function prepareContentBatch(input, manifest, existing){
   fail('Input must contain an array of individually written prompts.');
  const cell=manifest.combinations.find(c=>c.topic===input.topic&&c.mood===input.mood&&c.audience===input.audience);
  if(!cell||!cell.eligible)fail('Selected combination is excluded or unknown.');
- if(input.prompts.length<1||input.prompts.length>cell.target-cell.published)
+ if(input.prompts.length<1||input.prompts.length>(manifest.activePolicy ? Math.max(0,50-cell.published) : cell.target-cell.published))
   fail('Collection must contain at least one starter and must not exceed the current combination target.');
  const existingText=new Set(existing.map(p=>normalize(p.text))),existingIds=new Set(existing.map(p=>p.id));
  const localText=new Set(),candidates=[];
@@ -86,7 +87,7 @@ export function publishContentBatch(file,root='.'){
  manifest.aiAuthoredScreenedCount+=records.length;
  manifest.publishedFiles.push(batch.filename);
  manifest.editorialStatus='in_progress';
- manifest.lastContentBatch=topic+' / '+mood+' / '+audience+': '+cell.published+' of '+cell.target;
+ manifest.lastContentBatch=topic+' / '+mood+' / '+audience+': '+Math.min(cell.published,manifest.activePolicy?.targetPerCombination||cell.target)+' active of '+(manifest.activePolicy?.targetPerCombination||cell.target);
  manifest.coverageCount=manifest.combinations.reduce((s,c)=>s+Math.min(c.published,c.target),0);
  manifest.remainingToTarget=manifest.targetCount-manifest.coverageCount;
  manifest.editorialNote=manifest.publishedCount+' built-in starters: '+manifest.humanReviewedCount+' human-reviewed, '+manifest.aiAuthoredScreenedCount+' screened pending individual editorial review. Coverage: '+manifest.coverageCount+'/'+manifest.targetCount+', '+manifest.remainingToTarget+' required slots remain; historic expansions retained.';
@@ -104,6 +105,7 @@ export function publishContentBatch(file,root='.'){
  const listing=records.map((p,i)=>'\n'+(cell.published-records.length+i+1)+'. '+p.text+'  \n   _'+p.id+' · '+p.format+' · pending editorial review_').join('');
  mkdirSync(dirname(mdPath),{recursive:true});
  writeFileSync(output,JSON.stringify(records));
+ if(manifest.activePolicy)applyActiveQuota(manifest,root);
  writeFileSync(manifestFile,JSON.stringify(manifest));
  writeFileSync(mdPath,head+'\n'+listing+'\n');
  const validated=validateCuratedLibrary(root);

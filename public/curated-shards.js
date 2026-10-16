@@ -45,6 +45,29 @@
         manifest.remainingToTarget !== manifest.targetCount - manifest.coverageCount) {
       throw new Error('Published collection index and content totals differ.');
     }
+    const activePolicy=manifest.activePolicy;
+    if(!activePolicy || activePolicy.version!==1 ||
+       activePolicy.targetPerCombination!==50 || activePolicy.targetCount!==34800 ||
+       activePolicy.eligibleCombinations!==696 || activePolicy.excludedCombinations!==102 ||
+       activePolicy.activeCount+activePolicy.archivedCount!==manifest.publishedCount ||
+       activePolicy.remainingToTarget!==activePolicy.targetCount-activePolicy.activeCount ||
+       activePolicy.activeCount!==manifest.combinations.reduce((n,c)=>n+(c.eligible?Math.min(50,c.published):0),0)) {
+      throw new Error('Invalid 50-starter active catalogue policy.');
+    }
+    const activeIds=new Set();
+    for(const c of manifest.publishedCollections){
+      if(!Array.isArray(c.activeIds)||!Array.isArray(c.activeShards)||
+         c.activeCount!==Math.min(50,c.loadedCount)||
+         c.activeIds.length!==c.activeCount||c.archivedCount!==c.loadedCount-c.activeCount||
+         c.activeShards.length<1||c.activeShards.some(path=>!c.shards.includes(path))) {
+        throw new Error('Invalid active collection membership.');
+      }
+      for(const id of c.activeIds){
+        if(!/^SM-\d{6}$/.test(id)||activeIds.has(id))throw new Error('Duplicate or invalid active ID.');
+        activeIds.add(id);
+      }
+    }
+    if(activeIds.size!==activePolicy.activeCount)throw new Error('Active catalogue count mismatch.');
     return true;
   }
   function matches(collection, selection) {
@@ -70,6 +93,13 @@
     }
     return result;
   }
+  function activePathsForSelection(manifest,selection,loadedPaths,limit=8){
+    if(!manifest || !Array.isArray(manifest.publishedCollections))return [];
+    const activeIndex={publishedCollections:manifest.publishedCollections.map(c=>({
+      ...c,shards:c.activeShards||[]
+    }))};
+    return pathsForSelection(activeIndex,selection,loadedPaths,limit);
+  }
   function pathsForIds(manifest, ids, loadedPaths, limit = 8) {
     if (!manifest || !Array.isArray(manifest.publishedFiles)) return [];
     const needs = new Set((ids || []).map(id => /^SM-(\d{6})$/.exec(id)?.[1]).filter(Boolean).map(Number));
@@ -86,5 +116,5 @@
     }
     return paths;
   }
-  root.SayMoreCuratedShards = Object.freeze({assertManifest, pathsForSelection, pathsForIds});
+  root.SayMoreCuratedShards = Object.freeze({assertManifest, pathsForSelection, activePathsForSelection, pathsForIds});
 })(typeof window !== 'undefined' ? window : globalThis);
