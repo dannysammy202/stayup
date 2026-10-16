@@ -23,7 +23,7 @@ test('16,800 cards split evenly between modes and types, without exact duplicate
  assert.equal(new Set(cards.map(c=>normalise(c.text))).size,16800);
  assert.equal(sandbox.window.SayMoreTruthOrDareSummary.total,16800);
 });
-test('100 Truths and 100 Dares in each of all 42 audience/level/mode selections',()=>{
+test('100 Truths and 100 Dares in each of all 84 audience/level/mode/medium selections',()=>{
  for(const adult of [false,true])for(const medium of ['Call','Text'])for(const audience of audiences)for(const level of levels){
   const pool=cards.filter(c=>c.adult===adult&&c.medium===medium&&c.audiences.length===1&&c.audiences[0]===audience&&c.level===level);
   assert.equal(pool.length,200,[adult,audience,level].join('/'));
