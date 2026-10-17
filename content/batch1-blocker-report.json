@@ -1,0 +1,54 @@
+{
+  "status": "blocked_not_complete",
+  "recordedAt": "2026-10-17T20:15:00Z",
+  "repository": "dannysammy202/stayup",
+  "mainInspected": "94cb1cdaa1913647d8d11791415bf89739891699",
+  "writingBranchInspected": "f8422e126092503b5604016e2e4ed94563505125",
+  "existingDraft": {
+    "total": 234,
+    "topics": {
+      "Relationships": 138,
+      "Friendships": 48,
+      "Life": 48
+    },
+    "representedCells": 54,
+    "completeCells": 0,
+    "minPerCell": 2,
+    "maxPerCell": 8,
+    "duplicateIds": 0,
+    "duplicateNormalisedTexts": 0,
+    "editorialApprovalVerified": false
+  },
+  "newRelease": {
+    "approvedRetained": 0,
+    "integrated": false,
+    "deployed": false
+  },
+  "baselineTests": {
+    "total": 50,
+    "pass": 45,
+    "fail": 5,
+    "failures": [
+      "Legacy active-catalogue assertion",
+      "Legacy incremental browsing assertion",
+      "Missing Iconsax refresh reference",
+      "Inline-script extraction includes external script closing tag",
+      "Obsolete service-worker cache-name assertion"
+    ]
+  },
+  "generation": {
+    "provider": "Gemini",
+    "model": "gemini-3.6-flash",
+    "errorStatus": 429,
+    "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+    "quotaId": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+    "quotaValue": 20,
+    "retryDelaySeconds": 13532,
+    "failedJob": "dpl_CrS2Eibo9m4AHHEVEkvuTvNuCDhq",
+    "credentialsExposed": false,
+    "rateLimitsBypassed": false,
+    "billingChanged": false,
+    "publicationDisabled": true
+  },
+  "requiredAction": "Wait for the existing provider daily quota to reset, or have the account owner increase the existing project's generation quota. The batch still requires full generation, editorial QA, integration, testing and verified release."
+}
