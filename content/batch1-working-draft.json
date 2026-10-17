@@ -2302,5 +2302,1445 @@
     "adult": false,
     "source": "editorial-original",
     "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-145",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Chill"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What's your idea of a really comfortable first conversation?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-146",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Chill"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Do you enjoy getting to know people slowly or all at once?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-147",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Chill"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What makes you feel that someone is actually listening?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-148",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Chill"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What's a thoughtful thing somebody did for you recently?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-149",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Chill"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Do you usually remember people's stories or the little details about them?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-150",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Chill"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "What do you think makes our friendship easy?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-151",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Chill"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "When was the last time someone made you feel properly appreciated?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-152",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Chill"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Which couple in your life seems happiest doing ordinary things?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-153",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Chill"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Do you find it easier to give advice or receive it?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-154",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Chill"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "What do you think people misunderstand about being single?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-155",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Chill"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What's your favourite way for us to unwind together?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-156",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Chill"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What small kindness between us do you notice most?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-157",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Chill"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Which everyday memory of us would you happily relive?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-158",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Chill"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "How would you describe our relationship on a completely ordinary Tuesday?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-159",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Chill"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What do you enjoy most about having someone to tell everything to?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-160",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Playful"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What's the worst opening line someone could use on you?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-161",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Playful"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "If dating profiles had honest warning labels, what would yours say?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-162",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Playful"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What's a hilariously specific green flag for you?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-163",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Playful"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Would you rather have a date who talks to every stranger or one who orders for both of you?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-164",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Playful"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What's a ridiculous reason you might instantly like somebody?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-165",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Playful"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Which of us would accidentally turn a first date into a job interview?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-166",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Playful"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "What's the most chaotic romantic advice you've ever heard?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-167",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Playful"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "If our friend group ran a matchmaking service, who would get fired first?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-168",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Playful"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Which movie romance would be a disaster in real life?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-169",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Playful"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "What's the funniest thing you've seen someone do to impress a crush?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-170",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Playful"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "If we were contestants on a dating show, what would our storyline be?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-171",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Playful"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What would you put on a playful warning label about dating me?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-172",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Playful"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Which of us would survive longer planning a surprise anniversary?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-173",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Playful"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "If our love story had a ridiculous title, what would it be?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-174",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Playful"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What's the most harmless thing we pretend to argue about?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-175",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Curious"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Do you think people reveal themselves more through stories or through habits?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-176",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Curious"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What makes you want to keep talking to somebody after meeting them?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-177",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Curious"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Have you ever made a surprising connection with someone very different from you?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-178",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Curious"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "How do you know when someone is comfortable being themselves around you?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-179",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Curious"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What do you think first impressions usually get wrong?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-180",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Curious"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "How has your idea of a good partner changed since we were younger?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-181",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Curious"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "What do you notice first when two people are really comfortable together?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-182",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Curious"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Do you think your closest relationships have changed your personality?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-183",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Curious"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "What's something about communication you had to learn the hard way?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-184",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Curious"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "When do you think compromise becomes too much compromise?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-185",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Curious"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What did you assume about me that turned out completely wrong?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-186",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Curious"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "When did our conversations start feeling different from everyone else's?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-187",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Curious"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What's something new you'd still like to discover about me?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-188",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Curious"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "How do you think we've changed the way each other sees the world?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-189",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Curious"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What do you think makes us work well as a team?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-190",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Deep"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What helps you feel safe enough to be honest with somebody?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-191",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Deep"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Has knowing someone ever changed your mind about a deeply held belief?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-192",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Deep"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What do you think people need most when they're going through a hard time?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-193",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Deep"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "When is it hardest for you to ask someone for support?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-194",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Deep"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What does being dependable mean to you?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-195",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Deep"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Have you ever stayed in a relationship because you feared starting over?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-196",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Deep"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "What do you think is the difference between forgiveness and rebuilding trust?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-197",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Deep"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "When have you felt that a friend truly stood up for you?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-198",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Deep"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "How do you recognise when a relationship is changing you for the better?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-199",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Deep"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "What's something you wish more people understood about loneliness?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-200",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Deep"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What's a fear you feel more comfortable sharing with me now?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-201",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Deep"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "When do you most need reassurance but struggle to ask for it?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-202",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Deep"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What have we learned about repairing things after an argument?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-203",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Deep"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What does choosing each other look like when life gets difficult?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-204",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Deep"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "How can I support you better without trying to fix everything?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-205",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What's the difference between someone being charming and someone trying too hard?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-206",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Do you think a great smile or a great sense of humour makes the stronger first impression?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-207",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What's a surprisingly attractive quality that rarely gets mentioned?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-208",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Have you ever caught yourself smiling at a message from someone you barely knew?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-209",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What's your favourite kind of playful teasing?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-210",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "What's the most obvious sign that someone in our group has a crush?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-211",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Have you ever tried to play matchmaker and made things worse?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-212",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "What's a subtle flirtation that only works when the chemistry is real?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-213",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Which fictional character could charm their way out of anything?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-214",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "What's the funniest way someone has tried to get your attention?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-215",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What do I do that still gives you butterflies?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-216",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What's a date-night look of mine you particularly love?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-217",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "When was the last time I caught you staring?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-218",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What's a romantic surprise that would actually work on you?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-219",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What moment between us felt like a scene from a film?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-220",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Bold"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Would you tell someone on a first date that you weren't feeling a connection?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-221",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Bold"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What's a relationship deal-breaker you won't negotiate?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-222",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Bold"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Do you think it's ever wise to date a close friend?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-223",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Bold"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Should couples share their phone passwords?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-224",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Bold"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What's a popular piece of dating advice you completely reject?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-225",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Bold"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Would you confront a friend who kept making excuses for a disrespectful partner?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-226",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Bold"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Is it possible to love someone and still be wrong for each other?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-227",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Bold"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "What's the most overrated sign of a healthy relationship?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-228",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Bold"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Do you think people should stay friends with their exes?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-229",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Bold"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Would you rather hear a painful truth immediately or discover it later?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-230",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Bold"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What's a difficult conversation we've been avoiding?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-231",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Bold"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What expectation should we challenge instead of accepting automatically?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-232",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Bold"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Would you tell me if you thought I was changing for the wrong reasons?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-233",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Bold"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What's one boundary we need to protect more consistently?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "b1-manual-234",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Bold"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "If we disagreed about a major life decision, how should we handle it?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
   }
 ]
