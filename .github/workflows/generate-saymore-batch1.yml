@@ -1,0 +1,26 @@
+name: Generate Say More Batch 1
+on:
+  workflow_dispatch:
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Generate all 5,400 draft questions
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node scripts/generate-batch1.mjs
+      - name: Validate complete output
+        run: node scripts/validate-batch1.cjs content/batch1-generated.json
+      - name: Save generated draft to separate branch
+        run: |
+          git config user.name "say-more-content-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/batch1-generated.json
+          git diff --cached --quiet || (git commit -m "Generate complete Batch 1 draft (editorial review pending)" && git push origin HEAD:content/batch1-writing-in-progress)
