@@ -1,0 +1,2306 @@
+[
+  {
+    "id": "batch1-relationships-chill-1",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Chill"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What's one little thing that makes you feel comfortable around someone new?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-relationships-chill-2",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Chill"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Which everyday ritual do you most enjoy sharing with your friends?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-relationships-chill-3",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Chill"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What's your favourite ordinary moment to spend together after a long day?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-relationships-playful-1",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Playful"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "If someone planned a ridiculous first date for you, what would make it worth going?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-relationships-playful-2",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Playful"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Which friend would give the worst dating advice, and why?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-relationships-playful-3",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Playful"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "If we had to invent a completely pointless couple's tradition, what would it be?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-relationships-curious-1",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Curious"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What have past friendships taught you about the kind of connection you want?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-relationships-curious-2",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Curious"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Have you ever seen two people become close in a way you didn't expect?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-relationships-curious-3",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Curious"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What's something you've discovered about how we communicate since being together?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-relationships-deep-1",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Deep"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What makes it difficult for you to trust someone at first?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-relationships-deep-2",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Deep"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Have you ever had to rethink what loyalty means in a friendship?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-relationships-deep-3",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Deep"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "When have you felt most understood by me, and what made that moment different?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-relationships-flirty-1",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What's the most charming way someone could ask for your number?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-relationships-flirty-2",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "What's your best advice for making a crush laugh without trying too hard?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-relationships-flirty-3",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What was the first thing about me that caught your attention?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-relationships-bold-1",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Bold"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What's a relationship opinion you have that most people would disagree with?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-relationships-bold-2",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Bold"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Would you tell a friend if you thought their relationship was unhealthy?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-relationships-bold-3",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Bold"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What's one thing we should be more honest with each other about?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-friendships-chill-1",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Chill"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What's the easiest way for a new person to become your friend?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-friendships-chill-2",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Chill"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "What's your favourite low-effort way to catch up with friends?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-friendships-chill-3",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Chill"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Which of your friends would you invite over for a quiet evening, and why?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-friendships-playful-1",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Playful"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "If we became friends through a ridiculous shared hobby, what would it be?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-friendships-playful-2",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Playful"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Which friend would survive longest on a reality TV show?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-friendships-playful-3",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Playful"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Which of my friends would you recruit for a harmless prank on me?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-friendships-curious-1",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Curious"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Have you ever become close to someone you initially had nothing in common with?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-friendships-curious-2",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Curious"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "What makes some friendships last even when people move far apart?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-friendships-curious-3",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Curious"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Which friendship of yours has taught you something about yourself?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-friendships-deep-1",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Deep"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What does it take for someone to earn a place in your inner circle?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-friendships-deep-2",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Deep"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Have you ever had to let a friendship change without ending it?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-friendships-deep-3",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Deep"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "How do you think our friendships outside this relationship affect us?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-friendships-flirty-1",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Have you ever had a friendship that felt like it might turn into a crush?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-friendships-flirty-2",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Who in your friend group is most likely to spot two people flirting?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-friendships-flirty-3",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "If we had met as friends first, do you think you'd have noticed I liked you?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-friendships-bold-1",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Bold"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Would you confront a new friend who crossed a boundary, or just pull away?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-friendships-bold-2",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Bold"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "What's something your friends need to hear but nobody wants to say?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-friendships-bold-3",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Bold"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "If one of my friends made you uncomfortable, how would you want us to handle it?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-life-chill-1",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Chill"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What's a normal weekday like for you when nothing special is happening?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-life-chill-2",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Chill"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "What's one ordinary thing that makes your week better?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-life-chill-3",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Chill"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What small part of our routine would you never want to lose?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-life-playful-1",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Playful"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "If you could swap lives with any fictional character for a day, who would you choose?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-life-playful-2",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Playful"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "What's the most unnecessary purchase you've ever defended passionately?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-life-playful-3",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Playful"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "If we had a completely free Saturday and no responsibilities, what chaos would we get into?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-life-curious-1",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Curious"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What's something you've changed your mind about in the past year?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-life-curious-2",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Curious"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "What's a skill you've always wondered whether you could learn?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-life-curious-3",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Curious"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What part of your life do you think has changed most since we met?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-life-deep-1",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Deep"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "When do you feel most like yourself?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-life-deep-2",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Deep"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "What's a decision that quietly changed the direction of your life?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-life-deep-3",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Deep"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What kind of life are we building together, beyond the obvious milestones?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-life-flirty-1",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What's a small detail about someone's everyday life that you find attractive?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-life-flirty-2",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Have you ever developed a crush just by watching someone do something they're good at?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-life-flirty-3",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What's an ordinary moment with me that unexpectedly feels romantic?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-life-bold-1",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Bold"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What's one thing you want to do even if nobody around you approves?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-life-bold-2",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Bold"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "If you could quit one obligation tomorrow, which would you drop?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-life-bold-3",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Bold"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What dream should we stop postponing and actually make a plan for?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "batch1-draft-relationships-chill-1",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Chill"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What kind of conversation makes you forget to check your phone?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-relationships-chill-2",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Chill"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Who showed you what a caring relationship can look like?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-relationships-chill-3",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Chill"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What little habit of mine makes you smile?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-relationships-chill-4",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Chill"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "How do you like someone to check in after a busy day?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-relationships-chill-5",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Chill"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "What's a simple date you'd enjoy even if nothing went to plan?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-relationships-playful-1",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Playful"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "If you could give dating a new set of rules, what's the first one you'd invent?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-relationships-playful-2",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Playful"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "What's the funniest excuse you've used to leave a bad date?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-relationships-playful-3",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Playful"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "If we had to compete in a couple's talent show, what would our act be?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-relationships-playful-4",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Playful"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What fictional couple would you never take relationship advice from?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-relationships-playful-5",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Playful"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "If a crush challenged you to karaoke, what would you sing?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-relationships-curious-1",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Curious"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "How do you decide when to open up to somebody?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-relationships-curious-2",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Curious"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "What has surprised you most about how your friends choose partners?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-relationships-curious-3",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Curious"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Which assumption about relationships have we proved wrong together?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-relationships-curious-4",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Curious"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Have you ever changed your mind about what makes someone attractive?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-relationships-curious-5",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Curious"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "What do you think matters more at first: chemistry or feeling understood?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-relationships-deep-1",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Deep"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What's a boundary you learned you needed through experience?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-relationships-deep-2",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Deep"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Have you ever watched someone you care about settle for less than they deserve?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-relationships-deep-3",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Deep"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What do you think we handle better now than when we first got together?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-relationships-deep-4",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Deep"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "How can someone tell you're struggling even when you say you're fine?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-relationships-deep-5",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Deep"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "What does emotional safety mean to you in practice?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-relationships-flirty-1",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What's a compliment that would make you genuinely blush?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-relationships-flirty-2",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Have you ever helped a friend figure out whether someone was flirting with them?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-relationships-flirty-3",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What kind of unexpected kiss would make your whole day?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-relationships-flirty-4",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What's the most attractive thing someone can do without realising it?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-relationships-flirty-5",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Do you believe in instant sparks, or does attraction grow on you?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-relationships-bold-1",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Bold"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What's a dating rule you think people should stop following?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-relationships-bold-2",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Bold"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Have you ever told a friend they were being unfair to their partner?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-relationships-bold-3",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Bold"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What's something you want us to try that you haven't brought up yet?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-relationships-bold-4",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Bold"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Would you walk away from a promising connection over one serious disagreement?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-relationships-bold-5",
+    "topic": "Relationships",
+    "format": "Question",
+    "moods": [
+      "Bold"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "What should people ask each other before making a big commitment?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-friendships-chill-1",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Chill"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What's the easiest way to spend an afternoon with a new friend?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-friendships-chill-2",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Chill"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Which friend always knows when you need a break?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-friendships-chill-3",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Chill"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Which of your friends feels like family to us now?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-friendships-chill-4",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Chill"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Do you prefer catching up over coffee or doing something together?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-friendships-chill-5",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Chill"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "What's a small gesture that makes you feel included?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-friendships-playful-1",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Playful"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "If your friends had to describe you using three ridiculous words, what would they choose?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-friendships-playful-2",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Playful"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Who in your group would be the worst person to trust with a surprise party?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-friendships-playful-3",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Playful"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "If we hosted a games night, which of our friends would become too competitive?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-friendships-playful-4",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Playful"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What's the most absurd inside joke you've ever shared?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-friendships-playful-5",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Playful"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "If you and a friend switched phones for an hour, what would surprise them most?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-friendships-curious-1",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Curious"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What's a friendship you didn't expect to last but did?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-friendships-curious-2",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Curious"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Why do you think some people make friends easily wherever they go?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-friendships-curious-3",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Curious"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Have you noticed how our friendships have changed since we've been together?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-friendships-curious-4",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Curious"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What's something you've learned from a friend with a very different background?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-friendships-curious-5",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Curious"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "How do you know when an acquaintance is becoming a real friend?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-friendships-deep-1",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Deep"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What makes you feel genuinely accepted in a friendship?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-friendships-deep-2",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Deep"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Have you ever felt lonely while surrounded by friends?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-friendships-deep-3",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Deep"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What kind of support do you think our closest friends need from us right now?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-friendships-deep-4",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Deep"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "How do you respond when a friendship starts feeling one-sided?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-friendships-deep-5",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Deep"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "What's a difficult truth a friend once told you that helped?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-friendships-flirty-1",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Have you ever mistaken friendliness for flirting?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-friendships-flirty-2",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Which of your friends is most likely to set two people up on a date?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-friendships-flirty-3",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Do you think our friends could tell we liked each other before we admitted it?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-friendships-flirty-4",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What's a playful way to show interest without making things awkward?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-friendships-flirty-5",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Have you ever developed a crush on someone in your wider friend group?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-friendships-bold-1",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Bold"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Would you tell a new friend if their joke crossed a line?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-friendships-bold-2",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Bold"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "What's the hardest conversation you've ever had with a close friend?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-friendships-bold-3",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Bold"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Is there a friendship boundary we should agree on as a couple?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-friendships-bold-4",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Bold"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Would you forgive a friend who shared something private about you?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-friendships-bold-5",
+    "topic": "Friendships",
+    "format": "Question",
+    "moods": [
+      "Bold"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "What's one friendship you've outgrown but struggled to admit it?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-life-chill-1",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Chill"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What's one part of your daily routine you genuinely look forward to?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-life-chill-2",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Chill"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "What do you do when you need a quiet hour to yourself?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-life-chill-3",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Chill"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What's your favourite slow morning for us to spend together?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-life-chill-4",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Chill"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Which season of the year feels most like you?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-life-chill-5",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Chill"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "What small comfort can turn a difficult day around?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-life-playful-1",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Playful"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "If you could add one completely silly holiday to the calendar, what would it celebrate?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-life-playful-2",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Playful"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "What's the most dramatic reaction you've ever had to a minor inconvenience?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-life-playful-3",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Playful"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "If we had to move into a tiny house tomorrow, what would we argue about first?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-life-playful-4",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Playful"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What harmless lie did you believe for far too long?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-life-playful-5",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Playful"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "What's the weirdest thing you've ever done out of boredom?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-life-curious-1",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Curious"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What's something ordinary that you've recently started noticing more?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-life-curious-2",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Curious"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "What have you learned about yourself from living on your own or with others?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-life-curious-3",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Curious"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What have we learned about each other's habits that surprised us?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-life-curious-4",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Curious"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "If you could spend a month learning about any subject, what would it be?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-life-curious-5",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Curious"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "What part of adulthood turned out nothing like you expected?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-life-deep-1",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Deep"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What experience made you feel that you were growing up?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-life-deep-2",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Deep"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "When have you felt proud of yourself without anyone else knowing?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-life-deep-3",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Deep"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What's a difficult season we've helped each other through?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-life-deep-4",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Deep"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What do you hope people remember about the way you lived?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-life-deep-5",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Deep"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "What would you tell your younger self about the life you're living now?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-life-flirty-1",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What's a small everyday gesture that could make a stranger catch your eye?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-life-flirty-2",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Have you ever noticed a friend looking completely different when they're confident?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-life-flirty-3",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What part of our ordinary life feels surprisingly intimate to you?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-life-flirty-4",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What's the most charming thing someone can do while cooking?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-life-flirty-5",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Have you ever felt attracted to someone's voice before meeting them?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-life-bold-1",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Bold"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "If money and expectations weren't obstacles, what would you change about your life first?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-life-bold-2",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Bold"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "What's one opportunity you regret not taking?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-life-bold-3",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Bold"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What major decision should we be brave enough to make together?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-life-bold-4",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Bold"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What's a belief you hold even though people close to you disagree?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "batch1-draft-life-bold-5",
+    "topic": "Life",
+    "format": "Question",
+    "moods": [
+      "Bold"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Would you rather start over somewhere new or reinvent your life where you are?",
+    "angles": [],
+    "adult": false,
+    "source": "editorial-original",
+    "editorialStatus": "draft"
+  }
+]
