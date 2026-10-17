@@ -436,6 +436,6 @@ document.addEventListener('click',e=>{let button=e.target.closest('[data-view],[
 document.addEventListener('input',e=>{if(e.target.id==='search'){const pos=e.target.selectionStart;state.query=e.target.value;state.feedVisible=48;render();const el=document.getElementById('search');if(el){el.focus();el.setSelectionRange(pos,pos)}}});
 document.addEventListener('keydown',e=>{if(e.key==='Escape'){if(state.focus){state.focus=null;render();requestAnimationFrame(()=>window.scrollTo(0,focusOriginScroll))}else if(state.overlay){state.overlay=null;renderOverlay()}}else if(state.focus&&(e.key==='ArrowRight'||e.key==='ArrowLeft')){e.preventDefault();move(e.key==='ArrowRight'?1:-1)}});
 render();
-void loadPublishedLibrary();
+// Legacy catalogue disabled: new authored starters only.
 if('serviceWorker' in navigator && /^https?:$/.test(location.protocol))navigator.serviceWorker.register('/sw.js').catch(()=>{});
 </script></body></html>
