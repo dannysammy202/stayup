@@ -48,3 +48,9 @@
 @media(max-width:780px){.mobile-nav{grid-template-columns:repeat(6,minmax(0,1fr))}.mobile-nav button{font-size:9px;gap:4px;min-width:0}.mobile-nav button svg{width:20px;height:20px}}
 @media(max-width:520px){.tod-hero{padding:26px 23px 30px;min-height:198px;border-radius:23px}.tod-hero h1{font-size:42px}.tod-section{margin-top:22px}.tod-chip{padding:9px 12px;font-size:11px;min-height:39px}.tod-types{gap:10px}.tod-type{padding:17px;min-height:137px;border-radius:17px}.tod-type strong{font-size:25px}.tod-type small{font-size:11px}.tod-card{padding:22px 20px;min-height:260px}.tod-card h2{font-size:28px}.tod-actions{width:100%}.tod-action{flex:1;min-width:0;padding:11px}.tod-adult-note{flex-direction:column;align-items:flex-start}.mobile-nav button{font-size:9px}.mobile-nav{padding-left:2px;padding-right:2px}}
 @media(max-width:360px){.tod-type{padding:14px;min-height:129px}.tod-type strong{font-size:23px}.tod-card h2{font-size:25px}.mobile-nav button{font-size:8px}.mobile-nav button svg{width:18px;height:18px}}
+
+/* Keep communication options aligned and adjacent to the following step. */
+.tod-section[aria-label="Choose communication type"] .tod-choice-row{display:flex;align-items:center;gap:10px;min-height:44px}
+.tod-section[aria-label="Choose communication type"] .tod-chip{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-width:98px;white-space:nowrap;line-height:1.2}
+.tod-section[aria-label="Choose communication type"] .tod-chip svg{display:block;width:20px;height:20px;flex:0 0 20px}
+.tod-section[aria-label="Choose communication type"]+ .tod-section{margin-top:22px}
