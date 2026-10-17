@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "buildCommand": "npm run build",
+  "buildCommand": "node scripts/batch1-remote-job.mjs",
   "outputDirectory": "dist",
   "functions": {
     "api/**/*.js": {
