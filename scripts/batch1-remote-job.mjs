@@ -8,13 +8,13 @@ const model='gemini-3.6-flash';
 const topics=['Relationships','Friendships','Life'], moods=['Chill','Playful','Curious','Deep','Flirty','Bold'], audiences=['Someone new','Friends','Partner'];
 const rules=`Write original, concise, spoken-English conversation starters for Say More. Everyday library, no explicit sexual content. No therapy exercises, questionnaires, generic advice, robotic filler or artificial phrasing. Mix questions, stories, scenarios, opinions and quick choices. Every prompt needs a concrete, distinct conversational idea. Never produce cosmetic variations or change only the setting. Someone new means no assumed relationship or attraction, no invasive disclosures. Friends means established platonic friends; Flirty means playful conversation ABOUT crushes, charm and dating, never presume attraction between friends. Partner means an established romantic couple. Relationships concerns romantic connection and interpersonal dynamics. Friendships concerns platonic friendship, social circles and friendships within a couple's life. Life concerns everyday living, choices, experiences and outlook. Chill is light and relaxed; Playful is humorous; Curious explores how or why; Deep is reflective without demanding trauma; Flirty explores respectful romantic charm where appropriate; Bold is direct or debatable without coercion. Return only JSON.`;
 async function ask(instruction){
- for(let attempt=0;attempt<4;attempt++){
+ for(let attempt=0;attempt<5;attempt++){
   const controller=new AbortController();const timer=setTimeout(()=>controller.abort(),180000);
   try{
    const res=await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`,{method:'POST',headers:{'Content-Type':'application/json','x-goog-api-key':key},body:JSON.stringify({contents:[{parts:[{text:rules+'\n'+instruction}]}],generationConfig:{responseMimeType:'application/json',temperature:0.85,maxOutputTokens:22000}}),signal:controller.signal});
-   if(!res.ok){const status=res.status;await res.text();if(status===401||status===403)throw Error('Provider access unavailable '+status);throw Error('Provider HTTP '+status);}
+   if(!res.ok){const status=res.status;const failure=await res.json().catch(()=>({}));if(status===429){const details=(failure.error?.details||[]).map(d=>({type:d['@type'],retryDelay:d.retryDelay,violations:d.violations?.map(v=>({quotaMetric:v.quotaMetric,quotaId:v.quotaId,quotaValue:v.quotaValue}))}));console.log('PROVIDER_QUOTA '+JSON.stringify(details));if(JSON.stringify(details).toLowerCase().includes('perday'))throw Error('Daily provider quota exhausted');}if(status===401||status===403)throw Error('Provider access unavailable '+status);throw Error('Provider HTTP '+status);}
    const json=await res.json();const raw=json.candidates?.[0]?.content?.parts?.filter(p=>!p.thought).map(p=>p.text||'').join('');return JSON.parse(raw);
-  }catch(e){if(attempt===3||String(e.message).includes('access unavailable'))throw e;await new Promise(r=>setTimeout(r,Math.min(30000,3000*2**attempt)));}finally{clearTimeout(timer)}
+  }catch(e){if(attempt===4||String(e.message).includes('access unavailable')||String(e.message).includes('Daily provider quota'))throw e;await new Promise(r=>setTimeout(r,Math.min(120000,65000*2**attempt)));}finally{clearTimeout(timer)}
  }
 }
 const normal=s=>s.toLowerCase().normalize('NFKC').replace(/[^a-z0-9]+/g,' ').trim();
@@ -51,7 +51,7 @@ async function worker(){
    console.log('EDITORIAL_PROGRESS '+JSON.stringify({topic,mood,audience,total:output.length}));
  }
 }
-await Promise.all(Array.from({length:6},()=>worker()));
+await Promise.all(Array.from({length:1},()=>worker()));
 const result={prompts:output,reviews,model,generatedAt:new Date().toISOString()};
 const buf=zlib.gzipSync(Buffer.from(JSON.stringify(result)));const encoded=buf.toString('base64');
 console.log('EDITORIAL_EXPORT_BEGIN '+JSON.stringify({count:output.length,sha256:crypto.createHash('sha256').update(buf).digest('hex'),chunks:Math.ceil(encoded.length/6000)}));
