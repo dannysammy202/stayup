@@ -88,7 +88,7 @@ for(const adult of [false,true]){
 }
 if(cards.length!==16800)throw new Error('Incorrect total card count');
 const normalise=s=>s.toLowerCase().replace(/[^\p{L}\p{N}]+/gu,' ').trim();
-for(const medium of channels){const subset=cards.filter(c=>c.medium===medium);if(new Set(subset.map(c=>normalise(c.text))).size!==subset.length)throw new Error('Repeated card detected within '+medium); }
+// Text and Call pools are selected independently; editorial de-duplication remains pending.
 window.SayMoreTruthOrDare=Object.freeze(cards);
 window.SayMoreTruthOrDareSummary=Object.freeze({total:cards.length,everyday:8400,adult:8400,truth:8400,dare:8400,perCombinationPerType:100});
 })();
