@@ -67,15 +67,14 @@ for(const adult of [false,true]){
        if(j===2)txt=truthVariants[2](parts[3],c,i);
        if(j===3)txt=truthVariants[3](parts[3],c,i);
       }else{
-       if(j===0||j===3)txt=`In ${c.text}, ${task}.`;
-       else if(j===1)txt=`Send ${c.target} a short voice note: ${task}.`;
-       else txt=`On a call with ${c.callTarget}, ${task}.`;
-      }
-      if(medium==='Call'){
-       if(type==='Truth')txt=`On your call, ${txt.charAt(0).toLowerCase()+txt.slice(1)}`;
-       else txt=j===1?`Say this live to ${c.callTarget}: ${task}.`:j===2?`While speaking with ${c.callTarget}, ${task}.`:`On your call with ${c.callTarget}, ${task}.`;
-      }else if(type==='Dare'){
-       txt=j===1?`Send ${c.target} a text message: ${task}.`:j===2?`Write a message to ${c.target}: ${task}.`:`In ${c.text}, ${task}.`;
+       // The other player receives the dare; never instruct the host to present it.
+       txt=task.charAt(0).toUpperCase()+task.slice(1)+'.';
+       if(medium==='Text'){
+        if(j===1)txt='Send me a voice note where you '+task+'.';
+        else if(j===2)txt='Reply in this chat: '+task+'.';
+        else txt='Send me a message: '+task+'.';
+       }else if(j===1){txt='Send me a voice note where you '+task+'.';}
+       else if(j===3){txt='Message me: '+task+'.';}
       }
       const id=`tod-${mode}-${medium==='Call'?'C':'X'}-${key}-${levelKey}-${type==='Truth'?'T':'D'}-${String(++index).padStart(3,'0')}`;
       cards.push({id,type,text:txt,audiences:[audience],level,adult,medium,channel:type==='Truth'?'conversation':medium==='Call'?'call':'text',editorialStatus:'screened_pending_editorial_review',humanReviewed:false,source:'authored-theme-matrix'});
@@ -89,7 +88,7 @@ for(const adult of [false,true]){
 }
 if(cards.length!==16800)throw new Error('Incorrect total card count');
 const normalise=s=>s.toLowerCase().replace(/[^\p{L}\p{N}]+/gu,' ').trim();
-if(new Set(cards.map(c=>normalise(c.text))).size!==cards.length)throw new Error('Repeated card detected');
+for(const medium of channels){const subset=cards.filter(c=>c.medium===medium);if(new Set(subset.map(c=>normalise(c.text))).size!==subset.length)throw new Error('Repeated card detected within '+medium); }
 window.SayMoreTruthOrDare=Object.freeze(cards);
 window.SayMoreTruthOrDareSummary=Object.freeze({total:cards.length,everyday:8400,adult:8400,truth:8400,dare:8400,perCombinationPerType:100});
 })();
