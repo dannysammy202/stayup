@@ -19,9 +19,11 @@ async function ask(instruction){
 }
 const normal=s=>s.toLowerCase().normalize('NFKC').replace(/[^a-z0-9]+/g,' ').trim();
 const output=[], reviews=[],used=new Set();
-for(const topic of topics){
- for(const mood of moods){
-  for(const audience of audiences){
+const cells=topics.flatMap(topic=>moods.flatMap(mood=>audiences.map(audience=>({topic,mood,audience}))));
+let nextCell=0;
+async function worker(){
+ while(nextCell<cells.length){
+  const {topic,mood,audience}=cells[nextCell++];
    let accepted=[];const previous=output.map(p=>p.text);
    for(let round=0;round<5&&accepted.length<100;round++){
     const n=100-accepted.length;
@@ -41,10 +43,15 @@ for(const topic of topics){
     }
    }
    if(accepted.length!==100)throw Error(`Incomplete cell ${topic}/${mood}/${audience}: ${accepted.length}`);
-   output.push(...accepted);console.log('EDITORIAL_PROGRESS '+JSON.stringify({topic,mood,audience,total:output.length}));
-  }
+   output.push(...accepted);
+   const evidence=reviews.filter(r=>accepted.some(p=>p.id===r.id));
+   const checkpoint=zlib.gzipSync(Buffer.from(JSON.stringify({prompts:accepted,reviews:evidence}))).toString('base64');
+   const cellKey=[topic,mood,audience].join('/');
+   for(let i=0;i<checkpoint.length;i+=6000)console.log('EDITORIAL_CELL '+JSON.stringify({cell:cellKey,index:i/6000,total:Math.ceil(checkpoint.length/6000),data:checkpoint.slice(i,i+6000)}));
+   console.log('EDITORIAL_PROGRESS '+JSON.stringify({topic,mood,audience,total:output.length}));
  }
 }
+await Promise.all(Array.from({length:6},()=>worker()));
 const result={prompts:output,reviews,model,generatedAt:new Date().toISOString()};
 const buf=zlib.gzipSync(Buffer.from(JSON.stringify(result)));const encoded=buf.toString('base64');
 console.log('EDITORIAL_EXPORT_BEGIN '+JSON.stringify({count:output.length,sha256:crypto.createHash('sha256').update(buf).digest('hex'),chunks:Math.ceil(encoded.length/6000)}));
