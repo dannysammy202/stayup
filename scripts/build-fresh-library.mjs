@@ -24,7 +24,7 @@ else{
     const t=normalise(p.text);
     if(texts.has(t))errors.push('Duplicate question: '+p.text);
     texts.add(t);
-    if(/\\b(?:placeholder|lorem ipsum|insert question|template question|question number)\\b/i.test(p.text))errors.push('Placeholder at '+index);
+    if(/\b(?:placeholder|lorem ipsum|insert question|template question|question number)\b/i.test(p.text))errors.push('Placeholder at '+index);
    }
    if(typeof p.id!=='string'||!p.id.trim()||ids.has(p.id))errors.push('Missing/duplicate ID at '+index);
    ids.add(p.id);
@@ -34,10 +34,10 @@ else{
    const key=[topic,mood,audience].join(' / ');
    if(counts.get(key)!==QUOTA)errors.push(key+' has '+(counts.get(key)||0)+' instead of '+QUOTA);
   }
-  if(errors.length)throw Error(errors.slice(0,30).join('\\n')+(errors.length>30?'\\n...and '+(errors.length-30)+' more errors':''));
+  if(errors.length)throw Error(errors.slice(0,30).join('\n')+(errors.length>30?'\n...and '+(errors.length-30)+' more errors':''));
   const result=data.map(p=>({id:p.id,topic:p.topic,format:p.format||'Question',moods:[p.mood],audiences:[p.audience],text:p.text.trim(),angles:p.angles,adult:false,source:'fresh-library',editorialStatus:'approved'}));
   fs.mkdirSync(path.dirname(output),{recursive:true});
-  fs.writeFileSync(output,'window.SayMoreFreshLibrary='+JSON.stringify(result)+';\\n');
+  fs.writeFileSync(output,'window.SayMoreFreshLibrary='+JSON.stringify(result)+';\n');
   console.log('Validated '+EXPECTED+' unique questions across '+counts.size+' combinations. Output: '+output);
  }catch(e){fail(e.message);}
 }
