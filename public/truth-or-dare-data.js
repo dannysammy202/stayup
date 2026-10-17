@@ -71,8 +71,8 @@ for(const adult of [false,true]){
        txt=task.charAt(0).toUpperCase()+task.slice(1)+'.';
        if(medium==='Text'){
         if(j===1)txt='Send me a voice note where you '+task+'.';
-        else if(j===2)txt='Reply in this chat: '+task+'.';
-        else txt='Send me a message: '+task+'.';
+        else if(j===2)txt='In a chat message, '+task+'.';
+        else txt=task.charAt(0).toUpperCase()+task.slice(1)+'.';
        }else if(j===1){txt='Send me a voice note where you '+task+'.';}
        else if(j===3){txt='Message me: '+task+'.';}
       }
