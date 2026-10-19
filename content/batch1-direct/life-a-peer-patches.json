@@ -1,0 +1,467 @@
+[
+  {
+    "id": "b1-la-0035",
+    "text": "What's your favourite use for a little leftover rice?",
+    "reason": "Meal-preference premise repeats 0005 and other easy-meal entries."
+  },
+  {
+    "id": "b1-la-0060",
+    "text": "What do you like about using a paper diary, if you've tried one?",
+    "reason": "Long-lasting purchase repeats 0017."
+  },
+  {
+    "id": "b1-la-0077",
+    "text": "Do you prefer opening the windows first or putting the kettle on when you get home?",
+    "reason": "Tiny treat after tiring day repeats 0053."
+  },
+  {
+    "id": "b1-la-0084",
+    "text": "Would you enjoy an early visit to a garden centre before it gets busy?",
+    "reason": "Free-time outing premise repeats 0050 and 0079."
+  },
+  {
+    "id": "b1-la-0095",
+    "text": "Do you listen to the radio while getting things done at home?",
+    "reason": "Spare time after plans closely repeats 0084."
+  },
+  {
+    "id": "b1-la-0128",
+    "text": "What's the easiest station or bus stop for us to meet at?",
+    "reason": "Travel improvement repeats 0094."
+  },
+  {
+    "id": "b1-la-0133",
+    "text": "What's your favourite way to use bread that's a day old?",
+    "reason": "Leftover strategy repeats 0114."
+  },
+  {
+    "id": "b1-la-0137",
+    "text": "What does your home feel like after you've changed the bedsheets?",
+    "reason": "Household comfort purchase overlaps generic comfort prompts."
+  },
+  {
+    "id": "b1-la-0140",
+    "text": "Have you found a good place nearby for replacing watch batteries?",
+    "reason": "Small repair repeats 0105 and 0191."
+  },
+  {
+    "id": "b1-la-0142",
+    "text": "Would you enjoy joining me for a quiet pottery-painting session?",
+    "reason": "Unplanned lazy day repeats 0123 and 0138."
+  },
+  {
+    "id": "b1-la-0155",
+    "text": "What do you like to have playing while you make lunch?",
+    "reason": "Generic dull afternoon fix repeats 0079 and 0084."
+  },
+  {
+    "id": "b1-la-0164",
+    "text": "Which fruit is especially good where you buy it?",
+    "reason": "Treat after dragged-out week repeats 0053 and 0077."
+  },
+  {
+    "id": "b1-la-0171",
+    "text": "Would you rather serve visitors from one large dish or plate everything first?",
+    "reason": "Making hosting easier repeats 0199."
+  },
+  {
+    "id": "b1-la-0172",
+    "text": "Which caf\u00e9 near us lets you sit comfortably without ordering a full meal?",
+    "reason": "Quieter familiar hangout repeats 0120."
+  },
+  {
+    "id": "b1-la-0177",
+    "text": "Would a matinee screening suit your schedule better than an evening film?",
+    "reason": "Quiet outing for tiring week repeats broad low-energy plans."
+  },
+  {
+    "id": "b1-la-0189",
+    "text": "Do you have a favourite day for a trip to the barber or hairdresser?",
+    "reason": "Protected unscheduled time repeats 0034."
+  },
+  {
+    "id": "b1-la-0195",
+    "text": "Which public garden has the most comfortable benches near you?",
+    "reason": "Place escaping hurry repeats 0006 and 0025."
+  },
+  {
+    "id": "b1-la-0198",
+    "text": "Shall we try buying vegetables from the street market next time?",
+    "reason": "Generic outing invitation repeats multiple friend plans."
+  },
+  {
+    "id": "b1-la-0205",
+    "text": "Would you like a cool cloth or a warm shower first after a dusty journey?",
+    "reason": "Care after long day overlaps Relationships care prompts."
+  },
+  {
+    "id": "b1-la-0207",
+    "text": "Would dimmer lights or a brighter reading lamp suit tonight better?",
+    "reason": "Restful evening repeats 0202,0245,0272."
+  },
+  {
+    "id": "b1-la-0211",
+    "text": "Would you enjoy making a small batch of jam together when fruit is cheap?",
+    "reason": "Shared breakfast overlaps Relationships Sunday breakfast."
+  },
+  {
+    "id": "b1-la-0214",
+    "text": "Should we put a small bowl by the door for our loose change?",
+    "reason": "Generic shared routine overlaps Relationships routines."
+  },
+  {
+    "id": "b1-la-0216",
+    "text": "Do you prefer taking your shoes off immediately or settling your bags first?",
+    "reason": "Home greeting duplicates Relationships021? and own welcome prompts."
+  },
+  {
+    "id": "b1-la-0218",
+    "text": "Would you like company while you repot those plants?",
+    "reason": "Task nicer with partner repeats Relationships chores."
+  },
+  {
+    "id": "b1-la-0219",
+    "text": "Which part of a hotel breakfast do you head for first?",
+    "reason": "Slow first holiday hour overlaps Relationships holiday arrival."
+  },
+  {
+    "id": "b1-la-0224",
+    "text": "Would you enjoy a late opening at a museum on a weekday?",
+    "reason": "Generic together before busy week repeats 0231 and 0289."
+  },
+  {
+    "id": "b1-la-0227",
+    "text": "Should we bring neck pillows for the overnight journey?",
+    "reason": "Comfortable trip repeats 0030 and 0271."
+  },
+  {
+    "id": "b1-la-0232",
+    "text": "What soup would you choose for a cold evening at home?",
+    "reason": "Fallback meal closely repeats Relationships0202."
+  },
+  {
+    "id": "b1-la-0237",
+    "text": "Would you enjoy browsing a free photography exhibition with me?",
+    "reason": "Low-budget comfort date lacks new premise among outing prompts."
+  },
+  {
+    "id": "b1-la-0238",
+    "text": "Which cupboard would become easier to use if we added one shelf?",
+    "reason": "Practical care repeats Relationships0290 and 0249."
+  },
+  {
+    "id": "b1-la-0240",
+    "text": "Would you enjoy shelling peas together while we chat?",
+    "reason": "Enjoy slowly overlaps several rest and slow-down prompts."
+  },
+  {
+    "id": "b1-la-0245",
+    "text": "How do you feel about a crossword and a pot of tea tonight?",
+    "reason": "Low-energy company repeated 0207,0266,0272."
+  },
+  {
+    "id": "b1-la-0247",
+    "text": "Would you enjoy making our own salad dressing for the week?",
+    "reason": "Simple shared meal repeats 0203 and 0232."
+  },
+  {
+    "id": "b1-la-0249",
+    "text": "Shall we try sketching the view with whatever pens we have?",
+    "reason": "Generic unhurried activity repeats 0280 and 0297."
+  },
+  {
+    "id": "b1-la-0255",
+    "text": "Which bakery should we try for a single slice of cake this weekend?",
+    "reason": "End-of-week treat repeats 0164 and Relationships0299."
+  },
+  {
+    "id": "b1-la-0260",
+    "text": "Would you enjoy sorting our loose photos into envelopes one evening?",
+    "reason": "Quiet closeness repeats 0208 and generic companionship prompts."
+  },
+  {
+    "id": "b1-la-0261",
+    "text": "Would you show me how you choose fresh tomatoes at the market?",
+    "reason": "Showing personal routine repeats Relationships0230."
+  },
+  {
+    "id": "b1-la-0265",
+    "text": "Would you come with me to get a new key cut and stop for juice afterwards?",
+    "reason": "Errand as date repeats 0101 and Relationships0080."
+  },
+  {
+    "id": "b1-la-0266",
+    "text": "Would lying outside on a blanket suit you better than sitting indoors today?",
+    "reason": "Low-energy comfortable afternoon repeats 0245."
+  },
+  {
+    "id": "b1-la-0269",
+    "text": "What's a small local shop you passed today that you'd like us to try?",
+    "reason": "Daily updates overlaps Relationships0269."
+  },
+  {
+    "id": "b1-la-0272",
+    "text": "Would you enjoy colouring a page while I read beside you?",
+    "reason": "No-preparation evening repeats 0207 and 0245."
+  },
+  {
+    "id": "b1-la-0276",
+    "text": "Should we bring a little card game for the waiting room?",
+    "reason": "Waiting together repeats 0187 and Relationships0247."
+  },
+  {
+    "id": "b1-la-0280",
+    "text": "Do you find watering plants a pleasant way to finish the afternoon?",
+    "reason": "Generic quiet refreshing activity repeats 0249."
+  },
+  {
+    "id": "b1-la-0285",
+    "text": "Would you prefer a short visit before lunch or a longer one after?",
+    "reason": "Visit less hurried overlaps several pacing prompts."
+  },
+  {
+    "id": "b1-la-0289",
+    "text": "Should we make tomorrow's lunch tonight so the morning feels easier?",
+    "reason": "Gentle busy-week start repeats 0224 and 0253."
+  },
+  {
+    "id": "b1-la-0290",
+    "text": "Which kind of reusable shopping bag do you find easiest to carry?",
+    "reason": "Accidental shared traditions overlaps Relationships0862."
+  },
+  {
+    "id": "b1-la-0293",
+    "text": "Would a flask of cold water improve our next outing?",
+    "reason": "Generic small travel comfort repeats 0271."
+  },
+  {
+    "id": "b1-la-0296",
+    "text": "Shall we open the curtains and rearrange the chairs for the afternoon?",
+    "reason": "Dull day nicer repeats 0155 and 0164."
+  },
+  {
+    "id": "b1-la-0297",
+    "text": "Would you enjoy doing a simple jigsaw without looking at the box picture?",
+    "reason": "Activity for mental break repeats 0280 and 0249."
+  },
+  {
+    "id": "b1-la-0298",
+    "text": "What would you put in wraps for us to take to the waterfront?",
+    "reason": "Meal with view repeats 0206 and 0063."
+  },
+  {
+    "id": "b1-la-0299",
+    "text": "Which pair of comfortable shoes should I bring for tomorrow's outing?",
+    "reason": "Repeat pleasing activity repeats 0135."
+  },
+  {
+    "id": "b1-la-0313",
+    "text": "You're allowed to replace every doorbell on your street with one sound. Which sound?",
+    "reason": "Tiny achievement trophy repeats 0302 and later awards."
+  },
+  {
+    "id": "b1-la-0337",
+    "text": "What would you do if your shopping trolley insisted on choosing the route?",
+    "reason": "Minor talent exaggerated repeats 0307."
+  },
+  {
+    "id": "b1-la-0400",
+    "text": "Your grocery receipt prints a prediction about your evening. What does it predict?",
+    "reason": "Task applause repeats 0302 and 0313."
+  },
+  {
+    "id": "b1-la-0428",
+    "text": "Which of us would mistake a decorative towel for something fancy to wear?",
+    "reason": "Hotel breakfast competitive premise overlaps Relationships0552."
+  },
+  {
+    "id": "b1-la-0434",
+    "text": "What's the least helpful sentence to find translated in a travel phrasebook?",
+    "reason": "Unused packed item repeats travel essentials joke."
+  },
+  {
+    "id": "b1-la-0459",
+    "text": "We buy identical suitcases. What absurd mark would stop us mixing them up?",
+    "reason": "Dressing up ordinary errand repeats 0536."
+  },
+  {
+    "id": "b1-la-0477",
+    "text": "Our microwave now accepts requests only in rhyme. Who eats first?",
+    "reason": "Selling useless talent repeats 0307 and 0337."
+  },
+  {
+    "id": "b1-la-0500",
+    "text": "We accidentally buy enough balloons for a parade. Where do they all go?",
+    "reason": "Unnecessary effort award repeats many award scenarios."
+  },
+  {
+    "id": "b1-la-0509",
+    "text": "We find a bag of googly eyes. Which household object gets the first pair?",
+    "reason": "Task victory dance repeats 0302 and Relationships0600."
+  },
+  {
+    "id": "b1-la-0533",
+    "text": "What completely wrong thing would I say while pretending to be a tour guide?",
+    "reason": "Funny suitcase essentials repeats 0434."
+  },
+  {
+    "id": "b1-la-0545",
+    "text": "Which of us would spend ten minutes trying to find the start of a roll of tape?",
+    "reason": "Funny minor achievement repeats 0313 and 0509."
+  },
+  {
+    "id": "b1-la-0589",
+    "text": "If our yawns activated nearby appliances, which one would cause the most trouble?",
+    "reason": "Nonsensical request for a number between nonnumeric objects reads awkwardly."
+  },
+  {
+    "id": "b1-la-0592",
+    "text": "We must hide a tiny rubber duck in a room for the other to find. Where would you put it?",
+    "reason": "Commemorative ordinary achievement repeats trophy/award prompts."
+  },
+  {
+    "id": "b1-la-0643",
+    "text": "Which traditional building material would you like to see someone work with?",
+    "reason": "Generic unfamiliar activity instruction repeats many learning prompts."
+  },
+  {
+    "id": "b1-la-0677",
+    "text": "Have you ever seen how a restaurant prepares before customers arrive?",
+    "reason": "Behind-scenes understanding repeats 0618 and 0698."
+  },
+  {
+    "id": "b1-la-0681",
+    "text": "Would you rather watch glass blowing or see a book being bound, and why?",
+    "reason": "Generic process observation repeats 0612."
+  },
+  {
+    "id": "b1-la-0718",
+    "text": "Have you tried growing herbs from supermarket cuttings? What happened?",
+    "reason": "Small routine experiment repeats 0027 and 0633."
+  },
+  {
+    "id": "b1-la-0735",
+    "text": "Which repair would you ask a bicycle mechanic to demonstrate first?",
+    "reason": "Generic shared skill learning repeats 0825 and 0900."
+  },
+  {
+    "id": "b1-la-0743",
+    "text": "How do you decide which errands need cash before leaving home?",
+    "reason": "Generic day planning repeats 0662."
+  },
+  {
+    "id": "b1-la-0750",
+    "text": "Which sign in our area have you always wondered about?",
+    "reason": "Different shared memory detail repeats 0710."
+  },
+  {
+    "id": "b1-la-0765",
+    "text": "What old-fashioned kitchen tool have you seen someone use expertly?",
+    "reason": "Older-person practical learning repeats 0640."
+  },
+  {
+    "id": "b1-la-0779",
+    "text": "How do you judge whether a flat will stay cool during hot months?",
+    "reason": "Pre-home choice knowledge overlaps 0716 and 0838."
+  },
+  {
+    "id": "b1-la-0785",
+    "text": "Where along your route do you stop receiving a reliable phone signal?",
+    "reason": "Following routine insight duplicates 0801 and Relationships0844."
+  },
+  {
+    "id": "b1-la-0795",
+    "text": "Which building near you has changed use since you've known it?",
+    "reason": "Local overlooked detail repeats 0706."
+  },
+  {
+    "id": "b1-la-0799",
+    "text": "What do you think makes a public sign easy to follow?",
+    "reason": "Question about ordinary week too abstract and interview-like."
+  },
+  {
+    "id": "b1-la-0813",
+    "text": "Have you ever recognised a location in a film from somewhere we visited?",
+    "reason": "Different outing memory repeats 0710."
+  },
+  {
+    "id": "b1-la-0819",
+    "text": "What helps you decide whether to book the first or last train of the day?",
+    "reason": "Holiday pace discovery repeats 0763."
+  },
+  {
+    "id": "b1-la-0822",
+    "text": "How would you work out where residents shop in an unfamiliar town?",
+    "reason": "Month elsewhere preparation repeats 0775."
+  },
+  {
+    "id": "b1-la-0827",
+    "text": "What would you want me to notice when we visit the place you first worked?",
+    "reason": "Seeing rarely seen life repeats 0801 and 0851."
+  },
+  {
+    "id": "b1-la-0829",
+    "text": "How do you tell whether a room needs more light or different furniture?",
+    "reason": "Change scene or activity repeats 0746."
+  },
+  {
+    "id": "b1-la-0843",
+    "text": "How did you choose the last pair of everyday shoes you bought?",
+    "reason": "Small practical choice reason repeats 0803."
+  },
+  {
+    "id": "b1-la-0844",
+    "text": "What do people misunderstand about the busiest hour of your working day?",
+    "reason": "Unseen week overlaps 0801 and 0894."
+  },
+  {
+    "id": "b1-la-0847",
+    "text": "What's the oldest date you've found written inside a book you own?",
+    "reason": "Possession story repeats 0627 and 0731."
+  },
+  {
+    "id": "b1-la-0851",
+    "text": "Which local trade would you enjoy trying for a supervised afternoon?",
+    "reason": "Experience ordinary life repeats 0801 and 0827."
+  },
+  {
+    "id": "b1-la-0860",
+    "text": "What tells you whether a hotel room is likely to be quiet at night?",
+    "reason": "Checking new place repeats 0716 and 0838."
+  },
+  {
+    "id": "b1-la-0867",
+    "text": "Which family recipe changes slightly depending on who makes it?",
+    "reason": "Habit backstory repeats 0764 and 0808."
+  },
+  {
+    "id": "b1-la-0880",
+    "text": "How do you decide whether a day trip needs travel insurance?",
+    "reason": "Time choice repeats 0809."
+  },
+  {
+    "id": "b1-la-0888",
+    "text": "Which transport connection would matter most if you moved further from work?",
+    "reason": "Before move research repeats 0716 and 0779."
+  },
+  {
+    "id": "b1-la-0889",
+    "text": "How do you recognise when a busy day included enough breaks?",
+    "reason": "Busy worth effort repeats 0806."
+  },
+  {
+    "id": "b1-la-0894",
+    "text": "Which appointment takes the most preparation before you even leave home?",
+    "reason": "Complex unseen day repeats 0801 and 0844."
+  },
+  {
+    "id": "b1-la-0899",
+    "text": "What difference do you notice between shopping alone and shopping with me?",
+    "reason": "Through partner eyes repeats 0801 and 0851."
+  },
+  {
+    "id": "b1-la-0900",
+    "text": "Would you enjoy learning why the moon sometimes appears during the day?",
+    "reason": "Generic shared learning repeats 0825 and 0735."
+  }
+]

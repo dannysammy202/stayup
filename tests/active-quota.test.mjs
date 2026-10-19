@@ -37,7 +37,7 @@ test('selected 50 IDs correspond to actual chronological records and preserve ar
 });
 test('everyday browsing excludes archive and demonstration content after the catalogue loads',()=>{
  const html=readFileSync('public/index.html','utf8');
- assert.match(html,/activePublishedIds\.has\(p\.id\)/);
+ assert.match(html,/batchReady&&p\.source==='batch1-editorial'/);
  assert.match(html,/CURATED_SHARDS\.activePathsForSelection/);
  assert.match(html,/manifest\.activePolicy\.activeCount/);
 });

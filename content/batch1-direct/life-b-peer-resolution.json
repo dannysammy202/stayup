@@ -1,0 +1,612 @@
+[
+  {
+    "id": "b1-lb-0115",
+    "originalText": "Who taught you a useful way to handle an uneventful life?",
+    "appliedText": "Who helped you see the value in a period when very little seemed to change?",
+    "reason": "Handle an uneventful life sounds dismissive and unnatural. Replace with supportive natural wording.",
+    "decision": "approve",
+    "textHash": "8fd2642a38f460c8df00b733a2d6ab6149d3c1ec534ebb3e871878c70c3c1d95",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0118",
+    "originalText": "When did you realise a goal no longer suited you?",
+    "appliedText": "Which part of your daily life would you find hardest to explain to someone living a century ago?",
+    "reason": "Outgrown goal repeats 0033 and0250. Replace with historical perspective on ordinary life.",
+    "decision": "approve",
+    "textHash": "6d516f3934b387d43d4aae395176c4e22b91abc843c7a9f66ba71bd7c7880737",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0132",
+    "originalText": "What part of your younger self deserves an apology from you?",
+    "appliedText": "What did adults worry about when you were young which you understand differently now?",
+    "reason": "Self-apology framing resembles a therapy exercise. Replace with natural intergenerational reflection.",
+    "decision": "approve",
+    "textHash": "b13d1129464246106fb2c934323d8d19cf99d88ad01fb0196ad0f50f990f1ac0",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0177",
+    "originalText": "Which kind of freedom matters more to you now than five years ago?",
+    "appliedText": "What have you learnt about being a guest in a place where you know nobody?",
+    "reason": "Freedom valued more with age repeats0002. Replace with unfamiliar-place hospitality reflection.",
+    "decision": "approve",
+    "textHash": "40c9aa7f3cb0d5a0c715ccf3c28b0cc9007d56e5330fa57b305e700719cf9237",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0183",
+    "originalText": "Which feeling do you mistake for a signal to change everything?",
+    "appliedText": "Have you ever wanted a completely different life and later realised you mainly needed a break?",
+    "reason": "Which feeling mistaken signal sounds like therapy questionnaire. Replace with conversational lived example.",
+    "decision": "approve",
+    "textHash": "4c9bacedbaa8410f8634f104552ef266bdb4d24bfc9e4e36106b2f9087327886",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0190",
+    "originalText": "What do you want to give yourself permission to leave average?",
+    "appliedText": "What do you understand now about people who change careers more than once?",
+    "reason": "Permission for average overlaps0219 imperfect endeavour. Replace with nonlinear work-life understanding. Author refined replacement for naturalness, clearer Bold challenge or no shared-home assumption.",
+    "decision": "approve",
+    "textHash": "ed9b3f3a5946f03b74da047353654ddb940c856a5672e3eb55f2f58ff1903d75",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0192",
+    "originalText": "Which mundane choice would your future self appreciate repeating?",
+    "appliedText": "Which decision did you make with incomplete information and still feel glad about?",
+    "reason": "Future self appreciating repeated choices overlaps0024. Replace with living with uncertainty.",
+    "decision": "approve",
+    "textHash": "8a43f32ffb4d2a08d3e0be624adb011e1fa1b37061a08d4e71f7c0d3b0fc153d",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0198",
+    "originalText": "What would enough look like if nobody compared notes?",
+    "appliedText": "What have you learnt from seeing somebody enjoy a life you wouldn't choose?",
+    "reason": "Defining enough repeats0009. Replace with respecting different lifestyles.",
+    "decision": "approve",
+    "textHash": "e60acc4549a91cf04466925340bc64f367039072e2ec0c049ad318e3f7d61d04",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0219",
+    "originalText": "What would you like to try without needing to become good at it?",
+    "appliedText": "If you spent a year learning your grandparents' everyday skills, which would change your life most?",
+    "reason": "Trying something without becoming good repeats0006. Replace with inherited practical knowledge.",
+    "decision": "approve",
+    "textHash": "9d96de1cd0a0699a410f52fc1ea3f81fedfcf2d8bc0e9f417404e0eeeb50475c",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0229",
+    "originalText": "Which ambition would you pursue even if it changed none of your status?",
+    "appliedText": "What have you learnt about feeling settled in a place you know is temporary?",
+    "reason": "Ambition without status or approval repeats0046. Replace with temporary-home belonging.",
+    "decision": "approve",
+    "textHash": "68b39ca7c695dfd105e14f831e5b9407c56dffdc9e34827a914f97671b539ef5",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0250",
+    "originalText": "How do you recognise when you have outgrown a plan?",
+    "appliedText": "When have you discovered an old decision had helped us in a way we never expected?",
+    "reason": "Outgrown plan repeats0033 and0118. Replace with delayed benefits of decisions.",
+    "decision": "approve",
+    "textHash": "4e0cdbbcd3ba7ba91618861f8aa522c62ddc15879bd32c7c008ecba52f28af52",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0267",
+    "originalText": "What do you want your days to contain even during an ambitious season?",
+    "appliedText": "What would you like us to understand about the people who keep our neighbourhood running?",
+    "reason": "Rest alongside ambition repeats0147. Replace with overlooked local contributions.",
+    "decision": "approve",
+    "textHash": "556017703363421c5e27e4707a1c39e458340a67f15f0f50638fa7c2d85f2f82",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0282",
+    "originalText": "What should we do with a good season besides prepare for the next?",
+    "appliedText": "Which everyday object would you want to keep if we had to pack our history into one box?",
+    "reason": "Enjoying good season rather than preparing replacement repeats0094. Replace with object-based shared history.",
+    "decision": "approve",
+    "textHash": "03a249803f9a79f0b7868ad19d58759f6c4936456c912fdf47d7eac4f1ee0b3c",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0286",
+    "originalText": "When do you most need permission to do something imperfectly?",
+    "appliedText": "What does a familiar meal give you when almost everything else feels unfamiliar?",
+    "reason": "Permission for imperfect work repeats0190 and0056. Replace with food as continuity.",
+    "decision": "approve",
+    "textHash": "69a0963c5a2e43b8d0e0063e19ffe6ac8921cd29d3533b2b90f77e7d4269ce07",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0297",
+    "originalText": "What makes you feel we have enough even with unfinished goals?",
+    "appliedText": "Which part of the world feels personal to you even though you've never lived there?",
+    "reason": "Enough despite goals repeats0009 and0198. Replace with attachment beyond residence.",
+    "decision": "approve",
+    "textHash": "5f5fe7b3d58d46945d34e30f2ee12a94f3a7d982d8fcdd1158952e693362d1b0",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0357",
+    "originalText": "What makes a person's excitement contagious in a good way?",
+    "appliedText": "Would joining someone on their regular library visit feel surprisingly personal to you?",
+    "reason": "Excitement as contagious charm repeats0332. Replace with invitation into reading routine.",
+    "decision": "approve",
+    "textHash": "a37f2505e4ad09cd9ac573b433d2dec1586fe222712af36a5c9bbb72dc5eba10",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0360",
+    "originalText": "What is your version of dressing up without trying too hard?",
+    "appliedText": "What would make someone lending you their reading glasses oddly charming?",
+    "reason": "Relaxed dressed-up outfit repeats0339. Replace with specific practical intimacy.",
+    "decision": "approve",
+    "textHash": "79bbfa1eb92db96603fda499939823aab9ec2cea2e17aeb21a3ddb34c38be16b",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0364",
+    "originalText": "Does a little shyness add charm to an introduction?",
+    "appliedText": "Would someone confidently admitting they don't know a popular song make you want to introduce it?",
+    "reason": "Shyness adding charm repeats0304. Replace with playful musical knowledge gap.",
+    "decision": "approve",
+    "textHash": "a59d888c3df4416f15d43a3570df83761a5d61bdf6b41a86b623b7f57bec81f7",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0387",
+    "originalText": "Would you enjoy a sunrise walk if the company seemed promising?",
+    "appliedText": "Would you enjoy sharing headphones while waiting for a late bus, or want separate soundtracks?",
+    "reason": "Promising company justifying early outing repeats0347. Replace with ordinary shared listening preference.",
+    "decision": "approve",
+    "textHash": "e4a19d1450073ef75dbbccc853b7febc44c280b590df5bab3ee8ddda4143509a",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0399",
+    "originalText": "What makes ending a good conversation feel pleasantly difficult?",
+    "appliedText": "Would exchanging notes in the margins of a recipe feel more personal than swapping a restaurant link?",
+    "reason": "Ending conversation repeats0381. Replace with specific sharing-medium preference, also avoid plant-care repetition.",
+    "decision": "approve",
+    "textHash": "8b814d8c20b43c630ea257b7554ce470f57d77ad421d17afb6f88d7483c5e664",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0478",
+    "originalText": "What would make an afternoon of errands qualify as a good date story?",
+    "appliedText": "A date has ranked every biscuit in your favourite shop before meeting you. Charming effort or far too much preparation?",
+    "reason": "Errands becoming date repeats0314 and0505. Replace with playful shopping-specific attention debate. Author refined replacement for naturalness, clearer Bold challenge or no shared-home assumption.",
+    "decision": "approve",
+    "textHash": "592b7741b724da9f4458e36cbf3bc0dafdf119eafe3446f0e79f982b8f862d95",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0485",
+    "originalText": "Which everyday skill would you happily learn from a patient crush?",
+    "appliedText": "Would you find it charming if a crush labelled their homegrown herbs badly but offered you some proudly?",
+    "reason": "Learning skill from crush repeats0327. Replace with imperfect hobby sharing.",
+    "decision": "approve",
+    "textHash": "8fed3c69f429ea0469ff1d2a1ab257e686187ca37e8405f58065cc8f52e07468",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0494",
+    "originalText": "Which smell has ever made you remember someone fondly?",
+    "appliedText": "Which worn-out item would you find endearing if someone kept repairing it instead of replacing it?",
+    "reason": "Scent recalling person repeats0349. Replace with attachment to a repaired possession.",
+    "decision": "approve",
+    "textHash": "ef9f1db9e5ae0a3fb18cb32621e8793845fa8e858e66e77bae9fc80bb994647a",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0512",
+    "originalText": "Which small surprise from me would improve your afternoon?",
+    "appliedText": "Which tiny detail would give away that you'd planned a supposedly accidental meeting with me?",
+    "reason": "Small surprise improving afternoon repeats0377. Replace with playful contrived encounter.",
+    "decision": "approve",
+    "textHash": "70437c7187c3027c37fbf18b7db738c9b1c84e4968884bd854db0aa17a39c4b5",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0517",
+    "originalText": "Which compliment would you whisper to me across a busy room?",
+    "appliedText": "What compliment would you mouth to me from the other side of a busy room?",
+    "reason": "Whisper across busy room physically unclear. Mouth compliment makes scene coherent.",
+    "decision": "approve",
+    "textHash": "9cff2690cca4d0325d3b79b16020e08b6218c669acbf8d9a744d9332120c7f8f",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0525",
+    "originalText": "Which ordinary place deserves a romantic memory with us?",
+    "appliedText": "What would you leave on my desk to make a dull workday feel a little flirtier?",
+    "reason": "Ordinary place needing romantic memory repeats0400. Replace with workplace surprise gesture.",
+    "decision": "approve",
+    "textHash": "e9e9e3b5bcbb8359d1cdbc9bf55743bcd9e4334376adcc1194331976f2986edd",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0528",
+    "originalText": "Which chore should we turn into a music-and-dancing event?",
+    "appliedText": "Would you rather help me choose a new pair of glasses or let me surprise you with them?",
+    "reason": "Chore with dancing repeats0506 kitchen dance. Replace with affectionate appearance choice.",
+    "decision": "approve",
+    "textHash": "1f557f9e82213984985dfe24f33d75a8182ff29f6df8c215e14367690c59c5c7",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0539",
+    "originalText": "What everyday scent makes you think of time with me?",
+    "appliedText": "Which of our usual sounds would you miss most if we stayed somewhere completely silent?",
+    "reason": "Scent with person repeats0349. Replace with sound of shared routine.",
+    "decision": "approve",
+    "textHash": "737edac7c49c7e3a9a796a455ed45c22e3c5589de795d3890154eb14dbc10c1b",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0545",
+    "originalText": "Where should we go when we want to feel dressed up and unhurried?",
+    "appliedText": "How would you make choosing paint samples together feel like a little adventure?",
+    "reason": "Dressing up without occasion repeats0530. Replace with joint home-colour decision.",
+    "decision": "approve",
+    "textHash": "e7c57674b8e848c063645a5a114a12ccf1735ee1ba8570b0e7c12742e3dfaac6",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0550",
+    "originalText": "What would you want me to pack for your ideal quiet getaway?",
+    "appliedText": "What would you write on the luggage tag for a quiet getaway meant only for us?",
+    "reason": "Packing ideal getaway overlaps0536 thoughtful date detail. Replace with playful personal label.",
+    "decision": "approve",
+    "textHash": "2258ca19e6d9038d25741053968d987aa563447865d30ec984d9468b1fded0a2",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0553",
+    "originalText": "What would you choose if our next date had to cost almost nothing?",
+    "appliedText": "If we made paper lanterns for an evening at home, what silly message would yours hide?",
+    "reason": "Low-cost date repeats0366. Replace with concrete playful making activity.",
+    "decision": "approve",
+    "textHash": "427b7f8f6ed2433fcceb0e52ce4b4597c8b6ae72db4cc43c8981091f91049e59",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0572",
+    "originalText": "Which everyday adventure suits us better than an expensive dinner?",
+    "appliedText": "Would you rather I surprised you with a tiny vegetable patch or a window full of flowers?",
+    "reason": "Everyday adventure over expensive dinner repeats0553 and0366. Replace with affectionate household growing choice.",
+    "decision": "approve",
+    "textHash": "d9add788a876d78f2203442ca16444ea9e94dfc1af678fc9221e801e47a337c2",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0578",
+    "originalText": "Which little celebration could become our private tradition?",
+    "appliedText": "What would you put in a jar of tiny invitations for evenings when we're too tired to plan?",
+    "reason": "Private celebration tradition repeats0521. Replace with prepared spontaneous invitations.",
+    "decision": "approve",
+    "textHash": "77cc8727938c2513934189332462f821e4a81ced34bbe5f09a130a127d346aee",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0586",
+    "originalText": "What would you put on a menu designed around our favourite memories?",
+    "appliedText": "If our favourite foods each needed a ridiculous romantic name, what would you call mine?",
+    "reason": "Menu from memories overlaps several nostalgic dining prompts. Replace with playful naming task.",
+    "decision": "approve",
+    "textHash": "c212067af8c6074b6b3af737ac564f1815c7a28124bd177a10e56cdcf97809a2",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0588",
+    "originalText": "Where would you take me for a surprise ten-minute escape?",
+    "appliedText": "You find two theatre seats nobody wants because the view is terrible. How would you make it fun for us?",
+    "reason": "Ten-minute escape repeats0502. Replace with imperfect shared entertainment scenario.",
+    "decision": "approve",
+    "textHash": "246691ae64bd652e6dffdf79783164c5bec2bd27f66ee563730089f79ca354c0",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0594",
+    "originalText": "Where should we go when we want no entertainment beyond each other?",
+    "appliedText": "Which childhood game would you make me play outside, even if the neighbours saw us?",
+    "reason": "No-entertainment place to talk repeats0582. Replace with playful unselfconscious outdoor game.",
+    "decision": "approve",
+    "textHash": "89f4939cd1e98f890653b8317247268ee2e0a8b37afc18def246542afde2b4fa",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0600",
+    "originalText": "Where would you like our next completely ordinary, lovely day to happen?",
+    "appliedText": "If I drew a map of our usual walk, which spot would you insist I mark with a heart?",
+    "reason": "Ordinary lovely day location repeats0525. Replace with mapping sentimental walking landmarks.",
+    "decision": "approve",
+    "textHash": "e7e03d7e14039261dcf17e335d86f1a1eb32c969a51816eeb0dac9c626f7c049",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0670",
+    "originalText": "Does confidence without competence ever have value?",
+    "appliedText": "Should someone who sounds convincing admit uncertainty before people start relying on their advice?",
+    "reason": "Abstract confidence without competence too broad. Replace with concrete accountability discussion.",
+    "decision": "approve",
+    "textHash": "29efd3f323fa299e9bf1f1dc1094291fbc5d1b070aae921f19e0faf9aea961a2",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0737",
+    "originalText": "Are you building a life you want or maintaining one people recognise?",
+    "appliedText": "Would you keep a perfectly usable device if everyone else stopped knowing how to repair it?",
+    "reason": "Desired life versus recognised life repeats0801 reputation appearance. Replace with technology dependency choice.",
+    "decision": "approve",
+    "textHash": "48b97792f3eecbedf7a243e7a948e2fad812598585099ed0ed9a35b7c8209085",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0762",
+    "originalText": "Which life upgrade created more maintenance than happiness?",
+    "appliedText": "Which subscription would you keep if you had to use it every single day?",
+    "reason": "Lifestyle upgrade maintenance overlaps0186 and0768. Replace with daily-use subscription commitment.",
+    "decision": "approve",
+    "textHash": "8a3a6201a1eb829e7b711bb07640d982ef88959eeae1b89c64b25d9182877b2e",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0768",
+    "originalText": "Which thing you envy would you dislike maintaining?",
+    "appliedText": "Which task do people pay to avoid when doing it themselves might be enjoyable?",
+    "reason": "Envy with unwanted maintenance repeats0186. Replace with outsourcing enjoyment debate.",
+    "decision": "approve",
+    "textHash": "e5cad6f3fffb340687a2274dac04d451d1fd01dfd247e59f76028a3aca7c5655",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0771",
+    "originalText": "Which of your own excuses would you reject from someone else?",
+    "appliedText": "Should somebody who always arrives early get to complain about everyone who arrives on time?",
+    "reason": "Excuses rejected from others repeats0701 and0705. Replace with punctuality expectation challenge.",
+    "decision": "approve",
+    "textHash": "c393e316d2d7a07f5db8920235a625fea9b0afb97902bfea8047030db05203fd",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0773",
+    "originalText": "Would you accept less choice in exchange for fewer decisions?",
+    "appliedText": "Should restaurants charge extra for changing a dish, or treat preferences as part of hospitality?",
+    "reason": "Fewer choices for easier decisions repeats0689. Replace with concrete everyday fairness debate.",
+    "decision": "approve",
+    "textHash": "cbcd3508a2e08df707160b040da2386241a0c42e2494cf8e668e9cbc8935e03d",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0779",
+    "originalText": "Would you sacrifice a promotion to protect an ordinary good week?",
+    "appliedText": "Would you accept a slower internet connection if it meant nobody could expect an instant reply?",
+    "reason": "Promotion sacrifice for good week repeats0609. Replace with availability-versus-convenience trade-off.",
+    "decision": "approve",
+    "textHash": "f371120d4b1e1feefad247188152247fc0b76ceaa1c445638b4ea2de0da1c348",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0784",
+    "originalText": "What would you choose if nobody ever heard the story afterwards?",
+    "appliedText": "Should knowing the birds in your neighbourhood count as useful knowledge, or is that mainly a luxury?",
+    "reason": "Choice without audience repeats0029. Replace with competing forms of local attention. Author refined replacement for naturalness, clearer Bold challenge or no shared-home assumption.",
+    "decision": "approve",
+    "textHash": "0c942c6a4298f5c04c83e87d228ebf788d979864b7c95d04e98e224c55d45991",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0809",
+    "originalText": "What are we postponing for a version of adulthood which never arrives?",
+    "appliedText": "Which bit of adult paperwork feels like a bigger milestone than it deserves?",
+    "reason": "Postponing until adulthood settles repeats0152. Replace with everyday bureaucracy and identity. Author refined replacement for naturalness, clearer Bold challenge or no shared-home assumption.",
+    "decision": "approve",
+    "textHash": "e687635b2156e09dfe9aee4da0f5e33e47c802731e02d48e3fda42a4efe1367d",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0826",
+    "originalText": "Would you accept a smaller social calendar for more personal time?",
+    "appliedText": "Would you give up having a spare bedroom if it meant living within walking distance of everything?",
+    "reason": "Smaller social calendar repeats0880. Replace with housing-use and neighbourhood trade-off.",
+    "decision": "approve",
+    "textHash": "a93e2e15981f02175c08603c787c470f2bc16703ddacdf20e5ae84d0f162f1ff",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0830",
+    "originalText": "What should I stop assuming about your energy after work?",
+    "appliedText": "Should we stop discussing work over dinner for a month, even when it dominates our days?",
+    "reason": "Assumptions about energy resembles Relationships rather than Life. Replace with concrete daily-life conversation boundary.",
+    "decision": "approve",
+    "textHash": "dfd8f42854e50988fead15ea84a223209ed53d3f4844de2e2e1bc4185a78dff9",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0835",
+    "originalText": "Are we too attached to being the reliable people in every situation?",
+    "appliedText": "Would you stop being the default driver if everyone assumed you enjoyed it?",
+    "reason": "Reliable-person role broad and near Friendship topic. Replace with concrete everyday transport expectation.",
+    "decision": "approve",
+    "textHash": "71cbc2fa1abe1687904d32e7be196a5c269e1a18370511731a28dcefeb42a003",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0836",
+    "originalText": "What would you like to stop making excuses for enjoying?",
+    "appliedText": "Should we buy art we both find strange if it keeps starting good conversations?",
+    "reason": "Stop excusing enjoyment repeats0136. Replace with shared-home aesthetic disagreement.",
+    "decision": "approve",
+    "textHash": "e7617f666192a1c3ee3e1e4696780803d4c5607e31117f5d81d57c50e3216f34",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0844",
+    "originalText": "Would you accept being less impressive if your life became more pleasant?",
+    "appliedText": "Would you rather repair an ugly but reliable appliance or replace it with something beautiful?",
+    "reason": "Less impressive pleasant life repeats0749. Replace with specific maintenance-versus-aesthetics choice.",
+    "decision": "approve",
+    "textHash": "b019420dc41189e196237928698c673f438628fcb196f8d40c300685946d35fc",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0847",
+    "originalText": "Are we keeping possessions because they help us or because replacing them worries us?",
+    "appliedText": "Would you display a visible repair proudly on a favourite chair, or always wish you'd hidden it?",
+    "reason": "Keeping possessions replacement worry repeats0173. Replace with visible-repair aesthetic disagreement. Author refined replacement for naturalness, clearer Bold challenge or no shared-home assumption.",
+    "decision": "approve",
+    "textHash": "b74367ddaa0aad0c68b17a29ecb61a3bd3c0b4e1d059c10abaf65bf56e828518",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0849",
+    "originalText": "Which goal needs action from you rather than more discussion from us?",
+    "appliedText": "What would you refuse to put on a public wish list even if everyone wanted to buy us gifts?",
+    "reason": "Action rather than discussion repeats0722 and0751. Replace with gift-request privacy.",
+    "decision": "approve",
+    "textHash": "19a27f3f97608bdff20cb05b327c7b85517ea5ea6aea6c192714a66ce0f49cad",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0854",
+    "originalText": "What could we live without for a month to test an assumption?",
+    "appliedText": "Would you want us to learn where our rubbish ends up, even if it changed what we buy?",
+    "reason": "Living without for a month overlaps0886 delivery-service month. Replace with waste destination responsibility.",
+    "decision": "approve",
+    "textHash": "33010dea534a58096fdc69e5acc4d24e0bd7a736a1a837435a830e7127afefc7",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0856",
+    "originalText": "Would you risk an awkward conversation to protect a quiet weekend?",
+    "appliedText": "Would you join a local campaign you agreed with if its meetings swallowed our easiest evening?",
+    "reason": "Protect weekend via awkward conversation repeats0826 and0880. Replace with civic engagement time cost.",
+    "decision": "approve",
+    "textHash": "bf0d1174fd16b8cd832c33de68cc485ad332f8521a047af50cdb16af453b5666",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0868",
+    "originalText": "Would you accept temporary inconvenience for a less wasteful life?",
+    "appliedText": "Would you still choose a refill shop if shopping there took twice as long?",
+    "reason": "Temporary inconvenience less wasteful broad. Replace with specific sustainability choice.",
+    "decision": "approve",
+    "textHash": "a8fbf94fa2620eb9d603e06fee233cb6e19105a722656a813edf19aa2ebc7993",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0871",
+    "originalText": "Are we making memories or collecting evidence we went somewhere?",
+    "appliedText": "Should we agree on a photo-free day out, even if we visit somewhere we might never see again?",
+    "reason": "Memories versus documenting repeats0628. Add concrete rare-visit commitment rather than same general opinion.",
+    "decision": "approve",
+    "textHash": "30128d9eb60cb686a07df24259563ffa95c76fc8ccf8eade75aa61d3b3e4312d",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0882",
+    "originalText": "Which financial comfort would you exchange for more control over your hours?",
+    "appliedText": "Would you pay more for a service if its workers had predictable hours, even when ours became less convenient?",
+    "reason": "Financial comfort for hours repeats0812 and0609. Replace with labour-aware purchasing trade-off.",
+    "decision": "approve",
+    "textHash": "1c9e0c0971e4989ef2aa1903385bc0db0d90f5a021eaf1d09984e48d9ac20311",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0885",
+    "originalText": "Which of our usual spending debates hides a difference in values?",
+    "appliedText": "Would you rather own fewer things or share more things with neighbours?",
+    "reason": "Spending disputes hiding values broad and repetitive across budget prompts. Replace with ownership-versus-sharing model.",
+    "decision": "approve",
+    "textHash": "722c72b8caee30891d867cb34a47b71cc9a550bbe76bafbc442d5d6e9daf8430",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0896",
+    "originalText": "What would make you say our current routine is no longer working?",
+    "appliedText": "What would make you insist we try a car-free month, and what would make you refuse?",
+    "reason": "Routine needs change repeats0839. Replace with concrete transport lifestyle trial.",
+    "decision": "approve",
+    "textHash": "ae96450bb274a450e1fee204e69b75d902675dbcfe9daf90489b3b56a5b28ee7",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0898",
+    "originalText": "Would you protect an unremarkable happy year over a dramatic impressive one?",
+    "appliedText": "If a nearby project improved everyone's access but made our street noisier, would you support it?",
+    "reason": "Unremarkable happy versus impressive year repeats0699. Replace with community-benefit versus private-comfort choice.",
+    "decision": "approve",
+    "textHash": "d17565db06de59832700cbd34a92c9f91e797606b93db5d05c4c529cf13b794f",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  }
+]

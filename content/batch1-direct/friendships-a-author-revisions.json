@@ -1,0 +1,152 @@
+[
+  {
+    "id": "b1-fa-chill-friends-003",
+    "text": "Do you keep anything at my place so you don't have to bring it every time?",
+    "reason": "Replace snack-stock premise shared with Relationships."
+  },
+  {
+    "id": "b1-fa-chill-new-028",
+    "text": "Do you have a friend whose handwriting you recognise immediately?",
+    "reason": "Replace weather-driven socialising premise shared with Relationships."
+  },
+  {
+    "id": "b1-fa-playful-friends-010",
+    "text": "What ridiculous password should our friends have to say before entering game night?",
+    "reason": "Replace alien explanation premise shared with Relationships."
+  },
+  {
+    "id": "b1-fa-playful-new-006",
+    "text": "Which friend would accidentally book everyone into a class they thought was a caf\u00e9?",
+    "reason": "Replace accidental fame on holiday premise shared with Relationships."
+  },
+  {
+    "id": "b1-fa-playful-friends-076",
+    "text": "What completely fake local festival would our friends believe you had tickets for?",
+    "reason": "Replace cartoon sound effect premise shared with Life."
+  },
+  {
+    "id": "b1-fa-playful-friends-052",
+    "text": "Which of our friends would keep a straight face while modelling a hat made of receipts?",
+    "reason": "Replace dance named after everyday movement shared with Relationships."
+  },
+  {
+    "id": "b1-fa-playful-friends-024",
+    "text": "We have to entertain the group using a sock and a spoon. What's our opening move?",
+    "reason": "Replace loading-screen premise shared with Relationships."
+  },
+  {
+    "id": "b1-fa-playful-new-004",
+    "text": "Which friend would buy a souvenir from the airport before leaving home?",
+    "reason": "Replace comic award premise already covered elsewhere."
+  },
+  {
+    "id": "b1-fa-playful-partner-045",
+    "text": "Which friend would help us hide a hilariously bad painting before its proud artist visited?",
+    "reason": "Replace repeated dramatic entrance premise."
+  },
+  {
+    "id": "b1-fa-playful-partner-053",
+    "text": "Let's set a dinner challenge: everyone must bring the food they loved at ten. Who surprises us?",
+    "reason": "Replace themed dinner overlap with surrounding hosting scenarios."
+  },
+  {
+    "id": "b1-fa-playful-partner-063",
+    "text": "We ask our friends to explain the internet to a medieval visitor. Who makes it worse?",
+    "reason": "Replace mascot premise already used for friends."
+  },
+  {
+    "id": "b1-fa-playful-partner-018",
+    "text": "A friend claims they can identify our cooking blindfolded. What dish should test them?",
+    "reason": "Replace vague rivalry with specific sensory contest."
+  },
+  {
+    "id": "b1-fa-playful-partner-096",
+    "text": "Our friends must swap one kitchen utensil with us for a week. Who bargains hardest?",
+    "reason": "Replace souvenir tribute overlap with other commemorative prompts."
+  },
+  {
+    "id": "b1-fa-playful-friends-046",
+    "text": "Let's invent a handshake with one completely unnecessary step. What goes wrong first?",
+    "reason": "Make playful creation invitation sustain conversation."
+  },
+  {
+    "id": "b1-fa-playful-friends-058",
+    "text": "Which of our friends would try to pay for a snack using a loyalty card from the wrong country?",
+    "reason": "Replace shared business premise repeated in new audience."
+  },
+  {
+    "id": "b1-fa-playful-friends-066",
+    "text": "Which shared friend would defend eating soup from a mug in a formal debate?",
+    "reason": "Replace repeated imaginary-award premise."
+  },
+  {
+    "id": "b1-fa-playful-friends-080",
+    "text": "What would you secretly add to my suitcase to make unpacking funny but harmless?",
+    "reason": "Replace habitual action nickname similar to other entries."
+  },
+  {
+    "id": "b1-fa-playful-new-059",
+    "text": "Your friends must move a sofa without saying left or right. Who invents the worst directions?",
+    "reason": "Replace mascot repetition."
+  },
+  {
+    "id": "b1-fa-chill-friends-096",
+    "text": "Should we keep each other company on a call while sorting our own cupboards?",
+    "reason": "Replace abstract video-call vibe with shared parallel chore."
+  },
+  {
+    "id": "b1-fa-chill-new-094",
+    "text": "Which friend makes a long queue feel shorter?",
+    "reason": "Replace parcel errand near repeated practical company questions."
+  },
+  {
+    "id": "b1-fa-chill-friends-099",
+    "text": "Have we ever gone somewhere simply because we liked its name?",
+    "reason": "Replace cleaning companionship repeated elsewhere in same cell."
+  },
+  {
+    "id": "b1-fa-chill-partner-028",
+    "text": "Would your friends enjoy handwritten place cards, or laugh at how formal we were being?",
+    "reason": "Replace visit-with-gift repeated premise with hospitality preference."
+  },
+  {
+    "id": "b1-fa-chill-partner-078",
+    "text": "Which friend would enjoy seeing the neighbourhood where we first lived?",
+    "reason": "Replace trust recommendations repeated across several cells."
+  },
+  {
+    "id": "b1-fa-chill-partner-080",
+    "text": "What do you like about bumping into friends when we're out together?",
+    "reason": "Replace scheduling priority with everyday chance encounter."
+  },
+  {
+    "id": "b1-fa-curious-new-100",
+    "text": "Why do you think some friendships stay tied to one place even when people keep in touch?",
+    "reason": "Replace broad generic reflection with location-bound friendship inquiry."
+  },
+  {
+    "id": "b1-fa-curious-friends-100",
+    "text": "Which piece of advice from our group have you tested and found completely impractical?",
+    "reason": "Replace overly broad anything-you-want-to-ask prompt."
+  },
+  {
+    "id": "b1-fa-curious-partner-085",
+    "text": "How do we decide who follows up when a shared friend invites us both separately?",
+    "reason": "Keep logistics focus distinct from broader division-of-labour relationship prompts."
+  },
+  {
+    "id": "b1-fa-curious-friends-004",
+    "text": "Which friend knows your competitive side only through playing games online?",
+    "reason": "Narrow side-of-self premise away from generic friends comparison."
+  },
+  {
+    "id": "b1-fa-curious-friends-017",
+    "text": "Do my messages sound like my speaking voice when you read them?",
+    "reason": "Replace who-knows-which-side overlap."
+  },
+  {
+    "id": "b1-fa-curious-partner-039",
+    "text": "Which friend introduced you to a celebration I hadn't heard of before?",
+    "reason": "Keep topic focused on friendship influence rather than generic couple future."
+  }
+]

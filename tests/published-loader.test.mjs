@@ -9,7 +9,7 @@ const manifest=JSON.parse(readFileSync('public/library-data/manifest.json','utf8
 function fixture(){
  const warnings=[],requests=[];
  const context=vm.createContext({publishedManifest:manifest,publishedLoading:false,PROMPTS:[],
-  TOPICS:manifest.topics,MOODS:manifest.moods,AUDIENCES:manifest.audiences,
+  TOPICS:manifest.topics,MOODS:manifest.moods,AUDIENCES:manifest.audiences,TOD_AUDIENCES:manifest.audiences,
   loadedPublishedShards:new Set(),resetFeedAfterContentUpdate(){},render(){},showToast(){},
   console:{warn(...args){warnings.push(args)}},
   async fetch(path){requests.push(path);return {ok:true,json:async()=>JSON.parse(readFileSync('public'+path,'utf8'))}}});

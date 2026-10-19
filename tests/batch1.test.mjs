@@ -1,0 +1,18 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import vm from 'node:vm';
+import {validateBatch,TOPICS,MOODS,AUDIENCES,hash} from '../scripts/batch1-release.mjs';
+const rows=JSON.parse(fs.readFileSync('content/batch1.json','utf8'));
+const html=fs.readFileSync('public/index.html','utf8');
+const source=html.slice(html.indexOf('function inPool(){'),html.indexOf('function sorted(list)'));
+const state={hidden:[],adult:false,topic:'All topics',mood:'All moods',audience:'Anyone',query:''};
+const archived={id:'old',text:'An earlier saved prompt.',adult:false,source:'saved-archive',topic:'Life',moods:['Chill'],audiences:['Friends'],editorialStatus:'approved'};
+const adult={...archived,id:'adult',adult:true,source:'editorial-original'};
+const ctx=vm.createContext({PROMPTS:[...rows,archived,adult],batchReady:true,state});vm.runInContext(source,ctx);
+test('release has exactly5400 approved unique records and54 balanced cells',()=>{const result=validateBatch(rows,{approved:true});assert.equal(result.total,5400);assert.equal(Object.keys(result.cells).length,54);});
+test('all54 actual application filter combinations match100',()=>{for(const topic of TOPICS)for(const mood of MOODS)for(const audience of AUDIENCES){Object.assign(state,{topic,mood,audience});assert.equal(ctx.filtered().length,100,[topic,mood,audience].join('/'));}});
+test('All composes filters without double counting or retired content',()=>{Object.assign(state,{topic:'All topics',mood:'All moods',audience:'Anyone'});assert.equal(ctx.filtered().length,5400);for(const topic of TOPICS){state.topic=topic;assert.equal(ctx.filtered().length,1800);}state.topic='All topics';for(const audience of AUDIENCES){state.audience=audience;assert.equal(ctx.filtered().length,1800);}state.audience='Anyone';for(const mood of MOODS){state.mood=mood;assert.equal(ctx.filtered().length,900);}state.mood='All moods';});
+test('hidden preferences and adult mode stay separate',()=>{state.hidden=[rows[0].id];assert.equal(ctx.filtered().length,5399);state.hidden=[];state.adult=true;assert.deepEqual(Array.from(ctx.inPool(),p=>p.id),['adult']);state.adult=false;});
+test('missing batch fails closed instead of activating legacy rows',()=>{ctx.batchReady=false;assert.equal(ctx.inPool().length,0);ctx.batchReady=true;});
+test('every released text matches its individual and independent review',()=>{const review=JSON.parse(fs.readFileSync('content/batch1-editorial-review.json','utf8'));assert.equal(review.status,'passed');const map=new Map(review.rows.map(r=>[r.id,r]));assert.equal(map.size,5400);for(const p of rows){const r=map.get(p.id);assert.equal(r.textHash,hash(p.text));assert.equal(r.decision,'approve');assert.ok(r.authorReviewer);assert.ok(r.independentReviewer);assert.equal(r.humanReviewed,false);}});

@@ -44,7 +44,8 @@ test('app exposes incremental browsing rather than cutting off at 72 prompts',()
  assert.match(html,/loadPublishedLibrary\(\)/);
  assert.match(html,/schedulePublishedForView/);
  assert.match(html,/screened_pending_editorial_review/);
- assert.match(html,/IN REVIEW/);
+ assert.doesNotMatch(html,/IN REVIEW/);
+ assert.match(html,/batch1-editorial/);
  assert.doesNotMatch(html,/Import your 100,000|Preview unreviewed starters|window\.SayMoreLibrary|library-loader\.js/);
  const scripts=[...html.matchAll(/<script>([\s\S]*?)<\/script>/g)];
  assert.equal(scripts.length,1);

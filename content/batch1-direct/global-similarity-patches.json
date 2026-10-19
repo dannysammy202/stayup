@@ -1,0 +1,317 @@
+[
+  {
+    "id": "b1-ra-0749",
+    "topic": "Relationships",
+    "moods": [
+      "Curious"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "oldText": "What have you noticed about couples who make decisions quickly together?",
+    "text": "What have you noticed about couples who tell the same story but give each other different roles in it?",
+    "textHash": "61221075a1ecadcd82da62c00b9caf68b1be6a0b3b8774e081da217c29ef509b",
+    "reason": "Replaces a substantially repeated premise found in the whole-catalogue review.",
+    "authorReviewer": "root ChatGPT AI"
+  },
+  {
+    "id": "b1-rb-0482",
+    "topic": "Relationships",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "oldText": "What's the strongest case for dating someone outside your usual type?",
+    "text": "Your crush asks you to pick a flower without knowing their favourite. What would our group suggest?",
+    "textHash": "59e8040d0936770ab9714dc9b789ae36f7f26339d344e306022c6d3cf5e6aae0",
+    "reason": "Replaces a substantially repeated premise found in the whole-catalogue review.",
+    "authorReviewer": "root ChatGPT AI"
+  },
+  {
+    "id": "b1-rb-0626",
+    "topic": "Relationships",
+    "moods": [
+      "Bold"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "oldText": "Is refusing to date outside your usual type self-knowledge or a limitation?",
+    "text": "If former partners share a pet, should either introduce a new partner to it without checking first?",
+    "textHash": "d47224adf084b098289371a3c3ddbb09d777513b0f666c2ba503f181e1f3ab37",
+    "reason": "Replaces a substantially repeated premise found in the whole-catalogue review.",
+    "authorReviewer": "root ChatGPT AI"
+  },
+  {
+    "id": "b1-fa-chill-partner-012",
+    "topic": "Friendships",
+    "moods": [
+      "Chill"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "oldText": "Which of my friends have you enjoyed getting to know slowly?",
+    "text": "Which friend would enjoy stopping at a roadside stall with us rather than booking a restaurant?",
+    "textHash": "5b287b28878659b4cf5ef01caed07912fe0db89f96a2dfc312211ad81079641b",
+    "reason": "Replaces a substantially repeated premise found in the whole-catalogue review.",
+    "authorReviewer": "root ChatGPT AI"
+  },
+  {
+    "id": "b1-fa-curious-new-034",
+    "topic": "Friendships",
+    "moods": [
+      "Curious"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "oldText": "What makes an invitation feel easy to accept?",
+    "text": "What do people in your circle disagree about when they plan a holiday together?",
+    "textHash": "0bca82a71953df196bab34ce9a01daf047ae73ae92bb388a4d201f63c5a0241e",
+    "reason": "Replaces a substantially repeated premise found in the whole-catalogue review.",
+    "authorReviewer": "root ChatGPT AI"
+  },
+  {
+    "id": "b1-fa-curious-new-037",
+    "topic": "Friendships",
+    "moods": [
+      "Curious"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "oldText": "How do you learn someone's boundaries without making it awkward?",
+    "text": "Have you ever realised a friend's polite yes meant they hadn't understood the plan?",
+    "textHash": "dc25c17563699b5bce247b2b8c32fdcb3ca73be2eb58a53e55b7b102dbd83f45",
+    "reason": "Replaces a substantially repeated premise found in the whole-catalogue review.",
+    "authorReviewer": "root ChatGPT AI"
+  },
+  {
+    "id": "b1-fa-curious-friends-073",
+    "topic": "Friendships",
+    "moods": [
+      "Curious"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "oldText": "What do you think I notice first when you walk into a room?",
+    "text": "Which friend gives a different answer by phone than they do in the group chat?",
+    "textHash": "d947b250feb1064011faadb448128f74a5d71b543f3f49c1adaff6121460da17",
+    "reason": "Replaces a substantially repeated premise found in the whole-catalogue review.",
+    "authorReviewer": "root ChatGPT AI"
+  },
+  {
+    "id": "b1-fa-curious-friends-095",
+    "topic": "Friendships",
+    "moods": [
+      "Curious"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "oldText": "What have you learnt about a friend from hearing them speak another language?",
+    "text": "Which friend surprised you by explaining a difficult subject without using technical words?",
+    "textHash": "c94e30a6a0ee78cddf69c7e25804234662b9f5051ca213822debb21d9f905f4f",
+    "reason": "Replaces a substantially repeated premise found in the whole-catalogue review.",
+    "authorReviewer": "root ChatGPT AI"
+  },
+  {
+    "id": "b1-fb-0046",
+    "topic": "Friendships",
+    "moods": [
+      "Deep"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "oldText": "When does protecting feelings stop being kind?",
+    "text": "When a friendship ends quietly, what helps you remember it fairly?",
+    "textHash": "9def7edbc0226de0a64f42fd500daaadcc95a06e4987bdec59be38bfad838ab8",
+    "reason": "Replaces a substantially repeated premise found in the whole-catalogue review.",
+    "authorReviewer": "root ChatGPT AI"
+  },
+  {
+    "id": "b1-fb-0077",
+    "topic": "Friendships",
+    "moods": [
+      "Deep"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "oldText": "What makes friendship feel free from performance?",
+    "text": "What has a friendship taught you about receiving kindness you aren't able to repay?",
+    "textHash": "3945f6fda2ff03a9911896bfca9dabcc910fe768e656ff79b4ecc68895e0af3b",
+    "reason": "Replaces a substantially repeated premise found in the whole-catalogue review.",
+    "authorReviewer": "root ChatGPT AI"
+  },
+  {
+    "id": "b1-fb-0120",
+    "topic": "Friendships",
+    "moods": [
+      "Deep"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "oldText": "Do we notice who each other is becoming?",
+    "text": "Which change in our friendship would our oldest photograph fail to explain?",
+    "textHash": "be00541849ce1c7ed731f2d806ec4520ad0c1a51cf10f44433073fae382e6ecd",
+    "reason": "Replaces a substantially repeated premise found in the whole-catalogue review.",
+    "authorReviewer": "root ChatGPT AI"
+  },
+  {
+    "id": "b1-fb-0467",
+    "topic": "Friendships",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "oldText": "What's a compliment you've heard that made your friend light up?",
+    "text": "Which friend would be most embarrassed by a secret admirer sending flowers addressed only to their nickname?",
+    "textHash": "f529a87d561bb09274ca67f23c6f22b1cdc449906fe52e6f5823bcea97bcc390",
+    "reason": "Replaces a substantially repeated premise found in the whole-catalogue review.",
+    "authorReviewer": "root ChatGPT AI"
+  },
+  {
+    "id": "b1-fb-0513",
+    "topic": "Friendships",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "oldText": "How did your friends know our early date had gone well?",
+    "text": "If our friends held a pretend auction for planning our next date, whose bid would you accept?",
+    "textHash": "30cb6f77e76e850542796846bfd67dfd6a42c0dd35858a1cb20518cfe3e32858",
+    "reason": "Replaces a substantially repeated premise found in the whole-catalogue review.",
+    "authorReviewer": "root ChatGPT AI"
+  },
+  {
+    "id": "b1-fb-0582",
+    "topic": "Friendships",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "oldText": "What little sign tells your friends you're pleased I'm arriving?",
+    "text": "Which friend would notice first if I started wearing the scent you chose for me?",
+    "textHash": "e217fdd8ad040f1c7a46615a740f74bd7503dfd8a95ef32e8e0542ecfc8bacff",
+    "reason": "Replaces a substantially repeated premise found in the whole-catalogue review.",
+    "authorReviewer": "root ChatGPT AI"
+  },
+  {
+    "id": "b1-fb-0691",
+    "topic": "Friendships",
+    "moods": [
+      "Bold"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "oldText": "Would you keep a friendship entirely off social media?",
+    "text": "Should friends ask before using each other as references for a job?",
+    "textHash": "72184061793b5d12b2b6798a0b551f8b3ee529405b320b4885dd43f05e1ea974",
+    "reason": "Replaces a substantially repeated premise found in the whole-catalogue review.",
+    "authorReviewer": "root ChatGPT AI"
+  },
+  {
+    "id": "b1-fb-0718",
+    "topic": "Friendships",
+    "moods": [
+      "Bold"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "oldText": "What would make you leave this group chat for a week?",
+    "text": "If one of us starts selling things, should the group chat become their advertising space?",
+    "textHash": "ecdab3def0064dd2386e50cefb42fc568334abc9c59322fe6cd8e8e98817ae5e",
+    "reason": "Replaces a substantially repeated premise found in the whole-catalogue review.",
+    "authorReviewer": "root ChatGPT AI"
+  },
+  {
+    "id": "b1-la-0734",
+    "topic": "Life",
+    "moods": [
+      "Curious"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "oldText": "Which of our past plans taught you something about your preferences?",
+    "text": "How would you work out which memories in an old photo album happened on the same day?",
+    "textHash": "4f7cf1ea7b889491b7b88f47188e497486e2cba45c41dcb8135432e7bf6ef998",
+    "reason": "Replaces a substantially repeated premise found in the whole-catalogue review.",
+    "authorReviewer": "root ChatGPT AI"
+  },
+  {
+    "id": "b1-lb-0518",
+    "topic": "Life",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "oldText": "How would you invite me on a date if we met today?",
+    "text": "What small detour on your usual route would let you steal a few extra minutes with me?",
+    "textHash": "3303e715f885cb2e6ee1d6c02b3ec948c1f313a4b9976d8329c561155b4eef50",
+    "reason": "Replaces a substantially repeated premise found in the whole-catalogue review.",
+    "authorReviewer": "root ChatGPT AI"
+  },
+  {
+    "id": "b1-lb-0551",
+    "topic": "Life",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "oldText": "Which sound of mine would you recognise without seeing me?",
+    "text": "Which little luxury would you secretly pack to make a trip with me feel romantic?",
+    "textHash": "5ee9940f60808192f0a9f7e5f90d68c362f5eeba4c6ed783367eba5e701ee247",
+    "reason": "Replaces a substantially repeated premise found in the whole-catalogue review.",
+    "authorReviewer": "root ChatGPT AI"
+  },
+  {
+    "id": "b1-lb-0801",
+    "topic": "Life",
+    "moods": [
+      "Bold"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "oldText": "Which part of our lifestyle looks better than it feels?",
+    "text": "Which subscription do we defend keeping mainly because cancelling it would admit we never use it?",
+    "textHash": "23f8e6a812308d56d4b77f143e721a0c55483f4d47f9a9ab842600cac6233783",
+    "reason": "Replaces a substantially repeated premise found in the whole-catalogue review.",
+    "authorReviewer": "root ChatGPT AI"
+  },
+  {
+    "id": "b1-lb-0817",
+    "topic": "Life",
+    "moods": [
+      "Bold"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "oldText": "Are we choosing convenience too often when we could choose enjoyment?",
+    "text": "Are we letting loyalty to a shop stop us from admitting it no longer treats us well?",
+    "textHash": "78a086dde5d91bdaf3d14fbe53181282540a4badfdc130aae31edf97a36d7d0b",
+    "reason": "Replaces a substantially repeated premise found in the whole-catalogue review.",
+    "authorReviewer": "root ChatGPT AI"
+  }
+]

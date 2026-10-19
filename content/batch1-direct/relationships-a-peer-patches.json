@@ -1,0 +1,377 @@
+[
+  {
+    "id": "b1-ra-0073",
+    "text": "Would you enjoy a date where you each bring an old photo and explain the story?",
+    "reason": "Repeats early acquaintance enjoyment in 0013. New specific activity."
+  },
+  {
+    "id": "b1-ra-0077",
+    "text": "What makes an invitation feel friendly when someone is naturally reserved?",
+    "reason": "Repeats listening and attention in 0023. New reserved invitation angle."
+  },
+  {
+    "id": "b1-ra-0094",
+    "text": "At a group outing, how do you find a chance to chat with someone you'd like to know better?",
+    "reason": "Original assigns agency to the outing and sounds stiff. Keep practical premise in natural speech."
+  },
+  {
+    "id": "b1-ra-0106",
+    "text": "What affectionate habit have you noticed in an older couple you know?",
+    "reason": "Avoid assuming parents had an affectionate partnership. Preserve observational comfort."
+  },
+  {
+    "id": "b1-ra-0129",
+    "text": "What small favour would help a friend enjoy their date without needing to check their phone?",
+    "reason": "New partner inclusion substantially repeats 0107 and 0170. New practical support premise."
+  },
+  {
+    "id": "b1-ra-0152",
+    "text": "What makes celebrating a partner's birthday feel personal without spending much?",
+    "reason": "A birthday feeling cared for is awkward phrasing. Clarify natural subject."
+  },
+  {
+    "id": "b1-ra-0170",
+    "text": "Which restaurant would let a friend and their partner bring their dog along comfortably?",
+    "reason": "Third new-partner group introduction prompt. Replace with distinct practical date condition."
+  },
+  {
+    "id": "b1-ra-0201",
+    "text": "When do you find yourself reaching for my hand without thinking about it?",
+    "reason": "Generic normal-day improvement overlaps several Life Chill Partner prompts. Add clear relationship gesture."
+  },
+  {
+    "id": "b1-ra-0202",
+    "text": "What do you enjoy about knowing my usual order without having to ask?",
+    "reason": "Easy evening meal fallback duplicates Life food planning. Shift to familiarity."
+  },
+  {
+    "id": "b1-ra-0207",
+    "text": "Where do you remember first feeling comfortable being affectionate with me?",
+    "reason": "Nearby walk preference duplicates Life Chill shared walks. Use relational memory."
+  },
+  {
+    "id": "b1-ra-0218",
+    "text": "Which place would you show someone to explain an early part of our story?",
+    "reason": "Revisit list overlaps Life familiar outing list. Give relational meaning."
+  },
+  {
+    "id": "b1-ra-0230",
+    "text": "What do you like about knowing which calls I'll always pick up for you?",
+    "reason": "Routine showing duplicates multiple Life Curious Partner entries. New reliability detail."
+  },
+  {
+    "id": "b1-ra-0232",
+    "text": "What makes a quiet date feel romantic to you, even when neither of us dresses up?",
+    "reason": "Restful Saturday repeats Life relaxing day prompts. Centre romantic distinction."
+  },
+  {
+    "id": "b1-ra-0243",
+    "text": "Which nickname do you enjoy hearing from me most?",
+    "reason": "Household preference backstory overlaps Life ordinary habits. New affectionate naming preference."
+  },
+  {
+    "id": "b1-ra-0248",
+    "text": "What do you enjoy about being the person I tell a small piece of good news to first?",
+    "reason": "Workday detail curiosity overlaps Life daily update prompts. New priority in sharing."
+  },
+  {
+    "id": "b1-ra-0259",
+    "text": "What helps you feel we're on a date when the place is full of other people?",
+    "reason": "First holiday hour duplicates Life first holiday morning. New couple attention in public."
+  },
+  {
+    "id": "b1-ra-0265",
+    "text": "What little sign tells you I'm pleased we're spending time together?",
+    "reason": "Indecisive dinner repeats Life easy meal choice. New recognition of pleasure."
+  },
+  {
+    "id": "b1-ra-0272",
+    "text": "Where would you enjoy finding a note from me when you aren't expecting one?",
+    "reason": "Original assumes a shared designated household space. Allow any established relationship."
+  },
+  {
+    "id": "b1-ra-0273",
+    "text": "Would a short letter from me feel more personal than a long message on your phone?",
+    "reason": "Notes around house overlaps replacement0272 and assumes household access. New medium comparison."
+  },
+  {
+    "id": "b1-ra-0275",
+    "text": "Which small promise have we kept for each other without making a fuss?",
+    "reason": "Shared purchase gladness skews Life and overlaps practical purchase prompts. New quiet dependability."
+  },
+  {
+    "id": "b1-ra-0283",
+    "text": "Which meal from an early date would bring back the clearest memory for you?",
+    "reason": "Our kitchen assumes cohabitation and repeats cooking retry in0211. New early-date sensory memory."
+  },
+  {
+    "id": "b1-ra-0290",
+    "text": "When do you like me to suggest staying a little longer before we say goodbye?",
+    "reason": "Free hour activities duplicate Life free time. New departure preference."
+  },
+  {
+    "id": "b1-ra-0294",
+    "text": "Which affectionate goodbye of ours would you like us to make more time for?",
+    "reason": "Generic stop rushing day repeats Life slow routine. Centre existing couple goodbye."
+  },
+  {
+    "id": "b1-ra-0295",
+    "text": "What would be a nice way to remember the date we became a couple?",
+    "reason": "Ordinary outing tradition repeats Life routines. New relationship-specific anniversary."
+  },
+  {
+    "id": "b1-ra-0299",
+    "text": "What makes you feel I see your effort when your week hasn't gone to plan?",
+    "reason": "Difficult week celebration duplicates Life quiet reward. Add partner recognition."
+  },
+  {
+    "id": "b1-ra-0328",
+    "text": "A date brings a tiny bell to ring whenever conversation goes well. How long before you confiscate it?",
+    "reason": "Dating achievement trophy repeats0346 and0365. New comic prop scenario."
+  },
+  {
+    "id": "b1-ra-0346",
+    "text": "Your date accidentally gets a romantic song request announced under the wrong name. What do you do?",
+    "reason": "Achievement celebration repeats0365. New public mix-up."
+  },
+  {
+    "id": "b1-ra-0358",
+    "text": "You both turn up claiming the same café table reservation. What's the funniest way to settle it?",
+    "reason": "Wrong date greeting overlaps0334. New competing reservation scenario."
+  },
+  {
+    "id": "b1-ra-0371",
+    "text": "A romantic speech includes a word neither of you knows. Do you stop to look it up?",
+    "reason": "Background sound ruining confession repeats0453. Keep speech but change comedic mechanism."
+  },
+  {
+    "id": "b1-ra-0383",
+    "text": "Someone praises your excellent queueing technique. Does this count as flirting?",
+    "reason": "Funniest accepted compliment overlaps0319. Give concrete absurd compliment premise."
+  },
+  {
+    "id": "b1-ra-0408",
+    "text": "We must write a two-word congratulatory text after a friend's excellent date. What are the words?",
+    "reason": "Fake award repeats several trophy and achievement prompts. Different compressed congratulation game."
+  },
+  {
+    "id": "b1-ra-0419",
+    "text": "A friend asks us to select one object for their dating-profile photo. What terrible choice do we veto?",
+    "reason": "Group-authored profile repeats0303. New single photo-prop decision."
+  },
+  {
+    "id": "b1-ra-0422",
+    "text": "A couple sends a formal invitation to their first grocery shop together. How should guests respond?",
+    "reason": "Milestone certificate repeats0365 achievement badges. New everyday event invitation."
+  },
+  {
+    "id": "b1-ra-0435",
+    "text": "Who would deny having a crush while practising how to pronounce their surname?",
+    "reason": "Memorising another person's schedule introduces unwanted surveillance implications. Harmless pronunciation joke."
+  },
+  {
+    "id": "b1-ra-0451",
+    "text": "A friend wants a survey after their first date. What's the least useful question we could add?",
+    "reason": "Restaurant research already0428. New mock feedback survey."
+  },
+  {
+    "id": "b1-ra-0481",
+    "text": "Our group must answer a dating-advice letter using only weather forecasts. What advice comes out?",
+    "reason": "Advice column name repeats0413 sitcom title and0402 advice calendar. Specific language game."
+  },
+  {
+    "id": "b1-ra-0504",
+    "text": "Let's invent an overly formal title for the first time one of us borrowed the other's charger.",
+    "reason": "Ordinary achievement holiday repeats Life holiday scenario. Concrete relationship micro-event."
+  },
+  {
+    "id": "b1-ra-0513",
+    "text": "What would someone at the next table mistakenly assume about how we met?",
+    "reason": "Our neighbours assumes shared residence. Keep outsider misconception without cohabitation."
+  },
+  {
+    "id": "b1-ra-0518",
+    "text": "We must convince a stranger we're ballroom champions without dancing. Who handles the story?",
+    "reason": "Odd specific couple skill contest repeats0541 and Life skill fairs. New bluffing scenario."
+  },
+  {
+    "id": "b1-ra-0525",
+    "text": "Which household object would be the worst substitute for a bouquet on our anniversary?",
+    "reason": "Chore extreme sport repeats Life errand sport premise. New romantic prop mismatch."
+  },
+  {
+    "id": "b1-ra-0532",
+    "text": "If I announced every affectionate gesture like a weather forecast, which forecast would you dread?",
+    "reason": "Trophy for habit repeats0575 and Life joke award. New affection announcement mechanism."
+  },
+  {
+    "id": "b1-ra-0533",
+    "text": "Which of my messages would become funniest if your phone read it out in a royal voice?",
+    "reason": "Expression as sticker overlaps Life mug expression. New delivery context."
+  },
+  {
+    "id": "b1-ra-0534",
+    "text": "If the café table from our first date could speak, what would it tell on us for?",
+    "reason": "Our sofa assumes cohabitation and overlaps talking-object reviews. Tie to first-date memory."
+  },
+  {
+    "id": "b1-ra-0541",
+    "text": "We must perform a silent version of our first conversation. Which gesture gives the story away?",
+    "reason": "Talent show act repeats0518 and Life joint fair skill. New reenactment challenge."
+  },
+  {
+    "id": "b1-ra-0551",
+    "text": "A radio host needs a five-second explanation of why we're together. What ridiculous answer do we give?",
+    "reason": "Personal jingle overlaps0508 theme tune. New time-limited relationship explanation."
+  },
+  {
+    "id": "b1-ra-0554",
+    "text": "What warning would you print on a ticket to a date planned entirely by me?",
+    "reason": "Our kitchen assumes shared home and sign overlaps Life caution sign. New dating planning disclaimer."
+  },
+  {
+    "id": "b1-ra-0561",
+    "text": "If we hosted a dating programme, what harmless behaviour would make us ring the elimination bell?",
+    "reason": "Couple cooking show repeats0596 and Life programme. New joint dating judgement."
+  },
+  {
+    "id": "b1-ra-0562",
+    "text": "Which of us would mistake a free dessert for a secret proposal plan?",
+    "reason": "Competitive hotel breakfast duplicates Life friends buffet. New romantic misinterpretation."
+  },
+  {
+    "id": "b1-ra-0564",
+    "text": "How would you persuade me to swap seats if you secretly wanted the better view of me?",
+    "reason": "Last biscuit negotiation repeats0509 last cake and Life snack policy. New playful affection."
+  },
+  {
+    "id": "b1-ra-0574",
+    "text": "Which object would prove we spend plenty of time together, even without a photo of us?",
+    "reason": "Explicitly assumes living together. Make evidence about time together."
+  },
+  {
+    "id": "b1-ra-0578",
+    "text": "Which of us would take a supposedly candid couple photo and accidentally include the tripod?",
+    "reason": "Overpacking everyday outing repeats Life several prompts. New staged-photo mishap."
+  },
+  {
+    "id": "b1-ra-0580",
+    "text": "If I could communicate only by raising my eyebrows for a date, what would you understand immediately?",
+    "reason": "Cat behavioural change mostly Life and generic fantasy. New established-partner nonverbal joke."
+  },
+  {
+    "id": "b1-ra-0583",
+    "text": "Let's invent a ridiculous handshake for agreeing we've both been stubborn.",
+    "reason": "Dinner indecision naming repeats several Life indecision prompts. New repair handshake."
+  },
+  {
+    "id": "b1-ra-0595",
+    "text": "We must choose a terrible fake surname for a restaurant reservation. What makes us laugh when they call it?",
+    "reason": "Unspecified silly competition repeats other vague contests. New concrete reservation joke."
+  },
+  {
+    "id": "b1-ra-0596",
+    "text": "How would you introduce me as the surprise guest on a show about grand romantic mistakes?",
+    "reason": "Cooking host duplicates0561 and Life cooking show. New romance-specific framing."
+  },
+  {
+    "id": "b1-ra-0607",
+    "text": "When two people have different senses of humour, what helps them find something funny together?",
+    "reason": "Opposites compatibility repeats0652. Narrow to humour coordination."
+  },
+  {
+    "id": "b1-ra-0629",
+    "text": "Have you ever liked someone more after hearing how they tell a story?",
+    "reason": "Complementary communication styles feels formal and overlaps0607. Concrete storytelling attraction."
+  },
+  {
+    "id": "b1-ra-0650",
+    "text": "What difference in taste would make you curious to try a date's recommendation?",
+    "reason": "Interesting vs incompatible difference repeats0607 and0652. Specific taste curiosity."
+  },
+  {
+    "id": "b1-ra-0663",
+    "text": "Why do some people save tiny reminders of dates while others keep only photos?",
+    "reason": "Small detail remembrance repeats0031. New keepsake preference mechanism."
+  },
+  {
+    "id": "b1-ra-0683",
+    "text": "Have you ever liked someone's voice before knowing much else about them?",
+    "reason": "Revising first impression repeats0606. New sensory attraction entry."
+  },
+  {
+    "id": "b1-ra-0695",
+    "text": "Why does hearing someone speak another language sometimes change your impression of them?",
+    "reason": "Shared effort bonding overlaps0624. New multilingual impression."
+  },
+  {
+    "id": "b1-ra-0721",
+    "text": "What did you misread about a friend's early dates before they explained what was happening?",
+    "reason": "Happy relationship changing assumptions overlaps0709. New misunderstanding and correction."
+  },
+  {
+    "id": "b1-ra-0744",
+    "text": "What would you ask a friend who says their idea of a good partner has changed?",
+    "reason": "Reference for dating show is strained and unlikely for natural Curious discussion. Ground it in a real friend conversation."
+  },
+  {
+    "id": "b1-ra-0770",
+    "text": "When a partner has a demanding week, what helps a couple keep plans realistic?",
+    "reason": "Grief and lost connection move into Deep emotional support. Retain Curious practical adjustment."
+  },
+  {
+    "id": "b1-ra-0786",
+    "text": "How do couples agree on lending their possessions to each other's friends?",
+    "reason": "Hospitality versus solitude repeats0730. New lending-boundaries question."
+  },
+  {
+    "id": "b1-ra-0803",
+    "text": "Which preference of mine did you initially mistake for a firm rule?",
+    "reason": "Learning own preferences repeats Life partner0828 and relational0874. New misreading rigidity."
+  },
+  {
+    "id": "b1-ra-0817",
+    "text": "What did you expect couples to do automatically before we got together?",
+    "reason": "Brought expectation into us is awkward. Preserve premise with natural wording."
+  },
+  {
+    "id": "b1-ra-0835",
+    "text": "Which part of being my partner feels different from what your friends might expect?",
+    "reason": "Unseen daily routine repeats multiple Life prompts. Relationship-specific outsider contrast."
+  },
+  {
+    "id": "b1-ra-0853",
+    "text": "What did you learn about my sense of fairness during a small disagreement?",
+    "reason": "Unseen skill shared experience repeats Life useful skills. New relational fairness observation."
+  },
+  {
+    "id": "b1-ra-0862",
+    "text": "Which gesture of affection did we pick up from each other?",
+    "reason": "Accidental shared habit repeats Life small unplanned tradition. Narrow to learned affection."
+  },
+  {
+    "id": "b1-ra-0874",
+    "text": "Which preference did you initially keep quiet about because you wanted to impress me?",
+    "reason": "Explained preference over time overlaps0803 and Life preference backstory. New early impression management."
+  },
+  {
+    "id": "b1-ra-0880",
+    "text": "What would you like to know about the way people courted each other in my family?",
+    "reason": "Family custom explanation repeats0807 and0868. New family courtship history."
+  },
+  {
+    "id": "b1-ra-0881",
+    "text": "What do you think I notice first when you arrive to meet me?",
+    "reason": "Full ordinary routine observation duplicates Life0801 and0871. New first attention detail."
+  },
+  {
+    "id": "b1-ra-0897",
+    "text": "If we visited a place where couples show affection differently, what would you want to ask a local?",
+    "reason": "Research unfamiliar destination duplicates Life0822 and0891. Add relationship-specific culture."
+  },
+  {
+    "id": "b1-ra-0899",
+    "text": "When have we discovered we changed our minds about the same relationship expectation?",
+    "reason": "Generic changing minds broadens into Life. Specify couple expectation comparison."
+  }
+]

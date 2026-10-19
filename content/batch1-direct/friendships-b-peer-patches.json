@@ -1,0 +1,402 @@
+[
+  {
+    "id": "b1-fb-0007",
+    "text": "What makes choosing someone to hear your good news feel like an act of trust?",
+    "reason": "Deep entry originally asked only who receives news, without a reflective angle."
+  },
+  {
+    "id": "b1-fb-0018",
+    "text": "What makes you feel a friend respects the life you lead when they aren't around?",
+    "reason": "Generic thoughtful-company premise overlaps easy/peaceful companionship elsewhere."
+  },
+  {
+    "id": "b1-fb-0025",
+    "text": "How has seeing a familiar place through a friend's memories changed what it means to you?",
+    "reason": "Original place question lacked a clear reflective focus for Deep."
+  },
+  {
+    "id": "b1-fb-0041",
+    "text": "When has a friend remembering something you dismissed made you feel worth listening to?",
+    "reason": "Adds emotional significance to a plain detail-recall question."
+  },
+  {
+    "id": "b1-fb-0052",
+    "text": "How do you recognise when asking for advice is really asking someone to stay beside you?",
+    "reason": "Generic advice preference overlaps several listening/advice entries."
+  },
+  {
+    "id": "b1-fb-0063",
+    "text": "What do you learn about a friendship when both people are inconvenienced at once?",
+    "reason": "Original character question too broad and weakly anchored to friendship."
+  },
+  {
+    "id": "b1-fb-0066",
+    "text": "How do spontaneous friends and careful planners make each other feel respected?",
+    "reason": "Adds values tension to a mainly practical Chill premise."
+  },
+  {
+    "id": "b1-fb-0070",
+    "text": "Who has made an uneventful day feel important simply by spending it with you?",
+    "reason": "Original good-company wording repeats 0018 and stays at Chill level."
+  },
+  {
+    "id": "b1-fb-0072",
+    "text": "What helps a friendship survive when one person's success changes what they can afford?",
+    "reason": "Avoids overlap with 0022 on responding to success and adds a concrete distinct tension."
+  },
+  {
+    "id": "b1-fb-0074",
+    "text": "What does it mean when an old friend's silence feels different from a stranger's?",
+    "reason": "Deepens generic comfortable-silence premise."
+  },
+  {
+    "id": "b1-fb-0086",
+    "text": "What does a friendship teach you when nobody feels responsible for entertaining the other?",
+    "reason": "Peaceful/easy companionship repeats 0001."
+  },
+  {
+    "id": "b1-fb-0091",
+    "text": "How does a quiet newcomer know a group values their presence rather than merely tolerating it?",
+    "reason": "Moves from practical welcoming tips to belonging."
+  },
+  {
+    "id": "b1-fb-0099",
+    "text": "Which friendship has mattered deeply without producing any impressive stories?",
+    "reason": "Original ordinary-friendship wording felt abstract and interchangeable."
+  },
+  {
+    "id": "b1-fb-0127",
+    "text": "Which friendship habit would you hope a younger person learned by watching us?",
+    "reason": "Removes assumed parenthood."
+  },
+  {
+    "id": "b1-fb-0134",
+    "text": "Which part of your life do you hesitate to mention because you think we'd find it ordinary?",
+    "reason": "Generic check-in question repeats relationship/life requests for more questions."
+  },
+  {
+    "id": "b1-fb-0146",
+    "text": "Who here helped you stop equating being noticed with being valued?",
+    "reason": "Original quiet-confidence identification was too shallow for Deep."
+  },
+  {
+    "id": "b1-fb-0156",
+    "text": "What have you stopped needing our friendship to prove about your life?",
+    "reason": "Original adventure-versus-routine preference suited Chill rather than Deep."
+  },
+  {
+    "id": "b1-fb-0164",
+    "text": "When did we recognise how much a plan mattered to someone before they said so?",
+    "reason": "Adds relational significance to noticing excitement."
+  },
+  {
+    "id": "b1-fb-0168",
+    "text": "Which memory should we honour even if we stop repeating the tradition around it?",
+    "reason": "Distinguishes Deep reflection from Bold tradition retirement."
+  },
+  {
+    "id": "b1-fb-0190",
+    "text": "When has a friend's enthusiasm made you reconsider something you had unfairly dismissed?",
+    "reason": "Clarifies learning and judgement rather than simple introduction."
+  },
+  {
+    "id": "b1-fb-0191",
+    "text": "Which shared story sounds different when each person explains what it meant to them?",
+    "reason": "Inaccurate anecdote recall lacked reflective depth."
+  },
+  {
+    "id": "b1-fb-0198",
+    "text": "What has someone quietly rearranged in their life to remain our friend?",
+    "reason": "Broad effort wording repeated 0137/0197 gratitude."
+  },
+  {
+    "id": "b1-fb-0211",
+    "text": "What has welcoming people together taught us about making others feel safe to be themselves?",
+    "reason": "Original hosting assumed prior joint hosting and lacked explicit emotional reflection."
+  },
+  {
+    "id": "b1-fb-0230",
+    "text": "If we host friends together, what would we want them to feel free to do?",
+    "reason": "Original 'our home' assumed cohabitation."
+  },
+  {
+    "id": "b1-fb-0236",
+    "text": "When should protecting a friend's confidence matter more than satisfying my curiosity?",
+    "reason": "Clarifies ambiguous use of confidence and separates from secrets-as-entitlement."
+  },
+  {
+    "id": "b1-fb-0237",
+    "text": "How should we respond if a friend's privacy prevents us from explaining a cancelled plan?",
+    "reason": "Near-duplicate of 0236; replacement uses a concrete competing obligation."
+  },
+  {
+    "id": "b1-fb-0253",
+    "text": "Where have you felt able to tell a friend something you couldn't say in a crowded room?",
+    "reason": "Original setting preference suited Chill."
+  },
+  {
+    "id": "b1-fb-0262",
+    "text": "When have we left the same gathering with different impressions of how welcome we felt?",
+    "reason": "Turns simple post-event comparison into emotional reflection."
+  },
+  {
+    "id": "b1-fb-0266",
+    "text": "Which group experience helped you understand the kind of partner I try to be?",
+    "reason": "Original gratitude for us wording was vague."
+  },
+  {
+    "id": "b1-fb-0275",
+    "text": "When has inviting someone into our plans helped us see our relationship from outside?",
+    "reason": "Original improved-plan question too shallow for Deep."
+  },
+  {
+    "id": "b1-fb-0278",
+    "text": "Which friend helps you return to a side of yourself our busy routines overlook?",
+    "reason": "Original carefree laugh identification suited Chill."
+  },
+  {
+    "id": "b1-fb-0283",
+    "text": "Which friend recognised growth in you before it felt real to you?",
+    "reason": "Adds a clear reflective point to broad pride question."
+  },
+  {
+    "id": "b1-fb-0297",
+    "text": "What part of our current social life would you grieve if we moved away?",
+    "reason": "Generic chapter remembrance overlaps Life themes."
+  },
+  {
+    "id": "b1-fb-0301",
+    "text": "How would a friend's honest account of your charm differ from your own?",
+    "reason": "Distinguishes accurate flirting description from 0351 classification."
+  },
+  {
+    "id": "b1-fb-0309",
+    "text": "Is someone making room for your shy friend more charming than dazzling the whole table?",
+    "reason": "Original general group-charm premise was vague."
+  },
+  {
+    "id": "b1-fb-0316",
+    "text": "At a group dinner, what small kindness would make you notice someone romantically?",
+    "reason": "Giveaway-of-crush premise repeats 0352 and several Relationships entries."
+  },
+  {
+    "id": "b1-fb-0320",
+    "text": "A friend introduces two singles with a playful shared-interest challenge. Clever or too arranged?",
+    "reason": "Subtle versus announced matchmaking repeats 0308."
+  },
+  {
+    "id": "b1-fb-0335",
+    "text": "What makes a first date between long-time friends feel sweet rather than like a meeting?",
+    "reason": "Same friends-to-romance story premise as 0305."
+  },
+  {
+    "id": "b1-fb-0348",
+    "text": "Would seeing someone patiently teach a friend a game make you look at them differently?",
+    "reason": "Generic effortless attractive act duplicates Relationships Flirty content."
+  },
+  {
+    "id": "b1-fb-0352",
+    "text": "A friend saves a seat beside their crush, then pretends it was coincidence. Cute or obvious?",
+    "reason": "Replaces generic crush giveaway with a distinct observable scene."
+  },
+  {
+    "id": "b1-fb-0360",
+    "text": "Someone's friends keep praising their cooking to you. Would you take the hint and request a taste?",
+    "reason": "Planned meet-cute adjective choice repeats 0320/0346."
+  },
+  {
+    "id": "b1-fb-0371",
+    "text": "What would make a friend's pre-date encouragement feel like a confidence boost rather than pressure?",
+    "reason": "Romantic-versus-practical adviser choice overlaps several wingperson rankings."
+  },
+  {
+    "id": "b1-fb-0375",
+    "text": "Would you enjoy a friend teaching you one dance move before a date, even if you mastered it badly?",
+    "reason": "Borrowing confidence overlaps 0310; uses a concrete non-explicit charming scene."
+  },
+  {
+    "id": "b1-fb-0389",
+    "text": "At a friend's party, would a charming stranger offering to find your favourite song win your attention?",
+    "reason": "First-date entrance song feels contrived for ordinary dating."
+  },
+  {
+    "id": "b1-fb-0393",
+    "text": "Would you become curious about someone your friends say writes unusually thoughtful thank-you notes?",
+    "reason": "General thoughtful endorsement duplicates 0314."
+  },
+  {
+    "id": "b1-fb-0404",
+    "text": "Which friend has accidentally sent a perfectly sweet message to the group instead of their crush?",
+    "reason": "Crush voice change repeats Relationships b1-rb-0404."
+  },
+  {
+    "id": "b1-fb-0417",
+    "text": "We get to choose one accessory for your next date. What would you trust us with?",
+    "reason": "Whole date outfit choice repeats Relationships b1-rb-0407 and other wingperson prompts."
+  },
+  {
+    "id": "b1-fb-0418",
+    "text": "Who would arrive early to a group outing mainly because their crush promised to help set up?",
+    "reason": "Phone-smile giveaway repeats Relationships b1-rb-0420."
+  },
+  {
+    "id": "b1-fb-0433",
+    "text": "Your crush meets our circle during a cooking disaster. How would we make you look charming anyway?",
+    "reason": "Forbidden introduction story repeats Relationships b1-rb-0435."
+  },
+  {
+    "id": "b1-fb-0435",
+    "text": "Which friend suddenly becomes an expert photographer when their crush asks for a picture?",
+    "reason": "Crush laugh/voice giveaway repeats 0404 and Relationships content."
+  },
+  {
+    "id": "b1-fb-0447",
+    "text": "What should we do if your date asks the group for help choosing a small surprise for you?",
+    "reason": "Too much dating commentary repeats Relationships b1-rb-0430."
+  },
+  {
+    "id": "b1-fb-0476",
+    "text": "Which invented romantic achievement should earn a friend a ridiculous certificate from us?",
+    "reason": "Dating vocabulary retirement duplicates Relationship advice-retirement entries."
+  },
+  {
+    "id": "b1-fb-0481",
+    "text": "A friend worries their date noticed their nerves. What sweet interpretation would you offer?",
+    "reason": "Outfit reassurance overlaps 0439 and multiple compliment prompts."
+  },
+  {
+    "id": "b1-fb-0482",
+    "text": "What would make you proud of a friend's courage after a date, even without another invitation?",
+    "reason": "Dating success celebration duplicates 0488/0500."
+  },
+  {
+    "id": "b1-fb-0485",
+    "text": "Our friend wants a romantic nickname in another language. Who should check the meaning first?",
+    "reason": "Original nickname question weakly differentiated from existing group nickname content."
+  },
+  {
+    "id": "b1-fb-0496",
+    "text": "Which friend would save a restaurant receipt because the date made them smile?",
+    "reason": "Privacy of romance repeats 0430."
+  },
+  {
+    "id": "b1-fb-0503",
+    "text": "If a friend recreated our first meeting as a tiny stage play, which detail would make you blush?",
+    "reason": "Original assumes friends introduced the couple."
+  },
+  {
+    "id": "b1-fb-0527",
+    "text": "If we took a group trip, where would you like to steal a short romantic stroll with me?",
+    "reason": "Removes assumed group-trip history."
+  },
+  {
+    "id": "b1-fb-0534",
+    "text": "What affectionate habit of ours would you enjoy seeing our friends quietly imitate?",
+    "reason": "Couple compliment duplicates Relationships b1-rb-0532 and other friendship entries."
+  },
+  {
+    "id": "b1-fb-0536",
+    "text": "Who would smile most if they saw us still flirting during a routine group outing?",
+    "reason": "Original assumes a friend encouraged the early connection."
+  },
+  {
+    "id": "b1-fb-0539",
+    "text": "What harmless bet with friends would give you an excuse to ask me for a celebratory kiss?",
+    "reason": "Showing-off witnessed premise overlaps 0519."
+  },
+  {
+    "id": "b1-fb-0552",
+    "text": "What would you write on a napkin to make me smile without interrupting our friends' conversation?",
+    "reason": "Party whisper duplicates Relationships b1-rb-0557."
+  },
+  {
+    "id": "b1-fb-0566",
+    "text": "Who would enjoy secretly passing a little love note between us during a game night?",
+    "reason": "Original assumes witnessed romantic errand history."
+  },
+  {
+    "id": "b1-fb-0584",
+    "text": "Which friend would enjoy helping us recreate a favourite romantic photograph?",
+    "reason": "Flattering friend description duplicates 0534/0565."
+  },
+  {
+    "id": "b1-fb-0587",
+    "text": "Which friend would help me wrap your romantic gift without guessing what it is?",
+    "reason": "Gift-planning friend selection repeats 0547."
+  },
+  {
+    "id": "b1-fb-0597",
+    "text": "If our friends made a toast to our next date, what affectionate wish would suit us?",
+    "reason": "Original assumes someone encouraged the relationship."
+  },
+  {
+    "id": "b1-fb-0664",
+    "text": "Should friends remember an important date after you explain why it matters, even if they dislike calendars?",
+    "reason": "Important-date memory risks repeating 0609 birthday expectation; clarifies communicated significance."
+  },
+  {
+    "id": "b1-fb-0680",
+    "text": "Should friends challenge a biased decision even when their own group benefits from it?",
+    "reason": "Automatic loyalty repeats 0607 defending a clearly wrong friend."
+  },
+  {
+    "id": "b1-fb-0713",
+    "text": "A friend always arrives after everyone else has ordered. Should we stop reserving their favourite dish?",
+    "reason": "General chronic lateness duplicates 0683/0732."
+  },
+  {
+    "id": "b1-fb-0734",
+    "text": "When a friend asks for advice then mocks every suggestion, should we end the discussion?",
+    "reason": "Repeated complaint-without-action overlaps Relationships b1-rb-0773."
+  },
+  {
+    "id": "b1-fb-0781",
+    "text": "Should a friend be allowed to rename a tradition they now do most of the work to maintain?",
+    "reason": "Unenjoyed tradition repeats 0699."
+  },
+  {
+    "id": "b1-fb-0791",
+    "text": "Would you tell us if our praise encouraged you to make a decision you weren't ready for?",
+    "reason": "Challenge sooner repeats 0712."
+  },
+  {
+    "id": "b1-fb-0804",
+    "text": "Which friend's invitation do we accept from guilt rather than a real wish to go?",
+    "reason": "Same social obligation wording as Relationships b1-rb-0844."
+  },
+  {
+    "id": "b1-fb-0812",
+    "text": "If we set aside money for a trip, should either of us lend it to a friend without discussing it?",
+    "reason": "Removes assumed shared finances."
+  },
+  {
+    "id": "b1-fb-0833",
+    "text": "If we organise a gathering, should friends ask before bringing a date neither of us knows?",
+    "reason": "Removes assumed shared home."
+  },
+  {
+    "id": "b1-fb-0850",
+    "text": "A friend needs help during our date but has several other people nearby. Should we interrupt our evening?",
+    "reason": "Friend help versus date repeats 0808; distinguishes availability of alternatives."
+  },
+  {
+    "id": "b1-fb-0877",
+    "text": "If we lived together, how would we decide when hosting friends felt too frequent?",
+    "reason": "Removes assumed cohabitation."
+  },
+  {
+    "id": "b1-fb-0883",
+    "text": "Should friends expect a reply when they congratulate us on news we haven't shared publicly?",
+    "reason": "Private anniversary justification weakly tied to friendship."
+  },
+  {
+    "id": "b1-fb-0893",
+    "text": "If a visiting friend stayed at one partner's place, how should that affect our time together?",
+    "reason": "Removes assumed cohabitation and distinguishes overnight guest limits."
+  },
+  {
+    "id": "b1-fb-0898",
+    "text": "Should we keep making an effort with a friend who is friendly only when other people watch?",
+    "reason": "Dislike despite effort repeats 0845/0879/0806."
+  }
+]

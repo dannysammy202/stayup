@@ -1,0 +1,177 @@
+[
+  {
+    "id": "b1-fa-chill-partner-031",
+    "text": "Which friend is easiest to visit on your usual route through town?",
+    "reason": "Original assumes all friends moved closer."
+  },
+  {
+    "id": "b1-fa-chill-partner-032",
+    "text": "Would you enjoy meeting friends for breakfast after an early walk?",
+    "reason": "Remove shared-home assumption."
+  },
+  {
+    "id": "b1-fa-chill-partner-037",
+    "text": "Who would enjoy helping us choose plants for a friend?",
+    "reason": "Remove assumed shared garden."
+  },
+  {
+    "id": "b1-fa-chill-partner-078",
+    "text": "Which friend would enjoy a tour of the neighbourhood you grew up in?",
+    "reason": "Remove assumed previous cohabitation."
+  },
+  {
+    "id": "b1-fa-chill-partner-081",
+    "text": "Which friend has helped you choose something you use every day?",
+    "reason": "Remove assumed shared home."
+  },
+  {
+    "id": "b1-fa-chill-partner-066",
+    "text": "What useful item could we offer a friend before they buy their own?",
+    "reason": "Remove shared household reference."
+  },
+  {
+    "id": "b1-fa-playful-partner-014",
+    "text": "A friend takes over the entertainment at our picnic. What unexpected act do they perform?",
+    "reason": "Remove cohabitation assumption and vary repeated Who structure."
+  },
+  {
+    "id": "b1-fa-playful-partner-020",
+    "text": "What nickname would your best friend give my favourite jacket?",
+    "reason": "Remove assumed shared household shelf."
+  },
+  {
+    "id": "b1-fa-playful-partner-026",
+    "text": "What tiny achievement should earn a friendship loyalty-card bonus stamp?",
+    "reason": "Avoid repeat of playful-new-098 by asking bonus achievement instead of same general stamp premise."
+  },
+  {
+    "id": "b1-fa-playful-partner-027",
+    "text": "If friends guessed our separate morning routines, what would they get hilariously wrong?",
+    "reason": "Remove assumed shared chores."
+  },
+  {
+    "id": "b1-fa-playful-partner-032",
+    "text": "Which friend would give us a standing ovation for assembling a picnic chair?",
+    "reason": "Remove implied shared household problem and narrow comedy."
+  },
+  {
+    "id": "b1-fa-playful-partner-044",
+    "text": "Your friends must invent a ridiculous rule for travelling with you. What would they propose?",
+    "reason": "Avoid assumption of cohabitation and warning-label repetition."
+  },
+  {
+    "id": "b1-fa-playful-partner-046",
+    "text": "If friends named a holiday cottage after us, what would its sign say?",
+    "reason": "Make household fictional instead of assumed."
+  },
+  {
+    "id": "b1-fa-playful-partner-076",
+    "text": "What would our friends find funniest about the souvenirs we would pick for each other?",
+    "reason": "Remove shared home assumption."
+  },
+  {
+    "id": "b1-fa-playful-partner-093",
+    "text": "A friend invents a false history for a statue on our walk. What detail gives the joke away?",
+    "reason": "Remove shared ornaments assumption and vary structure."
+  },
+  {
+    "id": "b1-fa-curious-partner-048",
+    "text": "What changes when you spend several days with a friend instead of one afternoon?",
+    "reason": "Remove cohabitation assumption."
+  },
+  {
+    "id": "b1-fa-curious-partner-057",
+    "text": "What do friends learn about us from watching how we choose a place to eat?",
+    "reason": "Remove shared-home assumption."
+  },
+  {
+    "id": "b1-fa-curious-new-070",
+    "text": "Have you ever made friends with someone after they helped correct a mistake?",
+    "reason": "Original recommendation-you-ignored premise unclear."
+  },
+  {
+    "id": "b1-fa-curious-friends-079",
+    "text": "Which friend asks the questions everyone else was too shy to ask?",
+    "reason": "Replace same beginner-group premise as curious-friends-031."
+  },
+  {
+    "id": "b1-fa-curious-friends-095",
+    "text": "What have you learnt about a friend from hearing them speak another language?",
+    "reason": "Replace overlap with curious-friends-035 family explaining personality."
+  },
+  {
+    "id": "b1-fa-curious-friends-076",
+    "text": "Which friend remembers practical details while everyone else remembers the jokes?",
+    "reason": "Differentiate curious-friends-062 shared memory differences."
+  },
+  {
+    "id": "b1-fa-chill-friends-057",
+    "text": "Which friend would enjoy helping choose a picnic spot with shade?",
+    "reason": "Replace repeated picnic-packing premise across 015 and091."
+  },
+  {
+    "id": "b1-fa-chill-friends-091",
+    "text": "What should we keep ready for a friend who drops by after a long journey?",
+    "reason": "Replace third picnic-supplies premise in same cell."
+  },
+  {
+    "id": "b1-fa-playful-new-044",
+    "text": "A friend insists on tipping in compliments. What hilariously specific praise do they offer?",
+    "reason": "Replace social-befriending-stranger repeat with017 and053."
+  },
+  {
+    "id": "b1-fa-playful-new-093",
+    "text": "Your group records a spoken alarm for you. What would finally get you out of bed?",
+    "reason": "Replace entrance music/theme-tune overlap with055."
+  },
+  {
+    "id": "b1-fa-playful-friends-077",
+    "text": "Our friends take turns pretending to be invisible. What gives you away immediately?",
+    "reason": "Replace repeated funny memory screen-adaptation premise."
+  },
+  {
+    "id": "b1-fa-playful-friends-099",
+    "text": "Which friend would try to return a borrowed umbrella with a formal farewell speech?",
+    "reason": "Replace repeated mishap replay premise with002 and025."
+  },
+  {
+    "id": "b1-fa-chill-new-068",
+    "text": "Which friend would appreciate company while they wait for a delivery?",
+    "reason": "Differentiate generic errands/company prompt017."
+  },
+  {
+    "id": "b1-fa-chill-new-093",
+    "text": "Which friend makes trying an unfamiliar food feel less intimidating?",
+    "reason": "Replace broad company-improves-activity repeat."
+  },
+  {
+    "id": "b1-fa-chill-friends-064",
+    "text": "What inexpensive treat should we bring when visiting a friend who is studying?",
+    "reason": "Replace regular tradition/activity overlap with001."
+  },
+  {
+    "id": "b1-fa-chill-partner-093",
+    "text": "Which friend has something in common with both of us which we rarely discuss?",
+    "reason": "Differentiate friend-introduction prompt001 and007."
+  },
+  {
+    "id": "b1-fa-curious-new-052",
+    "text": "What helps you remember advice when a friend demonstrates it rather than explains it?",
+    "reason": "Differentiate learn practical skill overlap with other cells."
+  },
+  {
+    "id": "b1-fa-playful-partner-100",
+    "text": "Our friends invent a secret code using only snacks. Which message would cause confusion?",
+    "reason": "Replace shared-circle-tradition overlap with023 and friends041."
+  },
+  {
+    "id": "b1-fa-playful-new-095",
+    "text": "What overly specific excuse would your group invent to avoid an icebreaker game?",
+    "reason": "Replace ordinary task made competitive repeat027."
+  },
+  {
+    "id": "b1-fa-playful-new-085",
+    "text": "What joke did your friends misunderstand in an even funnier way?",
+    "reason": "Replace inside-joke persistence repetition024 and052."
+  }
+]

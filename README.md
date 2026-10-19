@@ -1,5 +1,16 @@
 # Say More — Conversation Companion
 
+## Current release: Batch 1
+
+The active everyday library contains 5,400 directly authored conversation starters: Relationships, Friendships and Life each have 1,800. Each topic has three audiences and six moods, with exactly 100 entries in every combination. The interface displays Flirt while retaining the Flirty identifier.
+
+`content/batch1.json` is the active source. Individual author and independent ChatGPT AI review evidence lives in `content/batch1-editorial-review.json`; `humanReviewed:false` distinguishes AI review. The content QA report records the complete allocation, exact uniqueness checks and semantic-similarity adjudications. `npm run build` refuses incomplete content, missing reviews or a stale QA fingerprint before producing the bundled asset.
+
+Everyday browsing uses only this approved source. Earlier collections remain available solely to resolve saved/history IDs. Adults-only conversations, Truth or Dare, Iconsax and optional user-requested AI remain separate. The PWA caches the complete batch and preserves the refresh notice.
+
+Validation: `npm test`, `npm run build`, and the mobile/desktop checks in `scripts/batch1-browser-check.mjs`. The material below documents historical catalogue policies and does not activate those collections.
+
+
 Say More continues in `dannysammy202/stayup`. Approved responsive Explore, Topics, Focus, Saved, History and Settings screens use Iconsax Linear. The library spans 19 topics, six moods and seven audiences, with optional filters, saved/history support, a separate opt-in adults-only area and user-requested optional Gemini. Curated content, not Gemini, supplies the default feed.
 
 ## First-pass target: 200 per eligible combination

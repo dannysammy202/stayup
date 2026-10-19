@@ -1,0 +1,35 @@
+[
+  {
+    "id": "b1-lb-0518",
+    "oldText": "What small detour on your usual route would let you steal a few extra minutes with me?",
+    "text": "What would you write in the steam on a bathroom mirror for me to find?",
+    "textHash": "174ad043c68909101c10e697337a4c779daeeaef20e3d5eb835e66dbba23b24d",
+    "decision": "approve",
+    "authorReviewer": "friendships_a ChatGPT AI",
+    "independentReviewer": "root ChatGPT AI",
+    "reason": "Independent reviewer supplied a new substantive premise. Root checked meaning, naturalness and assigned audience/mood before acceptance.",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0551",
+    "oldText": "Which little luxury would you secretly pack to make a trip with me feel romantic?",
+    "text": "Which part of a museum would you use as an excuse to stand close to me?",
+    "textHash": "32a0359fd01ff6a84f03de36f9d96d5d9f2b65dc12497a9ab47c151740457722",
+    "decision": "approve",
+    "authorReviewer": "friendships_a ChatGPT AI",
+    "independentReviewer": "root ChatGPT AI",
+    "reason": "Independent reviewer supplied a new substantive premise. Root checked meaning, naturalness and assigned audience/mood before acceptance.",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-lb-0801",
+    "oldText": "Which subscription do we defend keeping mainly because cancelling it would admit we never use it?",
+    "text": "Should we ever buy duplicate household items solely because we dislike sharing them?",
+    "textHash": "e2eaed488016a562b0c925491d00e3839c06e5170fdba6642d80d6b79032cc9d",
+    "decision": "approve",
+    "authorReviewer": "friendships_a ChatGPT AI",
+    "independentReviewer": "root ChatGPT AI",
+    "reason": "Independent reviewer supplied a new substantive premise. Root checked meaning, naturalness and assigned audience/mood before acceptance.",
+    "humanReviewed": false
+  }
+]

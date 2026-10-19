@@ -1,46 +1,18 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import vm from 'node:vm';
-import { readFileSync } from 'node:fs';
-
+import {readFileSync} from 'node:fs';
 const html=readFileSync('public/index.html','utf8');
-const manifest=JSON.parse(readFileSync('public/library-data/manifest.json','utf8'));
-const from=html.indexOf('function totalTopic(topic){');
-const to=html.indexOf('function menuItem(',from);
-assert.ok(from>0&&to>from,'topic counter functions must exist');
-const counterCode=html.slice(from,to);
-const context=vm.createContext({
- publishedManifest:manifest,librarySummary:{count:manifest.publishedCount},
- libraryLoadError:'',topicCountCacheKey:'',topicCountCache:{},
- state:{adult:false,hidden:[]},inPool:()=>[]
+const rows=JSON.parse(readFileSync('content/batch1.json','utf8'));
+const from=html.indexOf('function totalTopic(topic){'),to=html.indexOf('function menuItem(',from);
+const context=vm.createContext({batchReady:true,state:{adult:false},inPool:()=>rows});
+vm.runInContext(html.slice(from,to),context);
+test('topic cards reflect the complete everyday catalogue',()=>{
+ for(const topic of ['Relationships','Friendships','Life']){assert.equal(context.totalTopic(topic),1800);assert.match(context.topicCountLabel(topic),/1,800 conversation starters/);}
+ assert.equal(context.totalTopic('Music'),0);assert.match(context.topicCountLabel('Music'),/No prompts in this release/);
 });
-vm.runInContext(counterCode+';this.topicCount=totalTopic;this.topicLabel=topicCountLabel;',context);
-
-test('All Topics shows active 50-per-combination totals before prompt shards are downloaded',()=>{
- for(const topic of manifest.topics){
-  const expected=manifest.combinations.filter(c=>c.eligible&&c.topic===topic).reduce((n,c)=>n+c.active,0);
-  assert.equal(context.topicCount(topic),expected,topic);
-  const label=context.topicLabel(topic);
-  if(expected)assert.match(label,new RegExp(expected.toLocaleString('en-GB').replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+' published prompts'),topic);
-  else assert.match(label,/No published prompts yet/,topic);
- }
- assert.match(html,/\$\{topicCountLabel\(t\)\}/,'topic cards use full catalogue labels');
-});
-
-test('Missing catalogue is never represented by the tiny demonstration collection',()=>{
- context.publishedManifest=null;
- assert.match(context.topicLabel('Relationships'),/Loading published catalogue/);
- context.libraryLoadError='Failed to load';
- assert.match(context.topicLabel('Relationships'),/Catalogue unavailable/);
- assert.match(html,/data-action="retryLibrary"/);
- assert.match(html,/a==='retryLibrary'/);
-});
-
-test('PWA fetches updated page and catalogue manifest online before using cache',()=>{
- const sw=readFileSync('public/sw.js','utf8');
- assert.match(sw,/saymore-curated-v6/);
- assert.match(sw,/networkFirst=url\.pathname/);
- assert.match(sw,/url\.pathname==='\/library-data\/manifest\.json'/);
- assert.match(sw,/fetch\(request,\{cache:'no-store'\}\)/);
- assert.match(html,/fetch\('\/library-data\/manifest\.json',\{cache:'no-store'\}\)/);
+test('failed batch loading does not display legacy content counts',()=>{context.batchReady=false;assert.match(context.topicCountLabel('Relationships'),/Library unavailable/);context.batchReady=true;});
+test('PWA includes the complete batch offline and checks fresh content online',()=>{
+ const sw=readFileSync('public/sw.js','utf8');assert.match(sw,/saymore-batch1-v20/);assert.match(sw,/'\/batch1-data.js'/);assert.match(sw,/const networkFirst=.*batch1-data/);assert.match(sw,/fetch\(request,\{cache:'no-store'\}\)/);
+ const version=JSON.parse(readFileSync('public/version.json','utf8')).version;assert.ok(readFileSync('public/update-check.js','utf8').includes(version));assert.match(html,/update-check.js/);
 });

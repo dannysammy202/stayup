@@ -1,0 +1,352 @@
+[
+  {
+    "id": "b1-fa-chill-partner-031",
+    "originalText": "Which friendship feels easier now everyone lives closer?",
+    "appliedText": "Which friend is easiest to visit on your usual route through town?",
+    "reason": "Original assumes all friends moved closer.",
+    "decision": "approve",
+    "textHash": "231da626d4368cb97f2842da98ef0a5d2fd20710d2399279a0f71a5eb9d37363",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-fa-chill-partner-032",
+    "originalText": "Would you enjoy a friends' breakfast at ours after an early walk?",
+    "appliedText": "Would you enjoy meeting friends for breakfast after an early walk?",
+    "reason": "Remove shared-home assumption.",
+    "decision": "approve",
+    "textHash": "52fde4dd9796a332b049d2e7e18eb110959bc08b1d6ca1cb34077f090c8940d7",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-fa-chill-partner-037",
+    "originalText": "Who would enjoy helping us choose something for the garden?",
+    "appliedText": "Who would enjoy helping us choose plants for a friend?",
+    "reason": "Remove assumed shared garden.",
+    "decision": "approve",
+    "textHash": "b7ea5354c267fdf4d0fab1fcbf144781680b42dc8559d061dbcad34fe8ae7d23",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-fa-chill-partner-078",
+    "originalText": "Which friend would enjoy seeing the neighbourhood where we first lived?",
+    "appliedText": "Which friend would enjoy a tour of the neighbourhood you grew up in?",
+    "reason": "Remove assumed previous cohabitation.",
+    "decision": "approve",
+    "textHash": "9634a5920f1783e68bab6a11cb647c8cd5059873f1dc9e92d7b55261ae5fa452",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-fa-chill-partner-081",
+    "originalText": "What's something in our home which a friend helped us choose?",
+    "appliedText": "Which friend has helped you choose something you use every day?",
+    "reason": "Remove assumed shared home.",
+    "decision": "approve",
+    "textHash": "1b104133f8477bc31bd52deab06343f21437755037c2e4a71093a7266c4b98d0",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-fa-chill-partner-066",
+    "originalText": "What should we lend our friends rather than leave unused here?",
+    "appliedText": "What useful item could we offer a friend before they buy their own?",
+    "reason": "Remove shared household reference.",
+    "decision": "approve",
+    "textHash": "41501d3d8e9ddbe78d3ec19242645007f5358b33e66b6968f6156188b85d9174",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-fa-playful-partner-014",
+    "originalText": "Who would turn a casual dinner at ours into an impromptu performance?",
+    "appliedText": "A friend takes over the entertainment at our picnic. What unexpected act do they perform?",
+    "reason": "Remove cohabitation assumption and vary repeated Who structure.",
+    "decision": "approve",
+    "textHash": "cc0d8968d371853dce0a9164768970f91d3b93ef4217508617152f8f329b7b3f",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-fa-playful-partner-020",
+    "originalText": "What would your best friend name the shelf where I leave everything?",
+    "appliedText": "What nickname would your best friend give my favourite jacket?",
+    "reason": "Remove assumed shared household shelf.",
+    "decision": "approve",
+    "textHash": "f58e4404938c771493f132db81988ec81445cd6441a9a5c124d8c55e15b023db",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-fa-playful-partner-026",
+    "originalText": "What should we put on an imaginary loyalty card for visiting our place?",
+    "appliedText": "What tiny achievement should earn a friendship loyalty-card bonus stamp?",
+    "reason": "Avoid repeat of playful-new-098 by asking bonus achievement instead of same general stamp premise.",
+    "decision": "approve",
+    "textHash": "063a56f93b7c999c677ee4fb4942372edf42981fc21a2b3dd1b64ef384ea3e50",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-fa-playful-partner-027",
+    "originalText": "If our friends guessed who does which chores, where would they get it wrong?",
+    "appliedText": "If friends guessed our separate morning routines, what would they get hilariously wrong?",
+    "reason": "Remove assumed shared chores.",
+    "decision": "approve",
+    "textHash": "a395ea0689f5d3c3fc1e9d31638cd4a39ac0411c84dbb6ac9c9671b9ebe3f6cf",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-fa-playful-partner-032",
+    "originalText": "Who would cheer loudest when we finally fixed a tiny household problem?",
+    "appliedText": "Which friend would give us a standing ovation for assembling a picnic chair?",
+    "reason": "Remove implied shared household problem and narrow comedy.",
+    "decision": "approve",
+    "textHash": "a940e44c0dbd6d8566fd07b8c29b4bd035b498b51887240280a0491c817dcb66",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-fa-playful-partner-044",
+    "originalText": "What would your friends put in a welcome pack for living with you?",
+    "appliedText": "Your friends must invent a ridiculous rule for travelling with you. What would they propose?",
+    "reason": "Avoid assumption of cohabitation and warning-label repetition.",
+    "decision": "approve",
+    "textHash": "a3a957f156810452a7ab5c916b2ad42f3a68e0458d6b03fe5d81f032a112ba1b",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-fa-playful-partner-046",
+    "originalText": "If we let friends rename our house, what embarrassing option would win?",
+    "appliedText": "If friends named a holiday cottage after us, what would its sign say?",
+    "reason": "Make household fictional instead of assumed.",
+    "decision": "approve",
+    "textHash": "b91dd189e7a4420578f930ca4b4d9a8efaccc791de9cb0dbb256b96b1d9e879e",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-fa-playful-partner-076",
+    "originalText": "What silly fact about our home would your friends remember forever?",
+    "appliedText": "What would our friends find funniest about the souvenirs we would pick for each other?",
+    "reason": "Remove shared home assumption.",
+    "decision": "approve",
+    "textHash": "cdadc6547b6030982f13d9b8edea8f5ec8daa7511f5908928ea4a29aee3e8a23",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-fa-playful-partner-093",
+    "originalText": "Which friend would enjoy inventing fake explanations for our ornaments?",
+    "appliedText": "A friend invents a false history for a statue on our walk. What detail gives the joke away?",
+    "reason": "Remove shared ornaments assumption and vary structure.",
+    "decision": "approve",
+    "textHash": "74af8cc4ef4832b1d8065d7d557f30b29ce7d227cf5899eab6a35c84bc68fa08",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-fa-curious-partner-048",
+    "originalText": "What changes when a friend stays with us instead of visiting briefly?",
+    "appliedText": "What changes when you spend several days with a friend instead of one afternoon?",
+    "reason": "Remove cohabitation assumption.",
+    "decision": "approve",
+    "textHash": "a41e06beb5ff7716d3ecad2b4ced310f36f6286ce9b02c68b2ddbe2d4f2465a5",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-fa-curious-partner-057",
+    "originalText": "What do you think our friends learn about us by seeing our home?",
+    "appliedText": "What do friends learn about us from watching how we choose a place to eat?",
+    "reason": "Remove shared-home assumption.",
+    "decision": "approve",
+    "textHash": "d368bd326479f90e37374f5a05bad7d212be512f0867f8b3b7d0e68573c8bad6",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-fa-curious-new-070",
+    "originalText": "Have you ever made a friend through a recommendation you ignored?",
+    "appliedText": "Have you ever made friends with someone after they helped correct a mistake?",
+    "reason": "Original recommendation-you-ignored premise unclear.",
+    "decision": "approve",
+    "textHash": "20e572016a9eee5a724d7ad4c486ad094b637cb4ca07a4682f8f83a996224e8f",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-fa-curious-friends-079",
+    "originalText": "What would you like our group to try without any of us being the expert?",
+    "appliedText": "Which friend asks the questions everyone else was too shy to ask?",
+    "reason": "Replace same beginner-group premise as curious-friends-031.",
+    "decision": "approve",
+    "textHash": "9b30d15351c4fddcb1f230eb075be353c0660955d60a6ab945f74fb759a4ef6e",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-fa-curious-friends-095",
+    "originalText": "What did you learn about me by meeting somebody I grew up with?",
+    "appliedText": "What have you learnt about a friend from hearing them speak another language?",
+    "reason": "Replace overlap with curious-friends-035 family explaining personality.",
+    "decision": "approve",
+    "textHash": "f58ff69cb46a65f7c5ada3ec64c00f41f39804bd96b497680cbb5040f31e5b3d",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-fa-curious-friends-076",
+    "originalText": "What makes us remember different bits of the same evening?",
+    "appliedText": "Which friend remembers practical details while everyone else remembers the jokes?",
+    "reason": "Differentiate curious-friends-062 shared memory differences.",
+    "decision": "approve",
+    "textHash": "25d216e89245a7c7fa64831af4034aec370c12376160939cdb175afd2a2cc76c",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-fa-chill-friends-057",
+    "originalText": "What could everyone bring to make a picnic easy to organise?",
+    "appliedText": "Which friend would enjoy helping choose a picnic spot with shade?",
+    "reason": "Replace repeated picnic-packing premise across 015 and091.",
+    "decision": "approve",
+    "textHash": "ddad2b10af2978c777a70857b95417472e33548df39a969c8f36a04e0eeaed27",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-fa-chill-friends-091",
+    "originalText": "What should we keep in a ready-to-go picnic bag?",
+    "appliedText": "What should we keep ready for a friend who drops by after a long journey?",
+    "reason": "Replace third picnic-supplies premise in same cell.",
+    "decision": "approve",
+    "textHash": "a4a5ba1bc4affcfbc4fb1fa628cdfd4e9f7233f4262893ca209959e5bb95371d",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-fa-playful-new-044",
+    "originalText": "Who would become best friends with a hotel receptionist?",
+    "appliedText": "A friend insists on tipping in compliments. What hilariously specific praise do they offer?",
+    "reason": "Replace social-befriending-stranger repeat with017 and053.",
+    "decision": "approve",
+    "textHash": "4076807502a1996a81532543febd57b5027eb676fd2456c05d707ea8f568842b",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-fa-playful-new-093",
+    "originalText": "Your circle chooses entrance music for everyone. What plays for you?",
+    "appliedText": "Your group records a spoken alarm for you. What would finally get you out of bed?",
+    "reason": "Replace entrance music/theme-tune overlap with055.",
+    "decision": "approve",
+    "textHash": "10eb30a22f9ea3fed33e6191daf8b75313752b55d64123defbba3fa98f3cc97f",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-fa-playful-friends-077",
+    "originalText": "Which memory of us would make the best comedy sketch?",
+    "appliedText": "Our friends take turns pretending to be invisible. What gives you away immediately?",
+    "reason": "Replace repeated funny memory screen-adaptation premise.",
+    "decision": "approve",
+    "textHash": "c423e8473fc578919d04f228d151e1aec3c46a26fe9598270e0d37f2dacba443",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-fa-playful-friends-099",
+    "originalText": "If we could replay one harmless mishap, which one still earns the laugh?",
+    "appliedText": "Which friend would try to return a borrowed umbrella with a formal farewell speech?",
+    "reason": "Replace repeated mishap replay premise with002 and025.",
+    "decision": "approve",
+    "textHash": "3c7348bd653b7cbd417529687227e0a8a51740d956f69dfeed234b5427dcb96b",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-fa-chill-new-068",
+    "originalText": "Which everyday task improves with a friend beside you?",
+    "appliedText": "Which friend would appreciate company while they wait for a delivery?",
+    "reason": "Differentiate generic errands/company prompt017.",
+    "decision": "approve",
+    "textHash": "131731c7bd7415ba29d98f01f54508f97f81626c8d85de5fc1a4c177b9f79c2c",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-fa-chill-new-093",
+    "originalText": "What's an activity you like mainly because of the company?",
+    "appliedText": "Which friend makes trying an unfamiliar food feel less intimidating?",
+    "reason": "Replace broad company-improves-activity repeat.",
+    "decision": "approve",
+    "textHash": "33939c9e9cadea4a26679f098a5e45f00a46dcaa905738ef24b4a964769b0a4a",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-fa-chill-friends-064",
+    "originalText": "What free little tradition should we start this month?",
+    "appliedText": "What inexpensive treat should we bring when visiting a friend who is studying?",
+    "reason": "Replace regular tradition/activity overlap with001.",
+    "decision": "approve",
+    "textHash": "10d6cabbbd5cfaacd29fa61b1d06eca17851a14ff11101bb16916d1bcde459ac",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-fa-chill-partner-093",
+    "originalText": "Which of my friends would enjoy meeting one of yours?",
+    "appliedText": "Which friend has something in common with both of us which we rarely discuss?",
+    "reason": "Differentiate friend-introduction prompt001 and007.",
+    "decision": "approve",
+    "textHash": "d688a78f48d5b29f7eb678ff86f9ac5afe30066901e4dc67e55d2c37a22245dd",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-fa-curious-new-052",
+    "originalText": "Have you ever learnt a practical skill entirely through a friend?",
+    "appliedText": "What helps you remember advice when a friend demonstrates it rather than explains it?",
+    "reason": "Differentiate learn practical skill overlap with other cells.",
+    "decision": "approve",
+    "textHash": "4935bb46ac92d071ac96fbb8bf25bf2ff53e46e8a2d1391078a4632176588f7a",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-fa-playful-partner-100",
+    "originalText": "What silly tradition could our combined circle start at its first reunion?",
+    "appliedText": "Our friends invent a secret code using only snacks. Which message would cause confusion?",
+    "reason": "Replace shared-circle-tradition overlap with023 and friends041.",
+    "decision": "approve",
+    "textHash": "42861c55102fc449b497a699303587dc0815c04b312593e317db874d5b601514",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-fa-playful-new-095",
+    "originalText": "What totally unnecessary challenge would your friends take seriously?",
+    "appliedText": "What overly specific excuse would your group invent to avoid an icebreaker game?",
+    "reason": "Replace ordinary task made competitive repeat027.",
+    "decision": "approve",
+    "textHash": "e443ec152db1e9b401836c2b4bf1c7affe360b77722392ce7ccd1a3ed1dd18b8",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  },
+  {
+    "id": "b1-fa-playful-new-085",
+    "originalText": "What running joke has lasted far longer than it deserves?",
+    "appliedText": "What joke did your friends misunderstand in an even funnier way?",
+    "reason": "Replace inside-joke persistence repetition024 and052.",
+    "decision": "approve",
+    "textHash": "c0bc8fde7bb63338f17b5d1cd3d6936dec5f9da2ebfef01b2c72fad7c25289d1",
+    "reviewer": "life_b ChatGPT AI",
+    "humanReviewed": false
+  }
+]

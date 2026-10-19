@@ -1,0 +1,730 @@
+{
+  "total": 5400,
+  "topics": {
+    "Relationships": 1800,
+    "Friendships": 1800,
+    "Life": 1800
+  },
+  "cells": [
+    {
+      "topic": "Relationships",
+      "mood": "Chill",
+      "audience": "Someone new",
+      "count": 100
+    },
+    {
+      "topic": "Relationships",
+      "mood": "Chill",
+      "audience": "Friends",
+      "count": 100
+    },
+    {
+      "topic": "Relationships",
+      "mood": "Chill",
+      "audience": "Partner",
+      "count": 100
+    },
+    {
+      "topic": "Relationships",
+      "mood": "Playful",
+      "audience": "Someone new",
+      "count": 100
+    },
+    {
+      "topic": "Relationships",
+      "mood": "Playful",
+      "audience": "Friends",
+      "count": 100
+    },
+    {
+      "topic": "Relationships",
+      "mood": "Playful",
+      "audience": "Partner",
+      "count": 100
+    },
+    {
+      "topic": "Relationships",
+      "mood": "Curious",
+      "audience": "Someone new",
+      "count": 100
+    },
+    {
+      "topic": "Relationships",
+      "mood": "Curious",
+      "audience": "Friends",
+      "count": 100
+    },
+    {
+      "topic": "Relationships",
+      "mood": "Curious",
+      "audience": "Partner",
+      "count": 100
+    },
+    {
+      "topic": "Relationships",
+      "mood": "Deep",
+      "audience": "Someone new",
+      "count": 100
+    },
+    {
+      "topic": "Relationships",
+      "mood": "Deep",
+      "audience": "Friends",
+      "count": 100
+    },
+    {
+      "topic": "Relationships",
+      "mood": "Deep",
+      "audience": "Partner",
+      "count": 100
+    },
+    {
+      "topic": "Relationships",
+      "mood": "Flirty",
+      "audience": "Someone new",
+      "count": 100
+    },
+    {
+      "topic": "Relationships",
+      "mood": "Flirty",
+      "audience": "Friends",
+      "count": 100
+    },
+    {
+      "topic": "Relationships",
+      "mood": "Flirty",
+      "audience": "Partner",
+      "count": 100
+    },
+    {
+      "topic": "Relationships",
+      "mood": "Bold",
+      "audience": "Someone new",
+      "count": 100
+    },
+    {
+      "topic": "Relationships",
+      "mood": "Bold",
+      "audience": "Friends",
+      "count": 100
+    },
+    {
+      "topic": "Relationships",
+      "mood": "Bold",
+      "audience": "Partner",
+      "count": 100
+    },
+    {
+      "topic": "Friendships",
+      "mood": "Chill",
+      "audience": "Someone new",
+      "count": 100
+    },
+    {
+      "topic": "Friendships",
+      "mood": "Chill",
+      "audience": "Friends",
+      "count": 100
+    },
+    {
+      "topic": "Friendships",
+      "mood": "Chill",
+      "audience": "Partner",
+      "count": 100
+    },
+    {
+      "topic": "Friendships",
+      "mood": "Playful",
+      "audience": "Someone new",
+      "count": 100
+    },
+    {
+      "topic": "Friendships",
+      "mood": "Playful",
+      "audience": "Friends",
+      "count": 100
+    },
+    {
+      "topic": "Friendships",
+      "mood": "Playful",
+      "audience": "Partner",
+      "count": 100
+    },
+    {
+      "topic": "Friendships",
+      "mood": "Curious",
+      "audience": "Someone new",
+      "count": 100
+    },
+    {
+      "topic": "Friendships",
+      "mood": "Curious",
+      "audience": "Friends",
+      "count": 100
+    },
+    {
+      "topic": "Friendships",
+      "mood": "Curious",
+      "audience": "Partner",
+      "count": 100
+    },
+    {
+      "topic": "Friendships",
+      "mood": "Deep",
+      "audience": "Someone new",
+      "count": 100
+    },
+    {
+      "topic": "Friendships",
+      "mood": "Deep",
+      "audience": "Friends",
+      "count": 100
+    },
+    {
+      "topic": "Friendships",
+      "mood": "Deep",
+      "audience": "Partner",
+      "count": 100
+    },
+    {
+      "topic": "Friendships",
+      "mood": "Flirty",
+      "audience": "Someone new",
+      "count": 100
+    },
+    {
+      "topic": "Friendships",
+      "mood": "Flirty",
+      "audience": "Friends",
+      "count": 100
+    },
+    {
+      "topic": "Friendships",
+      "mood": "Flirty",
+      "audience": "Partner",
+      "count": 100
+    },
+    {
+      "topic": "Friendships",
+      "mood": "Bold",
+      "audience": "Someone new",
+      "count": 100
+    },
+    {
+      "topic": "Friendships",
+      "mood": "Bold",
+      "audience": "Friends",
+      "count": 100
+    },
+    {
+      "topic": "Friendships",
+      "mood": "Bold",
+      "audience": "Partner",
+      "count": 100
+    },
+    {
+      "topic": "Life",
+      "mood": "Chill",
+      "audience": "Someone new",
+      "count": 100
+    },
+    {
+      "topic": "Life",
+      "mood": "Chill",
+      "audience": "Friends",
+      "count": 100
+    },
+    {
+      "topic": "Life",
+      "mood": "Chill",
+      "audience": "Partner",
+      "count": 100
+    },
+    {
+      "topic": "Life",
+      "mood": "Playful",
+      "audience": "Someone new",
+      "count": 100
+    },
+    {
+      "topic": "Life",
+      "mood": "Playful",
+      "audience": "Friends",
+      "count": 100
+    },
+    {
+      "topic": "Life",
+      "mood": "Playful",
+      "audience": "Partner",
+      "count": 100
+    },
+    {
+      "topic": "Life",
+      "mood": "Curious",
+      "audience": "Someone new",
+      "count": 100
+    },
+    {
+      "topic": "Life",
+      "mood": "Curious",
+      "audience": "Friends",
+      "count": 100
+    },
+    {
+      "topic": "Life",
+      "mood": "Curious",
+      "audience": "Partner",
+      "count": 100
+    },
+    {
+      "topic": "Life",
+      "mood": "Deep",
+      "audience": "Someone new",
+      "count": 100
+    },
+    {
+      "topic": "Life",
+      "mood": "Deep",
+      "audience": "Friends",
+      "count": 100
+    },
+    {
+      "topic": "Life",
+      "mood": "Deep",
+      "audience": "Partner",
+      "count": 100
+    },
+    {
+      "topic": "Life",
+      "mood": "Flirty",
+      "audience": "Someone new",
+      "count": 100
+    },
+    {
+      "topic": "Life",
+      "mood": "Flirty",
+      "audience": "Friends",
+      "count": 100
+    },
+    {
+      "topic": "Life",
+      "mood": "Flirty",
+      "audience": "Partner",
+      "count": 100
+    },
+    {
+      "topic": "Life",
+      "mood": "Bold",
+      "audience": "Someone new",
+      "count": 100
+    },
+    {
+      "topic": "Life",
+      "mood": "Bold",
+      "audience": "Friends",
+      "count": 100
+    },
+    {
+      "topic": "Life",
+      "mood": "Bold",
+      "audience": "Partner",
+      "count": 100
+    }
+  ],
+  "structuralIssues": [],
+  "similarityCandidates": [
+    {
+      "a": "b1-fa-chill-new-043",
+      "b": "b1-fa-chill-partner-018",
+      "score": 0.6751,
+      "textA": "What do you enjoy hearing your friends talk about?",
+      "textB": "What do you enjoy hearing my friends say about me?"
+    },
+    {
+      "a": "b1-fa-curious-partner-032",
+      "b": "b1-la-0640",
+      "score": 0.5919,
+      "textA": "Which of my friends has a skill you'd enjoy learning?",
+      "textB": "What's a life skill you'd enjoy learning from someone much older?"
+    },
+    {
+      "a": "b1-la-0254",
+      "b": "b1-la-0840",
+      "score": 0.5813,
+      "textA": "How do you like to spend the time between arriving early and meeting me?",
+      "textB": "What have you found out about how you like to spend time alone?"
+    },
+    {
+      "a": "b1-la-0037",
+      "b": "b1-la-0277",
+      "score": 0.5743,
+      "textA": "What's an ordinary thing you enjoy more as an adult?",
+      "textB": "What's an ordinary thing you enjoy seeing me enjoy?"
+    },
+    {
+      "a": "b1-rb-0237",
+      "b": "b1-lb-0056",
+      "score": 0.5729,
+      "textA": "Which task did we enjoy more once we stopped trying to do it together?",
+      "textB": "What do you enjoy more since you stopped trying to perfect it?"
+    },
+    {
+      "a": "b1-fa-chill-friends-019",
+      "b": "b1-la-0037",
+      "score": 0.5667,
+      "textA": "What ordinary thing have we somehow never done together?",
+      "textB": "What's an ordinary thing you enjoy more as an adult?"
+    },
+    {
+      "a": "b1-fa-playful-new-012",
+      "b": "b1-la-0467",
+      "score": 0.5649,
+      "textA": "What's the funniest reason you've ever become friends with someone?",
+      "textB": "What's the funniest reason you've had to abandon a queue?"
+    },
+    {
+      "a": "b1-fa-chill-friends-019",
+      "b": "b1-la-0127",
+      "score": 0.5615,
+      "textA": "What ordinary thing have we somehow never done together?",
+      "textB": "What's your favourite ordinary thing about the season we're in?"
+    },
+    {
+      "a": "b1-ra-0127",
+      "b": "b1-rb-0491",
+      "score": 0.5572,
+      "textA": "How do you tell a friend you're happy for their relationship?",
+      "textB": "Which aspect of a friend's happy relationship makes you smile?"
+    },
+    {
+      "a": "b1-fb-0205",
+      "b": "b1-lb-0069",
+      "score": 0.5469,
+      "textA": "Which friendship of mine helped you understand me?",
+      "textB": "When has doing less helped you understand more?"
+    },
+    {
+      "a": "b1-fa-curious-friends-022",
+      "b": "b1-fb-0002",
+      "score": 0.5457,
+      "textA": "Which friend taught you the most about being a good guest?",
+      "textB": "Who taught you how to be a good friend?"
+    },
+    {
+      "a": "b1-ra-0699",
+      "b": "b1-la-0673",
+      "score": 0.5452,
+      "textA": "What do you wish dating advice explained with more real examples?",
+      "textB": "What's something practical you wish schools had explained with real examples?"
+    },
+    {
+      "a": "b1-rb-0248",
+      "b": "b1-fa-chill-partner-065",
+      "score": 0.5404,
+      "textA": "What should we celebrate that we haven't named yet?",
+      "textB": "Who has something to celebrate which they haven't made a fuss about?"
+    },
+    {
+      "a": "b1-rb-0113",
+      "b": "b1-fa-curious-new-035",
+      "score": 0.5375,
+      "textA": "Tell us about a friend helping you see a partner more fairly.",
+      "textB": "Have you ever made a friend while helping someone else?"
+    },
+    {
+      "a": "b1-ra-0006",
+      "b": "b1-ra-0860",
+      "score": 0.5362,
+      "textA": "What makes a conversation feel balanced?",
+      "textB": "What makes a conversation with me feel different over the phone?"
+    },
+    {
+      "a": "b1-fb-0131",
+      "b": "b1-lb-0011",
+      "score": 0.5298,
+      "textA": "What do we handle better together?",
+      "textB": "Which kind of uncertainty do you handle better these days?"
+    },
+    {
+      "a": "b1-rb-0863",
+      "b": "b1-fa-curious-friends-053",
+      "score": 0.5294,
+      "textA": "What is the most unfair assumption we make about each other?",
+      "textB": "What's an assumption I still make about your taste?"
+    },
+    {
+      "a": "b1-rb-0101",
+      "b": "b1-la-0702",
+      "score": 0.5284,
+      "textA": "Which relationship opinion would surprise the version of you we first met?",
+      "textB": "Which part of your current routine would surprise the version of you I first met?"
+    },
+    {
+      "a": "b1-ra-0027",
+      "b": "b1-ra-0848",
+      "score": 0.5256,
+      "textA": "What do you enjoy learning about someone's routine?",
+      "textB": "What do you enjoy learning about me from other people?"
+    },
+    {
+      "a": "b1-fa-chill-friends-019",
+      "b": "b1-la-0277",
+      "score": 0.5095,
+      "textA": "What ordinary thing have we somehow never done together?",
+      "textB": "What's an ordinary thing you enjoy seeing me enjoy?"
+    },
+    {
+      "a": "b1-fa-curious-new-033",
+      "b": "b1-la-0731",
+      "score": 0.5086,
+      "textA": "How do friends manage being at different stages of life?",
+      "textB": "Which object you own has travelled through the most different stages of your life?"
+    },
+    {
+      "a": "b1-fa-chill-partner-036",
+      "b": "b1-fb-0005",
+      "score": 0.5065,
+      "textA": "What do you appreciate about how my friends include you?",
+      "textB": "What do you appreciate more in friends these days?"
+    },
+    {
+      "a": "b1-rb-0259",
+      "b": "b1-fa-curious-new-048",
+      "score": 0.5062,
+      "textA": "When have we mistaken an assumption for an agreement?",
+      "textB": "What's a friendship which started through a mistaken assumption?"
+    },
+    {
+      "a": "b1-fa-chill-new-032",
+      "b": "b1-fa-chill-partner-032",
+      "score": 0.5047,
+      "textA": "Do you enjoy meeting your friends' other friends?",
+      "textB": "Would you enjoy meeting friends for breakfast after an early walk?"
+    },
+    {
+      "a": "b1-ra-0270",
+      "b": "b1-fb-0107",
+      "score": 0.5031,
+      "textA": "When did you first feel at home with me?",
+      "textB": "When did you first feel part of this circle?"
+    },
+    {
+      "a": "b1-fa-curious-friends-025",
+      "b": "b1-fa-curious-partner-067",
+      "score": 0.5031,
+      "textA": "What do I know about you which your work friends don't?",
+      "textB": "How do we make gatherings work when some friends don't drink?"
+    },
+    {
+      "a": "b1-ra-0833",
+      "b": "b1-lb-0057",
+      "score": 0.5004,
+      "textA": "Which of our differences do other people misunderstand?",
+      "textB": "Which age do people misunderstand the most?"
+    },
+    {
+      "a": "b1-rb-0457",
+      "b": "b1-fb-0317",
+      "score": 0.4955,
+      "textA": "Would you rather choose the date's activity or let someone surprise you?",
+      "textB": "Would you help a friend choose a first-date outfit or let them surprise you?"
+    },
+    {
+      "a": "b1-ra-0802",
+      "b": "b1-la-0713",
+      "score": 0.4946,
+      "textA": "Which part of my childhood would help you understand me better?",
+      "textB": "Which place from your daily life would help me understand you better?"
+    },
+    {
+      "a": "b1-lb-0202",
+      "b": "b1-lb-0374",
+      "score": 0.4922,
+      "textA": "Which ordinary day together would you happily live again?",
+      "textB": "Which ordinary day would you happily interrupt for good company?"
+    },
+    {
+      "a": "b1-la-0841",
+      "b": "b1-la-0879",
+      "score": 0.4918,
+      "textA": "What's an ordinary problem you'd enjoy researching with me?",
+      "textB": "Which part of our next trip would you enjoy researching yourself?"
+    },
+    {
+      "a": "b1-ra-0827",
+      "b": "b1-lb-0577",
+      "score": 0.488,
+      "textA": "Which of my ambitions would you like to hear more about?",
+      "textB": "What would you like to hear me compliment more often?"
+    },
+    {
+      "a": "b1-ra-0819",
+      "b": "b1-fb-0012",
+      "score": 0.4871,
+      "textA": "What might our friends understand about us differently from how we do?",
+      "textB": "How much should friends understand each other's ambitions?"
+    },
+    {
+      "a": "b1-fb-0293",
+      "b": "b1-fb-0413",
+      "score": 0.4864,
+      "textA": "What if our friend needs help beyond our experience?",
+      "textB": "A friend needs help giving a sincere compliment. What would you tell them?"
+    },
+    {
+      "a": "b1-fa-curious-partner-032",
+      "b": "b1-la-0825",
+      "score": 0.4854,
+      "textA": "Which of my friends has a skill you'd enjoy learning?",
+      "textB": "What's a skill you'd enjoy learning alongside me as complete beginners?"
+    },
+    {
+      "a": "b1-ra-0186",
+      "b": "b1-la-0505",
+      "score": 0.4845,
+      "textA": "Should each partner have a signature dish?",
+      "textB": "What would our signature dish be if presentation counted for nothing?"
+    },
+    {
+      "a": "b1-fa-curious-partner-074",
+      "b": "b1-la-0761",
+      "score": 0.4841,
+      "textA": "Which of our friends has introduced us to the widest range of people?",
+      "textB": "Which ordinary activity has helped you meet the widest range of people?"
+    },
+    {
+      "a": "b1-fa-chill-friends-019",
+      "b": "b1-lb-0501",
+      "score": 0.4824,
+      "textA": "What ordinary thing have we somehow never done together?",
+      "textB": "Which ordinary thing I do still makes you pause and smile?"
+    },
+    {
+      "a": "b1-rb-0259",
+      "b": "b1-rb-0490",
+      "score": 0.4805,
+      "textA": "When have we mistaken an assumption for an agreement?",
+      "textB": "What's your funniest mistaken assumption that someone fancied you?"
+    },
+    {
+      "a": "b1-fa-chill-friends-001",
+      "b": "b1-lb-0325",
+      "score": 0.4805,
+      "textA": "What should become our regular lazy-Sunday activity?",
+      "textB": "How would someone tempt you out on a lazy Sunday?"
+    },
+    {
+      "a": "b1-ra-0080",
+      "b": "b1-ra-0165",
+      "score": 0.4793,
+      "textA": "Would running a small errand together make an enjoyable date?",
+      "textB": "Which class would make an enjoyable date?"
+    },
+    {
+      "a": "b1-la-0068",
+      "b": "b1-la-0840",
+      "score": 0.4774,
+      "textA": "What do you like about the area where you spend most of your time?",
+      "textB": "What have you found out about how you like to spend time alone?"
+    },
+    {
+      "a": "b1-rb-0639",
+      "b": "b1-fa-curious-friends-079",
+      "score": 0.4765,
+      "textA": "Would you date someone who never asks questions back?",
+      "textB": "Which friend asks the questions everyone else was too shy to ask?"
+    },
+    {
+      "a": "b1-fb-0114",
+      "b": "b1-lb-0613",
+      "score": 0.4761,
+      "textA": "What would our younger selves find surprising about us?",
+      "textB": "Should people keep promises to their younger selves?"
+    },
+    {
+      "a": "b1-fa-chill-friends-081",
+      "b": "b1-fa-playful-friends-027",
+      "score": 0.4754,
+      "textA": "When have we been most comfortable doing absolutely nothing?",
+      "textB": "Which of us could look busiest while doing absolutely nothing?"
+    },
+    {
+      "a": "b1-fa-chill-new-003",
+      "b": "b1-fa-chill-new-018",
+      "score": 0.4705,
+      "textA": "Do your closest friends live nearby or far away?",
+      "textB": "How often do you see your closest friends?"
+    },
+    {
+      "a": "b1-fa-chill-partner-070",
+      "b": "b1-fb-0203",
+      "score": 0.4687,
+      "textA": "What's something my friends have taught you about the area?",
+      "textB": "What have friends taught you about loving well?"
+    },
+    {
+      "a": "b1-rb-0623",
+      "b": "b1-lb-0695",
+      "score": 0.467,
+      "textA": "Would you rather hear an uncomfortable truth immediately or after careful timing?",
+      "textB": "Does everyone need to hear an uncomfortable truth about their routine?"
+    },
+    {
+      "a": "b1-fb-0588",
+      "b": "b1-lb-0054",
+      "score": 0.4646,
+      "textA": "What makes you proud to call me your partner among friends?",
+      "textB": "What makes you proud when nobody else notices?"
+    },
+    {
+      "a": "b1-ra-0206",
+      "b": "b1-la-0040",
+      "score": 0.4638,
+      "textA": "Which routine feels most like us?",
+      "textB": "Which routine feels nicer when you do it outdoors?"
+    },
+    {
+      "a": "b1-fa-curious-new-022",
+      "b": "b1-lb-0106",
+      "score": 0.4631,
+      "textA": "Have you ever changed your mind about an interest because of a friend?",
+      "textB": "Where have you quietly changed your mind since we met?"
+    },
+    {
+      "a": "b1-fa-curious-partner-062",
+      "b": "b1-la-0074",
+      "score": 0.4628,
+      "textA": "Which of your friends has helped you understand a place I've never visited?",
+      "textB": "What's a comforting meal from a place you've visited?"
+    },
+    {
+      "a": "b1-ra-0076",
+      "b": "b1-rb-0296",
+      "score": 0.4626,
+      "textA": "How do you prefer someone to remind you about plans?",
+      "textB": "How should we remind ourselves we're on the same side?"
+    },
+    {
+      "a": "b1-fa-curious-friends-062",
+      "b": "b1-la-0801",
+      "score": 0.4622,
+      "textA": "What do you think we understand differently about the same shared memory?",
+      "textB": "Which part of your ordinary day do you think I'd understand differently if I watched it?"
+    },
+    {
+      "a": "b1-rb-0517",
+      "b": "b1-fb-0586",
+      "score": 0.4614,
+      "textA": "What's an affectionate nickname you almost tried on me?",
+      "textB": "Who would invent the most affectionate nickname for our duo?"
+    },
+    {
+      "a": "b1-fa-chill-new-069",
+      "b": "b1-lb-0533",
+      "score": 0.4611,
+      "textA": "What do you like to cook when friends come over?",
+      "textB": "What would you like me to cook while you keep me company?"
+    }
+  ],
+  "note": "Lexical screening flags candidates. It does not prove semantic uniqueness or editorial quality."
+}

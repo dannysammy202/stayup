@@ -1,0 +1,335 @@
+[
+  {
+    "id": "b1-rb-0023",
+    "previousText": "What does emotional generosity mean to you?",
+    "appliedText": "What does a partner giving you time to find the right words communicate to you?",
+    "authorAcceptance": true,
+    "reason": "Abstract emotional-generosity phrasing sounds like a workshop.",
+    "resolutionNote": "Used a distinct alternative to avoid another overlapping premise or strengthen mood fit.",
+    "textHashSHA256": "22d07d0c7fa9139a8019e37e3caa213a52345a75abd6ae9b2085be3f7417ea55"
+  },
+  {
+    "id": "b1-rb-0046",
+    "previousText": "What do people often confuse with intimacy?",
+    "appliedText": "Does sharing daily routines tell you more about a partner than sharing big secrets?",
+    "authorAcceptance": true,
+    "reason": "Broad abstract intimacy wording overlaps closeness/intensity discussion at0011.",
+    "resolutionNote": "Applied peer recommendation.",
+    "textHashSHA256": "ff8f57b8598eb66c6c5687b978c203467a1644cc6658b7bed589788ace6eba32"
+  },
+  {
+    "id": "b1-rb-0051",
+    "previousText": "Listening sometimes helps more than solving. When does this apply in relationships?",
+    "appliedText": "How would you want a partner to respond when your confidence returns after a difficult week?",
+    "authorAcceptance": true,
+    "reason": "Repeats listening-versus-advice premise at0036.",
+    "resolutionNote": "Applied peer recommendation.",
+    "textHashSHA256": "b344b39035aad067cecb9fbfc65bd260d9629ea974d5adcc88b11d929b162072"
+  },
+  {
+    "id": "b1-rb-0066",
+    "previousText": "What does taking someone seriously involve before adding a relationship label?",
+    "appliedText": "Before you call someone your partner, which everyday commitment matters to you?",
+    "authorAcceptance": true,
+    "reason": "Taking someone seriously wording asks an abstract definition.",
+    "resolutionNote": "Applied peer recommendation.",
+    "textHashSHA256": "e92d7faea363eb9d6caaba4cc3c2c210f881ba3dea1fbfeeb710cbb1732b62c3"
+  },
+  {
+    "id": "b1-rb-0094",
+    "previousText": "Which form of effort would you notice but struggle to describe?",
+    "appliedText": "When you're both running late, what does a partner's response reveal about how they see you?",
+    "authorAcceptance": true,
+    "reason": "Vague form-of-effort prompt gives little conversational direction.",
+    "resolutionNote": "Used a distinct alternative to avoid another overlapping premise or strengthen mood fit.",
+    "textHashSHA256": "fc012b9f988f11e3f2d397865ed14a22297caff8fd9de5480128ea4693ef9bea"
+  },
+  {
+    "id": "b1-rb-0123",
+    "previousText": "What restores confidence in your judgement after choosing poorly?",
+    "appliedText": "What helps someone trust their dating judgement again after a disappointment?",
+    "authorAcceptance": true,
+    "reason": "Choosing poorly wording judges past relationship choices.",
+    "resolutionNote": "Applied peer recommendation.",
+    "textHashSHA256": "cc4df18985befe7af151d939a3532b7f6480a870d56b4a4abf7c9aefacad50d9"
+  },
+  {
+    "id": "b1-rb-0162",
+    "previousText": "What does making peace with an unanswered romantic question involve?",
+    "appliedText": "Do you think people always need to understand why a promising date went nowhere?",
+    "authorAcceptance": true,
+    "reason": "Making peace with unanswered romantic question sounds therapeutic.",
+    "resolutionNote": "Applied peer recommendation.",
+    "textHashSHA256": "b827ef94975626ea5e0d03b17dce50cd5241edec19ad4f0062c243bf0dce8f2f"
+  },
+  {
+    "id": "b1-rb-0171",
+    "previousText": "Every dating story doesn't need a villain. Which stories challenge this idea?",
+    "appliedText": "Have you heard a breakup story where neither person seemed like the bad one?",
+    "authorAcceptance": true,
+    "reason": "Opening claim and challenge request point in contradictory directions.",
+    "resolutionNote": "Applied peer recommendation.",
+    "textHashSHA256": "55bf0eb093e23a628f5b524741490cfea4f141ad67e6af98c5a8c3a4141ff888"
+  },
+  {
+    "id": "b1-rb-0180",
+    "previousText": "Which strength have you gained from loving someone imperfectly?",
+    "appliedText": "Has caring for a partner taught you to take a joke less personally?",
+    "authorAcceptance": true,
+    "reason": "Strength gained from loving imperfectly uses abstract counselling language.",
+    "resolutionNote": "Applied peer recommendation.",
+    "textHashSHA256": "304d7f2ebda084b37100ebe139784eaa9de37328a2bb04d5bdb65aee1a8cc0e9"
+  },
+  {
+    "id": "b1-rb-0195",
+    "previousText": "Why might good treatment feel difficult to trust?",
+    "appliedText": "What makes a thoughtful gesture feel natural instead of like someone trying to win points?",
+    "authorAcceptance": true,
+    "reason": "Good treatment difficult to trust invites therapeutic speculation.",
+    "resolutionNote": "Applied peer recommendation.",
+    "textHashSHA256": "22d606d99dd68b43946e7b9d5e2a211ca261db93db8bcfe02176b87af93a10b0"
+  },
+  {
+    "id": "b1-rb-0217",
+    "previousText": "One of us needs extra care for a month. How should we adjust?",
+    "appliedText": "How would you like us to stay close during a month when our working hours barely overlap?",
+    "authorAcceptance": true,
+    "reason": "Same unequal-care month premise as0095, only audience changes.",
+    "resolutionNote": "Applied peer recommendation.",
+    "textHashSHA256": "58ce16f7600bb7b618c7a3164176e8188a5c60c03dddf0d7f49db593d7d2d409"
+  },
+  {
+    "id": "b1-rb-0237",
+    "previousText": "What have we made unnecessarily difficult between us?",
+    "appliedText": "Which task did we enjoy more once we stopped trying to do it together?",
+    "authorAcceptance": true,
+    "reason": "Substantially repeated by0898.",
+    "resolutionNote": "Applied peer recommendation.",
+    "textHashSHA256": "9bad1271b6d478cc14c52de4e3ee44d4fd0057b6ce889afc127a1e5589c3b8c3"
+  },
+  {
+    "id": "b1-rb-0258",
+    "previousText": "What does respecting us involve when neither person is present?",
+    "appliedText": "What would you hope someone remembers about us after seeing us disagree?",
+    "authorAcceptance": true,
+    "reason": "Respecting us when neither present lacks a concrete situation.",
+    "resolutionNote": "Applied peer recommendation.",
+    "textHashSHA256": "440c20bd653eb5f68d698e0709abcb5bf2f6cfa3b3b3f39e0aa5a7b46e7945be"
+  },
+  {
+    "id": "b1-rb-0267",
+    "previousText": "When do we handle each other's vulnerability well?",
+    "appliedText": "When have you told me something awkward and felt glad you did?",
+    "authorAcceptance": true,
+    "reason": "Vulnerability phrasing feels like a therapy worksheet.",
+    "resolutionNote": "Applied peer recommendation.",
+    "textHashSHA256": "2f1fe219745664f30715ee8df314cc4c6ca0aac9f02714b4dce03ae52dfde452"
+  },
+  {
+    "id": "b1-rb-0287",
+    "previousText": "When do you feel I allow your uncertainty?",
+    "appliedText": "What decision would you like more time to think about with me?",
+    "authorAcceptance": true,
+    "reason": "Allow uncertainty wording sounds formal and controlling.",
+    "resolutionNote": "Applied peer recommendation.",
+    "textHashSHA256": "446811d37d2468e3043bfd2bd5dd89504eb6d00f72527f24b95943b3af04e40f"
+  },
+  {
+    "id": "b1-rb-0297",
+    "previousText": "Which part of our connection are you still learning to trust?",
+    "appliedText": "What's something you used to worry about between us that feels easier now?",
+    "authorAcceptance": true,
+    "reason": "Trust-learning phrasing assumes unresolved distrust.",
+    "resolutionNote": "Applied peer recommendation.",
+    "textHashSHA256": "23b9e91f78b1fa7a33d6f1383d2f62f761379c422e94e448a6bc6fdc64af376e"
+  },
+  {
+    "id": "b1-rb-0343",
+    "previousText": "Which sign of good manners makes you notice someone differently?",
+    "appliedText": "A date learns to pronounce your name properly before meeting. How much does that matter?",
+    "authorAcceptance": true,
+    "reason": "Manners increasing attractiveness duplicates small-courtesy premise0306.",
+    "resolutionNote": "Applied peer recommendation.",
+    "textHashSHA256": "a46553f2fd2017a8dfe1cef67a8e8ed334977fc2fb88b07946aad4fef38c831c"
+  },
+  {
+    "id": "b1-rb-0356",
+    "previousText": "What would make you linger at a goodbye?",
+    "appliedText": "Would exchanging favourite photos from a date feel sweet or overly organised?",
+    "authorAcceptance": true,
+    "reason": "Lingering goodbye repeats0396.",
+    "resolutionNote": "Applied peer recommendation.",
+    "textHashSHA256": "89ec68cf9aacd59c2c1c51a9c30930eac5c87b60aad59eb1dbac17be8cf5f768"
+  },
+  {
+    "id": "b1-rb-0367",
+    "previousText": "What's an endearing way someone might reveal a crush accidentally?",
+    "appliedText": "Someone offers to take a photo of you, then admits they wanted an excuse to say hello. Charming?",
+    "authorAcceptance": true,
+    "reason": "Accidental crush reveal repeats harmless giveaway0304.",
+    "resolutionNote": "Used a distinct alternative to avoid another overlapping premise or strengthen mood fit.",
+    "textHashSHA256": "5890a2d0b85e677693d944fdcc9b3b1250bf68ac280face02741bc13a9d1afde"
+  },
+  {
+    "id": "b1-rb-0388",
+    "previousText": "What makes someone easy to picture on a second date?",
+    "appliedText": "Would you enjoy a second date that continues an unfinished conversation from the first?",
+    "authorAcceptance": true,
+    "reason": "General second-date appeal overlaps other second-date attraction prompts.",
+    "resolutionNote": "Applied peer recommendation.",
+    "textHashSHA256": "3e0d9902e1a26c442d3a2650030de2c11e78c2b296eb99b2080d8afaa2964452"
+  },
+  {
+    "id": "b1-rb-0396",
+    "previousText": "What would make you choose a slower goodbye over rushing home?",
+    "appliedText": "Would a short message recalling the funniest moment of a date make you smile the next morning?",
+    "authorAcceptance": true,
+    "reason": "Slow-goodbye premise duplicates0356 original and date-ending0340.",
+    "resolutionNote": "Applied peer recommendation.",
+    "textHashSHA256": "617b159cc3c0eec908922af2322f70c03ff2d7bfbf815124980fa86ec8f174ee"
+  },
+  {
+    "id": "b1-rb-0404",
+    "previousText": "How do you recognise your own 'I fancy them' voice?",
+    "appliedText": "Which harmless subject would you suddenly research because a crush cared about it?",
+    "authorAcceptance": true,
+    "reason": "Fancy-them voice repeats friendships flirty0404.",
+    "resolutionNote": "Used a distinct alternative to avoid another overlapping premise or strengthen mood fit.",
+    "textHashSHA256": "28d8e2c9a7a89bc0d17e530b46985a95d8b8f8921cace9f5a43d11d9ca8f7519"
+  },
+  {
+    "id": "b1-rb-0414",
+    "previousText": "How does your music taste change when you're thinking about someone?",
+    "appliedText": "Would you let a date hear the song you usually skip when friends are around?",
+    "authorAcceptance": true,
+    "reason": "Music-taste crush sign overlaps friendships0415 original.",
+    "resolutionNote": "Applied peer recommendation.",
+    "textHashSHA256": "8c5fdb2b7e22df37c246770bdf2a978a4663ef12ea48729b31cce68513d6022d"
+  },
+  {
+    "id": "b1-rb-0420",
+    "previousText": "How quickly do we notice when you're smiling at your phone?",
+    "appliedText": "What would make you tell us a date had a lovely voice rather than simply saying they were attractive?",
+    "authorAcceptance": true,
+    "reason": "Smiling-phone tell overlaps friendships0418.",
+    "resolutionNote": "Applied peer recommendation.",
+    "textHashSHA256": "b155541c06c85eeef602eca8695838e9155f3d19863236de46cc0459391fbe16"
+  },
+  {
+    "id": "b1-rb-0440",
+    "previousText": "How much pre-date encouragement becomes too much commentary?",
+    "appliedText": "How long before a date should friends stop asking for outfit updates?",
+    "authorAcceptance": true,
+    "reason": "Commentary pep-talk duplicate of friendships0447 original, now revised but wording still awkward.",
+    "resolutionNote": "Applied peer recommendation.",
+    "textHashSHA256": "e411534f4ea29b675d6b77da23abb6bf05af4460c97ac65fc372409a490849fe"
+  },
+  {
+    "id": "b1-rb-0445",
+    "previousText": "We write a fictional romantic advert for you. Which true detail belongs first?",
+    "appliedText": "Which unexpectedly flattering description of you would we struggle to deliver with a straight face?",
+    "authorAcceptance": true,
+    "reason": "Fictional romantic advert overlaps friendships0311 and0405.",
+    "resolutionNote": "Applied peer recommendation.",
+    "textHashSHA256": "c579ed5fcfa7eecf3d02f18a42b4d0eb4e545bb819097d1d40b32abcd64433a8"
+  },
+  {
+    "id": "b1-rb-0475",
+    "previousText": "Your crush asks us what you're like. Which flattering truth should we share?",
+    "appliedText": "Your crush asks what you're secretly good at. What should we mention that you wouldn't bring up?",
+    "authorAcceptance": true,
+    "reason": "Flattering truth to crush overlaps friendships0409 and0368.",
+    "resolutionNote": "Applied peer recommendation.",
+    "textHashSHA256": "bb9df4dde5f71e70e70a789a5c03387b06d703dadca0f68d4af414297e143723"
+  },
+  {
+    "id": "b1-rb-0488",
+    "previousText": "What's the nicest thing a friend has said to boost your romantic confidence?",
+    "appliedText": "A date sends you a photo of something that reminded them of you. What subject would make us understand why?",
+    "authorAcceptance": true,
+    "reason": "Confidence pep-talk overlaps friendships0419 and0423.",
+    "resolutionNote": "Used a distinct alternative to avoid another overlapping premise or strengthen mood fit.",
+    "textHashSHA256": "2da1f1b90f9215a175963bda6b46064f4b266550ea2e72b8fe5d2844d387f268"
+  },
+  {
+    "id": "b1-rb-0542",
+    "previousText": "Which compliment about us as a couple would make you grin?",
+    "appliedText": "Would you enjoy us choosing each other's dessert without looking at the menu together?",
+    "authorAcceptance": true,
+    "reason": "Couple compliment overlaps friendships0520.",
+    "resolutionNote": "Applied peer recommendation.",
+    "textHashSHA256": "999ab9e502aaf4e187ca0303408c3b2b580f1454eeae2e49eadb169fca7ba504"
+  },
+  {
+    "id": "b1-rb-0649",
+    "previousText": "Is 'I'm simply being honest' a defence for harshness?",
+    "appliedText": "Should a date admit they disliked your favourite film, even if you suggested watching it?",
+    "authorAcceptance": true,
+    "reason": "Blunt honesty defence duplicates friendships0613.",
+    "resolutionNote": "Applied peer recommendation.",
+    "textHashSHA256": "12aace96a25aca404f0daf42142e592aff5e45809414ea3b95c6dabf561fb8e5"
+  },
+  {
+    "id": "b1-rb-0680",
+    "previousText": "Is a quiet breakup more mature than a lengthy final discussion?",
+    "appliedText": "Should someone return a borrowed book immediately after a breakup or wait for feelings to settle?",
+    "authorAcceptance": true,
+    "reason": "Brief versus full breakup explanation repeats0660.",
+    "resolutionNote": "Applied peer recommendation.",
+    "textHashSHA256": "f3ac31e70ac8afcb40372013da5c2eb4f165d1873ee0989e595756551be483e5"
+  },
+  {
+    "id": "b1-rb-0817",
+    "previousText": "Do we owe each other access to every private conversation with friends?",
+    "appliedText": "Is withholding news until you feel ready fair if it affects both of our plans?",
+    "authorAcceptance": true,
+    "reason": "Friend-confidences access duplicates friendships0823 and0236.",
+    "resolutionNote": "Used a distinct alternative to avoid another overlapping premise or strengthen mood fit.",
+    "textHashSHA256": "ef365ef4919016fe0de42465ba313fb5cdc5d9ce5cb2b138d9e8f52c7fe965f2"
+  },
+  {
+    "id": "b1-rb-0818",
+    "previousText": "Which boundary would you like me to respect without debating it?",
+    "appliedText": "Should either of us cancel a joint booking when the other hasn't answered in time?",
+    "authorAcceptance": true,
+    "reason": "Boundary without debate duplicates friendships0798.",
+    "resolutionNote": "Used a distinct alternative to avoid another overlapping premise or strengthen mood fit.",
+    "textHashSHA256": "4843bb5d0bcec0d3ab8322f72e52b1421976446776c2fb5d460dbd7b58637a94"
+  },
+  {
+    "id": "b1-rb-0844",
+    "previousText": "Which social obligation should we stop accepting as a couple?",
+    "appliedText": "What outside expectation makes us spend money neither of us wants to spend?",
+    "authorAcceptance": true,
+    "reason": "Social-obligation acceptance duplicates friendships0804 original, revised already.",
+    "resolutionNote": "Applied peer recommendation.",
+    "textHashSHA256": "22b254af2ab93aa2ff26862483bac353d230f744b3bdc0bcdd1c0d7632bea2de"
+  },
+  {
+    "id": "b1-rb-0886",
+    "previousText": "What would a fair division of emotional effort look like this week?",
+    "appliedText": "Who usually starts our difficult conversations, and should we take turns more often?",
+    "authorAcceptance": true,
+    "reason": "Fair division of emotional effort sounds like a counselling worksheet.",
+    "resolutionNote": "Applied peer recommendation.",
+    "textHashSHA256": "f73b468cd4f833e9212db9c3f7f85b0d8433388b77cdc8dd939a1174918f1b3e"
+  },
+  {
+    "id": "b1-rb-0888",
+    "previousText": "Which unspoken competition between us deserves naming?",
+    "appliedText": "Do we ever turn helping each other into trying to prove who knows better?",
+    "authorAcceptance": true,
+    "reason": "Assumes hidden competition exists.",
+    "resolutionNote": "Applied peer recommendation.",
+    "textHashSHA256": "ec1fdfcc58123c0a07a5d7284101969c6ed034521a473676a6c8090fafde398a"
+  },
+  {
+    "id": "b1-rb-0894",
+    "previousText": "Which comfortable pattern might be limiting our relationship?",
+    "appliedText": "Has always choosing the easiest evening plan made our time together less interesting?",
+    "authorAcceptance": true,
+    "reason": "Vague limiting-pattern formulation.",
+    "resolutionNote": "Applied peer recommendation.",
+    "textHashSHA256": "6688929dc59d370bdd82e177cba3016acc1cfb5ce2594bc9eb18d047d4c589e0"
+  }
+]
