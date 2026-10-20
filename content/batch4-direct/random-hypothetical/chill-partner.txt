@@ -1,6 +1,6 @@
 S We're given a small house by the beach for a year. What does our daily routine look like?
 S Time stops for one afternoon and only we can move. What do we do with it?
-Q If our relationship were a type of weather, what would it be today?
+Q If our relationship were today's Lagos weather, what would it be?
 S We can wake up anywhere in the world tomorrow morning. Where do you choose?
 C Live in a treehouse or a houseboat on the lagoon for a few months?
 S A friendly genie gives us one quiet wish to share. What do we ask for?
@@ -73,7 +73,7 @@ Q If our relationship were a flower, which one would it be?
 S We can teleport home from anywhere instantly. Where do we go on our next evening off?
 Q If we had a secret handshake, what would it look like?
 S A mysterious letter invites us to a quiet village festival. What do we find there?
-Q If our home had a theme tune, what would it be?
+Q If our home had a theme song, which Nigerian classic would it be?
 C A cosy harmattan at home or an endless December abroad?
 S We're given an old caravan to turn into anything. What does it become?
 Q If you could hear our future selves laughing about one thing, what would it be?

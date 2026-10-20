@@ -50,7 +50,7 @@ S You've been given a love potion but must use it on someone in this room. Do yo
 Q If you could plan our second date before the first one ends, what would it be?
 C Walk along a beach at midnight or watch the sunrise from a hill?
 S We're both taking a cooking class and must feed each other our dishes. Who's braver?
-Q If I were a holiday destination, what would the brochure say?
+Q If I were a holiday destination in Nigeria, what would the brochure say?
 S A mysterious note arrives saying "they like you". What do you do?
 Q If you had to describe me in one colour, which would you pick?
 S We have to pretend to be a couple for a whole evening. How convincing are we?
