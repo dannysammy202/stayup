@@ -1,6 +1,6 @@
-Q Would you move country for my career?
+Q Would you relocate abroad for my career?
 Q What's a future plan of mine you secretly disagree with?
-H Couples should agree on the big future questions before they move in together.
+H Couples should agree on the big future questions before the introduction.
 Q Do you want children, and how sure are you?
 Q Would you put your career on hold for our family?
 Q What's a deal-breaker about our future that we've never discussed?
@@ -30,16 +30,16 @@ Q Would you be willing to live apart for a while for a big opportunity?
 Q Do you think my ambitions put pressure on you?
 S We disagree about where to raise a family. How do we decide?
 Q What's a goal of yours you think I'll hold back?
-Q How would you feel if I wanted to go back to university at forty?
+Q How would you feel if I wanted to go back to school for a master's at forty?
 Q Do you think we're too comfortable to chase our dreams?
 C Take a risky opportunity together or keep our steady life?
 Q What would you do if our financial goals didn't match?
 Q Do you think we'd survive a big career failure?
 T Tell me about a dream you've shelved because of us.
 Q Would you support me quitting my job to start something new?
-Q How do you feel about the idea of us retiring abroad?
+Q How do you feel about the idea of us retiring abroad or back in the village?
 H A strong couple can say "your dream scares me" without ending the conversation.
-Q What future expectation of my family's worries you?
+Q Which expectation from my family about our future worries you?
 Q Do you think one of us will have to compromise more?
 Q Would you be honest if you no longer wanted the same things?
 S Ten years from now we've drifted towards different goals. What do we do?
@@ -61,11 +61,11 @@ C Grow our careers aggressively now or slow down and enjoy our twenties or thirt
 Q Do you think I'll be a difficult person to grow old with?
 T Tell me about the future argument you think we're avoiding.
 Q Would you want to know if I was unhappy with our direction?
-Q How do you feel about splitting chores and childcare in the future?
+Q How do you feel about splitting chores and childcare in the future, with or without a nanny?
 H Being on the same team means saying the uncomfortable things early.
 Q What would make you feel trapped in our future?
 Q Do you think we want the same level of adventure?
-Q Would you move for my family if they needed us?
+Q Would you relocate to be near my family if they needed us?
 S Your career takes off and mine stalls. How do you hope we handle it?
 Q What's a future boundary you want me to respect?
 Q Do you think we spend money in a way that matches our goals?

@@ -6,23 +6,23 @@ Q What's an experience that changed one of your opinions?
 Q How did you first get into the work you do now?
 T Tell me about a time you had to learn something quickly under pressure.
 Q What's the hardest skill you've ever learned?
-Q Which trip changed the way you see the world?
+Q Which trip, in Nigeria or abroad, changed the way you see the world?
 Q What's an experience you had that most people never get to have?
 Q How did your first job compare with what you expected?
 Q What's a moment when you surprised yourself?
 S You can interview your younger self about one experience. Which do you choose?
-Q What did you learn from your first time living away from family?
+Q What did you learn from your first time living away from family, in the hostel, NYSC or a new city?
 Q What gamble with your time turned out to be worth it?
 Q Which book or film came into your life at a turning point?
 Q What's a mistake that ended up teaching you something valuable?
 T Tell me about a person who changed your life without realising it.
-Q How did you choose what to study?
+Q How did you choose what to study, or did your parents choose for you?
 Q What's taught you to wait for things you really want?
 Q Which conversation changed the way you think?
 Q What's something you've done that you once thought was impossible for you?
 H You learn more from one bad job than from five good ones.
-Q How has travelling changed your daily habits?
-Q What's a piece of wisdom an older colleague or relative gave you that you still use?
+Q How has living in different states changed your daily habits?
+Q What wisdom did an older colleague, aunty or uncle give you that you still use?
 Q What experience gave you the most confidence?
 Q Which of your experiences would surprise people who know you only professionally?
 T Tell me about a time you got completely out of your comfort zone.
@@ -34,7 +34,7 @@ C Learn by trying and failing or by watching and planning?
 Q What's the best lesson a boss or manager taught you?
 Q Which experience changed your idea of success?
 T Tell me about the first time you had to stand up for yourself.
-Q What's a country or city that challenged your assumptions?
+Q Which city challenged your assumptions the most when you moved there?
 Q How did your hobbies change as you got older?
 Q What's an experience that made you more open-minded?
 Q Which competition or performance taught you the most?
@@ -43,29 +43,29 @@ Q What's the most useful thing you learned outside school?
 Q How did you handle your first big setback?
 Q What's an experience that made you change career plans?
 T Tell me about the most memorable lesson you learned from a stranger.
-Q What's the biggest cultural shock you've experienced?
+Q What's the biggest culture shock you've had moving to a new place?
 Q Which experience taught you to trust your instincts?
 Q What's a habit you built after a difficult experience?
 Q How did you discover something you're passionate about?
 H Experiences shape us more than achievements do.
 Q Was there a moment that made you rethink how much time you spend online?
 Q Which mentor or role model have you had, and how did you meet them?
-Q What's the most interesting volunteer or community experience you've had?
+Q What's the most interesting volunteer or community experience you've had, at church, the mosque or CDS?
 T Tell me about a time you had to rebuild from scratch.
 Q How has your sense of humour changed with experience?
-Q What's a job interview you'll never forget?
+Q Which job interview will you never forget?
 Q Which experience made you more independent?
 C Plan every detail of a new experience or go in knowing nothing?
 Q What's an experience that made you feel part of something bigger?
-Q How did you learn to cook, if you did?
+Q Who taught you to cook, your mum, an aunty or YouTube?
 Q What's a moment when your plans changed completely overnight?
 T Tell me about a project you worked on that you're still proud of.
 Q Which experience taught you how to handle criticism?
 Q What's the most interesting place you've worked, and why?
-Q How did you make friends when you moved somewhere new?
+Q How did you make friends when you moved to a new city?
 Q What's an experience that changed what you value in people?
 S You can spend a week shadowing anyone's job. Based on your experiences, whose do you pick?
-Q What's an accident or near miss that changed your outlook?
+Q What near miss on the road or in life changed your outlook?
 Q Which experience made you better at communicating?
 Q What's a skill you learned from a hobby that helped you at work?
 T Tell me about a moment you realised you were good at something.
@@ -80,14 +80,14 @@ T Tell me about the strangest place you've had a meaningful conversation.
 Q Which experience made you more curious about other people?
 Q What's an experience you'd like to understand better looking back?
 Q How did your first experience of responsibility shape you?
-C Learn a new language abroad or learn a craft from a master locally?
+C Learn a new language abroad or learn a craft from a master in your hometown?
 Q What's an experience that made you braver?
 Q Which job or experience taught you to work in a team?
 Q Who did you completely misjudge at first?
 T Tell me about something that happened that you still can't fully explain.
 Q How did you first realise what you didn't want in life?
 Q What's an unexpected experience that led to a new friendship?
-Q Which experience gave you a new appreciation for your parents?
+Q Which experience gave you a new appreciation for your parents and what they went through?
 S You get to redo one experience with what you know now. Which one?
 Q Which friendship with someone much younger or older taught you the most?
 Q How has the way you spend free time changed with your experiences?
@@ -96,5 +96,5 @@ Q Which activity have you always said "one day" about?
 Q What's the most interesting experience you've had this year?
 Q How do you usually reflect on big experiences after they happen?
 Q Which book, class or course arrived in your life at just the right time?
-Q What made you choose your current neighbourhood?
+Q What made you choose the area you live in now?
 Q What's the first thing you'd tell someone starting the job you had first?

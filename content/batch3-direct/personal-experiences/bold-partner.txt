@@ -16,14 +16,14 @@ S We're having a no-judgement night where we answer anything about our pasts. Wh
 Q What's a lie you've told me, even a small one?
 Q Which of my friends do you think was a bad influence on me?
 Q Have you ever felt I put work before you?
-H The hardest conversations in a relationship are usually about money and family.
+H The hardest conversations in a marriage are usually about money and in-laws.
 Q What's an experience from your past that you think explains our biggest disagreement?
 T Tell me about an argument where you think I heard your words but missed your point.
 Q Have you ever compared me to an ex?
 Q What's a mistake you made in a past relationship that you're determined not to repeat?
 Q Which of our holidays was secretly the worst for you?
 C Talk about our biggest fight or our biggest fear tonight?
-Q What's something about my family you've found hard to deal with?
+Q What about my family have you found hard to deal with?
 Q Have you ever been tempted to give up on us?
 Q What's a time you felt I was unfair to you?
 T Tell me about the moment you felt most disrespected by me.
@@ -32,7 +32,7 @@ Q Have you ever regretted something you said during an argument?
 Q What's a need you've stopped asking me to meet?
 S We each have to name one experience from our relationship we'd erase. What's yours?
 Q What's a time you felt I took you for granted?
-Q Was there a season when you felt more like my flatmate than my partner?
+Q Was there a season when you felt more like my housemate than my partner?
 H Love isn't measured by how little you fight but by how well you repair.
 Q Which of my past experiences do you think makes me hard to live with?
 T Tell me about a time I disappointed you more than I realised.
@@ -67,7 +67,7 @@ Q Have you ever felt pressured by me to change?
 H Partners should know each other's darkest chapters, not just their highlights.
 Q Which of my excuses have you stopped believing?
 T Tell me about something you've been holding on to that I need to hear.
-Q Have you ever been relieved when I went away for a few days?
+Q Have you ever been relieved when I travelled for a few days?
 Q What's a promise I've broken that still matters to you?
 Q Which of my past choices do you worry I'll repeat?
 C Fight fair with rules or let it all out and make up?

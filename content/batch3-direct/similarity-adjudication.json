@@ -6300,6 +6300,1546 @@
    "decision": "distinct",
    "reason": "Read individually after the rewrite passes: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
    "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/bold-partner:82",
+   "b": "personal-experiences/bold-someone-new:23",
+   "textHashA": "7bce5bcdfbfd1b44ca2b174e63a9914b628686827625ef7acf3b1f87e5eabc51",
+   "textHashB": "eadd6879f25ffeae681ac637c31e78454a5f66a64e72ddd765e788d5e8099564",
+   "score": 0.7823,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/bold-partner:82",
+   "b": "personal-experiences/bold-friends:21",
+   "textHashA": "7bce5bcdfbfd1b44ca2b174e63a9914b628686827625ef7acf3b1f87e5eabc51",
+   "textHashB": "d82dc84797703bc720d2f89271e17d978d86be1e739d3a12e716d26731af96b5",
+   "score": 0.7662,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/chill-friends:52",
+   "b": "culture/playful-partner:21",
+   "textHashA": "4d402ed849c976963588c5252e916596a50d295f633ca932d24e58350940abad",
+   "textHashB": "b81431baa8140a9f4022d09403bad7f2816020747fdb0d692c3c5f7cfcd0db06",
+   "score": 0.7469,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/curious-partner:53",
+   "b": "culture/deep-friends:77",
+   "textHashA": "1342cfcc9710f2ccb0a9b6ffda8be213081d0ed25487c498cc6c77378e4cdea6",
+   "textHashB": "4a198d9fa06f496991172e8d24ca442f920ecc809876010224f2006331403bc0",
+   "score": 0.703,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "personal-experiences/chill-friends:40",
+   "b": "personal-experiences/chill-partner:31",
+   "textHashA": "c97dc1149ecda61a1855311f97aa4e536dc5d69cf8d0753f7a0e4fd353bc045f",
+   "textHashB": "d24fc43cb308b9870421b3453ff810d96c3b5028ffb7d554a16227b49f9806c7",
+   "score": 0.6983,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/flirty-partner:36",
+   "b": "future-ambitions/flirty-friends:32",
+   "textHashA": "5ae3a6bd87d485b276595237686e8524b2bdafa72ee6464b7b05c8a6cb590354",
+   "textHashB": "79c65180ee0e7555e86fc68cfbe0589a9cfff9e15aea2f8fecd914ee1e7589d9",
+   "score": 0.698,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "personal-experiences/chill-someone-new:13",
+   "b": "personal-experiences/curious-someone-new:65",
+   "textHashA": "4f669eea8645fe380b2201921688edafa9232368074c263b2eafd9eca7c2043c",
+   "textHashB": "ab06c2b0cbabbfb72f000ef833f70b72525c5d0c9474a532ddbe4c7f68991e52",
+   "score": 0.6882,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/bold-friends:6",
+   "b": "culture/bold-partner:4",
+   "textHashA": "cf84a487d58a4d13b5c1b571d997148ddd5c518535bd0bd9c8d23ea1eb39597d",
+   "textHashB": "1c84e3cdc2e820e486f0732330942988bd55611c2a339e15ac2cdacad6a6ab77",
+   "score": 0.6859,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/curious-friends:32",
+   "b": "culture/curious-partner:18",
+   "textHashA": "a5a46be66d702b9c1402edc1947a95a5a71d4d6050833209d8d83768a1159315",
+   "textHashB": "936c1ac6f5268d0b1c4f15d17a126789a10e3346c0ec0bb5da4e9d0da93e89e7",
+   "score": 0.6841,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/bold-friends:52",
+   "b": "personal-experiences/bold-friends:11",
+   "textHashA": "c2d5eda32300e9d39e3e4b345eda168c401fe23a03e0d4c9ab8f2c0ee87b1396",
+   "textHashB": "6c8ed88f3913c18078fdd65b9af3bf5d5fbaa464939a8e941056dc9d40d7f943",
+   "score": 0.6678,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/playful-someone-new:42",
+   "b": "future-ambitions/chill-friends:78",
+   "textHashA": "33a9169d5e6757a4444c8a38ec605f2a3b69032d133cdcdc541d87179e95e07f",
+   "textHashB": "60e49f78ea4a51569e660ddf4d9bea746442652a1a0e12fa6b824cc1c6045336",
+   "score": 0.6632,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "personal-experiences/playful-partner:4",
+   "b": "personal-experiences/playful-someone-new:33",
+   "textHashA": "1f5d08e85298c38d8c19ba1641707f79292b3a3166e08d571b87f57952c41f72",
+   "textHashB": "4605686a10572b56197a866f6e132cda39e8cfac400d316ab8797e479d5de962",
+   "score": 0.6597,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/chill-someone-new:64",
+   "b": "culture/deep-someone-new:17",
+   "textHashA": "70386ce8f6fea4c5b42dca88783776d1b1d2f786cfc9f7faae9fb477b446edb3",
+   "textHashB": "54431272791723f30160e168046136e043554d58077fc3fb3218241167934e56",
+   "score": 0.6579,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "future-ambitions/deep-someone-new:68",
+   "b": "b1-la-0840",
+   "textHashA": "6c8c3d2b99108abff53506ba4b139e47d9870bd000d44b9748047e8987af946d",
+   "textHashB": "1d2e96720526b47f8840d19ccfdfdd1710fc96ef8aad3a1bec145f442ed9985f",
+   "score": 0.6481,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "future-ambitions/chill-friends:45",
+   "b": "future-ambitions/playful-someone-new:7",
+   "textHashA": "2d97d57d2283ae54c0f7aa9be921a46ddf10bfe6dd53e71c7b1236edae953954",
+   "textHashB": "6e8abdc0d8705cec20e3267dccc8dd9a523157bba1b6abe002a69eb931b1c0bc",
+   "score": 0.6439,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/bold-someone-new:10",
+   "b": "future-ambitions/bold-someone-new:92",
+   "textHashA": "3ec5702467725eb4cacb661c4fc40282382bcce7181138d69b2fc271a40ed345",
+   "textHashB": "950023e072835287ba081ce2fe9b07e079dab8dda4cf8460b858ef8ebd3ad76c",
+   "score": 0.6419,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/curious-partner:9",
+   "b": "culture/curious-partner:88",
+   "textHashA": "0a4a74ed3f16a05f273b40d20221ae6f8232ed084c7464e7032d7590ccb9c35a",
+   "textHashB": "847462c2b9070c0bb4f25357a6dc662479f515b7efae8cff3f09880bed6869fe",
+   "score": 0.6409,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/deep-partner:67",
+   "b": "culture/deep-someone-new:74",
+   "textHashA": "f6d0493104bef2bbae68eab720508b57e400f01e84459cbd0fbbd677ef41e90a",
+   "textHashB": "9644a514c8f8911490b12b9ce9749f6d158e6e4d9b303b350378f5cc9b380285",
+   "score": 0.6363,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "personal-experiences/chill-someone-new:96",
+   "b": "personal-experiences/flirty-someone-new:22",
+   "textHashA": "63fc0196c201c842c6b32f13d1e0d33d61ddc52fc5e7b33fb8b452b81a5876d2",
+   "textHashB": "67e985b303f3e42b2d2d00f7b2517d362df9c6a05679cdefc85fd66d7da9a1a5",
+   "score": 0.6332,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/flirty-someone-new:69",
+   "b": "personal-experiences/flirty-someone-new:83",
+   "textHashA": "f4eb93b389e558a0ee33e64fc7072f37b796227a7b2c32fe2b29d80e29cc6da0",
+   "textHashB": "e1ece1d818057602acea9806ecbd806ab589dede18e8ab033d165af7884aa280",
+   "score": 0.6305,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/flirty-partner:35",
+   "b": "culture/flirty-someone-new:38",
+   "textHashA": "7c98b1f13f19bdbbd17cbc8145e2da390c4cd8d68913650ae428bf6a2dca22c5",
+   "textHashB": "821d55548bff54d12b9b26fa892314f6d556259b493bf913db8d37cb0d54ee4c",
+   "score": 0.6221,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/chill-partner:22",
+   "b": "future-ambitions/chill-partner:78",
+   "textHashA": "6d67462a2dc028ff2f4179443e50741afc06325fa04885d45fff8bf93c7c170e",
+   "textHashB": "04606e200e16ea1daa5c5c3f4321252c5ae0b2aeebbba5de6344bf3326c7e1f6",
+   "score": 0.6132,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "future-ambitions/chill-friends:45",
+   "b": "future-ambitions/curious-friends:36",
+   "textHashA": "2d97d57d2283ae54c0f7aa9be921a46ddf10bfe6dd53e71c7b1236edae953954",
+   "textHashB": "8b9f0b5884c014dd794dd4b2cc3361926e554a6b6f99cbd738a4a94e4a0c5909",
+   "score": 0.6118,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/chill-friends:81",
+   "b": "personal-experiences/chill-someone-new:17",
+   "textHashA": "69274f9187484d301a5ac5b62803f1df30851de8d25c106628621d46bc44a8ad",
+   "textHashB": "6b606f9fecab7c634e659d4256be5c1529627713b3fab1b8832c8eb30bc87475",
+   "score": 0.61,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/chill-friends:58",
+   "b": "culture/playful-partner:69",
+   "textHashA": "7b4d0e646a56c912c23ad1691e7802c5f5f91239e7eafd916a11b57f0f3ad921",
+   "textHashB": "f1fca2f8c0c05147cc94d6030cd12d82406eec6eec83d2caeb18c416554d99d1",
+   "score": 0.6033,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/bold-partner:35",
+   "b": "culture/deep-partner:12",
+   "textHashA": "b7710b7f512f6e04c72c52ca835c94615580963d8e2885a0efbdaa3c9441262f",
+   "textHashB": "2980750d1a48a8621aea702f81aa8e6cacd3060b5d193913c9f4a7b888fb92c1",
+   "score": 0.6012,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "future-ambitions/curious-friends:17",
+   "b": "future-ambitions/flirty-someone-new:79",
+   "textHashA": "ffa02e97a8e7662a0052f3916aabc5478273d472723e5a1d763fbefde0e72494",
+   "textHashB": "308a17e89aeb130d1d797260ad1abb44e2f3d5a7340dc8aace4e119212a61f64",
+   "score": 0.597,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/chill-friends:41",
+   "b": "culture/flirty-someone-new:44",
+   "textHashA": "cbe992aaf8592f3d70945a6bb1bedabbf7daa98ffc2da4e34ad6e1b54922dbb4",
+   "textHashB": "96c5f10adf0e607aef2d0d19df89f31a1edf26d84de6b265b9102000ff9c53fc",
+   "score": 0.596,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/flirty-partner:60",
+   "b": "culture/playful-partner:30",
+   "textHashA": "c2f3383776cdbea593d682a73f0507fe8c033820928c429444c6ae2ff924ba4e",
+   "textHashB": "4300536635de5c48e3fd5d9757211e8803341f036cae99653e877cb3b7fbf990",
+   "score": 0.5948,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/playful-friends:61",
+   "b": "culture/playful-partner:76",
+   "textHashA": "55da55d7e30e77d77084e145af2090de5b2f6c739df804952289564f49db22f0",
+   "textHashB": "f73a91f74a3a2b3862c238baa6680d416489e20c819ebf20bb4427bd825a9a83",
+   "score": 0.5919,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/chill-partner:55",
+   "b": "culture/chill-someone-new:60",
+   "textHashA": "bbf51680b289a4c2d2ff9a9781345fff98690a82a3d4b470f5d997a39d9cfbd0",
+   "textHashB": "fba5fa76d3e500927039064b41ef60911242a65565c95320c9ad0e0140ca91f1",
+   "score": 0.5831,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "future-ambitions/flirty-someone-new:47",
+   "b": "personal-experiences/chill-someone-new:17",
+   "textHashA": "750ccf22186050116c23efbcbc24c24137f247ee4acd372beca92039d2f385a2",
+   "textHashB": "6b606f9fecab7c634e659d4256be5c1529627713b3fab1b8832c8eb30bc87475",
+   "score": 0.5821,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "personal-experiences/chill-friends:52",
+   "b": "personal-experiences/chill-partner:70",
+   "textHashA": "d1d46b5b9dffad2aa4e2116879ba8d88133d85c4ce16db3b15034754ef5fec28",
+   "textHashB": "edc4af2381a5863d0fc1d713695a2dd38e48aeb039dc37b1447392302afc7019",
+   "score": 0.5804,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/deep-someone-new:58",
+   "b": "b1-fb-0137",
+   "textHashA": "8e1d280cd6b4ae6fa41b4fdb26c3639ed3b840e6ead757e15f00019d2ae6c9e4",
+   "textHashB": "2c4c03457308e55cfd60cd65a40b662f15d4e70b79ea14c54403db8816b55062",
+   "score": 0.5799,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/curious-someone-new:95",
+   "b": "future-ambitions/chill-friends:93",
+   "textHashA": "b74f773a6a03223692c56f760abce68212d45bc8252f6436df4974d86b9f82fb",
+   "textHashB": "e365a8331f75f577bd4c756a26c513df94d7610a7b64eaf02ac776755e14724e",
+   "score": 0.5763,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "personal-experiences/flirty-friends:13",
+   "b": "personal-experiences/flirty-someone-new:16",
+   "textHashA": "32a9514d9143f817b9b7c5d00b4d09634c3d1ce0a5c2dc651315264a94c577c5",
+   "textHashB": "ad3239cdcd2b747619dd422cd55dcf123982bcac37d60050fe52597b2a9dff83",
+   "score": 0.573,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/playful-partner:77",
+   "b": "personal-experiences/bold-someone-new:44",
+   "textHashA": "9e3371b38d1f7df1de2be684d5896bc4a86328cc74c2168af205ee1ed33624db",
+   "textHashB": "060535e89f8a2a65b76e202d86e262984d30c1424dfe91d9b625b3137f4d8fd7",
+   "score": 0.572,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/playful-partner:28",
+   "b": "b1-lb-0732",
+   "textHashA": "8149db9e164880f0474053eb665bd5da29f02a98a7280a55d4c39d1c3af588c4",
+   "textHashB": "511b08542bac2e92a890e0e2ab33b910cf6446f88792511db05b505a5946700c",
+   "score": 0.5669,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "future-ambitions/chill-partner:16",
+   "b": "future-ambitions/chill-someone-new:73",
+   "textHashA": "4566d62a4b23aec20077611f29b3ac230fe3d657f7e9a152936ca30d29ea7471",
+   "textHashB": "8826e7a5a62234c0fd15a113d9831fff04dcdbcdd7e8c0a53b6d4e46dc53e9d4",
+   "score": 0.5608,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "personal-experiences/chill-someone-new:78",
+   "b": "b1-lb-0103",
+   "textHashA": "6a6343adc6401e11885ec2be6258e0fb77faac6b85fde3e742166b9fe2c6438c",
+   "textHashB": "bbe408d93b98b814faf4177d5963ba09fd7b43f5007e3955c5d8dfb537107637",
+   "score": 0.5605,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "future-ambitions/chill-someone-new:52",
+   "b": "future-ambitions/flirty-someone-new:62",
+   "textHashA": "cba36dbf179810e95b6e10e9554772eacc2b60971376acfe81392180a51a0e17",
+   "textHashB": "f424426609602992837dcbfe4beb82fd2985441b57e2680d2dffacd35f67d197",
+   "score": 0.5567,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/deep-friends:62",
+   "b": "b1-fb-0131",
+   "textHashA": "eff0a629884b8f13ae0790ac70eb708e8bb3c53476ddb5c2036a0a4bd5c675e4",
+   "textHashB": "e139edb2db5859ae2c48f7f7151155eee7a28d815c6130b39c7fcc98d1ddccd9",
+   "score": 0.5535,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/chill-friends:52",
+   "b": "culture/chill-someone-new:20",
+   "textHashA": "4d402ed849c976963588c5252e916596a50d295f633ca932d24e58350940abad",
+   "textHashB": "cc977045590fa4d10a18025bcdf90dbdb6f50cb637083b767191337905141576",
+   "score": 0.552,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/curious-friends:23",
+   "b": "culture/deep-friends:9",
+   "textHashA": "335b2b4c256559fdac54cded02345654745ec988ff77581222883a64e1b58a59",
+   "textHashB": "ce5e9bc74abb8782eb495a144496337a21ce01af19084e070dca7f42d3dd167c",
+   "score": 0.5518,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/flirty-partner:40",
+   "b": "personal-experiences/deep-partner:58",
+   "textHashA": "4bd90906acbab36bd637278700ee16309b5bf09f726dff0f4216179aeb218cc7",
+   "textHashB": "99301fd43d490411b0a8644d9f956158d77fd9038472c9e8e47ac12a838ca1b2",
+   "score": 0.5518,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/chill-partner:53",
+   "b": "culture/flirty-friends:78",
+   "textHashA": "725c82161d98f060ef94d06d41f0f1aa45bd175c0913fc3729a58ec67ae334d2",
+   "textHashB": "fba28518a210952b48f483719713905d37789316ba4bf8398d4d60b542ce4713",
+   "score": 0.5451,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/chill-partner:19",
+   "b": "culture/flirty-friends:2",
+   "textHashA": "30a7e39f441a741f19a9aa8a307777c5b2a528e0d33c47d137e74c5b2cd2890f",
+   "textHashB": "a235a82f8ab2547c491f9cf3ef19b4a912700401b209c9086d188a4294b02f42",
+   "score": 0.5431,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/curious-friends:53",
+   "b": "b1-la-0704",
+   "textHashA": "f23fb6ea510fd6d03fed2adb043f0c3002e7a4525dbb015f9825123208dfb81e",
+   "textHashB": "be6492811892ececbfe9d653ab5942c7bf1a8c6e0c713fb6c769867f1235f28b",
+   "score": 0.5428,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/chill-friends:33",
+   "b": "culture/chill-partner:28",
+   "textHashA": "ca3df83ed0ea633231ae45feccc523904ffba3f6f38cc2ac3312ed273973d905",
+   "textHashB": "573de98847bf32e0510ffa6c99dfd226a2b2c73970a3ce89671cfa06c12b2775",
+   "score": 0.5392,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "personal-experiences/chill-partner:53",
+   "b": "personal-experiences/chill-someone-new:59",
+   "textHashA": "bd215b135011ecff228e89f175459a57450def4d16c0681f079a02f3c51ee763",
+   "textHashB": "4b4a4c4a95658726a398cada40b3d53826be52e0078f6197a012218ee83668cd",
+   "score": 0.5363,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/playful-friends:88",
+   "b": "personal-experiences/playful-friends:76",
+   "textHashA": "b97c1f9fa85d019c652e77b8025e47390665885744644dbcc877bdbec34a15d1",
+   "textHashB": "21eabd437356b8ef4946908a78d4132bf7a121d6cbdc308bf9eecf4167092798",
+   "score": 0.5359,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/chill-someone-new:45",
+   "b": "b1-la-0683",
+   "textHashA": "74a240967c63b0dd10814a04ea4b3bb788f2cb62e0f65d2cf04fd28ccce41e79",
+   "textHashB": "455fbc371b2e73d3a927dcd007de8528e21d39920c3862ced5e35df25a1dc382",
+   "score": 0.5356,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "future-ambitions/chill-friends:78",
+   "b": "personal-experiences/curious-someone-new:83",
+   "textHashA": "60e49f78ea4a51569e660ddf4d9bea746442652a1a0e12fa6b824cc1c6045336",
+   "textHashB": "e683b1c8523511b23b2facba59966fe9b5b0257c9060266ef95aa86f8a588e77",
+   "score": 0.5354,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/curious-friends:5",
+   "b": "b1-la-0720",
+   "textHashA": "bae4644679e6262a986ab2015feb42e3d7e7c3822604cfb1aa7421e9437e000b",
+   "textHashB": "221f2b36584af20df5d9a65184676d913f8f85c0d5aab3ef35706c2363a838e5",
+   "score": 0.535,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/chill-partner:32",
+   "b": "future-ambitions/flirty-partner:46",
+   "textHashA": "07d54023d29988265b2a3875a5de5b82df182add714bca5ee7e7a3de317d26cc",
+   "textHashB": "9db65bd2f9baf82387ebdbf6915140514d6157996fc40c61c1bb40f3b0e0b0e0",
+   "score": 0.5345,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/deep-friends:78",
+   "b": "future-ambitions/deep-friends:55",
+   "textHashA": "964cdc28c263bbda737ab491806ef5641bf340045cbcdbf410bdf685adf8acec",
+   "textHashB": "b5df50f836c6d0037169a11adde3044fbb61b8e05c12d7ccd74363188997a350",
+   "score": 0.5338,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/deep-partner:21",
+   "b": "culture/deep-someone-new:73",
+   "textHashA": "2b43f937a866d6c204ce2ddb96ba91f1a4e506ea769e801fccdbb02fc6ff9870",
+   "textHashB": "544e75d028f1dc88ef352a578659eba6c040ecc900c98447c1f12bc9011e98fb",
+   "score": 0.5328,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/playful-partner:37",
+   "b": "personal-experiences/playful-someone-new:49",
+   "textHashA": "a37a143a0b0e8bd267d2c8383a545b6c0a560c1a26e2ce53d0cc6887c1bb42cb",
+   "textHashB": "03d0fa5b39f33ff2819df0b4d9ba341c60ce6cbf06050e2583ff0e02a23a7d97",
+   "score": 0.5306,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/bold-someone-new:5",
+   "b": "culture/curious-friends:41",
+   "textHashA": "67dfcd37ee177ca4ff0648c6249b9734729045e70f2a3b6defb8b9b3ca91541a",
+   "textHashB": "6d03cb756c4cc0bf9ef296cc5d3ce12f4b60d880211257062ef2910775a602f6",
+   "score": 0.5282,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "personal-experiences/chill-friends:1",
+   "b": "personal-experiences/chill-friends:53",
+   "textHashA": "cd888a3b8d3043a8710acfcdf4ac76d981edc9846150f903ded12acf4c8a2fa8",
+   "textHashB": "b80b8e39133437e03da2aecaaf31ad6c594f94581af125f1d74f8444ae74bc88",
+   "score": 0.5273,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/chill-partner:82",
+   "b": "future-ambitions/curious-friends:36",
+   "textHashA": "793fb4f66e0e3350aec6e9313cc597367c88b7cf84d32e1a360c3c983bf7914a",
+   "textHashB": "8b9f0b5884c014dd794dd4b2cc3361926e554a6b6f99cbd738a4a94e4a0c5909",
+   "score": 0.5265,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "personal-experiences/playful-someone-new:49",
+   "b": "b1-ra-0364",
+   "textHashA": "03d0fa5b39f33ff2819df0b4d9ba341c60ce6cbf06050e2583ff0e02a23a7d97",
+   "textHashB": "f7f2b485fc4d66d01e88035317e4fe1a607f51d4c8e00aea3192d9bc301cf75b",
+   "score": 0.5252,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/playful-friends:82",
+   "b": "culture/playful-partner:11",
+   "textHashA": "efa9f182dd02f1d3f152b065a069e6451b46e8538cd9fa577feed01c078c83fa",
+   "textHashB": "03587925d2e0de1629abc1ce7a1ee3a21dfd4204203bf8b3626c51ed31356796",
+   "score": 0.5231,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/curious-someone-new:17",
+   "b": "culture/deep-friends:66",
+   "textHashA": "25f35d252a0e0b0b9a9ab3500dd9cf05e7bb11c2e782edc0d02f677b324f2bda",
+   "textHashB": "705941a51a62d41a9b7f1e02b431cde5adcdd2e5b44bad80eabe697fd122622b",
+   "score": 0.5228,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/flirty-partner:5",
+   "b": "future-ambitions/flirty-someone-new:66",
+   "textHashA": "1af22392de410a6353d09b3fa91b301298dc2442f63047779c06ec04abd1d225",
+   "textHashB": "3ac346b3a826deebd11d63505d0ed57bf365aa4448f734b7dbcf0bbba24b3fca",
+   "score": 0.5226,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/bold-partner:54",
+   "b": "future-ambitions/deep-someone-new:14",
+   "textHashA": "6c4424a317bc6a1942c8f4b43152ba9c16e380f2cfe7267977fcc104cfc44ec2",
+   "textHashB": "f0703fe60dc5e9e1bf210ae16b0aa1f7040001bacf84d9bf21a493ab8cbbb34e",
+   "score": 0.5195,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/flirty-someone-new:93",
+   "b": "culture/playful-partner:89",
+   "textHashA": "c8fcda07f210848d7867879789599f61d0099e6166101011f9c6a441d2643434",
+   "textHashB": "681a7ee86f4e7600e064e57d593fe360dfba9632952d801d14fc572285e364ca",
+   "score": 0.5191,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/chill-friends:58",
+   "b": "culture/flirty-partner:89",
+   "textHashA": "7b4d0e646a56c912c23ad1691e7802c5f5f91239e7eafd916a11b57f0f3ad921",
+   "textHashB": "b78467af0418d043e5b950bb124aa0f680b181e66470477ae86887ea16fe83e8",
+   "score": 0.5183,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "personal-experiences/curious-friends:81",
+   "b": "personal-experiences/curious-someone-new:90",
+   "textHashA": "a9972dfd42197fc8727cb772caf13c08676ee2c4e1a469db832256cbfcb2bc1b",
+   "textHashB": "46fada43da9062ab8675b54c542b4b59d5942dd0c474f0efc18fbd22a4595cc9",
+   "score": 0.5164,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/bold-friends:63",
+   "b": "future-ambitions/flirty-friends:18",
+   "textHashA": "e98889c59aeedc658b308052369f2700d5858b787ca444f2be124e0b8ea30b3f",
+   "textHashB": "90cecf3c222c7858650c5c14ad4936a6a7c0f2c2213b18f4339e5929aa963aac",
+   "score": 0.5161,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/playful-friends:8",
+   "b": "personal-experiences/flirty-friends:73",
+   "textHashA": "f27404dacdd3d799c81d574f1dd0afa3ac1b845f2206604eb9cabd89c2c672be",
+   "textHashB": "cc3ff6d8b08c68402b22e269f0c528da2810d24ea97024faa98cda8af457a1a4",
+   "score": 0.515,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/flirty-friends:4",
+   "b": "culture/flirty-friends:15",
+   "textHashA": "7bbd1626d6460bbb2de0eaba89bb29db27029397450b38d70191bec2fa1568c9",
+   "textHashB": "758499805171465e5399e1c441865c2544e18dcccc00b40f2837aa9910a4c95a",
+   "score": 0.5148,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/bold-friends:15",
+   "b": "culture/flirty-friends:30",
+   "textHashA": "5c93901cb56889b8b51d1cd672871fcff6ec863f01ce8c34621ac49f3df705aa",
+   "textHashB": "c50331470a53a04aa02af5280ae678d2588e6e106c49e5ff87e0a42688382dde",
+   "score": 0.5105,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "personal-experiences/chill-friends:5",
+   "b": "personal-experiences/flirty-someone-new:59",
+   "textHashA": "2cc41b4a23c6b71f6621fb3e8e599ae3145d9743e6a73af0bc3a13acebaa7b80",
+   "textHashB": "0f1336c1323972ef7acdba6e4997cd709fff53a1e9235d7e30125b65c8b5810a",
+   "score": 0.5092,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/playful-friends:74",
+   "b": "personal-experiences/playful-partner:25",
+   "textHashA": "e6ed4f9832eae8158da2193485bd33ebf4e913a3f3205febe1755fe0e9347511",
+   "textHashB": "14eb9067aa823768e3c9c5a2da080b165cf631c184b3d40614aabc701c1cfeac",
+   "score": 0.5088,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/flirty-friends:24",
+   "b": "b1-ra-0616",
+   "textHashA": "8e0ee29632d20b4b15529937f2ea9e5dfed9dba7546542505bdf46acb7f469b8",
+   "textHashB": "0fb197ba4e736d3d2bc19d8199bb25705cd36b9be3b91402bac03ebc0c55e0af",
+   "score": 0.508,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "personal-experiences/playful-friends:44",
+   "b": "personal-experiences/playful-partner:82",
+   "textHashA": "a20c6e55f81ac36a242c459ea5f5fcc23e9b7e618ae9d32f2bea1b2369d7604f",
+   "textHashB": "c7b794628dc4361fed29c1416d15de08b067aa2840b0868cc9096f4846591d6e",
+   "score": 0.5078,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/playful-someone-new:37",
+   "b": "future-ambitions/playful-partner:65",
+   "textHashA": "ed4e65d69c1f476c2d26e14a483c8a1ac01c76c0547283e4f2b52c4e3b2a89ac",
+   "textHashB": "e78d64fcd255da00f1ff4f9e544da2686b4d893ec6425fa6b3634d5cd7231785",
+   "score": 0.5071,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/curious-partner:89",
+   "b": "personal-experiences/flirty-partner:77",
+   "textHashA": "48482904397cd74364e492804f02c4afed384cb40562237530434b1ac6b57ff3",
+   "textHashB": "5232e8ca6f87c04a54c0ab531d9843d5e37904cd823e0325b4d4e2e5823839f3",
+   "score": 0.5067,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/playful-partner:39",
+   "b": "personal-experiences/chill-someone-new:37",
+   "textHashA": "463fd7698d2119f0f3302f9f27dfb495d3dd51f7d0ca745d6e34b10db4e16f09",
+   "textHashB": "0779f1ff97a5a6446b2425ee45d9b99f86935a3262baca4c29cb14c53719aabe",
+   "score": 0.5064,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/flirty-partner:6",
+   "b": "culture/flirty-partner:51",
+   "textHashA": "cced38687be81c0863d430b6faeb2c260b7fd8a48739377086cf66dcc2f2a2e7",
+   "textHashB": "06b271189e94dce2bee3539156868249961f1b4c59dbbb6c30d4d0cd0a7e56f0",
+   "score": 0.5049,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/bold-friends:91",
+   "b": "culture/deep-friends:52",
+   "textHashA": "21d0d0023dd28e1f60ff87c95b44545310d6fe30077b2f18ba78ed5af9757833",
+   "textHashB": "3f03d9e940ca1b112045b87c42111ed0f1cbf66c3db937c2094785a620a4d805",
+   "score": 0.5047,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/flirty-partner:73",
+   "b": "personal-experiences/flirty-partner:65",
+   "textHashA": "fae7c655ddf11236e44c8e09984e240c6cec8405108abd554208c450814a114a",
+   "textHashB": "2d1e0860a661b96f830245492fc24cb27c789f0b1b937b17e2212a82be18adb4",
+   "score": 0.5026,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "personal-experiences/chill-friends:67",
+   "b": "personal-experiences/deep-friends:54",
+   "textHashA": "a7913d277daccf586cbd071087aecce8a8f1d815c03d272ba228fd515accd5fe",
+   "textHashB": "ba7f18aca5edd6aa66401201e4047b1304c840872743b648bf14136aa940890b",
+   "score": 0.4974,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/flirty-partner:97",
+   "b": "b1-lb-0054",
+   "textHashA": "56a02aed2ef99ac68454dc7fadd327741229428603911b409191c905f7758bad",
+   "textHashB": "234a462ebd6444afbf3b01198374db82d1d21cd479315c24f95d145ac8b75118",
+   "score": 0.4958,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "personal-experiences/chill-friends:97",
+   "b": "personal-experiences/chill-someone-new:10",
+   "textHashA": "d2fb1c0fab30751448334ab8f4f2253acb60ef89cfcec802851a46a21ac278af",
+   "textHashB": "fd119554c30550b8e4237c34588367863c46248c2c7da4baac3c99cc2d084376",
+   "score": 0.4957,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "future-ambitions/flirty-friends:32",
+   "b": "future-ambitions/flirty-partner:5",
+   "textHashA": "79c65180ee0e7555e86fc68cfbe0589a9cfff9e15aea2f8fecd914ee1e7589d9",
+   "textHashB": "08758bb3c2fd09ecdb7c5caea9556b1fca000015bed0c25eac9cf8cf9cad0258",
+   "score": 0.4948,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/chill-friends:45",
+   "b": "personal-experiences/chill-someone-new:48",
+   "textHashA": "0f79372dba7f52fdd76196c3d63190406a3aac0db87ce588521d8a5c73fa7db5",
+   "textHashB": "e08867e37059eb94b83f1313dca88268fab498ac7ecfba3f2b532867ee66e243",
+   "score": 0.4935,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/bold-partner:14",
+   "b": "culture/curious-partner:65",
+   "textHashA": "6382b5c9573083d54132c378079ebffca52ece6a86b90bba9237a5032cb5feca",
+   "textHashB": "638f86d2de466914791218420553b777b1bba250af92188e9b07fb7bdf08cfbd",
+   "score": 0.4925,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "personal-experiences/playful-partner:88",
+   "b": "personal-experiences/playful-someone-new:78",
+   "textHashA": "bede7b2af2e2e35636743dbe4e21c567ac9a2a81ccdc61d9cd9512481660a8df",
+   "textHashB": "3960d9252c804f4c1458e926facae7797ce349c1f2aff3106008ad7167cc0d35",
+   "score": 0.4908,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "personal-experiences/chill-someone-new:78",
+   "b": "b1-lb-0228",
+   "textHashA": "6a6343adc6401e11885ec2be6258e0fb77faac6b85fde3e742166b9fe2c6438c",
+   "textHashB": "ec1ade86473b6d186e9ad9e5ba7c616090447bcefe0c4182dd571f38cb635492",
+   "score": 0.49,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "personal-experiences/chill-friends:86",
+   "b": "personal-experiences/chill-partner:60",
+   "textHashA": "a22e794fd543f4f6d6516f7315ea3b7d5cf24820e61e6f9037c96e59cbb18821",
+   "textHashB": "89ca25328d5a626119eab426be071e1f6ddd43a17e09e7bf2699a11e55dc8605",
+   "score": 0.4893,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/chill-partner:47",
+   "b": "culture/deep-friends:53",
+   "textHashA": "3932645df1b3fe82a9e912b41a44775d326ad4b2f90742166c97bc48ceb719cc",
+   "textHashB": "8425bcc3c18c252e75e57fc959e0a558c8b17a041ad285f464533af2e596808b",
+   "score": 0.4891,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/playful-partner:10",
+   "b": "culture/playful-someone-new:31",
+   "textHashA": "2fed140b407cb4f84fe469b5032dbd0f66bb0a5a79d51cb3e349c8e25690e408",
+   "textHashB": "31dc8349b70c9ec6b49a6a14c5e24aa2a05fe43f4d214298a596f99d32515c95",
+   "score": 0.4889,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "personal-experiences/curious-partner:8",
+   "b": "personal-experiences/deep-partner:16",
+   "textHashA": "56c28e676fd0c4cadf524e3ac3c2479e8de866643b66e346d8d15b928dde1317",
+   "textHashB": "e2eac812e5074a04e9cda740c2c786f6c464439574bddef881be0b9b25fa899e",
+   "score": 0.4887,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/chill-partner:54",
+   "b": "culture/playful-partner:91",
+   "textHashA": "a54df461b1f7098900c99537cd9e2d09e40e3e0fa8f5878cf01caaeeff4c3152",
+   "textHashB": "fa29bef0e7e24d8903925e330a4cbe9f8c316567c15425873ca531871cc6a177",
+   "score": 0.4883,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/curious-friends:57",
+   "b": "culture/curious-friends:94",
+   "textHashA": "2a45d6b78807498f47d058411b25d0d2f75b85f837af234be15a4d5e58362de2",
+   "textHashB": "bd047e85a994da2de234a06789a4421190256d6ccca220d1d22f942d7d13ee96",
+   "score": 0.4882,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/playful-partner:10",
+   "b": "personal-experiences/playful-partner:57",
+   "textHashA": "2fed140b407cb4f84fe469b5032dbd0f66bb0a5a79d51cb3e349c8e25690e408",
+   "textHashB": "92744152cbc96eaeaaff374caf27c01b251959a2bd11120244d0a241aa7cb0a9",
+   "score": 0.4878,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/playful-someone-new:50",
+   "b": "b1-fa-playful-partner-057",
+   "textHashA": "3456e9a22a56746f8e0382c2a3103c95a71473eca1aac9e6aa21293695f4371b",
+   "textHashB": "b429748b3aca93ed506d260ad81d8b4bf565d8815136dec12f760cf0be2177e2",
+   "score": 0.4877,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/curious-friends:64",
+   "b": "future-ambitions/chill-partner:81",
+   "textHashA": "01be36fe8159c46bc62273cfbe295fea6ee654deb910017fc7543debae45ff68",
+   "textHashB": "60b03a2e791ed3ca1c72e0b8242bc9d7e3d9cf56da1f940f8ec5c2007cfd8328",
+   "score": 0.4876,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/playful-friends:60",
+   "b": "b1-la-0546",
+   "textHashA": "50e74e2b8babf3a6932c9eb5e6c88da6e954804b8024e21c152f04437b23ab25",
+   "textHashB": "9576f98e8ec987708b241ce333a352f6aad54f9afce118bdc8c64bb214b00c18",
+   "score": 0.4874,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/playful-partner:10",
+   "b": "personal-experiences/playful-someone-new:55",
+   "textHashA": "2fed140b407cb4f84fe469b5032dbd0f66bb0a5a79d51cb3e349c8e25690e408",
+   "textHashB": "7bf218509c18a74c00d7da659c09bd7add9709d25f4ca46f2810129b396828ae",
+   "score": 0.4866,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "personal-experiences/chill-friends:5",
+   "b": "personal-experiences/chill-partner:40",
+   "textHashA": "2cc41b4a23c6b71f6621fb3e8e599ae3145d9743e6a73af0bc3a13acebaa7b80",
+   "textHashB": "e84a0493e8dfe56d86df50ed204e35d24539e617da638cf6d04f885984002d03",
+   "score": 0.4866,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "personal-experiences/bold-friends:4",
+   "b": "personal-experiences/chill-friends:32",
+   "textHashA": "95809d47e001ca8c4587e9a87e7345f850bced72ebff3de34a3bef92a14cce86",
+   "textHashB": "5b44e876ee406bbfe1b8b2a89818242b95f3b4d2a33fe64866c68b4a833b6df1",
+   "score": 0.4857,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/flirty-friends:12",
+   "b": "culture/flirty-someone-new:2",
+   "textHashA": "947691f790db8cfbe2648891573377c7ae15d6bab816e641a7b36a929fa4e7e4",
+   "textHashB": "b4116f3818b45062e7c76f14cfbeb178d975ff6663b9f5690ab9082661ab06d5",
+   "score": 0.4856,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/chill-someone-new:100",
+   "b": "culture/flirty-someone-new:39",
+   "textHashA": "a2a95513abd3b1cbf92f08a8314ab58b93b4712628ee60d074512eb086e7b8d9",
+   "textHashB": "f5b335f347cabe44af365473a2bdfb501fc588fe9290d3fb1a5b908ec8422c32",
+   "score": 0.484,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/bold-someone-new:24",
+   "b": "personal-experiences/deep-friends:62",
+   "textHashA": "58ab0d6a7bd90921639cf563a5a28ef6afb30ac28cf3bb417b16f9ea5b031944",
+   "textHashB": "93f395e9700d97e6a33c5b7e944d08a710f5fa693aa81ff65d6ac19cc79f2305",
+   "score": 0.4837,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/curious-partner:23",
+   "b": "culture/deep-friends:38",
+   "textHashA": "8a9aa05d5fcbdb92e048a13c79eb4330543adaaaa07b6cf68363787cd9f3e980",
+   "textHashB": "c5cb329de5dc85c8ec3f347d9abd7796995b5cd5514cf48e2979de41d57632a0",
+   "score": 0.4826,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/bold-friends:22",
+   "b": "culture/bold-partner:34",
+   "textHashA": "62f08269704902ee1a1f8d34fe10e4d3305a48adebfeb7bc23b143a78d4f278c",
+   "textHashB": "9046395af85f726b3b3a95b97ec09522e44caeddf4aec2b6576772039e6ee69a",
+   "score": 0.4823,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/flirty-friends:1",
+   "b": "culture/flirty-someone-new:4",
+   "textHashA": "1fcf75fecdd6c2108a67415c185123c7d676ec74b91dc05a1fb05d763683425f",
+   "textHashB": "b1d4cd5c5a5fd8cba414e5522acb0b13a431559a6f04cbcd22a7098332217dd1",
+   "score": 0.4816,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/deep-partner:24",
+   "b": "future-ambitions/deep-partner:15",
+   "textHashA": "3d988a45f55945f0a4713c0735a6d26018579def4edb8e92234a439a440496b9",
+   "textHashB": "12edcac4d284ca1fe9d839e7b4b4e5f16a63a8c3efbeda9d8f132db18dd78456",
+   "score": 0.4814,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/curious-someone-new:11",
+   "b": "b1-fa-chill-new-089",
+   "textHashA": "097e14a5f5a92ceb44314ff36035be8d5a4aca7b7ad8a2037f5050d32db344b3",
+   "textHashB": "504e7042ba53cd84cb35ea9bf5cfb71d84578d427e306c151e652afedb52d9f4",
+   "score": 0.4781,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/chill-someone-new:52",
+   "b": "culture/flirty-friends:26",
+   "textHashA": "16a981f36112a8049a56d23247eaab3e12872cbd83c3d4c3176761bd983ac91f",
+   "textHashB": "4e28af2284c19b6f94f0d862b502ff4939ed1984f9c1ff6dc7eb1f02d9ca3ce1",
+   "score": 0.4778,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "personal-experiences/curious-someone-new:56",
+   "b": "personal-experiences/playful-friends:29",
+   "textHashA": "41504bbc546ee3d2037a4ce865a2525cc39f8861505d45924f1ad3bcc493b05b",
+   "textHashB": "8738f05d9c98d185debb3dc36ee133639705adb2fee79e4c6afe09e2d8734a8a",
+   "score": 0.4776,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/chill-friends:58",
+   "b": "future-ambitions/chill-partner:44",
+   "textHashA": "7b4d0e646a56c912c23ad1691e7802c5f5f91239e7eafd916a11b57f0f3ad921",
+   "textHashB": "2b7691576855e85622069038ca44f0f6cc7ec619a04f40ed8c415304046ec450",
+   "score": 0.4774,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/chill-someone-new:28",
+   "b": "future-ambitions/curious-someone-new:41",
+   "textHashA": "34e2059ea96a8eafe31cceb04e671952c19958c2d584da353fd7ba9f94fb98ee",
+   "textHashB": "99d776ba70eaa6f1f201e095941bf5e18424beb0d3a225b63fea0f8a9ab4b5c9",
+   "score": 0.4766,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/deep-friends:21",
+   "b": "culture/deep-someone-new:78",
+   "textHashA": "6ced7937aa7f9f6712e1f82324a98f8270a141b979d87056581e321a8ee0520d",
+   "textHashB": "b1f4062bf6bdf6bf5f226c5f840ccbee11bbd62a10898e162da266cc79c23092",
+   "score": 0.4765,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/curious-friends:29",
+   "b": "culture/playful-friends:57",
+   "textHashA": "3bc484285f1f7e8fc9dddce26c7fe37e7cb2acd7671d63e227f79ded2bd06dde",
+   "textHashB": "1b6e7a41bc554f36e1c8dbb6c7ddfa67155b2703b33c9000c3b91b0bb304c7a6",
+   "score": 0.476,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/flirty-friends:60",
+   "b": "personal-experiences/flirty-friends:14",
+   "textHashA": "9e383e68fa998905dca0c7ddddc40ad15ef43b082e7dc07677e2e599e7f000c0",
+   "textHashB": "fff3f215f8dd843eb53987b4b0ef7261ea7e25e5bdf69f3bc32c209343170acb",
+   "score": 0.4748,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/playful-friends:31",
+   "b": "culture/playful-someone-new:19",
+   "textHashA": "187b8adce22ce058b58474826ae346bc409e654ca17bf80ce772ce62a109ada8",
+   "textHashB": "17bd0f0491fea3b9a360637e05ea74facfa348bb7f9b583d3300e59c6658992e",
+   "score": 0.4748,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "personal-experiences/curious-partner:10",
+   "b": "personal-experiences/flirty-friends:29",
+   "textHashA": "692d772b54bbe7f2553fe01ab60efde86be4bf765fb14bda14c078d9609176f0",
+   "textHashB": "22d928cd60300f44f1ba86ac060752c7eb8efd0b11bc7aa8914696d0d011230e",
+   "score": 0.4743,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/playful-friends:74",
+   "b": "personal-experiences/bold-friends:37",
+   "textHashA": "e6ed4f9832eae8158da2193485bd33ebf4e913a3f3205febe1755fe0e9347511",
+   "textHashB": "044b0da233f741918eb4e262c4ae5dd20c1afe83a60d9445205f27fc05c22a83",
+   "score": 0.4736,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "personal-experiences/playful-partner:52",
+   "b": "personal-experiences/playful-someone-new:49",
+   "textHashA": "1cd87d75aca9d1d236f9bc00af48812bae7ce6573982c58fadfd79ede82bbbce",
+   "textHashB": "03d0fa5b39f33ff2819df0b4d9ba341c60ce6cbf06050e2583ff0e02a23a7d97",
+   "score": 0.4736,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/deep-friends:40",
+   "b": "b1-fb-0205",
+   "textHashA": "4500dc7e742c21a7138516ea5755024f46dfa0116f41f41a80348639ca8e8850",
+   "textHashB": "9696085f9e81d2fba600845c1e8d74680596ccf693b9b534e1c0c0519bafbc21",
+   "score": 0.4733,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/bold-friends:44",
+   "b": "culture/bold-someone-new:94",
+   "textHashA": "ff6a4d46fdf90bd39550f3eb013eb90f87daee5b66523e58bc0c25e2376b8283",
+   "textHashB": "70342b8c2807e7b8b93618e34fe557499d0b3f05f4e05321279ee08584971c30",
+   "score": 0.4732,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/flirty-partner:41",
+   "b": "culture/flirty-someone-new:33",
+   "textHashA": "e1899cdfd3efe7c7bdd8b24cfea569d461055eeb21cc9ca6b94fbcaaa8341e59",
+   "textHashB": "ce48a1022aec43caeb854ce31275dbde674d9f5a0c33a68e2464cfc346ac5585",
+   "score": 0.4728,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/flirty-partner:9",
+   "b": "future-ambitions/deep-friends:4",
+   "textHashA": "60a1f5bbe9e3b66a74b193eb910cfe50b05d82f224a9915eba0ccf7d011e53da",
+   "textHashB": "f4b0b02681feaffc8ed445de528e1cc5eff42b3b41a24352e1028436f317c63c",
+   "score": 0.4726,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "future-ambitions/chill-partner:57",
+   "b": "future-ambitions/flirty-friends:18",
+   "textHashA": "daa3f9c78edc5123397a959f5ce30811c81a30012d79b43cec496c040edbd885",
+   "textHashB": "90cecf3c222c7858650c5c14ad4936a6a7c0f2c2213b18f4339e5929aa963aac",
+   "score": 0.4714,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/curious-friends:76",
+   "b": "culture/deep-someone-new:28",
+   "textHashA": "d5866816af2a96bd4970aac2bcf16039efd0ac7dfa1c56e6b689157092e2c7fc",
+   "textHashB": "75fe8079330e25500656d78c7479f3e07f92e697340a1542a935a9c30f75279b",
+   "score": 0.4712,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/bold-partner:51",
+   "b": "personal-experiences/chill-partner:25",
+   "textHashA": "9af6e5425200ed8dbc73357e6cb8c1c4ea026e20aa036f373a012975de9f576e",
+   "textHashB": "af39042b74002a4474e6187d718003429d594926bee91a08c654fb1a3a4fca7d",
+   "score": 0.4707,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "personal-experiences/chill-friends:38",
+   "b": "b1-lb-0108",
+   "textHashA": "deb6e34714bd1791623edb0648c34ad9eb9ba1f5312b374753c7d6b259d662e3",
+   "textHashB": "160b9b17b263f2db568bb71e560fc17f580c5c9cec361f0f2bd6c7990b841266",
+   "score": 0.4707,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/curious-partner:20",
+   "b": "b1-ra-0898",
+   "textHashA": "4662910f08bdef80fb1c6fae1a01e0a0ab195be69f0e2eae270407c5bc2778e6",
+   "textHashB": "fb5628502d6db57f496d6315ee0ff778fc06406d76af7e1bb9fefacba5c83eba",
+   "score": 0.4703,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/deep-friends:78",
+   "b": "culture/deep-partner:37",
+   "textHashA": "964cdc28c263bbda737ab491806ef5641bf340045cbcdbf410bdf685adf8acec",
+   "textHashB": "81c693202bd06a2dd8c8f7a29f7807577ef35c287dc09add9613a77c903c4744",
+   "score": 0.4696,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/playful-partner:37",
+   "b": "b1-ra-0364",
+   "textHashA": "a37a143a0b0e8bd267d2c8383a545b6c0a560c1a26e2ce53d0cc6887c1bb42cb",
+   "textHashB": "f7f2b485fc4d66d01e88035317e4fe1a607f51d4c8e00aea3192d9bc301cf75b",
+   "score": 0.4694,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "future-ambitions/chill-friends:39",
+   "b": "future-ambitions/curious-friends:8",
+   "textHashA": "bcdc72a5cc91184042e7acca82d94be362e76be07341ede015c7caa81b36aae8",
+   "textHashB": "88c6d077035c13f0eb9ac539ec7ff4b899fe47d8f71d463e18b75c7da2d6ce39",
+   "score": 0.4688,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/bold-someone-new:5",
+   "b": "culture/playful-someone-new:7",
+   "textHashA": "67dfcd37ee177ca4ff0648c6249b9734729045e70f2a3b6defb8b9b3ca91541a",
+   "textHashB": "1fa3f91c2c60684b37699c34c35bdcb61b3741b3d5abb2a35d32a6dc57cdda92",
+   "score": 0.4672,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/curious-friends:93",
+   "b": "b1-fa-curious-new-022",
+   "textHashA": "69a3a6eb06c97d70305da60ac72117c914713e6e3073e37796710d6593143791",
+   "textHashB": "c5e6171334981b7c0f4360b9c7ba5009805fb0104e2534e157f21126c88f2966",
+   "score": 0.467,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/chill-partner:1",
+   "b": "future-ambitions/chill-someone-new:35",
+   "textHashA": "a2e4d40195b77f6ace5322c84ded209882c773407ec74084dda268bddb69761a",
+   "textHashB": "1b891ba5c4a7ed315b7909e1002b8ac38a7f222dadca091355808de2139d9afc",
+   "score": 0.4639,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "personal-experiences/playful-partner:64",
+   "b": "b1-ra-0852",
+   "textHashA": "75d2ded433122361a9555bab462c8f0bedd521bd24c4580c4af419bd60b9431e",
+   "textHashB": "b966e95ada90b446cdd5980a3de9080f97bf7a1da02e247cfefe79c7f4a03b8d",
+   "score": 0.4635,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/playful-partner:10",
+   "b": "personal-experiences/playful-partner:93",
+   "textHashA": "2fed140b407cb4f84fe469b5032dbd0f66bb0a5a79d51cb3e349c8e25690e408",
+   "textHashB": "bc5b78c57e9d5d53a814f1cd372a98c259cb4ef2f0c460c6dc22ceaa69b550e0",
+   "score": 0.4634,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/chill-partner:36",
+   "b": "future-ambitions/chill-someone-new:38",
+   "textHashA": "a94302071c5edfd9c597ba4f9fab8cf36b841f92ad9a7fb3b55b2d5f8dcac49c",
+   "textHashB": "328ee5a4739db50dc10df7ae7c4a631807a1eed662b133f38c628b8e9a5812ce",
+   "score": 0.4633,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "future-ambitions/flirty-partner:1",
+   "b": "future-ambitions/playful-partner:75",
+   "textHashA": "313d7582286464dcd669fd2b7d31763bdbccfee685532fc6614f7b3361e77f74",
+   "textHashB": "29af2bab7bc9d322c7dcc4725217f8bc593f77dca35d37c501406a8d3ab21cf0",
+   "score": 0.4632,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/playful-friends:78",
+   "b": "personal-experiences/playful-partner:30",
+   "textHashA": "d5914e007419c5bc7af59816d028cfdb65c79eaa27606ee6f842e14e70d3e7bc",
+   "textHashB": "5d8c3d57e7ed09a17d52d871c31891f626c8576dadac25d5f73ed9d1b2e5a23e",
+   "score": 0.4624,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "future-ambitions/bold-someone-new:50",
+   "b": "personal-experiences/bold-friends:84",
+   "textHashA": "c974fda57af01ed0eb207b26068f450acf1bc631d0109285f8fdb2ae82aa3e7a",
+   "textHashB": "fac672b1fd0b11504df88d19c108b33cee55b23138eaf762bfd4420014d2bdef",
+   "score": 0.4624,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/bold-friends:99",
+   "b": "personal-experiences/curious-someone-new:39",
+   "textHashA": "3650c7b25034b108d18c771ef354b9738d94ba7c69fb038550eebd43261f0e78",
+   "textHashB": "0a9d3740c2e25ac784053f4dd1fb6d4f9af5962aa70eebd35ce7925329e367f1",
+   "score": 0.4613,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/deep-partner:90",
+   "b": "culture/deep-someone-new:88",
+   "textHashA": "c56de3eea184b25afa2452053491fcf5fd41904f2874b01aabb79f2f7828c20b",
+   "textHashB": "15f6ae6869196a6978201f950740982b1f7f2e333d069de481ae38be483749ff",
+   "score": 0.4613,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "personal-experiences/curious-partner:35",
+   "b": "personal-experiences/curious-partner:84",
+   "textHashA": "fa385c66ad8586a54414f26f645d303c154dbda6d836ebcdafba2cb474286cf9",
+   "textHashB": "491c9303fa840d46ce851bd2f9e2292fd23427c90efe91ee00f3d4bacb497482",
+   "score": 0.4612,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/curious-friends:17",
+   "b": "personal-experiences/bold-someone-new:44",
+   "textHashA": "96d4b26f06e75b0797aa0e0b42d7d376e3fee301bee6f868dc4a456a2613b116",
+   "textHashB": "060535e89f8a2a65b76e202d86e262984d30c1424dfe91d9b625b3137f4d8fd7",
+   "score": 0.4607,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/bold-partner:65",
+   "b": "culture/deep-partner:30",
+   "textHashA": "3af779843e3e6fc8d47b8e69c976cfe308945cff19669634d1f92024c6472507",
+   "textHashB": "cf8b7555740c7e31353a6cac23c6ccc2c47d301be2ac12c85f362e3c23d986ee",
+   "score": 0.4606,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "personal-experiences/bold-friends:37",
+   "b": "personal-experiences/playful-partner:25",
+   "textHashA": "044b0da233f741918eb4e262c4ae5dd20c1afe83a60d9445205f27fc05c22a83",
+   "textHashB": "14eb9067aa823768e3c9c5a2da080b165cf631c184b3d40614aabc701c1cfeac",
+   "score": 0.4604,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "personal-experiences/chill-friends:1",
+   "b": "personal-experiences/chill-partner:7",
+   "textHashA": "cd888a3b8d3043a8710acfcdf4ac76d981edc9846150f903ded12acf4c8a2fa8",
+   "textHashB": "865a93b5f0e202e9f31075f5a0e4bf3dc7a3f78a475deebbe40f3c439100dbdb",
+   "score": 0.4604,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/chill-friends:79",
+   "b": "personal-experiences/curious-partner:10",
+   "textHashA": "27480882a9355e2be26686f6c21e5f16fe04e5e9e73ad9382d610f5f7440ed55",
+   "textHashB": "692d772b54bbe7f2553fe01ab60efde86be4bf765fb14bda14c078d9609176f0",
+   "score": 0.4603,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "culture/curious-friends:29",
+   "b": "culture/curious-partner:10",
+   "textHashA": "3bc484285f1f7e8fc9dddce26c7fe37e7cb2acd7671d63e227f79ded2bd06dde",
+   "textHashB": "6ac8c1571649238d67f039f65671e2e354efba06d0816b5864f75f6fe50d2fd3",
+   "score": 0.4601,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "future-ambitions/bold-partner:79",
+   "b": "future-ambitions/curious-someone-new:22",
+   "textHashA": "ed8e5926fde083d9c53121d5447c85cd62445f455bbc2c87231224ec77cb497e",
+   "textHashB": "cf7998a1dff77d743786394ab3d49174bb81823c2dd32ba964ae2e00e14a7904",
+   "score": 0.46,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
   }
  ]
 }
