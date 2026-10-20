@@ -1,8 +1,8 @@
-Q Where do you want to kiss me at midnight next New Year's Eve?
+Q Where do you want to kiss me at the next crossover countdown?
 Q What's a romantic trip you'd love us to take next year?
 Q How do you picture us flirting when we're eighty?
 Q Which anniversary are you most looking forward to celebrating with me?
-C Renew our vows on a beach or in the city where we met, someday?
+C Renew our vows on a beach or in the church or city where we started, someday?
 Q What would our dream honeymoon or romantic getaway look like?
 Q How would you like me to surprise you on your next birthday?
 T Tell me about a romantic future moment you imagine with me.
@@ -16,7 +16,7 @@ S It's our twentieth anniversary and I've planned a surprise. What do you hope i
 Q What future adventure would make you fall for me all over again?
 Q How do you imagine waking up next to me in our future home?
 Q Which future holiday would be perfect for just the two of us?
-C Romantic cabin in the snow or villa by the sea for our next getaway?
+C A romantic resort in Obudu or a villa by the beach for our next getaway?
 Q What would you like me to whisper to you on our next anniversary?
 Q How do you hope we'll keep the spark alive in the years ahead?
 T Tell me about the future date you'd plan if you wanted to sweep me off my feet.
@@ -26,7 +26,7 @@ Q How do you picture our perfect lazy morning in twenty years?
 S We're dancing in our kitchen at seventy. What song is playing?
 Q What future trip would feel like a second honeymoon?
 Q Which romantic city would you like to see with me in every season?
-Q How would you like us to celebrate Valentine's Day when we're older?
+Q How would you like us to celebrate Val's Day when we're older?
 H The best romance is the kind you keep planning for.
 Q What future love letter would you like to write to me?
 Q Which of our date-night traditions should we keep forever?
@@ -40,7 +40,7 @@ S A year from now, we're on the most romantic trip of our lives. Where are we?
 Q How do you want me to propose or celebrate our commitment, if that's ahead of us?
 Q Which future anniversary would you like to spend somewhere completely new?
 Q What kind of romantic surprises would you like to keep giving me?
-C Stargazing in the desert or watching the northern lights together someday?
+C Stargazing far from the city or watching the sunrise at the beach together someday?
 Q How do you see us keeping romance alive with busy schedules?
 T Tell me about the future kiss you're already looking forward to.
 Q Which romantic film would you like us to watch on every anniversary?
@@ -52,7 +52,7 @@ Q Which romantic place would you like to return to with me in the future?
 S We've got one free evening next month with no responsibilities. How do we spend it?
 Q What's a sweet ritual you'd like us to have when we're older?
 Q How do you picture our love looking at our golden anniversary?
-C Matching rings or matching tattoos to mark a future milestone?
+C Matching rings or matching aso ebi to mark a future milestone?
 Q Which future holiday tradition would you like to be ours alone?
 T Tell me about the future surprise you'd love to plan for me.
 Q What future version of us makes you smile?
@@ -60,11 +60,11 @@ Q How would you like me to show my love when we're old?
 Q Which romantic song would you want to hear from me someday?
 H Growing old with you sounds like the best adventure.
 Q What future date would you like to recreate every year?
-Q What small romantic surprise would brighten a dull Tuesday for you?
+Q What small romantic surprise would brighten a boring Tuesday for you?
 S We get to relive our first date in ten years with a twist. What's the twist?
 Q How would you like our home to feel romantic in the future?
 Q What future trip would you want to take just to kiss me somewhere beautiful?
-C Romantic train journey or romantic road trip next summer?
+C Romantic road trip or a flight somewhere new next December?
 Q How do you imagine us celebrating love in our sixties?
 T Tell me about the romantic anniversary you'd love us to have someday.
 Q Which future evening would you want to freeze in time with me?

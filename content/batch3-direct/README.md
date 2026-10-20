@@ -12,7 +12,7 @@
 1. Source cells: `<topic>/<mood>-<audience>.txt`, one starter per line with a format code (`Q` Question, `S` Scenario, `H` Hot take, `C` Quick choice, `T` Story starter).
 2. `node scripts/check-batch-cells.mjs content/batch3-direct`: counts, codes, length, em dashes, exact duplicates.
 3. `python3 scripts/audit-batch3-similarity.py --json content/batch3-audit.json`: same TF-IDF method and 0.46 threshold as Batch 1, run over Batch 3 together with released Batch 1.
-4. Same-premise candidates were rewritten. Each rewrite is logged, with the exact old text and a reason, in `revisions/NN-*.json` (applied in numeric order by `scripts/apply-batch3-revisions.mjs`). All 351 logged revisions are carried into the per-row evidence.
+4. Same-premise candidates were rewritten. Each rewrite is logged, with the exact old text and a reason, in `revisions/NN-*.json` (applied in numeric order by `scripts/apply-batch3-revisions.mjs`). All 2,025 logged revisions are carried into the per-row evidence. Pass `10-nigerian-voice` (1,674 lines, owner feedback on 20 Oct 2026) rewrote the batch for its audience: people who grew up in Nigerian households. Culture is fully localised; Personal Experiences and Future & Ambitions are localised where natural, in Nigerian English with light slang.
 5. Every remaining candidate was read and judged distinct: `similarity-adjudication.json`.
 6. `node scripts/assemble-batch3.mjs` writes `content/batch3.json`, `content/batch3-editorial-review.json` and `content/batch3-qa.json`, refusing stale audits, unresolved candidates or revision logs that don't match the text.
 7. `npm run build` runs `scripts/batch3-release.mjs`, which emits `public/batch3-data.js` only if every gate passes.

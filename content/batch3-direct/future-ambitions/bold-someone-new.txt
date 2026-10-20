@@ -3,7 +3,7 @@ Q Would you quit a stable job tomorrow to chase your dream?
 H Playing it safe is the riskiest career move of all.
 Q What's an ambition you're embarrassed to admit out loud?
 Q Do you think you'll be richer or happier than your parents?
-Q Would you move across the world for the right opportunity?
+Q Would you japa for the right opportunity even if it meant starting from zero?
 C Be famous and stressed or unknown and content?
 Q What would you sacrifice to reach the top of your field?
 Q Do you think hustle culture is inspiring or harmful?
@@ -17,17 +17,17 @@ Q Would you take a job you disliked for double the salary?
 S You're offered a life-changing role but it means leaving everyone you know. Do you go?
 Q Is it selfish to put your ambitions before your relationships?
 Q What's a goal you'd pursue even if your family disapproved?
-Q Do you think retirement is an outdated idea?
+Q Do you think "retirement" will even exist for our generation in Nigeria?
 C Work hard now and rest later or balance both every year?
 Q What would you do if you knew you'd fail at your current plan?
 Q Is ambition overrated?
 T Tell me about the riskiest future plan you've seriously considered.
 Q Would you give up your weekends for five years to achieve something big?
-Q Do you think university is still worth it for most people?
+Q Do you think university is still worth it, with ASUU strikes and all?
 H Your twenties are for risks, not for security.
 Q What would make you walk away from a successful career?
 Q Is it better to be the best in a small field or average in a big one?
-Q Would you put your savings into a friend's startup?
+Q Would you put your savings into a friend's startup or business?
 S A billionaire offers to fund one idea of yours, but you must start tomorrow. What's the idea?
 Q Do you think money can buy a happier future?
 Q What's a goal you think people should stop pretending to want?
@@ -44,14 +44,14 @@ Q Do you think the next generation will have it harder or easier?
 Q Would you take a pay cut to do something meaningful?
 S You can guarantee success in one area of life but fail in another. Which do you choose?
 Q What's an ambition you think is selfish but still want?
-Q Do you think working from home will kill office culture for good?
+Q Is working remotely for a foreign company from Lagos the new japa?
 C Retire at forty with little or at seventy with plenty?
 Q Would you rather be respected or liked at work?
 T Tell me about a goal you abandoned that you now regret.
 Q Do you think anyone truly deserves to be a billionaire?
 Q What's a future plan you'd defend to anyone who doubted it?
 H Some dreams are worth failing at.
-Q Would you leave your country permanently for a better future?
+Q Would you leave Nigeria permanently for a better future?
 Q Do you think technology will take more jobs than it creates?
 Q What's a career milestone you think is overrated?
 S Your dream career requires five years of unpaid work. Do you do it?
@@ -68,7 +68,7 @@ Q What's a future trend you think everyone is wrong about?
 Q Would you take a risk that could make or break your reputation?
 S You can either become an expert in one thing or decent at ten things. Which do you choose?
 Q Is it okay to quit something just because you're bored?
-Q Do you think people should have children later or earlier than they do now?
+Q Do you think people should marry and have children later or earlier than our parents did?
 C Climb the ladder at one company or jump between many?
 Q What would you do if your dream career turned out to be miserable?
 T Tell me about the boldest move you're planning to make soon.

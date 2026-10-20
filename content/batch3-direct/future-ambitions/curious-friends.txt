@@ -9,7 +9,7 @@ Q How do you think our friendship will change as our careers grow?
 Q What's a future plan you want our honest opinion on?
 C Chase a big dream with risk or build a steady life with less stress?
 Q Which of us do you think has the clearest idea of their future?
-Q How do you think our generation will define success differently from our parents?
+Q How will our generation define success differently from our parents, who only wanted doctor, lawyer or engineer?
 Q What would you like to learn from my career path?
 Q Which of our dreams do you think overlap enough for a shared project?
 S We pool our skills to start something together. What would our project be?
@@ -19,7 +19,7 @@ Q What do you think will be the biggest change in our lives over the next decade
 Q How do you feel when one of us reaches a goal before you?
 H Comparing timelines with friends is natural, but rarely useful.
 Q Which skills do you think each of us should develop next?
-Q How do you imagine your life if you moved to another city?
+Q How do you imagine your life if you relocated abroad?
 Q What would you need from us if you made a big career change?
 T Tell me about the future version of yourself you're most excited to meet.
 Q Which of our current habits will help us most in the future?
@@ -27,7 +27,7 @@ Q How do you think technology will change the way we keep in touch?
 Q What's a goal you think I should be pursuing that I'm not?
 Q Which ambition of yours has surprised you most?
 C Live near our families in the future or near each other?
-Q How do you think our priorities will shift if some of us start families?
+Q How do you think our priorities will shift as some of us marry and start families?
 Q Which of our parents' career paths do you find most interesting?
 Q What future opportunities do you think our group is overlooking?
 S We each write down where we'll be in five years and seal it. What do you write?
@@ -47,9 +47,9 @@ Q How do you think our hobbies will evolve as we age?
 Q Which of your goals are you most afraid to fail at?
 Q What do you think we'll be proudest of individually in ten years?
 T Tell me about a plan you've been researching lately.
-Q How do you think living costs will shape where we all end up?
+Q How do you think inflation and the cost of living will shape where we all end up?
 Q Which of our ideas from late-night conversations deserves a real try?
-Q What would you study if you could go back to school with one of us?
+Q What would you study if you could do a master's with one of us?
 S A future version of our group sends us a message from 2045. What does it say?
 Q How do you think our definitions of happiness will change?
 Q Which mentor or role model are you following right now?
@@ -65,7 +65,7 @@ Q Are you curious or nervous about how we'll handle getting older as a group?
 Q What future skill do you think we should learn together?
 C Make bold predictions for each other or set gentle goals together?
 Q Which of your plans depends on things outside your control?
-Q By the time we're fifty, what will our city look like?
+Q By the time we're fifty, what will Lagos look like?
 Q What do you want to be remembered for in your career?
 S We each give one piece of career advice to the group. What's yours?
 Q How do you decide which dreams are worth sacrificing for?
@@ -95,6 +95,6 @@ T Tell me about the part of the future you think we should talk about more.
 Q Which of your goals do you think our parents would understand least?
 Q What's one thing you'd like to learn about money before we're all forty?
 Q Which of us do you think will end up working in a field that doesn't exist yet?
-Q What would you need to know before deciding to move abroad?
+Q What would you need to know before deciding to japa?
 Q Which future plan of yours depends most on timing?
 T Tell me about the next decision you're quietly researching.
