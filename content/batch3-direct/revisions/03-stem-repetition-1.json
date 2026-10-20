@@ -1,0 +1,510 @@
+{
+ "pass": "stem-repetition-1",
+ "method": "Similarity candidates and stem repetition read individually; same-premise or formulaic lines rewritten",
+ "revisions": [
+  {
+   "ref": "culture/curious-friends:88",
+   "old": "How do you think our friendship would be described in your language?",
+   "new": "Q If you described our friendship in your language, which word would you reach for?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/curious-friends:94",
+   "old": "How do you think our different upbringings show up in our friendship?",
+   "new": "Q Where do our different upbringings show up most in this friendship?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/curious-partner:75",
+   "old": "How do you think our different backgrounds make us stronger?",
+   "new": "Q In what ways do our different backgrounds make us stronger?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/curious-partner:87",
+   "old": "How does your culture view romance after many years together?",
+   "new": "Q What does your culture say about keeping romance alive after many years?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/curious-partner:90",
+   "old": "How do you think our families' histories shaped who we are as a couple?",
+   "new": "Q Which parts of our families' histories can you see in us as a couple?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/curious-partner:93",
+   "old": "How do you think we should handle traditions we disagree on?",
+   "new": "Q When we disagree on a tradition, what's a fair way for us to decide?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/curious-someone-new:99",
+   "old": "How do people in your culture usually mark the end of a long working week?",
+   "new": "Q Is there a usual way to mark the end of a long working week where you're from?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/deep-friends:90",
+   "old": "How do you think our cultures shape the way we show love as friends?",
+   "new": "Q Where do you see our cultures in the way we look after each other as friends?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/deep-partner:76",
+   "old": "How do you want us to show respect to elders in both families?",
+   "new": "Q Which ways of honouring elders from both families matter most to you?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/deep-partner:82",
+   "old": "What do you think home will mean to us when we're old?",
+   "new": "Q When we're old, what will make a place feel like home to us?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/deep-partner:83",
+   "old": "How do you want our love to be talked about at family gatherings?",
+   "new": "Q When our families talk about us at gatherings, what do you hope they say?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/deep-someone-new:67",
+   "old": "What do you think community gives that individual success can't?",
+   "new": "Q Can community give people something individual success never will?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/deep-someone-new:77",
+   "old": "What do you think people misunderstand about the immigrant experience?",
+   "new": "Q Which part of the immigrant experience is most often misunderstood?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/deep-someone-new:85",
+   "old": "What do you think your ancestors would want you to keep?",
+   "new": "Q Which of your ancestors' habits or beliefs would they most want you to keep?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/deep-someone-new:91",
+   "old": "What do you think makes someone truly part of a community?",
+   "new": "Q At what point does someone become truly part of a community?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/deep-someone-new:98",
+   "old": "What do you think people search for when they travel far from home?",
+   "new": "Q When people travel far from home, are they usually running from something or towards it?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/flirty-friends:84",
+   "old": "Which of us would fall for someone because of their playlist?",
+   "new": "Q Has anyone in our group fallen for someone mostly because of their playlist?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/flirty-friends:96",
+   "old": "Which of us would make the best impression on a date's grandparents?",
+   "new": "Q Whose charm would work best on a date's grandparents?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/playful-friends:33",
+   "old": "Which of us would be most likely to be mistaken for a local abroad?",
+   "new": "Q Abroad, who in our group gets mistaken for a local most often?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/playful-friends:37",
+   "old": "Which of us would bring the most food back from a holiday?",
+   "new": "Q Whose suitcase comes home from holiday heavier with food than clothes?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/playful-friends:41",
+   "old": "Which of us would accidentally start a new trend abroad?",
+   "new": "Q Could any of us accidentally start a fashion trend in another country?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/playful-friends:45",
+   "old": "Which of us would be the first to get kicked out of a cooking class?",
+   "new": "Q Who gets politely asked to leave a cooking class first?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/playful-friends:51",
+   "old": "Which of us would argue with a tour guide?",
+   "new": "Q Picture us on a guided tour. Who starts correcting the guide?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/playful-friends:52",
+   "old": "Which of us would believe a tour guide's legend without question?",
+   "new": "Q Who in our group falls for every local legend a tour guide tells?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/playful-friends:55",
+   "old": "Which of us would win at a traditional village game?",
+   "new": "Q If a village challenged us to its traditional games, who brings home the trophy?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/playful-friends:58",
+   "old": "Which of us would wear the loudest festival outfit?",
+   "new": "Q Whose festival outfit could be seen from space?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/playful-friends:61",
+   "old": "Which of us would cry the hardest at a sad foreign film?",
+   "new": "Q Who needs the most tissues during a sad foreign film?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/playful-friends:64",
+   "old": "Which of us would make the best food critic?",
+   "new": "Q Who among us would be the harshest food critic on a trip?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/playful-friends:66",
+   "old": "Which of us would get the most compliments wearing traditional clothing?",
+   "new": "Q Whose traditional outfit would steal the show at a family event?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/playful-friends:72",
+   "old": "Which of us would accidentally order the strangest dish on a menu?",
+   "new": "Q Who always points at the most mysterious dish on a foreign menu?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/playful-friends:75",
+   "old": "Which of us would turn a picnic into a full ceremony?",
+   "new": "Q Hand us a simple picnic. Who turns it into a full ceremony?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/playful-friends:81",
+   "old": "Which of us would fit perfectly into a period drama?",
+   "new": "Q If we were cast in a period drama, who has the perfect face for it?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/playful-friends:84",
+   "old": "Which of us would get the most votes at a talent show back home?",
+   "new": "Q Back home, whose talent show act would win the most votes?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/playful-friends:87",
+   "old": "Which of us would accidentally join the wrong tour group?",
+   "new": "Q Who is most likely to follow the wrong tour group for an hour without noticing?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/playful-friends:90",
+   "old": "Which of us would happily eat the same street food every day for a month?",
+   "new": "Q Could any of us eat the same street food every day for a month and stay happy?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/playful-friends:93",
+   "old": "Which of us would be the worst at learning a new alphabet?",
+   "new": "Q Whose handwriting would be most hopeless in a brand new alphabet?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/playful-friends:97",
+   "old": "Which of us would be most likely to marry into a royal family?",
+   "new": "Q If a royal family adopted one of us, who settles in fastest?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/playful-friends:100",
+   "old": "Which of us would turn a quiet museum visit into a full performance?",
+   "new": "Q Who turns a quiet museum visit into a full performance?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/playful-partner:83",
+   "old": "Which of us would survive a cooking class with my grandmother?",
+   "new": "Q How long would we last in a cooking class run by my grandmother?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/bold-friends:86",
+   "old": "Who among us has the most surprising wild side?",
+   "new": "Q Whose wild side surprised you the most once you saw it?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/bold-friends:94",
+   "old": "Who among us has the most unfinished business with someone?",
+   "new": "Q Is there someone from your past you still have unfinished business with?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/bold-someone-new:79",
+   "old": "What's a time you trusted your gut over the facts?",
+   "new": "Q When did you last trust your gut over the facts, and were you right?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/bold-someone-new:83",
+   "old": "What's a time you pushed yourself to a physical limit?",
+   "new": "Q How far have you ever pushed your body for a challenge?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/bold-someone-new:87",
+   "old": "What's a time you cut someone off for your own peace?",
+   "new": "Q Have you ever cut someone off purely for your own peace?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/bold-someone-new:94",
+   "old": "What's a time you got revenge, even a petty one?",
+   "new": "Q What's the pettiest revenge you've ever taken?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/curious-partner:74",
+   "old": "What's an experience that changed how you deal with disappointment?",
+   "new": "Q How do you deal with disappointment now compared with when you were younger?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/curious-partner:78",
+   "old": "What's an experience that taught you the importance of space?",
+   "new": "Q When did you first realise you need time on your own to recharge?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/curious-partner:82",
+   "old": "What's an experience that made you more grateful for small things?",
+   "new": "Q Which small things have you only started appreciating in recent years?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/curious-partner:90",
+   "old": "What's an experience that changed how you see family?",
+   "new": "Q How has your idea of family changed since you left home?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/curious-someone-new:92",
+   "old": "What's an experience that helped you understand a different generation?",
+   "new": "Q Which friendship with someone much younger or older taught you the most?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/flirty-friends:66",
+   "old": "Who among us has had the most romantic birthday?",
+   "new": "Q Whose birthday has been the most romantic one we've witnessed?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/flirty-friends:75",
+   "old": "Who among us has the most charming way of flirting in another language?",
+   "new": "Q Can any of us actually flirt in another language, or do we just think we can?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/flirty-friends:80",
+   "old": "Who among us has had a crush on a celebrity for the longest?",
+   "new": "Q Whose celebrity crush has lasted embarrassingly long?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/flirty-friends:87",
+   "old": "Which of us has been the most hopeless romantic?",
+   "new": "Q Is there a hopeless romantic in our group, and who is it?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/flirty-friends:92",
+   "old": "Who among us has the cutest couple traditions?",
+   "new": "Q Which couple in our circle has the cutest traditions?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/flirty-friends:97",
+   "old": "Who among us has the best flirty playlist?",
+   "new": "Q Whose playlist would you trust for a date night?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/flirty-partner:85",
+   "old": "When did you first want to introduce me to your friends?",
+   "new": "Q How soon did you want to show me off to your friends?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/flirty-someone-new:94",
+   "old": "Have you ever been asked to dance by someone you didn't expect?",
+   "new": "Q Has anyone ever surprised you by asking you to dance?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/playful-friends:58",
+   "old": "Which of us has had the most chaotic moving day?",
+   "new": "Q Whose moving day turned into the biggest disaster we've seen?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/playful-friends:63",
+   "old": "Which of us has the most entertaining story from a family holiday?",
+   "new": "Q Whose family holiday stories do we always ask to hear again?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/playful-friends:68",
+   "old": "Which of us has been banned from somewhere, even jokingly?",
+   "new": "Q Has any of us actually been banned from a shop, restaurant or club?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/playful-friends:70",
+   "old": "Who among us has the funniest story about a teacher?",
+   "new": "Q Which teacher still features in our funniest stories?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/playful-friends:73",
+   "old": "Which of us has made the most impressive comeback in a game?",
+   "new": "Q What's the greatest comeback you've seen one of us pull off in a game?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/playful-friends:74",
+   "old": "Who among us has the most embarrassing music phase?",
+   "new": "Q Whose old music phase should never be mentioned in public?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/playful-friends:77",
+   "old": "Which of us has had the strangest neighbour?",
+   "new": "Q Whose old neighbour deserves their own sitcom?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/playful-friends:79",
+   "old": "Who among us has the most chaotic driving story?",
+   "new": "Q Which of our car journeys would make the funniest dashcam video?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/playful-friends:81",
+   "old": "Which of us has the most ridiculous lost-property story?",
+   "new": "Q What's the strangest thing one of us has left behind somewhere?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/playful-friends:86",
+   "old": "Which of us has the best story about a celebrity sighting?",
+   "new": "Q Which celebrity sighting story in our group is the least believable?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/playful-friends:88",
+   "old": "Who among us has the most ridiculous fear?",
+   "new": "Q Whose fear makes the least sense but is the most entertaining?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/playful-friends:91",
+   "old": "Which of us has the funniest sleepover memory?",
+   "new": "Q What happened at the sleepover we still bring up?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/playful-friends:92",
+   "old": "Who among us has the most chaotic morning routine?",
+   "new": "Q Whose morning routine would make the funniest documentary?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/playful-friends:95",
+   "old": "Which of us has the strangest story about a pet?",
+   "new": "Q What's the funniest thing a borrowed car, bike or scooter has done to one of us?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  }
+ ]
+}

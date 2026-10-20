@@ -1,0 +1,118 @@
+{
+ "pass": "similarity-band-2",
+ "method": "Similarity candidates and stem repetition read individually; same-premise or formulaic lines rewritten",
+ "revisions": [
+  {
+   "ref": "personal-experiences/playful-friends:20",
+   "old": "Who among us has the most chaotic dating history?",
+   "new": "Q Whose dating app bio would be the funniest to read aloud?",
+   "reason": "Same premise as another starter (or a Batch 1 starter); rewritten after reading the 0.46-0.62 similarity band.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/flirty-friends:7",
+   "old": "What's the worst date story one of us has ever told?",
+   "new": "Q Which date one of us went on should never have made it past the starter?",
+   "reason": "Same premise as another starter (or a Batch 1 starter); rewritten after reading the 0.46-0.62 similarity band.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/deep-someone-new:63",
+   "old": "What do you hope your future self will thank you for?",
+   "new": "Q Which choice are you making now that might surprise your future self?",
+   "reason": "Same premise as another starter (or a Batch 1 starter); rewritten after reading the 0.46-0.62 similarity band.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/flirty-friends:3",
+   "old": "Which of us will have the most whirlwind future romance?",
+   "new": "Q Whose next relationship do you think will surprise the group most?",
+   "reason": "Same premise as another starter (or a Batch 1 starter); rewritten after reading the 0.46-0.62 similarity band.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/curious-someone-new:52",
+   "old": "Tell me about a goal you've already achieved that you once thought was impossible.",
+   "new": "T Tell me about a goal that took much longer than you expected, and what kept you going.",
+   "reason": "Same premise as another starter (or a Batch 1 starter); rewritten after reading the 0.46-0.62 similarity band.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/curious-someone-new:99",
+   "old": "How did you end up living where you live now?",
+   "new": "Q What made you choose your current neighbourhood?",
+   "reason": "Same premise as another starter (or a Batch 1 starter); rewritten after reading the 0.46-0.62 similarity band.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/chill-partner:51",
+   "old": "What small luxury would you like us to treat ourselves to soon?",
+   "new": "Q Which little upgrade would make our everyday life feel more relaxed?",
+   "reason": "Same premise as another starter (or a Batch 1 starter); rewritten after reading the 0.46-0.62 similarity band.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/chill-partner:26",
+   "old": "What's a book that changed you that you'd like me to read?",
+   "new": "Q Which book do you wish we could discuss together chapter by chapter?",
+   "reason": "Same premise as another starter (or a Batch 1 starter); rewritten after reading the 0.46-0.62 similarity band.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/deep-friends:51",
+   "old": "Which tradition reminds you of someone who's gone?",
+   "new": "Q Which of your traditions has changed most since you moved away?",
+   "reason": "Same premise as another starter (or a Batch 1 starter); rewritten after reading the 0.46-0.62 similarity band.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/chill-friends:60",
+   "old": "Which of your old routines would you like to bring back?",
+   "new": "Q Which past phase of your life had the best daily rhythm?",
+   "reason": "Same premise as another starter (or a Batch 1 starter); rewritten after reading the 0.46-0.62 similarity band.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/flirty-partner:85",
+   "old": "It's our fortieth anniversary and our family has planned a surprise. What do you hope we do?",
+   "new": "S It's our fortieth anniversary and we're back where we first met. What do we do there?",
+   "reason": "Same premise as another starter (or a Batch 1 starter); rewritten after reading the 0.46-0.62 similarity band.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/deep-partner:92",
+   "old": "How do you feel about blending our holidays into something new?",
+   "new": "Q Which holiday would you be happy to celebrate in a completely new way?",
+   "reason": "Same premise as another starter (or a Batch 1 starter); rewritten after reading the 0.46-0.62 similarity band.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/playful-partner:23",
+   "old": "A fortune teller predicts our future together. What's the funniest prediction?",
+   "new": "S A time traveller from 2060 drops by our house. What do they laugh at first?",
+   "reason": "Same premise as another starter (or a Batch 1 starter); rewritten after reading the 0.46-0.62 similarity band.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/flirty-friends:38",
+   "old": "A fortune teller predicts all our love lives for the next decade. Whose is the most dramatic?",
+   "new": "S Ten years from now, our group chat is renamed after one person's love life. Whose is it?",
+   "reason": "Same premise as another starter (or a Batch 1 starter); rewritten after reading the 0.46-0.62 similarity band.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/flirty-friends:67",
+   "old": "Which of us would cry at our own wedding first?",
+   "new": "Q Which of us is most likely to fall for someone at a family celebration?",
+   "reason": "Same premise as another starter (or a Batch 1 starter); rewritten after reading the 0.46-0.62 similarity band.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/curious-partner:56",
+   "old": "Which of my habits do you think will help us most in the future?",
+   "new": "Q Which of my habits worries you when you picture our future?",
+   "reason": "Same premise as another starter (or a Batch 1 starter); rewritten after reading the 0.46-0.62 similarity band.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  }
+ ]
+}

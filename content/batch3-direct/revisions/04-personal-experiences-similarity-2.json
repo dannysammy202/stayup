@@ -1,0 +1,27 @@
+{
+ "pass": "personal-experiences-similarity-2",
+ "method": "Similarity candidates and stem repetition read individually; same-premise or formulaic lines rewritten",
+ "revisions": [
+  {
+   "ref": "personal-experiences/chill-partner:57",
+   "old": "What's the best gift you've ever given me, in your opinion?",
+   "new": "Q Which gift of mine took you longest to choose, and why?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/playful-partner:98",
+   "old": "What's the most ridiculous thing we've argued about while assembling something?",
+   "new": "Q Which piece of flat-pack furniture nearly ended us?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/chill-someone-new:77",
+   "old": "What's the most memorable wedding you've attended?",
+   "new": "Q Which celebration have you been a guest at that felt perfectly organised?",
+   "reason": "Same premise as a Culture starter; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  }
+ ]
+}

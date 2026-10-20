@@ -1,0 +1,20 @@
+{
+ "pass": "similarity-band-3",
+ "method": "Similarity candidates and stem repetition read individually; same-premise or formulaic lines rewritten",
+ "revisions": [
+  {
+   "ref": "culture/flirty-partner:15",
+   "old": "Which slow song would you want us to dance to in front of everyone?",
+   "new": "Q Where would you love us to dance in public just to make our friends groan?",
+   "reason": "New rewrite landed near two other dance-song starters; changed to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/curious-partner:54",
+   "old": "What's an experience with a mentor that shaped your ambitions?",
+   "new": "Q Who outside your family has believed in your ambitions the most?",
+   "reason": "Same premise as a Future & Ambitions mentor starter; rewritten.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  }
+ ]
+}

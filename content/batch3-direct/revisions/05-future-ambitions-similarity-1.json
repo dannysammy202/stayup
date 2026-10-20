@@ -1,0 +1,454 @@
+{
+ "pass": "future-ambitions-similarity-1",
+ "method": "Similarity candidates and stem repetition read individually; same-premise or formulaic lines rewritten",
+ "revisions": [
+  {
+   "ref": "future-ambitions/bold-partner:7",
+   "old": "Live near your family or near mine permanently?",
+   "new": "C Would you ever want us to live with one of our families for a few years?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/chill-partner:7",
+   "old": "Which of your goals would you like my help with this year?",
+   "new": "Q Which of your goals needs a practical hand from me this year?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/curious-partner:17",
+   "old": "Which skill would you like us both to learn for the future?",
+   "new": "Q Which new skill would make our home life easier in five years?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/chill-partner:10",
+   "old": "What tradition would you like us to start this year?",
+   "new": "Q Which seasonal ritual should become ours, starting next month?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/flirty-partner:13",
+   "old": "What romantic tradition would you like us to start this year?",
+   "new": "Q What's one romantic habit you'd like us to make official?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/chill-partner:45",
+   "old": "What does a successful year look like for us?",
+   "new": "Q What would make next year feel like our best one yet?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/chill-partner:79",
+   "old": "What would you like us to be known for among our friends?",
+   "new": "Q What kind of hosts do you hope we become?",
+   "reason": "Too close to a released Batch 1 starter; rewritten.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/chill-someone-new:92",
+   "old": "What's something you'd like to be known for among your friends?",
+   "new": "Q Which quality do you hope friends will always rely on you for?",
+   "reason": "Too close to a released Batch 1 starter; rewritten.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/curious-partner:21",
+   "old": "Which of your plans would you like me to ask about more often?",
+   "new": "Q Which of your goals do you think I misunderstand?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/deep-partner:77",
+   "old": "How do you hope we'll talk to each other when we're very old?",
+   "new": "Q Which tender habit do you hope we never lose, no matter how old we get?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/flirty-someone-new:71",
+   "old": "What do you hope someone will love about you in the future?",
+   "new": "Q What would you love a future partner to notice about you first?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/flirty-partner:38",
+   "old": "What's a romantic goal you'd like us to achieve together?",
+   "new": "Q Which romantic first should we still have together?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/flirty-someone-new:35",
+   "old": "Tell me about a romantic dream you've had since you were younger.",
+   "new": "T Tell me about a romantic film or story that shaped what you hope for.",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/flirty-someone-new:90",
+   "old": "Tell me about the kind of love you hope will find you.",
+   "new": "T Tell me about the qualities that would make you fall hard for someone.",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/flirty-someone-new:37",
+   "old": "Which future adventure would make you fall for someone even more?",
+   "new": "Q Which adventure would be the perfect test of chemistry?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/playful-partner:13",
+   "old": "Which of us will become obsessed with gardening?",
+   "new": "Q Which of us will end up talking to houseplants first?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/playful-partner:35",
+   "old": "What would our future cooking show be called?",
+   "new": "Q If we hosted a TV show as a couple, what would it be about?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/playful-someone-new:35",
+   "old": "What would your future cooking show be called?",
+   "new": "Q What would your future late-night chat show be called?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/flirty-someone-new:13",
+   "old": "What's a romantic tradition you'd love to start with someone special?",
+   "new": "Q Which little ritual would you hope to share with someone special every week?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/flirty-friends:72",
+   "old": "Which of us will be the first to celebrate a tenth anniversary?",
+   "new": "Q Which couple in our circle will still be going on date nights in twenty years?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/flirty-friends:8",
+   "old": "Tell me about the kind of partner you hope to have in five years.",
+   "new": "T Tell me about the qualities your next partner absolutely needs.",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/bold-partner:76",
+   "old": "How do you feel about the idea of having no children at all?",
+   "new": "Q What would you do if one of us changed our mind about children?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/bold-partner:61",
+   "old": "Do you think we'll handle getting older well together?",
+   "new": "Q Do you think I'll be a difficult person to grow old with?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/chill-partner:17",
+   "old": "What's a small goal we could set for this month as a couple?",
+   "new": "Q What's one little shared project we could finish this month?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/deep-partner:87",
+   "old": "Which part of growing older together excites you most?",
+   "new": "Q What are you looking forward to about the quiet years with me?",
+   "reason": "Too close to a released Batch 1 starter; rewritten.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/playful-partner:52",
+   "old": "Who will be the first to learn a new language for a holiday?",
+   "new": "Q Who will insist on speaking the local language badly on every future holiday?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/chill-someone-new:43",
+   "old": "Which kind of community would you like to be part of in the future?",
+   "new": "Q Would you like to live somewhere with a strong neighbourhood spirit someday?",
+   "reason": "Too close to a released Batch 1 starter; rewritten.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/flirty-partner:74",
+   "old": "What future dance would you like us to learn together?",
+   "new": "Q Where would you like us to dance together that we've never danced before?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/flirty-friends:17",
+   "old": "What kind of romance do you hope to find next?",
+   "new": "Q Who among us needs a romance that's completely different from their usual type?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/playful-someone-new:65",
+   "old": "What would you name a boat if you owned one?",
+   "new": "Q What would you call a racehorse if you owned one?",
+   "reason": "Too close to a released Batch 1 starter; rewritten.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/curious-friends:44",
+   "old": "What future trend are you most curious to see unfold together?",
+   "new": "Q Which change in the world do you think our group will adapt to best?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/flirty-someone-new:86",
+   "old": "What's a future surprise you'd love to plan for someone you liked?",
+   "new": "Q What's the sweetest thing you'd do to show someone you were interested?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/deep-partner:59",
+   "old": "Which future milestone do you most want to reach together?",
+   "new": "Q Which shared goal would feel most meaningful to reach side by side?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/flirty-friends:95",
+   "old": "Tell me about the future romantic moment you'd want us to witness.",
+   "new": "T Tell me about the romantic moment of yours you'd most want us to cheer for.",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/deep-friends:46",
+   "old": "What would you like your future self to thank us for?",
+   "new": "Q Which way we support you now will matter most in ten years?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/deep-someone-new:31",
+   "old": "What would you like to forgive yourself for before you're older?",
+   "new": "Q What do you hope to have stopped blaming yourself for by fifty?",
+   "reason": "Too close to a released Batch 1 starter; rewritten.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/chill-friends:85",
+   "old": "What would you like us to do more of next year?",
+   "new": "Q Which of our usual plans should we do twice as often next year?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/deep-friends:77",
+   "old": "Keep our traditions exactly as they are or let them evolve with us?",
+   "new": "C Plan our future meet-ups around old favourites or brand-new places?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/chill-friends:57",
+   "old": "Learn a new skill together this year or travel somewhere new together?",
+   "new": "C Start a group fitness goal or a group savings goal this year?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/curious-partner:95",
+   "old": "Tell me about something you'd like to learn about my plans that you've never asked.",
+   "new": "T Tell me about a plan of yours you've been waiting for me to ask about.",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/curious-partner:34",
+   "old": "How do you think our hobbies will evolve as a couple?",
+   "new": "Q Which hobby do you think we'll take up only once we retire?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/playful-partner:60",
+   "old": "Travel the world in a camper van or in first class?",
+   "new": "C Retire to a houseboat or a tiny home on wheels?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/playful-friends:18",
+   "old": "Whose wedding, if it happens, will be the most over the top?",
+   "new": "Q Whose big birthday party will need the most security?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/flirty-someone-new:50",
+   "old": "What's a future trip that would feel like a honeymoon even before one?",
+   "new": "Q Which far-off place would you save for a very special trip with someone?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/chill-someone-new:94",
+   "old": "Which habit would make your future self thank you?",
+   "new": "Q Which small habit do you think would change your life most if you kept it?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/chill-partner:63",
+   "old": "Where should our next weekend getaway be?",
+   "new": "Q Which nearby town should we finally spend a weekend in?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/deep-partner:65",
+   "old": "How do you hope our faith, values or beliefs will shape our future?",
+   "new": "Q Which beliefs do you hope our home will be built on?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/curious-partner:11",
+   "old": "How do you think our priorities will shift over the next ten years?",
+   "new": "Q Which of our priorities do you expect to swap places in ten years?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/curious-partner:40",
+   "old": "What would make you feel secure in our future?",
+   "new": "Q What would help you feel calm about the years ahead with me?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/deep-friends:94",
+   "old": "What would you want us to promise each other before life gets busier?",
+   "new": "Q Which of our friendship habits are you most worried we'll lose first?",
+   "reason": "Too close to a released Batch 1 starter; rewritten.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/chill-partner:39",
+   "old": "What's an adventure we should plan before life gets busier?",
+   "new": "Q What's an adventure we should plan while we still have the energy for it?",
+   "reason": "Too close to a released Batch 1 starter; rewritten.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/curious-someone-new:92",
+   "old": "Which of your plans would you like honest feedback on?",
+   "new": "Q Who do you go to for honest advice about your plans?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/curious-partner:13",
+   "old": "Which future milestone would you like us to prepare for now?",
+   "new": "Q Which future change do you think we should start planning for now?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/flirty-someone-new:75",
+   "old": "Which future gift would make you melt?",
+   "new": "Q Which kind of gift says \"you really get me\" to you?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/curious-partner:68",
+   "old": "How do you feel about where our friendships fit into our future?",
+   "new": "Q Which friendships do you think will matter most to us in twenty years?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/flirty-someone-new:70",
+   "old": "Which future holiday tradition would you love to share with someone?",
+   "new": "Q Which winter holiday would feel cosiest with someone special?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/playful-someone-new:88",
+   "old": "If you could invent a new job title, what would it be?",
+   "new": "Q If you could invent a brand-new holiday job, what would it be?",
+   "reason": "Too close to a released Batch 1 starter; rewritten.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/flirty-someone-new:29",
+   "old": "What's the most romantic city you'd like to visit with someone?",
+   "new": "Q Where in the world would you most like to be on a first holiday with someone?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/chill-partner:11",
+   "old": "Which skill should we learn together?",
+   "new": "Q Which practical skill should we both pick up this year?",
+   "reason": "Too close to a released Batch 1 starter; rewritten.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/flirty-partner:63",
+   "old": "Which romantic gesture would you like me to make on a random Tuesday?",
+   "new": "Q What small romantic surprise would brighten a dull Tuesday for you?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/curious-partner:43",
+   "old": "Which future decision do you feel most unsure about?",
+   "new": "Q Which choice about our future do you keep putting off?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/flirty-partner:46",
+   "old": "Which romantic film would you like us to recreate a scene from someday?",
+   "new": "Q Which romantic film would you like us to watch on every anniversary?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/curious-friends:16",
+   "old": "How do you stay motivated when your goals seem far away?",
+   "new": "Q Which of our goals do you think we should tackle as a team?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/deep-partner:17",
+   "old": "Which of your goals do you need me to believe in more?",
+   "new": "Q Which of your goals do you wish I asked about with more excitement?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  }
+ ]
+}
