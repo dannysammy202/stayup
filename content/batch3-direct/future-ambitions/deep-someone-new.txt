@@ -5,7 +5,7 @@ Q If your life went exactly to plan, what would be missing?
 Q What does a meaningful future look like to you?
 T Tell me about a goal that matters to you for reasons beyond success.
 Q What are you most afraid of losing as you get older?
-Q Which ambition do you carry for someone else, like a parent or a younger sibling?
+Q Which ambition do you carry for someone else, like your parents or younger siblings?
 Q What would you do differently if you knew you couldn't fail?
 H Ambition without purpose can leave you successful and empty.
 Q What would you like your legacy to be?
@@ -25,7 +25,7 @@ C A short extraordinary life or a long ordinary one?
 Q What do you hope to understand about yourself by the time you're fifty?
 Q How do you want to be remembered by the people closest to you?
 Q Which of your dreams feels most fragile?
-Q What future would you build if no one else's expectations mattered?
+Q What future would you build if your parents' expectations didn't matter?
 H The future is shaped more by daily choices than by big plans.
 Q How do you stay hopeful when the future feels uncertain?
 Q What do you hope to have stopped blaming yourself for by fifty?
@@ -57,7 +57,7 @@ Q What part of your future feels most like yours alone?
 Q Which future loss do you think about most?
 T Tell me about a dream someone discouraged that you still believe in.
 Q What would make you feel at home in the world?
-Q How do you hope to be different from the generation before you?
+Q How do you hope to be different from your parents' generation?
 Q Which kind of success would actually make you happy?
 C Follow a calling that's hard or a path that's comfortable?
 Q Which choice are you making now that might surprise your future self?
@@ -65,7 +65,7 @@ Q How do you want to give back as you grow older?
 Q Which ambitions feel like they truly belong to you?
 H We often overestimate what we can do in a year and underestimate what we can do in ten.
 Q What do you want to have more of in your life ten years from now?
-Q How would you like to handle the time you have left with your parents?
+Q How would you like to spend the time you have left with your parents?
 Q Which part of your future do you think about at night?
 T Tell me about the life you'd choose if you could start again from today.
 Q What would you like to stop doing so your future can be lighter?

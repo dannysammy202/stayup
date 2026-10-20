@@ -3,19 +3,19 @@ Q Who among us will marry someone we haven't met yet?
 Q Whose next relationship do you think will surprise the group most?
 Q What's the most romantic future you can picture for one of us?
 C Find love through a friend's introduction or by total chance?
-Q Who will be the first to get engaged?
+Q Who will be the first to do their introduction?
 Q Whose future partner do you think will fit into our group fastest?
 T Tell me about the qualities your next partner absolutely needs.
 Q Which of us will plan the most extravagant proposal?
-Q Who will have the most romantic honeymoon?
+Q Who will have the most romantic honeymoon, Zanzibar, Dubai or somewhere else?
 H Our group's future love stories will need their own group chat.
 Q What's a romantic goal you'd like to achieve before you're forty?
-Q Which city would be the most romantic for a future group holiday with partners?
+Q Which place would be the most romantic for a future group trip with partners?
 S We're all at one of our weddings in ten years. Who gives the best speech about love?
 Q Who will still be flirting outrageously at eighty?
 Q Whose future anniversary celebrations will be the most over the top?
 Q Who among us needs a romance that's completely different from their usual type?
-C Big romantic wedding or small secret ceremony, if it happens?
+Q Who among us will skip the big wedding for a small court one?
 Q Who among us will fall in love abroad?
 Q Which of our current crushes do you think has future potential?
 T Tell me about the romantic future you'd like us to make sure you don't miss out on.
@@ -23,7 +23,7 @@ Q Whose future partner will charm our parents the most?
 Q Who will be the most romantic grandparent, if that's in their future?
 Q What future romantic adventure would you like the rest of us to plan for you?
 S We're setting each other up for the next year. Who's your perfect match for me?
-Q Which of us will get serenaded at their own wedding?
+Q Which of us will get serenaded at their own reception?
 Q Who will be the hardest to impress when it comes to future dates?
 H The best future wingperson is the friend who knows your type better than you.
 Q What's a quality you hope your future partner has that none of your exes did?
@@ -46,7 +46,7 @@ C Fall in love quickly or slowly in your next relationship?
 Q Who will write the most heartfelt vows, if that day comes?
 T Tell me about the romantic gesture you hope someone makes for you someday.
 Q Which of us will have a love story worth turning into a film?
-Q Who will meet their future partner at a wedding?
+Q Who will meet their future spouse at a friend's wedding?
 Q What future romantic milestone do you most want us to celebrate with you?
 S We're planning a joint celebration for all our future anniversaries. What's the theme?
 Q Whose future partner will be the best cook?
@@ -54,7 +54,7 @@ Q Whose future home will feel the most romantic?
 H The friends who hype you up on dates will one day hype you up at the altar.
 Q Who will be the most romantic at sixty?
 Q What future relationship advice would you give yourself?
-C Meet someone at work or at a hobby group in the future?
+C Meet someone at work or at church or the mosque in the future?
 Q Whose proposal story, if it happens, will make us laugh the hardest?
 T Tell me about the future date night you'd want to recreate with a partner every year.
 Q Who will be the most romantic texter in the future?
@@ -66,7 +66,7 @@ Q Who will have the most romantic retirement?
 H Our future wedding photos will be legendary.
 Q What future romantic risk should one of us take?
 Q Which of our future love stories will be the slowest burn?
-C Elope abroad or have a huge party with all of us there?
+C A court wedding abroad or a huge owambe with all of us there?
 Q Who among us will be the best at keeping romance alive long term?
 T Tell me about your dream first dance song for a future wedding.
 Q Which couple in our circle will still be going on date nights in twenty years?
@@ -77,7 +77,7 @@ Q Whose love life is due the most dramatic comeback?
 Q Who will surprise us most with who they end up with?
 H Love stories are better when your friends are in them.
 Q What future romantic city break should we all take with partners?
-Q Whose garden will become the most romantic spot we know?
+Q Whose future home will become the most romantic spot we know?
 C Romantic dinners at home or adventurous dates abroad in the future?
 Q Who will still be holding hands on walks at ninety?
 T Tell me about the kind of love you hope we all find.
