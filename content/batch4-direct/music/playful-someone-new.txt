@@ -1,7 +1,7 @@
 Q What's your most embarrassing guilty pleasure song?
 Q Which song would you pick as your walk-up music at a sports match?
 S You're forced to perform karaoke right now. What's your song?
-C Have a personal theme tune play whenever you enter a room or have a backing choir follow you?
+C Have a personal theme tune play whenever you enter a room or have a talking drummer follow you around?
 Q What's the worst song you secretly know every word to?
 S Your life is turned into a musical. What's the big opening number about?
 Q Which band name would you choose if you started a group tomorrow?
@@ -29,7 +29,7 @@ Q What song would you sing to win a talent show for pets?
 Q Which instrument would you play if you joined a marching band?
 S You're on a game show and must name a song from three notes. What's your favourite category?
 Q What's the most dramatic song you've ever sung at karaoke?
-C Rap battle or opera duet with a stranger?
+C Rap battle or gospel duet with a stranger?
 Q Which song would you play to start a flash mob?
 S You get to rename any famous song. Which one, and what's the new title?
 Q What's the worst concert outfit you've ever worn?
@@ -50,9 +50,9 @@ Q What's the most dramatic music video you can think of?
 Q Which song would you choose for a dance-off against a stranger?
 S You've been given a tambourine and must join a band on stage. How do you handle it?
 Q What's a song that makes you want to sing into a hairbrush?
-C Perform at a festival dressed as a banana or sing the national anthem off-key at a match?
+C Perform at a carnival dressed as a banana or sing the national anthem off-key at a football match?
 Q Which song would play during your villain origin story?
-S A busker hands you their guitar. What do you attempt?
+S A wedding band hands you their guitar. What do you attempt?
 Q What's a song you'd play to start a party at a library?
 Q If your laugh were a song, what genre would it be?
 S You've been booked as the opening act for your favourite artist but can't sing. What's your act?
@@ -79,20 +79,20 @@ Q Which song would be the soundtrack to your most chaotic morning?
 S You're cast in a musical but you can only sing one note. How do you make it work?
 Q What's a song you've danced to alone in your kitchen?
 C Learn the bagpipes or the accordion?
-Q Which song would you use to describe your cooking?
+Q What song best describes your cooking?
 S You must write a song about your commute. What's the chorus?
 Q What's the most memorable wedding dance you've seen?
 Q Which song would you blast if you won a big prize?
-S A choir follows you around for a day singing your thoughts. What do they sing first?
+S A praise team follows you around for a day singing your thoughts. What do they sing first?
 Q What's your signature karaoke pose?
-C Play the triangle in an orchestra or the cowbell in a rock band?
+C Play the shekere in a juju band or the cowbell in an Afrobeats band?
 Q What would you sing at a talent show for adults who can't sing?
 S You're the DJ at a party for grandparents. What gets them dancing?
 Q What's a song that should be banned from weddings?
 Q What song would you play to end a phone call dramatically?
-S You discover you can only sing in the style of an opera singer. How do you order coffee?
+S You discover you can only speak in the style of a fuji singer. How do you order suya?
 Q What's the worst possible song to play during a job interview?
-C Sing in a barbershop quartet or a heavy metal band for a day?
+C Sing with a juju band or a gospel choir for a day?
 Q What would your rapper name be?
 S You've been asked to compose a song for a sandwich shop. What's the chorus?
 Q Which song do you dance to when nobody's watching?

@@ -2,10 +2,10 @@ Q How do you think our music tastes have changed since we got together?
 Q What's the story behind your favourite song?
 Q Which artist do you think best describes our relationship?
 S We could go back in time to see one concert together. Which one?
-Q What did your parents listen to when they were falling in love?
+Q What did your parents listen to when they were courting?
 Q How did music shape your teenage years?
 Q Which of my favourite genres would you like to understand better?
-C Take music lessons together or go to a music history tour together?
+C Take music lessons together or go on a music history tour of Lagos together?
 Q What song do you think means the most to you, and why?
 Q How do you think music affects the mood of our home?
 Q Which album would you want me to listen to so I understand you better?
@@ -13,15 +13,15 @@ S We're given a year to learn an instrument together. Which one do we choose?
 Q What's a song that made you think differently about love?
 Q How do you feel when a song we love comes on in public?
 Q Which artist's career do you find most inspiring?
-Q What do you think our families' music says about where we come from?
+Q What does our families' music say about where we come from?
 S We could ask any musician to write a song about us. Who would you choose?
 Q Which song would you want me to understand the meaning of?
 Q How has music helped you through difficult times?
-C Explore your culture's music or mine first?
+C Explore your tribe's music or mine first?
 Q What's a song from your past that you've never told me about?
 Q How do you think music connects people who love each other?
 Q Which genre do you think our future home will sound like?
-S We find a recording of your parents singing together. What song is it?
+S We find an old recording of your parents singing together. What song is it?
 Q What do you listen for when you hear a new song?
 Q Which concert do you think changed you?
 Q How do you think our music tastes complement each other?
@@ -32,7 +32,7 @@ C Write a song together or learn an old song together?
 Q How do you think music has shaped your idea of romance?
 Q Which song do you think describes how you feel about me right now?
 Q What's a genre you grew up with that I don't know well?
-S We could spend a week in any music city together. Which city?
+S We could spend a week in any music city together, Lagos, Accra or anywhere else. Which city?
 Q How has a song ever changed your mind about something?
 Q Which musician would you love us to meet together?
 Q What do you think our song says about us?
@@ -50,22 +50,22 @@ Q How do you think music will fit into our future?
 S We each research the history of a song we love and share it. Which song do you pick?
 Q What's a song you'd like our children to know, if we have them?
 Q Which concert from your past do you wish I'd been at?
-C Attend an opera together or a jazz festival together?
-Q How do you think your music taste would change if you'd grown up elsewhere?
+C Go to a highlife night together or a big Afrobeats festival together?
+Q How would your music taste be different if you'd grown up in another part of Nigeria?
 Q What's a song that always makes you think of home?
 Q Which artist do you think we'll still love together in twenty years?
-S We could invite one musician to play at our home for an evening. Who?
+S We could invite one Nigerian musician to play at our house for an evening. Who?
 Q How does music help you understand my moods?
 Q Which genre do you think we should explore together this year?
 Q What do you think draws you to the songs you love?
 S We're asked to describe our relationship as a genre of music. Which genre?
 Q Which song do you think captures your childhood best?
 Q How do you feel about the music I play when I'm stressed?
-C Learn a dance from your culture or one from mine?
+C Learn a dance from your tribe or one from mine?
 Q What's a musical tradition you'd like us to start?
 Q Which song's lyrics do you think are truest about love?
 Q How do you think music changes as relationships grow?
-S We're given a vinyl collection and must choose ten records to keep. What do you choose?
+S We're given an old record collection and must choose ten to keep. What do you choose?
 Q Which song would you love to hear performed live in our living room?
 Q Which artist do you think understands heartbreak best?
 Q Which of our memories are tied most strongly to a song?
@@ -94,7 +94,7 @@ Q When has music helped you express something you couldn't say?
 S We're writing down the songs that should play through our life story. What's the last song?
 Q Which genre would you like to understand through my eyes?
 Q What's a song you've never shared with anyone else?
-C Learn about the composers behind classical music or the producers behind pop?
+C Learn about the old masters of highlife and juju or the producers behind today's hits?
 Q If our love were a song, what would it sound like?
 Q What musical memory would you like us to make next?
 Q Which song would you play to explain your teenage years to me?

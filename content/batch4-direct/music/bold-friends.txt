@@ -9,7 +9,7 @@ Q Whose karaoke song choice says the most about them?
 H Our group's music taste has got worse over the years.
 Q Which of us would ditch the group for front-row tickets?
 Q Who among us would lie about liking a band to impress someone?
-S A festival only gives our group one ticket. Who gets it, and who sulks?
+S A December concert only gives our group one ticket. Who gets it, and who sulks?
 Q Which of our favourite artists do you secretly think is terrible?
 C Hear your music taste roasted by us or roast ours?
 Q Who would leave a concert early and pretend they loved it?
@@ -31,14 +31,14 @@ Q Whose concert stories do you think are exaggerated?
 S A music critic reviews our playlists. Whose gets the worst review?
 H Half of us only like certain songs because of who we were dating at the time.
 Q Who among us has the most pretentious music taste?
-Q Which of us would get kicked out of a music festival?
+Q Which of us would get kicked out of a concert?
 Q Whose ex had the best music taste?
 C Listen to my favourite album with me in silence or tell me honestly you hate it?
 Q Which of us is the worst at dancing but the most confident?
 S We each have to defend our most controversial music opinion to the group. What's yours?
 H The person who controls the music controls the night.
 Q Who would cancel plans to see a band without telling us first?
-Q Which of us would be the first to give up on a music festival in the rain?
+Q Which of us would be the first to give up on an outdoor concert in the rain?
 Q Whose song choices ruin the mood at parties?
 C Hear your singing voice recorded or hear our honest review of it?
 Q Who among us would join a band just for the attention?
@@ -52,7 +52,7 @@ S A DJ asks which of us is the worst dancer. Who do we all point at?
 Q Which of us would refuse to dance at their own wedding?
 H Our music taste would ruin a first impression with strangers.
 Q Who among us is a music snob?
-Q Which of us would get the most annoyed if someone talked during a gig?
+Q Which of us would get the most annoyed if someone talked through a concert?
 Q Whose karaoke song should be retired forever?
 C Hear the group's verdict on your dancing or your singing?
 S We're asked to pick one member to represent the group at a talent show. Who gets the fewest votes?
@@ -63,7 +63,7 @@ Q Which of us has the most questionable concert outfit history?
 Q Whose favourite artist would you never go to see?
 C Perform a song you hate in front of us or let us choose your song?
 S We find our old playlists from school. Whose is the most embarrassing?
-Q Who among us would be the worst festival camping buddy?
+Q Who among us would be the worst concert buddy?
 H We judge each other's music more than we admit.
 Q Which of us is most likely to love a song ironically and then genuinely?
 Q Whose music taste would you change if you could?

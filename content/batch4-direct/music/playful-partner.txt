@@ -8,7 +8,7 @@ Q Which of my dance moves makes you laugh the most?
 Q What song do you think describes our arguments?
 S We're judged on a couples' karaoke show. What song do we lose with?
 Q Who's more likely to lose their voice at a concert from screaming?
-C Matching outfits at a gig or matching dance moves at a wedding?
+C Matching outfits at a concert or matching dance moves at a wedding?
 Q What song do you hum when you're pretending not to be annoyed with me?
 S We get to choose the soundtrack for our grocery shopping. What's playing?
 Q Which of my guilty pleasure songs do you pretend to hate?
@@ -22,12 +22,12 @@ Q Which song would you play to wake me up as a prank?
 Q Who sings louder in the shower?
 S We write a song about our most chaotic holiday. What's the chorus?
 Q What song should play as we walk into a party we're late for?
-C Karaoke a love song badly or a rock song brilliantly?
+C Karaoke a love song badly or an Afrobeats jam brilliantly?
 Q Who's more likely to get a lyric completely wrong and insist they're right?
 S A street band asks us to dance. Who says yes first?
 Q What's the cheesiest love song you'd sing to me?
 Q Which of my music phases do you wish you'd seen?
-S We open a terrible jazz club for one night. What's our act?
+S We run a terrible live band at a friend's party for one night. What's our act?
 Q What song do you associate with me burning dinner?
 C Have a theme song for our home or a theme song for our car?
 Q Who's more likely to sing into a hairbrush?
@@ -57,19 +57,19 @@ Q Which song would you play to get me off the sofa?
 Q Who would be the backup dancer in our relationship?
 S We have to communicate only in song lyrics for an evening. How does dinner go?
 Q What's a song we pretend not to know all the words to?
-C Learn salsa or learn to beatbox together?
-Q Which of us would make a worse opera singer?
+C Learn the latest dance trend or learn to play the talking drum together?
+Q Which of us would make a worse choir soloist?
 S Our neighbours complain about our music. Which song was it?
 Q What's the best song we've ever dramatically lip-synced to?
 Q Which annoying jingle do you get stuck in my head on purpose?
 S We're starting a terrible podcast about music. What's the first episode called?
 Q Which song would you use to describe my morning mood?
-C Slow dance to a rock song or headbang to a ballad?
+C Slow dance to a fuji song or go wild to a highlife ballad?
 Q What's the funniest song you'd play at our anniversary party?
 S We're each asked to write a song about the other's weird habit. What's yours about?
 Q Which of us would get booed off a talent show first?
 Q What's the most chaotic music moment we've shared?
-S A busker plays our song badly. Do we dance anyway?
+S A party band plays our song badly. Do we dance anyway?
 Q What would our album cover look like?
 C Make a dance video together or a lip-sync video?
 Q Who's more likely to make up songs about the pet?
@@ -78,7 +78,7 @@ Q What song do you think I play when I'm sulking?
 Q Which of us would be a better wedding singer?
 S We're asked to perform a song at a family dinner. Who chickens out?
 Q What's the silliest song we've made up together?
-C Kitchen disco on a weeknight or full dance party on a Saturday?
+C Kitchen dance on a weeknight or a full party on Saturday?
 Q Which song would you dedicate to my snoring?
 S We're the stars of a dramatic music video in a supermarket. What happens?
 Q Who has the worse sense of rhythm?
@@ -90,7 +90,7 @@ Q What song would you sing to apologise to me?
 S We're cast as a pop duo for a day. What's our stage name?
 Q Which of my music choices do you blame for our worst road trip?
 Q Who's the better hummer?
-S Our love story is a country song. What's the chorus about?
+S Our love story is a fuji song. What's the chorus about?
 Q Which song would you play at full volume to embarrass me?
 C Serenade me badly or dance terribly for me?
 Q What's the most ridiculous song you've ever played to make me laugh?

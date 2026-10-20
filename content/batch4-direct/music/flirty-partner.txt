@@ -10,7 +10,7 @@ Q What song would you want me to sing to you?
 S I'm making you a playlist of songs that remind me of you. What do you hope is on it?
 Q Which song would you play to charm a smile out of me?
 Q Which song makes you want to dance with me in the supermarket?
-C Slow dance under the stars or dance wildly at a festival together?
+C Slow dance under the stars or dance wildly at a December concert together?
 Q Which music video would you like us to recreate?
 Q Which song at a wedding we attended made you squeeze my hand?
 S We have a private concert with any artist for one evening. Who plays for us?
@@ -18,8 +18,8 @@ Q Which song would you want playing during our next kiss?
 T Tell me about a song that reminds you of our first date.
 Q What music makes you feel most romantic around me?
 Q Which duet should we perform at our next karaoke night?
-C Candlelit dinner with a violinist or a picnic with our playlist?
-Q What's a song you'd dedicate to me on the radio?
+C Candlelit dinner with a live saxophonist or a beach evening with our playlist?
+Q What song would you request on the radio and dedicate to me?
 Q Which love song makes you think of our future?
 S We're dancing at a wedding and the band plays our favourite song. What happens next?
 Q Which instrument would you love to see me play?
@@ -50,10 +50,10 @@ Q What song would you want playing when I walk into the room?
 Q Which lyrics would you want whispered in your ear?
 T Tell me about a song that makes you remember our first kiss.
 Q What music would you want in the background of a candlelit evening at home with me?
-C Romantic jazz night or a romantic acoustic night?
+C Romantic highlife night or a romantic acoustic night?
 Q Which song would you want at our next celebration, just for us?
 Q What song would you secretly love me to perform for you?
-S We're on a slow train through the countryside sharing earbuds. What's playing?
+S We're on a long road trip sharing earbuds. What's playing?
 Q Which artist's love songs make you think of me?
 Q Which song would you trust to get a reluctant dancer like me on the floor?
 T Tell me about the most romantic way you'd like to surprise me with music.
@@ -66,7 +66,7 @@ Q What's the sweetest song you'd like me to learn?
 Q Which love song do you think suits our quiet moments?
 T Tell me about a song that makes you want to plan a surprise date.
 Q What song would you play if you wanted me to dance with you right now?
-C Romantic opera or a romantic rock ballad?
+C A romantic highlife classic or a romantic Afrobeats love song?
 Q Which song do you think captures the way we flirt?
 Q What's a song you'd love us to slow dance to in the rain?
 S We're hosting a romantic dinner and choosing the playlist together. Who wins the arguments?
@@ -74,7 +74,7 @@ Q Which singer would you love to hear serenade us at dinner?
 Q What song makes you want to kiss me on the dance floor?
 T Tell me about a song you'd love me to play on our next road trip.
 Q Which love song from your childhood do you want to share with me?
-C Romantic dance class or romantic music festival weekend?
+C Romantic dance class or a December concert weekend together?
 Q What's a song that always puts you in the mood for a date night?
 Q Which song would you want playing at a surprise proposal or renewal, if that's in our future?
 S We're writing our own love song. What would the title be?
@@ -92,7 +92,7 @@ T Tell me about the most romantic music memory you have with me.
 Q Which song would you put on before we head out for date night?
 Q What's a song that makes you look at me differently?
 C Dance in the living room tonight or plan a dance date for the weekend?
-Q Which song would you choose to say "I love you" without words?
+Q If you had to say "I love you" with one song and no words, which would it be?
 Q What's the next song you'd like us to fall in love to?
 Q Which of my outfits deserves its own theme song?
 Q What song should I play the next time I want you to dance with me?

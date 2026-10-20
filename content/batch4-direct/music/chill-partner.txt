@@ -1,9 +1,9 @@
 Q Which song would you call our soundtrack this year?
 Q What's the first song we listened to together?
-Q Which album should we play on lazy Sunday mornings?
+Q Which album should we play on lazy Saturday mornings?
 C Slow dance in the living room or sing together in the car?
 Q Which song would you put on to get us both cooking dinner faster?
-Q Which concert would you love us to go to next?
+Q Which concert would you love us to go to this December?
 T Tell me about the album you listened to most in our first year.
 Q What's a song you'd like played at a celebration of us someday?
 Q Which artist do you think suits our relationship best?
@@ -13,29 +13,29 @@ S We're making a playlist for a long drive together. What's the first song?
 Q What's a song that always makes you think of me when it comes on?
 Q Which instrument would sound best in our home on a quiet evening?
 Q What's the cosiest album for a rainy night in with me?
-C Gig in a big arena or a small jazz bar together?
+C Big concert at an arena or a small live band lounge together?
 Q Which song would you want playing on a perfect evening at home?
 Q What's a song from your childhood you'd love me to hear?
 T Tell me about the first time you made me a playlist, or wanted to.
-Q Which band's reunion tour would you drag me to?
+Q Which old Nigerian group's reunion show would you drag me to?
 Q What music do you like to wake up to?
 Q Which album do you think we've listened to most together?
 S We get one private concert from any musician. Who plays for us?
 Q What's a song that makes the washing-up feel like a party?
 Q Which of my favourite songs has grown on you?
 Q What's a song you'd play to calm me down after a long day?
-C Vinyl evening at home or a picnic with a speaker?
-Q Which music festival would we both survive camping at?
+C Old-school music evening at home or a beach day with a speaker?
+Q Which music festival would we both enjoy without complaining about the crowd?
 Q What's a song that reminds you of a trip we took?
 T Tell me about a song you sent me without saying why.
 Q Which singer would you want reading you a bedtime story?
 Q What music would you want at a dinner party we host?
-Q Which song would you choose for our first dance, if we have one?
+Q Which song would you choose for our first dance at the wedding reception?
 S We're spending a quiet night in with just music. What's the order of the playlist?
 Q What's a genre you'd like me to introduce you to properly?
-Q Which album would you put on during a thunderstorm with me?
+Q Which album would you put on during a heavy rainstorm with me?
 Q What song do you hum when you're happy at home?
-C Learn a duet together or harmonise to an old favourite?
+C Learn a duet together or harmonise to an old highlife favourite?
 Q Which song would you want playing when we're old and dancing slowly?
 Q Which gig of ours would you relive from start to finish?
 T Tell me about a song that makes you feel close to me even when we're apart.
@@ -46,20 +46,20 @@ S We're starting a tiny band for two. What's our first song?
 Q Which album would you play me to explain a year of your life?
 Q Which song do you think describes how we met?
 C Background music while we read or silence and conversation?
-Q What's a song from my culture or family that you love?
+Q What's a song from my side or my family that you love?
 Q Which radio station would we leave on in our dream kitchen?
 T Tell me about the first concert you remember wanting to take me to.
 Q What music helps you feel relaxed around me?
 Q Which song would you pick for a slow morning together?
 Q What's a song you'd like me to learn to play for you?
-S We find an old music box in an antique shop. What tune do you hope it plays?
+S We find an old record player at the market. What song do you hope we can play on it?
 Q Which of our favourite songs do you think best describes our home?
 Q What's a song that always makes us both sing along?
 C Lullabies and soft songs or upbeat dance tracks on a Sunday?
 Q Which album reminds you of our first year together?
 Q What music would you want at a small anniversary dinner?
 T Tell me about a time a song made you think about our future.
-Q Which artist would you like to hear in a candlelit venue with me?
+Q Which artist would you like to hear at a candlelit dinner with me?
 Q What's a song you think we should add to our playlist this week?
 Q Which song would you play to wake me up gently?
 S We're each choosing one song to describe the other. What's yours for me?
@@ -75,7 +75,7 @@ Q What's a soft song that feels like holding hands?
 S We're writing a song together about an ordinary day. What's the first line?
 Q Which artist do you think would play at our dream party?
 Q What's a song that always makes you smile at me?
-C Live music at a vineyard or at a beach bar?
+C Live music at a rooftop lounge or at a beach bar?
 Q Which song would you like to hear on our next anniversary?
 Q What music do you think suits our evenings best?
 T Tell me about a song that makes our home feel like ours.
@@ -85,7 +85,7 @@ Q Which song makes you feel nostalgic about us already?
 S We're making a playlist to listen to when we're apart. What's on it?
 Q What's a genre you didn't like until you met me?
 Q What should be playing during a cosy breakfast in our kitchen?
-C Concert in a forest or concert by the sea?
+C Concert under the stars or concert by the lagoon?
 Q Which song should be our official kitchen-cleaning anthem?
 Q Which song reminds you of a lazy holiday afternoon with me?
 T Tell me about a song you'd like us to give each other every anniversary.
@@ -93,7 +93,7 @@ Q What's a song that feels like the start of a weekend with me?
 Q Which artist's music feels like our relationship?
 Q What's a song you'd play on a quiet drive home with me?
 S We have one evening to listen to every song that's mattered to us. Which song comes first?
-Q Which song do you think we'll teach our children, if we have them?
+Q Which song do you think we'll teach our children, maybe a folk song from home?
 Q What music do you want in the background of our next chapter?
 Q Which song do you play when you want our home to feel calm?
 Q Which album would you put on to cheer me up after a long week?
