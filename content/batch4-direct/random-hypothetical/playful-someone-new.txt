@@ -23,7 +23,7 @@ S Your reflection starts giving you fashion advice. What does it say?
 Q If you had to replace your hands with kitchen utensils, which would you pick?
 S You wake up and your voice has been swapped with a famous narrator's. Whose?
 Q If your hair changed colour with your mood, what colour would it be right now?
-S A penguin knocks on your door asking for directions. Where is it going?
+S A goat knocks on your gate asking for directions. Where is it going?
 C Be able to fly but only at walking speed, or run at lightning speed but only backwards?
 Q If you had a sidekick, what animal would it be and what would it be called?
 S Your car can only play one song forever. Which one do you choose?
@@ -48,7 +48,7 @@ S You're given a magic remote that only pauses other people. What do you do?
 C Have a nose that glows in the dark or ears that whistle when you lie?
 Q If you could add one ridiculous rule to every office, what would it be?
 S Your cat becomes the boss of your workplace. How does the first meeting go?
-Q If you were a sandwich, what would be in you?
+Q If you were a street food, what would you be?
 S A time traveller asks you for directions and fashion tips. What do you tell them?
 Q If your bed could fly, where would you secretly go at night?
 S Every time you open a door, you hear dramatic music. How do you handle meetings?
@@ -68,7 +68,7 @@ Q If you could only eat food of one colour for a week, which colour?
 S Every time you laugh, a flower blooms nearby. Where do you tell jokes?
 C Be a famous meme or a famous mystery?
 Q If your sense of humour were a dessert, which would it be?
-S You're given a magic wand that only works on sandwiches. What do you do with it?
+S You're given a magic wand that only works on bread and akara. What do you do with it?
 Q If you could make a new national holiday for something silly, what would it celebrate?
 S A gnome moves into your garden and starts charging rent. What does it want?
 Q If your keyboard had a mind of its own, what would it type?

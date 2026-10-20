@@ -21,7 +21,7 @@ S We win a prize trip to the strangest place on earth. Where is it?
 Q If our love were a fast-food meal, what would be in the box?
 S We swap jobs for a day. What's the first email you'd send as me?
 Q If we had a joint wrestling name, what would it be?
-S We're stranded in a ski lodge and can't ski. How do we pass the time?
+S We're stranded in a hotel during a fuel scarcity and can't go anywhere. How do we pass the time?
 C Ride a tandem bike across a country or paddle a canoe down a river?
 Q If our love story were a video game, what would the final boss be?
 S A wizard turns one of us into a cat for a day. Who's the cat, and how do they behave?
@@ -31,7 +31,7 @@ Q If our relationship were a cooking show, what would the challenge be?
 S We become the world's worst detectives. What's our first case?
 C Live in a house of bouncy castles or a house of slides?
 Q If you could swap one of my talents with yours, which would you take?
-S We're given a vintage camper van for a month. Who decorates it?
+S We're given an old bus to turn into a mobile home for a month. Who decorates it?
 Q If we had a secret code word for "let's leave this party", what would it be?
 S Our faces end up on a cereal box. What's the cereal called?
 Q If our love were a dance, would it be the tango or the chicken dance?
@@ -47,7 +47,7 @@ C Spend a week as medieval peasants or a week as space explorers?
 Q If a sports commentator narrated our mornings, what would they say?
 S We become accidental owners of a circus. What's our act?
 Q If our cooking skills were a film genre, which would they be?
-S A fortune teller says we're destined to be famous for one silly thing. What is it?
+S A "prophet" at a bus stop says we're destined to be famous for one silly thing. What is it?
 Q If you could change my name for a day, what would you call me?
 S We're the subject of a museum exhibit about modern couples. What does our label say?
 C Swap voices with each other or swap laughs?
@@ -62,7 +62,7 @@ Q If you could give our home a ridiculous name, what would it be?
 S A magic remote lets us skip boring parts of the day. Which part do you skip?
 Q If we were characters in a cartoon, what would our catchphrases be?
 S We accidentally win a dance competition. What was our secret move?
-Q If our love were a sandwich, what would be in it?
+Q If our love were a street food, what would it be?
 S We spend a day pretending to be tourists from another planet. How do we behave?
 C Dress as each other for a party or dress as two famous historical figures?
 Q If we had to start a terrible band, what would we call it?
@@ -71,14 +71,14 @@ Q If you could make me do one silly thing every morning, what would it be?
 S Our kitchen appliances start talking about us. What does the toaster say?
 Q If our relationship were an animal, which one would it be?
 S We wake up as a pair of world-famous magicians who can't do magic. What's our show?
-C Get lost in a maze together or lost in a supermarket?
+C Get lost in a maze together or lost in Balogun market?
 Q If we had our own reality show, what would the dramatic episode be?
 S We're given a tiny island and must name everything on it. What's the name of the island?
 Q If you could award me a medal for something ridiculous, what would it be for?
 S We have to share one umbrella for a year. How does it go?
 Q If our love story were told by a pigeon, what would it say?
 S Every time we kiss, it starts raining sweets. Where do we avoid kissing?
-C Win a lifetime of free pizza or a lifetime of free cinema tickets?
+C Win a lifetime of free suya or a lifetime of free cinema tickets?
 Q If you could swap our pets' personalities with ours for a day, what would happen?
 S We're stuck in a lift with a famous comedian. Who makes them laugh first?
 Q If our relationship had a ridiculous motto, what would it be?

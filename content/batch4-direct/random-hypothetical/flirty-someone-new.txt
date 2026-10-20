@@ -1,5 +1,5 @@
 S We're the only two people in a stuck lift for an hour. What's your opening line?
-S A fortune teller says we'll go on a date by the end of the month. Where does it happen?
+S A stranger at a wedding says we'll go on a date by the end of the month. Where does it happen?
 Q If you could plan a date anywhere in the world tonight, where would you take me?
 S We've both been invited to a masquerade ball. How would I recognise you?
 C Slow dance under the stars or race me on a beach at sunset?
@@ -26,7 +26,7 @@ Q If you could whisk me away for a weekend, where would we go?
 S We're the main characters in a love song. What's the chorus about?
 Q If you had to win me over with a single gesture, what would it be?
 S Every time you smile, a flower blooms. How many flowers are around us right now?
-C Rooftop picnic or rowing boat on a lake?
+C Rooftop dinner or a boat ride on the lagoon?
 Q If we went on a date in any decade, which would be most fun?
 S We find ourselves at the same wedding without dates. Do we dance together?
 Q If you could know one thing about me without asking, what would it be?
@@ -34,14 +34,14 @@ S A stranger bets you can't make me laugh in under a minute. What do you try?
 Q If our conversation were a dish, what would it taste like?
 S We get stuck on a Ferris wheel at the top. What do we talk about?
 Q If you could give me a nickname right now, what would it be?
-C Dance at a festival or stargaze in the desert?
+C Dance at a concert or stargaze far from the city?
 S A magician says he can make sparks fly between two strangers. Do you volunteer us?
 Q If you were a romantic gesture, which one would you be?
 S We're asked to plan a fake date for a TV show. How fake does it stay?
 Q If you could choose the soundtrack for this moment, what would it be?
 S We bump into each other on holiday in a city neither of us lives in. What do we do?
 Q If you could steal one trait from me, what would it be?
-C First date at a museum or at an arcade?
+C First date at an art gallery or at an arcade?
 S A matchmaker app says we're a 99 percent match. What's the missing one percent?
 Q If you could take me to your favourite place, where would we be right now?
 S We're caught in a sudden downpour without umbrellas. What do we do?
@@ -62,7 +62,7 @@ S We're seated next to each other on a twelve-hour flight. What's the first thin
 Q If you could make me blush with one sentence, what would you say?
 S Every compliment you give turns into a tiny star. How bright is it around us?
 Q If we were in a fairy tale, what role would you play?
-C Get lost in a new city together or find a hidden café together?
+C Get lost in a new city together or find a hidden suya spot together?
 S A street artist offers to paint us. What pose do we choose?
 Q If you could choose the setting of our first kiss, where would it be?
 S We're the last two people at a party. What do we do?
@@ -83,15 +83,15 @@ S A friendly bartender makes us a drink based on our vibe. What's in it?
 Q If we were two notes in a song, would we harmonise?
 S We're both locked out of a party and stuck on the balcony. What do we do?
 Q If you could ask me one bold question right now, what would it be?
-C Romantic gondola ride or a moonlit carriage ride?
-S A fortune cookie says "say yes tonight". What do you ask me?
+C A romantic boat ride at sunset or a long drive with the windows down?
+S You see a sign on a bus that says "say yes tonight". What do you ask me?
 Q If our story had a title, what would it be?
 S We have to share an umbrella on a long walk. How close do we get?
 Q If you could relive the moment we started talking, what would you say differently?
 S A dance floor clears and only the two of us are left. What song do we dance to?
 Q If you had one chance to impress me, what's your move?
 C Whisper a secret or share a dare?
-S We're both waiting for the same delayed train. How do you make it the best delay ever?
+S We're both stuck in the same terrible Lagos traffic. How do you make it the best hold-up ever?
 Q If you could give me one tiny gift after tonight, what would it be?
 S A magical map shows the best date spot within a mile. Where is it?
 Q If you could be anywhere with me right now, where would it be?

@@ -10,14 +10,14 @@ Q If you could design the perfect date for one of us, who would you plan it for?
 S We're judging a speed-dating event. Who's the harshest judge?
 Q If each of us had a romantic theme song, what would yours be?
 C Holiday romance or a love story that starts at work?
-S A fortune teller predicts love for one of us this year. Who do you think it is?
+S A "seer" at a party predicts love for one of us this year. Who do you think it is?
 Q If our group wrote a dating advice column, who would give the worst advice?
 S We're stranded on a romantic island with only each other. Who becomes the matchmaker?
 Q If you could swap love lives with one of us for a week, whose would you choose?
 S A wedding planner asks us to design one of our weddings. Whose do we plan?
 Q If flirting were a sport, who in our group would win gold?
 S We find a magical mirror that shows each of our future partners. Whose reflection surprises us most?
-C Meet someone at a bookshop or at a festival?
+C Meet someone at a bookshop or at a concert?
 Q If our crushes could read our group chat, who would be most embarrassed?
 S A genie grants one of us the perfect partner. Who should get the wish?
 Q If each of us were a romantic film genre, which would you be?
@@ -58,7 +58,7 @@ S A matchmaker comes to our next dinner. Who is she most excited about?
 Q If our group had a romantic comedy, what would the twist be?
 S We each get one magic rose that makes someone fall for us. Who would refuse to use theirs?
 Q If you could pick a celebrity crush for each of us, who would you choose?
-S We're paired up by a fortune cookie at a restaurant. What does it say?
+S We're paired up for a game at a wedding by a stranger. Who gets the luckiest partner?
 C Kiss at midnight on New Year's or a first kiss on a Ferris wheel?
 Q If we wrote a dating rule book, what would rule one be?
 S Our group gets a magical love letter that's addressed to all of us. Who sent it?
@@ -79,7 +79,7 @@ S Our crushes form a team and challenge us to a quiz about romance. Who wins?
 Q If each of us had a romantic catchphrase, what would yours be?
 S A wedding we attend has a bouquet toss. Who catches it?
 Q If you could hear what our crushes say about us, would you want to?
-S We open a café for first dates. What's on the menu?
+S We open a restaurant just for first dates. What's on the menu?
 C Romantic gesture in public or in private?
 Q If our dating lives were a game show, what would the prize be?
 S A love-sick robot asks us for dating advice. What do we tell it?
@@ -97,4 +97,4 @@ S A matchmaker says one of us is secretly a hopeless romantic. Who is it?
 Q If you could give one of us a perfect first kiss moment, where would it happen?
 S A love note falls out of a library book. We decide to find the writer. Who leads the hunt?
 S A wedding DJ dedicates a slow song to one of us and a mystery guest. Who is it?
-Q If one of us met their match on a train, who would be brave enough to say hello?
+Q If one of us met their match in traffic, who would be brave enough to wind down and say hello?

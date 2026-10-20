@@ -1,5 +1,5 @@
 S You can add one extra hour to every day, but only on weekends. How do you use it?
-S Every café you walk into knows your usual order. Which café would you visit first?
+S Every buka you walk into knows your usual order. Which one would you visit first?
 Q If you could live inside any painting for an afternoon, which would you pick?
 S You get a postcard from your future self with only three words on it. What do you hope they are?
 C Rainy city break or sunny village retreat for an imaginary week off?
@@ -30,16 +30,16 @@ Q If you could slow down one moment every day, which one would it be?
 C Breakfast in bed on the moon or dinner under the sea?
 S You get to design a new holiday everyone celebrates by relaxing. What's it called?
 Q If you could swap lives with a cat for a day, what would you do first?
-S Your town wakes up covered in soft snow in the middle of summer. How do you spend the day?
+S Your city wakes up to cool, breezy weather in the middle of dry season. How do you spend the day?
 Q If you had a personal theme tune for walking into a room, what would it be?
 S A bakery gives you one free item every morning for life. What do you order?
 Q If you could know the answer to one small mystery, which would it be?
 S You can paint the sky any colour for one evening. What colour do you choose?
-C Float in a hot-air balloon or glide on a quiet canal boat?
+C Float in a hot-air balloon or glide on a quiet boat on the lagoon?
 Q If you could visit any fictional village, which would feel most cosy?
 S You've been asked to name a new star. What do you call it?
-Q If your mood were a type of tea, which would it be today?
-S Every train you take arrives exactly on time and plays your favourite music. Where are you heading?
+Q If your mood were a drink today, what would it be?
+S Every bus you take arrives on time, has AC and plays your favourite music. Where are you heading?
 Q If you could relive one easy, happy afternoon, which would it be?
 S A friendly robot offers to do one chore forever. Which chore do you give it?
 Q If you could understand one language instantly, which would you pick and why?
@@ -57,7 +57,7 @@ Q If you could design your own cloud to live on, what would it have?
 S Every time you hum, flowers grow. Where do you walk first?
 Q If you were a weather pattern, which one would describe you best?
 C Sunrise yoga on a mountain or sunset reading on a beach?
-S A stranger gives you a key to a cabin that's yours for a weekend. What do you do there?
+S A stranger gives you the keys to a beach house for a weekend. What do you do there?
 Q If you could meet any author for a quiet chat, who would it be?
 S You can freeze time for ten minutes a day. How do you spend those minutes?
 Q If your life were a cosy novel, what would the title be?
@@ -67,7 +67,7 @@ C Pet a friendly whale or ride a gentle elephant?
 S You inherit a small vineyard, orchard or flower farm. Which do you hope it is?
 Q If you could ask the ocean one question, what would it be?
 S A wizard grants you one harmless magic trick. Which do you pick?
-Q If you could design a new ice cream flavour, what would it taste like?
+Q If you could design a new chin chin flavour, what would it taste like?
 S You wake up able to speak to plants. What do you tell them?
 Q If you had to describe yourself as a dessert, which would you be?
 C Live in a world with no alarms or a world with no traffic?
@@ -77,7 +77,7 @@ S You're given a hot-air balloon for a day with no destination. Where does the w
 Q If your hometown had a mascot, what would it be?
 S Every song you hear today is a song you love. How does that change your mood?
 Q If you could build any kind of tiny house, what would it look like?
-C Picnic in a meadow or a cosy nook in a library?
+C A quiet corner at the beach or a cosy nook in a library?
 S A cat chooses you as its person while you're travelling. Where are you?
 Q If you could slow-cook any memory, which would you savour?
 S You can redesign one everyday object to be more comfortable. Which object?
