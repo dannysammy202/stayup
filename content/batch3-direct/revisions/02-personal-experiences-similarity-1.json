@@ -1,0 +1,650 @@
+{
+ "pass": "personal-experiences-similarity-1",
+ "method": "Similarity candidates and stem repetition read individually; same-premise or formulaic lines rewritten",
+ "revisions": [
+  {
+   "ref": "personal-experiences/flirty-someone-new:67",
+   "old": "What's the most romantic city you've visited with someone?",
+   "new": "Q Have you ever had a date where the location did all the work?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/flirty-partner:12",
+   "old": "Which of our trips felt like a honeymoon?",
+   "new": "Q Which place we stayed in would you book again just for the memories?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/bold-partner:5",
+   "old": "What's the biggest risk you've taken for us?",
+   "new": "Q What did you have to give up, even briefly, to make us work?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/bold-partner:35",
+   "old": "Have you ever felt lonely while we were together?",
+   "new": "Q Was there a season when you felt more like my flatmate than my partner?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/chill-friends:26",
+   "old": "What's the most interesting place you've worked?",
+   "new": "Q Which workplace gave you the best lunch-break stories?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/chill-someone-new:48",
+   "old": "Where's the most interesting place you've worked from?",
+   "new": "Q What's the strangest spot you've ever taken a work call from?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/chill-partner:97",
+   "old": "What's the sweetest message I've sent you?",
+   "new": "Q Which message from me arrived at exactly the right moment?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/curious-friends:38",
+   "old": "Which of our shared experiences do you remember differently from me?",
+   "new": "Q Which of our old plans would we still chase if we'd known then what we know now?",
+   "reason": "Too close to a released Batch 1 starter; rewritten.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/deep-partner:87",
+   "old": "What's an experience that made you more patient with me?",
+   "new": "Q What's taught you to stay calm when I'm not?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/curious-someone-new:20",
+   "old": "What's an experience that made you more patient?",
+   "new": "Q What's taught you to wait for things you really want?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/deep-friends:82",
+   "old": "Which experience made you a more patient friend?",
+   "new": "Q Which of us taught you to slow down when things got tense?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/curious-partner:13",
+   "old": "Which experience made you more patient with people you love?",
+   "new": "Q Who in your life showed you how to love someone through their moods?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/deep-friends:26",
+   "old": "What's something you've forgiven one of us for without saying?",
+   "new": "Q Which of our old disagreements have you made peace with privately?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/playful-someone-new:74",
+   "old": "What's the funniest thing that's happened to you at a wedding?",
+   "new": "Q What's the most absurd thing you've seen happen at a graduation or award ceremony?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/playful-partner:10",
+   "old": "What's the most ridiculous thing we've bought together?",
+   "new": "Q Which impulse purchase of ours is still gathering dust?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/playful-friends:62",
+   "old": "What's the most ridiculous thing we've bought together?",
+   "new": "Q What's the most pointless thing we've queued for together?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/playful-partner:46",
+   "old": "Tell me about a time we laughed at completely the wrong moment together.",
+   "new": "T Which serious event did we nearly ruin by catching each other's eye?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/deep-partner:76",
+   "old": "What's a part of your history you want our children to know?",
+   "new": "Q Which story from your hardest years do you want our children to hear from you?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/curious-someone-new:15",
+   "old": "What's a risk you took that paid off?",
+   "new": "Q What gamble with your time turned out to be worth it?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/chill-partner:33",
+   "old": "What's the best gift you've received from anyone?",
+   "new": "Q What's a present you've been given that you still use every day?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/flirty-someone-new:39",
+   "old": "What's the best gift you've ever received from someone you were dating?",
+   "new": "Q What's a small present from someone you were seeing that you've kept?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/playful-partner:23",
+   "old": "Which of my old photos makes you laugh the hardest?",
+   "new": "Q Which of my teenage phases do you wish you'd witnessed?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/curious-friends:18",
+   "old": "What's the biggest risk you've taken that we never heard about?",
+   "new": "Q What's a gamble you took before we knew you that we'd find hard to believe?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/bold-someone-new:82",
+   "old": "Tell me about something you did that changed someone's opinion of you completely.",
+   "new": "T Tell me about a time you won over someone who'd written you off.",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/flirty-partner:26",
+   "old": "What's the most romantic gift I've given you?",
+   "new": "Q What's a keepsake from our relationship you'd grab in a fire?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/bold-friends:45",
+   "old": "Tell me about a moment when you realised one of us had a different side.",
+   "new": "T Tell me about the night you saw a side of one of us you didn't like.",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/deep-partner:3",
+   "old": "When did you feel most supported by me?",
+   "new": "Q Which time did my support surprise you most?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/curious-partner:95",
+   "old": "What's an experience you want us to understand better together?",
+   "new": "Q Which of our past decisions would you like us to look at again with fresh eyes?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/flirty-someone-new:21",
+   "old": "Tell me about the last time someone made you blush.",
+   "new": "T Who was the last person to leave you grinning after a short conversation?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/curious-partner:66",
+   "old": "What's an experience that taught you to slow down in love?",
+   "new": "Q What taught you not to rush into big relationship steps?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/curious-partner:94",
+   "old": "Which experience of ours do you think changed both of us?",
+   "new": "Q Which move, job or event in our life together reshaped us most?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/deep-partner:63",
+   "old": "Which of my experiences do you think shaped me most?",
+   "new": "Q Which of my old scars do you think still shows in how I love you?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/chill-partner:76",
+   "old": "What's a skill I have that you've learned from?",
+   "new": "Q What have you started doing the way I do it?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/chill-friends:75",
+   "old": "Which of our trips taught you something about yourself?",
+   "new": "Q On which of our trips did you feel most like yourself?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/playful-someone-new:41",
+   "old": "A film studio wants to make a comedy about your last holiday. What's the funniest scene?",
+   "new": "S You're writing a postcard that tells the truth about your worst holiday. What does it say?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/playful-friends:26",
+   "old": "What's the funniest thing a parent has caught us doing?",
+   "new": "Q Which neighbour has complained about us the most?",
+   "reason": "Too close to a released Batch 1 starter; rewritten.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/flirty-friends:18",
+   "old": "Who among us is the best wingperson?",
+   "new": "Q Who among us has the best record for introducing two people who clicked?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/playful-friends:25",
+   "old": "Who among us has fallen asleep in the strangest place?",
+   "new": "Q Who among us has the most embarrassing story about snoring in public?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/flirty-someone-new:11",
+   "old": "What's the most memorable dance you've shared with someone you fancied?",
+   "new": "Q Have you ever shared a slow dance that felt like a whole conversation?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/playful-someone-new:26",
+   "old": "What's the most chaotic group trip you've been on?",
+   "new": "Q What's the most disorganised holiday you've ever survived?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/flirty-partner:74",
+   "old": "What's the most romantic thing we've done on holiday?",
+   "new": "Q Which beach, balcony or rooftop from our travels do you still picture?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/flirty-partner:38",
+   "old": "What's the most romantic thing I've cooked for you?",
+   "new": "Q Which meal I made for you felt like a love letter?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/flirty-partner:94",
+   "old": "What's the most romantic thing I've done without realising?",
+   "new": "Q What do I do on ordinary mornings that you find unexpectedly romantic?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/flirty-partner:44",
+   "old": "What's the most romantic thing you've done for me that I didn't notice?",
+   "new": "Q What's a quiet romantic effort you've made that I should finally thank you for?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/chill-partner:65",
+   "old": "Which of our conversations do you still think about?",
+   "new": "Q Which late-night talk of ours changed a decision you made?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/curious-someone-new:95",
+   "old": "Which experience would you most like to have next, and why?",
+   "new": "Q What's next on your list of things to try at least once?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/playful-partner:95",
+   "old": "What's the most chaotic way we've celebrated a birthday?",
+   "new": "Q Which of our birthday plans fell apart in the funniest way?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/bold-partner:44",
+   "old": "Have you ever felt more understood by someone else than by me?",
+   "new": "Q Have you ever confided in someone else first because talking to me felt harder?",
+   "reason": "Too close to a released Batch 1 starter; rewritten.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/flirty-someone-new:7",
+   "old": "What's the most romantic place you've ever been, and who were you with?",
+   "new": "Q Which view made you wish you had someone special beside you?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/curious-partner:31",
+   "old": "Which experience made you more confident in yourself?",
+   "new": "Q What made you stop doubting yourself in relationships?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/playful-someone-new:72",
+   "old": "What's the worst nickname you've ever had?",
+   "new": "Q What's the most baffling nickname a teacher or coach gave you?",
+   "reason": "Too close to a released Batch 1 starter; rewritten.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/bold-partner:76",
+   "old": "Tell me about the time you felt most proud of how we handled a crisis.",
+   "new": "T Tell me about a crisis where you think I let you carry too much.",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/bold-partner:21",
+   "old": "Tell me about a time you felt I didn't listen.",
+   "new": "T Tell me about an argument where you think I heard your words but missed your point.",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/bold-partner:68",
+   "old": "What's a time you felt I didn't make an effort?",
+   "new": "Q Which of my excuses have you stopped believing?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/deep-partner:28",
+   "old": "Which experience made you more open with me?",
+   "new": "Q What helped you stop holding back with me?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/deep-partner:58",
+   "old": "Which experience made you understand my love language?",
+   "new": "Q When did you first understand what makes me feel loved?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/flirty-someone-new:77",
+   "old": "What's the best surprise date someone has planned for you?",
+   "new": "Q Has anyone ever planned a date that showed they'd really listened to you?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/flirty-someone-new:55",
+   "old": "What's the most charming accent you've fallen for?",
+   "new": "Q Have you ever been won over by someone's voice before you saw their face?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/bold-friends:67",
+   "old": "What's a time you felt left out of our plans?",
+   "new": "Q Which of our group decisions did you go along with but resent?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/deep-someone-new:53",
+   "old": "What's the most meaningful thing you've ever done for someone else?",
+   "new": "Q What's the most meaningful way you've helped someone without them knowing?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/playful-friends:44",
+   "old": "What's the funniest misunderstanding we've had in a restaurant?",
+   "new": "Q Which waiter has had to put up with the most from our table?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/playful-partner:53",
+   "old": "What's the funniest misunderstanding we've had over a text?",
+   "new": "Q Which of my texts have you read in completely the wrong tone?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/playful-someone-new:93",
+   "old": "What's the funniest misunderstanding you've had over the phone?",
+   "new": "Q What's the most confusing phone call you've ever taken?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/flirty-someone-new:92",
+   "old": "Tell me about the most romantic evening you've ever had with someone new.",
+   "new": "T Tell me about the most charming place you've ever been taken on a date.",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/curious-someone-new:25",
+   "old": "What's the most interesting thing you've learned from someone much older than you?",
+   "new": "Q What's a piece of wisdom an older colleague or relative gave you that you still use?",
+   "reason": "Too close to a released Batch 1 starter; rewritten.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/playful-friends:12",
+   "old": "Which of our inside jokes would confuse anyone else completely?",
+   "new": "Q Which of our catchphrases started from something genuinely embarrassing?",
+   "reason": "Too close to a released Batch 1 starter; rewritten.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/playful-partner:92",
+   "old": "Which of our in-jokes would confuse anyone else?",
+   "new": "Q Which private joke of ours would get us thrown out of a dinner party?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/playful-partner:70",
+   "old": "What's the most dramatic thing I've said when hungry?",
+   "new": "Q Who turns into a completely different person when dinner is late?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/playful-friends:60",
+   "old": "Lose a bet and dye your hair or lose a bet and sing in public?",
+   "new": "C Wear the other's worst outfit for a day or let the group choose your next haircut?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/flirty-friends:9",
+   "old": "Who among us has the smoothest moves at a party?",
+   "new": "Q Who among us gets asked to dance most often?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/flirty-friends:34",
+   "old": "Who among us would plan the most elaborate proposal?",
+   "new": "Q Which proposal story in our circle still makes you emotional?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/playful-friends:57",
+   "old": "Tell me about the worst haircut someone in our group has had.",
+   "new": "T Which of us has had the most disastrous attempt at DIY?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/playful-partner:55",
+   "old": "Tell me about the worst haircut I've had since we met.",
+   "new": "T Which of my bold style changes did you have to pretend to like?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/playful-partner:86",
+   "old": "Recreate our first photo together or our worst photo together?",
+   "new": "C Re-enact our first argument or our first dance?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/curious-friends:77",
+   "old": "What's an experience that changed your relationship with food?",
+   "new": "Q How has your relationship with food changed since you started cooking for yourself?",
+   "reason": "Formulaic stem repeated across cells; rewritten in concrete terms.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/curious-someone-new:51",
+   "old": "What's an experience that changed your relationship with technology?",
+   "new": "Q Was there a moment that made you rethink how much time you spend online?",
+   "reason": "Formulaic stem repeated across cells; rewritten in concrete terms.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/bold-partner:89",
+   "old": "Revisit our hardest year or leave it behind completely?",
+   "new": "C Agree on one version of our hardest year or accept we remember it differently?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/playful-partner:68",
+   "old": "What's the funniest thing that happened on a date that went badly?",
+   "new": "Q Which of our dates would make the best blooper reel?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/curious-partner:85",
+   "old": "Tell me about the moment you realised I'd become part of your story.",
+   "new": "T Tell me about when you started to picture me in your future plans.",
+   "reason": "Formulaic stem repeated across cells; rewritten in concrete terms.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/deep-friends:92",
+   "old": "Tell me about the moment you realised you could rely on us.",
+   "new": "T Tell me about a crisis where one of us came through for you.",
+   "reason": "Formulaic stem repeated across cells; rewritten in concrete terms.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/chill-friends:22",
+   "old": "What's a skill you learned from one of us?",
+   "new": "Q Which of our hobbies did you only start because one of us dragged you along?",
+   "reason": "Too close to a released Batch 1 starter; rewritten.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/curious-friends:85",
+   "old": "What's an experience that changed your opinion of a whole place?",
+   "new": "Q Which place have you visited that changed your travel habits?",
+   "reason": "Too close to a released Batch 1 starter; rewritten.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/curious-friends:27",
+   "old": "Which of your experiences do you think we'd understand differently?",
+   "new": "Q Which of your past experiences do you think we'd judge too quickly?",
+   "reason": "Too close to a released Batch 1 starter; rewritten.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/bold-partner:47",
+   "old": "Have you ever been embarrassed by me in front of others?",
+   "new": "Q Have you ever made excuses for me to your friends?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/curious-friends:6",
+   "old": "What's an experience you've had that you wish we'd shared?",
+   "new": "Q Which of your solo adventures do you think we'd have ruined, in a good way?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/playful-friends:55",
+   "old": "What's the funniest thing that's happened to us at a wedding?",
+   "new": "Q Which of us has the best story from someone else's wedding reception?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/flirty-partner:64",
+   "old": "Which of my outfits do you secretly want me to wear again?",
+   "new": "Q What should I wear on our next date if I want to leave you speechless?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/curious-friends:57",
+   "old": "Which experience helped you feel at home in this city?",
+   "new": "Q When did this city stop feeling temporary to you?",
+   "reason": "Too close to a released Batch 1 starter; rewritten.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/curious-someone-new:86",
+   "old": "What's a time you changed your mind about someone?",
+   "new": "Q Who did you completely misjudge at first?",
+   "reason": "Too close to a released Batch 1 starter; rewritten.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/chill-friends:1",
+   "old": "Tell me about something that happened to you this week that you haven't told anyone yet.",
+   "new": "T Tell me the best thing that's happened to you since we last spoke.",
+   "reason": "Too close to a released Batch 1 starter; rewritten.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/deep-someone-new:25",
+   "old": "What did a health scare, accident or close call teach you, if you've had one?",
+   "new": "Q What's a close call that changed how you spend your days?",
+   "reason": "Too heavy for a first conversation with someone new; softened while keeping the Deep mood.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "personal-experiences/deep-someone-new:73",
+   "old": "What did you learn from someone's last words or final message to you?",
+   "new": "Q Whose words do you still hear in your head when you need courage?",
+   "reason": "Too heavy for a first conversation with someone new; softened while keeping the Deep mood.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  }
+ ]
+}

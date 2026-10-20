@@ -1,0 +1,279 @@
+{
+ "pass": "stem-repetition-2",
+ "method": "Similarity candidates and stem repetition read individually; same-premise or formulaic lines rewritten",
+ "revisions": [
+  {
+   "ref": "future-ambitions/bold-friends:93",
+   "old": "Who among us is most likely to say \"I told you so\" about the future?",
+   "new": "Q Whose future do you think will come with the loudest \"I told you so\"?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/chill-partner:97",
+   "old": "What would you like us to do differently next year?",
+   "new": "Q Is there anything about this year you'd like us to change next year?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/curious-friends:64",
+   "old": "How do you think we'll handle getting older as a group?",
+   "new": "Q Are you curious or nervous about how we'll handle getting older as a group?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/curious-friends:68",
+   "old": "How do you think our cities will change by the time we're fifty?",
+   "new": "Q By the time we're fifty, what will our city look like?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/curious-friends:75",
+   "old": "How do you think our friendships with new people will fit into the future?",
+   "new": "Q Where will new friends fit into our lives as we get older?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/curious-friends:83",
+   "old": "How do you think we'll support each other through future setbacks?",
+   "new": "Q When future setbacks hit, what kind of support do you think each of us will need?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/curious-friends:87",
+   "old": "How do you think the world will look for children born today?",
+   "new": "Q What will the world look like for children born today?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/curious-partner:84",
+   "old": "How do you think we'll spend money differently in the future?",
+   "new": "Q Will we spend money differently in ten years, and how?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/curious-someone-new:86",
+   "old": "How do you think housing will change by the time you're older?",
+   "new": "Q What will housing look like by the time you're older?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/curious-someone-new:89",
+   "old": "How do you think you'll define success at sixty?",
+   "new": "Q Will your definition of success at sixty look anything like today's?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/curious-someone-new:93",
+   "old": "How do you think cities will look in fifty years?",
+   "new": "Q What will cities look like in fifty years?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/deep-friends:85",
+   "old": "How do you hope we'll treat each other's children, if they come along?",
+   "new": "Q If children come along for any of us, what role would you like to play in their lives?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/deep-partner:61",
+   "old": "How do you hope we'll handle aging parents together?",
+   "new": "Q When our parents need more care, what kind of team do you hope we'll be?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/deep-partner:85",
+   "old": "How do you hope we'll handle success if it changes our lives?",
+   "new": "Q If success changes our lives, what do you want us to protect?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/deep-partner:89",
+   "old": "How do you want us to keep dreaming together as we age?",
+   "new": "Q What would keep us dreaming together as we age?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/flirty-friends:53",
+   "old": "Which of us will have the most romantic home?",
+   "new": "Q Whose future home will feel the most romantic?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/flirty-friends:58",
+   "old": "Which of us will have the funniest proposal story?",
+   "new": "Q Whose proposal story, if it happens, will make us laugh the hardest?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/flirty-friends:64",
+   "old": "Which of us will fall for someone who lives far away?",
+   "new": "Q Could any of us handle falling for someone who lives far away?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/flirty-friends:76",
+   "old": "Which of us will have the most dramatic romantic comeback?",
+   "new": "Q Whose love life is due the most dramatic comeback?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/flirty-friends:80",
+   "old": "Which of us will have the most romantic garden someday?",
+   "new": "Q Whose garden will become the most romantic spot we know?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/flirty-friends:88",
+   "old": "Which of us will become the matchmaker of the group?",
+   "new": "Q Who is destined to become the group's matchmaker?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/flirty-friends:92",
+   "old": "Which of us will have the most romantic travel story by fifty?",
+   "new": "Q By fifty, whose romantic travel stories will be the best?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/flirty-partner:94",
+   "old": "How would you like us to fall in love again every year?",
+   "new": "Q What would help us fall in love again every year?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/playful-friends:55",
+   "old": "Which of us will be the best at technology when we're old, and who will be hopeless?",
+   "new": "Q When we're old, who'll be the tech whizz and who'll be hopeless?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/playful-friends:58",
+   "old": "Which of us will have the most dramatic midlife crisis?",
+   "new": "Q Whose midlife crisis will be the most spectacular?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/playful-friends:63",
+   "old": "Which of us will become an influencer by accident?",
+   "new": "Q Could any of us become an influencer completely by accident?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/playful-friends:68",
+   "old": "Which of us will win a lifetime achievement award for something weird?",
+   "new": "Q Whose lifetime achievement award will be for something deeply weird?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/playful-friends:73",
+   "old": "Which of us will have the fanciest garden party?",
+   "new": "Q Whose future garden party will need a dress code?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/playful-friends:77",
+   "old": "Which of us will claim we were famous \"back in the day\"?",
+   "new": "Q Who will spend old age claiming they were famous \"back in the day\"?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/playful-friends:81",
+   "old": "Which of us will collect the most hobbies and finish none?",
+   "new": "Q Who collects the most hobbies and finishes none?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/playful-friends:85",
+   "old": "Which of us will become a village gossip in the best way?",
+   "new": "Q Who is going to be the best kind of village gossip?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/playful-friends:89",
+   "old": "Which of us will go viral at a wedding in the future?",
+   "new": "Q Whose dance moves will go viral at a future wedding?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/playful-friends:93",
+   "old": "Which of us will have the most chaotic family photo?",
+   "new": "Q Whose future family photos will be the most chaotic?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/playful-friends:97",
+   "old": "Which of us will win a pub quiz at ninety?",
+   "new": "Q At ninety, who's still winning the pub quiz?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/playful-partner:85",
+   "old": "What will our future house be famous for in the neighbourhood?",
+   "new": "Q Which part of our future house will the neighbours talk about?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/playful-partner:90",
+   "old": "Which of us will win a dance-off at our grandchild's wedding, if that day comes?",
+   "new": "Q Who's going to win a dance-off at a family wedding when we're old?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/playful-partner:96",
+   "old": "Which of us will be the one to plan the next big adventure?",
+   "new": "Q Who's more likely to plan our next big adventure and forget the tickets?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/playful-someone-new:84",
+   "old": "What would your future social media bio say?",
+   "new": "Q In ten years, what will your social media bio say?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "future-ambitions/playful-someone-new:91",
+   "old": "What would your future self be most smug about?",
+   "new": "Q Which achievement will your future self be most smug about?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  }
+ ]
+}

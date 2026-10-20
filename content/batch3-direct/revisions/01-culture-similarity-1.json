@@ -1,0 +1,279 @@
+{
+ "pass": "culture-similarity-1",
+ "method": "TF-IDF candidates >=0.46 read individually; same-premise pairs rewritten",
+ "revisions": [
+  {
+   "ref": "culture/bold-partner:10",
+   "old": "What would you never compromise on culturally, even for me?",
+   "new": "Q Which part of your heritage would you protect even if it cost us an argument every year?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/flirty-friends:13",
+   "old": "Who among us would serenade someone in another language?",
+   "new": "Q Who among us would learn a love song in another language just to win someone over?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/chill-friends:92",
+   "old": "What tradition would you like us to start this year?",
+   "new": "Q What new group ritual should we try before the year ends?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/chill-partner:97",
+   "old": "What makes a home feel like it belongs to both of us?",
+   "new": "Q Which room in our home do you think shows your upbringing most?",
+   "reason": "Too close to a released Batch 1 starter; rewritten to a culture-specific angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/playful-partner:50",
+   "old": "Which of us would make the more dramatic toast at a wedding?",
+   "new": "Q Which of us would turn a short wedding toast into a twenty-minute family history lecture?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/chill-someone-new:23",
+   "old": "What's the most relaxing place you've ever been to?",
+   "new": "Q Which country's pace of life suits your personality best?",
+   "reason": "Too close to a released Batch 1 starter; rewritten to a culture-specific angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/flirty-friends:34",
+   "old": "Would you ever date someone your family didn't approve of culturally?",
+   "new": "Q Would a strict set of family dating rules ever put you off someone you liked?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/playful-friends:29",
+   "old": "Tell me about the time one of us got hopelessly lost on a trip.",
+   "new": "T Tell me about the trip where one of us confidently led the group the wrong way.",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/flirty-friends:20",
+   "old": "Tell me about the most romantic thing you've seen at a cultural event.",
+   "new": "T Tell me about a festival night that turned into someone's love story.",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/flirty-friends:92",
+   "old": "What's the most romantic gesture you've seen from someone's parents?",
+   "new": "Q Which of our parents still flirts with the other in front of guests?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/deep-friends:100",
+   "old": "Tell me about a moment when one of us made your culture feel welcome.",
+   "new": "T Tell me about a time one of our families made you feel like a relative rather than a guest.",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/chill-someone-new:95",
+   "old": "How do you usually celebrate the new year?",
+   "new": "Q Which end-of-year custom from your hometown do you still follow?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/playful-friends:22",
+   "old": "Which of us has the worst taste in music from other countries?",
+   "new": "Q Which of us has the most questionable playlist from a holiday abroad?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/curious-friends:74",
+   "old": "What's a word in your family's language that you'd like us all to use?",
+   "new": "Q What would we learn about your family from the words they use most at home?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/chill-partner:43",
+   "old": "Which song do you associate with us?",
+   "new": "Q Which track from my culture has quietly become part of our soundtrack?",
+   "reason": "Too close to a released Batch 1 starter; rewritten to a culture-specific angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/chill-friends:24",
+   "old": "What's the funniest misunderstanding you've had because of a cultural difference?",
+   "new": "Q What's a habit of mine that only made sense after you met my family?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/playful-partner:84",
+   "old": "What's the funniest misunderstanding we've had because of language?",
+   "new": "Q What's the funniest wrong meaning you've given a word in my language?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/playful-friends:36",
+   "old": "What's the funniest misunderstanding you've had with one of my relatives?",
+   "new": "Q Which of my relatives has given you the most confusing compliment?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/flirty-friends:72",
+   "old": "What's the funniest flirting misunderstanding you've had because of culture?",
+   "new": "Q Have you ever realised too late that someone from another culture was flirting with you?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/flirty-partner:74",
+   "old": "What's a sweet ritual you'd like us to keep when we're old?",
+   "new": "Q What's a romantic habit you'd want us to keep up even with grey hair?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/flirty-friends:62",
+   "old": "What's a flirting habit from your culture that we'd find hilarious?",
+   "new": "Q Which of our cultures has the most dramatic way of showing someone you like them?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/curious-partner:60",
+   "old": "Which tradition of yours would you like me to take part in more?",
+   "new": "Q Which ceremony of yours would you like me to understand from the inside, not just as a guest?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/deep-someone-new:89",
+   "old": "What do you think home will mean to you in twenty years?",
+   "new": "Q Do you think you'll grow closer to your roots or further from them as you age?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/deep-partner:58",
+   "old": "Which tradition gives you a sense of continuity in life?",
+   "new": "Q Which tradition makes you feel linked to the generations before and after you?",
+   "reason": "Too close to a released Batch 1 starter; rewritten to a culture-specific angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/curious-partner:45",
+   "old": "How does your culture view living with extended family?",
+   "new": "Q How would your family react if we lived with my parents for a while?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/curious-friends:67",
+   "old": "Tell me about a time you felt proud of your heritage in public.",
+   "new": "T Tell me about a time a stranger asked about your heritage and you enjoyed answering.",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/playful-friends:43",
+   "old": "What's the most dramatic thing an auntie has said to one of us?",
+   "new": "Q Which auntie or uncle of ours deserves their own advice column?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/curious-friends:54",
+   "old": "Which of our families has the most fascinating migration story?",
+   "new": "Q If we mapped every place our families have lived, whose map would be busiest?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/curious-friends:95",
+   "old": "What do you think connects your culture to mine?",
+   "new": "Q What's one value our families share even though they'd never phrase it the same way?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/flirty-friends:87",
+   "old": "Which of our cultures has the most romantic wedding ceremonies?",
+   "new": "Q Which of our cultures does the most romantic first dance at weddings?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/playful-friends:52",
+   "old": "What's the silliest superstition one of us still follows?",
+   "new": "Q Which of us would believe a tour guide's legend without question?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/playful-partner:51",
+   "old": "What's the silliest superstition I follow that you've noticed?",
+   "new": "Q Which of my family's warnings do you now follow just in case?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/flirty-friends:94",
+   "old": "Love letter in your language or a song in theirs?",
+   "new": "C Meet someone at a cultural night or through a family introduction?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/playful-friends:34",
+   "old": "Who would win a dance-off at a family party?",
+   "new": "Q Who among us would accidentally lead a conga line at a stranger's party?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/flirty-partner:68",
+   "old": "Which romantic tradition would you like us to start this year?",
+   "new": "Q What would a love-themed holiday invented just for us include?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/flirty-partner:86",
+   "old": "Which romantic gesture from my culture would you like to receive?",
+   "new": "Q Which way of saying \"I love you\" in my culture do you like best?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/bold-partner:70",
+   "old": "What cultural rule about gender roles do you want us to break?",
+   "new": "Q Which of my family's ideas about who does what at home would you openly refuse?",
+   "reason": "Same premise as another starter in the batch; rewritten to a distinct angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/curious-friends:45",
+   "old": "What's something you'd like to understand better about my culture?",
+   "new": "Q Which of my family's customs have you watched for years without asking about?",
+   "reason": "Too close to a released Batch 1 starter; rewritten to a culture-specific angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "culture/chill-someone-new:69",
+   "old": "Is there a type of music you only listen to at certain times of year?",
+   "new": "Q Is there a song that only sounds right during one particular festival?",
+   "reason": "Too close to a released Batch 1 starter; rewritten to a culture-specific angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  }
+ ]
+}
