@@ -1,0 +1,1987 @@
+{
+ "pass": "08-nigerian-voice-faith-flirty",
+ "method": "Owner feedback that content sounded un-Nigerian; Faith & Spirituality x Flirty cells rewritten for people who grew up in Nigerian households",
+ "revisions": [
+  {
+   "ref": "faith-spirituality/flirty-someone-new:1",
+   "old": "Do you believe in fate, or did we just get lucky meeting today?",
+   "new": "Q So are you a Sunday service person, a Saturday vigil person or a Jumu'ah person?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:2",
+   "old": "What's your star sign, and should I be worried about it?",
+   "new": "Q Be honest, do you come to service for the sermon or for the small chops after?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:3",
+   "old": "A fortune teller says you'll meet someone special this week. Do you think she meant me?",
+   "new": "Q Which church or mosque event would you actually invite me to?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:4",
+   "old": "Have you ever prayed for a sign and then got one that made you laugh?",
+   "new": "S Your mum asks who you were talking to after service. What do you tell her?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:5",
+   "old": "Meet someone at a wedding or at a festival?",
+   "new": "Q Are you in the choir, or do you just sing louder than everyone during praise and worship?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:6",
+   "old": "Do you think some people are meant to cross paths?",
+   "new": "C Meet someone at crossover night or at an owambe?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:7",
+   "old": "What would your grandmother say if she could see you talking to me right now?",
+   "new": "Q What's the most romantic thing you've seen at a church or mosque wedding?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:8",
+   "old": "We both reach for the last plate of festival food. Who gets it?",
+   "new": "Q Has an aunty ever pointed at someone and said \"that one is your husband\" or \"that one is your wife\"?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:9",
+   "old": "Is it true that people from your community are the best cooks, or is that just a rumour?",
+   "new": "Q Do you think God answers prayers about crushes, or is that too small to ask?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:10",
+   "old": "Has anyone ever blessed you in a way that made you blush?",
+   "new": "Q What would your pastor or imam say if he saw you smiling at me like this?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:11",
+   "old": "If an elder at your place of worship tried to match you with someone, how would you react?",
+   "new": "S We're both ushers at the same wedding and keep ending up at the same table. What's your line?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:12",
+   "old": "The best first dates happen somewhere peaceful, not somewhere loud.",
+   "new": "Q Which aso ebi colour would you want us to match in someday?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:13",
+   "old": "Do you light up more at a festival or at a quiet retreat?",
+   "new": "Q Do you prefer someone who prays quietly or someone who prays like they're fighting principalities?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:14",
+   "old": "You're asked to describe me to your aunties in one sentence. What do you say?",
+   "new": "C Fellowship crush or office crush, which have you had more of?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:15",
+   "old": "Which festival outfit would you want me to see you in?",
+   "new": "Q If I came to your house for Christmas or Sallah, which dish would your mum use to test me?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:16",
+   "old": "Do you think good energy is something you can feel the moment you meet someone?",
+   "new": "C Sallah ram meat or Christmas rice and chicken?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:17",
+   "old": "A sunrise walk to clear our heads or a candlelit dinner?",
+   "new": "Q Do you believe you'll know \"the one\" by the Spirit or by vibes?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:18",
+   "old": "Which of your traditions would you be secretly delighted to teach me?",
+   "new": "Q Which praise song gets you dancing no matter who is watching?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:19",
+   "old": "Has anyone ever caught your eye across a crowded ceremony?",
+   "new": "S We both arrive early for a friend's introduction ceremony. What do we talk about while we wait?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:20",
+   "old": "We both arrive early for a community event and nobody else is there yet. What do we talk about?",
+   "new": "Q Has anyone ever told you they were \"led\" to talk to you?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:21",
+   "old": "Do you read horoscopes for fun, or do you secretly take them seriously?",
+   "new": "H Someone who greets elders properly is instantly more attractive.",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:22",
+   "old": "If I asked for your blessing to take you out, would I get it?",
+   "new": "Q Which part of a Nigerian wedding do you look forward to the most?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:23",
+   "old": "What's your idea of a date that feeds the soul?",
+   "new": "C Be spotted by my aunties at a vigil or at a party?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:24",
+   "old": "Tell me about the most romantic wedding you've ever been a guest at.",
+   "new": "Q What's one thing you pray about that you'd let me in on?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:25",
+   "old": "Is there a festival or wedding song that always gets you dancing a little closer to someone?",
+   "new": "T Tell me about the cutest couple you know who met in church or at the mosque.",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:26",
+   "old": "Would you rather be serenaded at a festival or written a heartfelt letter?",
+   "new": "Q Are you the type to say \"let me pray about it\" when someone asks you out?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:27",
+   "old": "An astrologer reads both our charts and says we're a perfect match. Do you believe her?",
+   "new": "Q What's the most creative way someone has collected your number after service?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:28",
+   "old": "What's the cutest thing a couple has ever done at a religious celebration you attended?",
+   "new": "S An aunty gives us a long look as we talk outside the church. What do you think she's saying in her head?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:29",
+   "old": "Do you think kindness is the most attractive quality a person can have?",
+   "new": "Q Do you think shared faith matters more than shared taste in music?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:30",
+   "old": "Share a lantern at a festival or share dessert after a wedding?",
+   "new": "C Meet at campus fellowship or at NYSC CDS?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:31",
+   "old": "What would make you say a little thank-you prayer after a first date?",
+   "new": "Q Who in your family would be most excited if you brought someone home?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:32",
+   "old": "Do your friends say you have an old soul?",
+   "new": "Q What would make you say \"this one is from God\"?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:33",
+   "old": "Which of your values would you hope someone notices first?",
+   "new": "Q Which Christmas carol or Ramadan tradition puts you in a soft mood?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:34",
+   "old": "You meet someone lovely at a volunteering day. What's your first line?",
+   "new": "Q Have you ever skipped evening service to go on a date?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:35",
+   "old": "Do you think the universe has a sense of humour about who we meet?",
+   "new": "S You're asked to pray for the food at a family gathering and I'm sitting next to you. How long is the prayer?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:36",
+   "old": "If you could design a first date around your favourite festival, what would we do?",
+   "new": "Q Which Sunday or Friday outfit always gets you compliments?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:37",
+   "old": "Someone who knows what they believe is very attractive.",
+   "new": "C Someone who cooks well or someone who sings in the choir?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:38",
+   "old": "Are you more drawn to people who share your beliefs or people who challenge them a little?",
+   "new": "H The person who helps arrange chairs after service is always a catch.",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:39",
+   "old": "Has a stranger ever made your day just by being kind?",
+   "new": "Q Do you think your parents would approve of someone like me?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:40",
+   "old": "We're both on the same pilgrimage or retreat and keep ending up next to each other. Coincidence?",
+   "new": "Q What's the funniest way someone has tried to toast you in church?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:41",
+   "old": "What's the most charming thing someone can do at a family celebration?",
+   "new": "Q Would you rather be serenaded by the choir or get a voice note of a worship song?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:42",
+   "old": "Would you rather meet someone at a choir rehearsal or at a festival market?",
+   "new": "S We get paired up for a church or mosque outreach. How do you make the long day fun?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:43",
+   "old": "Do you believe in love at first sight, or love at first conversation?",
+   "new": "Q Do you have a \"my spirit doesn't agree with this person\" story?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:44",
+   "old": "Bond over a shared tradition or over learning someone else's?",
+   "new": "Q What green flag do you look for in how someone treats their faith?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:45",
+   "old": "What's your favourite festival food to share with someone you like?",
+   "new": "C Date someone who knows every hymn or someone who knows every Afrobeats song?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:46",
+   "old": "Would you take me to your favourite celebration if I asked nicely?",
+   "new": "Q How do you know when someone is genuinely kind and not just putting on church face?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:47",
+   "old": "Your best friend says the stars aligned for us tonight. What do you say back?",
+   "new": "Q Which wedding have you attended where you thought, \"I want this for myself\"?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:48",
+   "old": "Do you think we were meant to have this conversation?",
+   "new": "T Tell me about the most dramatic spraying you've ever seen at an owambe.",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:49",
+   "old": "What's a small ritual of yours that you'd let a crush in on?",
+   "new": "Q Would you come with me to a friend's traditional wedding if I asked?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:50",
+   "old": "Tell me about a time you felt butterflies somewhere completely unexpected.",
+   "new": "Q What's the sweetest prayer someone has ever prayed for you?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:51",
+   "old": "Is there someone whose patience and calm you find really attractive?",
+   "new": "S Your best friend says you've been smiling at your phone since Friday prayers. What do you blame it on?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:52",
+   "old": "Do you think good things come to people who wait, or to people who ask?",
+   "new": "Q Are you a front-row worshipper or a back-row observer?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:53",
+   "old": "I offer to walk you home after an evening service or event. Do you say yes?",
+   "new": "Q What's the most \"Nigerian mum\" thing your mum has said about your future spouse?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:54",
+   "old": "Have you ever had a crush on someone in a youth group, choir or class?",
+   "new": "S I sit next to you at service and forgot my Bible. Do you share yours or tell me to use my phone?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:55",
+   "old": "Dance at a festival or watch the lanterns together?",
+   "new": "C Shy smile across the church or a bold hello after service?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:56",
+   "old": "What's the best compliment you've had about your spirit, not your looks?",
+   "new": "Q What makes someone \"marriage material\" in a Nigerian home, in your opinion?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:57",
+   "old": "Do you think a good laugh is a kind of blessing?",
+   "new": "Q Which festive season do you think is the best time to meet someone?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:58",
+   "old": "Do you believe some people just bring out the light in you?",
+   "new": "Q Do you think we'd survive one of my family's very long prayer meetings together?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:59",
+   "old": "We get seated together at a friend's wedding and don't know anyone else. How do you break the ice?",
+   "new": "S An usher seats us together at crossover service. What do we do when the countdown starts?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:60",
+   "old": "Would your family's matchmaker approve of me?",
+   "new": "Q Have you ever passed a note or sent a text to a crush during the khutbah or sermon?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:61",
+   "old": "Do you find it attractive when someone is quietly confident about their values?",
+   "new": "Q Do you get shy around someone you like, or do you go straight to \"hello, my name is\"?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:62",
+   "old": "What's one wish you'd make if we threw coins into a fountain together?",
+   "new": "Q What would make you want to introduce me to your parents?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:63",
+   "old": "Shared laughter at a serious event is a pretty good sign of chemistry.",
+   "new": "H Someone who can laugh at themselves during a serious service is very attractive.",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:64",
+   "old": "If you were writing your dream love story, where would the couple meet?",
+   "new": "Q Is there a fellowship or youth programme where everyone seems to find their partner?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:65",
+   "old": "Do you get nervous around people you like, or does peace win out?",
+   "new": "C Fast together during Lent or Ramadan, or break the fast together?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:66",
+   "old": "A wise elder hands us both a fortune cookie. What do you hope yours says?",
+   "new": "Q Has a prophet, aunty or friend ever told you \"this one is your mate\"?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:67",
+   "old": "Which do you trust more when you like someone, your gut or your prayers?",
+   "new": "Q What's your favourite thing to eat after a long service?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:68",
+   "old": "What's a value that's an instant green flag for you?",
+   "new": "S I offer to drop you home after vigil. Do you say yes or call your brother?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:69",
+   "old": "Would you rather be complimented on your kindness or your smile?",
+   "new": "Q How do you feel about someone who sends Bible or Quran verses as good-morning texts?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:70",
+   "old": "A picnic after a festival or tea after a quiet evening?",
+   "new": "C Be prayed for by name or surprised with your favourite snack?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:71",
+   "old": "Do you think I'm the answer to anything you've been asking for lately?",
+   "new": "Q Is there a love story in your family that still makes everyone smile?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:72",
+   "old": "What's your favourite way to show someone they're appreciated?",
+   "new": "T Tell me about the first time you realised you liked someone at church or the mosque.",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:73",
+   "old": "We both make a wish at the same moment. Do we tell each other what it was?",
+   "new": "Q Do you think God has a sense of humour about who we meet?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:74",
+   "old": "Is there a love story in your faith or culture that you find really romantic?",
+   "new": "Q What does \"God-fearing\" actually look like to you in a partner?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:75",
+   "old": "Have you ever felt drawn to someone and couldn't explain why?",
+   "new": "S You see me dancing at a thanksgiving service. Do you join me or film me?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:76",
+   "old": "Tell me about the most memorable person you've met at a celebration.",
+   "new": "Q When you like someone, do you trust your instinct or your mum's opinion more?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:77",
+   "old": "Do you think love is something you find or something you build?",
+   "new": "Q What's the most romantic part of a traditional wedding to you?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:78",
+   "old": "What's a sweet thing someone could do that would melt your heart instantly?",
+   "new": "C Owambe dance floor or a quiet chat outside the hall?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:79",
+   "old": "You're asked to read my palm. What do you pretend to see?",
+   "new": "Q Has your family ever tried to set you up with someone from your church or mosque?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:80",
+   "old": "Would you rather share sunrise prayers, meditation or a quiet coffee with someone you like?",
+   "new": "Q What's the nicest compliment you've had about your character, not your looks?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:81",
+   "old": "What does a genuinely romantic gesture look like to you?",
+   "new": "Q Would you come to a family thanksgiving service with me?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:82",
+   "old": "A handwritten blessing or a bunch of flowers?",
+   "new": "S An elder asks us both, \"are you two together?\" How do you answer?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:83",
+   "old": "Do you think gratitude is attractive?",
+   "new": "Q Do you think how someone treats the gateman tells you who they really are?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:84",
+   "old": "What's something you'd love to hear someone say about your heart?",
+   "new": "Q What gives you peace when you meet someone new?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:85",
+   "old": "I tell you I've been hoping to meet someone like you. How do you respond?",
+   "new": "H Being introduced by a church or mosque friend beats meeting online.",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:86",
+   "old": "Have you ever believed a dream was trying to tell you something about love?",
+   "new": "Q Are you more drawn to people who share your faith or people who respect it?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:87",
+   "old": "Which festival do you think is the most romantic?",
+   "new": "Q What's your love language, and does it include cooking jollof?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:88",
+   "old": "Are you the type to let fate decide, or do you make the first move?",
+   "new": "C A Christmas date or a Sallah visit?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:89",
+   "old": "Being gentle with people is one of the most attractive things anyone can do.",
+   "new": "S I bring you puff-puff from the stand outside the event. What do you say?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:90",
+   "old": "What's the most beautiful place of worship or peaceful spot you'd show a date?",
+   "new": "Q What would you want someone to pray for you about right now?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:91",
+   "old": "Do you think we'd make a good team at a community cook-out?",
+   "new": "T Tell me about a wedding where someone caught your eye during the first dance.",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:92",
+   "old": "A friend jokes that we look like we were matched by destiny. Do you play along?",
+   "new": "Q Would you rather be complimented on your gele or agbada, or on your smile?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:93",
+   "old": "What's something about you that people only discover once they get close?",
+   "new": "C A walk after Sunday service or suya after Friday prayers?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:94",
+   "old": "Would you rather get a love note on a festival card or a voice message?",
+   "new": "Q Do you believe some meetings are divine appointments?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:95",
+   "old": "Lantern-lit evening walk or a morning by the water?",
+   "new": "Q If this meeting was a divine appointment, what do you think the assignment is?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:96",
+   "old": "If our meeting was a sign, what do you think it means?",
+   "new": "Q What would your siblings say if they saw you talking to me?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:97",
+   "old": "What kind of energy do you hope someone brings into your life?",
+   "new": "Q Do you think we'd make a good team on a friend's wedding planning committee?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:98",
+   "old": "Would you let me buy you something sweet from the festival stalls?",
+   "new": "S We both stop to help an elderly woman carry her bag after service. What do we say to each other afterwards?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:99",
+   "old": "Do you feel like this conversation was worth getting dressed up for?",
+   "new": "Q What's something people only learn about you after they've known you a while?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:100",
+   "old": "We both stop to help the same elder carry their things after an event. What do we say to each other afterwards?",
+   "new": "Q Would your aunties say I look like someone who comes to service on time?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:1",
+   "old": "Who in our group would fall for someone at a wedding first?",
+   "new": "Q Who among us will marry someone from our church or mosque first?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:2",
+   "old": "Which of us is most likely to meet our future partner at a place of worship?",
+   "new": "Q Which of us has the most obvious fellowship crush?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:3",
+   "old": "An auntie wants to set one of us up at the next celebration. Who do we volunteer?",
+   "new": "S An aunty corners one of us at a wedding and says, \"when are we coming for your own?\" Who is it?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:4",
+   "old": "Who has the most obvious crush at our community events?",
+   "new": "Q Who here has said \"I'm praying about it\" just to avoid saying no?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:5",
+   "old": "Meet your future partner in the choir or at the community cook-out?",
+   "new": "C Find your partner at campus fellowship or at an owambe?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:6",
+   "old": "Which of us gets the most attention at a festival?",
+   "new": "Q Which of us would try to toast someone during praise and worship?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:7",
+   "old": "Who would be the most nervous meeting a crush's very religious family?",
+   "new": "Q Whose mum has the strongest prayers for their future spouse?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:8",
+   "old": "Tell me about the time one of us got caught staring at someone during a ceremony.",
+   "new": "T Tell me about the time one of us got caught looking at someone during the sermon.",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:9",
+   "old": "Which of us believes most in signs from the universe about love?",
+   "new": "Q Which of us goes to vigil for the prayers and which of us goes for the crush?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:10",
+   "old": "One of us has a crush in the choir or youth group. How do we help without making it awkward?",
+   "new": "S One of us likes someone in the choir. How do we arrange a \"coincidental\" meeting?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:11",
+   "old": "Who here would actually ask their horoscope before saying yes to a date?",
+   "new": "Q Who would be most nervous meeting a crush's strict church parents?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:12",
+   "old": "Which of us dresses up the most when we know a crush will be at an event?",
+   "new": "Q Which of us dresses up extra for service when a crush will be there?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:13",
+   "old": "Be set up by your mum or by your best friend?",
+   "new": "C Be set up by your mum or by your pastor or imam?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:14",
+   "old": "Who in our group would write the most heartfelt wedding vows?",
+   "new": "Q Which of us will have the biggest owambe?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:15",
+   "old": "Whose love story would make the best story at a family gathering?",
+   "new": "Q Whose love story will be told at every family gathering?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:16",
+   "old": "Weddings are secretly the best place to meet someone.",
+   "new": "H Weddings are the best place to find your own spouse.",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:17",
+   "old": "Which of us is most likely to say we're praying about a date when we just want to say no?",
+   "new": "S We're at a friend's wedding and the DJ plays a slow Afrobeats song. Who gets asked to dance first?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:18",
+   "old": "We're all at a friend's wedding and the DJ plays a slow song. Who gets asked to dance first?",
+   "new": "Q Who among us would fall for someone just because they greet elders well?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:19",
+   "old": "Who among us would fall for someone because of how kind they are to elders?",
+   "new": "Q Which of us would date someone from a different religion and handle the family drama?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:20",
+   "old": "Which of us would date someone from a different faith or background without blinking?",
+   "new": "Q Whose crush looks the most \"God-fearing\" on paper?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:21",
+   "old": "Who in our group is the hopeless romantic about destiny and soulmates?",
+   "new": "C Date a choir member or the church drummer?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:22",
+   "old": "Fall for someone with a calm spirit or someone who makes you laugh?",
+   "new": "Q Which of us gets asked \"where is your husband?\" or \"where is your wife?\" most at family events?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:23",
+   "old": "Whose crush has the best values, in your opinion?",
+   "new": "S A prophet at a crusade says one of us will meet their spouse this year. Who do we all look at?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:24",
+   "old": "One of us gets a fortune reading that says love is coming this month. Who do we guess it is?",
+   "new": "Q Who would be the best wingman at a church harvest or bazaar?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:25",
+   "old": "Which of us has been asked about our love life most at family celebrations?",
+   "new": "T Tell me about the boldest thing one of us has done to get a crush's number after service.",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:26",
+   "old": "Who would be the best wingman at a festival?",
+   "new": "Q Who here has had a crush on someone they met at camp?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:27",
+   "old": "Tell me about the cheekiest thing you've seen one of us do to get a crush's attention.",
+   "new": "Q Which of us is most likely to marry someone our parents introduced?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:28",
+   "old": "Which of us has had a crush on someone we met at a retreat or camp?",
+   "new": "S We're playing matchmaker at the next wedding. Who do you pair me with?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:29",
+   "old": "Who here is most likely to marry the person their family suggested?",
+   "new": "Q Whose charm would win over a crush's grandmother in the village?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:30",
+   "old": "We're playing matchmaker at a community event. Who do you pair me with?",
+   "new": "C Have your relationship prayed over by your mum or blessed by your grandmother?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:31",
+   "old": "Who here would charm a date's grandparents in under five minutes?",
+   "new": "Q Who lights up the most when their crush walks into fellowship?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:32",
+   "old": "Have your love life prayed over or read in the stars?",
+   "new": "Q Which of us sprays the most money when a crush is watching?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:33",
+   "old": "Who in our group lights up the most when their crush walks in?",
+   "new": "H The person who stays back to clean up after the event is always the catch.",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:34",
+   "old": "Which of us is the biggest flirt at weddings?",
+   "new": "Q Who among us will do the most dramatic proposal?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:35",
+   "old": "The person who helps clean up after a celebration is always the catch.",
+   "new": "S One of us is too shy to talk to someone at a wedding. What's our plan?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:36",
+   "old": "Which of us would ask for the family's blessing before proposing?",
+   "new": "Q Who here believes their spouse will come through a prophecy or a dream?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:37",
+   "old": "One of us is too shy to talk to someone at a festival. What's our plan?",
+   "new": "Q Which of us gets the most \"my daughter\" or \"my son\" compliments from aunties?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:38",
+   "old": "Who here believes their future partner will be a sign from above?",
+   "new": "Q Whose list of requirements for a spouse is the longest?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:39",
+   "old": "Which of us gets the most blushing compliments from elders?",
+   "new": "C Blind date set up by your pastor's wife or by a dating app?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:40",
+   "old": "Whose dating standards are the highest?",
+   "new": "Q Which of us has the best toasting line that would still pass in church?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:41",
+   "old": "Blind date arranged by a religious leader or by a dating app?",
+   "new": "Q Who would fall for someone at an outreach or charity event?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:42",
+   "old": "Which of us has the best chat-up line that's also respectful?",
+   "new": "T Tell me about a time someone tried to set one of us up at a family function and it went wrong.",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:43",
+   "old": "Who among us would be most likely to fall for someone at a charity event?",
+   "new": "Q Who will be the first to bring someone home for Christmas or Sallah?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:44",
+   "old": "Tell me about a time one of us got matched up at a family event and it went hilariously wrong.",
+   "new": "S We dare each other to greet a crush after Jumu'ah or Sunday service. Who actually does it?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:45",
+   "old": "Who would bring a date to a big festival celebration first?",
+   "new": "Q Which of us has had a prophet, aunty or friend predict their love life?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:46",
+   "old": "We dare each other to compliment a crush at the next gathering. Who actually does it?",
+   "new": "Q Who sends the sweetest Christmas or Eid messages to a crush?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:47",
+   "old": "Which of us has had our love life predicted by a fortune teller, palm reader or auntie?",
+   "new": "Q Which of us would call their crush \"an answer to prayer\"?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:48",
+   "old": "Who in our group is most likely to send flirty festival greetings?",
+   "new": "C Get serenaded at your reception or find a love note in your Bible?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:49",
+   "old": "Which of us would say our crush is the answer to our prayers?",
+   "new": "T Tell me about the most unexpected December wedding-season romance in our circle.",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:50",
+   "old": "Get serenaded at a wedding or receive a sweet note at a festival?",
+   "new": "H Falling in love in December doesn't count because everyone is soft at owambes.",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:51",
+   "old": "Tell me about the most unexpected festival-season romance in our circle.",
+   "new": "Q Which of us would be most dramatic if a crush didn't reply after a wedding?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:52",
+   "old": "A shared faith or shared values beats shared hobbies in a relationship.",
+   "new": "S An elder asks which of us is next to marry. Who do we all point at?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:53",
+   "old": "Which of us would be the most dramatic about a crush not texting back after a celebration?",
+   "new": "Q Whose jollof is most likely to impress a crush's parents?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:54",
+   "old": "An elder asks which of us is next to get married. Who do we all point at?",
+   "new": "Q Whose toasting style is the most old school?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:55",
+   "old": "Whose festival cooking is most likely to win someone's heart?",
+   "new": "Q Who here would fall for someone just because they lead praise and worship well?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:56",
+   "old": "Whose flirting style is the most old-fashioned?",
+   "new": "C Fall in love at youth camp or at a cousin's wedding?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:57",
+   "old": "Who here would fall for someone just because they sing beautifully in a choir?",
+   "new": "Q Which of us has the cutest crush right now?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:58",
+   "old": "Fall in love at a festival or on a pilgrimage?",
+   "new": "Q Who would do best at an introduction with a very strict father?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:59",
+   "old": "Which of us has the most adorable crush right now?",
+   "new": "S One of us finds a note in their hymn book that says \"you look nice today\". Who do we suspect?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:60",
+   "old": "Who in our group would be the best at charming a date's religious parents?",
+   "new": "Q Which of us needs a sign from God before agreeing to a date?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:61",
+   "old": "One of us gets a love letter tucked into their festival card. Who do we suspect sent it?",
+   "new": "T Tell me about the cutest couple we've seen at a wedding together.",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:62",
+   "old": "Which of us would agree to a date only after asking for a sign?",
+   "new": "Q Who will meet their spouse while ushering at someone else's wedding?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:63",
+   "old": "Tell me about the cutest couple we've seen at a celebration together.",
+   "new": "Q Whose love language is cooking for people?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:64",
+   "old": "Who among us is most likely to meet someone at a friend's naming ceremony or christening?",
+   "new": "C Date someone who prays loudly in tongues or someone who prays quietly?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:65",
+   "old": "Whose love language is most likely to be acts of service?",
+   "new": "Q Which of us blushes most when someone mentions our crush?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:66",
+   "old": "Date someone who prays loudly or someone who meditates quietly?",
+   "new": "S At youth camp, one of us keeps sitting next to the same person every evening. Who is it?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:67",
+   "old": "Which of us blushes the most when someone mentions our crush?",
+   "new": "Q Which of us would only say yes to a date after asking their mum?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:68",
+   "old": "We're all at a retreat and one of us keeps sitting next to the same person. Who is it?",
+   "new": "Q Who here believes in love at first sight the most?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:69",
+   "old": "Which of us is most likely to marry someone we met through our faith community?",
+   "new": "H Being introduced by family is underrated.",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:70",
+   "old": "Who here believes in love at first sight the most?",
+   "new": "Q Which of us would wear matching aso ebi with a partner to every event?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:71",
+   "old": "Being introduced by family is underrated.",
+   "new": "Q Who has the most dramatic dream wedding?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:72",
+   "old": "Who among us would happily wear matching festival outfits with a partner?",
+   "new": "S Someone asks one of us for their number after Friday prayers. How does that person react?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:73",
+   "old": "Who has the most romantic idea of a wedding?",
+   "new": "Q Which of us would fall hardest for someone patient and kind?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:74",
+   "old": "Someone asks one of us for our number after a service or event. How does that person react?",
+   "new": "C Meet your spouse through a friend or through divine connection?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:75",
+   "old": "Which of us would fall hardest for someone with a gentle, generous spirit?",
+   "new": "Q Who has the most aunties trying to set them up?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:76",
+   "old": "Meet the one through a friend or through fate?",
+   "new": "Q Which of us would be most nervous asking someone out at a church event?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:77",
+   "old": "Who among us has the most aunties trying to set them up?",
+   "new": "T Tell me about the wedding where one of us actually met someone.",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:78",
+   "old": "Which of us would be the most nervous asking someone out after a ceremony?",
+   "new": "Q Who believes their dream about someone was a sign?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:79",
+   "old": "Tell me about the best wedding where one of us met someone new.",
+   "new": "S One of us is crushing on someone from the media team. How do we make them meet?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:80",
+   "old": "Who in our group is most likely to believe their dream about someone was a sign?",
+   "new": "Q Whose future spouse would fit in best with our crew?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:81",
+   "old": "One of us is crushing on a festival volunteer. How do we arrange for them to meet?",
+   "new": "C Fall for the person serving food or the person on the decoration committee?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:82",
+   "old": "Which of us keeps it the most respectful when flirting at a community event?",
+   "new": "Q Who would give the sweetest best man or chief bridesmaid speech?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:83",
+   "old": "Whose partner, current or future, would fit in best at our celebrations?",
+   "new": "Q Who gets the most compliments at Sunday service or Friday prayers?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:84",
+   "old": "Fall for someone who cooks festival food or someone who decorates for it?",
+   "new": "H How someone behaves at an owambe tells you everything.",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:85",
+   "old": "Which of us would make the sweetest wedding toast about a friend's partner?",
+   "new": "Q Which of us is secretly the most romantic?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:86",
+   "old": "Who here gets the most compliments at religious celebrations?",
+   "new": "S We each write a \"marriage profile\" for the person on our left, the way an aunty would. What do you write?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:87",
+   "old": "Seeing how someone treats people at a celebration tells you everything.",
+   "new": "Q Who would keep a crush secret until the wedding invitation drops?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:88",
+   "old": "Which of us is secretly the most romantic despite pretending not to be?",
+   "new": "Q Which of us will have a love story that starts at a vigil?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:89",
+   "old": "We each have to write a matchmaking profile for the person on our left. What do you write?",
+   "new": "Q Who would fall for someone because they're good with the Sunday school children?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:90",
+   "old": "Who among us would keep a crush secret until the last day of a festival?",
+   "new": "C Be matched by your grandmother or by your pastor's wife?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:91",
+   "old": "Which of us is most likely to have a love story that starts with a blessing?",
+   "new": "Q Which of us flirts best with just a smile across the church?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:92",
+   "old": "Who in our group would fall for someone because they're patient with kids at events?",
+   "new": "S Our friend's crush is standing by the small chops table at a wedding. Who goes over first?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:93",
+   "old": "Be matched by astrology or by your grandmother?",
+   "new": "Q Who would fast and pray for a crush to notice them?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:94",
+   "old": "Which of us flirts best with just a smile?",
+   "new": "Q Which of us will be the love-advice aunty or uncle someday?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:95",
+   "old": "Our friend's crush is standing by the food table at a celebration. Who goes over first?",
+   "new": "Q Whose crush would get the family seal of approval fastest?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:96",
+   "old": "Who here would light a candle or say a prayer for a crush to notice them?",
+   "new": "Q Who here has written \"future husband\" or \"future wife\" in their prayer journal?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:97",
+   "old": "Who's going to be the love-advice auntie or uncle of the group someday?",
+   "new": "Q Which of us will have the longest introduction list from the in-laws?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:98",
+   "old": "Whose crush do you think would get the family seal of approval?",
+   "new": "S One of us gets a \"Happy Sunday\" text from a crush every week. Who is it?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:99",
+   "old": "A friend's wedding seating chart puts one of us next to their crush. Who do we hope it is?",
+   "new": "Q Who among us would send a Bible or Quran verse as a flirty text?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:100",
+   "old": "Whose first move would be a quick prayer before texting a crush?",
+   "new": "Q Who talks to elders the most respectfully when a crush's parents are around?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:1",
+   "old": "Do you ever feel like I was the answer to something you hoped for?",
+   "new": "Q Do you ever feel like I was the answer to your mum's prayers?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:3",
+   "old": "We're at a friend's wedding and they read vows that sound like us. What do you whisper to me?",
+   "new": "S We're at a friend's wedding and the couple's vows sound like us. What do you whisper to me?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:4",
+   "old": "When did you first think we were meant to be?",
+   "new": "Q When did you first think, \"this one is from God\"?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:5",
+   "old": "Renew our promises at sunrise or under the stars?",
+   "new": "C Renew our vows in church or at a small family thanksgiving?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:6",
+   "old": "What's your favourite thing about seeing me at a celebration?",
+   "new": "Q What do you love about seeing me dressed up for Sunday service or Jumu'ah?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:7",
+   "old": "Tell me about a day you felt thankful for me before I'd even said a word.",
+   "new": "T Tell me about the first time you prayed for me by name.",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:8",
+   "old": "Do you think the universe had a hand in bringing us together?",
+   "new": "Q Do you think God was setting us up long before we met?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:9",
+   "old": "Which colour do you love seeing me wear to celebrations?",
+   "new": "Q Which of my aso ebi looks do you secretly love the most?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:10",
+   "old": "We sneak away from a big family celebration for five quiet minutes. What do you say to me?",
+   "new": "S We sneak out of a long family thanksgiving for five minutes. What do you say to me?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:11",
+   "old": "What would you want our first home to be blessed with?",
+   "new": "Q What would you want our first home to be dedicated with?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:12",
+   "old": "Which new festival ritual should become just ours?",
+   "new": "Q Which tradition would you love us to start at Christmas or Sallah?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:13",
+   "old": "Praying, meditating or reflecting together is one of the most intimate things a couple can do.",
+   "new": "H Praying together is one of the most romantic things a couple can do.",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:14",
+   "old": "Do you still get butterflies when you see me dressed up for an occasion?",
+   "new": "Q Do you still get butterflies when you see me in native?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:15",
+   "old": "Hold hands during a candle ceremony or dance at the end of a festival?",
+   "new": "C Dance together at the next owambe or slow-dance at home?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:16",
+   "old": "What do you thank the heavens for when you think of me?",
+   "new": "Q What do you thank God for when you think of me?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:17",
+   "old": "An elder at a celebration says we glow when we're together. How do you respond?",
+   "new": "S An aunty at a wedding says we look like the next couple to marry. How do you respond?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:18",
+   "old": "What's the sweetest thing you've ever wished for us?",
+   "new": "Q What's the sweetest prayer you've ever said for us?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:20",
+   "old": "Which of our shared traditions would you miss most if we skipped it?",
+   "new": "Q Which of our family traditions would you fight to keep when we have our own home?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:21",
+   "old": "Tell me about the moment you knew you wanted me by your side at every celebration.",
+   "new": "T Tell me about the moment you knew you wanted to bring me home to your parents.",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:22",
+   "old": "What would you say if you had to describe our love to a wise elder?",
+   "new": "S Your grandmother asks me what I like about you, in front of everyone. What do you hope I say?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:23",
+   "old": "Light a lantern together or plant a tree together for our anniversary?",
+   "new": "C Matching aso ebi for every wedding or surprise each other with our outfits?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:24",
+   "old": "How do you like me to show you love on a quiet, reflective day?",
+   "new": "Q How do you like me to love you during a fasting season?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:25",
+   "old": "We're on a peaceful retreat with no phones. How do you get my attention?",
+   "new": "S We're walking home after a long night vigil and we're both tired. How do you make me smile?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:26",
+   "old": "Which part of our wedding, real or dreamed, makes you smile the most?",
+   "new": "Q Which part of our wedding, real or dreamed, makes you smile most?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:27",
+   "old": "Do you believe we're soulmates, or that we choose each other every day?",
+   "new": "Q Do you believe we were destined, or that we choose each other every day?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:28",
+   "old": "Being blessed by both our families feels like the most romantic thing.",
+   "new": "H Getting both families' blessing is the most romantic thing.",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:29",
+   "old": "What's the most attractive thing about how I live out my values?",
+   "new": "Q What's the most attractive thing about how I live out my faith?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:30",
+   "old": "Where would you take me if you wanted us both to slow down and breathe?",
+   "new": "Q Where would you take me if you wanted us both to rest and reset?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:31",
+   "old": "Our song plays at a friend's wedding and the whole room watches us dance. What do you do?",
+   "new": "S Our song plays at a friend's reception and everyone watches us dance. What do you do?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:32",
+   "old": "What would you want our love story to teach our future children, if we have them?",
+   "new": "Q What do you want our love story to teach our children someday, if we have them?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:33",
+   "old": "Spend a festival morning cooking together or an evening at the celebrations?",
+   "new": "C Cook Christmas rice together or go visiting family together?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:34",
+   "old": "What do you love about watching me take part in a tradition I care about?",
+   "new": "Q What do you love about watching me worship?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:35",
+   "old": "Which couple from scripture, legend or folklore do you think we're most like?",
+   "new": "Q Which couple in the Bible or Quran do you think we're most like?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:36",
+   "old": "Tell me about a celebration where you couldn't stop looking at me.",
+   "new": "T Tell me about an owambe where you couldn't stop looking at me.",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:37",
+   "old": "If we went on a pilgrimage or retreat together, where would you want us to go?",
+   "new": "Q If we travelled together for a convention, camp meeting or Umrah, what would you look forward to most?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:38",
+   "old": "I leave a little blessing note under your pillow. What does it say?",
+   "new": "S I leave a prayer note in your bag before you travel. What does it say?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:40",
+   "old": "What's the most romantic prayer, wish or intention you've ever had for us?",
+   "new": "Q What's the most romantic thing you've ever asked God for about us?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:41",
+   "old": "Couples who laugh during ceremonies are the happiest couples.",
+   "new": "H Couples who laugh during long services are the happiest couples.",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:42",
+   "old": "Which of our rituals do you never want us to stop doing?",
+   "new": "Q Which of our little rituals do you never want us to stop?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:43",
+   "old": "Say grace or a thank-you together, or share a quiet moment of silence?",
+   "new": "C Pray together before bed or share devotion in the morning?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:44",
+   "old": "What's something I do at family celebrations that makes you fall for me again?",
+   "new": "Q What do I do at family functions that makes you fall for me again?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:45",
+   "old": "We get to plan a whole festival day just for the two of us. What's on the schedule?",
+   "new": "S We get a whole December day to ourselves with no family events. What do we do?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:46",
+   "old": "What do you hope people feel when they see us together at a gathering?",
+   "new": "Q What do you hope people say when they see us at a wedding?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:47",
+   "old": "Do you think our love grows on the quiet days or the big occasions?",
+   "new": "Q Does our love grow more on quiet Sundays or on big celebration days?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:49",
+   "old": "What would you light a candle for if it was just for us?",
+   "new": "Q What would you want us to give thanks for at our next thanksgiving service?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:51",
+   "old": "You get to bless our relationship with one wish that comes true. What is it?",
+   "new": "S You get to pray one prayer over our relationship and it's answered immediately. What is it?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:53",
+   "old": "A rooftop at night counting stars or a beach at dawn?",
+   "new": "C Suya on a rooftop at night or a Lagos beach at sunrise?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:54",
+   "old": "What part of your spiritual life would you love to share more of with me?",
+   "new": "Q What part of your faith would you love to share more with me?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:55",
+   "old": "What's the cutest thing I've ever said during a serious ceremony?",
+   "new": "Q What's the funniest thing I've whispered to you during a sermon?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:56",
+   "old": "The most romantic gestures are the ones done quietly.",
+   "new": "H The most romantic gestures are the quiet ones.",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:57",
+   "old": "How do you want us to celebrate our anniversary in a meaningful way?",
+   "new": "Q How should we celebrate our anniversary in a way that means something?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:58",
+   "old": "It's the end of a long festival and we're finally alone. What's the first thing you say?",
+   "new": "S It's the end of a long wedding and we're finally in the car alone. What's the first thing you say?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:59",
+   "old": "Which elder's love story would you most like ours to resemble?",
+   "new": "Q Which elder's love story would you most like ours to look like?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:60",
+   "old": "Which ordinary moment with me would you call a small blessing?",
+   "new": "Q Which ordinary day with me would you call a small blessing?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:61",
+   "old": "Dance at our wedding first or share our first meal as a couple?",
+   "new": "C Dance first at our reception or share our first meal as husband and wife?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:62",
+   "old": "What do you find most attractive about my faith, or my way of finding meaning?",
+   "new": "Q What do you find most attractive about the way I pray?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:63",
+   "old": "Tell me about a time I made a family tradition feel brand new for you.",
+   "new": "T Tell me about a time I made a family event feel brand new for you.",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:65",
+   "old": "We're asked to share our love story at a community event. How do you tell it?",
+   "new": "S We're asked to share our love story at church or at a family meeting. How do you tell it?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:66",
+   "old": "What's a promise you'd happily make to me every single morning?",
+   "new": "Q What's a promise you'd happily make to me every morning?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:67",
+   "old": "How do you feel when we pray, reflect or sit in silence side by side?",
+   "new": "Q How do you feel when we pray side by side?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:68",
+   "old": "A partner who celebrates your traditions is a partner worth keeping.",
+   "new": "H A partner who respects your parents is a partner worth keeping.",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:69",
+   "old": "Which festival do you most look forward to spending with me?",
+   "new": "Q Which festive season do you most look forward to spending with me?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:70",
+   "old": "Wear matching colours to a celebration or surprise each other with our outfits?",
+   "new": "C Wear the same colour to service every week or match only on special days?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:72",
+   "old": "You catch me smiling at you across a crowded celebration. What do you do?",
+   "new": "S You catch me smiling at you across a crowded hall. What do you do?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:75",
+   "old": "Tell me about a moment I made a crowded celebration feel like just the two of us.",
+   "new": "T Tell me about a moment I made a crowded event feel like just the two of us.",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:76",
+   "old": "How would you like us to welcome each new year together?",
+   "new": "Q How would you like us to cross over into each new year, at service or praying at home?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:77",
+   "old": "What would you want written on a blessing for our home?",
+   "new": "Q Which Bible or Quran verse would you want on our wall?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:78",
+   "old": "Write each other a love letter at every festival or exchange small gifts?",
+   "new": "C Write each other a love letter every December or exchange small gifts?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:79",
+   "old": "What's your favourite thing about how we keep our traditions together?",
+   "new": "Q What do you love about how we handle both our families?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:80",
+   "old": "We find a quiet garden during a busy celebration. How do we spend ten minutes there?",
+   "new": "S We find a quiet corner during a busy owambe. How do we spend ten minutes there?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:82",
+   "old": "Which of your values do you see reflected in me?",
+   "new": "Q Which of your values do you see in me?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:84",
+   "old": "What do you hope we'll still be doing together at every celebration when we're old?",
+   "new": "Q When we're old, which church or mosque seat will be \"ours\"?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:85",
+   "old": "I ask you to describe heaven, paradise or perfect peace, and you describe us. What do you say?",
+   "new": "S I ask you to describe heaven, and you describe us. What do you say?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:86",
+   "old": "What's one sacred promise you'd make me in front of everyone we love?",
+   "new": "Q What promise would you make me in front of both our families?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:87",
+   "old": "Spend a quiet holy day at home together or with the whole family?",
+   "new": "C A quiet Sunday at home together or lunch with the whole family?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:89",
+   "old": "What would make our next festival together unforgettable?",
+   "new": "Q What would make our next December together unforgettable?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:90",
+   "old": "We're guests at a wedding and you catch me mouthing the vows along. What do you say?",
+   "new": "S We're guests at a wedding and you catch me mouthing the vows. What do you say?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:92",
+   "old": "We each make a secret wish at the same festival. Do you want to know mine?",
+   "new": "S We each say a secret prayer at crossover. Do you want to know mine?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:94",
+   "old": "Which of our traditions would you happily pass on someday?",
+   "new": "Q Which of our traditions would you happily pass on to our children?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:95",
+   "old": "Watch the lanterns float away together or make a wish over a fountain?",
+   "new": "C Hold hands during the closing prayer or squeeze hands during the sermon?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:97",
+   "old": "What would you want our family and friends to bless us with at our next big celebration?",
+   "new": "Q What would you want our families to pray over us at our next big celebration?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:98",
+   "old": "What's one thing about us that still feels like a small miracle?",
+   "new": "Q What's one thing about us that still feels like a miracle?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:100",
+   "old": "We slip a private promise into a festival toast that only we understand. What's the promise?",
+   "new": "S We slip a private promise into a toast at a family event that only we understand. What's the promise?",
+   "reason": "Rewritten for the Nigerian household audience: real services, festivals, weddings and family dynamics replace generic or Western references.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  }
+ ]
+}

@@ -10100,6 +10100,276 @@
    "decision": "distinct",
    "reason": "Read individually after the Faith x Flirty rewrite pass: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
    "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-partner:46",
+   "b": "b3-fa-0901",
+   "textHashA": "57a61fb5341ba1526a6ad33126b8f37716e9a375d0098ecda0234e2f08347404",
+   "textHashB": "060a9b7d208bdaea1201a51eee6d574d60d8f07ae07faadebf884bfb42b66fe1",
+   "score": 0.6427,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-partner:40",
+   "b": "b3-pe-1404",
+   "textHashA": "c6175612a4fa4382fc374b271f3a0228e551c6006689e774df91d00765694073",
+   "textHashB": "f5458ac3ae3abb41db8c0d1d0c419cf5781d4a76460a8007f96d7903abe3b1dd",
+   "score": 0.6133,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-friends:88",
+   "b": "b3-fa-1207",
+   "textHashA": "3f183a00a4323f845c16caa98c4fc5b08b8a9e9537a8751c7c92504a21e44f68",
+   "textHashB": "57d46c4de073dd64f1213b298d9ac2dca48cdb6bfc8d7a7cc93813486d342e98",
+   "score": 0.5814,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-friends:8",
+   "b": "b3-pe-1345",
+   "textHashA": "1abb6d2cc3b4b46f9ce8c60ed95adbee26801e1da977a2678b9360db70aa1fcb",
+   "textHashB": "6e98dbb7758b062b39ead3be39174656a0c75841b3c4360d056a2134ec943576",
+   "score": 0.5624,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-partner:5",
+   "b": "b3-fa-1332",
+   "textHashA": "1d8a50f26a63025fd6b047d6e0a3a220ea09ff579440bb17e12823ba8f613409",
+   "textHashB": "79c65180ee0e7555e86fc68cfbe0589a9cfff9e15aea2f8fecd914ee1e7589d9",
+   "score": 0.5349,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-partner:12",
+   "b": "b3-cu-1297",
+   "textHashA": "ef42fd395eefefd91781af43c23b00209534db19295837e8d0f8b70585970ce4",
+   "textHashB": "5cb9730dfcafb14704cc2026e0ac3194f1058a77f87cc437e4735369e4f4aa1d",
+   "score": 0.5286,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-friends:99",
+   "b": "faith-spirituality/flirty-partner:77",
+   "textHashA": "7a18c640320fca7e8f68cc6b7f1b4dadcfd34cb8e1810ee215da827c6d510035",
+   "textHashB": "d2b31ef5d9d56a3e1a7d238df926cd5ca8038f4cb354d1b1ac8125a8f3253a69",
+   "score": 0.5236,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-someone-new:36",
+   "b": "b3-cu-1393",
+   "textHashA": "96e8082698b4dcad561b2af938c15fda03c49b13fa1bfe7099c86219b3095749",
+   "textHashB": "f858ebfce840165413bea948e936c1fb6ab5e2f17f909c7e6a9c26fe820a8cdb",
+   "score": 0.5213,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-partner:18",
+   "b": "faith-spirituality/flirty-someone-new:50",
+   "textHashA": "c94e0ab8b68584808661a3a54f4da89d82cf0240bdd704e1b3c0c3d8c5f96eca",
+   "textHashB": "44b8daac9b01676b0e2c9971af7dd039f9d042f59f56e7a90ef12d4a901ab25f",
+   "score": 0.509,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-friends:2",
+   "b": "faith-spirituality/flirty-someone-new:14",
+   "textHashA": "19cb5c40ca1d08d7607ca8b1f1a71919029c6c25ae036f13dda22c14c719e3f0",
+   "textHashB": "333a2f88ba00d08198a038c005e8d508efa3379efbb58dcc73466007c232574c",
+   "score": 0.5087,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-partner:72",
+   "b": "b1-rb-0537",
+   "textHashA": "291874ae833d29f40435fba06dfe1a8c1e4e6541560fc5a7f56b66b0c2442815",
+   "textHashB": "cb37625eaf0134e332702c34bb086d282b9f79fce2863a492308aa0104f12805",
+   "score": 0.5086,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-friends:26",
+   "b": "b3-pe-1204",
+   "textHashA": "a2b8b111d03b942ec44bb51bf67457a06aeca92894bca91ad2a2a1e3ff7b8570",
+   "textHashB": "7230e4be696bad342dc198a10f52b3c0986e03b7533e8ad26a3e38d8ed5660f2",
+   "score": 0.5004,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-friends:8",
+   "b": "b3-pe-0036",
+   "textHashA": "1abb6d2cc3b4b46f9ce8c60ed95adbee26801e1da977a2678b9360db70aa1fcb",
+   "textHashB": "462be80d554f6bad34e1eea3f8cf8355b807fecc01ffc785a3f4686025581d5f",
+   "score": 0.499,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-friends:45",
+   "b": "faith-spirituality/flirty-someone-new:66",
+   "textHashA": "65b3ee2ef02e3ca9f4bd7df53c7a0c1e96e144aed41e928703cdedf37a340159",
+   "textHashB": "a234913836cd05b605f1e66ee1f4c511a68b73eefc3c7ba5aae87389d0bad24d",
+   "score": 0.4966,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-friends:83",
+   "b": "faith-spirituality/flirty-someone-new:93",
+   "textHashA": "2f642d44e30f9448886abc6c3f41dc79aa5506111cbb847ef468904c65a4d0e1",
+   "textHashB": "bb99c3f96aee8b5ab0628f4214d58bfa9dc6eed4ac5646c9f3d3b6256fc1ca75",
+   "score": 0.4958,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-someone-new:47",
+   "b": "b3-cu-1446",
+   "textHashA": "fef536a895c1734e1b8d2a74f78fe4935a2c223b15b6a61ec60e23b1c96e8058",
+   "textHashB": "10fec716244a07a1b113173568b0226e8d0b3174260152fdb9d95df4e3f06b54",
+   "score": 0.4909,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-someone-new:7",
+   "b": "b3-pe-1404",
+   "textHashA": "ce7e6d391f81a0297ed267afdc7039a88a2a221be0217d1197a56646b3948451",
+   "textHashB": "f5458ac3ae3abb41db8c0d1d0c419cf5781d4a76460a8007f96d7903abe3b1dd",
+   "score": 0.4898,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-friends:15",
+   "b": "b3-cu-1143",
+   "textHashA": "c280590ab7721af3f8b41325c7d50341df03bfacb77ea54f8c6396b598c01a5d",
+   "textHashB": "964a3a7cf632662980806e6875015c1ca9209eb30c9c9815e3cf29fb13a77b54",
+   "score": 0.4876,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-friends:70",
+   "b": "faith-spirituality/flirty-partner:23",
+   "textHashA": "979c63437a67bf16be76f6db74ba5803779e09e0338d38d12d5a6bb73997cad0",
+   "textHashB": "ccc43d814918e19430ae64aa5600f4e1ad9743114a8a8288105b3a3014397696",
+   "score": 0.4864,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-someone-new:7",
+   "b": "b3-cu-1430",
+   "textHashA": "ce7e6d391f81a0297ed267afdc7039a88a2a221be0217d1197a56646b3948451",
+   "textHashB": "4c52493ba2d26c306dde4c88771837c4b425dc51230874adde3fd26ac42e7dbb",
+   "score": 0.4828,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-friends:17",
+   "b": "b3-pe-1309",
+   "textHashA": "a69fb84bd168f207de175a7031b54351c78ee64a69f426261503184801ad9fe1",
+   "textHashB": "eb9c906347bfaa64c88c45baabdc3fe762824e57989d8f7e5cb5f230ceda27b0",
+   "score": 0.4798,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-someone-new:7",
+   "b": "b3-pe-1304",
+   "textHashA": "ce7e6d391f81a0297ed267afdc7039a88a2a221be0217d1197a56646b3948451",
+   "textHashB": "a11986544942d4ccaef5d639ae17dc6f0b20844bb4cbd93edfc956e35373994c",
+   "score": 0.4751,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-partner:46",
+   "b": "random-hypothetical/deep-partner:57",
+   "textHashA": "57a61fb5341ba1526a6ad33126b8f37716e9a375d0098ecda0234e2f08347404",
+   "textHashB": "93239d3b2d22847d356f21064811d0fb0c70720e4bd1737ae4f91399f7640fc4",
+   "score": 0.4749,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-friends:1",
+   "b": "faith-spirituality/flirty-partner:84",
+   "textHashA": "d6810fe4acc34f179591535ff6169ef9d44423951f8af5a6927986224ba67c09",
+   "textHashB": "1b4f05ec3bfea2a6c1c10c2f9dd491845ed262763bcb6a1a6e958c598903a917",
+   "score": 0.4673,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-friends:27",
+   "b": "b3-cu-1399",
+   "textHashA": "50fa0df38e078f127047dcf6030df703ad7a95769add0ad3b932b4c5f780da55",
+   "textHashB": "5eed6a584af9f67e6a08466a6f8f6b36833f4c113397f15fcc1abc2935e291c8",
+   "score": 0.4664,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-friends:88",
+   "b": "random-hypothetical/flirty-friends:12",
+   "textHashA": "3f183a00a4323f845c16caa98c4fc5b08b8a9e9537a8751c7c92504a21e44f68",
+   "textHashB": "a0c7cc29b771791f6791570458c1d903014bc4ebd23243ee40fff93bc3683718",
+   "score": 0.4637,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-someone-new:82",
+   "b": "random-hypothetical/deep-partner:58",
+   "textHashA": "8ad1c69af20b76563e8a0b7daf2c37dfe15207af0204e213dae50115747de66a",
+   "textHashB": "9d03566cac5b98c3e53f0ee7eddc4b2192fdbf7fbb91162b0176a16f05e6890a",
+   "score": 0.4609,
+   "decision": "distinct",
+   "reason": "Read individually after the Nigerian-voice rewrite: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
   }
  ]
 }

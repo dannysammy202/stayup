@@ -48009,7 +48009,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "Do you believe in fate, or did we just get lucky meeting today?",
+    "text": "So are you a Sunday service person, a Saturday vigil person or a Jumu'ah person?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48025,7 +48025,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "What's your star sign, and should I be worried about it?",
+    "text": "Be honest, do you come to service for the sermon or for the small chops after?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48034,14 +48034,14 @@
   {
     "id": "b4-fs-1203",
     "topic": "Faith & Spirituality",
-    "format": "Scenario",
+    "format": "Question",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "A fortune teller says you'll meet someone special this week. Do you think she meant me?",
+    "text": "Which church or mosque event would you actually invite me to?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48050,14 +48050,14 @@
   {
     "id": "b4-fs-1204",
     "topic": "Faith & Spirituality",
-    "format": "Question",
+    "format": "Scenario",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "Have you ever prayed for a sign and then got one that made you laugh?",
+    "text": "Your mum asks who you were talking to after service. What do you tell her?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48066,14 +48066,14 @@
   {
     "id": "b4-fs-1205",
     "topic": "Faith & Spirituality",
-    "format": "Quick choice",
+    "format": "Question",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "Meet someone at a wedding or at a festival?",
+    "text": "Are you in the choir, or do you just sing louder than everyone during praise and worship?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48082,14 +48082,14 @@
   {
     "id": "b4-fs-1206",
     "topic": "Faith & Spirituality",
-    "format": "Question",
+    "format": "Quick choice",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "Do you think some people are meant to cross paths?",
+    "text": "Meet someone at crossover night or at an owambe?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48105,7 +48105,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "What would your grandmother say if she could see you talking to me right now?",
+    "text": "What's the most romantic thing you've seen at a church or mosque wedding?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48114,14 +48114,14 @@
   {
     "id": "b4-fs-1208",
     "topic": "Faith & Spirituality",
-    "format": "Scenario",
+    "format": "Question",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "We both reach for the last plate of festival food. Who gets it?",
+    "text": "Has an aunty ever pointed at someone and said \"that one is your husband\" or \"that one is your wife\"?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48137,7 +48137,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "Is it true that people from your community are the best cooks, or is that just a rumour?",
+    "text": "Do you think God answers prayers about crushes, or is that too small to ask?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48153,7 +48153,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "Has anyone ever blessed you in a way that made you blush?",
+    "text": "What would your pastor or imam say if he saw you smiling at me like this?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48162,14 +48162,14 @@
   {
     "id": "b4-fs-1211",
     "topic": "Faith & Spirituality",
-    "format": "Question",
+    "format": "Scenario",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "If an elder at your place of worship tried to match you with someone, how would you react?",
+    "text": "We're both ushers at the same wedding and keep ending up at the same table. What's your line?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48178,14 +48178,14 @@
   {
     "id": "b4-fs-1212",
     "topic": "Faith & Spirituality",
-    "format": "Hot take",
+    "format": "Question",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "The best first dates happen somewhere peaceful, not somewhere loud.",
+    "text": "Which aso ebi colour would you want us to match in someday?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48201,7 +48201,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "Do you light up more at a festival or at a quiet retreat?",
+    "text": "Do you prefer someone who prays quietly or someone who prays like they're fighting principalities?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48210,14 +48210,14 @@
   {
     "id": "b4-fs-1214",
     "topic": "Faith & Spirituality",
-    "format": "Scenario",
+    "format": "Quick choice",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "You're asked to describe me to your aunties in one sentence. What do you say?",
+    "text": "Fellowship crush or office crush, which have you had more of?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48233,7 +48233,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "Which festival outfit would you want me to see you in?",
+    "text": "If I came to your house for Christmas or Sallah, which dish would your mum use to test me?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48242,14 +48242,14 @@
   {
     "id": "b4-fs-1216",
     "topic": "Faith & Spirituality",
-    "format": "Question",
+    "format": "Quick choice",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "Do you think good energy is something you can feel the moment you meet someone?",
+    "text": "Sallah ram meat or Christmas rice and chicken?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48258,14 +48258,14 @@
   {
     "id": "b4-fs-1217",
     "topic": "Faith & Spirituality",
-    "format": "Quick choice",
+    "format": "Question",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "A sunrise walk to clear our heads or a candlelit dinner?",
+    "text": "Do you believe you'll know \"the one\" by the Spirit or by vibes?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48281,7 +48281,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "Which of your traditions would you be secretly delighted to teach me?",
+    "text": "Which praise song gets you dancing no matter who is watching?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48290,14 +48290,14 @@
   {
     "id": "b4-fs-1219",
     "topic": "Faith & Spirituality",
-    "format": "Question",
+    "format": "Scenario",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "Has anyone ever caught your eye across a crowded ceremony?",
+    "text": "We both arrive early for a friend's introduction ceremony. What do we talk about while we wait?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48306,14 +48306,14 @@
   {
     "id": "b4-fs-1220",
     "topic": "Faith & Spirituality",
-    "format": "Scenario",
+    "format": "Question",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "We both arrive early for a community event and nobody else is there yet. What do we talk about?",
+    "text": "Has anyone ever told you they were \"led\" to talk to you?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48322,14 +48322,14 @@
   {
     "id": "b4-fs-1221",
     "topic": "Faith & Spirituality",
-    "format": "Question",
+    "format": "Hot take",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "Do you read horoscopes for fun, or do you secretly take them seriously?",
+    "text": "Someone who greets elders properly is instantly more attractive.",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48345,7 +48345,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "If I asked for your blessing to take you out, would I get it?",
+    "text": "Which part of a Nigerian wedding do you look forward to the most?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48354,14 +48354,14 @@
   {
     "id": "b4-fs-1223",
     "topic": "Faith & Spirituality",
-    "format": "Question",
+    "format": "Quick choice",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "What's your idea of a date that feeds the soul?",
+    "text": "Be spotted by my aunties at a vigil or at a party?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48370,14 +48370,14 @@
   {
     "id": "b4-fs-1224",
     "topic": "Faith & Spirituality",
-    "format": "Story starter",
+    "format": "Question",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "Tell me about the most romantic wedding you've ever been a guest at.",
+    "text": "What's one thing you pray about that you'd let me in on?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48386,14 +48386,14 @@
   {
     "id": "b4-fs-1225",
     "topic": "Faith & Spirituality",
-    "format": "Question",
+    "format": "Story starter",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "Is there a festival or wedding song that always gets you dancing a little closer to someone?",
+    "text": "Tell me about the cutest couple you know who met in church or at the mosque.",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48409,7 +48409,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "Would you rather be serenaded at a festival or written a heartfelt letter?",
+    "text": "Are you the type to say \"let me pray about it\" when someone asks you out?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48418,14 +48418,14 @@
   {
     "id": "b4-fs-1227",
     "topic": "Faith & Spirituality",
-    "format": "Scenario",
+    "format": "Question",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "An astrologer reads both our charts and says we're a perfect match. Do you believe her?",
+    "text": "What's the most creative way someone has collected your number after service?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48434,14 +48434,14 @@
   {
     "id": "b4-fs-1228",
     "topic": "Faith & Spirituality",
-    "format": "Question",
+    "format": "Scenario",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "What's the cutest thing a couple has ever done at a religious celebration you attended?",
+    "text": "An aunty gives us a long look as we talk outside the church. What do you think she's saying in her head?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48457,7 +48457,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "Do you think kindness is the most attractive quality a person can have?",
+    "text": "Do you think shared faith matters more than shared taste in music?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48473,7 +48473,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "Share a lantern at a festival or share dessert after a wedding?",
+    "text": "Meet at campus fellowship or at NYSC CDS?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48489,7 +48489,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "What would make you say a little thank-you prayer after a first date?",
+    "text": "Who in your family would be most excited if you brought someone home?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48505,7 +48505,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "Do your friends say you have an old soul?",
+    "text": "What would make you say \"this one is from God\"?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48521,7 +48521,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "Which of your values would you hope someone notices first?",
+    "text": "Which Christmas carol or Ramadan tradition puts you in a soft mood?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48530,14 +48530,14 @@
   {
     "id": "b4-fs-1234",
     "topic": "Faith & Spirituality",
-    "format": "Scenario",
+    "format": "Question",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "You meet someone lovely at a volunteering day. What's your first line?",
+    "text": "Have you ever skipped evening service to go on a date?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48546,14 +48546,14 @@
   {
     "id": "b4-fs-1235",
     "topic": "Faith & Spirituality",
-    "format": "Question",
+    "format": "Scenario",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "Do you think the universe has a sense of humour about who we meet?",
+    "text": "You're asked to pray for the food at a family gathering and I'm sitting next to you. How long is the prayer?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48569,7 +48569,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "If you could design a first date around your favourite festival, what would we do?",
+    "text": "Which Sunday or Friday outfit always gets you compliments?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48578,14 +48578,14 @@
   {
     "id": "b4-fs-1237",
     "topic": "Faith & Spirituality",
-    "format": "Hot take",
+    "format": "Quick choice",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "Someone who knows what they believe is very attractive.",
+    "text": "Someone who cooks well or someone who sings in the choir?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48594,14 +48594,14 @@
   {
     "id": "b4-fs-1238",
     "topic": "Faith & Spirituality",
-    "format": "Question",
+    "format": "Hot take",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "Are you more drawn to people who share your beliefs or people who challenge them a little?",
+    "text": "The person who helps arrange chairs after service is always a catch.",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48617,7 +48617,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "Has a stranger ever made your day just by being kind?",
+    "text": "Do you think your parents would approve of someone like me?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48626,14 +48626,14 @@
   {
     "id": "b4-fs-1240",
     "topic": "Faith & Spirituality",
-    "format": "Scenario",
+    "format": "Question",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "We're both on the same pilgrimage or retreat and keep ending up next to each other. Coincidence?",
+    "text": "What's the funniest way someone has tried to toast you in church?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48649,7 +48649,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "What's the most charming thing someone can do at a family celebration?",
+    "text": "Would you rather be serenaded by the choir or get a voice note of a worship song?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48658,14 +48658,14 @@
   {
     "id": "b4-fs-1242",
     "topic": "Faith & Spirituality",
-    "format": "Question",
+    "format": "Scenario",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "Would you rather meet someone at a choir rehearsal or at a festival market?",
+    "text": "We get paired up for a church or mosque outreach. How do you make the long day fun?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48681,7 +48681,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "Do you believe in love at first sight, or love at first conversation?",
+    "text": "Do you have a \"my spirit doesn't agree with this person\" story?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48690,14 +48690,14 @@
   {
     "id": "b4-fs-1244",
     "topic": "Faith & Spirituality",
-    "format": "Quick choice",
+    "format": "Question",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "Bond over a shared tradition or over learning someone else's?",
+    "text": "What green flag do you look for in how someone treats their faith?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48706,14 +48706,14 @@
   {
     "id": "b4-fs-1245",
     "topic": "Faith & Spirituality",
-    "format": "Question",
+    "format": "Quick choice",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "What's your favourite festival food to share with someone you like?",
+    "text": "Date someone who knows every hymn or someone who knows every Afrobeats song?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48729,7 +48729,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "Would you take me to your favourite celebration if I asked nicely?",
+    "text": "How do you know when someone is genuinely kind and not just putting on church face?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48738,14 +48738,14 @@
   {
     "id": "b4-fs-1247",
     "topic": "Faith & Spirituality",
-    "format": "Scenario",
+    "format": "Question",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "Your best friend says the stars aligned for us tonight. What do you say back?",
+    "text": "Which wedding have you attended where you thought, \"I want this for myself\"?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48754,14 +48754,14 @@
   {
     "id": "b4-fs-1248",
     "topic": "Faith & Spirituality",
-    "format": "Question",
+    "format": "Story starter",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "Do you think we were meant to have this conversation?",
+    "text": "Tell me about the most dramatic spraying you've ever seen at an owambe.",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48777,7 +48777,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "What's a small ritual of yours that you'd let a crush in on?",
+    "text": "Would you come with me to a friend's traditional wedding if I asked?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48786,14 +48786,14 @@
   {
     "id": "b4-fs-1250",
     "topic": "Faith & Spirituality",
-    "format": "Story starter",
+    "format": "Question",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "Tell me about a time you felt butterflies somewhere completely unexpected.",
+    "text": "What's the sweetest prayer someone has ever prayed for you?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48802,14 +48802,14 @@
   {
     "id": "b4-fs-1251",
     "topic": "Faith & Spirituality",
-    "format": "Question",
+    "format": "Scenario",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "Is there someone whose patience and calm you find really attractive?",
+    "text": "Your best friend says you've been smiling at your phone since Friday prayers. What do you blame it on?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48825,7 +48825,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "Do you think good things come to people who wait, or to people who ask?",
+    "text": "Are you a front-row worshipper or a back-row observer?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48834,14 +48834,14 @@
   {
     "id": "b4-fs-1253",
     "topic": "Faith & Spirituality",
-    "format": "Scenario",
+    "format": "Question",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "I offer to walk you home after an evening service or event. Do you say yes?",
+    "text": "What's the most \"Nigerian mum\" thing your mum has said about your future spouse?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48850,14 +48850,14 @@
   {
     "id": "b4-fs-1254",
     "topic": "Faith & Spirituality",
-    "format": "Question",
+    "format": "Scenario",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "Have you ever had a crush on someone in a youth group, choir or class?",
+    "text": "I sit next to you at service and forgot my Bible. Do you share yours or tell me to use my phone?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48873,7 +48873,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "Dance at a festival or watch the lanterns together?",
+    "text": "Shy smile across the church or a bold hello after service?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48889,7 +48889,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "What's the best compliment you've had about your spirit, not your looks?",
+    "text": "What makes someone \"marriage material\" in a Nigerian home, in your opinion?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48905,7 +48905,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "Do you think a good laugh is a kind of blessing?",
+    "text": "Which festive season do you think is the best time to meet someone?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48921,7 +48921,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "Do you believe some people just bring out the light in you?",
+    "text": "Do you think we'd survive one of my family's very long prayer meetings together?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48937,7 +48937,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "We get seated together at a friend's wedding and don't know anyone else. How do you break the ice?",
+    "text": "An usher seats us together at crossover service. What do we do when the countdown starts?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48953,7 +48953,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "Would your family's matchmaker approve of me?",
+    "text": "Have you ever passed a note or sent a text to a crush during the khutbah or sermon?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48969,7 +48969,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "Do you find it attractive when someone is quietly confident about their values?",
+    "text": "Do you get shy around someone you like, or do you go straight to \"hello, my name is\"?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -48985,7 +48985,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "What's one wish you'd make if we threw coins into a fountain together?",
+    "text": "What would make you want to introduce me to your parents?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49001,7 +49001,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "Shared laughter at a serious event is a pretty good sign of chemistry.",
+    "text": "Someone who can laugh at themselves during a serious service is very attractive.",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49017,7 +49017,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "If you were writing your dream love story, where would the couple meet?",
+    "text": "Is there a fellowship or youth programme where everyone seems to find their partner?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49026,14 +49026,14 @@
   {
     "id": "b4-fs-1265",
     "topic": "Faith & Spirituality",
-    "format": "Question",
+    "format": "Quick choice",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "Do you get nervous around people you like, or does peace win out?",
+    "text": "Fast together during Lent or Ramadan, or break the fast together?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49042,14 +49042,14 @@
   {
     "id": "b4-fs-1266",
     "topic": "Faith & Spirituality",
-    "format": "Scenario",
+    "format": "Question",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "A wise elder hands us both a fortune cookie. What do you hope yours says?",
+    "text": "Has a prophet, aunty or friend ever told you \"this one is your mate\"?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49065,7 +49065,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "Which do you trust more when you like someone, your gut or your prayers?",
+    "text": "What's your favourite thing to eat after a long service?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49074,14 +49074,14 @@
   {
     "id": "b4-fs-1268",
     "topic": "Faith & Spirituality",
-    "format": "Question",
+    "format": "Scenario",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "What's a value that's an instant green flag for you?",
+    "text": "I offer to drop you home after vigil. Do you say yes or call your brother?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49097,7 +49097,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "Would you rather be complimented on your kindness or your smile?",
+    "text": "How do you feel about someone who sends Bible or Quran verses as good-morning texts?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49113,7 +49113,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "A picnic after a festival or tea after a quiet evening?",
+    "text": "Be prayed for by name or surprised with your favourite snack?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49129,7 +49129,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "Do you think I'm the answer to anything you've been asking for lately?",
+    "text": "Is there a love story in your family that still makes everyone smile?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49138,14 +49138,14 @@
   {
     "id": "b4-fs-1272",
     "topic": "Faith & Spirituality",
-    "format": "Question",
+    "format": "Story starter",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "What's your favourite way to show someone they're appreciated?",
+    "text": "Tell me about the first time you realised you liked someone at church or the mosque.",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49154,14 +49154,14 @@
   {
     "id": "b4-fs-1273",
     "topic": "Faith & Spirituality",
-    "format": "Scenario",
+    "format": "Question",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "We both make a wish at the same moment. Do we tell each other what it was?",
+    "text": "Do you think God has a sense of humour about who we meet?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49177,7 +49177,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "Is there a love story in your faith or culture that you find really romantic?",
+    "text": "What does \"God-fearing\" actually look like to you in a partner?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49186,14 +49186,14 @@
   {
     "id": "b4-fs-1275",
     "topic": "Faith & Spirituality",
-    "format": "Question",
+    "format": "Scenario",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "Have you ever felt drawn to someone and couldn't explain why?",
+    "text": "You see me dancing at a thanksgiving service. Do you join me or film me?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49202,14 +49202,14 @@
   {
     "id": "b4-fs-1276",
     "topic": "Faith & Spirituality",
-    "format": "Story starter",
+    "format": "Question",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "Tell me about the most memorable person you've met at a celebration.",
+    "text": "When you like someone, do you trust your instinct or your mum's opinion more?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49225,7 +49225,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "Do you think love is something you find or something you build?",
+    "text": "What's the most romantic part of a traditional wedding to you?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49234,14 +49234,14 @@
   {
     "id": "b4-fs-1278",
     "topic": "Faith & Spirituality",
-    "format": "Question",
+    "format": "Quick choice",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "What's a sweet thing someone could do that would melt your heart instantly?",
+    "text": "Owambe dance floor or a quiet chat outside the hall?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49250,14 +49250,14 @@
   {
     "id": "b4-fs-1279",
     "topic": "Faith & Spirituality",
-    "format": "Scenario",
+    "format": "Question",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "You're asked to read my palm. What do you pretend to see?",
+    "text": "Has your family ever tried to set you up with someone from your church or mosque?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49273,7 +49273,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "Would you rather share sunrise prayers, meditation or a quiet coffee with someone you like?",
+    "text": "What's the nicest compliment you've had about your character, not your looks?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49289,7 +49289,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "What does a genuinely romantic gesture look like to you?",
+    "text": "Would you come to a family thanksgiving service with me?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49298,14 +49298,14 @@
   {
     "id": "b4-fs-1282",
     "topic": "Faith & Spirituality",
-    "format": "Quick choice",
+    "format": "Scenario",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "A handwritten blessing or a bunch of flowers?",
+    "text": "An elder asks us both, \"are you two together?\" How do you answer?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49321,7 +49321,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "Do you think gratitude is attractive?",
+    "text": "Do you think how someone treats the gateman tells you who they really are?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49337,7 +49337,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "What's something you'd love to hear someone say about your heart?",
+    "text": "What gives you peace when you meet someone new?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49346,14 +49346,14 @@
   {
     "id": "b4-fs-1285",
     "topic": "Faith & Spirituality",
-    "format": "Scenario",
+    "format": "Hot take",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "I tell you I've been hoping to meet someone like you. How do you respond?",
+    "text": "Being introduced by a church or mosque friend beats meeting online.",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49369,7 +49369,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "Have you ever believed a dream was trying to tell you something about love?",
+    "text": "Are you more drawn to people who share your faith or people who respect it?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49385,7 +49385,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "Which festival do you think is the most romantic?",
+    "text": "What's your love language, and does it include cooking jollof?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49394,14 +49394,14 @@
   {
     "id": "b4-fs-1288",
     "topic": "Faith & Spirituality",
-    "format": "Question",
+    "format": "Quick choice",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "Are you the type to let fate decide, or do you make the first move?",
+    "text": "A Christmas date or a Sallah visit?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49410,14 +49410,14 @@
   {
     "id": "b4-fs-1289",
     "topic": "Faith & Spirituality",
-    "format": "Hot take",
+    "format": "Scenario",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "Being gentle with people is one of the most attractive things anyone can do.",
+    "text": "I bring you puff-puff from the stand outside the event. What do you say?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49433,7 +49433,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "What's the most beautiful place of worship or peaceful spot you'd show a date?",
+    "text": "What would you want someone to pray for you about right now?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49442,14 +49442,14 @@
   {
     "id": "b4-fs-1291",
     "topic": "Faith & Spirituality",
-    "format": "Question",
+    "format": "Story starter",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "Do you think we'd make a good team at a community cook-out?",
+    "text": "Tell me about a wedding where someone caught your eye during the first dance.",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49458,14 +49458,14 @@
   {
     "id": "b4-fs-1292",
     "topic": "Faith & Spirituality",
-    "format": "Scenario",
+    "format": "Question",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "A friend jokes that we look like we were matched by destiny. Do you play along?",
+    "text": "Would you rather be complimented on your gele or agbada, or on your smile?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49474,14 +49474,14 @@
   {
     "id": "b4-fs-1293",
     "topic": "Faith & Spirituality",
-    "format": "Question",
+    "format": "Quick choice",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "What's something about you that people only discover once they get close?",
+    "text": "A walk after Sunday service or suya after Friday prayers?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49497,7 +49497,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "Would you rather get a love note on a festival card or a voice message?",
+    "text": "Do you believe some meetings are divine appointments?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49506,14 +49506,14 @@
   {
     "id": "b4-fs-1295",
     "topic": "Faith & Spirituality",
-    "format": "Quick choice",
+    "format": "Question",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "Lantern-lit evening walk or a morning by the water?",
+    "text": "If this meeting was a divine appointment, what do you think the assignment is?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49529,7 +49529,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "If our meeting was a sign, what do you think it means?",
+    "text": "What would your siblings say if they saw you talking to me?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49545,7 +49545,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "What kind of energy do you hope someone brings into your life?",
+    "text": "Do you think we'd make a good team on a friend's wedding planning committee?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49554,14 +49554,14 @@
   {
     "id": "b4-fs-1298",
     "topic": "Faith & Spirituality",
-    "format": "Question",
+    "format": "Scenario",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "Would you let me buy you something sweet from the festival stalls?",
+    "text": "We both stop to help an elderly woman carry her bag after service. What do we say to each other afterwards?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49577,7 +49577,7 @@
     "audiences": [
       "Someone new"
     ],
-    "text": "Do you feel like this conversation was worth getting dressed up for?",
+    "text": "What's something people only learn about you after they've known you a while?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49586,14 +49586,14 @@
   {
     "id": "b4-fs-1300",
     "topic": "Faith & Spirituality",
-    "format": "Scenario",
+    "format": "Question",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Someone new"
     ],
-    "text": "We both stop to help the same elder carry their things after an event. What do we say to each other afterwards?",
+    "text": "Would your aunties say I look like someone who comes to service on time?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49609,7 +49609,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "Who in our group would fall for someone at a wedding first?",
+    "text": "Who among us will marry someone from our church or mosque first?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49625,7 +49625,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "Which of us is most likely to meet our future partner at a place of worship?",
+    "text": "Which of us has the most obvious fellowship crush?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49641,7 +49641,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "An auntie wants to set one of us up at the next celebration. Who do we volunteer?",
+    "text": "An aunty corners one of us at a wedding and says, \"when are we coming for your own?\" Who is it?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49657,7 +49657,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "Who has the most obvious crush at our community events?",
+    "text": "Who here has said \"I'm praying about it\" just to avoid saying no?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49673,7 +49673,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "Meet your future partner in the choir or at the community cook-out?",
+    "text": "Find your partner at campus fellowship or at an owambe?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49689,7 +49689,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "Which of us gets the most attention at a festival?",
+    "text": "Which of us would try to toast someone during praise and worship?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49705,7 +49705,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "Who would be the most nervous meeting a crush's very religious family?",
+    "text": "Whose mum has the strongest prayers for their future spouse?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49721,7 +49721,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "Tell me about the time one of us got caught staring at someone during a ceremony.",
+    "text": "Tell me about the time one of us got caught looking at someone during the sermon.",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49737,7 +49737,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "Which of us believes most in signs from the universe about love?",
+    "text": "Which of us goes to vigil for the prayers and which of us goes for the crush?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49753,7 +49753,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "One of us has a crush in the choir or youth group. How do we help without making it awkward?",
+    "text": "One of us likes someone in the choir. How do we arrange a \"coincidental\" meeting?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49769,7 +49769,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "Who here would actually ask their horoscope before saying yes to a date?",
+    "text": "Who would be most nervous meeting a crush's strict church parents?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49785,7 +49785,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "Which of us dresses up the most when we know a crush will be at an event?",
+    "text": "Which of us dresses up extra for service when a crush will be there?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49801,7 +49801,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "Be set up by your mum or by your best friend?",
+    "text": "Be set up by your mum or by your pastor or imam?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49817,7 +49817,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "Who in our group would write the most heartfelt wedding vows?",
+    "text": "Which of us will have the biggest owambe?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49833,7 +49833,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "Whose love story would make the best story at a family gathering?",
+    "text": "Whose love story will be told at every family gathering?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49849,7 +49849,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "Weddings are secretly the best place to meet someone.",
+    "text": "Weddings are the best place to find your own spouse.",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49858,14 +49858,14 @@
   {
     "id": "b4-fs-1317",
     "topic": "Faith & Spirituality",
-    "format": "Question",
+    "format": "Scenario",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Friends"
     ],
-    "text": "Which of us is most likely to say we're praying about a date when we just want to say no?",
+    "text": "We're at a friend's wedding and the DJ plays a slow Afrobeats song. Who gets asked to dance first?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49874,14 +49874,14 @@
   {
     "id": "b4-fs-1318",
     "topic": "Faith & Spirituality",
-    "format": "Scenario",
+    "format": "Question",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Friends"
     ],
-    "text": "We're all at a friend's wedding and the DJ plays a slow song. Who gets asked to dance first?",
+    "text": "Who among us would fall for someone just because they greet elders well?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49897,7 +49897,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "Who among us would fall for someone because of how kind they are to elders?",
+    "text": "Which of us would date someone from a different religion and handle the family drama?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49913,7 +49913,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "Which of us would date someone from a different faith or background without blinking?",
+    "text": "Whose crush looks the most \"God-fearing\" on paper?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49922,14 +49922,14 @@
   {
     "id": "b4-fs-1321",
     "topic": "Faith & Spirituality",
-    "format": "Question",
+    "format": "Quick choice",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Friends"
     ],
-    "text": "Who in our group is the hopeless romantic about destiny and soulmates?",
+    "text": "Date a choir member or the church drummer?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49938,14 +49938,14 @@
   {
     "id": "b4-fs-1322",
     "topic": "Faith & Spirituality",
-    "format": "Quick choice",
+    "format": "Question",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Friends"
     ],
-    "text": "Fall for someone with a calm spirit or someone who makes you laugh?",
+    "text": "Which of us gets asked \"where is your husband?\" or \"where is your wife?\" most at family events?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49954,14 +49954,14 @@
   {
     "id": "b4-fs-1323",
     "topic": "Faith & Spirituality",
-    "format": "Question",
+    "format": "Scenario",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Friends"
     ],
-    "text": "Whose crush has the best values, in your opinion?",
+    "text": "A prophet at a crusade says one of us will meet their spouse this year. Who do we all look at?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49970,14 +49970,14 @@
   {
     "id": "b4-fs-1324",
     "topic": "Faith & Spirituality",
-    "format": "Scenario",
+    "format": "Question",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Friends"
     ],
-    "text": "One of us gets a fortune reading that says love is coming this month. Who do we guess it is?",
+    "text": "Who would be the best wingman at a church harvest or bazaar?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -49986,14 +49986,14 @@
   {
     "id": "b4-fs-1325",
     "topic": "Faith & Spirituality",
-    "format": "Question",
+    "format": "Story starter",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Friends"
     ],
-    "text": "Which of us has been asked about our love life most at family celebrations?",
+    "text": "Tell me about the boldest thing one of us has done to get a crush's number after service.",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50009,7 +50009,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "Who would be the best wingman at a festival?",
+    "text": "Who here has had a crush on someone they met at camp?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50018,14 +50018,14 @@
   {
     "id": "b4-fs-1327",
     "topic": "Faith & Spirituality",
-    "format": "Story starter",
+    "format": "Question",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Friends"
     ],
-    "text": "Tell me about the cheekiest thing you've seen one of us do to get a crush's attention.",
+    "text": "Which of us is most likely to marry someone our parents introduced?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50034,14 +50034,14 @@
   {
     "id": "b4-fs-1328",
     "topic": "Faith & Spirituality",
-    "format": "Question",
+    "format": "Scenario",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Friends"
     ],
-    "text": "Which of us has had a crush on someone we met at a retreat or camp?",
+    "text": "We're playing matchmaker at the next wedding. Who do you pair me with?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50057,7 +50057,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "Who here is most likely to marry the person their family suggested?",
+    "text": "Whose charm would win over a crush's grandmother in the village?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50066,14 +50066,14 @@
   {
     "id": "b4-fs-1330",
     "topic": "Faith & Spirituality",
-    "format": "Scenario",
+    "format": "Quick choice",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Friends"
     ],
-    "text": "We're playing matchmaker at a community event. Who do you pair me with?",
+    "text": "Have your relationship prayed over by your mum or blessed by your grandmother?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50089,7 +50089,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "Who here would charm a date's grandparents in under five minutes?",
+    "text": "Who lights up the most when their crush walks into fellowship?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50098,14 +50098,14 @@
   {
     "id": "b4-fs-1332",
     "topic": "Faith & Spirituality",
-    "format": "Quick choice",
+    "format": "Question",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Friends"
     ],
-    "text": "Have your love life prayed over or read in the stars?",
+    "text": "Which of us sprays the most money when a crush is watching?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50114,14 +50114,14 @@
   {
     "id": "b4-fs-1333",
     "topic": "Faith & Spirituality",
-    "format": "Question",
+    "format": "Hot take",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Friends"
     ],
-    "text": "Who in our group lights up the most when their crush walks in?",
+    "text": "The person who stays back to clean up after the event is always the catch.",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50137,7 +50137,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "Which of us is the biggest flirt at weddings?",
+    "text": "Who among us will do the most dramatic proposal?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50146,14 +50146,14 @@
   {
     "id": "b4-fs-1335",
     "topic": "Faith & Spirituality",
-    "format": "Hot take",
+    "format": "Scenario",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Friends"
     ],
-    "text": "The person who helps clean up after a celebration is always the catch.",
+    "text": "One of us is too shy to talk to someone at a wedding. What's our plan?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50169,7 +50169,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "Which of us would ask for the family's blessing before proposing?",
+    "text": "Who here believes their spouse will come through a prophecy or a dream?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50178,14 +50178,14 @@
   {
     "id": "b4-fs-1337",
     "topic": "Faith & Spirituality",
-    "format": "Scenario",
+    "format": "Question",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Friends"
     ],
-    "text": "One of us is too shy to talk to someone at a festival. What's our plan?",
+    "text": "Which of us gets the most \"my daughter\" or \"my son\" compliments from aunties?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50201,7 +50201,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "Who here believes their future partner will be a sign from above?",
+    "text": "Whose list of requirements for a spouse is the longest?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50210,14 +50210,14 @@
   {
     "id": "b4-fs-1339",
     "topic": "Faith & Spirituality",
-    "format": "Question",
+    "format": "Quick choice",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Friends"
     ],
-    "text": "Which of us gets the most blushing compliments from elders?",
+    "text": "Blind date set up by your pastor's wife or by a dating app?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50233,7 +50233,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "Whose dating standards are the highest?",
+    "text": "Which of us has the best toasting line that would still pass in church?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50242,14 +50242,14 @@
   {
     "id": "b4-fs-1341",
     "topic": "Faith & Spirituality",
-    "format": "Quick choice",
+    "format": "Question",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Friends"
     ],
-    "text": "Blind date arranged by a religious leader or by a dating app?",
+    "text": "Who would fall for someone at an outreach or charity event?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50258,14 +50258,14 @@
   {
     "id": "b4-fs-1342",
     "topic": "Faith & Spirituality",
-    "format": "Question",
+    "format": "Story starter",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Friends"
     ],
-    "text": "Which of us has the best chat-up line that's also respectful?",
+    "text": "Tell me about a time someone tried to set one of us up at a family function and it went wrong.",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50281,7 +50281,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "Who among us would be most likely to fall for someone at a charity event?",
+    "text": "Who will be the first to bring someone home for Christmas or Sallah?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50290,14 +50290,14 @@
   {
     "id": "b4-fs-1344",
     "topic": "Faith & Spirituality",
-    "format": "Story starter",
+    "format": "Scenario",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Friends"
     ],
-    "text": "Tell me about a time one of us got matched up at a family event and it went hilariously wrong.",
+    "text": "We dare each other to greet a crush after Jumu'ah or Sunday service. Who actually does it?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50313,7 +50313,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "Who would bring a date to a big festival celebration first?",
+    "text": "Which of us has had a prophet, aunty or friend predict their love life?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50322,14 +50322,14 @@
   {
     "id": "b4-fs-1346",
     "topic": "Faith & Spirituality",
-    "format": "Scenario",
+    "format": "Question",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Friends"
     ],
-    "text": "We dare each other to compliment a crush at the next gathering. Who actually does it?",
+    "text": "Who sends the sweetest Christmas or Eid messages to a crush?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50345,7 +50345,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "Which of us has had our love life predicted by a fortune teller, palm reader or auntie?",
+    "text": "Which of us would call their crush \"an answer to prayer\"?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50354,14 +50354,14 @@
   {
     "id": "b4-fs-1348",
     "topic": "Faith & Spirituality",
-    "format": "Question",
+    "format": "Quick choice",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Friends"
     ],
-    "text": "Who in our group is most likely to send flirty festival greetings?",
+    "text": "Get serenaded at your reception or find a love note in your Bible?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50370,14 +50370,14 @@
   {
     "id": "b4-fs-1349",
     "topic": "Faith & Spirituality",
-    "format": "Question",
+    "format": "Story starter",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Friends"
     ],
-    "text": "Which of us would say our crush is the answer to our prayers?",
+    "text": "Tell me about the most unexpected December wedding-season romance in our circle.",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50386,14 +50386,14 @@
   {
     "id": "b4-fs-1350",
     "topic": "Faith & Spirituality",
-    "format": "Quick choice",
+    "format": "Hot take",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Friends"
     ],
-    "text": "Get serenaded at a wedding or receive a sweet note at a festival?",
+    "text": "Falling in love in December doesn't count because everyone is soft at owambes.",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50402,14 +50402,14 @@
   {
     "id": "b4-fs-1351",
     "topic": "Faith & Spirituality",
-    "format": "Story starter",
+    "format": "Question",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Friends"
     ],
-    "text": "Tell me about the most unexpected festival-season romance in our circle.",
+    "text": "Which of us would be most dramatic if a crush didn't reply after a wedding?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50418,14 +50418,14 @@
   {
     "id": "b4-fs-1352",
     "topic": "Faith & Spirituality",
-    "format": "Hot take",
+    "format": "Scenario",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Friends"
     ],
-    "text": "A shared faith or shared values beats shared hobbies in a relationship.",
+    "text": "An elder asks which of us is next to marry. Who do we all point at?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50441,7 +50441,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "Which of us would be the most dramatic about a crush not texting back after a celebration?",
+    "text": "Whose jollof is most likely to impress a crush's parents?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50450,14 +50450,14 @@
   {
     "id": "b4-fs-1354",
     "topic": "Faith & Spirituality",
-    "format": "Scenario",
+    "format": "Question",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Friends"
     ],
-    "text": "An elder asks which of us is next to get married. Who do we all point at?",
+    "text": "Whose toasting style is the most old school?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50473,7 +50473,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "Whose festival cooking is most likely to win someone's heart?",
+    "text": "Who here would fall for someone just because they lead praise and worship well?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50482,14 +50482,14 @@
   {
     "id": "b4-fs-1356",
     "topic": "Faith & Spirituality",
-    "format": "Question",
+    "format": "Quick choice",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Friends"
     ],
-    "text": "Whose flirting style is the most old-fashioned?",
+    "text": "Fall in love at youth camp or at a cousin's wedding?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50505,7 +50505,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "Who here would fall for someone just because they sing beautifully in a choir?",
+    "text": "Which of us has the cutest crush right now?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50514,14 +50514,14 @@
   {
     "id": "b4-fs-1358",
     "topic": "Faith & Spirituality",
-    "format": "Quick choice",
+    "format": "Question",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Friends"
     ],
-    "text": "Fall in love at a festival or on a pilgrimage?",
+    "text": "Who would do best at an introduction with a very strict father?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50530,14 +50530,14 @@
   {
     "id": "b4-fs-1359",
     "topic": "Faith & Spirituality",
-    "format": "Question",
+    "format": "Scenario",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Friends"
     ],
-    "text": "Which of us has the most adorable crush right now?",
+    "text": "One of us finds a note in their hymn book that says \"you look nice today\". Who do we suspect?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50553,7 +50553,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "Who in our group would be the best at charming a date's religious parents?",
+    "text": "Which of us needs a sign from God before agreeing to a date?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50562,14 +50562,14 @@
   {
     "id": "b4-fs-1361",
     "topic": "Faith & Spirituality",
-    "format": "Scenario",
+    "format": "Story starter",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Friends"
     ],
-    "text": "One of us gets a love letter tucked into their festival card. Who do we suspect sent it?",
+    "text": "Tell me about the cutest couple we've seen at a wedding together.",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50585,7 +50585,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "Which of us would agree to a date only after asking for a sign?",
+    "text": "Who will meet their spouse while ushering at someone else's wedding?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50594,14 +50594,14 @@
   {
     "id": "b4-fs-1363",
     "topic": "Faith & Spirituality",
-    "format": "Story starter",
+    "format": "Question",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Friends"
     ],
-    "text": "Tell me about the cutest couple we've seen at a celebration together.",
+    "text": "Whose love language is cooking for people?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50610,14 +50610,14 @@
   {
     "id": "b4-fs-1364",
     "topic": "Faith & Spirituality",
-    "format": "Question",
+    "format": "Quick choice",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Friends"
     ],
-    "text": "Who among us is most likely to meet someone at a friend's naming ceremony or christening?",
+    "text": "Date someone who prays loudly in tongues or someone who prays quietly?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50633,7 +50633,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "Whose love language is most likely to be acts of service?",
+    "text": "Which of us blushes most when someone mentions our crush?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50642,14 +50642,14 @@
   {
     "id": "b4-fs-1366",
     "topic": "Faith & Spirituality",
-    "format": "Quick choice",
+    "format": "Scenario",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Friends"
     ],
-    "text": "Date someone who prays loudly or someone who meditates quietly?",
+    "text": "At youth camp, one of us keeps sitting next to the same person every evening. Who is it?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50665,7 +50665,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "Which of us blushes the most when someone mentions our crush?",
+    "text": "Which of us would only say yes to a date after asking their mum?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50673,38 +50673,6 @@
   },
   {
     "id": "b4-fs-1368",
-    "topic": "Faith & Spirituality",
-    "format": "Scenario",
-    "moods": [
-      "Flirty"
-    ],
-    "audiences": [
-      "Friends"
-    ],
-    "text": "We're all at a retreat and one of us keeps sitting next to the same person. Who is it?",
-    "angles": [],
-    "adult": false,
-    "source": "batch4-editorial",
-    "editorialStatus": "approved"
-  },
-  {
-    "id": "b4-fs-1369",
-    "topic": "Faith & Spirituality",
-    "format": "Question",
-    "moods": [
-      "Flirty"
-    ],
-    "audiences": [
-      "Friends"
-    ],
-    "text": "Which of us is most likely to marry someone we met through our faith community?",
-    "angles": [],
-    "adult": false,
-    "source": "batch4-editorial",
-    "editorialStatus": "approved"
-  },
-  {
-    "id": "b4-fs-1370",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -50720,7 +50688,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1371",
+    "id": "b4-fs-1369",
     "topic": "Faith & Spirituality",
     "format": "Hot take",
     "moods": [
@@ -50736,7 +50704,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1372",
+    "id": "b4-fs-1370",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -50745,7 +50713,39 @@
     "audiences": [
       "Friends"
     ],
-    "text": "Who among us would happily wear matching festival outfits with a partner?",
+    "text": "Which of us would wear matching aso ebi with a partner to every event?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1371",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Who has the most dramatic dream wedding?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1372",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Someone asks one of us for their number after Friday prayers. How does that person react?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50761,7 +50761,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "Who has the most romantic idea of a wedding?",
+    "text": "Which of us would fall hardest for someone patient and kind?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50770,14 +50770,14 @@
   {
     "id": "b4-fs-1374",
     "topic": "Faith & Spirituality",
-    "format": "Scenario",
+    "format": "Quick choice",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Friends"
     ],
-    "text": "Someone asks one of us for our number after a service or event. How does that person react?",
+    "text": "Meet your spouse through a friend or through divine connection?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50793,7 +50793,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "Which of us would fall hardest for someone with a gentle, generous spirit?",
+    "text": "Who has the most aunties trying to set them up?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50802,14 +50802,14 @@
   {
     "id": "b4-fs-1376",
     "topic": "Faith & Spirituality",
-    "format": "Quick choice",
+    "format": "Question",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Friends"
     ],
-    "text": "Meet the one through a friend or through fate?",
+    "text": "Which of us would be most nervous asking someone out at a church event?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50818,14 +50818,14 @@
   {
     "id": "b4-fs-1377",
     "topic": "Faith & Spirituality",
-    "format": "Question",
+    "format": "Story starter",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Friends"
     ],
-    "text": "Who among us has the most aunties trying to set them up?",
+    "text": "Tell me about the wedding where one of us actually met someone.",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50841,7 +50841,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "Which of us would be the most nervous asking someone out after a ceremony?",
+    "text": "Who believes their dream about someone was a sign?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50850,14 +50850,14 @@
   {
     "id": "b4-fs-1379",
     "topic": "Faith & Spirituality",
-    "format": "Story starter",
+    "format": "Scenario",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Friends"
     ],
-    "text": "Tell me about the best wedding where one of us met someone new.",
+    "text": "One of us is crushing on someone from the media team. How do we make them meet?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50873,7 +50873,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "Who in our group is most likely to believe their dream about someone was a sign?",
+    "text": "Whose future spouse would fit in best with our crew?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50882,14 +50882,14 @@
   {
     "id": "b4-fs-1381",
     "topic": "Faith & Spirituality",
-    "format": "Scenario",
+    "format": "Quick choice",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Friends"
     ],
-    "text": "One of us is crushing on a festival volunteer. How do we arrange for them to meet?",
+    "text": "Fall for the person serving food or the person on the decoration committee?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50905,7 +50905,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "Which of us keeps it the most respectful when flirting at a community event?",
+    "text": "Who would give the sweetest best man or chief bridesmaid speech?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50921,7 +50921,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "Whose partner, current or future, would fit in best at our celebrations?",
+    "text": "Who gets the most compliments at Sunday service or Friday prayers?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50930,14 +50930,14 @@
   {
     "id": "b4-fs-1384",
     "topic": "Faith & Spirituality",
-    "format": "Quick choice",
+    "format": "Hot take",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Friends"
     ],
-    "text": "Fall for someone who cooks festival food or someone who decorates for it?",
+    "text": "How someone behaves at an owambe tells you everything.",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50953,7 +50953,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "Which of us would make the sweetest wedding toast about a friend's partner?",
+    "text": "Which of us is secretly the most romantic?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50962,14 +50962,14 @@
   {
     "id": "b4-fs-1386",
     "topic": "Faith & Spirituality",
-    "format": "Question",
+    "format": "Scenario",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Friends"
     ],
-    "text": "Who here gets the most compliments at religious celebrations?",
+    "text": "We each write a \"marriage profile\" for the person on our left, the way an aunty would. What do you write?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -50978,14 +50978,14 @@
   {
     "id": "b4-fs-1387",
     "topic": "Faith & Spirituality",
-    "format": "Hot take",
+    "format": "Question",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Friends"
     ],
-    "text": "Seeing how someone treats people at a celebration tells you everything.",
+    "text": "Who would keep a crush secret until the wedding invitation drops?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51001,7 +51001,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "Which of us is secretly the most romantic despite pretending not to be?",
+    "text": "Which of us will have a love story that starts at a vigil?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51010,14 +51010,14 @@
   {
     "id": "b4-fs-1389",
     "topic": "Faith & Spirituality",
-    "format": "Scenario",
+    "format": "Question",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Friends"
     ],
-    "text": "We each have to write a matchmaking profile for the person on our left. What do you write?",
+    "text": "Who would fall for someone because they're good with the Sunday school children?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51026,14 +51026,14 @@
   {
     "id": "b4-fs-1390",
     "topic": "Faith & Spirituality",
-    "format": "Question",
+    "format": "Quick choice",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Friends"
     ],
-    "text": "Who among us would keep a crush secret until the last day of a festival?",
+    "text": "Be matched by your grandmother or by your pastor's wife?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51049,7 +51049,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "Which of us is most likely to have a love story that starts with a blessing?",
+    "text": "Which of us flirts best with just a smile across the church?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51058,14 +51058,14 @@
   {
     "id": "b4-fs-1392",
     "topic": "Faith & Spirituality",
-    "format": "Question",
+    "format": "Scenario",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Friends"
     ],
-    "text": "Who in our group would fall for someone because they're patient with kids at events?",
+    "text": "Our friend's crush is standing by the small chops table at a wedding. Who goes over first?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51074,14 +51074,14 @@
   {
     "id": "b4-fs-1393",
     "topic": "Faith & Spirituality",
-    "format": "Quick choice",
+    "format": "Question",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Friends"
     ],
-    "text": "Be matched by astrology or by your grandmother?",
+    "text": "Who would fast and pray for a crush to notice them?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51097,7 +51097,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "Which of us flirts best with just a smile?",
+    "text": "Which of us will be the love-advice aunty or uncle someday?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51106,14 +51106,14 @@
   {
     "id": "b4-fs-1395",
     "topic": "Faith & Spirituality",
-    "format": "Scenario",
+    "format": "Question",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Friends"
     ],
-    "text": "Our friend's crush is standing by the food table at a celebration. Who goes over first?",
+    "text": "Whose crush would get the family seal of approval fastest?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51129,7 +51129,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "Who here would light a candle or say a prayer for a crush to notice them?",
+    "text": "Who here has written \"future husband\" or \"future wife\" in their prayer journal?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51145,7 +51145,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "Who's going to be the love-advice auntie or uncle of the group someday?",
+    "text": "Which of us will have the longest introduction list from the in-laws?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51154,14 +51154,14 @@
   {
     "id": "b4-fs-1398",
     "topic": "Faith & Spirituality",
-    "format": "Question",
+    "format": "Scenario",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Friends"
     ],
-    "text": "Whose crush do you think would get the family seal of approval?",
+    "text": "One of us gets a \"Happy Sunday\" text from a crush every week. Who is it?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51170,14 +51170,14 @@
   {
     "id": "b4-fs-1399",
     "topic": "Faith & Spirituality",
-    "format": "Scenario",
+    "format": "Question",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Friends"
     ],
-    "text": "A friend's wedding seating chart puts one of us next to their crush. Who do we hope it is?",
+    "text": "Who among us would send a Bible or Quran verse as a flirty text?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51193,7 +51193,7 @@
     "audiences": [
       "Friends"
     ],
-    "text": "Whose first move would be a quick prayer before texting a crush?",
+    "text": "Who talks to elders the most respectfully when a crush's parents are around?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51209,7 +51209,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "Do you ever feel like I was the answer to something you hoped for?",
+    "text": "Do you ever feel like I was the answer to your mum's prayers?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51241,7 +51241,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "We're at a friend's wedding and they read vows that sound like us. What do you whisper to me?",
+    "text": "We're at a friend's wedding and the couple's vows sound like us. What do you whisper to me?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51257,7 +51257,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "When did you first think we were meant to be?",
+    "text": "When did you first think, \"this one is from God\"?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51273,7 +51273,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "Renew our promises at sunrise or under the stars?",
+    "text": "Renew our vows in church or at a small family thanksgiving?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51289,7 +51289,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "What's your favourite thing about seeing me at a celebration?",
+    "text": "What do you love about seeing me dressed up for Sunday service or Jumu'ah?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51305,7 +51305,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "Tell me about a day you felt thankful for me before I'd even said a word.",
+    "text": "Tell me about the first time you prayed for me by name.",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51321,7 +51321,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "Do you think the universe had a hand in bringing us together?",
+    "text": "Do you think God was setting us up long before we met?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51337,7 +51337,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "Which colour do you love seeing me wear to celebrations?",
+    "text": "Which of my aso ebi looks do you secretly love the most?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51353,7 +51353,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "We sneak away from a big family celebration for five quiet minutes. What do you say to me?",
+    "text": "We sneak out of a long family thanksgiving for five minutes. What do you say to me?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51369,7 +51369,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "What would you want our first home to be blessed with?",
+    "text": "What would you want our first home to be dedicated with?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51385,7 +51385,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "Which new festival ritual should become just ours?",
+    "text": "Which tradition would you love us to start at Christmas or Sallah?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51401,7 +51401,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "Praying, meditating or reflecting together is one of the most intimate things a couple can do.",
+    "text": "Praying together is one of the most romantic things a couple can do.",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51417,7 +51417,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "Do you still get butterflies when you see me dressed up for an occasion?",
+    "text": "Do you still get butterflies when you see me in native?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51433,7 +51433,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "Hold hands during a candle ceremony or dance at the end of a festival?",
+    "text": "Dance together at the next owambe or slow-dance at home?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51449,7 +51449,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "What do you thank the heavens for when you think of me?",
+    "text": "What do you thank God for when you think of me?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51465,7 +51465,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "An elder at a celebration says we glow when we're together. How do you respond?",
+    "text": "An aunty at a wedding says we look like the next couple to marry. How do you respond?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51481,7 +51481,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "What's the sweetest thing you've ever wished for us?",
+    "text": "What's the sweetest prayer you've ever said for us?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51513,7 +51513,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "Which of our shared traditions would you miss most if we skipped it?",
+    "text": "Which of our family traditions would you fight to keep when we have our own home?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51529,7 +51529,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "Tell me about the moment you knew you wanted me by your side at every celebration.",
+    "text": "Tell me about the moment you knew you wanted to bring me home to your parents.",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51538,14 +51538,14 @@
   {
     "id": "b4-fs-1422",
     "topic": "Faith & Spirituality",
-    "format": "Question",
+    "format": "Scenario",
     "moods": [
       "Flirty"
     ],
     "audiences": [
       "Partner"
     ],
-    "text": "What would you say if you had to describe our love to a wise elder?",
+    "text": "Your grandmother asks me what I like about you, in front of everyone. What do you hope I say?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51561,7 +51561,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "Light a lantern together or plant a tree together for our anniversary?",
+    "text": "Matching aso ebi for every wedding or surprise each other with our outfits?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51577,7 +51577,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "How do you like me to show you love on a quiet, reflective day?",
+    "text": "How do you like me to love you during a fasting season?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51593,7 +51593,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "We're on a peaceful retreat with no phones. How do you get my attention?",
+    "text": "We're walking home after a long night vigil and we're both tired. How do you make me smile?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51609,7 +51609,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "Which part of our wedding, real or dreamed, makes you smile the most?",
+    "text": "Which part of our wedding, real or dreamed, makes you smile most?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51625,7 +51625,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "Do you believe we're soulmates, or that we choose each other every day?",
+    "text": "Do you believe we were destined, or that we choose each other every day?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51641,7 +51641,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "Being blessed by both our families feels like the most romantic thing.",
+    "text": "Getting both families' blessing is the most romantic thing.",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51657,7 +51657,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "What's the most attractive thing about how I live out my values?",
+    "text": "What's the most attractive thing about how I live out my faith?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51673,7 +51673,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "Where would you take me if you wanted us both to slow down and breathe?",
+    "text": "Where would you take me if you wanted us both to rest and reset?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51689,7 +51689,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "Our song plays at a friend's wedding and the whole room watches us dance. What do you do?",
+    "text": "Our song plays at a friend's reception and everyone watches us dance. What do you do?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51705,7 +51705,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "What would you want our love story to teach our future children, if we have them?",
+    "text": "What do you want our love story to teach our children someday, if we have them?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51721,7 +51721,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "Spend a festival morning cooking together or an evening at the celebrations?",
+    "text": "Cook Christmas rice together or go visiting family together?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51737,7 +51737,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "What do you love about watching me take part in a tradition I care about?",
+    "text": "What do you love about watching me worship?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51753,7 +51753,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "Which couple from scripture, legend or folklore do you think we're most like?",
+    "text": "Which couple in the Bible or Quran do you think we're most like?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51769,7 +51769,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "Tell me about a celebration where you couldn't stop looking at me.",
+    "text": "Tell me about an owambe where you couldn't stop looking at me.",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51785,7 +51785,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "If we went on a pilgrimage or retreat together, where would you want us to go?",
+    "text": "If we travelled together for a convention, camp meeting or Umrah, what would you look forward to most?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51801,7 +51801,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "I leave a little blessing note under your pillow. What does it say?",
+    "text": "I leave a prayer note in your bag before you travel. What does it say?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51833,7 +51833,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "What's the most romantic prayer, wish or intention you've ever had for us?",
+    "text": "What's the most romantic thing you've ever asked God for about us?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51849,7 +51849,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "Couples who laugh during ceremonies are the happiest couples.",
+    "text": "Couples who laugh during long services are the happiest couples.",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51865,7 +51865,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "Which of our rituals do you never want us to stop doing?",
+    "text": "Which of our little rituals do you never want us to stop?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51881,7 +51881,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "Say grace or a thank-you together, or share a quiet moment of silence?",
+    "text": "Pray together before bed or share devotion in the morning?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51897,7 +51897,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "What's something I do at family celebrations that makes you fall for me again?",
+    "text": "What do I do at family functions that makes you fall for me again?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51913,7 +51913,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "We get to plan a whole festival day just for the two of us. What's on the schedule?",
+    "text": "We get a whole December day to ourselves with no family events. What do we do?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51929,7 +51929,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "What do you hope people feel when they see us together at a gathering?",
+    "text": "What do you hope people say when they see us at a wedding?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51945,7 +51945,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "Do you think our love grows on the quiet days or the big occasions?",
+    "text": "Does our love grow more on quiet Sundays or on big celebration days?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -51977,7 +51977,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "What would you light a candle for if it was just for us?",
+    "text": "What would you want us to give thanks for at our next thanksgiving service?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -52009,7 +52009,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "You get to bless our relationship with one wish that comes true. What is it?",
+    "text": "You get to pray one prayer over our relationship and it's answered immediately. What is it?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -52041,7 +52041,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "A rooftop at night counting stars or a beach at dawn?",
+    "text": "Suya on a rooftop at night or a Lagos beach at sunrise?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -52057,7 +52057,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "What part of your spiritual life would you love to share more of with me?",
+    "text": "What part of your faith would you love to share more with me?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -52073,7 +52073,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "What's the cutest thing I've ever said during a serious ceremony?",
+    "text": "What's the funniest thing I've whispered to you during a sermon?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -52089,7 +52089,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "The most romantic gestures are the ones done quietly.",
+    "text": "The most romantic gestures are the quiet ones.",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -52105,7 +52105,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "How do you want us to celebrate our anniversary in a meaningful way?",
+    "text": "How should we celebrate our anniversary in a way that means something?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -52121,7 +52121,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "It's the end of a long festival and we're finally alone. What's the first thing you say?",
+    "text": "It's the end of a long wedding and we're finally in the car alone. What's the first thing you say?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -52137,7 +52137,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "Which elder's love story would you most like ours to resemble?",
+    "text": "Which elder's love story would you most like ours to look like?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -52153,7 +52153,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "Which ordinary moment with me would you call a small blessing?",
+    "text": "Which ordinary day with me would you call a small blessing?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -52169,7 +52169,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "Dance at our wedding first or share our first meal as a couple?",
+    "text": "Dance first at our reception or share our first meal as husband and wife?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -52185,7 +52185,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "What do you find most attractive about my faith, or my way of finding meaning?",
+    "text": "What do you find most attractive about the way I pray?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -52201,7 +52201,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "Tell me about a time I made a family tradition feel brand new for you.",
+    "text": "Tell me about a time I made a family event feel brand new for you.",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -52233,7 +52233,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "We're asked to share our love story at a community event. How do you tell it?",
+    "text": "We're asked to share our love story at church or at a family meeting. How do you tell it?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -52249,7 +52249,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "What's a promise you'd happily make to me every single morning?",
+    "text": "What's a promise you'd happily make to me every morning?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -52265,7 +52265,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "How do you feel when we pray, reflect or sit in silence side by side?",
+    "text": "How do you feel when we pray side by side?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -52281,7 +52281,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "A partner who celebrates your traditions is a partner worth keeping.",
+    "text": "A partner who respects your parents is a partner worth keeping.",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -52297,7 +52297,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "Which festival do you most look forward to spending with me?",
+    "text": "Which festive season do you most look forward to spending with me?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -52313,7 +52313,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "Wear matching colours to a celebration or surprise each other with our outfits?",
+    "text": "Wear the same colour to service every week or match only on special days?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -52345,7 +52345,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "You catch me smiling at you across a crowded celebration. What do you do?",
+    "text": "You catch me smiling at you across a crowded hall. What do you do?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -52393,7 +52393,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "Tell me about a moment I made a crowded celebration feel like just the two of us.",
+    "text": "Tell me about a moment I made a crowded event feel like just the two of us.",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -52409,7 +52409,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "How would you like us to welcome each new year together?",
+    "text": "How would you like us to cross over into each new year, at service or praying at home?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -52425,7 +52425,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "What would you want written on a blessing for our home?",
+    "text": "Which Bible or Quran verse would you want on our wall?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -52441,7 +52441,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "Write each other a love letter at every festival or exchange small gifts?",
+    "text": "Write each other a love letter every December or exchange small gifts?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -52457,7 +52457,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "What's your favourite thing about how we keep our traditions together?",
+    "text": "What do you love about how we handle both our families?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -52473,7 +52473,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "We find a quiet garden during a busy celebration. How do we spend ten minutes there?",
+    "text": "We find a quiet corner during a busy owambe. How do we spend ten minutes there?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -52505,7 +52505,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "Which of your values do you see reflected in me?",
+    "text": "Which of your values do you see in me?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -52537,7 +52537,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "What do you hope we'll still be doing together at every celebration when we're old?",
+    "text": "When we're old, which church or mosque seat will be \"ours\"?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -52553,7 +52553,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "I ask you to describe heaven, paradise or perfect peace, and you describe us. What do you say?",
+    "text": "I ask you to describe heaven, and you describe us. What do you say?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -52569,7 +52569,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "What's one sacred promise you'd make me in front of everyone we love?",
+    "text": "What promise would you make me in front of both our families?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -52585,7 +52585,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "Spend a quiet holy day at home together or with the whole family?",
+    "text": "A quiet Sunday at home together or lunch with the whole family?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -52617,7 +52617,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "What would make our next festival together unforgettable?",
+    "text": "What would make our next December together unforgettable?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -52633,7 +52633,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "We're guests at a wedding and you catch me mouthing the vows along. What do you say?",
+    "text": "We're guests at a wedding and you catch me mouthing the vows. What do you say?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -52665,7 +52665,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "We each make a secret wish at the same festival. Do you want to know mine?",
+    "text": "We each say a secret prayer at crossover. Do you want to know mine?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -52697,7 +52697,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "Which of our traditions would you happily pass on someday?",
+    "text": "Which of our traditions would you happily pass on to our children?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -52713,7 +52713,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "Watch the lanterns float away together or make a wish over a fountain?",
+    "text": "Hold hands during the closing prayer or squeeze hands during the sermon?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -52745,7 +52745,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "What would you want our family and friends to bless us with at our next big celebration?",
+    "text": "What would you want our families to pray over us at our next big celebration?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -52761,7 +52761,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "What's one thing about us that still feels like a small miracle?",
+    "text": "What's one thing about us that still feels like a miracle?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
@@ -52793,7 +52793,7 @@
     "audiences": [
       "Partner"
     ],
-    "text": "We slip a private promise into a festival toast that only we understand. What's the promise?",
+    "text": "We slip a private promise into a toast at a family event that only we understand. What's the promise?",
     "angles": [],
     "adult": false,
     "source": "batch4-editorial",
