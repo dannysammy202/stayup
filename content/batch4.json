@@ -48004,6 +48004,4806 @@
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Do you believe in fate, or did we just get lucky meeting today?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1202",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What's your star sign, and should I be worried about it?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1203",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "A fortune teller says you'll meet someone special this week. Do you think she meant me?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1204",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Have you ever prayed for a sign and then got one that made you laugh?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1205",
+    "topic": "Faith & Spirituality",
+    "format": "Quick choice",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Meet someone at a wedding or at a festival?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1206",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Do you think some people are meant to cross paths?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1207",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What would your grandmother say if she could see you talking to me right now?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1208",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "We both reach for the last plate of festival food. Who gets it?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1209",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Is it true that people from your community are the best cooks, or is that just a rumour?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1210",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Has anyone ever blessed you in a way that made you blush?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1211",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "If an elder at your place of worship tried to match you with someone, how would you react?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1212",
+    "topic": "Faith & Spirituality",
+    "format": "Hot take",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "The best first dates happen somewhere peaceful, not somewhere loud.",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1213",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Do you light up more at a festival or at a quiet retreat?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1214",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "You're asked to describe me to your aunties in one sentence. What do you say?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1215",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Which festival outfit would you want me to see you in?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1216",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Do you think good energy is something you can feel the moment you meet someone?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1217",
+    "topic": "Faith & Spirituality",
+    "format": "Quick choice",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "A sunrise walk to clear our heads or a candlelit dinner?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1218",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Which of your traditions would you be secretly delighted to teach me?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1219",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Has anyone ever caught your eye across a crowded ceremony?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1220",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "We both arrive early for a community event and nobody else is there yet. What do we talk about?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1221",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Do you read horoscopes for fun, or do you secretly take them seriously?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1222",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "If I asked for your blessing to take you out, would I get it?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1223",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What's your idea of a date that feeds the soul?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1224",
+    "topic": "Faith & Spirituality",
+    "format": "Story starter",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Tell me about the most romantic wedding you've ever been a guest at.",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1225",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Is there a festival or wedding song that always gets you dancing a little closer to someone?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1226",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Would you rather be serenaded at a festival or written a heartfelt letter?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1227",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "An astrologer reads both our charts and says we're a perfect match. Do you believe her?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1228",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What's the cutest thing a couple has ever done at a religious celebration you attended?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1229",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Do you think kindness is the most attractive quality a person can have?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1230",
+    "topic": "Faith & Spirituality",
+    "format": "Quick choice",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Share a lantern at a festival or share dessert after a wedding?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1231",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What would make you say a little thank-you prayer after a first date?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1232",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Do your friends say you have an old soul?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1233",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Which of your values would you hope someone notices first?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1234",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "You meet someone lovely at a volunteering day. What's your first line?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1235",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Do you think the universe has a sense of humour about who we meet?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1236",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "If you could design a first date around your favourite festival, what would we do?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1237",
+    "topic": "Faith & Spirituality",
+    "format": "Hot take",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Someone who knows what they believe is very attractive.",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1238",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Are you more drawn to people who share your beliefs or people who challenge them a little?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1239",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Has a stranger ever made your day just by being kind?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1240",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "We're both on the same pilgrimage or retreat and keep ending up next to each other. Coincidence?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1241",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What's the most charming thing someone can do at a family celebration?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1242",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Would you rather meet someone at a choir rehearsal or at a festival market?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1243",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Do you believe in love at first sight, or love at first conversation?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1244",
+    "topic": "Faith & Spirituality",
+    "format": "Quick choice",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Bond over a shared tradition or over learning someone else's?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1245",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What's your favourite festival food to share with someone you like?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1246",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Would you take me to your favourite celebration if I asked nicely?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1247",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Your best friend says the stars aligned for us tonight. What do you say back?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1248",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Do you think we were meant to have this conversation?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1249",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What's a small ritual of yours that you'd let a crush in on?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1250",
+    "topic": "Faith & Spirituality",
+    "format": "Story starter",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Tell me about a time you felt butterflies somewhere completely unexpected.",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1251",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Is there someone whose patience and calm you find really attractive?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1252",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Do you think good things come to people who wait, or to people who ask?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1253",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "I offer to walk you home after an evening service or event. Do you say yes?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1254",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Have you ever had a crush on someone in a youth group, choir or class?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1255",
+    "topic": "Faith & Spirituality",
+    "format": "Quick choice",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Dance at a festival or watch the lanterns together?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1256",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What's the best compliment you've had about your spirit, not your looks?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1257",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Do you think a good laugh is a kind of blessing?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1258",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Do you believe some people just bring out the light in you?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1259",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "We get seated together at a friend's wedding and don't know anyone else. How do you break the ice?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1260",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Would your family's matchmaker approve of me?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1261",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Do you find it attractive when someone is quietly confident about their values?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1262",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What's one wish you'd make if we threw coins into a fountain together?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1263",
+    "topic": "Faith & Spirituality",
+    "format": "Hot take",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Shared laughter at a serious event is a pretty good sign of chemistry.",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1264",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "If you were writing your dream love story, where would the couple meet?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1265",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Do you get nervous around people you like, or does peace win out?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1266",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "A wise elder hands us both a fortune cookie. What do you hope yours says?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1267",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Which do you trust more when you like someone, your gut or your prayers?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1268",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What's a value that's an instant green flag for you?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1269",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Would you rather be complimented on your kindness or your smile?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1270",
+    "topic": "Faith & Spirituality",
+    "format": "Quick choice",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "A picnic after a festival or tea after a quiet evening?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1271",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Do you think I'm the answer to anything you've been asking for lately?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1272",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What's your favourite way to show someone they're appreciated?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1273",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "We both make a wish at the same moment. Do we tell each other what it was?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1274",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Is there a love story in your faith or culture that you find really romantic?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1275",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Have you ever felt drawn to someone and couldn't explain why?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1276",
+    "topic": "Faith & Spirituality",
+    "format": "Story starter",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Tell me about the most memorable person you've met at a celebration.",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1277",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Do you think love is something you find or something you build?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1278",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What's a sweet thing someone could do that would melt your heart instantly?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1279",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "You're asked to read my palm. What do you pretend to see?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1280",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Would you rather share sunrise prayers, meditation or a quiet coffee with someone you like?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1281",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What does a genuinely romantic gesture look like to you?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1282",
+    "topic": "Faith & Spirituality",
+    "format": "Quick choice",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "A handwritten blessing or a bunch of flowers?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1283",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Do you think gratitude is attractive?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1284",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What's something you'd love to hear someone say about your heart?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1285",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "I tell you I've been hoping to meet someone like you. How do you respond?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1286",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Have you ever believed a dream was trying to tell you something about love?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1287",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Which festival do you think is the most romantic?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1288",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Are you the type to let fate decide, or do you make the first move?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1289",
+    "topic": "Faith & Spirituality",
+    "format": "Hot take",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Being gentle with people is one of the most attractive things anyone can do.",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1290",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What's the most beautiful place of worship or peaceful spot you'd show a date?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1291",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Do you think we'd make a good team at a community cook-out?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1292",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "A friend jokes that we look like we were matched by destiny. Do you play along?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1293",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What's something about you that people only discover once they get close?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1294",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Would you rather get a love note on a festival card or a voice message?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1295",
+    "topic": "Faith & Spirituality",
+    "format": "Quick choice",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Lantern-lit evening walk or a morning by the water?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1296",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "If our meeting was a sign, what do you think it means?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1297",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "What kind of energy do you hope someone brings into your life?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1298",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Would you let me buy you something sweet from the festival stalls?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1299",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "Do you feel like this conversation was worth getting dressed up for?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1300",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Someone new"
+    ],
+    "text": "We both stop to help the same elder carry their things after an event. What do we say to each other afterwards?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1301",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Who in our group would fall for someone at a wedding first?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1302",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Which of us is most likely to meet our future partner at a place of worship?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1303",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "An auntie wants to set one of us up at the next celebration. Who do we volunteer?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1304",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Who has the most obvious crush at our community events?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1305",
+    "topic": "Faith & Spirituality",
+    "format": "Quick choice",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Meet your future partner in the choir or at the community cook-out?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1306",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Which of us gets the most attention at a festival?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1307",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Who would be the most nervous meeting a crush's very religious family?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1308",
+    "topic": "Faith & Spirituality",
+    "format": "Story starter",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Tell me about the time one of us got caught staring at someone during a ceremony.",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1309",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Which of us believes most in signs from the universe about love?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1310",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "One of us has a crush in the choir or youth group. How do we help without making it awkward?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1311",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Who here would actually ask their horoscope before saying yes to a date?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1312",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Which of us dresses up the most when we know a crush will be at an event?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1313",
+    "topic": "Faith & Spirituality",
+    "format": "Quick choice",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Be set up by your mum or by your best friend?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1314",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Who in our group would write the most heartfelt wedding vows?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1315",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Whose love story would make the best story at a family gathering?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1316",
+    "topic": "Faith & Spirituality",
+    "format": "Hot take",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Weddings are secretly the best place to meet someone.",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1317",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Which of us is most likely to say we're praying about a date when we just want to say no?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1318",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "We're all at a friend's wedding and the DJ plays a slow song. Who gets asked to dance first?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1319",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Who among us would fall for someone because of how kind they are to elders?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1320",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Which of us would date someone from a different faith or background without blinking?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1321",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Who in our group is the hopeless romantic about destiny and soulmates?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1322",
+    "topic": "Faith & Spirituality",
+    "format": "Quick choice",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Fall for someone with a calm spirit or someone who makes you laugh?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1323",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Whose crush has the best values, in your opinion?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1324",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "One of us gets a fortune reading that says love is coming this month. Who do we guess it is?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1325",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Which of us has been asked about our love life most at family celebrations?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1326",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Who would be the best wingman at a festival?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1327",
+    "topic": "Faith & Spirituality",
+    "format": "Story starter",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Tell me about the cheekiest thing you've seen one of us do to get a crush's attention.",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1328",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Which of us has had a crush on someone we met at a retreat or camp?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1329",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Who here is most likely to marry the person their family suggested?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1330",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "We're playing matchmaker at a community event. Who do you pair me with?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1331",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Who here would charm a date's grandparents in under five minutes?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1332",
+    "topic": "Faith & Spirituality",
+    "format": "Quick choice",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Have your love life prayed over or read in the stars?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1333",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Who in our group lights up the most when their crush walks in?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1334",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Which of us is the biggest flirt at weddings?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1335",
+    "topic": "Faith & Spirituality",
+    "format": "Hot take",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "The person who helps clean up after a celebration is always the catch.",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1336",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Which of us would ask for the family's blessing before proposing?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1337",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "One of us is too shy to talk to someone at a festival. What's our plan?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1338",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Who here believes their future partner will be a sign from above?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1339",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Which of us gets the most blushing compliments from elders?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1340",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Whose dating standards are the highest?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1341",
+    "topic": "Faith & Spirituality",
+    "format": "Quick choice",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Blind date arranged by a religious leader or by a dating app?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1342",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Which of us has the best chat-up line that's also respectful?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1343",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Who among us would be most likely to fall for someone at a charity event?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1344",
+    "topic": "Faith & Spirituality",
+    "format": "Story starter",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Tell me about a time one of us got matched up at a family event and it went hilariously wrong.",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1345",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Who would bring a date to a big festival celebration first?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1346",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "We dare each other to compliment a crush at the next gathering. Who actually does it?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1347",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Which of us has had our love life predicted by a fortune teller, palm reader or auntie?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1348",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Who in our group is most likely to send flirty festival greetings?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1349",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Which of us would say our crush is the answer to our prayers?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1350",
+    "topic": "Faith & Spirituality",
+    "format": "Quick choice",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Get serenaded at a wedding or receive a sweet note at a festival?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1351",
+    "topic": "Faith & Spirituality",
+    "format": "Story starter",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Tell me about the most unexpected festival-season romance in our circle.",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1352",
+    "topic": "Faith & Spirituality",
+    "format": "Hot take",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "A shared faith or shared values beats shared hobbies in a relationship.",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1353",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Which of us would be the most dramatic about a crush not texting back after a celebration?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1354",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "An elder asks which of us is next to get married. Who do we all point at?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1355",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Whose festival cooking is most likely to win someone's heart?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1356",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Whose flirting style is the most old-fashioned?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1357",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Who here would fall for someone just because they sing beautifully in a choir?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1358",
+    "topic": "Faith & Spirituality",
+    "format": "Quick choice",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Fall in love at a festival or on a pilgrimage?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1359",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Which of us has the most adorable crush right now?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1360",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Who in our group would be the best at charming a date's religious parents?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1361",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "One of us gets a love letter tucked into their festival card. Who do we suspect sent it?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1362",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Which of us would agree to a date only after asking for a sign?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1363",
+    "topic": "Faith & Spirituality",
+    "format": "Story starter",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Tell me about the cutest couple we've seen at a celebration together.",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1364",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Who among us is most likely to meet someone at a friend's naming ceremony or christening?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1365",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Whose love language is most likely to be acts of service?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1366",
+    "topic": "Faith & Spirituality",
+    "format": "Quick choice",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Date someone who prays loudly or someone who meditates quietly?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1367",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Which of us blushes the most when someone mentions our crush?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1368",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "We're all at a retreat and one of us keeps sitting next to the same person. Who is it?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1369",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Which of us is most likely to marry someone we met through our faith community?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1370",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Who here believes in love at first sight the most?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1371",
+    "topic": "Faith & Spirituality",
+    "format": "Hot take",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Being introduced by family is underrated.",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1372",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Who among us would happily wear matching festival outfits with a partner?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1373",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Who has the most romantic idea of a wedding?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1374",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Someone asks one of us for our number after a service or event. How does that person react?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1375",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Which of us would fall hardest for someone with a gentle, generous spirit?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1376",
+    "topic": "Faith & Spirituality",
+    "format": "Quick choice",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Meet the one through a friend or through fate?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1377",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Who among us has the most aunties trying to set them up?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1378",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Which of us would be the most nervous asking someone out after a ceremony?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1379",
+    "topic": "Faith & Spirituality",
+    "format": "Story starter",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Tell me about the best wedding where one of us met someone new.",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1380",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Who in our group is most likely to believe their dream about someone was a sign?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1381",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "One of us is crushing on a festival volunteer. How do we arrange for them to meet?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1382",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Which of us keeps it the most respectful when flirting at a community event?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1383",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Whose partner, current or future, would fit in best at our celebrations?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1384",
+    "topic": "Faith & Spirituality",
+    "format": "Quick choice",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Fall for someone who cooks festival food or someone who decorates for it?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1385",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Which of us would make the sweetest wedding toast about a friend's partner?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1386",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Who here gets the most compliments at religious celebrations?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1387",
+    "topic": "Faith & Spirituality",
+    "format": "Hot take",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Seeing how someone treats people at a celebration tells you everything.",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1388",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Which of us is secretly the most romantic despite pretending not to be?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1389",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "We each have to write a matchmaking profile for the person on our left. What do you write?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1390",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Who among us would keep a crush secret until the last day of a festival?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1391",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Which of us is most likely to have a love story that starts with a blessing?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1392",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Who in our group would fall for someone because they're patient with kids at events?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1393",
+    "topic": "Faith & Spirituality",
+    "format": "Quick choice",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Be matched by astrology or by your grandmother?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1394",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Which of us flirts best with just a smile?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1395",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Our friend's crush is standing by the food table at a celebration. Who goes over first?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1396",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Who here would light a candle or say a prayer for a crush to notice them?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1397",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Who's going to be the love-advice auntie or uncle of the group someday?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1398",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Whose crush do you think would get the family seal of approval?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1399",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "A friend's wedding seating chart puts one of us next to their crush. Who do we hope it is?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1400",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Friends"
+    ],
+    "text": "Whose first move would be a quick prayer before texting a crush?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1401",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Do you ever feel like I was the answer to something you hoped for?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1402",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What blessing would you most want for us this year?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1403",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "We're at a friend's wedding and they read vows that sound like us. What do you whisper to me?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1404",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "When did you first think we were meant to be?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1405",
+    "topic": "Faith & Spirituality",
+    "format": "Quick choice",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Renew our promises at sunrise or under the stars?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1406",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What's your favourite thing about seeing me at a celebration?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1407",
+    "topic": "Faith & Spirituality",
+    "format": "Story starter",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Tell me about a day you felt thankful for me before I'd even said a word.",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1408",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Do you think the universe had a hand in bringing us together?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1409",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Which colour do you love seeing me wear to celebrations?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1410",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "We sneak away from a big family celebration for five quiet minutes. What do you say to me?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1411",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What would you want our first home to be blessed with?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1412",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Which new festival ritual should become just ours?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1413",
+    "topic": "Faith & Spirituality",
+    "format": "Hot take",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Praying, meditating or reflecting together is one of the most intimate things a couple can do.",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1414",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Do you still get butterflies when you see me dressed up for an occasion?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1415",
+    "topic": "Faith & Spirituality",
+    "format": "Quick choice",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Hold hands during a candle ceremony or dance at the end of a festival?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1416",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What do you thank the heavens for when you think of me?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1417",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "An elder at a celebration says we glow when we're together. How do you respond?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1418",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What's the sweetest thing you've ever wished for us?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1419",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "If we wrote new vows today, what would you promise me?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1420",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Which of our shared traditions would you miss most if we skipped it?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1421",
+    "topic": "Faith & Spirituality",
+    "format": "Story starter",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Tell me about the moment you knew you wanted me by your side at every celebration.",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1422",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What would you say if you had to describe our love to a wise elder?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1423",
+    "topic": "Faith & Spirituality",
+    "format": "Quick choice",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Light a lantern together or plant a tree together for our anniversary?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1424",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "How do you like me to show you love on a quiet, reflective day?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1425",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "We're on a peaceful retreat with no phones. How do you get my attention?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1426",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Which part of our wedding, real or dreamed, makes you smile the most?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1427",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Do you believe we're soulmates, or that we choose each other every day?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1428",
+    "topic": "Faith & Spirituality",
+    "format": "Hot take",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Being blessed by both our families feels like the most romantic thing.",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1429",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What's the most attractive thing about how I live out my values?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1430",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Where would you take me if you wanted us both to slow down and breathe?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1431",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Our song plays at a friend's wedding and the whole room watches us dance. What do you do?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1432",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What would you want our love story to teach our future children, if we have them?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1433",
+    "topic": "Faith & Spirituality",
+    "format": "Quick choice",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Spend a festival morning cooking together or an evening at the celebrations?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1434",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What do you love about watching me take part in a tradition I care about?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1435",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Which couple from scripture, legend or folklore do you think we're most like?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1436",
+    "topic": "Faith & Spirituality",
+    "format": "Story starter",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Tell me about a celebration where you couldn't stop looking at me.",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1437",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "If we went on a pilgrimage or retreat together, where would you want us to go?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1438",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "I leave a little blessing note under your pillow. What does it say?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1439",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "How would you describe my spirit in three words?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1440",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What's the most romantic prayer, wish or intention you've ever had for us?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1441",
+    "topic": "Faith & Spirituality",
+    "format": "Hot take",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Couples who laugh during ceremonies are the happiest couples.",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1442",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Which of our rituals do you never want us to stop doing?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1443",
+    "topic": "Faith & Spirituality",
+    "format": "Quick choice",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Say grace or a thank-you together, or share a quiet moment of silence?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1444",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What's something I do at family celebrations that makes you fall for me again?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1445",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "We get to plan a whole festival day just for the two of us. What's on the schedule?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1446",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What do you hope people feel when they see us together at a gathering?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1447",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Do you think our love grows on the quiet days or the big occasions?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1448",
+    "topic": "Faith & Spirituality",
+    "format": "Story starter",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Tell me about the first family tradition of mine that made you feel at home.",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1449",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What would you light a candle for if it was just for us?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1450",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Which of my habits would you call a blessing in disguise?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1451",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "You get to bless our relationship with one wish that comes true. What is it?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1452",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "How do you know when I need a hug instead of advice?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1453",
+    "topic": "Faith & Spirituality",
+    "format": "Quick choice",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "A rooftop at night counting stars or a beach at dawn?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1454",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What part of your spiritual life would you love to share more of with me?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1455",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What's the cutest thing I've ever said during a serious ceremony?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1456",
+    "topic": "Faith & Spirituality",
+    "format": "Hot take",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "The most romantic gestures are the ones done quietly.",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1457",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "How do you want us to celebrate our anniversary in a meaningful way?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1458",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "It's the end of a long festival and we're finally alone. What's the first thing you say?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1459",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Which elder's love story would you most like ours to resemble?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1460",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Which ordinary moment with me would you call a small blessing?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1461",
+    "topic": "Faith & Spirituality",
+    "format": "Quick choice",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Dance at our wedding first or share our first meal as a couple?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1462",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What do you find most attractive about my faith, or my way of finding meaning?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1463",
+    "topic": "Faith & Spirituality",
+    "format": "Story starter",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Tell me about a time I made a family tradition feel brand new for you.",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1464",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "A child at a wedding asks how we knew we were in love. What do you tell them?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1465",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "We're asked to share our love story at a community event. How do you tell it?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1466",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What's a promise you'd happily make to me every single morning?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1467",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "How do you feel when we pray, reflect or sit in silence side by side?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1468",
+    "topic": "Faith & Spirituality",
+    "format": "Hot take",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "A partner who celebrates your traditions is a partner worth keeping.",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1469",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Which festival do you most look forward to spending with me?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1470",
+    "topic": "Faith & Spirituality",
+    "format": "Quick choice",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Wear matching colours to a celebration or surprise each other with our outfits?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1471",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What's the most beautiful thing you've seen me do for someone else?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1472",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "You catch me smiling at you across a crowded celebration. What do you do?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1473",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What do you want me to remember every time we celebrate together?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1474",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Do you feel lucky, blessed or both when you think about us?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1475",
+    "topic": "Faith & Spirituality",
+    "format": "Story starter",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Tell me about a moment I made a crowded celebration feel like just the two of us.",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1476",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "How would you like us to welcome each new year together?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1477",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What would you want written on a blessing for our home?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1478",
+    "topic": "Faith & Spirituality",
+    "format": "Quick choice",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Write each other a love letter at every festival or exchange small gifts?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1479",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What's your favourite thing about how we keep our traditions together?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1480",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "We find a quiet garden during a busy celebration. How do we spend ten minutes there?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1481",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What do you think is the softest part of me?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1482",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Which of your values do you see reflected in me?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1483",
+    "topic": "Faith & Spirituality",
+    "format": "Hot take",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Gratitude for each other is the best foundation for romance.",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1484",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What do you hope we'll still be doing together at every celebration when we're old?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1485",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "I ask you to describe heaven, paradise or perfect peace, and you describe us. What do you say?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1486",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What's one sacred promise you'd make me in front of everyone we love?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1487",
+    "topic": "Faith & Spirituality",
+    "format": "Quick choice",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Spend a quiet holy day at home together or with the whole family?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1488",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "When do you most enjoy showing me off at a gathering?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1489",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What would make our next festival together unforgettable?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1490",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "We're guests at a wedding and you catch me mouthing the vows along. What do you say?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1491",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Which part of your spirit feels most alive when we're together?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1492",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "We each make a secret wish at the same festival. Do you want to know mine?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1493",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What look of mine across a room tells you everything?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1494",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Which of our traditions would you happily pass on someday?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1495",
+    "topic": "Faith & Spirituality",
+    "format": "Quick choice",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Watch the lanterns float away together or make a wish over a fountain?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1496",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Do you think love is a kind of faith in each other?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1497",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What would you want our family and friends to bless us with at our next big celebration?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1498",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "What's one thing about us that still feels like a small miracle?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1499",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "Which of my small daily kindnesses makes you feel most loved?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1500",
+    "topic": "Faith & Spirituality",
+    "format": "Scenario",
+    "moods": [
+      "Flirty"
+    ],
+    "audiences": [
+      "Partner"
+    ],
+    "text": "We slip a private promise into a festival toast that only we understand. What's the promise?",
+    "angles": [],
+    "adult": false,
+    "source": "batch4-editorial",
+    "editorialStatus": "approved"
+  },
+  {
+    "id": "b4-fs-1501",
+    "topic": "Faith & Spirituality",
+    "format": "Question",
+    "moods": [
       "Bold"
     ],
     "audiences": [
@@ -48016,7 +52816,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1202",
+    "id": "b4-fs-1502",
     "topic": "Faith & Spirituality",
     "format": "Hot take",
     "moods": [
@@ -48032,7 +52832,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1203",
+    "id": "b4-fs-1503",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -48048,7 +52848,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1204",
+    "id": "b4-fs-1504",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -48064,7 +52864,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1205",
+    "id": "b4-fs-1505",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -48080,7 +52880,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1206",
+    "id": "b4-fs-1506",
     "topic": "Faith & Spirituality",
     "format": "Quick choice",
     "moods": [
@@ -48096,7 +52896,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1207",
+    "id": "b4-fs-1507",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -48112,7 +52912,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1208",
+    "id": "b4-fs-1508",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -48128,7 +52928,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1209",
+    "id": "b4-fs-1509",
     "topic": "Faith & Spirituality",
     "format": "Hot take",
     "moods": [
@@ -48144,7 +52944,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1210",
+    "id": "b4-fs-1510",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -48160,7 +52960,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1211",
+    "id": "b4-fs-1511",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -48176,7 +52976,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1212",
+    "id": "b4-fs-1512",
     "topic": "Faith & Spirituality",
     "format": "Scenario",
     "moods": [
@@ -48192,7 +52992,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1213",
+    "id": "b4-fs-1513",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -48208,7 +53008,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1214",
+    "id": "b4-fs-1514",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -48224,7 +53024,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1215",
+    "id": "b4-fs-1515",
     "topic": "Faith & Spirituality",
     "format": "Hot take",
     "moods": [
@@ -48240,7 +53040,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1216",
+    "id": "b4-fs-1516",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -48256,7 +53056,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1217",
+    "id": "b4-fs-1517",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -48272,7 +53072,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1218",
+    "id": "b4-fs-1518",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -48288,7 +53088,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1219",
+    "id": "b4-fs-1519",
     "topic": "Faith & Spirituality",
     "format": "Quick choice",
     "moods": [
@@ -48304,7 +53104,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1220",
+    "id": "b4-fs-1520",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -48320,7 +53120,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1221",
+    "id": "b4-fs-1521",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -48336,7 +53136,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1222",
+    "id": "b4-fs-1522",
     "topic": "Faith & Spirituality",
     "format": "Hot take",
     "moods": [
@@ -48352,7 +53152,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1223",
+    "id": "b4-fs-1523",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -48368,7 +53168,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1224",
+    "id": "b4-fs-1524",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -48384,7 +53184,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1225",
+    "id": "b4-fs-1525",
     "topic": "Faith & Spirituality",
     "format": "Scenario",
     "moods": [
@@ -48400,7 +53200,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1226",
+    "id": "b4-fs-1526",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -48416,7 +53216,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1227",
+    "id": "b4-fs-1527",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -48432,7 +53232,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1228",
+    "id": "b4-fs-1528",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -48448,7 +53248,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1229",
+    "id": "b4-fs-1529",
     "topic": "Faith & Spirituality",
     "format": "Hot take",
     "moods": [
@@ -48464,7 +53264,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1230",
+    "id": "b4-fs-1530",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -48480,7 +53280,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1231",
+    "id": "b4-fs-1531",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -48496,7 +53296,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1232",
+    "id": "b4-fs-1532",
     "topic": "Faith & Spirituality",
     "format": "Quick choice",
     "moods": [
@@ -48512,7 +53312,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1233",
+    "id": "b4-fs-1533",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -48528,7 +53328,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1234",
+    "id": "b4-fs-1534",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -48544,7 +53344,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1235",
+    "id": "b4-fs-1535",
     "topic": "Faith & Spirituality",
     "format": "Hot take",
     "moods": [
@@ -48560,7 +53360,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1236",
+    "id": "b4-fs-1536",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -48576,7 +53376,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1237",
+    "id": "b4-fs-1537",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -48592,7 +53392,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1238",
+    "id": "b4-fs-1538",
     "topic": "Faith & Spirituality",
     "format": "Scenario",
     "moods": [
@@ -48608,7 +53408,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1239",
+    "id": "b4-fs-1539",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -48624,7 +53424,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1240",
+    "id": "b4-fs-1540",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -48640,7 +53440,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1241",
+    "id": "b4-fs-1541",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -48656,7 +53456,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1242",
+    "id": "b4-fs-1542",
     "topic": "Faith & Spirituality",
     "format": "Hot take",
     "moods": [
@@ -48672,7 +53472,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1243",
+    "id": "b4-fs-1543",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -48688,7 +53488,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1244",
+    "id": "b4-fs-1544",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -48704,7 +53504,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1245",
+    "id": "b4-fs-1545",
     "topic": "Faith & Spirituality",
     "format": "Quick choice",
     "moods": [
@@ -48720,7 +53520,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1246",
+    "id": "b4-fs-1546",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -48736,7 +53536,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1247",
+    "id": "b4-fs-1547",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -48752,7 +53552,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1248",
+    "id": "b4-fs-1548",
     "topic": "Faith & Spirituality",
     "format": "Hot take",
     "moods": [
@@ -48768,7 +53568,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1249",
+    "id": "b4-fs-1549",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -48784,7 +53584,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1250",
+    "id": "b4-fs-1550",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -48800,7 +53600,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1251",
+    "id": "b4-fs-1551",
     "topic": "Faith & Spirituality",
     "format": "Scenario",
     "moods": [
@@ -48816,7 +53616,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1252",
+    "id": "b4-fs-1552",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -48832,7 +53632,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1253",
+    "id": "b4-fs-1553",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -48848,7 +53648,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1254",
+    "id": "b4-fs-1554",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -48864,7 +53664,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1255",
+    "id": "b4-fs-1555",
     "topic": "Faith & Spirituality",
     "format": "Hot take",
     "moods": [
@@ -48880,7 +53680,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1256",
+    "id": "b4-fs-1556",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -48896,7 +53696,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1257",
+    "id": "b4-fs-1557",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -48912,7 +53712,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1258",
+    "id": "b4-fs-1558",
     "topic": "Faith & Spirituality",
     "format": "Quick choice",
     "moods": [
@@ -48928,7 +53728,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1259",
+    "id": "b4-fs-1559",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -48944,7 +53744,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1260",
+    "id": "b4-fs-1560",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -48960,7 +53760,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1261",
+    "id": "b4-fs-1561",
     "topic": "Faith & Spirituality",
     "format": "Hot take",
     "moods": [
@@ -48976,7 +53776,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1262",
+    "id": "b4-fs-1562",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -48992,7 +53792,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1263",
+    "id": "b4-fs-1563",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -49008,7 +53808,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1264",
+    "id": "b4-fs-1564",
     "topic": "Faith & Spirituality",
     "format": "Scenario",
     "moods": [
@@ -49024,7 +53824,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1265",
+    "id": "b4-fs-1565",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -49040,7 +53840,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1266",
+    "id": "b4-fs-1566",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -49056,7 +53856,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1267",
+    "id": "b4-fs-1567",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -49072,7 +53872,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1268",
+    "id": "b4-fs-1568",
     "topic": "Faith & Spirituality",
     "format": "Hot take",
     "moods": [
@@ -49088,7 +53888,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1269",
+    "id": "b4-fs-1569",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -49104,7 +53904,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1270",
+    "id": "b4-fs-1570",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -49120,7 +53920,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1271",
+    "id": "b4-fs-1571",
     "topic": "Faith & Spirituality",
     "format": "Quick choice",
     "moods": [
@@ -49136,7 +53936,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1272",
+    "id": "b4-fs-1572",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -49152,7 +53952,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1273",
+    "id": "b4-fs-1573",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -49168,7 +53968,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1274",
+    "id": "b4-fs-1574",
     "topic": "Faith & Spirituality",
     "format": "Hot take",
     "moods": [
@@ -49184,7 +53984,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1275",
+    "id": "b4-fs-1575",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -49200,7 +54000,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1276",
+    "id": "b4-fs-1576",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -49216,7 +54016,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1277",
+    "id": "b4-fs-1577",
     "topic": "Faith & Spirituality",
     "format": "Scenario",
     "moods": [
@@ -49232,7 +54032,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1278",
+    "id": "b4-fs-1578",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -49248,7 +54048,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1279",
+    "id": "b4-fs-1579",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -49264,7 +54064,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1280",
+    "id": "b4-fs-1580",
     "topic": "Faith & Spirituality",
     "format": "Hot take",
     "moods": [
@@ -49280,7 +54080,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1281",
+    "id": "b4-fs-1581",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -49296,7 +54096,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1282",
+    "id": "b4-fs-1582",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -49312,7 +54112,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1283",
+    "id": "b4-fs-1583",
     "topic": "Faith & Spirituality",
     "format": "Quick choice",
     "moods": [
@@ -49328,7 +54128,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1284",
+    "id": "b4-fs-1584",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -49344,7 +54144,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1285",
+    "id": "b4-fs-1585",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -49360,7 +54160,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1286",
+    "id": "b4-fs-1586",
     "topic": "Faith & Spirituality",
     "format": "Hot take",
     "moods": [
@@ -49376,7 +54176,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1287",
+    "id": "b4-fs-1587",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -49392,7 +54192,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1288",
+    "id": "b4-fs-1588",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -49408,7 +54208,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1289",
+    "id": "b4-fs-1589",
     "topic": "Faith & Spirituality",
     "format": "Scenario",
     "moods": [
@@ -49424,7 +54224,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1290",
+    "id": "b4-fs-1590",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -49440,7 +54240,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1291",
+    "id": "b4-fs-1591",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -49456,7 +54256,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1292",
+    "id": "b4-fs-1592",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -49472,7 +54272,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1293",
+    "id": "b4-fs-1593",
     "topic": "Faith & Spirituality",
     "format": "Hot take",
     "moods": [
@@ -49488,7 +54288,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1294",
+    "id": "b4-fs-1594",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -49504,7 +54304,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1295",
+    "id": "b4-fs-1595",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -49520,7 +54320,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1296",
+    "id": "b4-fs-1596",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -49536,7 +54336,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1297",
+    "id": "b4-fs-1597",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -49552,7 +54352,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1298",
+    "id": "b4-fs-1598",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -49568,7 +54368,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1299",
+    "id": "b4-fs-1599",
     "topic": "Faith & Spirituality",
     "format": "Hot take",
     "moods": [
@@ -49584,7 +54384,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1300",
+    "id": "b4-fs-1600",
     "topic": "Faith & Spirituality",
     "format": "Scenario",
     "moods": [
@@ -49600,7 +54400,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1301",
+    "id": "b4-fs-1601",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -49616,7 +54416,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1302",
+    "id": "b4-fs-1602",
     "topic": "Faith & Spirituality",
     "format": "Hot take",
     "moods": [
@@ -49632,7 +54432,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1303",
+    "id": "b4-fs-1603",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -49648,7 +54448,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1304",
+    "id": "b4-fs-1604",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -49664,7 +54464,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1305",
+    "id": "b4-fs-1605",
     "topic": "Faith & Spirituality",
     "format": "Quick choice",
     "moods": [
@@ -49680,7 +54480,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1306",
+    "id": "b4-fs-1606",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -49696,7 +54496,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1307",
+    "id": "b4-fs-1607",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -49712,7 +54512,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1308",
+    "id": "b4-fs-1608",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -49728,7 +54528,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1309",
+    "id": "b4-fs-1609",
     "topic": "Faith & Spirituality",
     "format": "Scenario",
     "moods": [
@@ -49744,7 +54544,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1310",
+    "id": "b4-fs-1610",
     "topic": "Faith & Spirituality",
     "format": "Hot take",
     "moods": [
@@ -49760,7 +54560,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1311",
+    "id": "b4-fs-1611",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -49776,7 +54576,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1312",
+    "id": "b4-fs-1612",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -49792,7 +54592,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1313",
+    "id": "b4-fs-1613",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -49808,7 +54608,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1314",
+    "id": "b4-fs-1614",
     "topic": "Faith & Spirituality",
     "format": "Quick choice",
     "moods": [
@@ -49824,7 +54624,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1315",
+    "id": "b4-fs-1615",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -49840,7 +54640,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1316",
+    "id": "b4-fs-1616",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -49856,7 +54656,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1317",
+    "id": "b4-fs-1617",
     "topic": "Faith & Spirituality",
     "format": "Scenario",
     "moods": [
@@ -49872,7 +54672,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1318",
+    "id": "b4-fs-1618",
     "topic": "Faith & Spirituality",
     "format": "Hot take",
     "moods": [
@@ -49888,7 +54688,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1319",
+    "id": "b4-fs-1619",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -49904,7 +54704,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1320",
+    "id": "b4-fs-1620",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -49920,7 +54720,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1321",
+    "id": "b4-fs-1621",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -49936,7 +54736,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1322",
+    "id": "b4-fs-1622",
     "topic": "Faith & Spirituality",
     "format": "Quick choice",
     "moods": [
@@ -49952,7 +54752,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1323",
+    "id": "b4-fs-1623",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -49968,7 +54768,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1324",
+    "id": "b4-fs-1624",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -49984,7 +54784,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1325",
+    "id": "b4-fs-1625",
     "topic": "Faith & Spirituality",
     "format": "Scenario",
     "moods": [
@@ -50000,7 +54800,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1326",
+    "id": "b4-fs-1626",
     "topic": "Faith & Spirituality",
     "format": "Hot take",
     "moods": [
@@ -50016,7 +54816,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1327",
+    "id": "b4-fs-1627",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -50032,7 +54832,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1328",
+    "id": "b4-fs-1628",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -50048,7 +54848,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1329",
+    "id": "b4-fs-1629",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -50064,7 +54864,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1330",
+    "id": "b4-fs-1630",
     "topic": "Faith & Spirituality",
     "format": "Quick choice",
     "moods": [
@@ -50080,7 +54880,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1331",
+    "id": "b4-fs-1631",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -50096,7 +54896,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1332",
+    "id": "b4-fs-1632",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -50112,7 +54912,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1333",
+    "id": "b4-fs-1633",
     "topic": "Faith & Spirituality",
     "format": "Scenario",
     "moods": [
@@ -50128,7 +54928,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1334",
+    "id": "b4-fs-1634",
     "topic": "Faith & Spirituality",
     "format": "Hot take",
     "moods": [
@@ -50144,7 +54944,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1335",
+    "id": "b4-fs-1635",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -50160,7 +54960,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1336",
+    "id": "b4-fs-1636",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -50176,7 +54976,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1337",
+    "id": "b4-fs-1637",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -50192,7 +54992,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1338",
+    "id": "b4-fs-1638",
     "topic": "Faith & Spirituality",
     "format": "Quick choice",
     "moods": [
@@ -50208,7 +55008,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1339",
+    "id": "b4-fs-1639",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -50224,7 +55024,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1340",
+    "id": "b4-fs-1640",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -50240,7 +55040,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1341",
+    "id": "b4-fs-1641",
     "topic": "Faith & Spirituality",
     "format": "Scenario",
     "moods": [
@@ -50256,7 +55056,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1342",
+    "id": "b4-fs-1642",
     "topic": "Faith & Spirituality",
     "format": "Hot take",
     "moods": [
@@ -50272,7 +55072,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1343",
+    "id": "b4-fs-1643",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -50288,7 +55088,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1344",
+    "id": "b4-fs-1644",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -50304,7 +55104,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1345",
+    "id": "b4-fs-1645",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -50320,7 +55120,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1346",
+    "id": "b4-fs-1646",
     "topic": "Faith & Spirituality",
     "format": "Quick choice",
     "moods": [
@@ -50336,7 +55136,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1347",
+    "id": "b4-fs-1647",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -50352,7 +55152,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1348",
+    "id": "b4-fs-1648",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -50368,7 +55168,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1349",
+    "id": "b4-fs-1649",
     "topic": "Faith & Spirituality",
     "format": "Scenario",
     "moods": [
@@ -50384,7 +55184,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1350",
+    "id": "b4-fs-1650",
     "topic": "Faith & Spirituality",
     "format": "Hot take",
     "moods": [
@@ -50400,7 +55200,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1351",
+    "id": "b4-fs-1651",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -50416,7 +55216,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1352",
+    "id": "b4-fs-1652",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -50432,7 +55232,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1353",
+    "id": "b4-fs-1653",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -50448,7 +55248,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1354",
+    "id": "b4-fs-1654",
     "topic": "Faith & Spirituality",
     "format": "Quick choice",
     "moods": [
@@ -50464,7 +55264,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1355",
+    "id": "b4-fs-1655",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -50480,7 +55280,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1356",
+    "id": "b4-fs-1656",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -50496,7 +55296,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1357",
+    "id": "b4-fs-1657",
     "topic": "Faith & Spirituality",
     "format": "Scenario",
     "moods": [
@@ -50512,7 +55312,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1358",
+    "id": "b4-fs-1658",
     "topic": "Faith & Spirituality",
     "format": "Hot take",
     "moods": [
@@ -50528,7 +55328,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1359",
+    "id": "b4-fs-1659",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -50544,7 +55344,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1360",
+    "id": "b4-fs-1660",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -50560,7 +55360,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1361",
+    "id": "b4-fs-1661",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -50576,7 +55376,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1362",
+    "id": "b4-fs-1662",
     "topic": "Faith & Spirituality",
     "format": "Quick choice",
     "moods": [
@@ -50592,7 +55392,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1363",
+    "id": "b4-fs-1663",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -50608,7 +55408,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1364",
+    "id": "b4-fs-1664",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -50624,7 +55424,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1365",
+    "id": "b4-fs-1665",
     "topic": "Faith & Spirituality",
     "format": "Scenario",
     "moods": [
@@ -50640,7 +55440,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1366",
+    "id": "b4-fs-1666",
     "topic": "Faith & Spirituality",
     "format": "Hot take",
     "moods": [
@@ -50656,7 +55456,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1367",
+    "id": "b4-fs-1667",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -50672,7 +55472,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1368",
+    "id": "b4-fs-1668",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -50688,7 +55488,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1369",
+    "id": "b4-fs-1669",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -50704,7 +55504,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1370",
+    "id": "b4-fs-1670",
     "topic": "Faith & Spirituality",
     "format": "Quick choice",
     "moods": [
@@ -50720,7 +55520,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1371",
+    "id": "b4-fs-1671",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -50736,7 +55536,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1372",
+    "id": "b4-fs-1672",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -50752,7 +55552,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1373",
+    "id": "b4-fs-1673",
     "topic": "Faith & Spirituality",
     "format": "Scenario",
     "moods": [
@@ -50768,7 +55568,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1374",
+    "id": "b4-fs-1674",
     "topic": "Faith & Spirituality",
     "format": "Hot take",
     "moods": [
@@ -50784,7 +55584,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1375",
+    "id": "b4-fs-1675",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -50800,7 +55600,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1376",
+    "id": "b4-fs-1676",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -50816,7 +55616,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1377",
+    "id": "b4-fs-1677",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -50832,7 +55632,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1378",
+    "id": "b4-fs-1678",
     "topic": "Faith & Spirituality",
     "format": "Quick choice",
     "moods": [
@@ -50848,7 +55648,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1379",
+    "id": "b4-fs-1679",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -50864,7 +55664,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1380",
+    "id": "b4-fs-1680",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -50880,7 +55680,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1381",
+    "id": "b4-fs-1681",
     "topic": "Faith & Spirituality",
     "format": "Scenario",
     "moods": [
@@ -50896,7 +55696,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1382",
+    "id": "b4-fs-1682",
     "topic": "Faith & Spirituality",
     "format": "Hot take",
     "moods": [
@@ -50912,7 +55712,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1383",
+    "id": "b4-fs-1683",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -50928,7 +55728,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1384",
+    "id": "b4-fs-1684",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -50944,7 +55744,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1385",
+    "id": "b4-fs-1685",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -50960,7 +55760,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1386",
+    "id": "b4-fs-1686",
     "topic": "Faith & Spirituality",
     "format": "Quick choice",
     "moods": [
@@ -50976,7 +55776,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1387",
+    "id": "b4-fs-1687",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -50992,7 +55792,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1388",
+    "id": "b4-fs-1688",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -51008,7 +55808,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1389",
+    "id": "b4-fs-1689",
     "topic": "Faith & Spirituality",
     "format": "Scenario",
     "moods": [
@@ -51024,7 +55824,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1390",
+    "id": "b4-fs-1690",
     "topic": "Faith & Spirituality",
     "format": "Hot take",
     "moods": [
@@ -51040,7 +55840,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1391",
+    "id": "b4-fs-1691",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -51056,7 +55856,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1392",
+    "id": "b4-fs-1692",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -51072,7 +55872,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1393",
+    "id": "b4-fs-1693",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -51088,7 +55888,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1394",
+    "id": "b4-fs-1694",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -51104,7 +55904,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1395",
+    "id": "b4-fs-1695",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -51120,7 +55920,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1396",
+    "id": "b4-fs-1696",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -51136,7 +55936,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1397",
+    "id": "b4-fs-1697",
     "topic": "Faith & Spirituality",
     "format": "Hot take",
     "moods": [
@@ -51152,7 +55952,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1398",
+    "id": "b4-fs-1698",
     "topic": "Faith & Spirituality",
     "format": "Scenario",
     "moods": [
@@ -51168,7 +55968,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1399",
+    "id": "b4-fs-1699",
     "topic": "Faith & Spirituality",
     "format": "Quick choice",
     "moods": [
@@ -51184,7 +55984,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1400",
+    "id": "b4-fs-1700",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -51200,7 +56000,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1401",
+    "id": "b4-fs-1701",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -51216,7 +56016,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1402",
+    "id": "b4-fs-1702",
     "topic": "Faith & Spirituality",
     "format": "Hot take",
     "moods": [
@@ -51232,7 +56032,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1403",
+    "id": "b4-fs-1703",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -51248,7 +56048,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1404",
+    "id": "b4-fs-1704",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -51264,7 +56064,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1405",
+    "id": "b4-fs-1705",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -51280,7 +56080,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1406",
+    "id": "b4-fs-1706",
     "topic": "Faith & Spirituality",
     "format": "Quick choice",
     "moods": [
@@ -51296,7 +56096,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1407",
+    "id": "b4-fs-1707",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -51312,7 +56112,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1408",
+    "id": "b4-fs-1708",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -51328,7 +56128,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1409",
+    "id": "b4-fs-1709",
     "topic": "Faith & Spirituality",
     "format": "Scenario",
     "moods": [
@@ -51344,7 +56144,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1410",
+    "id": "b4-fs-1710",
     "topic": "Faith & Spirituality",
     "format": "Hot take",
     "moods": [
@@ -51360,7 +56160,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1411",
+    "id": "b4-fs-1711",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -51376,7 +56176,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1412",
+    "id": "b4-fs-1712",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -51392,7 +56192,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1413",
+    "id": "b4-fs-1713",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -51408,7 +56208,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1414",
+    "id": "b4-fs-1714",
     "topic": "Faith & Spirituality",
     "format": "Quick choice",
     "moods": [
@@ -51424,7 +56224,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1415",
+    "id": "b4-fs-1715",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -51440,7 +56240,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1416",
+    "id": "b4-fs-1716",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -51456,7 +56256,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1417",
+    "id": "b4-fs-1717",
     "topic": "Faith & Spirituality",
     "format": "Scenario",
     "moods": [
@@ -51472,7 +56272,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1418",
+    "id": "b4-fs-1718",
     "topic": "Faith & Spirituality",
     "format": "Hot take",
     "moods": [
@@ -51488,7 +56288,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1419",
+    "id": "b4-fs-1719",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -51504,7 +56304,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1420",
+    "id": "b4-fs-1720",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -51520,7 +56320,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1421",
+    "id": "b4-fs-1721",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -51536,7 +56336,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1422",
+    "id": "b4-fs-1722",
     "topic": "Faith & Spirituality",
     "format": "Quick choice",
     "moods": [
@@ -51552,7 +56352,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1423",
+    "id": "b4-fs-1723",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -51568,7 +56368,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1424",
+    "id": "b4-fs-1724",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -51584,7 +56384,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1425",
+    "id": "b4-fs-1725",
     "topic": "Faith & Spirituality",
     "format": "Scenario",
     "moods": [
@@ -51600,7 +56400,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1426",
+    "id": "b4-fs-1726",
     "topic": "Faith & Spirituality",
     "format": "Hot take",
     "moods": [
@@ -51616,7 +56416,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1427",
+    "id": "b4-fs-1727",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -51632,7 +56432,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1428",
+    "id": "b4-fs-1728",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -51648,7 +56448,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1429",
+    "id": "b4-fs-1729",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -51664,7 +56464,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1430",
+    "id": "b4-fs-1730",
     "topic": "Faith & Spirituality",
     "format": "Quick choice",
     "moods": [
@@ -51680,7 +56480,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1431",
+    "id": "b4-fs-1731",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -51696,7 +56496,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1432",
+    "id": "b4-fs-1732",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -51712,7 +56512,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1433",
+    "id": "b4-fs-1733",
     "topic": "Faith & Spirituality",
     "format": "Scenario",
     "moods": [
@@ -51728,7 +56528,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1434",
+    "id": "b4-fs-1734",
     "topic": "Faith & Spirituality",
     "format": "Hot take",
     "moods": [
@@ -51744,7 +56544,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1435",
+    "id": "b4-fs-1735",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -51760,7 +56560,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1436",
+    "id": "b4-fs-1736",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -51776,7 +56576,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1437",
+    "id": "b4-fs-1737",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -51792,7 +56592,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1438",
+    "id": "b4-fs-1738",
     "topic": "Faith & Spirituality",
     "format": "Quick choice",
     "moods": [
@@ -51808,7 +56608,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1439",
+    "id": "b4-fs-1739",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -51824,7 +56624,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1440",
+    "id": "b4-fs-1740",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -51840,7 +56640,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1441",
+    "id": "b4-fs-1741",
     "topic": "Faith & Spirituality",
     "format": "Scenario",
     "moods": [
@@ -51856,7 +56656,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1442",
+    "id": "b4-fs-1742",
     "topic": "Faith & Spirituality",
     "format": "Hot take",
     "moods": [
@@ -51872,7 +56672,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1443",
+    "id": "b4-fs-1743",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -51888,7 +56688,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1444",
+    "id": "b4-fs-1744",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -51904,7 +56704,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1445",
+    "id": "b4-fs-1745",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -51920,7 +56720,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1446",
+    "id": "b4-fs-1746",
     "topic": "Faith & Spirituality",
     "format": "Quick choice",
     "moods": [
@@ -51936,7 +56736,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1447",
+    "id": "b4-fs-1747",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -51952,7 +56752,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1448",
+    "id": "b4-fs-1748",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -51968,7 +56768,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1449",
+    "id": "b4-fs-1749",
     "topic": "Faith & Spirituality",
     "format": "Scenario",
     "moods": [
@@ -51984,7 +56784,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1450",
+    "id": "b4-fs-1750",
     "topic": "Faith & Spirituality",
     "format": "Hot take",
     "moods": [
@@ -52000,7 +56800,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1451",
+    "id": "b4-fs-1751",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -52016,7 +56816,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1452",
+    "id": "b4-fs-1752",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -52032,7 +56832,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1453",
+    "id": "b4-fs-1753",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -52048,7 +56848,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1454",
+    "id": "b4-fs-1754",
     "topic": "Faith & Spirituality",
     "format": "Quick choice",
     "moods": [
@@ -52064,7 +56864,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1455",
+    "id": "b4-fs-1755",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -52080,7 +56880,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1456",
+    "id": "b4-fs-1756",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -52096,7 +56896,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1457",
+    "id": "b4-fs-1757",
     "topic": "Faith & Spirituality",
     "format": "Scenario",
     "moods": [
@@ -52112,7 +56912,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1458",
+    "id": "b4-fs-1758",
     "topic": "Faith & Spirituality",
     "format": "Hot take",
     "moods": [
@@ -52128,7 +56928,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1459",
+    "id": "b4-fs-1759",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -52144,7 +56944,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1460",
+    "id": "b4-fs-1760",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -52160,7 +56960,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1461",
+    "id": "b4-fs-1761",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -52176,7 +56976,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1462",
+    "id": "b4-fs-1762",
     "topic": "Faith & Spirituality",
     "format": "Quick choice",
     "moods": [
@@ -52192,7 +56992,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1463",
+    "id": "b4-fs-1763",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -52208,7 +57008,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1464",
+    "id": "b4-fs-1764",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -52224,7 +57024,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1465",
+    "id": "b4-fs-1765",
     "topic": "Faith & Spirituality",
     "format": "Scenario",
     "moods": [
@@ -52240,7 +57040,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1466",
+    "id": "b4-fs-1766",
     "topic": "Faith & Spirituality",
     "format": "Hot take",
     "moods": [
@@ -52256,7 +57056,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1467",
+    "id": "b4-fs-1767",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -52272,7 +57072,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1468",
+    "id": "b4-fs-1768",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -52288,7 +57088,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1469",
+    "id": "b4-fs-1769",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -52304,7 +57104,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1470",
+    "id": "b4-fs-1770",
     "topic": "Faith & Spirituality",
     "format": "Quick choice",
     "moods": [
@@ -52320,7 +57120,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1471",
+    "id": "b4-fs-1771",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -52336,7 +57136,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1472",
+    "id": "b4-fs-1772",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -52352,7 +57152,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1473",
+    "id": "b4-fs-1773",
     "topic": "Faith & Spirituality",
     "format": "Scenario",
     "moods": [
@@ -52368,7 +57168,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1474",
+    "id": "b4-fs-1774",
     "topic": "Faith & Spirituality",
     "format": "Hot take",
     "moods": [
@@ -52384,7 +57184,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1475",
+    "id": "b4-fs-1775",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -52400,7 +57200,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1476",
+    "id": "b4-fs-1776",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -52416,7 +57216,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1477",
+    "id": "b4-fs-1777",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -52432,7 +57232,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1478",
+    "id": "b4-fs-1778",
     "topic": "Faith & Spirituality",
     "format": "Quick choice",
     "moods": [
@@ -52448,7 +57248,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1479",
+    "id": "b4-fs-1779",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -52464,7 +57264,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1480",
+    "id": "b4-fs-1780",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -52480,7 +57280,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1481",
+    "id": "b4-fs-1781",
     "topic": "Faith & Spirituality",
     "format": "Scenario",
     "moods": [
@@ -52496,7 +57296,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1482",
+    "id": "b4-fs-1782",
     "topic": "Faith & Spirituality",
     "format": "Hot take",
     "moods": [
@@ -52512,7 +57312,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1483",
+    "id": "b4-fs-1783",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -52528,7 +57328,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1484",
+    "id": "b4-fs-1784",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -52544,7 +57344,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1485",
+    "id": "b4-fs-1785",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -52560,7 +57360,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1486",
+    "id": "b4-fs-1786",
     "topic": "Faith & Spirituality",
     "format": "Quick choice",
     "moods": [
@@ -52576,7 +57376,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1487",
+    "id": "b4-fs-1787",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -52592,7 +57392,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1488",
+    "id": "b4-fs-1788",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -52608,7 +57408,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1489",
+    "id": "b4-fs-1789",
     "topic": "Faith & Spirituality",
     "format": "Scenario",
     "moods": [
@@ -52624,7 +57424,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1490",
+    "id": "b4-fs-1790",
     "topic": "Faith & Spirituality",
     "format": "Hot take",
     "moods": [
@@ -52640,7 +57440,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1491",
+    "id": "b4-fs-1791",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -52656,7 +57456,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1492",
+    "id": "b4-fs-1792",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -52672,7 +57472,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1493",
+    "id": "b4-fs-1793",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -52688,7 +57488,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1494",
+    "id": "b4-fs-1794",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -52704,7 +57504,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1495",
+    "id": "b4-fs-1795",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -52720,7 +57520,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1496",
+    "id": "b4-fs-1796",
     "topic": "Faith & Spirituality",
     "format": "Hot take",
     "moods": [
@@ -52736,7 +57536,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1497",
+    "id": "b4-fs-1797",
     "topic": "Faith & Spirituality",
     "format": "Scenario",
     "moods": [
@@ -52752,7 +57552,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1498",
+    "id": "b4-fs-1798",
     "topic": "Faith & Spirituality",
     "format": "Quick choice",
     "moods": [
@@ -52768,7 +57568,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1499",
+    "id": "b4-fs-1799",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [
@@ -52784,7 +57584,7 @@
     "editorialStatus": "approved"
   },
   {
-    "id": "b4-fs-1500",
+    "id": "b4-fs-1800",
     "topic": "Faith & Spirituality",
     "format": "Question",
     "moods": [

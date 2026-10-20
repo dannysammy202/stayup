@@ -11,4 +11,4 @@ await mkdir('dist',{recursive:true});
 await cp('public','dist',{recursive:true,force:true});
 console.log('Say More complete Batch 1 build:',summary.total,'approved starters.');
 console.log('Say More complete Batch 3 build:',summary3.total,'starters (AI author self-review; independent review pending).');
-console.log('Say More complete Batch 4 build:',summary4.total,'starters (Faith & Spirituality x Flirty held; independent review pending).');
+console.log('Say More complete Batch 4 build:',summary4.total,'starters (independent review pending).');

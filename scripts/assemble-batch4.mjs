@@ -1,6 +1,6 @@
 // Assemble Batch 4 from its authored source cells into content/batch4.json, plus editorial evidence and QA.
 // Source: content/batch4-direct/<topic>/<mood>-<audience>.txt, one starter per line with a format code.
-// Faith & Spirituality x Flirty cells are held and must not exist.
+// Held cells (none since the owner approved Faith & Spirituality x Flirty) must not exist.
 // Prerequisite: python3 scripts/audit-batch-similarity.py content/batch4-direct --prior content/batch1.json,content/batch3.json --json content/batch4-audit.json
 // Every similarity candidate in that audit must have a decision in content/batch4-direct/similarity-adjudication.json.
 import fs from 'node:fs';
@@ -60,7 +60,7 @@ fs.writeFileSync('content/batch4-editorial-review.json',JSON.stringify({status:'
  independentReview:'pending',heldCells:[...HELD],humanReviewed:false,rows:evidence},null,2)+'\n');
 const formats=Object.fromEntries(Object.values(FORMATS).map(f=>[f,rows.filter(r=>r.format===f).length]));
 const removals=fs.existsSync(DIR+'removals.json')?read(DIR+'removals.json').removals:[];
-fs.writeFileSync('content/batch4-qa.json',JSON.stringify({status:'passed',scope:'Batch 4 content release gates',heldCells:[...HELD],heldReason:'Flirty is excluded for Faith & Spirituality in the manifest eligibility rules; held pending the product owner decision.',removedBeforeRelease:removals.length,...summary,formats,
+fs.writeFileSync('content/batch4-qa.json',JSON.stringify({status:'passed',scope:'Batch 4 content release gates',heldCells:[...HELD],ownerDecisions:['Faith & Spirituality x Flirty approved by the product owner on 20 Oct 2026, overriding the legacy manifest exclusion for Batch 4.'],removedBeforeRelease:removals.length,...summary,formats,
  contentSha256:hash(JSON.stringify(rows)),duplicateIds:0,duplicateQuestions:0,repeatsOfBatch1:0,repeatsOfBatch3:0,placeholders:0,emDashes:0,unreviewed:0,
  revisions:{logged:revisionCount,passes:revisionFiles.map(f=>f.replace(/\.json$/,''))},
  stemRule:'No four-word opening stem more than eight times in one cell, except the "Tell me about" story-starter frame.',

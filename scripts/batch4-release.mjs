@@ -1,11 +1,11 @@
 // Say More Batch 4 release gate: Random & Hypothetical, Faith & Spirituality, Music.
-// Faith & Spirituality x Flirty is held (not written) pending the product owner's eligibility decision.
+// Faith & Spirituality x Flirty was held, then approved by the product owner on 20 Oct 2026. No cells are held.
 // Mirrors the Batch 1 and Batch 3 gates; lives in its own files so other batches are untouched.
 import fs from 'node:fs';
 import crypto from 'node:crypto';
 export const TOPICS=['Random & Hypothetical','Faith & Spirituality','Music'];
 export const TOPIC_CODES={'Random & Hypothetical':'rh','Faith & Spirituality':'fs','Music':'mu'};
-export const HELD=new Set(['Faith & Spirituality|Flirty']);
+export const HELD=new Set();
 export const isHeld=(t,m)=>HELD.has(t+'|'+m);
 export const MOODS=['Chill','Playful','Curious','Deep','Flirty','Bold'];
 export const AUDIENCES=['Someone new','Friends','Partner'];

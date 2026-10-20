@@ -11,11 +11,11 @@ const state={hidden:[],adult:false,topic:'All topics',mood:'All moods',audience:
 const adult={id:'adult',text:'An adults-only prompt.',adult:true,source:'editorial-original',topic:'Life',moods:['Bold'],audiences:['Partner'],editorialStatus:'approved'};
 const ctx=vm.createContext({PROMPTS:[...batch1,...batch3,...rows,adult],batchReady:true,batch3Ready:true,batch4Ready:true,state});vm.runInContext(source,ctx);
 
-test('Batch 4 has exactly 5,100 unique records in 51 balanced cells, with Faith x Flirty held',()=>{
+test('Batch 4 has exactly 5,400 unique records in 54 balanced cells, including the approved Faith x Flirty cells',()=>{
  const r=validateBatch4(rows,{approved:true,priorTexts:[...batch1,...batch3].map(p=>p.text)});
- assert.equal(r.total,5100);assert.equal(Object.keys(r.cells).length,51);
- assert.deepEqual(r.topics,{'Random & Hypothetical':1800,'Faith & Spirituality':1500,'Music':1800});
- assert.equal(rows.filter(p=>p.topic==='Faith & Spirituality'&&p.moods[0]==='Flirty').length,0);
+ assert.equal(r.total,5400);assert.equal(Object.keys(r.cells).length,54);
+ assert.deepEqual(r.topics,{'Random & Hypothetical':1800,'Faith & Spirituality':1800,'Music':1800});
+ assert.equal(rows.filter(p=>p.topic==='Faith & Spirituality'&&p.moods[0]==='Flirty').length,300);
 });
 test('no Batch 4 text repeats Batch 1 or Batch 3',()=>{
  const prior=new Set([...batch1,...batch3].map(p=>normalise(p.text)));
@@ -28,9 +28,9 @@ test('every live Batch 4 cell returns exactly 100 and held cells return none',()
  Object.assign(state,{topic:'All topics',mood:'All moods',audience:'Anyone'});
 });
 test('Batches 1, 3 and 4 compose without double counting',()=>{
- assert.equal(ctx.filtered().length,15900);
- state.topic='Faith & Spirituality';assert.equal(ctx.filtered().length,1500);state.topic='Music';assert.equal(ctx.filtered().length,1800);state.topic='All topics';
- state.mood='Flirty';assert.equal(ctx.filtered().length,2400);state.mood='All moods';
+ assert.equal(ctx.filtered().length,16200);
+ state.topic='Faith & Spirituality';assert.equal(ctx.filtered().length,1800);state.topic='Music';assert.equal(ctx.filtered().length,1800);state.topic='All topics';
+ state.mood='Flirty';assert.equal(ctx.filtered().length,2700);state.mood='All moods';
 });
 test('Batch 4 fails closed and leaves earlier batches untouched when not ready',()=>{
  ctx.batch4Ready=false;assert.equal(ctx.filtered().length,10800);assert.ok(ctx.inPool().every(p=>p.source!=='batch4-editorial'));ctx.batch4Ready=true;
@@ -41,14 +41,14 @@ test('adult mode never shows Batch 4 everyday content',()=>{
 test('every Batch 4 text matches its evidence, labelled honestly',()=>{
  const review=read('content/batch4-editorial-review.json');
  assert.equal(review.status,'passed');assert.equal(review.humanReviewed,false);assert.equal(review.independentReview,'pending');
- const map=new Map(review.rows.map(r=>[r.id,r]));assert.equal(map.size,5100);
+ const map=new Map(review.rows.map(r=>[r.id,r]));assert.equal(map.size,5400);
  for(const p of rows){const r=map.get(p.id);assert.equal(r.textHash,hash(p.text));assert.equal(r.decision,'approve');assert.equal(r.humanReviewed,false);assert.equal(r.independentReviewer,null);}
 });
 test('QA fingerprint matches and every similarity candidate is resolved',()=>{
  const qa=read('content/batch4-qa.json');
  assert.equal(qa.status,'passed');assert.equal(qa.contentSha256,hash(JSON.stringify(rows)));
  assert.equal(qa.similarity.unresolved,0);assert.equal(qa.similarity.candidates,qa.similarity.decisions.length);
- assert.deepEqual(qa.heldCells,['Faith & Spirituality|Flirty']);
+ assert.deepEqual(qa.heldCells,[]);
 });
 test('the app and offline cache load Batch 4 after Batch 3',()=>{
  assert.match(html,/<script src="\/batch3-data.js"><\/script><script src="\/batch4-data.js"><\/script>/);

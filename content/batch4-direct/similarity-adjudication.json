@@ -9710,6 +9710,396 @@
    "decision": "distinct",
    "reason": "Read individually after the rewrite passes: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
    "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/chill-partner:76",
+   "b": "faith-spirituality/flirty-partner:13",
+   "textHashA": "4e0065c8e2ae9d7a680766b5f910b7aaafd9419f4f32b6915e6898fc3c85c789",
+   "textHashB": "ad63f224f02414c31e78befd8054f739d9b7d91afe074ad38f77c6f9339a54e9",
+   "score": 0.6154,
+   "decision": "distinct",
+   "reason": "Read individually after the Faith x Flirty rewrite pass: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-partner:42",
+   "b": "b1-lb-0851",
+   "textHashA": "19839afe136daa81640d18eea5ffc68887080869512d036c2b54fa17127e983d",
+   "textHashB": "4064c7881b1b4eee341fbadca648402401043a8333e2f40de2d0d7089bbd0a60",
+   "score": 0.5714,
+   "decision": "distinct",
+   "reason": "Read individually after the Faith x Flirty rewrite pass: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-partner:4",
+   "b": "faith-spirituality/flirty-someone-new:48",
+   "textHashA": "7a4c966d8a1dccd6f54023b337b031300f7f54107ff913a3c5ad0ae0d7d3b5b8",
+   "textHashB": "9be31eda07f115b4b5db864c65a515fa84d2c31bc9c5d7b827c28def0fbf07c5",
+   "score": 0.5696,
+   "decision": "distinct",
+   "reason": "Read individually after the Faith x Flirty rewrite pass: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-friends:8",
+   "b": "b3-pe-1345",
+   "textHashA": "f05e224367dd84825ed7947183f7a31fefaa6cbe46ce33e535d01c885266087a",
+   "textHashB": "6e98dbb7758b062b39ead3be39174656a0c75841b3c4360d056a2134ec943576",
+   "score": 0.551,
+   "decision": "distinct",
+   "reason": "Read individually after the Faith x Flirty rewrite pass: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-partner:72",
+   "b": "b1-rb-0537",
+   "textHashA": "77b051927d875cafab4153437ef4d6600afaf8d521586d02386bfbf84b043e05",
+   "textHashB": "cb37625eaf0134e332702c34bb086d282b9f79fce2863a492308aa0104f12805",
+   "score": 0.5386,
+   "decision": "distinct",
+   "reason": "Read individually after the Faith x Flirty rewrite pass: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-friends:18",
+   "b": "b3-pe-1309",
+   "textHashA": "547d94bd4cde6a0f4f95c62729a0d2430ae16791e683833ef951312d80c9b982",
+   "textHashB": "eb9c906347bfaa64c88c45baabdc3fe762824e57989d8f7e5cb5f230ceda27b0",
+   "score": 0.527,
+   "decision": "distinct",
+   "reason": "Read individually after the Faith x Flirty rewrite pass: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/chill-friends:38",
+   "b": "faith-spirituality/flirty-someone-new:22",
+   "textHashA": "5ddefefdb1e42a5dbe99de89d3ff6a7298f1e9c95dd63c5deb0bde90a465c975",
+   "textHashB": "d0fd0cebb1d441972848b639472c038041a463ce593a7873c4aacdcf904f257a",
+   "score": 0.522,
+   "decision": "distinct",
+   "reason": "Read individually after the Faith x Flirty rewrite pass: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-friends:91",
+   "b": "b3-fa-1207",
+   "textHashA": "31465b3ec106748f0afa04b5a0c8321fa3f03634c78b56f9d872e7e0c1eef65c",
+   "textHashB": "57d46c4de073dd64f1213b298d9ac2dca48cdb6bfc8d7a7cc93813486d342e98",
+   "score": 0.5187,
+   "decision": "distinct",
+   "reason": "Read individually after the Faith x Flirty rewrite pass: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/chill-friends:67",
+   "b": "faith-spirituality/flirty-someone-new:29",
+   "textHashA": "fdaeb4857854eb8e2e0b74178acca21d37a63c3fdbacd73ce1d290ca6d45d628",
+   "textHashB": "a5c6d548455fe58f32fe7e65e2b635150137a0964ba4e0e49d38e9f0ebeb0c1a",
+   "score": 0.5177,
+   "decision": "distinct",
+   "reason": "Read individually after the Faith x Flirty rewrite pass: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-partner:21",
+   "b": "b3-pe-0988",
+   "textHashA": "5de71e3e7da2180c52859138ea54fa7c501bcd99b33f244b26d495a3c4532382",
+   "textHashB": "cb610a1d309f29e2684561f701c8552a85738175bfdfa27b82ea9eb07e4c067c",
+   "score": 0.5128,
+   "decision": "distinct",
+   "reason": "Read individually after the Faith x Flirty rewrite pass: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-someone-new:76",
+   "b": "b3-pe-0065",
+   "textHashA": "0fc0e969e56a58adea015567c08a2dd9854a2e518b1af2a2274e821197b59eb0",
+   "textHashB": "bc4b841cad33e6238be30ec25a467612ce4b1d7b2b278e3d245c7f5e26bcd915",
+   "score": 0.5085,
+   "decision": "distinct",
+   "reason": "Read individually after the Faith x Flirty rewrite pass: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/chill-friends:36",
+   "b": "faith-spirituality/flirty-someone-new:74",
+   "textHashA": "2fcd320ddfbf4b673af26e09d1291442f2a9a9a2efc5c5903096892a58a357c2",
+   "textHashB": "8e62bf2483fb35c9a359b21bcea0572f798515f7b5ab51129b993aa423b9789b",
+   "score": 0.5076,
+   "decision": "distinct",
+   "reason": "Read individually after the Faith x Flirty rewrite pass: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-friends:15",
+   "b": "b3-fa-1333",
+   "textHashA": "67c6fdd7a8b8a53d9c5c0cabffdf12f8231ddd64124e33c41bda0a679e752ba0",
+   "textHashB": "035b255d444b866023938ef4d8c68fea4060aca102c88a136664d9e7d43d83a8",
+   "score": 0.5066,
+   "decision": "distinct",
+   "reason": "Read individually after the Faith x Flirty rewrite pass: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-someone-new:33",
+   "b": "b3-fa-1126",
+   "textHashA": "05e80c57f3dad419de3c0bf5cb6aac29de8b34c0bbd653e81b354e29e8cb0e2d",
+   "textHashB": "1d619260b4b22157ef4638278f694f4691581a2cd904c8bf40a50b21accd4c66",
+   "score": 0.506,
+   "decision": "distinct",
+   "reason": "Read individually after the Faith x Flirty rewrite pass: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "music/deep-friends:69",
+   "b": "music/flirty-someone-new:83",
+   "textHashA": "1c884ee43ca8ff1c07039099b17fe534b96b3bcb7b65c7261997859b6c5b0338",
+   "textHashB": "f3d1cc0cb8258163264db4519c33faac448b241ab36a1fd6c05a5133130f92e4",
+   "score": 0.5053,
+   "decision": "distinct",
+   "reason": "Read individually after the Faith x Flirty rewrite pass: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "music/deep-someone-new:92",
+   "b": "music/deep-friends:69",
+   "textHashA": "a9bc3cf4197e2949a3b42c2a936c0510551d44e140ed934ccb2267e51d01788e",
+   "textHashB": "1c884ee43ca8ff1c07039099b17fe534b96b3bcb7b65c7261997859b6c5b0338",
+   "score": 0.5052,
+   "decision": "distinct",
+   "reason": "Read individually after the Faith x Flirty rewrite pass: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-friends:16",
+   "b": "b3-cu-1304",
+   "textHashA": "44887da284db2060508b3c2e07fd80528c13f7ab787e12a86247e1ebd34eb301",
+   "textHashB": "7bbd1626d6460bbb2de0eaba89bb29db27029397450b38d70191bec2fa1568c9",
+   "score": 0.504,
+   "decision": "distinct",
+   "reason": "Read individually after the Faith x Flirty rewrite pass: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-friends:29",
+   "b": "b3-pe-1370",
+   "textHashA": "ca75a669a5e2f9fc738c5efad6684975f575a79e8a2ad285ce5840fa4689bb99",
+   "textHashB": "8a2c9aaa6c6fcac6164c8088f5067cd9f950937af0a6c2783b10442554245184",
+   "score": 0.4996,
+   "decision": "distinct",
+   "reason": "Read individually after the Faith x Flirty rewrite pass: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-friends:50",
+   "b": "b3-fa-1326",
+   "textHashA": "c457346f3b57a412c01a473fb82e9b26ed8d07eb9af942a0ecb2ae96106dc0b5",
+   "textHashB": "4dc0a3d2aa635ae9b1394bf096f0406d13bde0d1f5f4c4bae6df7519945c64f9",
+   "score": 0.4982,
+   "decision": "distinct",
+   "reason": "Read individually after the Faith x Flirty rewrite pass: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-friends:8",
+   "b": "b3-pe-0036",
+   "textHashA": "f05e224367dd84825ed7947183f7a31fefaa6cbe46ce33e535d01c885266087a",
+   "textHashB": "462be80d554f6bad34e1eea3f8cf8355b807fecc01ffc785a3f4686025581d5f",
+   "score": 0.4886,
+   "decision": "distinct",
+   "reason": "Read individually after the Faith x Flirty rewrite pass: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-friends:27",
+   "b": "b3-pe-1428",
+   "textHashA": "61451c4d9314e2ec885fe7bd5e4551ffc1186966dfb7cd07d40868e8623e9ad5",
+   "textHashB": "1eb21dd47bcebd0eb2f3e13531454633eda2142b81420ead31bce180c9618249",
+   "score": 0.4884,
+   "decision": "distinct",
+   "reason": "Read individually after the Faith x Flirty rewrite pass: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-friends:2",
+   "b": "b3-fa-1349",
+   "textHashA": "7db04ae620efb5446843e5454dfefbd5c1acd8fbaf5920e92c1bf87d570eb23c",
+   "textHashB": "68a57c569e8763c829893a96fe18038f50ce405c01103e00b3509fd74add2f90",
+   "score": 0.4856,
+   "decision": "distinct",
+   "reason": "Read individually after the Faith x Flirty rewrite pass: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-partner:71",
+   "b": "b3-pe-1693",
+   "textHashA": "1ff0027c147e8839e97fed99e4ea257de82241e9404d9f7fcb1930dbc1161cfc",
+   "textHashB": "44277b680925f269bb1f4e078bf2488714ec7992c36a51806a97be3eb81e767b",
+   "score": 0.4836,
+   "decision": "distinct",
+   "reason": "Read individually after the Faith x Flirty rewrite pass: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-someone-new:96",
+   "b": "music/curious-partner:9",
+   "textHashA": "ea4d2578acdbb9380df20d47d3007b6136893c3940bf6a477fadf17ae5211e81",
+   "textHashB": "55c4e0a02cc2c9a2c97409fc9ede9cff134c59514c867ec3cf37e754da964b29",
+   "score": 0.4798,
+   "decision": "distinct",
+   "reason": "Read individually after the Faith x Flirty rewrite pass: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-partner:88",
+   "b": "b1-fa-chill-partner-047",
+   "textHashA": "daa419ceb927d2354c4b304b1807dc894713e384ef6a226ba697790d45af0ad0",
+   "textHashB": "d69116562a4d393c21115ad16d64383dd355ae29c5b2eda9d233053310ce8ac0",
+   "score": 0.4795,
+   "decision": "distinct",
+   "reason": "Read individually after the Faith x Flirty rewrite pass: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/chill-partner:8",
+   "b": "faith-spirituality/flirty-someone-new:90",
+   "textHashA": "c980370dd2488bb5503b905633f383939b41194e3e2d9a121ba82c73186fa77a",
+   "textHashB": "b818e2c722e70f6dcec200451efb2603aac2c3d544f8998d15c9f81fa403aa79",
+   "score": 0.4794,
+   "decision": "distinct",
+   "reason": "Read individually after the Faith x Flirty rewrite pass: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-friends:86",
+   "b": "b3-pe-1348",
+   "textHashA": "8a4524c0d2e96c860da2b5fb2a15be9e2fc9cd560144f4012c01b4b8cd197daa",
+   "textHashB": "f7f69c6d5138866cf142ac979b8dd11e66754e9c7f9b4752cec566c472c73a22",
+   "score": 0.4723,
+   "decision": "distinct",
+   "reason": "Read individually after the Faith x Flirty rewrite pass: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/bold-partner:57",
+   "b": "faith-spirituality/flirty-partner:13",
+   "textHashA": "50c03620c502a45396e320fcfedc366d07375184fe18e4ebe069a0b4ddf0eddd",
+   "textHashB": "ad63f224f02414c31e78befd8054f739d9b7d91afe074ad38f77c6f9339a54e9",
+   "score": 0.4707,
+   "decision": "distinct",
+   "reason": "Read individually after the Faith x Flirty rewrite pass: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-partner:55",
+   "b": "random-hypothetical/deep-partner:21",
+   "textHashA": "fc160e9d7549c778e0cbaa99c3d874b03333220ef60cb210184916c2da6e8814",
+   "textHashB": "f5078edd0fbd8bf5fc292acab56fa5227d1acbce795bc7ec32fe83085766d6b4",
+   "score": 0.4705,
+   "decision": "distinct",
+   "reason": "Read individually after the Faith x Flirty rewrite pass: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-friends:5",
+   "b": "b3-fa-1349",
+   "textHashA": "ec95d1267ac1d8a7717369d470d530f64af68123286b680b1e56ff9dde671215",
+   "textHashB": "68a57c569e8763c829893a96fe18038f50ce405c01103e00b3509fd74add2f90",
+   "score": 0.4669,
+   "decision": "distinct",
+   "reason": "Read individually after the Faith x Flirty rewrite pass: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "music/flirty-someone-new:71",
+   "b": "random-hypothetical/flirty-partner:86",
+   "textHashA": "68c2e8386348cd61b17edfe91943549d639829d3b74e882fff18722732589724",
+   "textHashB": "730eb501cb4de776f5491d0192fd03ab2b691e1695e9a906ac92c4168f38ed69",
+   "score": 0.4617,
+   "decision": "distinct",
+   "reason": "Read individually after the Faith x Flirty rewrite pass: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/bold-friends:37",
+   "b": "faith-spirituality/deep-friends:20",
+   "textHashA": "5dacb3b96209d643776a70d04091a090378beab899a5cda9652f29bcb36fc0a3",
+   "textHashB": "441430bdabb1bc5ec7dd0afd75dbecf53906214598580c3a6958ab27fdfd0864",
+   "score": 0.4613,
+   "decision": "distinct",
+   "reason": "Read individually after the Faith x Flirty rewrite pass: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/chill-someone-new:19",
+   "b": "b1-ra-0233",
+   "textHashA": "49410ebe00a205c1e7381a4fd2fb8bda52828bdb9e0720bdf2d1eeffa27fe93f",
+   "textHashB": "720a7a5705d73af4fd756de769f2780299a564c67bd47eeae6b138985ad8cba4",
+   "score": 0.4613,
+   "decision": "distinct",
+   "reason": "Read individually after the Faith x Flirty rewrite pass: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "music/flirty-friends:22",
+   "b": "music/flirty-friends:88",
+   "textHashA": "2ba0a62f1efc0cefca6dc264f595794d9ab3be7b4978234f4cd3bc5b6684596e",
+   "textHashB": "3ecdcb15b65ddcf8eff3b08cf3b268912b9ec477381aa1fe63dc47c8568cfc7f",
+   "score": 0.4611,
+   "decision": "distinct",
+   "reason": "Read individually after the Faith x Flirty rewrite pass: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-partner:71",
+   "b": "b3-cu-1430",
+   "textHashA": "1ff0027c147e8839e97fed99e4ea257de82241e9404d9f7fcb1930dbc1161cfc",
+   "textHashB": "4c52493ba2d26c306dde4c88771837c4b425dc51230874adde3fd26ac42e7dbb",
+   "score": 0.461,
+   "decision": "distinct",
+   "reason": "Read individually after the Faith x Flirty rewrite pass: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "music/playful-someone-new:91",
+   "b": "b3-pe-1575",
+   "textHashA": "a2a06cc8084cbc2824d74c70da406c538e32da4ff09cc8f5a4a751003a605f21",
+   "textHashB": "6c984a7846628852fd038900fbcb460660625ac76802cb0eab7f82ca64b47506",
+   "score": 0.4607,
+   "decision": "distinct",
+   "reason": "Read individually after the Faith x Flirty rewrite pass: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/flirty-someone-new:81",
+   "b": "random-hypothetical/flirty-someone-new:39",
+   "textHashA": "dcdf10f2f7dbc30a0abc04616c9771ab7772141d41ebf79b264be043d28f8c3c",
+   "textHashB": "449cf76c27532a66c9f6233ba7bb81bf1ecdf8e282558b05d6be4e424ff0b70d",
+   "score": 0.4606,
+   "decision": "distinct",
+   "reason": "Read individually after the Faith x Flirty rewrite pass: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "faith-spirituality/deep-someone-new:41",
+   "b": "b3-pe-1165",
+   "textHashA": "c032056e3f0f4d60f6f488ced978a2bb38b1eba8aecda02ae4b8d70d1169d6e6",
+   "textHashB": "8f910ca6d55d9c0f3ea2e818261ecbf8c90f80afdcb5f0c43757f831a0c7a478",
+   "score": 0.4603,
+   "decision": "distinct",
+   "reason": "Read individually after the Faith x Flirty rewrite pass: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "a": "music/flirty-partner:71",
+   "b": "b3-pe-1479",
+   "textHashA": "3239c0562dd745fd49990a4750fa8d01f5cb3470aa35385fa378c4d19268e97f",
+   "textHashB": "1f30c7ed62c3c4eea210e718c9281ce56b763445770e17c2b5b81e29da9f5ccd",
+   "score": 0.4601,
+   "decision": "distinct",
+   "reason": "Read individually after the Faith x Flirty rewrite pass: the pair shares vocabulary or a sentence frame but asks about a different subject, audience relationship or angle, so both are kept.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
   }
  ]
 }

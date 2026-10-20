@@ -1,0 +1,209 @@
+{
+ "pass": "07-faith-flirty-similarity",
+ "method": "New Faith & Spirituality x Flirty cells screened against Batches 1, 3 and 4; same-premise lines rewritten; stem-repetition limit re-checked",
+ "revisions": [
+  {
+   "ref": "faith-spirituality/flirty-partner:60",
+   "old": "Which moment together felt almost sacred to you?",
+   "new": "Q Which ordinary moment with me would you call a small blessing?",
+   "reason": "Same premise as Faith Deep Friends 'moment that felt sacred'.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:30",
+   "old": "When do you feel most at peace with me?",
+   "new": "Q Where would you take me if you wanted us both to slow down and breathe?",
+   "reason": "Same premise as Faith Deep Partner 'at peace beside me'.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:9",
+   "old": "Which festival outfit of mine do you secretly love the most?",
+   "new": "Q Which colour do you love seeing me wear to celebrations?",
+   "reason": "Same premise as Faith Playful Partner festival outfit question.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:25",
+   "old": "Is there a festival song that always puts you in a flirty mood?",
+   "new": "Q Is there a festival or wedding song that always gets you dancing a little closer to someone?",
+   "reason": "Near-repeat of Batch 3 Culture flirty song question.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:75",
+   "old": "Tell me about the most peaceful moment we've ever shared.",
+   "new": "T Tell me about a quiet evening with me that you still think about.",
+   "reason": "Near-repeat of Faith Chill Friends 'most peaceful moment'.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:7",
+   "old": "Tell me about the first time you felt grateful just for having me around.",
+   "new": "T Tell me about a day you felt thankful for me before I'd even said a word.",
+   "reason": "Close to Faith Chill Someone new gratitude story starter.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:91",
+   "old": "How do I make you feel more like yourself?",
+   "new": "Q Which part of your spirit feels most alive when we're together?",
+   "reason": "Same premise as Batch 3 'feel most like yourself with me'.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:93",
+   "old": "What's your favourite way I say I love you without words?",
+   "new": "Q What look of mine across a room tells you everything?",
+   "reason": "Shares the 'say I love you without words' premise with Music Flirty Partner.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:59",
+   "old": "What do you think our grandparents would say about us as a couple?",
+   "new": "Q Which elder's love story would you most like ours to resemble?",
+   "reason": "Same premise as Batch 3 Culture grandparents question.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:12",
+   "old": "What's the most romantic tradition you'd love us to start?",
+   "new": "Q Which new festival ritual should become just ours?",
+   "reason": "Same premise as Batch 3 Culture 'tradition you'd love to start'.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:64",
+   "old": "Do you think we were meant to find each other when we did?",
+   "new": "S A child at a wedding asks how we knew we were in love. What do you tell them?",
+   "reason": "Repeated the 'meant to be' premise of line 4 in the same cell.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:18",
+   "old": "What's one tradition you'd love to share with someone you're getting to know?",
+   "new": "Q Which of your traditions would you be secretly delighted to teach me?",
+   "reason": "Near-repeat of Batch 3 Culture tradition-sharing question.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:35",
+   "old": "Is there a love story from your faith or culture that reminds you of us?",
+   "new": "Q Which couple from scripture, legend or folklore do you think we're most like?",
+   "reason": "Overlapped the Someone new love-story question.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:82",
+   "old": "Which of us has the most charming way of talking to elders?",
+   "new": "Q Which of us keeps it the most respectful when flirting at a community event?",
+   "reason": "Close to Batch 3 'most charming way of talking' and line 31.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:88",
+   "old": "When do you feel most proud to be with me?",
+   "new": "Q When do you most enjoy showing me off at a gathering?",
+   "reason": "Generic 'proud' frame matched several earlier lines.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:57",
+   "old": "What would you light a candle for tonight?",
+   "new": "Q Do you think a good laugh is a kind of blessing?",
+   "reason": "Repeated the candle-wish premise in Flirty Partner.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:5",
+   "old": "Meet your future partner at a festival or at a friend's wedding?",
+   "new": "C Meet your future partner in the choir or at the community cook-out?",
+   "reason": "Near-repeat of Music Flirty Friends wedding/festival choice.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:51",
+   "old": "Who has the best story about meeting someone during a festival season?",
+   "new": "T Tell me about the most unexpected festival-season romance in our circle.",
+   "reason": "Close to Batch 3 'best story about meeting someone'.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:20",
+   "old": "Which of our shared traditions makes you feel closest to me?",
+   "new": "Q Which of our shared traditions would you miss most if we skipped it?",
+   "reason": "Overlapped Faith Curious Partner 'feel closest to me'.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:37",
+   "old": "What's one sacred or special place you'd love to visit with me?",
+   "new": "Q If we went on a pilgrimage or retreat together, where would you want us to go?",
+   "reason": "Same premise as Faith Chill Partner 'place you'd like to visit with me'.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:30",
+   "old": "Hold hands during a candle ceremony or share a lantern at a festival?",
+   "new": "C Share a lantern at a festival or share dessert after a wedding?",
+   "reason": "Repeated the candle-ceremony choice in Flirty Partner.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:36",
+   "old": "Which of us would plan the most romantic proposal?",
+   "new": "Q Which of us would ask for the family's blessing before proposing?",
+   "reason": "Same premise as Random Flirty Friends romantic-proposal question.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:48",
+   "old": "Tell me about the first time you introduced me to your family's traditions.",
+   "new": "T Tell me about the first family tradition of mine that made you feel at home.",
+   "reason": "Near-repeat of Batch 3 'first time you introduced me'.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:10",
+   "old": "What's the sweetest blessing anyone has ever given you?",
+   "new": "Q Has anyone ever blessed you in a way that made you blush?",
+   "reason": "Same frame as Faith Playful Someone new blessing question.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-someone-new:77",
+   "old": "Do you believe in soulmates, or in choosing someone every day?",
+   "new": "Q Do you think love is something you find or something you build?",
+   "reason": "Repeated the soulmates question in Flirty Partner.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:90",
+   "old": "Tell me about a wedding we attended where you thought about ours.",
+   "new": "S We're guests at a wedding and you catch me mouthing the vows along. What do you say?",
+   "reason": "Same premise as Batch 3 Culture wedding question.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:81",
+   "old": "What part of my heart do you think you understand best?",
+   "new": "Q What do you think is the softest part of me?",
+   "reason": "Close to Faith Deep Partner 'part of my heart'.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-partner:75",
+   "old": "Tell me about a quiet evening with me that you still think about.",
+   "new": "T Tell me about a moment I made a crowded celebration feel like just the two of us.",
+   "reason": "First rewrite landed on the same premise as Faith Chill Partner 'quiet evening'.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/flirty-friends:100",
+   "old": "Who in our group would say a quick prayer before texting a crush?",
+   "new": "Q Whose first move would be a quick prayer before texting a crush?",
+   "reason": "Ninth use of the 'Who in our group' opening stem in the cell; limit is eight.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  }
+ ]
+}

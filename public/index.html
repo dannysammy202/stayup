@@ -169,11 +169,11 @@ if(batchReady)PROMPTS.push(...BATCH1);
 const BATCH3=Array.isArray(window.SayMoreBatch3)?window.SayMoreBatch3:[];
 const batch3Ready=batchReady&&BATCH3.length===5400&&new Set(BATCH3.map(p=>p.id)).size===5400&&BATCH3.every(p=>p.editorialStatus==='approved'&&p.adult===false&&p.source==='batch3-editorial');
 if(batch3Ready)PROMPTS.push(...BATCH3);
-// Batch 4 (Random & Hypothetical, Faith & Spirituality, Music) is additive; Faith & Spirituality x Flirty is held.
+// Batch 4 (Random & Hypothetical, Faith & Spirituality, Music) is additive and fails closed on its own.
 const BATCH4=Array.isArray(window.SayMoreBatch4)?window.SayMoreBatch4:[];
-const batch4Ready=batchReady&&BATCH4.length===5100&&new Set(BATCH4.map(p=>p.id)).size===5100&&BATCH4.every(p=>p.editorialStatus==='approved'&&p.adult===false&&p.source==='batch4-editorial');
+const batch4Ready=batchReady&&BATCH4.length===5400&&new Set(BATCH4.map(p=>p.id)).size===5400&&BATCH4.every(p=>p.editorialStatus==='approved'&&p.adult===false&&p.source==='batch4-editorial');
 if(batch4Ready)PROMPTS.push(...BATCH4);
-const everydayCount=5400+(batch3Ready?5400:0)+(batch4Ready?5100:0);
+const everydayCount=5400+(batch3Ready?5400:0)+(batch4Ready?5400:0);
 let librarySummary=batchReady?{count:everydayCount,target:everydayCount,remaining:0}:null,publishedManifest=null,libraryLoadError=batchReady?'':'The conversation library did not load. Please refresh to try again.';
 let publishedLoading=false,publishedViewKey='';
 const loadedPublishedShards=new Set();

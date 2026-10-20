@@ -14,14 +14,14 @@ try{
   const page=await context.newPage();page.on('pageerror',e=>errors.push(e.message));
   await page.goto(base,{waitUntil:'networkidle'});
   await page.waitForFunction(()=>typeof batch4Ready!=='undefined'&&batch4Ready);
-  assert.equal(await page.evaluate(()=>filtered().length),15900);
+  assert.equal(await page.evaluate(()=>filtered().length),16200);
   assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'Horizontal overflow');
   const counts=await page.evaluate(([topics,audiences])=>{
    const checks=[];for(const topic of topics)for(const mood of MOODS)for(const audience of audiences){Object.assign(state,{topic,mood,audience});checks.push([topic,mood,filtered().length]);}
    Object.assign(state,{topic:'All topics',mood:'All moods',audience:'Anyone'});render();return checks;
   },[TOPICS,AUDIENCES]);
   assert.equal(counts.length,54);
-  assert.ok(counts.every(([t,m,n])=>n===(t==='Faith & Spirituality'&&m==='Flirty'?0:100)),'Every live Batch 4 cell returns 100; held cell returns 0');
+  assert.ok(counts.every(([t,m,n])=>n===100),'Every Batch 4 cell returns 100');
   // Drive the real filter UI, as a person would.
   await page.locator('[data-action="refine"]').first().click();
   await page.locator('[data-audience="Partner"]').click();
@@ -33,8 +33,8 @@ try{
   assert.ok(shown,'Filtered cards are the selected Batch 4 cell');
   assert.ok(await page.locator('.prompt-card').count()>0,'Cards render');
   const topicCounts=await page.evaluate(t=>t.map(x=>[x,totalTopic(x)]),[...TOPICS,'Relationships']);
-  assert.deepEqual(topicCounts,[['Random & Hypothetical',1800],['Faith & Spirituality',1500],['Music',1800],['Relationships',1800]]);
-  results.push({viewport:size.width,total:15900,liveCells:51,heldCells:3,uiFilter:100,topicCounts});
+  assert.deepEqual(topicCounts,[['Random & Hypothetical',1800],['Faith & Spirituality',1800],['Music',1800],['Relationships',1800]]);
+  results.push({viewport:size.width,total:16200,liveCells:54,heldCells:0,uiFilter:100,topicCounts});
   await context.close();
  }
 }finally{await browser.close();}
