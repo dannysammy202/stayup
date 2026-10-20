@@ -18,11 +18,11 @@ T Tell me about the friend in your life whose faith or kindness changed you.
 Q How would you want us to honour your beliefs if something happened to you?
 Q What's a question about life you'd like us to wrestle with together?
 Q Have you ever felt judged by us for what you believe?
-C Pray, hope or reflect for each other privately or tell each other we're doing it?
+C Pray for each other privately or tell each other we're praying?
 Q How do you think our different beliefs have helped us through hard times?
 Q What do you think gives our friendship meaning?
 Q Is there a spiritual moment you've had that you've never shared with us?
-S We're sitting together after a funeral of someone we all loved. What do you want to say?
+S We're sitting together after the burial of someone we all loved. What do you want to say?
 Q How do you think suffering has shaped who each of us is?
 Q What does grace look like in our friendship?
 Q Have you ever felt our friendship was meant to be?
@@ -32,7 +32,7 @@ Q What do you hope we'll have taught each other about meaning by the time we're 
 Q Which of your values do you think we've influenced?
 H The friends who stay in the dark hours are a kind of answered prayer.
 Q How do you make peace with losing touch with people you once loved?
-Q What do you think our friendship would look like in the eyes of a higher power, if you believe in one?
+Q Do you think God has a view on our friendship, if you believe in God?
 Q Have you ever felt hopeless and been pulled back by one of us?
 S We each write down the value we most admire in the others. What do you write about me?
 Q How do you think we can forgive the things we've never talked about?
@@ -45,7 +45,7 @@ Q Have you ever doubted your beliefs because of something that happened to one o
 C Find meaning in big shared adventures or in quiet everyday care?
 Q How would you want us to remember you spiritually if you were gone?
 Q What has belonging to this group asked of you that nobody noticed?
-Q Is there a spiritual practice you'd like to do together as friends?
+Q Is there a prayer, fast or practice you'd like to do together as friends?
 S A wise elder asks what makes our friendship strong. What do we answer?
 Q How do you think our friendship can survive real tragedy?
 Q What does hope look like for us in the years ahead?
@@ -83,7 +83,7 @@ Q Which value do you hope this group will still share in twenty years?
 Q What's a memory of us you'd call holy, in your own way?
 Q Have you ever felt our friendship helped you believe in people again?
 S We each choose one value to carry for the others this year. What's yours?
-Q What would honouring each other's beliefs at weddings, births and funerals ask of us?
+Q What would showing up for each other's families at weddings, naming ceremonies and burials ask of us?
 Q What do you believe about the people we were before we met?
 Q Is there anything you've prayed, hoped or wished for one of us?
 T Tell me about a time you felt our friendship was bigger than all of us.

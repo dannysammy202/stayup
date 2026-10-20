@@ -1,25 +1,25 @@
 Q If our child, if we have one, asked to change faith at sixteen, how would you react?
 H Couples should agree on faith before they agree on anything else.
 Q Have you ever hidden a doubt from me because you thought I'd be upset?
-Q Would you convert or change practices for me if I asked?
+Q Would you convert, Christian to Muslim or the other way, if I asked?
 Q Do you think our different beliefs will cause problems later?
-C Raise future children with one clear faith or expose them to many?
+C Raise our children in one faith or let them experience both our families' faiths?
 Q Have you ever softened what you believe so I'd be comfortable?
 Q What religious expectation from my family worries you most?
-S Your parents insist on a religious ceremony I'm uncomfortable with. What do we do?
+S Your parents insist on a church or mosque wedding I'm uncomfortable with. What do we do?
 H Love doesn't settle disagreements about faith; honest conversations do.
 Q Would you be hurt if I stopped practising a tradition we share?
 Q Do you think one of us compromises more on beliefs?
 Q Have you ever felt lonely in your faith because of me?
-C Attend services or ceremonies together regularly or only on special occasions?
-Q What would you do if I joined a spiritual group you didn't trust?
+C Attend service or Jumu'ah together every week or only on special occasions?
+Q What would you do if I joined a church or group you didn't trust?
 Q Do you think our families will ever accept our differences fully?
-S I want our home to have a religious symbol you're uncomfortable with. How do we decide?
+S I want a family altar or prayer corner in our home that you're uncomfortable with. How do we decide?
 H A couple's biggest test of respect is how they handle sacred differences.
 Q Would you still marry or commit to me if our beliefs changed completely?
 Q Have you ever felt my beliefs were used against you in an argument?
-Q Do you think faith should guide our decisions about money?
-C Give a fixed amount to charity or a faith community, or give spontaneously?
+Q Should faith guide our decisions about money, like tithes, zakat and giving to family?
+C Pay tithes or zakat as a fixed amount or give when we feel led?
 Q What would you need from me if you went through a crisis of faith?
 Q Have you ever pretended to share a belief of mine to keep the peace?
 S Our child, if we have one, asks why we believe different things. What do we say?
@@ -33,9 +33,9 @@ Q Do you think I'm too rigid or too relaxed about faith?
 S We disagree about a religious rule around food, rest or dress. Who adapts?
 H Being in love with someone of a different faith is a constant lesson in humility.
 Q Have you ever doubted us because of our different beliefs?
-Q Would you want a religious or non-religious funeral, and would you want me to honour it?
+Q Would you want a church burial, an Islamic burial or a traditional one, and would you want me to honour it?
 Q Do you think we talk about faith enough?
-C Pray, reflect or meditate together daily or keep it personal?
+C Pray together every morning or keep prayer personal?
 Q What part of my spiritual life makes you uncomfortable?
 Q Have you ever been embarrassed by my beliefs in front of others?
 S A friend says our differences in faith will break us. How do you respond?
@@ -51,10 +51,10 @@ H The strongest couples protect each other's right to believe differently.
 Q Would you raise our children in a tradition you've quietly stopped believing in?
 Q Do you think your family would forgive me if I rejected their faith?
 Q Have you ever felt I was hypocritical about what I believe?
-C Marry or commit in a religious ceremony, a civil one or one we design ourselves?
+C Get married in church or the mosque, at the registry or with a traditional ceremony only?
 Q What would you sacrifice spiritually for our relationship?
 Q Do you think I'm more spiritual than I admit?
-S You discover I've been praying, meditating or reflecting for you secretly. How do you feel?
+S You discover I've been praying for you secretly every morning. How do you feel?
 H Sometimes you have to choose between being right and being close.
 Q Would you be honest if you no longer believed in something we used to share?
 Q Do you think we judge each other's families' beliefs unfairly?
@@ -62,15 +62,15 @@ Q Have you ever felt our differences made you love me more?
 C Follow your family's religious customs at our wedding or mine?
 Q What would you never compromise on spiritually?
 Q Have you ever thought my beliefs were holding us back?
-S One of us wants to go on a long spiritual retreat alone. Does the other feel abandoned?
+S One of us wants to go for a forty-day fasting programme or a long retreat alone. Does the other feel abandoned?
 H Respecting faith means respecting the right to lose it too.
 Q Would you support me if I chose a faith your family disliked?
 Q Do you think our future depends on agreeing about God or meaning?
 Q Have you ever felt my beliefs were more important to me than you?
-C Talk to a faith leader together about our differences or work them out alone?
+C Talk to a pastor or imam together about our differences or work them out alone?
 Q What would you do if our children, if any, rejected both our beliefs?
 Q Have you ever felt pressured by me to attend something spiritual?
-S Your family asks us to stop a tradition from my side at a holiday gathering. What do you say?
+S Your family asks us to stop a tradition from my side at Christmas or Sallah. What do you say?
 H Faith shared in a home is quieter, but deeper, than faith performed in public.
 Q Would you be okay if I talked about our beliefs with friends or online?
 Q Do you think one of us is braver about faith than the other?
@@ -80,7 +80,7 @@ Q What would hurt you more: me losing faith or me changing faith?
 Q Have you ever kept a spiritual experience from me because you thought I'd dismiss it?
 S We're writing down the values our home will never compromise. Where do we disagree?
 H The hardest conversations a couple has are often the ones about the afterlife.
-Q Would you want to be buried, cremated or something else, and would you expect me to follow your tradition?
+Q Do you expect me to follow your family's burial customs for you, even if they're different from mine?
 Q Do you think my beliefs make you a better or more frustrated person?
 Q When has our relationship been tested by your faith or mine?
 C Stay silent about our differences in front of family or show them openly?
@@ -94,7 +94,7 @@ Q What's the belief conversation we need to have before we get any older?
 Q Is there a belief of mine you're quietly hoping I'll grow out of?
 Q Would you tell my parents the truth about your beliefs if they asked you directly?
 H Couples who never discuss belief are usually postponing an argument, not avoiding one.
-S I want our future child, if we have one, to attend a faith school you'd never choose. What do you say?
-C Share one spiritual community together or keep separate ones?
+S I want our child, if we have one, to attend a mission school or Islamic school you'd never choose. What do you say?
+C Join one church or mosque together or keep our own?
 Q What would you need to hear from me to feel your beliefs are safe in our home?
 Q Which spiritual habit of mine do you find hardest to live with?

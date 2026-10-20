@@ -3,8 +3,8 @@ H Our group avoids talking about faith because we're afraid of the arguments.
 Q Have you ever hidden your real beliefs from us?
 Q Do you think any of us judges the others' beliefs secretly?
 C Settle a faith debate among us tonight or agree to never have one?
-Q Which of us would change faith for a partner?
-Q Have you ever felt uncomfortable at one of our religious events?
+Q Which of us would change religion for a partner?
+Q Have you ever felt uncomfortable at one of our churches or mosques?
 Q Who among us is most stubborn about what they believe?
 S One of us announces they've left their faith. How does the group react?
 H Some of us only keep traditions to keep our parents happy.
@@ -12,11 +12,11 @@ Q Have you ever been embarrassed by a family member's beliefs in front of us?
 Q Which of us would you trust to give honest spiritual advice?
 Q Do you think our friendship would survive a big disagreement about religion?
 C Defend a friend's beliefs to strangers or tell the friend you disagree?
-Q Who among us would be the most likely to join an unusual spiritual group?
+Q Who among us would be most likely to join a strange new church or movement?
 Q Have you ever felt pressured by one of us to believe something?
-S A relative of one of us says something offensive about another faith at dinner. Who speaks up?
+S A relative of one of us says something offensive about Christians or Muslims at dinner. Who speaks up?
 H Respecting each other's faith sometimes means admitting we don't fully accept it.
-Q Which of our families is the most religious, and does it affect how they see us?
+Q Whose family is the most religious, and does it affect how they see us?
 Q Have you ever doubted your faith because of a conversation with one of us?
 Q Who among us has the strongest beliefs and the least patience for questions?
 C Celebrate every one of our religious holidays or none of them as a group?
@@ -29,29 +29,29 @@ Q Would you stop being friends with someone over their beliefs?
 Q Which of us do you think will be the most religious in old age?
 C Hear what we really think of your beliefs or never know?
 Q Have you ever felt left out because of a religious tradition in our group?
-Q Who among us is most likely to marry outside their faith?
-S One of us wants a religious ceremony at their wedding that others find uncomfortable. What do we do?
+Q Who among us is most likely to marry someone of a different religion?
+S One of us wants a religious wedding custom the others find uncomfortable. What do we do?
 H Our parents' beliefs shape us more than we like to admit.
 Q Do you think any of us would force our children into a faith?
 Q Which of our beliefs would cause the biggest argument if we discussed it honestly?
 Q Have you ever felt judged by one of us for not being religious enough, or for being too religious?
 C Raise future kids in your tradition or let them choose like you wish you could have?
-Q Who among us is most likely to become a spiritual influencer?
+Q Who among us is most likely to become a Christian or Muslim influencer?
 Q Have you ever thought one of us was being hypocritical about faith?
-S A spiritual leader invites our whole group to a retreat. Who refuses to go and why?
+S A pastor or imam invites our whole group to a three-day programme. Who refuses to go and why?
 H We'd all have different answers to the question "what's the point of life?"
 Q Which of us do you think is secretly searching for something?
 Q Have you ever kept a ritual private because you thought we'd tease you?
 Q Do you think we respect each other's beliefs equally?
 C Keep faith out of our friendship or bring it in fully?
-Q Who among us is the most superstitious and denies it?
+Q Who among us is most superstitious about "village people" and denies it?
 Q Have you ever wished one of us shared your faith?
 S One of us starts trying to convert the group. How do we handle it?
 H Some traditions we follow together make no sense to half of us.
 Q Which of our families would be most upset if one of us changed beliefs?
 Q Have you ever disagreed with how one of us practises their faith?
 Q Who among us would give up a tradition fastest if it got inconvenient?
-C Join a friend's religious fast in solidarity or respectfully sit it out?
+C Join a friend's Ramadan or Lent fast in solidarity or respectfully sit it out?
 Q Do you think any of us has outgrown the faith we grew up with?
 Q Which of our beliefs do you think the world treats most unfairly?
 S We're asked to vote on which of our traditions to include at a group wedding. Who argues hardest?
@@ -64,8 +64,8 @@ Q Do you think we talk about money more easily than we talk about faith?
 Q Which of us would be the most devastated by losing their beliefs?
 S One of us has a spiritual experience none of the others believe. How do we respond?
 H The quietest believer among us has thought about it the most.
-Q Have you ever pretended to pray, bless or meditate to fit in with one of us?
-Q Who among us would be the worst at a strict religious retreat?
+Q Have you ever pretended to pray to fit in with one of us?
+Q Who among us would be the worst at a strict prayer camp?
 Q Do you think one of our families has a double standard about religion?
 C Ask the hard questions about each other's beliefs or leave them alone?
 Q Which of our beliefs do you think we'll laugh about in twenty years?
@@ -75,7 +75,7 @@ H Some of us only believe on holidays.
 Q Who among us would make the best case for their beliefs in a debate?
 Q Have you ever been jealous of one of our faith communities?
 Q Do you think any of us has given up something important for religion?
-C Pray, hope or wish for each other openly or keep it private?
+C Pray for each other openly or keep it private?
 Q Which of our traditions would you abolish if it were up to you?
 Q Have you ever felt one of us was too certain about everything?
 S One of us admits they've been faking a belief for years. How do we react?
@@ -93,8 +93,8 @@ Q Have you ever kept a doubt from us that's been weighing on you?
 Q Which belief conversation have we been avoiding as a group?
 Q Do you think we'd still be friends if we had all been raised in the same faith?
 Q Which of us would you call first if you suddenly lost your faith, and why?
-Q Has one of us ever made a joke about belief that landed badly with you?
+Q Has one of us ever made a joke about religion that landed badly with you?
 H Our group is braver talking about dating and money than about God.
-S One of our families asks the group to pray, bless or give thanks before dinner. Who feels awkward?
+S One of our families asks the group to pray before food and asks who will lead. Who feels awkward?
 C Hear your beliefs summed up by the group in one sentence or never hear it?
 Q Who among us do you think is most at peace with what they believe?
