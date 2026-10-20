@@ -1,0 +1,111 @@
+{
+ "pass": "04-similarity-2",
+ "method": "Similarity candidates and stem repetition read individually; same-premise or formulaic lines rewritten",
+ "revisions": [
+  {
+   "ref": "faith-spirituality/playful-someone-new:100",
+   "old": "What's the most creative excuse you've heard for skipping a family ceremony?",
+   "new": "Q Which festival would you most like to see from the sky?",
+   "reason": "Same premise as another starter (in the cell, across audiences or in Batch 3); rewritten after the second screen.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/deep-someone-new:94",
+   "old": "By the end, what would make you feel your life was well lived?",
+   "new": "Q What would you want said about the way you lived, rather than what you achieved?",
+   "reason": "Same premise as another starter (in the cell, across audiences or in Batch 3); rewritten after the second screen.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "music/deep-partner:96",
+   "old": "Which song would you want to hear on the day we look back on everything?",
+   "new": "Q Which song would you want playing on an ordinary evening when we're very old?",
+   "reason": "Same premise as another starter (in the cell, across audiences or in Batch 3); rewritten after the second screen.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "music/bold-friends:32",
+   "old": "Our favourite songs say too much about us.",
+   "new": "H Half of us only like certain songs because of who we were dating at the time.",
+   "reason": "Same premise as another starter (in the cell, across audiences or in Batch 3); rewritten after the second screen.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "music/chill-partner:24",
+   "old": "What's a song that makes you want to dance with me?",
+   "new": "Q What's a song that makes the washing-up feel like a party?",
+   "reason": "Same premise as another starter (in the cell, across audiences or in Batch 3); rewritten after the second screen.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/chill-friends:11",
+   "old": "Which festival decorations should we all put up?",
+   "new": "Q Which festival lights in this city should we go and see together?",
+   "reason": "Same premise as another starter (in the cell, across audiences or in Batch 3); rewritten after the second screen.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "random-hypothetical/flirty-partner:30",
+   "old": "If you could freeze one romantic moment of ours forever, which would it be?",
+   "new": "Q If you could bottle the way you felt on our best date, what would the label say?",
+   "reason": "Same premise as another starter (in the cell, across audiences or in Batch 3); rewritten after the second screen.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "music/flirty-someone-new:97",
+   "old": "What's the first song you'd want us to dance to?",
+   "new": "Q What song would you want playing the moment someone you liked walked in?",
+   "reason": "Same premise as another starter (in the cell, across audiences or in Batch 3); rewritten after the second screen.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/playful-someone-new:99",
+   "old": "Which festival would you choose if you could celebrate it on the moon?",
+   "new": "Q Which festival decoration would you leave up all year?",
+   "reason": "Same premise as another starter (in the cell, across audiences or in Batch 3); rewritten after the second screen.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/bold-someone-new:98",
+   "old": "Is it fair to ask a partner to change faith before marriage?",
+   "new": "Q Should spiritual leaders be paid like any other job?",
+   "reason": "Same premise as another starter (in the cell, across audiences or in Batch 3); rewritten after the second screen.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/deep-friends:94",
+   "old": "What do you think gives our friendship its spirit?",
+   "new": "Q What keeps a friendship like ours alive when everything else changes?",
+   "reason": "Same premise as another starter (in the cell, across audiences or in Batch 3); rewritten after the second screen.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "music/curious-friends:31",
+   "old": "How do you think streaming changed what we listen to?",
+   "new": "Q Which of us still buys music, and which of us only streams?",
+   "reason": "Same premise as another starter (in the cell, across audiences or in Batch 3); rewritten after the second screen.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "music/chill-partner:73",
+   "old": "Which album would you take on a romantic weekend away with me?",
+   "new": "Q Which album would you want playing while we unpack in a new home?",
+   "reason": "Same premise as another starter (in the cell, across audiences or in Batch 3); rewritten after the second screen.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "music/playful-partner:35",
+   "old": "What song would be playing in the blooper reel of our relationship?",
+   "new": "Q What song should play every time one of us trips over something at home?",
+   "reason": "Same premise as another starter (in the cell, across audiences or in Batch 3); rewritten after the second screen.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "random-hypothetical/curious-partner:32",
+   "old": "A scientist offers to let us swap senses for a day. Which sense do you want to borrow from me?",
+   "new": "S A scientist offers to let us share one memory perfectly. Which memory do you choose?",
+   "reason": "Same premise as another starter (in the cell, across audiences or in Batch 3); rewritten after the second screen.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  }
+ ]
+}

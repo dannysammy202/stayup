@@ -1,0 +1,811 @@
+{
+ "pass": "03-stem-repetition",
+ "method": "Similarity candidates and stem repetition read individually; same-premise or formulaic lines rewritten",
+ "revisions": [
+  {
+   "ref": "faith-spirituality/bold-partner:77",
+   "old": "Have you ever felt I was dismissive of your doubts?",
+   "new": "Q Do I ever brush off your doubts without meaning to?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/bold-partner:85",
+   "old": "Have you ever felt our relationship was tested by your faith or mine?",
+   "new": "Q When has our relationship been tested by your faith or mine?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/bold-partner:88",
+   "old": "Have you ever felt I respected your beliefs more in public than in private?",
+   "new": "Q Do I respect your beliefs more in public than I do in private?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-friends:36",
+   "old": "How do you think our beliefs influence the way we treat each other?",
+   "new": "Q Where do our beliefs show up in the way we treat each other?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-friends:40",
+   "old": "How do you think our friendships with people of other faiths changed us?",
+   "new": "Q What did your friendships with people of other faiths change in you?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-friends:43",
+   "old": "How do you think faith or values affect our career choices?",
+   "new": "Q Did faith or values play a part in the careers each of us chose?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-friends:46",
+   "old": "How do you think we could support each other through crises of belief?",
+   "new": "Q What would support look like if one of us went through a crisis of belief?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-friends:49",
+   "old": "How do you think art and music connect to our traditions?",
+   "new": "Q Where do art and music meet our different traditions?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-friends:51",
+   "old": "How do you think our values would change if we'd grown up in each other's homes?",
+   "new": "Q If we'd grown up in each other's homes, which of our values would be different?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-friends:53",
+   "old": "How do you think our different beliefs shape how we celebrate milestones?",
+   "new": "Q In what ways do our beliefs change how we celebrate milestones?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-friends:56",
+   "old": "How do you think our friendship shows our values?",
+   "new": "Q What would an outsider learn about our values just by watching this friendship?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-friends:58",
+   "old": "How do you think science has influenced our beliefs?",
+   "new": "Q Has science made any of us rethink what we believe?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-friends:60",
+   "old": "How do you think our cultures handle grief differently?",
+   "new": "Q Which of our cultures handles grief in a way you'd like to learn from?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-friends:62",
+   "old": "How do you think belief helps people we know get through hard times?",
+   "new": "Q Which people we know have been carried by their beliefs through hard times?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-friends:66",
+   "old": "How do you think our beliefs influence how we spend money or give to others?",
+   "new": "Q Do our beliefs change how each of us gives to others?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-friends:68",
+   "old": "How do you think our parents would react if they saw how we talk about faith now?",
+   "new": "Q Would our parents be surprised by how we talk about faith now?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-friends:70",
+   "old": "How do you think fasting or rest traditions affect our lives?",
+   "new": "Q Which of us gets the most out of fasting or rest traditions?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-friends:74",
+   "old": "How do you think interfaith marriages work in our families?",
+   "new": "Q What have you noticed about interfaith marriages in our families?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-friends:76",
+   "old": "How do you think our communities would see our friendship?",
+   "new": "Q What would our communities make of a friendship like ours?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-friends:78",
+   "old": "How do you think our beliefs will shape the friendships we build at work or nearby?",
+   "new": "Q Will our beliefs shape the friendships we build at work and in our neighbourhoods?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-friends:81",
+   "old": "How do you think our hometowns' religious life has changed?",
+   "new": "Q What's changed about religious life in our hometowns since we were children?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-friends:83",
+   "old": "How do you think our different holidays help us appreciate each other?",
+   "new": "Q Which of our holidays taught you most about one of us?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-friends:87",
+   "old": "How do you think our ideas about destiny differ?",
+   "new": "Q Do any two of us agree completely about destiny?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-friends:89",
+   "old": "How do you think our friendship would look if we'd met at a place of worship?",
+   "new": "Q What would our friendship have looked like if we'd met at a place of worship?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-friends:91",
+   "old": "How do you think our beliefs influence what we think a good life is?",
+   "new": "Q Where do our beliefs agree or differ on what a good life is?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-friends:94",
+   "old": "How do you think our beliefs will change by the time we're old?",
+   "new": "Q Whose beliefs do you expect will change most by the time we're old?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-partner:34",
+   "old": "How do you think our cultures view the role of faith in marriage?",
+   "new": "Q What do our cultures expect faith to do inside a marriage?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-partner:42",
+   "old": "How do you think your faith or values have shaped your idea of a good partner?",
+   "new": "Q In what ways did your faith or values shape your idea of a good partner?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-partner:45",
+   "old": "How do you think our beliefs affect the way we treat each other's families?",
+   "new": "Q Do our beliefs affect the way we each treat the other's family?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-partner:47",
+   "old": "How do you think we can grow spiritually together without changing each other?",
+   "new": "Q Can we grow spiritually together without trying to change each other?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-partner:53",
+   "old": "How do you think our different beliefs make us stronger?",
+   "new": "Q Where have our different beliefs made us stronger as a couple?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-partner:58",
+   "old": "How do you think forgiveness works in your faith or values?",
+   "new": "Q What does your faith, or your own code, teach about forgiveness?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-partner:60",
+   "old": "How do you think our beliefs will change as we age together?",
+   "new": "Q Which of our beliefs do you expect to change as we age together?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-partner:63",
+   "old": "How do you think we should handle a disagreement about faith with our children?",
+   "new": "Q If we disagreed about faith in front of our children, what should we do?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-partner:66",
+   "old": "How do you think our beliefs shape how we see our purpose as a couple?",
+   "new": "Q What sense of purpose do our beliefs give us as a couple?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-partner:71",
+   "old": "How do you think our friends see our different beliefs?",
+   "new": "Q What do our friends make of our different beliefs?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-partner:73",
+   "old": "How do you think we can create shared rituals that feel genuine?",
+   "new": "Q Which shared rituals would feel genuine to both of us?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-partner:79",
+   "old": "How do you think our beliefs influence the way we handle money and generosity?",
+   "new": "Q Do our beliefs pull us in the same direction when it comes to money and generosity?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-partner:81",
+   "old": "How do you think your faith or values would guide you if we faced a crisis?",
+   "new": "Q If we faced a real crisis, would your faith or values tell you what to do?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-partner:84",
+   "old": "How do you think our love fits into the bigger picture of your beliefs?",
+   "new": "Q Where does our love fit in the bigger picture of what you believe?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-partner:89",
+   "old": "How do you think our beliefs affect our hopes for the future?",
+   "new": "Q Which of your hopes for our future come from your beliefs?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-partner:92",
+   "old": "How do you think our different beliefs will show up in our home in ten years?",
+   "new": "Q In ten years, where will our different beliefs show up in our home?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-partner:94",
+   "old": "What do you think our love teaches you about faith, hope or meaning?",
+   "new": "Q What has loving me taught you about faith, hope or meaning?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-someone-new:50",
+   "old": "How do you think religion shaped art and architecture?",
+   "new": "Q Which religious buildings or artworks shaped the way you see beauty?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-someone-new:52",
+   "old": "How do you think fasting traditions developed?",
+   "new": "Q Do you know how the fasting traditions you've seen first began?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-someone-new:61",
+   "old": "How do you think interfaith friendships change people?",
+   "new": "Q Has a friendship across faiths ever changed your mind about something?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-someone-new:64",
+   "old": "How do you think beliefs about destiny affect people's choices?",
+   "new": "Q Can believing in destiny make people braver or more passive?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-someone-new:66",
+   "old": "How do you think spirituality helps people through grief?",
+   "new": "Q What have you seen spirituality do for people who are grieving?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-someone-new:69",
+   "old": "How do you think faith influences people's values at work?",
+   "new": "Q Does faith show up in how people behave at work, from what you've seen?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-someone-new:78",
+   "old": "How do you think gratitude practices differ across traditions?",
+   "new": "Q Which gratitude practice from another tradition would you try?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-someone-new:80",
+   "old": "How do you think people find meaning without religion?",
+   "new": "Q Where do people without religion tend to find meaning, in your experience?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-someone-new:83",
+   "old": "How do you think communities decide what's sacred?",
+   "new": "Q Who gets to decide what a community treats as sacred?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-someone-new:87",
+   "old": "How do you think faith affects how people treat strangers?",
+   "new": "Q Have you noticed faith changing how people treat strangers?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-someone-new:94",
+   "old": "How do you think spirituality shows up in everyday kindness?",
+   "new": "Q Where do you see spirituality in everyday kindness?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/deep-friends:58",
+   "old": "How do you think we can show up for each other's families in the deepest moments?",
+   "new": "Q What would showing up for each other's families look like in the deepest moments?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/deep-friends:62",
+   "old": "How do you think about the friends we've lost along the way?",
+   "new": "Q Which friends we've lost along the way do you still carry with you?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/deep-friends:66",
+   "old": "How do you think about the end of our friendships, whenever that comes?",
+   "new": "Q Do you ever think about how our friendships will end, whenever that comes?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/deep-friends:70",
+   "old": "How do you think our beliefs affect how we comfort each other?",
+   "new": "Q Do our different beliefs change the way we comfort each other?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/deep-friends:74",
+   "old": "How do you think we can grow old together with grace?",
+   "new": "Q What would it look like for us to grow old together with grace?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/deep-friends:76",
+   "old": "How do you think our friendship would be different if we didn't share values?",
+   "new": "Q Would our friendship survive if we stopped sharing the same values?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/deep-friends:78",
+   "old": "How do you think about the idea of soulmates in friendship?",
+   "new": "Q Can friends be soulmates, in your view?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/deep-friends:86",
+   "old": "How do you think we can honour each other's beliefs at weddings, births and funerals?",
+   "new": "Q What would honouring each other's beliefs at weddings, births and funerals ask of us?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/deep-friends:90",
+   "old": "How do you think our friendship has prepared us for loss?",
+   "new": "Q Has our friendship prepared us for loss in any way?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/deep-someone-new:79",
+   "old": "What do you think is worth sacrificing for?",
+   "new": "Q What would you be willing to sacrifice almost everything for?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/deep-someone-new:80",
+   "old": "How do you think about the end of your own life?",
+   "new": "Q Do you ever think about the end of your own life, and what do you feel?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/deep-someone-new:84",
+   "old": "How do you think about the idea of purpose for every person?",
+   "new": "Q Does every person have a purpose, in your view?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/deep-someone-new:86",
+   "old": "What do you think it means to truly forgive yourself?",
+   "new": "Q What would it take to truly forgive yourself?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/deep-someone-new:88",
+   "old": "How do you think spirituality helps people face fear?",
+   "new": "Q Can spirituality help people face their fears, in your experience?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/deep-someone-new:92",
+   "old": "How do you think about the meaning of home on a spiritual level?",
+   "new": "Q What does home mean to you on a spiritual level?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/deep-someone-new:94",
+   "old": "What do you think makes a life well lived?",
+   "new": "Q By the end, what would make you feel your life was well lived?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/deep-someone-new:95",
+   "old": "Have you ever felt that love was the closest thing to something divine?",
+   "new": "Q Is love the closest thing to something divine that you've experienced?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/deep-someone-new:98",
+   "old": "What do you think we owe each other as human beings?",
+   "new": "Q What do human beings owe each other, simply for being human?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/playful-friends:76",
+   "old": "Who among us would get the most enthusiastic about festival lights?",
+   "new": "Q Whose face lights up most at the first festival lights?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/playful-friends:78",
+   "old": "Which of us would be the best at reading tea leaves or horoscopes for fun?",
+   "new": "Q Who should read tea leaves or horoscopes at our next party, just for fun?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/playful-friends:84",
+   "old": "Who among us would be the most dramatic at a gospel church service?",
+   "new": "Q Who in our group would get swept up fastest at a joyful gospel service?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/playful-friends:86",
+   "old": "Which of us would make the best spiritual guide, jokingly?",
+   "new": "Q If our group needed a pretend spiritual guide for a day, who would we pick?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/playful-friends:94",
+   "old": "Which of us would fall asleep first at a midnight service or vigil?",
+   "new": "Q At a midnight service or vigil, who's asleep first?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/playful-partner:80",
+   "old": "Who's more likely to sing the festival songs at the wrong speed?",
+   "new": "Q Which festival song do I always sing at the wrong speed?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/playful-partner:84",
+   "old": "Who's more likely to eat the festival sweets before the guests arrive?",
+   "new": "Q Who eats the festival sweets before the guests arrive, me or you?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/playful-partner:96",
+   "old": "Who's more likely to start a new family tradition by accident?",
+   "new": "Q Which of our accidental habits has turned into a family tradition?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "music/bold-friends:59",
+   "old": "Which of us would leave the group chat over a music argument?",
+   "new": "Q Has a music argument ever made you want to leave the group chat?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "music/bold-friends:73",
+   "old": "Which of us would argue about a song's meaning the longest?",
+   "new": "Q Whose interpretation of a song's meaning is always the most stubborn?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "music/bold-friends:76",
+   "old": "Which of us would be the first to sing off-key on purpose?",
+   "new": "Q Who in our group sings off-key on purpose just to annoy everyone?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "music/bold-friends:87",
+   "old": "Which of us would be the first to leave a karaoke booth?",
+   "new": "Q When karaoke starts, who sneaks out first?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "music/bold-friends:94",
+   "old": "Which of us would be the worst at a classical concert?",
+   "new": "Q Who would be the worst-behaved at a classical concert?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "music/chill-partner:87",
+   "old": "Which song would you want playing during a cosy breakfast?",
+   "new": "Q What should be playing during a cosy breakfast in our kitchen?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "music/curious-friends:66",
+   "old": "How do you think music has shaped our friendship?",
+   "new": "Q Where has music quietly shaped our friendship?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "music/curious-friends:72",
+   "old": "How do you think music will be made in twenty years?",
+   "new": "Q Will music still be made the same way in twenty years?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "music/curious-friends:76",
+   "old": "How do you think music connects to the places we've travelled together?",
+   "new": "Q Which songs remind you of places we've travelled together?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "music/curious-friends:80",
+   "old": "How do you think our favourite songs reflect our values?",
+   "new": "Q Do our favourite songs say anything about our values?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "music/curious-friends:91",
+   "old": "How do you think music has influenced the way you dress or speak?",
+   "new": "Q Has music ever changed the way you dress or speak?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "music/curious-friends:97",
+   "old": "How do you think music festivals affect local communities?",
+   "new": "Q What do big music festivals do for the towns that host them?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "music/curious-partner:71",
+   "old": "How do you think music has shaped our memories together?",
+   "new": "Q Which of our memories are tied most strongly to a song?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "music/curious-partner:76",
+   "old": "How do you think music could help us through hard times?",
+   "new": "Q Could music help us through hard times, and how?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "music/curious-partner:89",
+   "old": "How do you think music can help couples communicate?",
+   "new": "Q Can music help couples say what they're struggling to say?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "music/curious-partner:93",
+   "old": "How do you think music helps you express what you can't say?",
+   "new": "Q When has music helped you express something you couldn't say?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "music/curious-partner:98",
+   "old": "How do you think our love would sound if it were a song?",
+   "new": "Q If our love were a song, what would it sound like?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "music/curious-someone-new:90",
+   "old": "How do you think music can help people learn?",
+   "new": "Q Have you ever learned something faster because of music?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "music/curious-someone-new:96",
+   "old": "How do you think young artists today compare with artists from your parents' era?",
+   "new": "Q How do today's young artists compare with the ones from your parents' era?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "music/deep-friends:80",
+   "old": "Which song do you think captures what we can't say to each other?",
+   "new": "Q What song captures the things we can't quite say to each other?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "music/deep-friends:84",
+   "old": "Which song do you think captures how we look after each other?",
+   "new": "Q What song captures the way we look after each other?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "music/deep-someone-new:89",
+   "old": "Is there a song you play when you need to make a big decision?",
+   "new": "Q What do you listen to when you need to make a big decision?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "music/deep-someone-new:94",
+   "old": "Which song do you think speaks for people who aren't heard?",
+   "new": "Q Who writes songs for the people who usually aren't heard?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "music/playful-friends:63",
+   "old": "Which of us would be the first to dance on a table?",
+   "new": "Q Who's guaranteed to end up dancing on a table?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "music/playful-friends:70",
+   "old": "Which of us would accidentally go viral singing in public?",
+   "new": "Q Who's most likely to go viral for singing in public?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "music/playful-friends:73",
+   "old": "Which of us would be the hardest to impress at a concert?",
+   "new": "Q Who's the hardest to impress at a concert?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "music/playful-friends:84",
+   "old": "Which of us would make the best musical theatre villain?",
+   "new": "Q Who would make the best musical theatre villain?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "music/playful-friends:91",
+   "old": "Which of us would be the most dramatic at an opera?",
+   "new": "Q Who would be the most dramatic at an opera?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "music/playful-someone-new:89",
+   "old": "Which song would you pick to sing in a talent show for adults who can't sing?",
+   "new": "Q What would you sing at a talent show for adults who can't sing?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "music/playful-someone-new:92",
+   "old": "Which song would you play to dramatically end a phone call?",
+   "new": "Q What song would you play to end a phone call dramatically?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "random-hypothetical/bold-someone-new:75",
+   "old": "If you could make one famous building disappear, which would it be?",
+   "new": "Q Which famous building would you happily make disappear?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "random-hypothetical/bold-someone-new:98",
+   "old": "If you could make one popular opinion socially unacceptable, which would it be?",
+   "new": "Q Which popular opinion would you make socially unacceptable if you could?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "random-hypothetical/chill-friends:97",
+   "old": "If each of us were a snack, who would be the crunchy one?",
+   "new": "Q Picture each of us as a snack. Who's the crunchy one?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "random-hypothetical/playful-friends:86",
+   "old": "If each of us were a famous landmark, which would you be?",
+   "new": "Q Which famous landmark is each of us, personality-wise?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "random-hypothetical/playful-friends:96",
+   "old": "If each of us had a ridiculous hidden talent, what would yours be?",
+   "new": "Q What ridiculous hidden talent would each of us secretly have?",
+   "reason": "Opening stem used more than eight times in the cell; restructured while keeping the premise.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  }
+ ]
+}

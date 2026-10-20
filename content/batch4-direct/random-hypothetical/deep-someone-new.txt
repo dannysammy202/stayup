@@ -1,0 +1,100 @@
+S You could know the exact date of your death. Would you want to?
+Q If you could relive one year of your life, which would it be and why?
+S A stranger offers you a perfect, happy life but you'd forget everyone you know now. Do you accept?
+Q If you could erase one memory, would you, even if it shaped you?
+S You can send one message to every person on earth. What does it say?
+Q If you knew no one would ever judge you, what would you do differently?
+S You meet a version of yourself who made every opposite choice. What would you ask them?
+Q If happiness could be guaranteed but meaning couldn't, would you take it?
+S You can live forever, but everyone you love won't. Do you choose it?
+Q If you could ask the universe one question and get a true answer, what would it be?
+C Know every truth about your life or keep some mysteries?
+S You're given a year to live a completely different life, then return. What life do you choose?
+Q If your life were a story, what chapter are you in right now?
+S You could see a recording of your entire life. Which moment would you replay first?
+Q If you could change one decision from your past, would you, knowing it would change who you are?
+S A machine can remove your biggest fear. Would you use it?
+Q If you could speak to anyone who has died, who would it be and what would you say?
+S You're told you have one month left. What do you do first?
+Q If no one remembered your achievements, would you still pursue them?
+S You could live in a world without suffering but also without struggle. Would you?
+Q If you could know what others truly think of you, would you want to?
+C Be deeply loved by a few or admired by many?
+S You discover your life is being watched by a future audience. Does it change how you live?
+Q If you could give one quality to every child born from now on, what would it be?
+S A genie offers to make you completely content, but you'd stop wanting anything. Do you accept?
+Q If you were remembered for one sentence, what would you want it to be?
+S You can see how your life would have turned out if you'd chosen a different path at eighteen. Do you look?
+Q If you could feel one emotion more deeply, which would you choose?
+S Someone offers you the chance to start your life over at ten with your current memories. Do you take it?
+Q If you could see the world without fear for a day, what would you do?
+C Live a short life full of adventure or a long, quiet one?
+S A wise stranger gives you one piece of advice that will change your life. What do you hope it is?
+Q If you could forgive one person completely, who would it be?
+S You can visit your childhood home exactly as it was for one hour. What do you do there?
+Q If your future self wrote you a letter, what do you think it would warn you about?
+S You're given the power to heal one wound in the world. Which one?
+Q If you had a guaranteed safety net, which risk would you take tomorrow?
+S You could know whether there's anything after death. Would you want to know?
+Q If every choice you made was already written, would you still feel responsible for it?
+S A stranger offers you the ability to understand everyone's pain. Would you accept?
+C Have perfect memory or the ability to forget anything?
+Q If your life had a theme, what would it be?
+S You could meet yourself at the end of your life. What would you want to hear?
+Q If you could take back one thing you said, would you?
+S You're offered a world where everyone tells the truth. Would you live there?
+Q If you could stop time to think during one moment of your life, which moment?
+S You could give up one sense to strengthen the others. Would you?
+Q If you could choose how people feel when they think of you, what would it be?
+S You're shown a map of every path your life could take. Do you pick one or keep wandering?
+Q If you could ask your parents one question they'd answer completely honestly, what would it be?
+C Live without regret or live without fear?
+S A device lets you feel exactly what someone else feels for a day. Whose feelings would you choose?
+Q If you could be certain of one thing about the future, what would you choose?
+S You can see the impact your life has had on others. Do you want to see it?
+Q If the world forgot you tomorrow, what would you still want to have done?
+S You're given a chance to make peace with someone from your past. Who comes to mind?
+Q If you could freeze yourself at one age forever, which age would you pick?
+S You could know the purpose of your life, but it might disappoint you. Do you ask?
+Q If love could be measured, would you want to know how much you're loved?
+S You're offered a life of complete freedom but no one to share it with. Do you take it?
+C Know why things happen or simply accept that they do?
+Q If you could pass one lesson to the next generation, what would it be?
+S You can live in a world where you're never lonely. What would you give up for it?
+Q If you could see your life from the outside, what do you think would surprise you?
+S A voice tells you you're exactly where you're meant to be. Do you believe it?
+Q If you could restart one relationship from the beginning, would you?
+S You're given a box with the answer to your deepest question inside. Do you open it?
+Q If you knew everyone you met carried a hidden sorrow, how would you treat them?
+S You could choose to feel no pain but also less joy. Would you?
+Q If a stranger summed up your life in one kind sentence, what do you hope it would be?
+C Change the world in a small way you can see or a big way you'll never know about?
+S You could witness the best moment of your future. Would you want to see it now?
+Q If you could hold on to one feeling forever, what would it be?
+S A stranger offers to trade lives with you for a year. Would you be curious enough to say yes?
+Q If you could stop one bad habit forever, which one would change your life most?
+S You can talk to your younger self for five minutes. What do you say first?
+Q If you could know whether you made the right choice at a turning point, would you ask?
+S You're given the power to make one person truly happy. Who would you choose?
+Q If you could live a hundred lives, what would you want to learn from all of them?
+S A world exists where nobody ever leaves. Would you want to live there?
+C Be understood completely or be loved unconditionally?
+Q If you could undo one loss, would you, knowing what it taught you?
+S You can choose to remember every dream you've ever had. Would you?
+Q If you had to describe your soul in three words, what would they be?
+S You could know how many people have quietly cared about you. Would you want the number?
+Q If your life ended today, what would feel most unfinished?
+S A mirror shows you as you truly are inside. What do you hope to see?
+Q If you could become wiser overnight but lose some joy, would you?
+S You're given one more conversation with someone you've lost touch with. Who is it?
+Q If you could choose your own last words, what would they be?
+C Have all the time in the world or all the courage in the world?
+S You could live your best memory again, but only once. Which one would you save it for?
+Q If you could heal your past self, what would you tell them?
+S A guide offers to show you the meaning behind your hardest moment. Do you want to see it?
+Q If you could exist only as a voice for a day, what would you say to people?
+S You're asked what makes a life worth living, and you must answer in one sentence. What is it?
+Q If you could step outside of time for one hour, what would you reflect on?
+S You can leave one gift for a stranger who'll find it in a hundred years. What is it?
+Q If you could live without needing anyone's approval, how would your life change?
+S You could hear one sentence your oldest relative never got to say. Would you want to hear it?

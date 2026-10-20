@@ -1,0 +1,30 @@
+{
+ "note": "Lines removed to bring over-full cells to exactly 100, each after any logged revision in its cell so references stay valid.",
+ "removals": [
+  {
+   "cell": "random-hypothetical/chill-someone-new",
+   "text": "You can teleport anywhere for lunch, but only once. Where do you eat?",
+   "reason": "Overlaps the door, bed and train travel scenarios in the same cell."
+  },
+  {
+   "cell": "random-hypothetical/chill-someone-new",
+   "text": "You get one free taxi ride to anywhere in your country. Where do you go?",
+   "reason": "Overlaps the travel scenarios in the same cell."
+  },
+  {
+   "cell": "random-hypothetical/curious-someone-new",
+   "text": "If humans could breathe underwater, where would we build homes?",
+   "reason": "Repeats the live-underwater question in the same cell."
+  },
+  {
+   "cell": "random-hypothetical/deep-partner",
+   "text": "If you could relive one of our goodbyes, which one would you change?",
+   "reason": "Repeats a Deep Friends premise."
+  },
+  {
+   "cell": "random-hypothetical/bold-someone-new",
+   "text": "If you could make everyone do one chore forever, which chore?",
+   "reason": "Weakest Bold line in the cell; removed after the last revised line so logged references stay valid."
+  }
+ ]
+}

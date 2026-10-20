@@ -1,0 +1,100 @@
+S We could see a single scene from each other's childhoods. Which scene would you show me?
+Q If we'd met in a different century, how would our courtship have looked?
+S A machine shows us one alternate version of our lives where we never met. Would you watch it?
+Q If we could live in any city in history for a year, which would suit us best?
+S We wake up able to read each other's minds for a day. What do you think surprises me most?
+Q If our relationship were studied by scientists, what do you think they'd find?
+S We're asked to explore a remote island together for a research project. What role do you take?
+Q If we could ask our future selves one question, what would it be?
+C Live in the past together or the future together?
+S We find a letter from your great-grandparents describing their love. What do you hope it says?
+Q If you could learn any skill from my family history, what would it be?
+S A time machine lets us visit the moment our parents met. Do we go?
+Q If our home could be anywhere on earth with no downsides, where would it be?
+S We're the first couple to live on a space station. What do we miss most?
+Q If you could understand every thought I had for an hour, would you want to?
+S We each get to redesign one part of the world for the other. What do you change for me?
+Q If we lived in a world without technology, how would our days look?
+S An inventor offers us a device to share dreams. Do we try it?
+C Spend a year restoring an old house together or an old boat?
+Q If our relationship were a scientific law, what would it be?
+S We're asked to raise a dragon for a year. How do we divide the work?
+Q If we could learn one language perfectly together, which should it be?
+S We find a hidden map in an old house we buy. Do we follow it?
+Q If you could watch any moment in my life before you knew me, which would it be?
+S A new planet opens for couples to settle on. Would you go with me?
+Q If we could design our own society of two, what would the laws be?
+S We spend a year living in a culture completely new to both of us. What do we learn about each other?
+Q If love could be measured, what do you think the measurement would be?
+C Spend a year sailing the world or a year living in a mountain monastery?
+S We discover we're descended from the same ancient family. How does that change things?
+Q If you could visit the place where our ancestors lived, which would you choose first?
+S A scientist offers to let us share one memory perfectly. Which memory do you choose?
+Q If the world ended tomorrow, what would we do with our last day?
+S We can witness any historical event together. Which one feels most meaningful?
+Q If you could know how our story ends, would you want to?
+S We're given the chance to live in a famous building for a month. Which building?
+Q If our love story were turned into a myth, what would the lesson be?
+C Know every place we'll travel to or keep every trip a surprise?
+S We find a way to talk to our pets. What do they say about our relationship?
+Q If we could build a house anywhere, even underwater or in the sky, where would it be?
+S An AI writes the story of our relationship based on our messages. What do you think it gets wrong?
+Q If you could watch one of our arguments as a neutral stranger, which would you choose?
+S We're invited to a dinner in the year 2200. What do you think people would ask us?
+Q If our relationship had begun as pen pals a hundred years ago, what would your first letter say?
+S We each get to ask one question to any historical couple. Which couple?
+Q If we could raise a child in any era, which would you choose?
+C Live without music or without books, together?
+S We're offered the chance to live forever together. Do we take it?
+Q If you could choose one invention to make our daily life better, what would it be?
+S A machine predicts our biggest future argument. Do we want to know?
+Q If we could design a perfect holiday based on science, what would it include?
+S We find out our grandparents once lived on the same street. What do we make of it?
+Q If you could read my diary from my teenage years, would you?
+S A gallery asks us to donate one photo of us for a show about love. Which one?
+Q If our love were a natural phenomenon, which would it be?
+C Explore a rainforest or a polar ice cap together?
+S We find a time capsule we buried years ago that we don't remember. What's inside?
+Q If you could see the world through my eyes for a day, what would you look for?
+S We're given a garden on another planet. What would we try to grow?
+Q If a scientist studied our habits for a year, what would surprise them?
+S A historian studies our love letters in 300 years. What do they write about us?
+Q If the moon were twice as bright, would it change how romantic nights feel?
+S We can ask the universe one question as a couple. What do we ask?
+Q If you could know one secret about my family's past, what would you want it to be?
+C Spend a month in a quiet desert or a month on a busy cruise?
+S An inventor builds a machine that turns our memories into paintings. Which memory first?
+Q If we spoke different languages and couldn't learn each other's, how would we communicate?
+S We're chosen to travel on the first public flight to the moon. Do we say yes?
+Q If you could give our future children one gift from science, what would it be?
+S A new law lets couples swap careers for a year. Would you swap with me?
+Q If our home were a lab, what experiment would we always be running?
+S We discover an alternate world where we're famous. What are we famous for?
+Q If you could hear my thoughts during our first date, would you want to?
+C Know the past of every object in our home or the future of every plant in our garden?
+S We find a book that predicts each year of our relationship. Do we read ahead?
+Q If you could change one thing about how society treats couples, what would it be?
+S We're stranded in a library for a month. Which section do we each disappear into?
+Q If you could live inside one of our memories forever, which one?
+S A device lets us replay our first conversation word for word. Would you watch it?
+Q If we were born as animals, which pair would we be in the wild?
+S We get to design a new tradition that couples everywhere follow. What is it?
+Q If the world ran on love instead of money, what would we be rich in?
+C Learn the history of every place we visit or the future of every place we live?
+S We're invited to live on a remote island with no contact for a year. What do we take?
+Q If you could ask your grandparents one question about love, what would it be?
+S A new constellation is named after us. What story does it tell?
+Q If our relationship were an ecosystem, what would keep it balanced?
+S We wake up a thousand years from now together. What do we try to find first?
+Q If you could know how I'll change in ten years, would it change anything for you?
+S We're asked to write a guide to love for people in the future. What's chapter one?
+Q If you could give me one memory from your life, which would it be?
+C Live in a world with no seasons or a world with no night?
+S A friendly alien asks us to explain human love. What do we say?
+Q If our relationship were a river, where would it be flowing now?
+S We get one chance to redo our first meeting with any setting we want. Where would it be?
+Q If you could learn how my mind works when I'm happiest, what would you look for?
+S A scientist proves soulmates exist. Would you want to be tested?
+Q If you could watch the moment I was born, would you want to?
+S We discover an old film reel of a couple who look just like us. What's their story?
+S We could spend a year apprenticed to any craftsperson in history. Whose workshop do we join?

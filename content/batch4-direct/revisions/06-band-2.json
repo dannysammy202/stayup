@@ -1,0 +1,216 @@
+{
+ "pass": "06-band-2",
+ "method": "Similarity candidates and stem repetition read individually; same-premise or formulaic lines rewritten",
+ "revisions": [
+  {
+   "ref": "music/bold-partner:44",
+   "old": "Which of my music choices do you blame for a bad night out?",
+   "new": "Q Which of my songs would you never let me play in front of your parents?",
+   "reason": "Same premise as another starter (in the cell, across audiences or in Batch 3); rewritten after reading the 0.46-0.60 band.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "music/curious-partner:100",
+   "old": "Which song do you think explains your childhood best?",
+   "new": "Q Which song would you play to explain your teenage years to me?",
+   "reason": "Same premise as another starter (in the cell, across audiences or in Batch 3); rewritten after reading the 0.46-0.60 band.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "music/chill-partner:100",
+   "old": "What music do you want playing when we wake up on holiday?",
+   "new": "Q Which song should be the first thing we hear when we get home from a trip?",
+   "reason": "Same premise as another starter (in the cell, across audiences or in Batch 3); rewritten after reading the 0.46-0.60 band.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/playful-friends:6",
+   "old": "Who among us is most likely to fall asleep during a long ceremony?",
+   "new": "Q Who would be first to need a snack halfway through a long ceremony?",
+   "reason": "Same premise as another starter (in the cell, across audiences or in Batch 3); rewritten after reading the 0.46-0.60 band.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/playful-partner:53",
+   "old": "Join a gospel choir together or a chanting circle together?",
+   "new": "C Bake festival biscuits together or wrap festival gifts together?",
+   "reason": "Same premise as another starter (in the cell, across audiences or in Batch 3); rewritten after reading the 0.46-0.60 band.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "music/curious-friends:86",
+   "old": "How has your taste in music changed since school?",
+   "new": "Q Which song from school would you be embarrassed to admit you still love?",
+   "reason": "Same premise as another starter (in the cell, across audiences or in Batch 3); rewritten after reading the 0.46-0.60 band.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-partner:11",
+   "old": "How have your beliefs changed since we met?",
+   "new": "Q Which belief of yours has softened or strengthened because of me?",
+   "reason": "Same premise as another starter (in the cell, across audiences or in Batch 3); rewritten after reading the 0.46-0.60 band.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "music/deep-friends:22",
+   "old": "Which song would you want us to sing together when we're old?",
+   "new": "Q Which song do you hope we'll sing badly at someone's retirement party?",
+   "reason": "Same premise as another starter (in the cell, across audiences or in Batch 3); rewritten after reading the 0.46-0.60 band.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "random-hypothetical/bold-partner:73",
+   "old": "We're dared to swap wardrobes for a week. Who refuses first?",
+   "new": "S We're dared to swap hairstyles for a month. Who backs out?",
+   "reason": "Same premise as another starter (in the cell, across audiences or in Batch 3); rewritten after reading the 0.46-0.60 band.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "random-hypothetical/bold-partner:85",
+   "old": "If you could change one thing about how I show love, what would it be?",
+   "new": "Q If you could make me more romantic or more practical, which would you choose?",
+   "reason": "Same premise as another starter (in the cell, across audiences or in Batch 3); rewritten after reading the 0.46-0.60 band.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "random-hypothetical/playful-partner:34",
+   "old": "We're given a hot-air balloon but no idea how to fly it. Where do we end up?",
+   "new": "S We're given a vintage camper van for a month. Who decorates it?",
+   "reason": "Same premise as another starter (in the cell, across audiences or in Batch 3); rewritten after reading the 0.46-0.60 band.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/playful-partner:35",
+   "old": "Tell me about a time we were late for a ceremony and had to sneak in.",
+   "new": "T Tell me about the time we got the date of a festival completely wrong.",
+   "reason": "Same premise as another starter (in the cell, across audiences or in Batch 3); rewritten after reading the 0.46-0.60 band.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "random-hypothetical/curious-partner:54",
+   "old": "A museum asks for one object that represents our relationship. What do we give them?",
+   "new": "S A gallery asks us to donate one photo of us for a show about love. Which one?",
+   "reason": "Same premise as another starter (in the cell, across audiences or in Batch 3); rewritten after reading the 0.46-0.60 band.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "music/chill-partner:99",
+   "old": "Which album would you give me for a rainy weekend?",
+   "new": "Q Which album would you put on to cheer me up after a long week?",
+   "reason": "Same premise as another starter (in the cell, across audiences or in Batch 3); rewritten after reading the 0.46-0.60 band.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "random-hypothetical/chill-partner:36",
+   "old": "We wake up able to speak to our houseplants. What do they say about us?",
+   "new": "S Our fridge starts leaving notes about our habits. What does the first one say?",
+   "reason": "Same premise as another starter (in the cell, across audiences or in Batch 3); rewritten after reading the 0.46-0.60 band.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-partner:91",
+   "old": "We plant a tree to represent our shared values. What does it stand for?",
+   "new": "S We each choose one object from our traditions for a shared shelf at home. What do you choose?",
+   "reason": "Same premise as another starter (in the cell, across audiences or in Batch 3); rewritten after reading the 0.46-0.60 band.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/playful-partner:82",
+   "old": "What's the funniest blessing anyone has given us as a couple?",
+   "new": "Q Which festival speech from my family made you cringe the most?",
+   "reason": "Same premise as another starter (in the cell, across audiences or in Batch 3); rewritten after reading the 0.46-0.60 band.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/curious-partner:20",
+   "old": "How do you feel about blending our holidays as we grow older?",
+   "new": "Q Which holiday from my side would you like to keep exactly as it is?",
+   "reason": "Same premise as another starter (in the cell, across audiences or in Batch 3); rewritten after reading the 0.46-0.60 band.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/playful-partner:73",
+   "old": "Which festival song do you sing to annoy me?",
+   "new": "Q Which festival snack do you hide from me?",
+   "reason": "Same premise as another starter (in the cell, across audiences or in Batch 3); rewritten after reading the 0.46-0.60 band.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "random-hypothetical/flirty-partner:34",
+   "old": "If you could recreate one of our dates with a twist, what would the twist be?",
+   "new": "Q If you could add one magical detail to our next date, what would it be?",
+   "reason": "Same premise as another starter (in the cell, across audiences or in Batch 3); rewritten after reading the 0.46-0.60 band.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "random-hypothetical/playful-partner:52",
+   "old": "We're the stars of a nature documentary about strange couples. What's our behaviour?",
+   "new": "S We're the subject of a museum exhibit about modern couples. What does our label say?",
+   "reason": "Same premise as another starter (in the cell, across audiences or in Batch 3); rewritten after reading the 0.46-0.60 band.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "random-hypothetical/flirty-partner:2",
+   "old": "Time stops for an hour and it's just us. What do we do?",
+   "new": "S Every streetlight in the city turns on just for our walk home. Where do we wander?",
+   "reason": "Same premise as another starter (in the cell, across audiences or in Batch 3); rewritten after reading the 0.46-0.60 band.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "music/playful-partner:46",
+   "old": "Air guitar battle or air drum battle?",
+   "new": "C Duet on a ukulele or duet on a kazoo?",
+   "reason": "Same premise as another starter (in the cell, across audiences or in Batch 3); rewritten after reading the 0.46-0.60 band.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "random-hypothetical/chill-friends:27",
+   "old": "Swap cooking duties for a year or swap phones for a day?",
+   "new": "C Swap cooking duties for a year or swap holiday-planning duties forever?",
+   "reason": "Same premise as another starter (in the cell, across audiences or in Batch 3); rewritten after reading the 0.46-0.60 band.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "faith-spirituality/chill-partner:54",
+   "old": "What's a tradition you'd like us to keep when we're old?",
+   "new": "Q Which festival should we still be celebrating in our pyjamas at eighty?",
+   "reason": "Same premise as another starter (in the cell, across audiences or in Batch 3); rewritten after reading the 0.46-0.60 band.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "music/chill-friends:45",
+   "old": "Which decade's music do you think suits our group best?",
+   "new": "Q Which decade's music would we choose for a themed party?",
+   "reason": "Same premise as another starter (in the cell, across audiences or in Batch 3); rewritten after reading the 0.46-0.60 band.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "music/flirty-someone-new:8",
+   "old": "Tell me about the best dance you've shared with a stranger.",
+   "new": "T Tell me about a time you were pulled onto a dance floor and loved it.",
+   "reason": "Same premise as another starter (in the cell, across audiences or in Batch 3); rewritten after reading the 0.46-0.60 band.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "random-hypothetical/curious-partner:42",
+   "old": "If you could relive one day of ours with the knowledge you have now, which day?",
+   "new": "Q If you could watch one of our arguments as a neutral stranger, which would you choose?",
+   "reason": "Same premise as another starter (in the cell, across audiences or in Batch 3); rewritten after reading the 0.46-0.60 band.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "music/curious-someone-new:79",
+   "old": "What's the most interesting cover of a song you've ever heard?",
+   "new": "Q What makes a cover version better than the original, in your view?",
+   "reason": "Same premise as another starter (in the cell, across audiences or in Batch 3); rewritten after reading the 0.46-0.60 band.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "music/bold-partner:49",
+   "old": "What's a song you've never told me makes you sad because of us?",
+   "new": "Q Is there a song you can't listen to because of something I did?",
+   "reason": "Same premise as another starter (in the cell, across audiences or in Batch 3); rewritten after reading the 0.46-0.60 band.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  }
+ ]
+}

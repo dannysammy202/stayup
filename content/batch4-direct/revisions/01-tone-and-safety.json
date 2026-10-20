@@ -1,0 +1,83 @@
+{
+ "pass": "01-tone-and-safety",
+ "method": "Similarity candidates and stem repetition read individually; same-premise or formulaic lines rewritten",
+ "revisions": [
+  {
+   "ref": "random-hypothetical/bold-someone-new:63",
+   "old": "If you could ban one type of person from public transport, who would it be?",
+   "new": "Q If you could ban one behaviour from public transport, which would it be?",
+   "reason": "Avoids inviting judgement of groups of people; keeps the Bold angle.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "random-hypothetical/bold-someone-new:76",
+   "old": "You can make one person in history never have been born. Do you use it?",
+   "new": "S You can undo one decision a world leader made. Which decision?",
+   "reason": "Removes a harm-to-a-person framing.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "random-hypothetical/bold-someone-new:34",
+   "old": "If you could cancel one celebrity forever, who would it be and why?",
+   "new": "Q Which celebrity habit should the whole world stop copying?",
+   "reason": "Avoids targeting a real individual.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "random-hypothetical/bold-someone-new:91",
+   "old": "You could choose your own death date with total peace. Would you?",
+   "new": "S You can know the single biggest regret you'll have at eighty. Do you want to hear it now?",
+   "reason": "Removes a death-date choice that could read as self-harm adjacent.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "random-hypothetical/bold-friends:19",
+   "old": "If you could steal one of our partners or crushes for a day, would you?",
+   "new": "Q Whose partner or crush would you trust least to keep one of our secrets?",
+   "reason": "Removes partner-swapping implication between friends.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "random-hypothetical/bold-friends:42",
+   "old": "If you could swap partners with one of us for a week, would you?",
+   "new": "Q Whose relationship advice in this group would you never follow?",
+   "reason": "Removes partner-swapping implication between friends.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "random-hypothetical/flirty-partner:51",
+   "old": "Romantic cooking night or a candlelit bath?",
+   "new": "C Romantic cooking night or a candlelit board-game night?",
+   "reason": "Keeps the everyday library clear of innuendo; adult content stays separate.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "random-hypothetical/flirty-partner:40",
+   "old": "We can spend a whole day in bed with no interruptions. What do we do first?",
+   "new": "S We get a whole lazy Sunday with no interruptions at all. What do we do first?",
+   "reason": "Keeps the everyday library clear of innuendo; adult content stays separate.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "random-hypothetical/deep-someone-new:70",
+   "old": "If you could watch your own funeral, what do you hope people would say?",
+   "new": "Q If a stranger summed up your life in one kind sentence, what do you hope it would be?",
+   "reason": "Softened for a first conversation while keeping the Deep mood.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "random-hypothetical/playful-friends:19",
+   "old": "If one of us became a cult leader, what would the cult worship?",
+   "new": "Q If one of us started a fan club for something ridiculous, what would it celebrate?",
+   "reason": "Lighter wording for an everyday library.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  },
+  {
+   "ref": "random-hypothetical/playful-friends:97",
+   "old": "We start a group cult around a sandwich. Which sandwich?",
+   "new": "S We start a fan club devoted to one sandwich. Which sandwich wins?",
+   "reason": "Lighter wording for an everyday library.",
+   "reviewer": "Claude Opus 5.5 (author self-review)"
+  }
+ ]
+}
