@@ -1,0 +1,100 @@
+S We can each bring one historical figure to dinner. Who do you invite, and who would clash?
+Q If we were born in a different century, which era would suit each of us?
+S Our group is chosen to start a colony on Mars. Who handles what?
+Q If you could know one thing about how each of us thinks, what would you want to understand?
+S We travel back to the day we met, with what we know now. What do we do differently?
+Q If our friendship existed in the year 3000, how would we keep in touch?
+S We wake up as the leaders of a small country. What policy do we fight over?
+Q If each of us had to master a completely new field, which would suit us?
+C Explore the ocean floor together or explore a newly found cave system together?
+S We find a machine that shows alternate versions of our lives. Whose would surprise us most?
+Q If we could all study one thing together for a year, what should it be?
+S We're the last people who remember how the internet works. What do we teach first?
+Q If the world ran on our group's values, what would change?
+S A scientist offers us a week of perfect memory. What would we want to remember together?
+Q If you could live one of our lives for a week to learn something, whose would you choose?
+S We discover an ancient language and only we can read it. What's written in it?
+Q If animals could talk, which of our pets would have the most opinions?
+S We're asked to design a perfect school. Who handles the curriculum?
+C Witness the first moon landing or the building of the pyramids together?
+Q If our generation had a museum in the future, what would be on display?
+S A mysterious island appears and we're invited to name and govern it. What laws do we make?
+Q If you could change one moment in history, which would make the biggest difference?
+S Our group can each pick one invention to bring back to the Stone Age. What do you choose?
+Q If humans lived on another planet, which of us would adapt best?
+S We can visit any period of history together, but must blend in. Which period?
+Q If Nigeria got rid of cash tomorrow, which of us would thrive?
+S A new law says friends must live together until thirty. How would that go for us?
+Q If you could ask a future version of our group one question, what would it be?
+C Learn every secret of the ocean or every secret of space?
+S We're cast as explorers in the age of sail. Who keeps the logbook?
+Q If you could design a new holiday based on our friendship, what would we celebrate?
+S A device lets us share dreams for one night. Whose dream are we visiting?
+Q If our cities were designed by each of us, whose would be the best place to live?
+S We meet our great-grandparents at our age. Which of them would fit into our group?
+Q If you could watch any scientific discovery happen live, which would it be?
+S We're stranded in a world without electricity. What skills do we lack?
+Q If we each had to write a law for the world, what would yours be?
+S Our friendship is studied by future historians. What do they conclude?
+C Spend a year in a remote village or a year on a research ship?
+Q If we could understand any animal for a day, which would we visit together?
+S We're given a time capsule to fill for people in 2100. What do we put in?
+Q If you could know the real story behind one family legend, which would it be?
+S A lab offers to swap our skills for a week. Whose skill would you take?
+Q If our friend group were a civilisation, what would we be known for?
+S We discover we can each live a second life in a parallel world. What do you do differently?
+Q If we could ask one question to a person from each continent, what would it be?
+S We're invited to explore a sealed ancient tomb. Who reads the warnings first?
+C Be the first humans to talk with dolphins or the first to visit another star?
+Q If our group had to invent a new language, what words would we need first?
+S A scientist wants to study why our friendship works. What would they find?
+Q If NEPA never took light again, how would our lives change?
+S We can relive the same day as each other's ancestors. Whose would be most surprising?
+Q If you could ask history's greatest thinker to settle one of our debates, which debate?
+S A new continent is discovered, and our group is sent to map it. Who gets lost?
+Q If technology froze at today's level forever, what would we miss most?
+S We're invited to a dinner where everyone speaks a language we don't. How do we cope?
+C Read every book ever written or see every film ever made, together?
+Q If we could design the perfect city for friends, what would it include?
+S We're given a lab and a year to invent something useful. What do we build?
+Q If our friendship had been in a famous novel, which one would it be?
+S We find a mysterious artefact on holiday. Who wants to research it and who wants to sell it?
+Q If you could know how each of us will change in twenty years, would you want to?
+S A future museum asks for one object from each of us to represent our time. What do you give?
+Q If people had to switch careers every ten years, which careers would each of us try?
+S We travel to a village where nobody has seen modern technology. What do we show first?
+C Spend a year in the past or a year in the future as a group?
+Q If you could live in any of our hometowns a hundred years ago, which would it be?
+S A machine can tell us one true thing about each other. What do you hope it says about you?
+Q If the world had no borders, how would our group's lives look?
+S We're asked to rewrite a famous myth with ourselves as the characters. Which myth?
+Q If you could ask a philosopher one question about friendship, what would it be?
+S We each get to choose one wonder of the world to protect forever. Which do you pick?
+Q If our phones could only be used for one hour a day, how would we spend it?
+S We become the crew of a submarine exploring the deepest trench. Who panics first?
+C Discover a lost civilisation or a new species together?
+Q If we could all speak to animals, whose pet would complain the most about us?
+S A historian asks us to describe our generation in three words. Which words?
+Q If each of us were famous inventors, what would we have invented?
+S We can ask one question to an AI that knows everything. What do we agree on?
+Q If you could find out one thing about your future, would you share it with us?
+S We're invited to live in an experimental community for a year. Who adapts best?
+Q If you could change how holidays work, what would our group gain?
+S We find a library of every conversation ever had. Which conversation do we listen to?
+C Live without the internet for a year or without travel for a year?
+Q If our friendship were a scientific experiment, what would the hypothesis be?
+S We're asked to design a new national flag together. What symbols go on it?
+Q If you could learn the full history of one of our families, which would be most fascinating?
+S An AI predicts which of us will change the world. Who does it pick?
+Q If the world's problems were solved by a vote, what would you want us to vote for first?
+S We discover a hidden room in an old library with letters from strangers. What do we do with them?
+Q If you could hear the thoughts of a famous painter while they worked, whose would they be?
+C Visit a world where dinosaurs survived or one where humans never existed?
+S We're asked to design a perfect weekend for scientists to study happiness. What's in it?
+Q If we lived in a world without clocks, how would our days work?
+S A mysterious radio picks up voices from fifty years ago. What do we hear?
+Q If each of us could fix one problem in the world, what would you fix?
+S We're transported to the court of an ancient empire. Who becomes the royal adviser?
+Q If you could see a map of every place our ancestors lived, which of us would have the widest map?
+S We get a chance to name a newly discovered planet. What do we call it?
+S We're invited to help design a new country's school system. What's the first subject we argue about?
