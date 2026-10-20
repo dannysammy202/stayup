@@ -62,7 +62,7 @@ T Tell me about a song you'd want to play the next time one of us struggles.
 Q Which song would you play to remind us to stay close?
 Q What music helped you during a time you felt distant from the group?
 C Sing together at a celebration or listen together in silence at a farewell?
-Q Which song do you think describes our biggest adventure?
+Q What song describes our biggest adventure together?
 Q Which song reminds you of the friend you used to be?
 Q What music would you share if we were sitting together one last time?
 S We each choose a song for the soundtrack of our friendship film. What's the emotional scene song?
@@ -95,6 +95,6 @@ T Tell me about a song that changed your view of friendship.
 Q Which song would you play if we were together at the end of the world?
 Q What music do you hope we'll still share when we're old?
 Q What song would you want us to hear on the night you finally get some good news?
-Q Which song do you think belongs to all of us equally?
+Q Is there one song that belongs to all of us equally?
 T Tell me about a song you played on repeat during a lonely month.
 Q What music would you want us to play for you on a day you can't speak for yourself?

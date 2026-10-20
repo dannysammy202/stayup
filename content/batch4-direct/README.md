@@ -4,8 +4,8 @@ Source cells: `<topic>/<mood>-<audience>.txt`, one starter per line, prefixed Q 
 
 - 54 cells x 100 = 5,400 starters.
 - Faith & Spirituality x Flirty (3 cells, 300 starters) was held, then approved by the product owner on 20 Oct 2026. It overrides the legacy manifest exclusion, which only governs the retired curated library.
-- Revisions: `revisions/NN-*.json`, applied in numeric order (649 logged rewrites). Line removals before release: `removals.json`.
-- Similarity: TF-IDF cosine >= 0.46 against Batches 1, 3 and 4; 995 candidates, every one read and either rewritten or adjudicated distinct in `similarity-adjudication.json`.
+- Revisions: `revisions/NN-*.json`, applied in numeric order (1,567 logged rewrites, including the `09-nigerian-voice` pass for the Nigerian household audience). Line removals before release: `removals.json`.
+- Similarity: TF-IDF cosine >= 0.46 against Batches 1, 3 and 4; 978 candidates, every one read and either rewritten or adjudicated distinct in `similarity-adjudication.json`.
 
 Rebuild: `node scripts/assemble-batch4.mjs && npm run build && npm test`.
 Browser check: `PORT=4189 npm start`, then `node scripts/batch4-browser-check.mjs`.
