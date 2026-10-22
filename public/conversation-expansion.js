@@ -1,4 +1,4 @@
-/* Editor-authored expansion. User-facing prompts are authored individually, not generated from combinations. */
+/* Curated editorial expansion: individual conversation paths and open-ended games. */
 window.SayMoreExpansion = {
   "pilot": [
     {
@@ -820,5 +820,1092 @@ window.SayMoreExpansion = {
       ]
     }
   ],
-  "games": []
+  "games": [
+    {
+      "id": "game-exp-001",
+      "type": "Would You Rather",
+      "topic": "Relationships",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Would you rather hear everyone's first impression of you or their opinion after knowing you for a year?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-002",
+      "type": "Would You Rather",
+      "topic": "Random & Hypothetical",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Would you rather get free flights forever or free meals at any restaurant forever?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-003",
+      "type": "Would You Rather",
+      "topic": "Childhood",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Would you rather have your childhood photos shown at every gathering or your old social media captions read aloud?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-004",
+      "type": "Would You Rather",
+      "topic": "Friendships",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Would you rather go on holiday with the friend who plans everything or the friend who plans absolutely nothing?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-005",
+      "type": "Would You Rather",
+      "topic": "Music",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Would you rather be very good at every sport or every musical instrument?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-006",
+      "type": "Would You Rather",
+      "topic": "Relationships",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Would you rather have to tell everyone when you're annoyed or never be able to explain why?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-007",
+      "type": "Would You Rather",
+      "topic": "Life",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Would you rather live in a house with perfect internet and terrible water pressure or the reverse?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-008",
+      "type": "Would You Rather",
+      "topic": "Personal Experiences",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Would you rather have every awkward memory erased or remember every good conversation word for word?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-009",
+      "type": "Would You Rather",
+      "topic": "Music",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Would you rather attend a concert with your favourite artist or have a private conversation with them?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-010",
+      "type": "Would You Rather",
+      "topic": "Relationships",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Would you rather always know when someone's joking or always know when they're lying?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-011",
+      "type": "Would You Rather",
+      "topic": "Dating",
+      "audiences": [
+        "Crush / Talking stage",
+        "Partner"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Would you rather plan your ideal date together or surprise each other with completely different plans?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-012",
+      "type": "Would You Rather",
+      "topic": "Family",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Would you rather have your family choose your hairstyle for a year or choose your phone wallpaper forever?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-013",
+      "type": "Hot Takes",
+      "topic": "Culture",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "A great host should never make guests wash dishes. Agree or disagree?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-014",
+      "type": "Hot Takes",
+      "topic": "Friendships",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Every friend group needs one person who says 'this plan makes no sense.'",
+      "adult": false
+    },
+    {
+      "id": "game-exp-015",
+      "type": "Hot Takes",
+      "topic": "Life",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "It's fine to leave a party without telling everybody goodbye.",
+      "adult": false
+    },
+    {
+      "id": "game-exp-016",
+      "type": "Hot Takes",
+      "topic": "Relationships",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "The first ten minutes of a phone call are usually the most awkward.",
+      "adult": false
+    },
+    {
+      "id": "game-exp-017",
+      "type": "Hot Takes",
+      "topic": "Entertainment",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "It's more embarrassing to pretend you've seen a movie than admit you haven't.",
+      "adult": false
+    },
+    {
+      "id": "game-exp-018",
+      "type": "Hot Takes",
+      "topic": "Music",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "A musician can make a bad song sound good in a live performance.",
+      "adult": false
+    },
+    {
+      "id": "game-exp-019",
+      "type": "Hot Takes",
+      "topic": "Work & Career",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "People spend too much time proving they're busy.",
+      "adult": false
+    },
+    {
+      "id": "game-exp-020",
+      "type": "Hot Takes",
+      "topic": "Controversial Opinions",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Being early is not a personality trait. Fight your corner.",
+      "adult": false
+    },
+    {
+      "id": "game-exp-021",
+      "type": "Hot Takes",
+      "topic": "Family",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Family celebrations are fun until someone brings out the microphone.",
+      "adult": false
+    },
+    {
+      "id": "game-exp-022",
+      "type": "Hot Takes",
+      "topic": "Culture",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "The best meal at a wedding is rarely the one on the printed menu.",
+      "adult": false
+    },
+    {
+      "id": "game-exp-023",
+      "type": "Hot Takes",
+      "topic": "Dating",
+      "audiences": [
+        "Crush / Talking stage",
+        "Partner"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Texting all day isn't the same as knowing someone deeply.",
+      "adult": false
+    },
+    {
+      "id": "game-exp-024",
+      "type": "Hot Takes",
+      "topic": "Pop Culture",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Nostalgia makes some terrible childhood trends look amazing.",
+      "adult": false
+    },
+    {
+      "id": "game-exp-025",
+      "type": "Never Have I Ever",
+      "topic": "Life",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Never have I ever said 'I'm outside' while I was still getting ready.",
+      "adult": false
+    },
+    {
+      "id": "game-exp-026",
+      "type": "Never Have I Ever",
+      "topic": "Culture",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Never have I ever checked a menu online and already decided what to order before arriving.",
+      "adult": false
+    },
+    {
+      "id": "game-exp-027",
+      "type": "Never Have I Ever",
+      "topic": "Personal Experiences",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Never have I ever laughed at a joke I didn't understand.",
+      "adult": false
+    },
+    {
+      "id": "game-exp-028",
+      "type": "Never Have I Ever",
+      "topic": "Relationships",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Never have I ever rehearsed a phone call before making it.",
+      "adult": false
+    },
+    {
+      "id": "game-exp-029",
+      "type": "Never Have I Ever",
+      "topic": "Culture",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Never have I ever gone to an event mainly for the food.",
+      "adult": false
+    },
+    {
+      "id": "game-exp-030",
+      "type": "Never Have I Ever",
+      "topic": "Friendships",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Never have I ever muted a group chat and missed something important.",
+      "adult": false
+    },
+    {
+      "id": "game-exp-031",
+      "type": "Never Have I Ever",
+      "topic": "Music",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Never have I ever pretended a song was my favourite just to fit the mood.",
+      "adult": false
+    },
+    {
+      "id": "game-exp-032",
+      "type": "Never Have I Ever",
+      "topic": "Life",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Never have I ever opened the fridge three times hoping new food would appear.",
+      "adult": false
+    },
+    {
+      "id": "game-exp-033",
+      "type": "Never Have I Ever",
+      "topic": "Personal Experiences",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Never have I ever waved back at someone who wasn't waving at me.",
+      "adult": false
+    },
+    {
+      "id": "game-exp-034",
+      "type": "Never Have I Ever",
+      "topic": "Childhood",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Never have I ever used a childhood excuse so ridiculous I can't believe it worked.",
+      "adult": false
+    },
+    {
+      "id": "game-exp-035",
+      "type": "Never Have I Ever",
+      "topic": "Family",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Never have I ever been the one who accidentally started drama in the family chat.",
+      "adult": false
+    },
+    {
+      "id": "game-exp-036",
+      "type": "Never Have I Ever",
+      "topic": "Dating",
+      "audiences": [
+        "Crush / Talking stage",
+        "Partner"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Never have I ever re-read a message trying to decide whether it was flirting.",
+      "adult": false
+    },
+    {
+      "id": "game-exp-037",
+      "type": "What Would You Do?",
+      "topic": "Friendships",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Your friend says they're five minutes away, but you hear a shower running in the background. What do you say?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-038",
+      "type": "What Would You Do?",
+      "topic": "Culture",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "A guest comes to your house and turns down the music you've been enjoying. How do you respond?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-039",
+      "type": "What Would You Do?",
+      "topic": "Personal Experiences",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "You hear someone confidently tell a story about you, and nearly every detail is wrong. Do you interrupt?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-040",
+      "type": "What Would You Do?",
+      "topic": "Life",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Two people invite you out on the same evening, and you've already said yes to both. What's your move?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-041",
+      "type": "What Would You Do?",
+      "topic": "Relationships",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Someone accidentally sends you a very obvious message meant for another person. Do you let them know immediately?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-042",
+      "type": "What Would You Do?",
+      "topic": "Childhood",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "You find an old school report card with a teacher's comment that still makes no sense. Who are you showing first?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-043",
+      "type": "What Would You Do?",
+      "topic": "Music",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "You can pick one song to play at a wedding, and the DJ promises not to skip it. What's your choice?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-044",
+      "type": "What Would You Do?",
+      "topic": "Work & Career",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Your boss praises you for an idea that actually came from a colleague. How do you handle it?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-045",
+      "type": "What Would You Do?",
+      "topic": "Friendships",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Your friend shows up to dinner wearing exactly the same outfit as you. Are you delighted or annoyed?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-046",
+      "type": "What Would You Do?",
+      "topic": "Family",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Your relatives announce a surprise family gathering at your home tomorrow. What's the first thing you do?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-047",
+      "type": "What Would You Do?",
+      "topic": "Dating",
+      "audiences": [
+        "Crush / Talking stage",
+        "Partner"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Your crush asks for an honest opinion of the song they wrote. You really don't like it. What are you saying?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-048",
+      "type": "What Would You Do?",
+      "topic": "School & Education",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "You can teach one unnecessary subject in school for a week. What subject are you teaching?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-049",
+      "type": "This or That",
+      "topic": "Culture",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Street food or restaurant food?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-050",
+      "type": "This or That",
+      "topic": "Relationships",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Spontaneous voice call or a 'can I call?' text first?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-051",
+      "type": "This or That",
+      "topic": "Music",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Old-school music or current hits?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-052",
+      "type": "This or That",
+      "topic": "Friendships",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Board games or long conversations?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-053",
+      "type": "This or That",
+      "topic": "Entertainment",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Movie night at home or cinema night out?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-054",
+      "type": "This or That",
+      "topic": "Life",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Plan a holiday or let somebody else plan it?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-055",
+      "type": "This or That",
+      "topic": "Life",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "A busy Saturday with friends or a quiet Saturday alone?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-056",
+      "type": "This or That",
+      "topic": "Family",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Big birthday party or one small dinner?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-057",
+      "type": "This or That",
+      "topic": "Controversial Opinions",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Full honesty immediately or honesty delivered gently?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-058",
+      "type": "This or That",
+      "topic": "Future & Ambitions",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Learn a new language or learn a new instrument?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-059",
+      "type": "This or That",
+      "topic": "Personal Experiences",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Phone on silent or notifications on all day?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-060",
+      "type": "This or That",
+      "topic": "Dating",
+      "audiences": [
+        "Crush / Talking stage",
+        "Partner"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "First date: a café or an activity together?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-061",
+      "type": "Story Chain",
+      "topic": "Family",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "The story begins with: 'I knew this family wedding was going to be strange when the DJ called my name.' What happens next?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-062",
+      "type": "Story Chain",
+      "topic": "Random & Hypothetical",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "The story begins with: 'We got to the airport, and somehow everyone brought the wrong suitcase.' Continue it.",
+      "adult": false
+    },
+    {
+      "id": "game-exp-063",
+      "type": "Story Chain",
+      "topic": "Work & Career",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "The story begins with: 'My boss said, just a quick question, and the entire office went silent.' What happens?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-064",
+      "type": "Story Chain",
+      "topic": "Personal Experiences",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "The story begins with: 'The person at the next table recognised me, but I had no idea who they were.' Keep going.",
+      "adult": false
+    },
+    {
+      "id": "game-exp-065",
+      "type": "Story Chain",
+      "topic": "Entertainment",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "The story begins with: 'It was meant to be a quiet movie night until the electricity came back on.' What's the twist?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-066",
+      "type": "Story Chain",
+      "topic": "Friendships",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "The story begins with: 'We finally organised the group trip, then the driver recognised one of us.' Tell the rest.",
+      "adult": false
+    },
+    {
+      "id": "game-exp-067",
+      "type": "Story Chain",
+      "topic": "Family",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "The story begins with: 'The voice note was for my best friend. Unfortunately, it went to the family group.' What happened?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-068",
+      "type": "Story Chain",
+      "topic": "Random & Hypothetical",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "The story begins with: 'Someone offered me the keys to a shop that only opens at midnight.' What's inside?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-069",
+      "type": "Story Chain",
+      "topic": "School & Education",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "The story begins with: 'At the reunion, our most serious teacher was the first person on the dance floor.' What next?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-070",
+      "type": "Story Chain",
+      "topic": "Dating",
+      "audiences": [
+        "Crush / Talking stage",
+        "Partner"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "The story begins with: 'I was on the perfect date until the waiter brought a cake with someone else's name.' Continue.",
+      "adult": false
+    },
+    {
+      "id": "game-exp-071",
+      "type": "Story Chain",
+      "topic": "Family",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "The story begins with: 'My mum asked me to fix one thing on her phone. Forty minutes later...' Finish it.",
+      "adult": false
+    },
+    {
+      "id": "game-exp-072",
+      "type": "Story Chain",
+      "topic": "Music",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "The story begins with: 'The radio played a song nobody had heard before, but we all knew the words.' Where does it go?",
+      "adult": false
+    }
+  ]
 };
