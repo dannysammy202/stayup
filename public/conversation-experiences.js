@@ -1,0 +1,40 @@
+/* Curated pilot: distinct conversation paths, not mass-generated question combinations. */
+window.SayMoreExperience = Object.freeze({
+  themes: [
+    {name:'People & Connections',topics:['Relationships','Friendships','Family','Dating']},
+    {name:'Life & Stories',topics:['Life','Childhood','Personal Experiences']},
+    {name:'Money & Ambitions',topics:['Money','Future & Ambitions','Work & Career','School & Education']},
+    {name:'Culture & Entertainment',topics:['Culture','Music','Entertainment','Pop Culture']},
+    {name:'Beliefs & Opinions',topics:['Faith & Spirituality','Controversial Opinions']},
+    {name:'Random & What Ifs',topics:['Random & Hypothetical']}
+  ],
+  vibes:['Mix It Up','Playful','Deep','Flirty','Hot Takes'],
+  audiences:['Anyone','Someone new','Friends','Crush / Talking stage','Partner','Family','Group'],
+  mediums:['Any format','Text','Call','In person'],
+  pilot: [
+    {id:'exp-001',topic:'Relationships',format:'Hot take',moods:['Playful','Bold'],audiences:['Someone new','Friends','Crush / Talking stage','Partner','Group'],text:"Is leaving somebody on read rude, or do people take their phones too seriously?",angles:["What's the most confusing reply you've ever received?","Do you ever type a reply and forget to send it?","Would you rather someone say they're busy or reply with one word?","Has a misunderstanding over text ever become funny later?"]},
+    {id:'exp-002',topic:'Personal Experiences',format:'Story starter',moods:['Playful','Chill'],audiences:['Someone new','Friends','Crush / Talking stage','Partner','Family','Group'],text:"Tell me about a time you were completely confident and completely wrong.",angles:["Who witnessed it?","Did you own up immediately or defend yourself first?","What's something you once believed for far too long?","Have you ever seen someone else make the same mistake?"]},
+    {id:'exp-003',topic:'Music',format:'Hot take',moods:['Playful','Bold'],audiences:['Someone new','Friends','Crush / Talking stage','Partner','Family','Group'],text:"Every friend group has someone who should never control the music. Who is it in yours?",angles:["What's their worst song choice?","What's one song you'll defend regardless of people's opinions?","Who gets control of the music on a long road trip?","Which song instantly changes your mood?"]},
+    {id:'exp-004',topic:'Childhood',format:'Story starter',moods:['Playful','Deep'],audiences:['Someone new','Friends','Partner','Family','Group'],text:"What's a childhood rule you thought every home followed until you visited somebody else?",angles:["How did you react when you found out?","Who enforced the rule in your house?","Which rule makes more sense to you now?","Would you keep it in your own home?"]},
+    {id:'exp-005',topic:'Random & Hypothetical',format:'Scenario',moods:['Playful','Curious'],audiences:['Someone new','Friends','Crush / Talking stage','Partner','Family','Group'],text:"Someone offers you ₦20 million to go without social media for two years. Are you taking it?",angles:["What's the first app you'd miss?","What would you do with the money?","Who would struggle more, you or your friends?","Would you return online after two years?"]},
+    {id:'exp-006',topic:'Dating',format:'Question',moods:['Flirty','Curious'],audiences:['Crush / Talking stage','Partner'],text:"What's an unexpectedly small thing someone did that made you see them differently?",angles:["Did you tell them?","Do you notice effort or confidence first?","What's a compliment that stayed with you?","Do little gestures matter more than big plans?"]},
+    {id:'exp-007',topic:'Friendships',format:'Hot take',moods:['Deep','Bold'],audiences:['Friends','Partner','Group'],text:"You don't need to speak every week to be close friends. Agree or disagree?",angles:["Who's someone you pick up with right where you left off?","When does silence stop feeling normal?","Do you prefer regular check-ins or spontaneous calls?","Has distance ever improved a friendship?"]},
+    {id:'exp-008',topic:'Money',format:'Scenario',moods:['Playful','Bold'],audiences:['Someone new','Friends','Partner','Family','Group'],text:"Your friend wins ₦50 million and buys a car before moving out of their parents' house. Smart move or bad decision?",angles:["What's the first thing you'd buy?","Would you tell people if you won that amount?","Who in your circle would give the worst money advice?","What's one purchase you never regret?"]},
+    {id:'exp-009',topic:'Family',format:'Story starter',moods:['Playful','Chill'],audiences:['Friends','Partner','Family','Group'],text:"Who's the funniest person in your family who doesn't even realise they're funny?",angles:["What's their most memorable line?","Do other people find them funny too?","Who's the unofficial family news reporter?","Which family tradition deserves its own comedy show?"]},
+    {id:'exp-010',topic:'Life',format:'Question',moods:['Deep','Curious'],audiences:['Someone new','Friends','Crush / Talking stage','Partner','Family'],text:"What's something you once wanted badly but no longer care about?",angles:["What changed your mind?","Did you outgrow it or did something happen?","What matters more to you now?","Is there an old dream you'd still like to revisit?"]},
+    {id:'exp-011',topic:'Culture',format:'Hot take',moods:['Playful','Bold'],audiences:['Someone new','Friends','Partner','Family','Group'],text:"Is showing up to a party mainly for the food a perfectly valid reason to attend?",angles:["What's the first thing you check at an event?","Have you ever stayed at a party only because the food was good?","What's your best party-food combination?","Would you rather have a great DJ or great food?"]},
+    {id:'exp-012',topic:'Faith & Spirituality',format:'Question',moods:['Deep','Curious'],audiences:['Friends','Partner','Family'],text:"Is there a belief you understood differently as you grew older?",angles:["What experience changed your perspective?","What advice once sounded strange but makes sense now?","Who influenced your thinking most?","Which question are you still working through?"]}
+  ],
+  games: [
+    {id:'game-wyr-1',type:'Would You Rather',audiences:['Anyone'],mediums:['Text','Call','In person'],text:"Would you rather always send a voice note or never send one again? Why?"},
+    {id:'game-wyr-2',type:'Would You Rather',audiences:['Anyone'],mediums:['Text','Call','In person'],text:"Would you rather have your friends choose your outfits for a month or your music for a year?"},
+    {id:'game-hot-1',type:'Hot Takes',audiences:['Anyone'],mediums:['Text','Call','In person'],text:"Making plans and cancelling at the last minute is worse than never making plans. Defend your side."},
+    {id:'game-hot-2',type:'Hot Takes',audiences:['Anyone'],mediums:['Text','Call','In person'],text:"People who say they don't like gossip still enjoy hearing the gist. Agree or disagree?"},
+    {id:'game-nhi-1',type:'Never Have I Ever',audiences:['Anyone'],mediums:['Text','Call','In person'],text:"Never have I ever pretended to know a song and mumbled through the chorus."},
+    {id:'game-nhi-2',type:'Never Have I Ever',audiences:['Anyone'],mediums:['Text','Call','In person'],text:"Never have I ever typed a whole message, deleted it, and sent 'okay' instead."},
+    {id:'game-scenario-1',type:'What Would You Do?',audiences:['Anyone'],mediums:['Text','Call','In person'],text:"Your friend sends a screenshot to the person they were gossiping about by mistake. What's your first piece of advice?"},
+    {id:'game-scenario-2',type:'What Would You Do?',audiences:['Anyone'],mediums:['Text','Call','In person'],text:"You get a free holiday for two, but the second person must be someone you've only met once. Who do you invite?"},
+    {id:'game-this-1',type:'This or That',audiences:['Anyone'],mediums:['Text','Call','In person'],text:"Phone calls or voice notes? Give your reason."},
+    {id:'game-this-2',type:'This or That',audiences:['Anyone'],mediums:['Text','Call','In person'],text:"Spontaneous hangouts or plans made a week ahead?"}
+  ]
+});
