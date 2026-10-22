@@ -344,20 +344,20 @@ function matchingAudience(p){
   return publicFriendly;
 }
 function matchingVibe(p){
-  if(state.mood==='Mix It Up')return true;
+  if(state.mood==='Mix It Up'||state.mood==='All moods')return true;
   if(state.mood==='Hot Takes')return p.format==='Hot take'||(p.moods||[]).includes('Bold');
-  if(state.mood==='Playful')return (p.moods||[]).some(m=>m==='Playful'||m==='Chill');
+  if(state.mood==='Playful')return (p.moods||[]).includes('Playful');
   return (p.moods||[]).includes(state.mood);
 }
 function matchingTheme(p){
   if(state.topic==='All topics')return true;
-  const theme=THEMES.find(t=>t.name===state.topic);
+  const theme=(typeof THEMES==='undefined'?[]:THEMES).find(t=>t.name===state.topic);
   return theme?theme.topics.includes(p.topic):p.topic===state.topic;
 }
 function filtered(){
   const q=state.query.toLowerCase().trim();
   const matches=inPool().filter(p=>{
-    const theme=THEMES.find(t=>t.topics.includes(p.topic));
+    const theme=(typeof THEMES==='undefined'?[]:THEMES).find(t=>t.topics.includes(p.topic));
     const searchMatches=!q||(p.text+' '+p.topic+' '+p.format+' '+(theme?.name||'')).toLowerCase().includes(q);
     return matchingVibe(p)&&matchingTheme(p)&&matchingAudience(p)&&searchMatches;
   });
@@ -366,7 +366,7 @@ function filtered(){
 }
 function sorted(list){const key=JSON.stringify([state.view,state.mood,state.topic,state.audience,state.adult,state.query,list.map(p=>p.id).join('|')]);if(state.feedKey===key){const lookup=new Map(list.map(p=>[p.id,p]));return state.feedOrder.map(id=>lookup.get(id)).filter(Boolean)}const result=[...list].sort((a,b)=>{const va=state.seen.includes(a.id)?1:0,vb=state.seen.includes(b.id)?1:0;const pilot=(b.source==='experience-pilot'?1:0)-(a.source==='experience-pilot'?1:0);return va-vb || pilot || ((Number(a.id.replace(/[^0-9]/g,''))*17)%53)-((Number(b.id.replace(/[^0-9]/g,''))*17)%53)});state.feedKey=key;state.feedOrder=result.map(p=>p.id);return result}
 let topicCountCacheKey='',topicCountCache={};
-function totalTopic(topic){return inPool().filter(p=>THEMES.find(t=>t.name===topic)?.topics.includes(p.topic)||p.topic===topic).length;}
+function totalTopic(topic){return inPool().filter(p=>(typeof THEMES==='undefined'?[]:THEMES).find(t=>t.name===topic)?.topics.includes(p.topic)||p.topic===topic).length;}
 function topicCountLabel(topic){
  if(!state.adult&&!batchReady)return 'Library unavailable · Refresh to retry';
  const count=totalTopic(topic);
