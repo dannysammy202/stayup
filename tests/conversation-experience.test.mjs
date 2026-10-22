@@ -12,7 +12,7 @@ const experience=sandbox.window.SayMoreExperience;
 const expansion=sandbox.window.SayMoreExpansion;
 const allPrompts=[...experience.pilot,...expansion.pilot];
 const allGames=[...experience.games,...expansion.games];
-const normalise=text=>text.toLowerCase().normalize('NFKC').replace(/[^\\p{L}\\p{N}]+/gu,' ').trim();
+const normalise=text=>text.toLowerCase().normalize('NFKC').replace(/[^\p{L}\p{N}]+/gu,' ').trim();
 
 test('conversation experience has the agreed simplified architecture',()=>{
  assert.equal(experience.themes.length,6);
@@ -77,7 +77,7 @@ test('expanded curated conversations remain original across all published batche
   keys.add(normalized);
   topicCoverage.add(p.topic);
   assert.equal(p.angles.length,4,'Expected four distinct directions: '+p.id);
-  assert.ok(p.angles.some(a=>/\\?|!/.test(a)),'No conversational direction: '+p.id);
+  assert.ok(p.angles.some(a=>/\?|!/.test(a)),'No conversational direction: '+p.id);
   for(const angle of p.angles){
    const key=normalise(angle);
    assert.notEqual(key,normalized,'Follow-up repeats the opening: '+p.id);
@@ -103,8 +103,8 @@ test('expanded games are non-repeating, audience-appropriate and playable withou
   assert.ok(g.audiences.length>0 && g.audiences.every(a=>experience.audiences.includes(a)));
   assert.ok(g.mediums.length>0 && g.mediums.every(m=>experience.mediums.includes(m)&&m!=='Any format'));
   assert.notEqual(g.adult,true);
-  assert.ok(!/(score|round \\d+|leaderboard|points to win)/i.test(g.text));
-  if(g.audiences.includes('Family'))assert.ok(!/\\b(sext|nude|kiss someone)\\b/i.test(g.text));
+  assert.ok(!/(score|round \d+|leaderboard|points to win)/i.test(g.text));
+  if(g.audiences.includes('Family'))assert.ok(!/\b(sext|nude|kiss someone)\b/i.test(g.text));
  }
  const types=[...new Set(allGames.map(g=>g.type))];
  assert.ok(types.includes('Story Chain'));
