@@ -8,6 +8,7 @@ const marker='<div id="app"></div><script>';
 const src=html.slice(html.indexOf(marker)+marker.length,html.indexOf('</script><script src="/update-check.js"'));
 const assets=vm.createContext({window:{}});
 vm.runInContext(readFileSync('public/conversation-experiences.js','utf8'),assets);
+vm.runInContext(readFileSync('public/conversation-expansion.js','utf8'),assets);
 
 function launch(){
  const app={innerHTML:''},overlays={innerHTML:''},toast={innerHTML:''};
@@ -24,7 +25,7 @@ function launch(){
   {id:'test-dare-1',type:'Dare',level:'Playful',adult:false,medium:'Text',audiences:['Friends'],text:'Describe your day with only three words.'}
  ];
  const ctx=vm.createContext({
-  window:{SayMoreExperience:assets.window.SayMoreExperience,SayMoreEditorialTruthOrDare:todExamples,SAYMORE_ICONSAX:{info:'<svg></svg>',arrow:'<svg></svg>'},addEventListener(){},scrollTo(){}},
+  window:{SayMoreExperience:assets.window.SayMoreExperience,SayMoreExpansion:assets.window.SayMoreExpansion,SayMoreEditorialTruthOrDare:todExamples,SAYMORE_ICONSAX:{info:'<svg></svg>',arrow:'<svg></svg>'},addEventListener(){},scrollTo(){}},
   document:doc,localStorage:{getItem:()=>null,setItem(){}},
   navigator:{serviceWorker:{register:async()=>{}}},
   location:{protocol:'https:',href:'https://preview.example'},
@@ -79,4 +80,25 @@ test('Truth or Dare displays unlimited cards without a round counter or restart 
  const second=vm.runInContext('todState.current',ctx);
  assert.notEqual(first,second,'Avoid immediate repeats while cards remain');
  assert.doesNotMatch(app.innerHTML,/\b(?:ROUND|rounds?|score|streak|restart|session)\b/i);
+});
+
+test('expanded game types, playable audience filters and format-only cards are available',()=>{
+ const {ctx,app}=launch();
+ vm.runInContext("nav('play')",ctx);
+ assert.match(app.innerHTML,/Story Chain/);
+ assert.match(app.innerHTML,/Someone new/);
+ assert.match(app.innerHTML,/Crush \/ Talking stage/);
+ assert.match(app.innerHTML,/In person/);
+ const general=vm.runInContext("playState.audience='Anyone';playPool('Would You Rather').length",ctx);
+ const forCrush=vm.runInContext("playState.audience='Crush / Talking stage';playPool('Would You Rather').length",ctx);
+ assert.ok(forCrush>general,'Crush-specific games need an explicit audience choice');
+ const familyCards=vm.runInContext("playState.audience='Family';playPool('Would You Rather').map(g=>g.text)",ctx);
+ assert.ok(familyCards.some(t=>t.includes('family story')));
+ assert.ok(familyCards.every(t=>!t.includes('crush')));
+ const all=vm.runInContext("playState.audience='Anyone';state.medium='Any format';playPool('What Would You Do?').length",ctx);
+ const textOnly=vm.runInContext("state.medium='Text';playPool('What Would You Do?').length",ctx);
+ assert.ok(textOnly<all,'Text filtering must exclude call-only scenarios');
+ vm.runInContext("state.medium='Any format';applyAction('playSurprise')",ctx);
+ assert.match(app.innerHTML,/Another card/);
+ assert.doesNotMatch(app.innerHTML,/\b(?:ROUND|rounds?|score|streak)\b/i);
 });
