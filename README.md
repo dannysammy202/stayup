@@ -1,5 +1,19 @@
 # Say More — Conversation Companion
 
+## Conversation-first development preview
+
+This branch adds a quality-first experience for people who want to start conversations, sustain them naturally and play open-ended games without rounds or scores. Production has **not** been replaced by this preview.
+
+- **Start Something:** Six broad themes, five optional vibes, six relationship contexts (plus an unfiltered default) and Text/Call/In person. The 18 older conversation topics remain internal searchable metadata, rather than 18 top-level category choices.
+- **Keep Talking:** 49 curated pilot starters (12 initial + 37 additional) with **four distinct editorial follow-up directions per starter**; the 16,200 previously released batch starters remain intact and can still appear after the pilot content.
+- **Play Something:** 106 curated cards (10 initial + 96 additional) across six casual game types: Would You Rather, Hot Takes, Never Have I Ever, What Would You Do?, This or That and Story Chain. The existing large Truth or Dare library remains separate and untouched.
+- **Natural controls:** Games do not impose numbered rounds, scoring, winner flows or restarts. Select another card or change games whenever you like. Some new cards are written for a particular audience or for texting vs calling.
+- **Assets and validation:** `public/conversation-experiences.js` and `public/conversation-expansion.js` are cached offline. New test coverage checks the content expansion, audience suitability, uniqueness and game flows. See `content/CONVERSATION_EDITORIAL_STANDARD.md`.
+
+The preview text was authored with AI assistance and is **not presented as independently human-reviewed**. Automated validation cannot replace a final human editorial sign-off or exploratory phone/tablet testing before production release.
+
+---
+
 ## Current release: Batch 1
 
 The active everyday library contains 5,400 directly authored conversation starters: Relationships, Friendships and Life each have 1,800. Each topic has three audiences and six moods, with exactly 100 entries in every combination. The interface displays Flirt while retaining the Flirty identifier.
