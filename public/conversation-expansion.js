@@ -453,7 +453,7 @@ window.SayMoreExpansion = {
       ],
       "text": "Every school had one subject people either loved or treated like a personal enemy.",
       "angles": [
-        "What was yours?",
+        "Which subject did you personally dread or love most?",
         "Which teacher could make a boring subject entertaining?",
         "What's a school topic you unexpectedly use now?",
         "What should every school have taught instead?"
