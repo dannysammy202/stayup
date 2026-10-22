@@ -1,5 +1,5 @@
 (()=>{'use strict';
-const VERSION='2026-10-20-batch4-nigerian-voice';
+const VERSION='2026-10-22-conversation-experience-pilot';
 const URL='/version.json';
 let updating=false,checking=false,visible=false;
 const style=document.createElement('style');
