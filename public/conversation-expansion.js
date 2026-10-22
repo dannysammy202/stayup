@@ -1906,6 +1906,347 @@ window.SayMoreExpansion = {
       ],
       "text": "The story begins with: 'The radio played a song nobody had heard before, but we all knew the words.' Where does it go?",
       "adult": false
+    },
+    {
+      "id": "game-exp-073",
+      "type": "Would You Rather",
+      "topic": "Relationships",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text"
+      ],
+      "text": "Would you rather send all your messages as voice notes or lose the ability to use emojis?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-074",
+      "type": "Hot Takes",
+      "topic": "Relationships",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text"
+      ],
+      "text": "Ending a text with a full stop can change the whole mood of the message. Agree?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-075",
+      "type": "Never Have I Ever",
+      "topic": "Personal Experiences",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text"
+      ],
+      "text": "Never have I ever spent longer choosing an emoji than writing the message.",
+      "adult": false
+    },
+    {
+      "id": "game-exp-076",
+      "type": "What Would You Do?",
+      "topic": "Relationships",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text"
+      ],
+      "text": "Someone sends 'we need to talk' and then goes offline for six hours. What's your reply?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-077",
+      "type": "This or That",
+      "topic": "Relationships",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text"
+      ],
+      "text": "Five short messages in a row or one long paragraph?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-078",
+      "type": "Story Chain",
+      "topic": "Random & Hypothetical",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Text"
+      ],
+      "text": "Text the next sentence: 'I accidentally posted my private note to the entire group chat. The first reply said...'",
+      "adult": false
+    },
+    {
+      "id": "game-exp-079",
+      "type": "Would You Rather",
+      "topic": "Personal Experiences",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Call",
+        "In person"
+      ],
+      "text": "Would you rather immediately recognise every voice you hear or remember every face you've ever seen?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-080",
+      "type": "Hot Takes",
+      "topic": "Relationships",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Call"
+      ],
+      "text": "Comfortable silence is the real test of a good phone call. Agree?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-081",
+      "type": "Never Have I Ever",
+      "topic": "Relationships",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Call"
+      ],
+      "text": "Never have I ever called someone and forgotten what I wanted to say.",
+      "adult": false
+    },
+    {
+      "id": "game-exp-082",
+      "type": "What Would You Do?",
+      "topic": "Random & Hypothetical",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Call"
+      ],
+      "text": "You're on a call and the other person suddenly says 'don't turn around.' What do you ask first?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-083",
+      "type": "This or That",
+      "topic": "Life",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Call",
+        "In person"
+      ],
+      "text": "Talk while taking a walk or talk while relaxing at home?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-084",
+      "type": "Story Chain",
+      "topic": "Random & Hypothetical",
+      "audiences": [
+        "Anyone"
+      ],
+      "mediums": [
+        "Call",
+        "In person"
+      ],
+      "text": "Tell the next part aloud: 'Everyone at the table stopped talking when the waiter arrived with a sealed envelope.'",
+      "adult": false
+    },
+    {
+      "id": "game-exp-085",
+      "type": "Would You Rather",
+      "topic": "Family",
+      "audiences": [
+        "Family"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Would you rather hear the same family story every holiday or be forced to tell it yourself?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-086",
+      "type": "Hot Takes",
+      "topic": "Family",
+      "audiences": [
+        "Family"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Family traditions should be allowed to change when the younger generation takes over.",
+      "adult": false
+    },
+    {
+      "id": "game-exp-087",
+      "type": "What Would You Do?",
+      "topic": "Family",
+      "audiences": [
+        "Family"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "At a family dinner two relatives disagree about who makes the best rice. You're asked to judge. What do you say?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-088",
+      "type": "Never Have I Ever",
+      "topic": "Family",
+      "audiences": [
+        "Family"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Never have I ever been blamed for something my sibling did.",
+      "adult": false
+    },
+    {
+      "id": "game-exp-089",
+      "type": "Would You Rather",
+      "topic": "Friendships",
+      "audiences": [
+        "Friends"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Would you rather let your best friend choose the holiday destination or the people coming along?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-090",
+      "type": "What Would You Do?",
+      "topic": "Friendships",
+      "audiences": [
+        "Friends"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Your friend arrives at a hangout with a surprise guest nobody knows. Who breaks the ice?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-091",
+      "type": "Hot Takes",
+      "topic": "Friendships",
+      "audiences": [
+        "Friends"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "The best friend in a group isn't always the loudest or the most available.",
+      "adult": false
+    },
+    {
+      "id": "game-exp-092",
+      "type": "Story Chain",
+      "topic": "Friendships",
+      "audiences": [
+        "Group"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Continue together: 'Our group chat finally agreed on a plan. That was the first sign something was wrong.'",
+      "adult": false
+    },
+    {
+      "id": "game-exp-093",
+      "type": "What Would You Do?",
+      "topic": "Friendships",
+      "audiences": [
+        "Group"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Everyone in the group gives a different story about how you all met. Who gets to tell the official version?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-094",
+      "type": "Never Have I Ever",
+      "topic": "Friendships",
+      "audiences": [
+        "Group"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Never have I ever been the last person to understand a joke in a group.",
+      "adult": false
+    },
+    {
+      "id": "game-exp-095",
+      "type": "Would You Rather",
+      "topic": "Dating",
+      "audiences": [
+        "Crush / Talking stage",
+        "Partner"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "Would you rather know immediately if your crush likes you or enjoy the mystery a little longer?",
+      "adult": false
+    },
+    {
+      "id": "game-exp-096",
+      "type": "This or That",
+      "topic": "Dating",
+      "audiences": [
+        "Crush / Talking stage",
+        "Partner"
+      ],
+      "mediums": [
+        "Text",
+        "Call",
+        "In person"
+      ],
+      "text": "A flirty inside joke or an unexpectedly thoughtful compliment?",
+      "adult": false
     }
   ]
 };
