@@ -10,7 +10,8 @@ const assets=vm.createContext({window:{}});
 vm.runInContext(readFileSync('public/conversation-experiences.js','utf8'),assets);
 vm.runInContext(readFileSync('public/conversation-expansion.js','utf8'),assets);
 
-function launch(){
+function launch({oldLibrary=false}={}){
+ const older=oldLibrary?Array.from({length:5400},(_,i)=>({id:'legacy-test-'+i,text:'Interview-style archive text '+i+'?',source:'batch1-editorial',adult:false,editorialStatus:'approved',topic:'Life',format:'Question',moods:['Chill'],audiences:['Anyone'],angles:['What happened next?']})):[];
  const app={innerHTML:''},overlays={innerHTML:''},toast={innerHTML:''};
  const elements={app,overlays,toaster:toast};
  const doc={
@@ -25,7 +26,7 @@ function launch(){
   {id:'test-dare-1',type:'Dare',level:'Playful',adult:false,medium:'Text',audiences:['Friends'],text:'Describe your day with only three words.'}
  ];
  const ctx=vm.createContext({
-  window:{SayMoreExperience:assets.window.SayMoreExperience,SayMoreExpansion:assets.window.SayMoreExpansion,SayMoreEditorialTruthOrDare:todExamples,SAYMORE_ICONSAX:{info:'<svg></svg>',arrow:'<svg></svg>'},addEventListener(){},scrollTo(){}},
+  window:{SayMoreExperience:assets.window.SayMoreExperience,SayMoreExpansion:assets.window.SayMoreExpansion,SayMoreBatch1:older,SayMoreEditorialTruthOrDare:todExamples,SAYMORE_ICONSAX:{info:'<svg></svg>',arrow:'<svg></svg>'},addEventListener(){},scrollTo(){}},
   document:doc,localStorage:{getItem:()=>null,setItem(){}},
   navigator:{serviceWorker:{register:async()=>{}}},
   location:{protocol:'https:',href:'https://preview.example'},
@@ -101,4 +102,35 @@ test('expanded game types, playable audience filters and format-only cards are a
  vm.runInContext("state.medium='Any format';applyAction('playSurprise')",ctx);
  assert.match(app.innerHTML,/Another card/);
  assert.doesNotMatch(app.innerHTML,/\b(?:ROUND|rounds?|score|streak)\b/i);
+});
+
+test('curated-first discovery keeps the older catalogue separate without breaking saved and history',()=>{
+ const {ctx,app,overlays}=launch({oldLibrary:true});
+ const initial=vm.runInContext('({all:inPool().length,curated:filtered().length,mode:state.showEarlier})',ctx);
+ assert.equal(initial.all,5449);
+ assert.equal(initial.curated,49);
+ assert.equal(initial.mode,false);
+ assert.match(app.innerHTML,/Explore earlier library/);
+ assert.doesNotMatch(app.innerHTML,/Interview-style archive text/);
+ vm.runInContext("state.saved=['legacy-test-23'];nav('saved')",ctx);
+ assert.match(app.innerHTML,/Interview-style archive text 23/,'Previously saved archive remains accessible');
+ vm.runInContext("state.seen=['legacy-test-24'];nav('history')",ctx);
+ assert.match(app.innerHTML,/Interview-style archive text 24/,'History can still open older records');
+ vm.runInContext("nav('explore');applyAction('toggleEarlier')",ctx);
+ assert.equal(vm.runInContext('filtered().length',ctx),5449);
+ assert.match(app.innerHTML,/Back to curated ideas/);
+ vm.runInContext("applyAction('toggleEarlier')",ctx);
+ assert.equal(vm.runInContext('filtered().length',ctx),49);
+ vm.runInContext("focus('legacy-test-23')",ctx);
+ assert.match(overlays.innerHTML,/Interview-style archive text 23/,'Saved older items remain focusable');
+});
+test('curated follow-ups offer genuine directions and empty filters never bypass suitability',()=>{
+ const {ctx,overlays}=launch();
+ vm.runInContext("nav('explore');focus('exp-001');applyAction('angles')",ctx);
+ assert.match(overlays.innerHTML,/Tell a story/);
+ assert.match(overlays.innerHTML,/Go a little deeper/);
+ assert.match(overlays.innerHTML,/Try another perspective/);
+ assert.match(overlays.innerHTML,/Take a new direction/);
+ vm.runInContext("state.focus=null;state.topic='Faith & Spirituality';state.mood='Flirty';applyAction('surprise')",ctx);
+ assert.equal(vm.runInContext('state.focus',ctx),null,'Do not expose unrelated results under an empty filter');
 });
