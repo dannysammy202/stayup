@@ -2,7 +2,7 @@
 
 ## Content Quality Overhaul — development-preview behaviour
 
-The default Start Something feed now displays **only the 49 newer curated conversation pathways** while the 16,200 older published prompts are held back from everyday discovery pending editorial review. This is a discovery-layer gate, **not a deletion or a claim that all 49 have independent human approval**. People can explicitly select **Explore earlier library** to browse the older batch catalogue. Previously saved entries and history remain directly accessible, including earlier IDs; the separate 18+ experience is unchanged.
+The default Start Something feed now displays **only the 49 newer curated conversation pathways** while the 16,200 older published prompts are available in a separate opt-in legacy collection for further editorial improvement. This is a discovery-layer gate, **not a deletion or a claim that all 49 have independent human approval**. People can explicitly select **Explore earlier library** to browse the older batch catalogue. Previously saved entries and history remain directly accessible, including earlier IDs; the separate 18+ experience is unchanged.
 
 Keep Talking now presents four identifiable ways to take a curated conversation: tell a story, go deeper, consider a different perspective or change direction. Filtered Surprise Me no longer ignores empty filters and reveals unrelated prompts. This prevents the app from silently switching a Family- or Flirty-specific request to a different audience.
 
@@ -11,7 +11,7 @@ Run `npm run content:quality-audit` to inspect 16,200 earlier records for exact 
 ---
 ## Conversation-first development preview
 
-This branch adds a quality-first experience for people who want to start conversations, sustain them naturally and play open-ended games without rounds or scores. Production has **not** been replaced by this preview.
+This release adds a quality-first experience for people who want to start conversations, sustain them naturally and play open-ended games without rounds or scores. Merge to production is permitted once release checks pass.
 
 - **Start Something:** Six broad themes, five optional vibes, six relationship contexts (plus an unfiltered default) and Text/Call/In person. The 18 older conversation topics remain internal searchable metadata, rather than 18 top-level category choices.
 - **Keep Talking:** 49 curated pilot starters (12 initial + 37 additional) with **four distinct editorial follow-up directions per starter**; the 16,200 previously released batch starters remain intact and can still appear after the pilot content.
@@ -19,7 +19,7 @@ This branch adds a quality-first experience for people who want to start convers
 - **Natural controls:** Games do not impose numbered rounds, scoring, winner flows or restarts. Select another card or change games whenever you like. Some new cards are written for a particular audience or for texting vs calling.
 - **Assets and validation:** `public/conversation-experiences.js` and `public/conversation-expansion.js` are cached offline. New test coverage checks the content expansion, audience suitability, uniqueness and game flows. See `content/CONVERSATION_EDITORIAL_STANDARD.md`.
 
-The preview text was authored with AI assistance and is **not presented as independently human-reviewed**. Automated validation cannot replace a final human editorial sign-off or exploratory phone/tablet testing before production release.
+The experience contains AI-assisted text and is **not claimed to be independently human-reviewed**. Release criteria are product-owner approval, AI/editorial quality checks, technical CI and browser QA; physical device checks are recommended follow-up validation, not a mandatory external approval step.
 
 ---
 
