@@ -45,6 +45,23 @@ async function checkSize(width,height,label){
   await page.locator('.prompt-card [data-focus]').first().click();
   await page.locator('.focus-overlay').waitFor();
   const id=await page.evaluate(()=>state.focus);
+  const focusAppearance=await page.evaluate(()=>{
+   const x=document.querySelector('.focus-top .close');
+   const prev=document.querySelector('.focus-bottom .nexts button');
+   const body=document.querySelector('.focus-main');
+   const text=getComputedStyle(body),cx=getComputedStyle(x),ca=getComputedStyle(prev);
+   return {closeColor:cx.color,previousColor:ca.color,fontSize:parseFloat(text.fontSize),lineHeight:parseFloat(text.lineHeight),textTop:body.getBoundingClientRect().top,
+     keepTalking:document.querySelectorAll('.focus-primary-action').length,sidebar:document.querySelectorAll('.focus-secondary-actions .focus-subtle-action').length};
+  });
+  assert.equal(focusAppearance.closeColor,'rgb(51, 91, 61)','Close icon should be forest green, never browser blue');
+  assert.equal(focusAppearance.previousColor,'rgb(50, 94, 61)','Previous arrow should be green, never browser blue');
+  assert.equal(focusAppearance.keepTalking,1);
+  assert.equal(focusAppearance.sidebar,2);
+  if(width<=780){
+   assert.ok(focusAppearance.fontSize<=31,'Focus content is too large for a phone');
+   assert.ok(focusAppearance.textTop<350,'Focus text should start near the top, not float mid-screen');
+  }
+  if(label==='phone')await page.screenshot({path:'/tmp/saymore-v2-phone-focus.jpg',type:'jpeg',quality:75});
   await page.locator('[data-action="angles"]').click();
   await page.locator('.angle-path').first().waitFor();
   assert.equal(await page.locator('.angle-path').count(),4);
@@ -76,6 +93,16 @@ async function checkSize(width,height,label){
   assert.ok(await page.evaluate(()=>filtered().length)>0);
   await page.evaluate(()=>{state.topic='All topics';nav('explore');});
   await page.locator('[data-action="refine"]').first().click();
+  const filterAppearance=await page.evaluate(()=>{
+   const modal=document.querySelector('.cf-refine-modal'),footer=modal?.querySelector('.modal-actions'),close=modal?.querySelector('.close');
+   return {isSheet:!!modal,modalHeight:modal?.getBoundingClientRect().height,viewport:innerHeight,
+     footerVisible:footer?.getBoundingClientRect().bottom<=innerHeight+1,
+     closeColor:close?getComputedStyle(close).color:'',scrollable:modal?.querySelector('.modal-body')?.scrollHeight>modal?.querySelector('.modal-body')?.clientHeight}
+  });
+  assert.ok(filterAppearance.isSheet&&filterAppearance.footerVisible,'Filter action must stay visible');
+  assert.equal(filterAppearance.closeColor,'rgb(51, 91, 61)','Filter close icon should match forest green');
+  if(width<=780)assert.ok(filterAppearance.modalHeight<=innerHeight*.9+2);
+  if(label==='phone')await page.screenshot({path:'/tmp/saymore-v2-phone-filters.jpg',type:'jpeg',quality:75});
   await page.locator('[data-audience="Family"]').click();
   await page.locator('[data-mood="Flirty"]').last().click();
   await page.locator('[data-action="applyFilters"]').click();
