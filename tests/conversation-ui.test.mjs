@@ -40,8 +40,9 @@ function launch({oldLibrary=false}={}){
 
 test('app starts with real conversation cards and optional preferences',()=>{
  const {app}=launch();
- assert.match(app.innerHTML,/Start Something/);
+ assert.match(app.innerHTML,/SAY MORE \/ EXPLORE/);
  assert.match(app.innerHTML,/Keep Talking/);
+ assert.match(app.innerHTML,/sm-conversation-bubble/);
  assert.match(app.innerHTML,/Play Something/);
  assert.match(app.innerHTML,/Mix It Up/);
  assert.match(app.innerHTML,/What/);
@@ -56,13 +57,13 @@ test('theme browsing shows six categories without displaying 19 top-level button
 test('Play Something draws cards and preserves Truth or Dare navigation',()=>{
  const {ctx,app}=launch();
  vm.runInContext("nav('play');playDraw()",ctx);
- assert.match(app.innerHTML,/Pick something to play/);
+ assert.match(app.innerHTML,/Less rules/);
  assert.match(app.innerHTML,/Would You Rather/);
  assert.match(app.innerHTML,/Truth or Dare/);
  assert.doesNotMatch(app.innerHTML,/\b(?:ROUND|rounds?|score|streak)\b/i);
  vm.runInContext('playDraw()',ctx);
  assert.doesNotMatch(app.innerHTML,/\b(?:ROUND|rounds?|score|streak)\b/i);
- assert.match(app.innerHTML,/Another card/);
+ assert.match(app.innerHTML,/Next card/);
 });
 test('Keep Talking opens a prompt and exposes follow-up directions',()=>{
  const {ctx,overlays}=launch();
@@ -85,12 +86,13 @@ test('Truth or Dare displays unlimited cards without a round counter or restart 
 });
 
 test('expanded game types, playable audience filters and format-only cards are available',()=>{
- const {ctx,app}=launch();
+ const {ctx,app,overlays}=launch();
  vm.runInContext("nav('play')",ctx);
  assert.match(app.innerHTML,/Story Chain/);
- assert.match(app.innerHTML,/Someone new/);
- assert.match(app.innerHTML,/Crush \/ Talking stage/);
- assert.match(app.innerHTML,/In person/);
+ vm.runInContext("applyAction('playOptions')",ctx);
+ assert.match(overlays.innerHTML,/Someone new/);
+ assert.match(overlays.innerHTML,/Crush \/ Talking stage/);
+ assert.match(overlays.innerHTML,/In person/);
  const general=vm.runInContext("playState.audience='Anyone';playPool('Would You Rather').length",ctx);
  const forCrush=vm.runInContext("playState.audience='Crush / Talking stage';playPool('Would You Rather').length",ctx);
  assert.ok(forCrush>general,'Crush-specific games need an explicit audience choice');
@@ -101,7 +103,7 @@ test('expanded game types, playable audience filters and format-only cards are a
  const textOnly=vm.runInContext("state.medium='Text';playPool('What Would You Do?').length",ctx);
  assert.ok(textOnly<all,'Text filtering must exclude call-only scenarios');
  vm.runInContext("state.medium='Any format';applyAction('playSurprise')",ctx);
- assert.match(app.innerHTML,/Another card/);
+ assert.match(app.innerHTML,/Next card/);
  assert.doesNotMatch(app.innerHTML,/\b(?:ROUND|rounds?|score|streak)\b/i);
 });
 
@@ -111,15 +113,17 @@ test('curated-first discovery keeps the older catalogue separate without breakin
  assert.equal(initial.all,5449);
  assert.equal(initial.curated,49);
  assert.equal(initial.mode,false);
- assert.match(app.innerHTML,/Explore earlier library/);
+ assert.match(app.innerHTML,/sm-conversation-bubble/);
+ vm.runInContext("nav('browse')",ctx);
+ assert.match(app.innerHTML,/Browse earlier collection/);
  assert.doesNotMatch(app.innerHTML,/Interview-style archive text/);
  vm.runInContext("state.saved=['legacy-test-23'];nav('saved')",ctx);
  assert.match(app.innerHTML,/Interview-style archive text 23/,'Previously saved archive remains accessible');
  vm.runInContext("state.seen=['legacy-test-24'];nav('history')",ctx);
  assert.match(app.innerHTML,/Interview-style archive text 24/,'History can still open older records');
- vm.runInContext("nav('explore');applyAction('toggleEarlier')",ctx);
+ vm.runInContext("nav('browse');applyAction('toggleEarlier')",ctx);
  assert.equal(vm.runInContext('filtered().length',ctx),5449);
- assert.match(app.innerHTML,/Back to curated ideas/);
+ assert.match(app.innerHTML,/Return to curated ideas/);
  vm.runInContext("applyAction('toggleEarlier')",ctx);
  assert.equal(vm.runInContext('filtered().length',ctx),49);
  vm.runInContext("focus('legacy-test-23')",ctx);
@@ -143,4 +147,21 @@ test('Keep Talking offers a non-interrogative conversational bridge, not only fo
  assert.match(overlays.innerHTML,/Copy this thought/);
  assert.match(overlays.innerHTML,/typing indicator/);
  assert.match(overlays.innerHTML,/Tell a story/);
+});
+
+test('fresh conversation deck, separate Browse library and More retain the complete product',()=>{
+ const {ctx,app}=launch();
+ assert.match(app.innerHTML,/sm-shell/);
+ assert.match(app.innerHTML,/sm-conversation-bubble/);
+ assert.match(app.innerHTML,/sm-deck-utility/);
+ assert.doesNotMatch(app.innerHTML,/home-showcase|experience-quick|home-feed-area/);
+ assert.equal((app.innerHTML.match(/class="sm-conversation-bubble"/g)||[]).length,1);
+ vm.runInContext("applyAction('nextFeatured')",ctx);
+ assert.equal(vm.runInContext("state.deckCursor",ctx),1);
+ vm.runInContext("nav('browse')",ctx);
+ assert.match(app.innerHTML,/sm-reader-feed/);
+ assert.equal((app.innerHTML.match(/class="sm-reader-item"/g)||[]).length,12);
+ vm.runInContext("nav('more')",ctx);
+ assert.match(app.innerHTML,/History/);
+ assert.match(app.innerHTML,/Adults-only conversations/);
 });
