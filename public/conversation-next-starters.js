@@ -104,7 +104,7 @@ window.SayMoreNextStarters = Object.freeze([
     ],
     "text": "What household job had a name in your family that nobody outside your house would understand?",
     "angles": [
-      "Who invented the name?",
+      "Who first started calling it that in your house?",
       "Which chore did everyone try to escape?",
       "What home routine do you surprisingly miss?",
       "What happens when somebody new joins the household?"
@@ -220,7 +220,7 @@ window.SayMoreNextStarters = Object.freeze([
     "text": "Tell me about a time you walked into a room, realised you had the wrong place, and tried to act normal.",
     "angles": [
       "How long did you stay before you could escape?",
-      "Did anybody notice?",
+      "Did anyone notice you were in the wrong room?",
       "What's your go-to excuse when you're embarrassed?",
       "Who would tell that story better than you?"
     ],
@@ -381,7 +381,7 @@ window.SayMoreNextStarters = Object.freeze([
     ],
     "text": "What's a greeting or expression from home that loses half its meaning when you translate it?",
     "angles": [
-      "Who usually says it?",
+      "Who would say that expression most often at home?",
       "What situation makes the phrase perfect?",
       "Has anybody misunderstood it outside your culture?",
       "What do you wish visitors understood about the way people speak at home?"
