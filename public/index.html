@@ -588,6 +588,10 @@ function render(){
  const content={explore,topics:topicsView,play:playView,truthordare:todView,saved:savedView,history:historyView,settings:settingsView,more:moreView}[state.view]();
  const errorBanner=libraryLoadError&&!state.adult?'<div class="alert-strip" role="alert">'+icon('info')+' '+esc(libraryLoadError)+' <button type="button" class="secondary" data-action="retryLibrary">Retry loading</button></div>':'';
  layout(errorBanner+content);
+ if(state.view==='play')requestAnimationFrame(()=>{
+  const selected=document.querySelector('.cf-game-rail .choice.on');
+  if(selected&&typeof selected.scrollIntoView==='function')selected.scrollIntoView({block:'nearest',inline:'center',behavior:'instant'});
+ });
  if(preserveScroll&&previousY>0)window.scrollTo({top:previousY,behavior:'instant'});
  schedulePublishedForView();
 }
