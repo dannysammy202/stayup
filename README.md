@@ -1,5 +1,14 @@
 # Say More — Conversation Companion
 
+## Content Quality Overhaul — development-preview behaviour
+
+The default Start Something feed now displays **only the 49 newer curated conversation pathways** while the 16,200 older published prompts are held back from everyday discovery pending editorial review. This is a discovery-layer gate, **not a deletion or a claim that all 49 have independent human approval**. People can explicitly select **Explore earlier library** to browse the older batch catalogue. Previously saved entries and history remain directly accessible, including earlier IDs; the separate 18+ experience is unchanged.
+
+Keep Talking now presents four identifiable ways to take a curated conversation: tell a story, go deeper, consider a different perspective or change direction. Filtered Surprise Me no longer ignores empty filters and reveals unrelated prompts. This prevents the app from silently switching a Family- or Flirty-specific request to a different audience.
+
+Run `npm run content:quality-audit` to inspect 16,200 earlier records for exact duplicates, short entries, missing follow-ups, repeated beginnings and mechanical stems. This emits triage candidates and format distribution by release batch. **A heuristic flag is not a rejection and passing is not a human editorial approval.** No records are automatically altered, deleted or relabelled by the audit. Follow `content/CONVERSATION_EDITORIAL_STANDARD.md` for individual editorial decisions before allowing more content into the default discovery library.
+
+---
 ## Conversation-first development preview
 
 This branch adds a quality-first experience for people who want to start conversations, sustain them naturally and play open-ended games without rounds or scores. Production has **not** been replaced by this preview.
