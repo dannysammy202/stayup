@@ -24,5 +24,7 @@ jobs:
           node-version: '22'
       - name: Tests
         run: npm test
+      - name: Review legacy content triage
+        run: npm run content:quality-audit
       - name: Build
         run: npm run build
