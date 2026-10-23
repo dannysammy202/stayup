@@ -9,6 +9,7 @@ const src=html.slice(html.indexOf(marker)+marker.length,html.indexOf('</script><
 const assets=vm.createContext({window:{}});
 vm.runInContext(readFileSync('public/conversation-experiences.js','utf8'),assets);
 vm.runInContext(readFileSync('public/conversation-expansion.js','utf8'),assets);
+vm.runInContext(readFileSync('public/conversation-bridges.js','utf8'),assets);
 
 function launch({oldLibrary=false}={}){
  const older=oldLibrary?Array.from({length:5400},(_,i)=>({id:'legacy-test-'+i,text:'Interview-style archive text '+i+'?',source:'batch1-editorial',adult:false,editorialStatus:'approved',topic:'Life',format:'Question',moods:['Chill'],audiences:['Anyone'],angles:['What happened next?']})):[];
@@ -26,7 +27,7 @@ function launch({oldLibrary=false}={}){
   {id:'test-dare-1',type:'Dare',level:'Playful',adult:false,medium:'Text',audiences:['Friends'],text:'Describe your day with only three words.'}
  ];
  const ctx=vm.createContext({
-  window:{SayMoreExperience:assets.window.SayMoreExperience,SayMoreExpansion:assets.window.SayMoreExpansion,SayMoreBatch1:older,SayMoreEditorialTruthOrDare:todExamples,SAYMORE_ICONSAX:{info:'<svg></svg>',arrow:'<svg></svg>'},addEventListener(){},scrollTo(){}},
+  window:{SayMoreExperience:assets.window.SayMoreExperience,SayMoreExpansion:assets.window.SayMoreExpansion,SayMoreBridges:assets.window.SayMoreBridges,SayMoreBatch1:older,SayMoreEditorialTruthOrDare:todExamples,SAYMORE_ICONSAX:{info:'<svg></svg>',arrow:'<svg></svg>'},addEventListener(){},scrollTo(){}},
   document:doc,localStorage:{getItem:()=>null,setItem(){}},
   navigator:{serviceWorker:{register:async()=>{}}},
   location:{protocol:'https:',href:'https://preview.example'},
@@ -133,4 +134,13 @@ test('curated follow-ups offer genuine directions and empty filters never bypass
  assert.match(overlays.innerHTML,/Take a new direction/);
  vm.runInContext("state.focus=null;state.topic='Faith & Spirituality';state.mood='Flirty';applyAction('surprise')",ctx);
  assert.equal(vm.runInContext('state.focus',ctx),null,'Do not expose unrelated results under an empty filter');
+});
+
+test('Keep Talking offers a non-interrogative conversational bridge, not only follow-up questions',()=>{
+ const {ctx,overlays}=launch();
+ vm.runInContext("nav('explore');focus('exp-001');applyAction('angles')",ctx);
+ assert.match(overlays.innerHTML,/A different kind of response/);
+ assert.match(overlays.innerHTML,/Copy this thought/);
+ assert.match(overlays.innerHTML,/typing indicator/);
+ assert.match(overlays.innerHTML,/Tell a story/);
 });
