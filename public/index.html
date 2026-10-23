@@ -590,7 +590,11 @@ function render(){
  layout(errorBanner+content);
  if(state.view==='play')requestAnimationFrame(()=>{
   const selected=document.querySelector('.cf-game-rail .choice.on');
-  if(selected&&typeof selected.scrollIntoView==='function')selected.scrollIntoView({block:'nearest',inline:'center',behavior:'instant'});
+  const rail=selected?.parentElement;
+  if(selected&&rail){
+   const delta=selected.getBoundingClientRect().left-rail.getBoundingClientRect().left;
+   rail.scrollLeft+=delta-(rail.clientWidth-selected.clientWidth)/2;
+  }
  });
  if(preserveScroll&&previousY>0)window.scrollTo({top:previousY,behavior:'instant'});
  schedulePublishedForView();
