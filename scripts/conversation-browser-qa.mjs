@@ -64,7 +64,14 @@ async function checkSize(width,height,label){
  });
  await record(label+' themes and filters',async()=>{
   await page.evaluate(()=>nav('topics'));
-  assert.equal(await page.locator('.category-list .category').count(),6);
+  assert.equal(await page.locator('.cf-topics-page .cf-link-row').count(),6);
+  const displayedIcons=await page.locator('.cf-topics-page .cf-link-icon').evaluateAll(els=>els.map(el=>{
+    const svg=el.querySelector('svg');
+    const b=svg?.getBoundingClientRect();
+    return {exists:!!svg,paths:svg?.querySelectorAll('path,rect,circle,line,polyline,polygon').length||0,width:b?.width||0,height:b?.height||0,color:getComputedStyle(svg||el).color};
+  }));
+  assert.ok(displayedIcons.every(x=>x.exists&&x.paths>0&&x.width>=18&&x.height>=18),'Theme Iconsax symbols must be visibly sized');
+  if(label==='phone')await page.screenshot({path:'/tmp/saymore-v2-phone-themes.jpg',type:'jpeg',quality:70});
   await page.locator('[data-topic="People &amp; Connections"],[data-topic="People & Connections"]').first().click();
   assert.ok(await page.evaluate(()=>filtered().length)>0);
   await page.evaluate(()=>{state.topic='All topics';nav('explore');});
@@ -82,13 +89,31 @@ async function checkSize(width,height,label){
   await page.locator('[data-action="playNext"]').click();
   assert.ok((await page.locator('.play-card h2').innerText()).length>20);
   assert.doesNotMatch(await page.locator('.play-card').innerText(),/\\b(?:round|score|streak|leaderboard)\\b/i);
+  const firstCardBox=await page.locator('.cf-game-stage').boundingBox();
+  assert.ok(firstCardBox.y<460,'Play card should be above the fold, not hidden under mandatory filters');
+  if(label==='phone')await page.screenshot({path:'/tmp/saymore-v2-phone-play.jpg',type:'jpeg',quality:70});
+  await page.locator('[data-action="playOptions"]').click();
+  assert.ok(await page.locator('.cf-play-modal').count()===1);
   await page.locator('[data-play-audience="Family"]').click();
+  await page.locator('[data-action="closeOverlay"]').click();
   await page.locator('[data-action="playNext"]').click();
   assert.ok((await page.locator('.play-card h2').innerText()).length>20);
   await page.locator('[data-view="truthordare"]').last().click();
   await page.locator('[data-tod-type="Truth"]').click();
   assert.ok(await page.locator('.tod-card').count()===1);
   assert.doesNotMatch(await page.locator('.tod-card').innerText(),/\\b(?:round|score|streak|restart)\\b/i);
+ });
+ await record(label+' More list and navigation',async()=>{
+  await page.evaluate(()=>nav('more'));
+  assert.equal(await page.locator('.cf-more-page .cf-link-row').count(),4);
+  const icons=await page.locator('.cf-more-page .cf-link-icon svg').count();
+  assert.equal(icons,4);
+  if(label==='phone')await page.screenshot({path:'/tmp/saymore-v2-phone-more.jpg',type:'jpeg',quality:70});
+  await page.locator('.cf-more-page [data-view="history"]').click();
+  assert.match(await page.locator('.page-heading h1').innerText(),/Recent conversations/);
+  await page.evaluate(()=>nav('more'));
+  await page.locator('.cf-more-page [data-view="settings"]').click();
+  assert.ok(await page.locator('.main').innerText().then(t=>/Conversation preferences/i.test(t)));
  });
  await record(label+' no horizontal overflow after navigation',async()=>{
   assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth<=1));
