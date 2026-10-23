@@ -437,10 +437,9 @@ function explore(){
    <div class="home-intro"><div class="home-eyebrow"><span class="home-eyebrow-dot"></span>${state.adult?'YOUR PRIVATE 18+ SPACE':'IDEAS FOR REAL CONVERSATIONS'}</div>
    <h1>${state.adult?'A little more <em>personal.</em>':'Something worth <em>talking about.</em>'}</h1>
    <p>${state.adult?'Explore mature topics privately. These ideas stay separate from your everyday feed.':'Funny stories. Unexpected opinions. Proper deep talks. Find a prompt worth bringing into your next conversation.'}</p>
-   <div class="home-intro-actions"><button class="home-surprise" data-action="surprise">${icon('shuffle')} Surprise me</button>${state.adult?`<button class="home-return" data-action="leaveAdult">Exit 18+ ${icon('arrow')}</button>`:`<span class="home-intro-note">No script needed. Make it yours.</span>`}</div>
+   <div class="home-intro-actions"><button class="home-surprise" data-action="surprise">${icon('shuffle')} Surprise me</button>${state.adult?`<button class="home-return" data-action="leaveAdult">Exit 18+ ${icon('arrow')}</button>`:`<button class="home-continue" type="button" data-action="keepTalking">${icon('layers')} Keep Talking</button>`}</div>
    </div>${homeFeatured(featured)}
   </section>
-  ${experienceActions()}
    ${homeMoodRow()}
   <section class="home-discovery" aria-label="Find a conversation"><div class="home-toolrow"><label class="home-search">${icon('search')}<input id="search" autocomplete="off" aria-label="Search prompts" placeholder="Search an idea, topic or question..." value="${esc(state.query)}" /></label><button class="home-filter-control" data-action="refine">${icon('filter')} <span>Filters</span> ${(state.topic!=='All topics'||state.audience!=='Anyone')?'<i aria-label="Active filters"></i>':''}</button><button class="home-topics-control" data-view="topics">${icon('grid')} <span>${THEMES.length} themes</span> ${icon('arrow')}</button></div>${activeFilterNote()}</section>
 
