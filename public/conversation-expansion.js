@@ -3,7 +3,7 @@ window.SayMoreExpansion = {
   "pilot": [
     {
       "id": "exp-013",
-      "topic": "Relationships",
+      "topic": "Friendships",
       "format": "Hot take",
       "moods": [
         "Playful",
@@ -196,7 +196,7 @@ window.SayMoreExpansion = {
     {
       "id": "exp-022",
       "topic": "Life",
-      "format": "Quick choice",
+      "format": "Scenario",
       "moods": [
         "Playful",
         "Curious"
@@ -439,7 +439,7 @@ window.SayMoreExpansion = {
     {
       "id": "exp-033",
       "topic": "School & Education",
-      "format": "Hot take",
+      "format": "Random observation",
       "moods": [
         "Playful",
         "Bold"
@@ -799,7 +799,7 @@ window.SayMoreExpansion = {
     {
       "id": "exp-049",
       "topic": "Random & Hypothetical",
-      "format": "Quick choice",
+      "format": "Scenario",
       "moods": [
         "Playful",
         "Curious"
@@ -1738,7 +1738,7 @@ window.SayMoreExpansion = {
         "Call",
         "In person"
       ],
-      "text": "The story begins with: 'I knew this family wedding was going to be strange when the DJ called my name.' What happens next?",
+      "text": "At a family wedding, the DJ called my name and the entire room went quiet. Then someone handed me a microphone.",
       "adult": false
     },
     {
@@ -1753,7 +1753,7 @@ window.SayMoreExpansion = {
         "Call",
         "In person"
       ],
-      "text": "The story begins with: 'We got to the airport, and somehow everyone brought the wrong suitcase.' Continue it.",
+      "text": "We reached the airport with three suitcases. None of them belonged to us.",
       "adult": false
     },
     {
@@ -1768,7 +1768,7 @@ window.SayMoreExpansion = {
         "Call",
         "In person"
       ],
-      "text": "The story begins with: 'My boss said, just a quick question, and the entire office went silent.' What happens?",
+      "text": "My boss said 'quick question' and the entire office went silent. The lights went out.",
       "adult": false
     },
     {
@@ -1783,7 +1783,7 @@ window.SayMoreExpansion = {
         "Call",
         "In person"
       ],
-      "text": "The story begins with: 'The person at the next table recognised me, but I had no idea who they were.' Keep going.",
+      "text": "A stranger at the next table knew my name but kept smiling when I asked how.",
       "adult": false
     },
     {
@@ -1798,7 +1798,7 @@ window.SayMoreExpansion = {
         "Call",
         "In person"
       ],
-      "text": "The story begins with: 'It was meant to be a quiet movie night until the electricity came back on.' What's the twist?",
+      "text": "Movie night was peaceful until the electricity returned and the TV started playing footage of our own living room.",
       "adult": false
     },
     {
@@ -1813,7 +1813,7 @@ window.SayMoreExpansion = {
         "Call",
         "In person"
       ],
-      "text": "The story begins with: 'We finally organised the group trip, then the driver recognised one of us.' Tell the rest.",
+      "text": "The group trip finally happened. Our driver recognised one of us and refused to start the engine.",
       "adult": false
     },
     {
@@ -1828,7 +1828,7 @@ window.SayMoreExpansion = {
         "Call",
         "In person"
       ],
-      "text": "The story begins with: 'The voice note was for my best friend. Unfortunately, it went to the family group.' What happened?",
+      "text": "I sent a voice note meant for my best friend to the family group. Grandma replied first.",
       "adult": false
     },
     {
@@ -1843,7 +1843,7 @@ window.SayMoreExpansion = {
         "Call",
         "In person"
       ],
-      "text": "The story begins with: 'Someone offered me the keys to a shop that only opens at midnight.' What's inside?",
+      "text": "A stranger handed me the keys to a shop that only opens at midnight. Inside, everything was labelled with my name.",
       "adult": false
     },
     {
@@ -1858,7 +1858,7 @@ window.SayMoreExpansion = {
         "Call",
         "In person"
       ],
-      "text": "The story begins with: 'At the reunion, our most serious teacher was the first person on the dance floor.' What next?",
+      "text": "At our school reunion, our strictest teacher was first on the dance floor. Then the principal walked in.",
       "adult": false
     },
     {
@@ -1874,7 +1874,7 @@ window.SayMoreExpansion = {
         "Call",
         "In person"
       ],
-      "text": "The story begins with: 'I was on the perfect date until the waiter brought a cake with someone else's name.' Continue.",
+      "text": "The perfect date was going well until the waiter brought a cake with someone else's name, and my date looked terrified.",
       "adult": false
     },
     {
@@ -1889,7 +1889,7 @@ window.SayMoreExpansion = {
         "Call",
         "In person"
       ],
-      "text": "The story begins with: 'My mum asked me to fix one thing on her phone. Forty minutes later...' Finish it.",
+      "text": "My mum asked for help with one phone setting. Forty minutes later, every contact had a new name.",
       "adult": false
     },
     {
@@ -1904,7 +1904,7 @@ window.SayMoreExpansion = {
         "Call",
         "In person"
       ],
-      "text": "The story begins with: 'The radio played a song nobody had heard before, but we all knew the words.' Where does it go?",
+      "text": "A song came on the radio that none of us knew, yet everybody in the car started singing along.",
       "adult": false
     },
     {
@@ -1982,7 +1982,7 @@ window.SayMoreExpansion = {
       "mediums": [
         "Text"
       ],
-      "text": "Text the next sentence: 'I accidentally posted my private note to the entire group chat. The first reply said...'",
+      "text": "I accidentally posted a private note to the entire group chat. The first reply came from someone who wasn't even a member.",
       "adult": false
     },
     {
@@ -2063,7 +2063,7 @@ window.SayMoreExpansion = {
         "Call",
         "In person"
       ],
-      "text": "Tell the next part aloud: 'Everyone at the table stopped talking when the waiter arrived with a sealed envelope.'",
+      "text": "Our dinner table fell silent when the waiter arrived with a sealed envelope. They insisted it was for the youngest person there.",
       "adult": false
     },
     {
@@ -2183,7 +2183,7 @@ window.SayMoreExpansion = {
         "Call",
         "In person"
       ],
-      "text": "Continue together: 'Our group chat finally agreed on a plan. That was the first sign something was wrong.'",
+      "text": "Our group chat agreed on a plan for once. Then a message appeared from someone who left the group three years ago.",
       "adult": false
     },
     {
