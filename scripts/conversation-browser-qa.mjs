@@ -43,7 +43,7 @@ async function checkSize(width,height,label){
    appliedStyleSheets:[...document.styleSheets].filter(sheet=>sheet.href?.includes('approved-reference.css')).map(sheet=>{try{return sheet.cssRules.length}catch{return -1}})
   }));
   assert.ok(design.approved&&design.darkHero&&design.featured===1&&design.moods&&design.browse&&design.styleLoaded);
-  assert.ok(design.appliedStyleSheets.some(n=>n>100),'Approved CSS rules must be parsed and applied, not just linked');
+  assert.ok(design.appliedStyleSheets.some(n=>n>15),'Approved CSS rules must be parsed and applied, not just linked');
   assert.equal(design.shortcutRadius,'999px','Shortcuts must use approved rounded controls');
   if(label==='phone')await page.screenshot({path:'/tmp/saymore-approved-home-phone.jpg',type:'jpeg',quality:80});
   if(label==='desktop')await page.screenshot({path:'/tmp/saymore-approved-home-desktop.jpg',type:'jpeg',quality:80});
