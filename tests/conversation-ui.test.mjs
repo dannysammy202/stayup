@@ -160,6 +160,7 @@ test('conversation-first home is a single stage, not a dashboard made of a hero 
  assert.doesNotMatch(app.innerHTML,/class="home-showcase/);
  assert.doesNotMatch(app.innerHTML,/class="sidebar/);
  assert.doesNotMatch(app.innerHTML,/class="rightbar/);
+ vm.runInContext("nav('explore')",ctx);
  const state=vm.runInContext('({view:state.view,displayed:state.feedVisible,pool:filtered().length})',ctx);
  assert.equal(state.view,'explore');
  assert.equal(state.displayed,4);
