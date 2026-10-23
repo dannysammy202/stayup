@@ -25,7 +25,9 @@ async function checkSize(width,height,label){
    cards:document.querySelectorAll('.prompt-card').length,view:state.view,
    overflow:document.documentElement.scrollWidth-innerWidth,
    bridgeCount:Object.keys(BRIDGES).length,
-   missingIconCount:[...document.querySelectorAll('button svg')].filter(x=>!x.querySelector('path,rect,circle,line,polyline,polygon,ellipse')).length
+   missingIconCount:[...document.querySelectorAll('button svg')].filter(x=>!x.querySelector('path,rect,circle,line,polyline,polygon,ellipse')).length,
+   heroBackground:getComputedStyle(document.querySelector('.home-showcase')).backgroundColor,
+   stylesheetLoaded:[...document.styleSheets].some(sheet=>sheet.href?.includes('editorial-refresh.css'))
   }));
   assert.equal(result.curated,49);
   assert.equal(result.total,16249);
@@ -34,6 +36,8 @@ async function checkSize(width,height,label){
   assert.ok(result.overflow<=1,'Horizontal overflow '+result.overflow);
   assert.equal(result.bridgeCount,49);
   assert.equal(result.missingIconCount,0);
+  assert.equal(result.heroBackground,'rgb(236, 241, 231)','Editorial refresh stylesheet must apply');
+  assert.equal(result.stylesheetLoaded,true,'Redesign CSS must be parsed');
   await page.screenshot({path:'/tmp/saymore-preview-'+label+'.jpg',type:'jpeg',quality:46,fullPage:false});
   return result;
  });
