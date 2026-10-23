@@ -466,10 +466,10 @@ function cfSpotlight(p) {
  </section>`;
 }
 function cfThemeShelf() {
- const ticons=['people','sun','trend','music','heart','shuffle'];
- return `<section class="cf-themes-block">
- <div class="cf-section-intro"><div><span class="cf-step">TAKE A DIFFERENT ROUTE</span><h2>What are you in the mood to talk about?</h2></div><button data-view="topics" class="cf-inline-link">Browse themes ${icon('arrow')}</button></div>
- <div class="cf-themes">${THEMES.map((t,i)=>`<button type="button" class="cf-theme-tile" data-topic="${esc(t.name)}"><span class="cf-theme-icon">${icon(ticons[i])}</span><strong>${esc(t.name)}</strong>${icon('arrow')}</button>`).join('')}</div>
+ const icons=['people','sun','trend','music','heart','shuffle'];
+ return `<section class="cf-themes-block" aria-label="Browse conversation themes">
+  <div class="cf-section-intro"><div><span class="cf-step">EXPLORE</span><h2>Something else on your mind?</h2></div><button class="cf-inline-link" data-view="topics">All themes ${icon('arrow')}</button></div>
+  <div class="cf-themes">${THEMES.map((t,i)=>`<button class="cf-theme-tile" type="button" data-topic="${esc(t.name)}"><span class="cf-theme-icon">${icon(icons[i])}</span><strong>${esc(t.name)}</strong>${icon('arrow')}</button>`).join('')}</div>
  </section>`;
 }
 function cfFeedRow(p,i) {
@@ -543,20 +543,35 @@ function experienceActions(){
  '<button data-view="play">'+icon('shuffle')+'<strong>Play Something</strong><small>Games for calls and texts</small></button></section>';
 }
 function moreView(){
- return '<div class="page-heading"><div class="eyebrow">YOUR SPACE</div><h1>More from Say More.</h1><p>Return to earlier conversations, change your preferences or explore the separate adult space.</p></div>'+
- '<div class="category-list cf-more-list">'+
- '<button class="category" data-view="history"><span class="topic-symbol">'+icon('clock')+'</span><span class="category-text"><strong>History</strong><small>Ideas you have opened</small></span>'+icon('arrow')+'</button>'+
- '<button class="category" data-view="settings"><span class="topic-symbol">'+icon('settings')+'</span><span class="category-text"><strong>Settings</strong><small>Personalise the experience</small></span>'+icon('arrow')+'</button>'+
- '<button class="category" data-view="saved"><span class="topic-symbol">'+icon('heart')+'</span><span class="category-text"><strong>Saved conversations</strong><small>Keep the good ones close</small></span>'+icon('arrow')+'</button>'+
- '<button class="category" data-action="'+(state.adult?'leaveAdult':'enterAdult')+'"><span class="topic-symbol">'+icon('lock')+'</span><span class="category-text"><strong>'+(state.adult?'Leave 18+':'Adults-only (18+)')+'</strong><small>A separate, optional space</small></span>'+icon('arrow')+'</button>'+
- '</div>';
+ const links=[
+  {key:'history',iconName:'clock',title:'History',detail:'Conversations you opened'},
+  {key:'settings',iconName:'settings',title:'Settings',detail:'Your reading and content preferences'},
+  {key:'saved',iconName:'heart',title:'Saved conversations',detail:'Ideas you want to return to'}
+ ];
+ return `<div class="cf-secondary-page cf-more-page">
+  <div class="page-heading"><span class="cf-step">YOUR SPACE</span><h1>A little more.</h1><p>Everything else you might need, in one place.</p></div>
+  <div class="cf-link-list">${links.map(link=>`<button class="cf-link-row" type="button" data-view="${link.key}"><span class="cf-link-icon">${icon(link.iconName)}</span><span class="cf-link-copy"><strong>${link.title}</strong><small>${link.detail}</small></span><span class="cf-link-arrow">${icon('arrow')}</span></button>`).join('')}
+  <button class="cf-link-row" type="button" data-action="${state.adult?'leaveAdult':'enterAdult'}"><span class="cf-link-icon">${icon('lock')}</span><span class="cf-link-copy"><strong>${state.adult?'Leave 18+ mode':'Adults-only (18+)'}</strong><small>A separate, optional conversation space</small></span><span class="cf-link-arrow">${icon('arrow')}</span></button>
+  </div>
+ </div>`;
 }
 function topicsView(){
- const items=THEMES.filter(t=>!state.query||t.name.toLowerCase().includes(state.query.toLowerCase())||t.topics.some(sub=>sub.toLowerCase().includes(state.query.toLowerCase())));
- return '<div class="page-heading"><div class="eyebrow">GO WHERE THE CONVERSATION TAKES YOU</div><h1>Choose a theme.</h1><p>Six broad themes, with specific subjects available through search. Choose only when you want to narrow your mix.</p></div>'+
- '<div class="toolbar-inline"><span class="eyebrow">SIX CONVERSATION THEMES</span><button class="filterbtn" data-action="surprise">'+icon('shuffle')+' Surprise me</button></div>'+
- '<div class="category-list">'+items.map((t,i)=>'<button class="category" data-topic="'+esc(t.name)+'"><span class="topic-symbol">'+icon(TOPIC_ICONS[i])+'</span><span class="category-text"><strong>'+esc(t.name)+'</strong><small>'+topicCountLabel(t.name)+'</small></span>'+icon('arrow')+'</button>').join('')+'</div>'+
- (!state.adult?'<div class="adult-banner" style="margin-top:24px"><div><span class="eyebrow">OPTIONAL SECTION</span><h2>18+ conversations</h2><p>Separate adult-only prompts, with an intentional entry step.</p></div><button data-action="enterAdult">Explore 18+ '+icon('arrow')+'</button></div>':'');
+ const descriptors=[
+  'Relationships, friendship, dating and family',
+  'Memories, childhood and everyday life',
+  'Work, goals, school and money',
+  'Music, movies, culture and what’s trending',
+  'Faith, perspectives and honest opinions',
+  'Scenarios, unexpected ideas and what-ifs'
+ ];
+ const glyphs=['people','sun','trend','music','heart','shuffle'];
+ const items=THEMES.map((t,i)=>({...t,subtitle:descriptors[i],glyph:glyphs[i]}))
+   .filter(t=>!state.query||t.name.toLowerCase().includes(state.query.toLowerCase())||t.topics.some(sub=>sub.toLowerCase().includes(state.query.toLowerCase())));
+ return `<div class="cf-secondary-page cf-topics-page">
+  <div class="page-heading"><span class="cf-step">FIND YOUR SUBJECT</span><h1>Pick a direction.</h1><p>Six themes. Plenty of ways to take the conversation.</p></div>
+  <div class="cf-link-list">${items.map(t=>`<button class="cf-link-row" type="button" data-topic="${esc(t.name)}"><span class="cf-link-icon">${icon(t.glyph)}</span><span class="cf-link-copy"><strong>${esc(t.name)}</strong><small>${esc(t.subtitle)}</small></span><span class="cf-link-arrow">${icon('arrow')}</span></button>`).join('')}</div>
+  ${!state.adult?'<p class="cf-theme-footnote">Looking for something unexpected? <button data-action="surprise">Surprise me '+icon('arrow')+'</button></p>':''}
+ </div>`;
 }
 function savedView(){const pool=state.saved.map(id=>PROMPTS.find(p=>p.id===id)).filter(p=>p&&p.adult===state.adult&&!state.hidden.includes(p.id));orderCache=pool.map(p=>p.id);return `<div class="page-heading"><div class="eyebrow">Your personal collection</div><h1>Worth keeping.</h1><p>All the prompts you've saved for another conversation. They stay here until you remove them.</p></div><div class="feed-caption"><strong>${pool.length} saved prompts in ${state.adult?'18+':'everyday'} mode</strong></div>${promptGrid(pool,'No saved prompts yet','Tap the heart on any prompt to keep it here for later.')}`}
 function historyView(){const pool=[...state.seen].reverse().map(id=>PROMPTS.find(p=>p.id===id)).filter(p=>p&&p.adult===state.adult&&!state.hidden.includes(p.id));orderCache=pool.map(p=>p.id);return `<div class="page-heading"><div class="eyebrow">Where you left off</div><h1>Recent conversations.</h1><p>Pick up an idea you opened before or revisit something you enjoyed.</p></div><div class="toolbar-inline"><span class="eyebrow">${pool.length} VIEWED IN ${state.adult?'18+':'EVERYDAY'} MODE</span><button class="ghost-link" data-action="clearHistory">${icon('trash')} Clear history</button></div>${promptGrid(pool,'No history yet','Open any prompt from Explore to start your history.')}`}
