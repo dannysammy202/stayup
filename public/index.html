@@ -502,7 +502,7 @@ function explore(){
   <div class="cf-feed-list">${visible.map(cfFeedRow).join('')}${pool.length===0?'<p class="cf-empty-result">Nothing matches. Try another vibe or theme.</p>':''}</div>
   ${rest.length>visible.length?'<button type="button" data-action="loadMore" class="cf-more-conversations">More conversations '+icon('arrow')+'</button>':''}
  </section>
- ${!state.adult?`<footer class="cf-library-footer"><span>Looking for your previous conversations?</span><button type="button" data-action="toggleEarlier">${state.showEarlier?'Return to new ideas':'Explore earlier library'} ${icon('arrow')}</button></footer>`:''}
+ ${!state.adult?`<footer class="cf-library-footer"><span>Looking for your previous conversations?</span><button type="button" data-action="toggleEarlier">${state.showEarlier?'Back to curated ideas':'Explore earlier library'} ${icon('arrow')}</button></footer>`:''}
  ${aiPanel()}
  </div>`;
 }
