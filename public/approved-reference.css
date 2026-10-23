@@ -1,0 +1,163 @@
+/* Restore the Oct 14 APPROVED "Say More App Design Overview" + Focus visual references.
+   Visual implementation, not a new art direction. Original functionality and Iconsax kept. */
+body.approved-reference{
+ --bg:#F9F8F2;--ink:#203B2C;--muted:#7B8979;
+ --paper:#FFFDF9;--line:#E7E9DF;--accent:#DCEF9B;
+ --accent-deep:#294432;--panel:#EFF3E8;background:var(--bg);
+}
+body.approved-reference #app{background:var(--bg)}
+body.approved-reference .mobilehead{background:rgba(250,249,244,.98);
+ border-bottom:1px solid #E7EADF;backdrop-filter:blur(12px)}
+body.approved-reference .brand{color:#202E24}
+body.approved-reference .brand-icon{background:#213A2D;color:#DCEF9B;border-radius:10px}
+body.approved-reference .status{background:#FCFDF9;color:#31593B;border-color:#DCE8D5}
+body.approved-reference .main{max-width:1130px;width:100%;margin:0 auto}
+body.approved-reference .approved-home{max-width:760px;margin:auto}
+body.approved-reference .approved-home .home-showcase{display:flex;flex-direction:column;gap:14px;
+ padding:22px;border-radius:22px;min-height:0;max-width:760px;margin-bottom:21px;
+ background:linear-gradient(154deg,#173A29,#294C37 80%,#173A29);box-shadow:0 14px 38px rgba(20,47,33,.08)}
+body.approved-reference .approved-home .home-showcase:before{inset:auto -80px -120px auto;
+ width:280px;height:280px;border-color:rgba(218,234,170,.15)}
+body.approved-reference .approved-home .home-showcase:after{inset:auto -30px -160px auto}
+body.approved-reference .approved-home .home-intro{padding:8px 6px 2px;justify-content:flex-start}
+body.approved-reference .approved-home .home-eyebrow{font-size:10px;letter-spacing:.135em;color:#E1EDD8}
+body.approved-reference .approved-home .home-intro h1{
+ font:400 clamp(32px,4vw,43px)/1.1 var(--display);color:#FEFDF7;
+ letter-spacing:-.95px;margin:14px 0 10px;max-width:550px}
+body.approved-reference .approved-home .home-intro h1 em{color:#D9EFA2}
+body.approved-reference .approved-home .home-intro p{font-size:12px;line-height:1.6;max-width:500px;color:#DBE4D8;margin:0}
+body.approved-reference .approved-home .home-intro-actions{margin-top:17px;gap:13px;align-items:center}
+body.approved-reference .approved-home .home-surprise{background:#DEEFAB;border:0;color:#1E4029;
+ font-size:12px;font-weight:760;min-height:40px;border-radius:11px;padding:10px 15px;box-shadow:none}
+body.approved-reference .approved-home .home-surprise:hover{background:#EDF8C5}
+body.approved-reference .approved-home .home-intro-note{font-size:11px;color:#DBE4D8;max-width:155px;line-height:1.4}
+body.approved-reference .approved-home .home-featured{min-height:0;background:#FEFCF6;border:1px solid #E9EBDD;
+ border-radius:15px;padding:14px 15px 12px;box-shadow:none;gap:0}
+body.approved-reference .approved-home .home-feature-head{font-size:9px;color:#7A8B7C;letter-spacing:.12em}
+body.approved-reference .approved-home .home-feature-text{display:block;text-align:left;
+ width:100%;font:400 clamp(20px,2.6vw,28px)/1.22 var(--display);color:#25382A;
+ padding:12px 0 15px;letter-spacing:-.3px}
+body.approved-reference .approved-home .home-feature-bottom{border-top:0;padding:0;align-items:center}
+body.approved-reference .approved-home .home-feature-topic{font-size:10px;color:#8A978B}
+body.approved-reference .approved-home .home-feature-open{border:0;background:#284633;color:white;
+ border-radius:50%;width:35px;height:35px;display:grid;place-items:center}
+body.approved-reference .approved-home .home-feature-open svg{height:17px;width:17px}
+body.approved-reference .approved-home .home-moods{margin:0 0 14px}
+body.approved-reference .approved-home .home-section-heading{margin:0 0 10px}
+body.approved-reference .approved-home .home-section-heading h2{font-size:15px;letter-spacing:-.3px;color:#1D3023}
+body.approved-reference .approved-home .home-section-heading .home-overline{display:none}
+body.approved-reference .approved-home .home-section-link{font-size:11px;color:#4C7052}
+body.approved-reference .approved-home .home-mood-chip{min-height:36px;padding:9px 12px;
+ font-size:11px;border-color:#E3E9E0;background:#FFFDFB}
+body.approved-reference .approved-home .home-mood-chip.selected{background:#274A34;color:white;border-color:#274A34}
+body.approved-reference .approved-home .approved-secondary-actions{display:flex;flex-wrap:wrap;
+ align-items:center;gap:8px;margin:0 0 10px}
+body.approved-reference .approved-home .approved-secondary-actions button{
+ min-height:40px;display:inline-flex;align-items:center;gap:7px;border-radius:999px;
+ padding:10px 13px;font-size:11px;font-weight:760;color:#2B5337;background:#FEFCF8;border:1px solid #DAE6D9}
+body.approved-reference .approved-home .approved-secondary-actions button:hover{background:#EAF1E7}
+body.approved-reference .approved-home .approved-secondary-actions svg{width:17px;height:17px}
+body.approved-reference .approved-home .approved-secondary-actions .approved-play-button{margin-left:auto}
+body.approved-reference .approved-home .quiet-ai{margin:8px 0 0;border-color:#E7EADC;background:transparent;box-shadow:none}
+body.approved-reference .approved-home .quiet-ai-toggle{font-size:11px;min-height:43px}
+body.approved-reference .approved-browse{max-width:780px;margin:auto}
+body.approved-reference .approved-browse .approved-browse-header{display:grid;gap:8px;margin-bottom:21px}
+body.approved-reference .approved-browse .approved-back{background:transparent;border:0;color:#507659;
+ display:inline-flex;align-items:center;gap:6px;justify-self:start;font-size:11px;font-weight:750;padding:8px 0 12px}
+body.approved-reference .approved-browse .approved-back svg{width:17px;height:17px}
+body.approved-reference .approved-browse-header h1{font:400 clamp(33px,3.9vw,49px)/1.12 var(--display);
+ margin:0;color:#253F2D;letter-spacing:-.8px}
+body.approved-reference .approved-browse-header p{margin:0;color:#7E8A7E;font-size:12px;line-height:1.55}
+body.approved-reference .approved-browse .home-discovery{margin:0 0 21px}
+body.approved-reference .approved-browse .home-feed-area{padding:0}
+body.approved-reference .approved-browse .home-feed-header{margin-bottom:8px}
+body.approved-reference .approved-browse .home-feed-header h2{font:400 28px/1.2 var(--display)}
+body.approved-reference .approved-browse .cards{gap:11px}
+body.approved-reference .approved-browse .prompt-card{min-height:185px;border-radius:17px;
+ padding:18px;border-color:#E9EBDD;box-shadow:none;background:#FFFDF9}
+body.approved-reference .approved-browse .prompt-card .card-content{font:400 21px/1.35 var(--display);color:#283F2D}
+body.approved-reference .approved-browse .quality-switch{margin:0 0 18px}
+body.approved-reference .approved-browse .home-feed-sub{margin-bottom:14px}
+body.approved-reference .mobile-nav{background:#FEFDF9;border-top:1px solid #E5E9E0;
+ grid-template-columns:repeat(5,minmax(0,1fr));height:calc(70px + env(safe-area-inset-bottom))}
+body.approved-reference .mobile-nav button{min-width:0;color:#8C9488;font-size:10px;gap:5px}
+body.approved-reference .mobile-nav button svg{height:20px;width:20px}
+body.approved-reference .mobile-nav button.active{color:#2F593B}
+/* Focus: approved dark editorial prompt card + white action row + pale sage angles. */
+body.approved-reference .focus-overlay{background:#F9F8F2;padding:14px}
+body.approved-reference .focus-window{background:#F9F8F2;width:min(100%,750px);max-height:900px;
+ height:min(900px,calc(100dvh - 28px));box-shadow:0 12px 46px rgba(31,47,37,.1);
+ border:1px solid #E2E7DD;border-radius:21px}
+body.approved-reference .focus-top{background:#FAF9F4;padding:15px 20px;border-bottom:1px solid #E4E8DE}
+body.approved-reference .focus-top .focus-label{color:#6D806E;font-size:10px;letter-spacing:.1em}
+body.approved-reference .focus-top .close{width:37px;height:37px;border-radius:50%;padding:8px;
+ display:grid;place-items:center;background:#FFF;color:#2D5638;border:1px solid #DDE7D9}
+body.approved-reference .focus-top .close svg{height:18px;width:18px;color:inherit}
+body.approved-reference .focus-center{justify-content:flex-start;gap:14px;padding:17px 18px 22px;
+ min-height:0;overscroll-behavior:contain}
+body.approved-reference .approved-focus-card{background:#244431;border-radius:17px;
+ padding:26px 23px 30px;color:#FEFDF7;display:grid;gap:23px;flex:none;
+ position:relative;overflow:hidden;min-height:205px}
+body.approved-reference .approved-focus-card:after{content:'';pointer-events:none;position:absolute;right:-85px;
+ bottom:-125px;height:260px;width:260px;border-radius:50%;border:1px solid rgba(210,241,166,.14)}
+body.approved-reference .approved-focus-card .focus-kicker{color:#D3E4CE;font-size:10px;
+ letter-spacing:.13em;font-weight:790;gap:8px}
+body.approved-reference .approved-focus-card .focus-kicker svg{width:17px;height:17px;color:#DEEEAB}
+body.approved-reference .approved-focus-card .focus-main{color:#FCFCF4;
+ font:400 clamp(28px,3.7vw,42px)/1.23 var(--display);letter-spacing:-.7px;max-width:100%;margin:0}
+body.approved-reference .focus-actions{display:flex;flex-wrap:wrap;gap:8px;margin:0}
+body.approved-reference .focus-actions .focus-action{background:#FFF;border:1px solid #E1E8DD;
+ padding:10px 12px;font-size:11px;font-weight:740;color:#345840;min-height:39px;white-space:nowrap}
+body.approved-reference .focus-actions .focus-action svg{height:17px;width:17px}
+body.approved-reference .focus-actions .focus-action.on{background:#E8F0E1}
+body.approved-reference .angles{background:#EAF1E5;border-radius:16px;padding:15px;flex:none}
+body.approved-reference .angles h3{font-size:11px;color:#3D5A42;letter-spacing:.1em}
+body.approved-reference .angles .angle{background:#FFFDF9;border:1px solid #E1E8DC;
+ border-radius:12px;padding:14px;font-size:12px;line-height:1.45}
+body.approved-reference .angles .angle-path{padding:12px 14px}
+body.approved-reference .focus-bottom{background:#F9F8F2;padding:11px 21px;border-color:#E3E8DE}
+body.approved-reference .focus-bottom .pagination{color:#819084;font-size:11px}
+body.approved-reference .focus-bottom .nexts button{color:#315D40;border-color:#DCE6DB}
+body.approved-reference .focus-bottom .nexts button:last-child{background:#254732;color:#FFF}
+body.approved-reference .focus-bottom .nexts button:disabled{color:#B7C1B6;border-color:#E8ECE6}
+body.approved-reference .focus-bottom .nexts button svg{height:19px;width:19px;color:inherit}
+@media(max-width:780px){
+ body.approved-reference .mobilehead{position:sticky;top:0;padding:0 17px;height:61px}
+ body.approved-reference .main{padding:18px 16px calc(95px + env(safe-area-inset-bottom))}
+ body.approved-reference .topline{display:none}
+ body.approved-reference .approved-home .home-showcase{padding:12px 10px 11px;border-radius:18px;gap:12px}
+ body.approved-reference .approved-home .home-intro{padding:17px 12px 0;max-width:none}
+ body.approved-reference .approved-home .home-intro h1{font-size:clamp(34px,8.5vw,42px);letter-spacing:-1px;
+ max-width:380px;margin:13px 0 9px}
+ body.approved-reference .approved-home .home-intro p{font-size:12px;line-height:1.55;max-width:350px}
+ body.approved-reference .approved-home .home-intro-actions{margin-top:15px;gap:12px}
+ body.approved-reference .approved-home .home-featured{margin:0 0 0;border-radius:13px;padding:13px 14px 11px}
+ body.approved-reference .approved-home .home-featured .home-feature-text{font-size:clamp(19px,5vw,24px);line-height:1.22}
+ body.approved-reference .approved-home .home-moods{margin:17px 0 9px}
+ body.approved-reference .approved-home .approved-secondary-actions{gap:7px}
+ body.approved-reference .approved-home .approved-secondary-actions button{font-size:11px;padding:9px 11px;min-height:39px}
+ body.approved-reference .approved-home .approved-secondary-actions .approved-play-button{margin-left:0}
+ body.approved-reference .approved-browse .cards{grid-template-columns:1fr}
+ body.approved-reference .approved-browse .prompt-card{min-height:155px;padding:15px}
+ body.approved-reference .approved-browse .prompt-card .card-content{font-size:21px}
+ body.approved-reference .focus-overlay{padding:0}
+ body.approved-reference .focus-window{width:100%;height:100dvh;max-height:none;border:0;border-radius:0;box-shadow:none}
+ body.approved-reference .focus-top{padding:calc(12px + env(safe-area-inset-top)) 16px 12px}
+ body.approved-reference .focus-center{padding:14px 15px 19px;gap:12px}
+ body.approved-reference .approved-focus-card{border-radius:16px;padding:21px 18px;gap:15px;min-height:185px}
+ body.approved-reference .approved-focus-card .focus-main{font-size:clamp(26px,6.9vw,33px);letter-spacing:-.55px;line-height:1.21}
+ body.approved-reference .focus-actions .focus-action{font-size:11px;padding:9px 11px;min-height:38px}
+ body.approved-reference .angles{padding:13px}
+ body.approved-reference .focus-bottom{padding:10px 16px calc(12px + env(safe-area-inset-bottom))}
+}
+
+/* In the approved Focus mock, More Angles is visible on entry rather than hiding behind another step. */
+body.approved-reference .approved-angle-preview{display:flex;flex-direction:column;gap:8px}
+body.approved-reference .approved-angle-preview h3{display:flex;gap:8px;align-items:center;
+ margin:0 0 3px;font-weight:850;letter-spacing:.11em;color:#496449;font-size:10px}
+body.approved-reference .approved-angle-preview h3 svg{width:18px;height:18px;color:#648962}
+body.approved-reference .approved-preview-angle{width:100%;min-height:41px;display:flex;align-items:center;
+ justify-content:space-between;gap:12px;text-align:left;background:#FEFDF9;border:1px solid #E0E8DC;
+ border-radius:11px;padding:10px 11px;font-size:12px;line-height:1.45;color:#2F4C37}
+body.approved-reference .approved-preview-angle:hover{background:#FFF}
+body.approved-reference .approved-preview-angle svg{width:16px;height:16px;color:#507857;flex:none}

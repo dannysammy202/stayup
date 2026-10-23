@@ -30,17 +30,38 @@ async function checkSize(width,height,label){
   assert.equal(result.curated,49);
   assert.equal(result.total,16249);
   assert.equal(result.older,false);
-  assert.ok(result.cards>0);
+  assert.equal(result.cards,0,'The approved homepage shows one featured starter, not a card feed');
+  const design=await page.evaluate(()=>({
+   approved:document.body.classList.contains('approved-reference'),
+   darkHero:!!document.querySelector('.home-showcase'),
+   featured:document.querySelectorAll('.home-featured').length,
+   moods:!!document.querySelector('.home-moods'),
+   browse:!!document.querySelector('[data-view="browse"]'),
+   styleLoaded:[...document.styleSheets].some(x=>x.href?.includes('approved-reference.css')),
+   heroBackground:getComputedStyle(document.querySelector('.home-showcase')).backgroundColor,
+   shortcutRadius:getComputedStyle(document.querySelector('.approved-browse-button')).borderRadius,
+   appliedStyleSheets:[...document.styleSheets].filter(sheet=>sheet.href?.includes('approved-reference.css')).map(sheet=>{try{return sheet.cssRules.length}catch{return -1}})
+  }));
+  assert.ok(design.approved&&design.darkHero&&design.featured===1&&design.moods&&design.browse&&design.styleLoaded);
+  assert.ok(design.appliedStyleSheets.some(n=>n>15),'Approved CSS rules must be parsed and applied, not just linked');
+  assert.equal(design.shortcutRadius,'999px','Shortcuts must use approved rounded controls');
+  if(label==='phone')await page.screenshot({path:'/tmp/saymore-approved-home-phone.jpg',type:'jpeg',quality:80});
+  if(label==='desktop')await page.screenshot({path:'/tmp/saymore-approved-home-desktop.jpg',type:'jpeg',quality:80});
   assert.ok(result.overflow<=1,'Horizontal overflow '+result.overflow);
   assert.equal(result.bridgeCount,49);
   assert.equal(result.missingIconCount,0);
   return result;
  });
  await record(label+' Focus and continuations',async()=>{
-  await page.locator('.prompt-card [data-focus]').first().click();
+  await page.locator('.home-featured [data-focus]').first().click();
+  assert.equal(await page.locator('.approved-focus-card').count(),1,'Focus uses the approved dark prompt card');
+  const focusBg=await page.locator('.approved-focus-card').evaluate(el=>getComputedStyle(el).backgroundColor);
+  assert.equal(focusBg,'rgb(36, 68, 49)','Approved Focus must have the dark forest-green prompt card');
+  if(label==='phone')await page.screenshot({path:'/tmp/saymore-approved-focus-phone.jpg',type:'jpeg',quality:80});
   await page.locator('.focus-overlay').waitFor();
   const id=await page.evaluate(()=>state.focus);
-  await page.locator('[data-action="angles"]').click();
+  assert.equal(await page.locator('.approved-angle-preview .approved-preview-angle').count(),3,'Original Focus reference displays three More Angles immediately');
+  await page.locator('.focus-actions [data-action="angles"]').click();
   await page.locator('.angle-path').first().waitFor();
   assert.equal(await page.locator('.angle-path').count(),4);
   assert.equal(await page.locator('.bridge-path').count(),1);
@@ -50,6 +71,9 @@ async function checkSize(width,height,label){
   return {savedId:id};
  });
  await record(label+' legacy library and saved',async()=>{
+  await page.evaluate(()=>nav('browse'));
+  assert.ok(await page.locator('.prompt-card').count()>0);
+  if(label==='phone')await page.screenshot({path:'/tmp/saymore-approved-browse-phone.jpg',type:'jpeg',quality:80});
   await page.locator('[data-action="toggleEarlier"]').click();
   assert.equal(await page.evaluate(()=>filtered().length),16249);
   await page.locator('[data-action="toggleEarlier"]').click();
@@ -93,9 +117,9 @@ async function checkSize(width,height,label){
    const box=await mobile.boundingBox();
    assert.ok(box.width<=width+1);
    const items=await mobile.locator('button').evaluateAll(els=>els.map(el=>({label:el.textContent.trim(),top:el.getBoundingClientRect().top,bottom:el.getBoundingClientRect().bottom,left:el.getBoundingClientRect().left,right:el.getBoundingClientRect().right})));
-   assert.equal(items.length,6,'Mobile navigation should contain six actions');
+   assert.equal(items.length,5,'Approved mobile navigation has five primary tabs');
    const navBottom=box.y+box.height;
-   assert.ok(items.every(item=>item.left>=-1&&item.right<=width+1&&item.top>=box.y-1&&item.bottom<=navBottom+1),'All six mobile nav buttons should fit in one row');
+   assert.ok(items.every(item=>item.left>=-1&&item.right<=width+1&&item.top>=box.y-1&&item.bottom<=navBottom+1),'Five mobile navigation actions fit their row');
   }
  });
  await context.close();
