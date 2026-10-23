@@ -214,3 +214,116 @@ body.cf-v2 .rightbar,body.cf-v2 .sidebar,body.cf-v2 .topline,body.cf-v2 .mobileh
  .cf-main .play-types .choice{padding:10px 12px}
 }
 @media(prefers-reduced-motion:reduce){.cf-theme-tile{transition:none!important}}
+
+
+/* Mobile review corrections — real one-column navigation and game-first Play */
+.cf-secondary-page{max-width:830px;margin:0 auto}
+.cf-secondary-page .page-heading{padding:0 0 15px;margin-bottom:18px}
+body.cf-v2 .cf-main .cf-secondary-page .page-heading h1{
+ font-family:var(--display);font-size:clamp(30px,3.7vw,43px);line-height:1.12;
+ letter-spacing:-1.1px;margin:11px 0 10px;color:#284431
+}
+.cf-secondary-page .page-heading p{font-size:13px;line-height:1.6;color:#758377;max-width:510px;margin:0}
+.cf-link-list{display:grid;grid-template-columns:1fr;gap:9px}
+.cf-link-row{
+ display:flex;align-items:center;gap:14px;width:100%;background:#FEFDFA;color:#304B38;
+ border:1px solid #E5E9E0;border-radius:15px;padding:16px 18px;min-height:79px;text-align:left
+}
+.cf-link-row:hover,.cf-link-row:focus-visible{background:#F0F5ED;border-color:#BBCCB6}
+.cf-link-icon{height:43px;width:43px;flex:none;border-radius:12px;display:grid;place-items:center;
+ background:#E9F0E6;color:#345D41;opacity:1}
+.cf-link-icon svg,.cf-link-icon svg *{
+ width:22px;height:22px;stroke:currentColor;opacity:1;visibility:visible
+}
+.cf-link-icon svg{display:block}
+.cf-link-copy{display:flex;flex:1;min-width:0;flex-direction:column;gap:4px}
+.cf-link-copy strong{font-size:14px;font-weight:750;line-height:1.35;color:#2B4734}
+.cf-link-copy small{font-size:12px;line-height:1.35;color:#889488}
+.cf-link-arrow{color:#6F9575;display:grid;place-items:center;flex:none}
+.cf-link-arrow svg{height:18px;width:18px;display:block}
+.cf-theme-footnote{padding:17px 2px;font-size:12px;color:#859185}
+.cf-theme-footnote button{background:none;border:0;color:#3C6C49;font-size:12px;font-weight:750;padding:7px}
+.cf-theme-footnote svg{height:15px;width:15px;vertical-align:middle}
+/* Theme shelf should be a choice strip, not six oversized cards. */
+.cf-themes-block{padding-top:32px}
+.cf-themes-block .cf-section-intro{margin-bottom:14px}
+.cf-themes-block .cf-section-intro h2{font-size:clamp(23px,2.5vw,30px);line-height:1.22}
+.cf-themes{display:flex;gap:9px;overflow-x:auto;overscroll-behavior-inline:contain;
+ scrollbar-width:thin;scroll-snap-type:x proximity;padding:0 0 10px}
+.cf-theme-tile{min-width:195px;flex:0 0 195px;min-height:67px;border-radius:14px;padding:11px 13px;
+ gap:8px;scroll-snap-align:start}
+.cf-theme-tile strong{font-size:12px;line-height:1.3}
+.cf-theme-icon{width:32px;height:32px;border-radius:10px}
+.cf-theme-icon svg{width:18px;height:18px}
+.cf-theme-tile>svg{width:15px;height:15px}
+/* Games: game selection + live card first, optional context behind Change. */
+.cf-play-page{max-width:910px;margin:0 auto}
+.cf-play-heading{margin-bottom:16px}
+.cf-play-heading h1{font:400 clamp(30px,4vw,43px)/1.12 var(--display);letter-spacing:-1.15px;color:#26432F;margin:10px 0 8px}
+.cf-play-heading p{font-size:13px;line-height:1.5;color:#79877C;margin:0}
+.cf-game-rail.play-types{display:flex;gap:8px;overflow-x:auto;flex-wrap:nowrap;overscroll-behavior-inline:contain;
+ scrollbar-width:thin;scroll-snap-type:x proximity;margin:0 0 13px;padding:0 0 9px}
+.cf-main .cf-game-rail.play-types .choice{flex:none;min-height:39px;padding:10px 14px;font-size:12px;
+ white-space:nowrap;scroll-snap-align:start}
+.cf-game-rail .choice svg{width:15px;height:15px;vertical-align:middle}
+.cf-play-context{display:flex;align-items:center;justify-content:space-between;gap:10px;min-height:42px;
+ margin-bottom:11px;color:#617767;font-size:12px}
+.cf-play-context>span{display:flex;align-items:center;flex-wrap:wrap;gap:7px}
+.cf-play-context>span svg{width:17px;height:17px;color:#587A60}
+.cf-play-customize{border:1px solid #DDE6DB;border-radius:999px;display:inline-flex;align-items:center;gap:6px;
+ padding:9px 12px;background:#FFF;color:#355C41;font-size:12px;font-weight:780;flex:none}
+.cf-play-customize svg{width:15px;height:15px}
+.cf-main .cf-game-stage.play-card{display:flex;flex-direction:column;justify-content:space-between;gap:21px;
+ min-height:290px;margin:0;border-radius:19px;padding:27px 31px}
+.cf-game-label{display:flex;align-items:center;gap:8px;text-transform:uppercase;font-size:10px;letter-spacing:.12em;
+ font-weight:800;color:#C8DBCB}
+.cf-main .cf-game-stage.play-card h2{margin:0;font:400 clamp(27px,3.5vw,39px)/1.19 var(--display);
+ letter-spacing:-.55px;overflow-wrap:anywhere;flex:1;display:flex;align-items:center}
+.cf-main .cf-game-stage .play-controls{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.cf-main .cf-game-stage .play-controls button{min-height:42px;font-size:12px;padding:10px 14px;white-space:nowrap}
+.cf-main .cf-game-stage .play-controls svg{width:17px;height:17px}
+.cf-play-hint{font-size:12px;color:#8B968B;line-height:1.55;margin:12px 3px}
+.cf-play-modal .modal-body{padding-top:12px}
+.cf-play-modal .cf-modal-help{color:#819080;font-size:13px;line-height:1.5;margin:0 0 16px}
+.cf-play-modal .choicegrid{margin:10px 0 17px;display:flex;flex-wrap:wrap;gap:7px}
+.cf-play-modal .choice{min-height:38px;border-radius:999px;padding:10px 13px;font-size:12px}
+/* The rest of the app is also a reading experience, not a billboard. */
+.cf-feed-section{padding-top:35px}
+.cf-feed-section .cf-section-intro h2{font-size:clamp(24px,2.6vw,31px)}
+.cf-feed-section .cf-feed-text{font-size:18px;line-height:1.35}
+.cf-feed-row.prompt-card{min-height:96px;padding:14px 18px}
+.cf-feed-label{font-size:10px}
+.cf-search{height:44px}
+.cf-main .category-list{grid-template-columns:1fr}
+@media(min-width:781px){
+ .cf-secondary-page .cf-link-list{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:780px){
+ body.cf-v2 .cf-main.main{padding-top:22px}
+ body.cf-v2 .cf-main .cf-secondary-page .page-heading h1{font-size:34px;letter-spacing:-.7px}
+ .cf-secondary-page .page-heading p{font-size:12px;max-width:355px}
+ .cf-link-row{min-height:72px;padding:12px 13px;gap:12px;border-radius:14px}
+ .cf-link-icon{height:38px;width:38px;border-radius:11px}
+ .cf-link-icon svg{height:21px;width:21px}
+ .cf-link-copy strong{font-size:13px}
+ .cf-link-copy small{font-size:11px}
+ .cf-themes{margin-right:-16px;padding-right:16px}
+ .cf-theme-tile{min-width:180px;flex-basis:180px;min-height:62px}
+ .cf-play-heading h1{font-size:34px}
+ .cf-game-rail.play-types{margin-right:-15px;padding-right:15px}
+ .cf-play-context{font-size:11px;min-height:37px;margin-bottom:10px}
+ .cf-main .cf-game-stage.play-card{min-height:280px;padding:23px 20px;gap:17px}
+ .cf-main .cf-game-stage.play-card h2{font-size:clamp(27px,7vw,34px);letter-spacing:-.4px}
+ .cf-feed-row.prompt-card{padding:14px 12px;min-height:91px}
+ .cf-feed-text{font-size:17px}
+ .cf-feed-actions .cf-icon-action,.cf-feed-actions .cf-row-open{width:35px;height:35px}
+ .cf-themes-block{padding-top:30px}
+ .cf-play-hint{margin-bottom:16px}
+}
+@media(max-width:420px){
+ .cf-main .cf-game-stage .play-controls button{font-size:11px;padding:10px 12px;gap:6px}
+ .cf-main .cf-game-stage .play-controls .cf-game-copy{display:none}
+ .cf-play-customize{padding:8px 10px;font-size:11px}
+ .cf-link-list{gap:8px}
+ .cf-link-row{min-height:69px}
+}
