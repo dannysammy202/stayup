@@ -104,7 +104,7 @@ async function checkSize(width,height,label){
     await page.locator('.mobile-nav [data-view="more"]').click();
     assert.match(await page.locator('.page-heading h1').innerText(),/A little more/i);
     await page.locator('[data-view="history"]').last().click();
-    assert.match(await page.locator('.page-heading h1').innerText(),/history/i);
+    assert.match(await page.locator('.page-heading h1').innerText(),/Recent conversations/i);
     await page.locator('.mobile-nav [data-view="more"]').click();
     await page.locator('[data-view="settings"]').last().click();
     assert.ok(await page.locator('.main').innerText().then(s=>/Settings|Preferences/i.test(s)));
