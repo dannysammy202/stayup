@@ -26,6 +26,9 @@ test('triage covers all 16,200 released older records without claiming they were
  const report=assess(input);
  assert.equal(report.total,16200);
  assert.equal(report.method,'heuristic-triage-not-human-review');
+ assert.equal(report.missingContinuations,16200);
+ assert.ok(report.copyReviewCandidates<16200);
+ assert.ok(report.copyReviewCandidates>=0);
  for(const name of ['batch1','batch3','batch4']){
    assert.equal(report.sources[name].total,5400);
    assert.equal(Object.values(report.sources[name].formats).reduce((sum,n)=>sum+n,0),5400);
