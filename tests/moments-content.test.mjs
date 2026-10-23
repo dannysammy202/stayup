@@ -14,7 +14,7 @@ const all=[...originals,...newPrompts];
 const oldGames=[...w.SayMoreExperience.games,...w.SayMoreExpansion.games,...w.SayMoreNextGames];
 const newGames=w.SayMorePlayMoments;
 const games=[...oldGames,...newGames];
-const norm=t=>t.toLowerCase().normalize('NFKC').replace(/[^\\p{L}\\p{N}]+/gu,' ').trim();
+const norm=t=>t.toLowerCase().normalize('NFKC').replace(/[^\p{L}\p{N}]+/gu,' ').trim();
 
 test('36 new authored prompts cover all 18 subjects evenly and retain 4 natural directions each',()=>{
  assert.equal(newPrompts.length,36);
@@ -57,7 +57,7 @@ test('60 more original game prompts across six types, each suitable for audience
   assert.ok(g.text.length>=45);
   assert.ok(g.audiences.length&&g.audiences.every(a=>w.SayMoreExperience.audiences.includes(a)));
   assert.ok(g.mediums.length&&g.mediums.every(m=>['Text','Call','In person'].includes(m)));
-  assert.doesNotMatch(g.text,/score|leaderboard|\\bround \\d+\\b|restart/i);
+  assert.doesNotMatch(g.text,/score|leaderboard|\bround \d+\b|restart/i);
   if(!g.audiences.includes('Anyone'))targeted++;
   if(g.mediums.length===1)channelSpecific++;
   if(g.audiences.includes('Family'))assert.doesNotMatch(g.text,/sext|nude/i);
