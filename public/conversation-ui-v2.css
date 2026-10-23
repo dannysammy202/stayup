@@ -327,3 +327,101 @@ body.cf-v2 .cf-main .cf-secondary-page .page-heading h1{
  .cf-link-list{gap:8px}
  .cf-link-row{min-height:69px}
 }
+
+
+/* 2026-10-23 iPhone Safari corrections: explicit brand control colours, calm Focus, compact sheet. */
+/* Safari's native button text tint is blue when color is unspecified; SVG strokes use currentColor. */
+body.cf-v2 button{-webkit-appearance:none;appearance:none;-webkit-tap-highlight-color:rgba(43,86,55,.10)}
+body.cf-v2 .close,
+body.cf-v2 .focus-top .close,
+body.cf-v2 .overlay .modal-head .close{
+  display:grid;place-items:center;flex:none;width:36px;height:36px;
+  padding:7px;border:1px solid #DCE5DA;border-radius:50%;
+  color:#335B3D;background:#F4F7F1;
+}
+body.cf-v2 .close svg,
+body.cf-v2 .focus-bottom .nexts button svg{color:inherit;stroke:currentColor;width:19px;height:19px}
+body.cf-v2 .close:hover,body.cf-v2 .focus-top .close:hover{background:#E7F0E2}
+body.cf-v2 .focus-bottom .nexts button{color:#325E3D;background:#F8FAF6;border-color:#DDE6DA}
+body.cf-v2 .focus-bottom .nexts button:last-child{color:#FFF;background:#294734;border:0}
+body.cf-v2 .focus-bottom .nexts button:disabled{color:#AEB9AB;background:#F7F8F4;border-color:#E7ECE5}
+body.cf-v2 .focus-overlay{padding:19px;background:rgba(30,51,36,.52)}
+body.cf-v2 .focus-window{height:min(700px,calc(100dvh - 38px));width:min(100%,650px);
+ background:#FBFAF6;max-height:700px;border-radius:23px;color:#253F2D;box-shadow:0 25px 80px rgba(11,30,16,.22)}
+body.cf-v2 .focus-top{padding:18px 25px;min-height:66px;border-color:#E6EBE4}
+body.cf-v2 .focus-top .focus-label{font-size:10px;letter-spacing:.10em;color:#718270}
+body.cf-v2 .focus-center{padding:31px 35px 20px;gap:18px;justify-content:flex-start;min-height:0;overscroll-behavior:contain}
+body.cf-v2 .focus-kicker{gap:9px;color:#63806B;font-size:10px;letter-spacing:.08em}
+body.cf-v2 .focus-kicker svg{height:18px;width:18px;color:#63806B}
+body.cf-v2 .focus-main{font:400 clamp(29px,3.15vw,37px)/1.27 var(--display);
+ letter-spacing:-.55px;max-width:100%;overflow-wrap:break-word;color:#253F30}
+body.cf-v2 .focus-actions{gap:7px;align-items:center;margin-top:2px}
+body.cf-v2 .focus-action{border-radius:999px;min-height:40px;padding:9px 13px;
+ font-size:12px;font-weight:740;line-height:1.2;color:#385940;border-color:#DFE8DA;
+ background:#FFF;gap:7px;white-space:nowrap}
+body.cf-v2 .focus-action svg{height:17px;width:17px;stroke:currentColor;color:inherit}
+body.cf-v2 .focus-primary-action{color:#FFF;background:#2D5439;border-color:#2D5439}
+body.cf-v2 .focus-primary-action svg{color:#FFF}
+body.cf-v2 .focus-primary-action:hover{background:#406A4A;color:#FFF}
+body.cf-v2 .focus-action.on{color:#275B38;background:#E7F0E1;border-color:#C4DAC0}
+body.cf-v2 .focus-secondary-actions{display:flex;flex-wrap:wrap;gap:10px 20px;align-items:center;margin-top:-4px}
+body.cf-v2 .focus-subtle-action{display:inline-flex;align-items:center;gap:7px;min-height:34px;border:0;background:none;
+ padding:5px 0;color:#738676;font-size:11px;font-weight:700}
+body.cf-v2 .focus-subtle-action:hover{color:#325B3F}
+body.cf-v2 .focus-subtle-action svg{height:16px;width:16px;stroke:currentColor}
+body.cf-v2 .focus-bottom{padding:15px 25px;border-color:#E4E9E1}
+body.cf-v2 .focus-bottom .pagination{font-size:12px;color:#819283}
+body.cf-v2 .focus-bottom .nexts button{width:42px;height:42px;border-radius:50%}
+body.cf-v2 .angles{background:#F2F6F0;padding:15px;gap:10px;max-width:100%;flex:none}
+body.cf-v2 .angle{font-size:12px;line-height:1.5}
+body.cf-v2 .angle-path{padding:11px 12px}
+body.cf-v2 .angle-path p{font-size:12px;line-height:1.55}
+/* Refine: compact bottom sheet, scrollable fields and anchored action; not a page-long form. */
+body.cf-v2 .cf-refine-modal{display:flex;flex-direction:column;overflow:hidden;max-height:min(720px,88dvh)}
+body.cf-v2 .cf-refine-modal .modal-head{flex:none;padding:21px 24px 14px;align-items:center;border-bottom:1px solid #E7ECE4}
+body.cf-v2 .cf-modal-eyebrow{display:block;color:#819B82;font-size:9px;font-weight:850;letter-spacing:.14em;margin-bottom:6px}
+body.cf-v2 .cf-refine-modal .modal-head h2{font:400 27px/1.1 var(--display);letter-spacing:-.7px;color:#274632}
+body.cf-v2 .cf-refine-modal .modal-body{min-height:0;flex:1;display:flex;flex-direction:column;overflow-y:auto;
+ overscroll-behavior:contain;padding:15px 24px 0;scrollbar-width:thin}
+body.cf-v2 .cf-refine-help{color:#889488;font-size:12px;line-height:1.5;margin:0 0 2px}
+body.cf-v2 .cf-refine-modal .refine-label{color:#738774;font-size:10px;letter-spacing:.1em;font-weight:790;margin:18px 0 9px}
+body.cf-v2 .cf-refine-modal .choicegrid{display:flex;flex-wrap:wrap;gap:7px;margin:0}
+body.cf-v2 .cf-refine-modal .choice{font-size:12px;min-height:35px;padding:8px 11px;border-radius:11px;
+ color:#4D6653;border:1px solid #E1E8DF;background:#FFF;line-height:1.22}
+body.cf-v2 .cf-refine-modal .choice.on{background:#315A3E;color:#FFF;border-color:#315A3E}
+body.cf-v2 .cf-refine-modal .modal-actions{display:flex;position:sticky;bottom:0;z-index:3;flex:none;gap:12px;
+ align-items:center;margin:19px -24px 0;padding:13px 24px calc(14px + env(safe-area-inset-bottom));
+ background:#FBFAF6;border-top:1px solid #E6EBE2}
+body.cf-v2 .cf-refine-modal .modal-actions .muted-button{color:#59735C;min-height:41px;padding:7px 9px;white-space:nowrap}
+body.cf-v2 .cf-refine-modal .modal-actions .primary{display:flex;align-items:center;justify-content:center;
+ gap:9px;min-height:43px;padding:10px 15px;border-radius:13px;background:#315640;
+ border:0;color:#FFF;font-size:12px;font-weight:790}
+body.cf-v2 .cf-refine-modal .modal-actions .primary svg{color:#FFF;height:18px;width:18px}
+@media(max-width:780px){
+ body.cf-v2 .focus-overlay{inset:0;padding:0;background:#FBFAF6}
+ body.cf-v2 .focus-window{height:100dvh;max-height:none;width:100%;border-radius:0;box-shadow:none}
+ body.cf-v2 .focus-top{padding:calc(12px + env(safe-area-inset-top)) 19px 13px;min-height:66px}
+ body.cf-v2 .focus-center{padding:31px 21px 24px;gap:17px;justify-content:flex-start}
+ body.cf-v2 .focus-main{font-size:clamp(25px,6.7vw,30px);letter-spacing:-.45px;line-height:1.29}
+ body.cf-v2 .focus-actions{gap:7px}
+ body.cf-v2 .focus-action{font-size:11px;min-height:40px;padding:9px 12px}
+ body.cf-v2 .focus-primary-action{font-size:12px}
+ body.cf-v2 .focus-secondary-actions{gap:7px 18px;margin-top:-6px}
+ body.cf-v2 .focus-bottom{padding:12px 20px calc(13px + env(safe-area-inset-bottom))}
+ body.cf-v2 .focus-bottom .nexts button{height:41px;width:41px}
+ body.cf-v2 .overlay:has(.cf-refine-modal){padding:0;align-items:flex-end;backdrop-filter:blur(3px)}
+ body.cf-v2 .cf-refine-modal{height:min(79dvh,670px);max-height:calc(100dvh - 20px);width:100%;border-radius:22px 22px 0 0}
+ body.cf-v2 .cf-refine-modal .modal-head{padding:17px 18px 12px}
+ body.cf-v2 .cf-refine-modal .modal-head h2{font-size:25px}
+ body.cf-v2 .cf-refine-modal .modal-body{padding:13px 18px 0}
+ body.cf-v2 .cf-refine-modal .refine-label{margin:14px 0 8px}
+ body.cf-v2 .cf-refine-modal .choice{font-size:11px;padding:8px 10px;min-height:34px}
+ body.cf-v2 .cf-refine-modal .modal-actions{margin:15px -18px 0;padding:10px 18px calc(13px + env(safe-area-inset-bottom))}
+ body.cf-v2 .cf-refine-modal .modal-actions .primary{font-size:12px}
+}
+@media(max-width:375px){
+ body.cf-v2 .focus-main{font-size:25px}
+ body.cf-v2 .focus-actions .focus-primary-action{width:100%;justify-content:center}
+ body.cf-v2 .focus-action{padding:8px 11px}
+ body.cf-v2 .cf-refine-modal .choice{font-size:11px;padding:7px 9px}
+}
