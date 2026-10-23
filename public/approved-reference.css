@@ -79,7 +79,7 @@ body.approved-reference .approved-browse .prompt-card .card-content{font:400 21p
 body.approved-reference .approved-browse .quality-switch{margin:0 0 18px}
 body.approved-reference .approved-browse .home-feed-sub{margin-bottom:14px}
 body.approved-reference .mobile-nav{background:#FEFDF9;border-top:1px solid #E5E9E0;
- grid-template-columns:repeat(6,minmax(0,1fr));height:calc(70px + env(safe-area-inset-bottom))}
+ grid-template-columns:repeat(5,minmax(0,1fr));height:calc(70px + env(safe-area-inset-bottom))}
 body.approved-reference .mobile-nav button{min-width:0;color:#8C9488;font-size:10px;gap:5px}
 body.approved-reference .mobile-nav button svg{height:20px;width:20px}
 body.approved-reference .mobile-nav button.active{color:#2F593B}
@@ -150,3 +150,14 @@ body.approved-reference .focus-bottom .nexts button svg{height:19px;width:19px;c
  body.approved-reference .angles{padding:13px}
  body.approved-reference .focus-bottom{padding:10px 16px calc(12px + env(safe-area-inset-bottom))}
 }
+
+/* In the approved Focus mock, More Angles is visible on entry rather than hiding behind another step. */
+body.approved-reference .approved-angle-preview{display:flex;flex-direction:column;gap:8px}
+body.approved-reference .approved-angle-preview h3{display:flex;gap:8px;align-items:center;
+ margin:0 0 3px;font-weight:850;letter-spacing:.11em;color:#496449;font-size:10px}
+body.approved-reference .approved-angle-preview h3 svg{width:18px;height:18px;color:#648962}
+body.approved-reference .approved-preview-angle{width:100%;min-height:41px;display:flex;align-items:center;
+ justify-content:space-between;gap:12px;text-align:left;background:#FEFDF9;border:1px solid #E0E8DC;
+ border-radius:11px;padding:10px 11px;font-size:12px;line-height:1.45;color:#2F4C37}
+body.approved-reference .approved-preview-angle:hover{background:#FFF}
+body.approved-reference .approved-preview-angle svg{width:16px;height:16px;color:#507857;flex:none}
