@@ -1,5 +1,28 @@
 # Say More — Conversation Companion
 
+## Content Quality Overhaul — development-preview behaviour
+
+The default Start Something feed now displays **only the 49 newer curated conversation pathways** while the 16,200 older published prompts are available in a separate opt-in legacy collection for further editorial improvement. This is a discovery-layer gate, **not a deletion or a claim that all 49 have independent human approval**. People can explicitly select **Explore earlier library** to browse the older batch catalogue. Previously saved entries and history remain directly accessible, including earlier IDs; the separate 18+ experience is unchanged.
+
+Keep Talking now presents four identifiable ways to take a curated conversation: tell a story, go deeper, consider a different perspective or change direction. Filtered Surprise Me no longer ignores empty filters and reveals unrelated prompts. This prevents the app from silently switching a Family- or Flirty-specific request to a different audience.
+
+Run `npm run content:quality-audit` to inspect 16,200 earlier records for exact duplicates, short entries, missing follow-ups, repeated beginnings and mechanical stems. This emits triage candidates and format distribution by release batch. **A heuristic flag is not a rejection and passing is not a human editorial approval.** No records are automatically altered, deleted or relabelled by the audit. Follow `content/CONVERSATION_EDITORIAL_STANDARD.md` for individual editorial decisions before allowing more content into the default discovery library.
+
+---
+## Conversation-first development preview
+
+This release adds a quality-first experience for people who want to start conversations, sustain them naturally and play open-ended games without rounds or scores. Merge to production is permitted once release checks pass.
+
+- **Start Something:** Six broad themes, five optional vibes, six relationship contexts (plus an unfiltered default) and Text/Call/In person. The 18 older conversation topics remain internal searchable metadata, rather than 18 top-level category choices.
+- **Keep Talking:** 49 curated pilot starters (12 initial + 37 additional) with **four distinct editorial follow-up directions per starter**; the 16,200 previously released batch starters remain intact and can still appear after the pilot content.
+- **Play Something:** 106 curated cards (10 initial + 96 additional) across six casual game types: Would You Rather, Hot Takes, Never Have I Ever, What Would You Do?, This or That and Story Chain. The existing large Truth or Dare library remains separate and untouched.
+- **Natural controls:** Games do not impose numbered rounds, scoring, winner flows or restarts. Select another card or change games whenever you like. Some new cards are written for a particular audience or for texting vs calling.
+- **Assets and validation:** `public/conversation-experiences.js` and `public/conversation-expansion.js` are cached offline. New test coverage checks the content expansion, audience suitability, uniqueness and game flows. See `content/CONVERSATION_EDITORIAL_STANDARD.md`.
+
+The experience contains AI-assisted text and is **not claimed to be independently human-reviewed**. Release criteria are product-owner approval, AI/editorial quality checks, technical CI and browser QA; physical device checks are recommended follow-up validation, not a mandatory external approval step.
+
+---
+
 ## Current release: Batch 1
 
 The active everyday library contains 5,400 directly authored conversation starters: Relationships, Friendships and Life each have 1,800. Each topic has three audiences and six moods, with exactly 100 entries in every combination. The interface displays Flirt while retaining the Flirty identifier.

@@ -14,7 +14,6 @@
 .tod-chip.selected{background:#2A4535;color:#fff;border-color:#2A4535}
 .tod-chip:focus-visible,.tod-type:focus-visible,.tod-action:focus-visible{outline:3px solid #8CAD74;outline-offset:3px}
 .tod-section-sub{display:flex;align-items:center;justify-content:space-between;gap:12px}
-.tod-section-sub .tod-round{color:#6B7C68;font-size:11px;font-weight:700}
 .tod-types{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:23px}
 .tod-type{border:1px solid #E4E0D8;border-radius:22px;text-align:left;padding:22px 23px;display:flex;min-height:156px;flex-direction:column;align-items:flex-start;justify-content:space-between;gap:20px}
 .tod-type.truth{background:#F6E5D8;color:#3B3831}
