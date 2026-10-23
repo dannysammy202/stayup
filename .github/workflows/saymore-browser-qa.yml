@@ -44,5 +44,7 @@ jobs:
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
         with:
           name: saymore-browser-release-qa
-          path: /tmp/saymore-conversation-browser-qa.json
+          path: |
+            /tmp/saymore-conversation-browser-qa.json
+            /tmp/saymore-preview-*.jpg
           if-no-files-found: ignore
