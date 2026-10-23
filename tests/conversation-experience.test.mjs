@@ -8,10 +8,14 @@ const source=readFileSync(cwd+'/public/conversation-experiences.js','utf8');
 const sandbox={window:{}};
 runInNewContext(source,sandbox);
 runInNewContext(readFileSync(cwd+'/public/conversation-expansion.js','utf8'),sandbox);
+runInNewContext(readFileSync(cwd+'/public/conversation-next-starters.js','utf8'),sandbox);
+runInNewContext(readFileSync(cwd+'/public/conversation-next-games.js','utf8'),sandbox);
 const experience=sandbox.window.SayMoreExperience;
 const expansion=sandbox.window.SayMoreExpansion;
-const allPrompts=[...experience.pilot,...expansion.pilot];
-const allGames=[...experience.games,...expansion.games];
+const newPrompts=sandbox.window.SayMoreNextStarters;
+const newGames=sandbox.window.SayMoreNextGames;
+const allPrompts=[...experience.pilot,...expansion.pilot,...newPrompts];
+const allGames=[...experience.games,...expansion.games,...newGames];
 const normalise=text=>text.toLowerCase().normalize('NFKC').replace(/[^\p{L}\p{N}]+/gu,' ').trim();
 
 test('conversation experience has the agreed simplified architecture',()=>{
@@ -61,9 +65,11 @@ test('main application inline JavaScript parses and loads the pilot before initi
  assert.ok(js.includes('function matchingTheme(p){'));
  assert.ok(js.includes('function playPool(type=playState.type){'));
  assert.ok(html.includes('<script src="/conversation-expansion.js"></script>'));
+ assert.ok(html.includes('<script src="/conversation-next-starters.js"></script>'));
+ assert.ok(html.includes('<script src="/conversation-next-games.js"></script>'));
 });
 test('expanded curated conversations remain original across all published batches',()=>{
- assert.equal(allPrompts.length,49);
+ assert.equal(allPrompts.length,73);
  assert.equal(expansion.pilot.length,37);
  assert.equal(new Set(allPrompts.map(p=>p.id)).size,allPrompts.length);
  const legacy=[];
@@ -93,7 +99,7 @@ test('expanded curated conversations remain original across all published batche
 });
 test('expanded games are non-repeating, audience-appropriate and playable without rounds',()=>{
  assert.equal(expansion.games.length,96);
- assert.equal(allGames.length,106);
+ assert.equal(allGames.length,148);
  assert.equal(new Set(allGames.map(p=>p.id)).size,allGames.length);
  const texts=new Set();
  for(const g of allGames){
