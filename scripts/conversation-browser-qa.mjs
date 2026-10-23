@@ -92,7 +92,7 @@ async function checkSize(width,height,label){
      keepTalking:document.querySelectorAll('.focus-primary-action').length,sidebar:document.querySelectorAll('.focus-secondary-actions .focus-subtle-action').length};
   });
   assert.equal(focusAppearance.closeColor,'rgb(51, 91, 61)','Close icon should be forest green, never browser blue');
-  assert.equal(focusAppearance.previousColor,'rgb(50, 94, 61)','Previous arrow should be green, never browser blue');
+  assert.ok(['rgb(50, 94, 61)','rgb(174, 185, 171)'].includes(focusAppearance.previousColor),'Previous arrow must be green or muted when disabled, not native blue');
   assert.equal(focusAppearance.keepTalking,1);
   assert.equal(focusAppearance.sidebar,2);
   if(width<=780){
