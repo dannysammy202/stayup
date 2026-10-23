@@ -1,5 +1,5 @@
 /* Say More PWA shell: built-in curated and editorially screened prompts remain available offline. */
-const CACHE='saymore-conversation-first-v27';
+const CACHE='saymore-mobile-focus-refine-v28';
 const ASSETS=['/','/index.html','/tod-truth-banks.js','/tod-dare-banks.js','/truth-or-dare-data.js','/truth-or-dare.css','/conversation-ui-v2.css','/curated-shards.js','/adult-chat-expansion.js','/editorial-prompts.js','/editorial-truth-or-dare.js','/conversation-experiences.js','/conversation-expansion.js','/conversation-bridges.js','/batch1-data.js','/batch1-summary.json','/batch3-data.js','/batch3-summary.json','/batch4-data.js','/batch4-summary.json','/update-check.js','/version.json','/icon.svg','/manifest.webmanifest',...Array.from({length:5},(_,i)=>'/iconsax/part-'+(i+1)+'.js')];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(ASSETS)).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key!==CACHE&&key.startsWith('saymore-')).map(key=>caches.delete(key)))).then(()=>self.clients.claim()))});
