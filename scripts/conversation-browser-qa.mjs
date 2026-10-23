@@ -27,8 +27,8 @@ async function checkSize(width,height,label){
    bridgeCount:Object.keys(BRIDGES).length,
    missingIconCount:[...document.querySelectorAll('button svg')].filter(x=>!x.querySelector('path,rect,circle,line,polyline,polygon,ellipse')).length
   }));
-  assert.equal(result.curated,49);
-  assert.equal(result.total,16249);
+  assert.equal(result.curated,109);
+  assert.equal(result.total,16309);
   assert.equal(result.older,false);
   assert.ok(result.cards>0);
   assert.ok(result.overflow<=1,'Horizontal overflow '+result.overflow);
@@ -54,8 +54,10 @@ async function checkSize(width,height,label){
        verticalGap:firstRect.top-shelfRect.bottom,
        hasOldTiles:!!document.querySelector('.cf-themes-block'),
        rowTextWidth:document.querySelector('.cf-home-idea .cf-idea-open')?.getBoundingClientRect().width,
-       noStackBorder:getComputedStyle(first).borderLeftWidth==='0px',
-       noCardBackground:getComputedStyle(first).backgroundColor==='rgba(0, 0, 0, 0)',
+       cardRadius:getComputedStyle(first).borderRadius,
+       cardBorder:getComputedStyle(first).borderTopWidth,
+       rowGap:getComputedStyle(first.parentElement).rowGap,
+       cardBackground:getComputedStyle(first).backgroundColor,
        buttonCount:first?.querySelectorAll('button').length,
        rowWidth:firstRect?.width,bodyOverflow:document.documentElement.scrollWidth-innerWidth};
    });
@@ -65,8 +67,10 @@ async function checkSize(width,height,label){
    assert.ok(metrics.verticalGap>=0&&metrics.verticalGap<105,'No excessive whitespace between theme chips and ideas');
    assert.ok(metrics.rowTextWidth>metrics.rowWidth*.8,'Text must use the full row, not be squeezed by two action icons');
    assert.equal(metrics.hasOldTiles,false);
-   assert.equal(metrics.noStackBorder,true,'Home ideas must not be boxed cards');
-   assert.equal(metrics.noCardBackground,true,'Home ideas are unboxed list entries');
+   assert.ok(parseFloat(metrics.cardRadius)>=15,'Approved home has individually rounded cards');
+   assert.equal(metrics.cardBorder,'1px','Approved home cards have a visible border');
+   assert.equal(metrics.cardBackground,'rgb(255, 254, 251)');
+   assert.ok(parseFloat(metrics.rowGap)>=10,'Home cards must have breathing room');
    assert.equal(metrics.buttonCount,2,'Save and Open actions are retained');
    assert.ok(metrics.bodyOverflow<=1);
    if(label==='phone'){
@@ -99,14 +103,14 @@ async function checkSize(width,height,label){
   assert.equal(focusAppearance.keepTalking,1);
   assert.equal(focusAppearance.sidebar,2);
   if(width<=780){
-   assert.ok(focusAppearance.fontSize<=31,'Focus content is too large for a phone');
+   assert.ok(focusAppearance.fontSize<=(width<=430?31:33),'Focus typography must fit its phone or tablet viewport');
    assert.ok(focusAppearance.textTop<350,'Focus text should start near the top, not float mid-screen');
   }
   if(label==='phone')await page.screenshot({path:'/tmp/saymore-v2-phone-focus.jpg',type:'jpeg',quality:75});
   await page.locator('[data-action="angles"]').click();
   await page.locator('.angle-path').first().waitFor();
   assert.equal(await page.locator('.angle-path').count(),4);
-  assert.equal(await page.locator('.bridge-path').count(),1);
+  assert.equal(await page.locator('.bridge-path').count(),await page.evaluate(id=>BRIDGES[id]?1:0,id),'Existing bridges remain available; new prompts use four authored angles');
   await page.locator('[data-save]').last().click();
   assert.ok(await page.evaluate(id=>state.saved.includes(id),id));
   await page.locator('[data-action="closeFocus"]').click();
@@ -114,9 +118,9 @@ async function checkSize(width,height,label){
  });
  await record(label+' legacy library and saved',async()=>{
   await page.locator('[data-action="toggleEarlier"]').click();
-  assert.equal(await page.evaluate(()=>filtered().length),16249);
+  assert.equal(await page.evaluate(()=>filtered().length),16309);
   await page.locator('[data-action="toggleEarlier"]').click();
-  assert.equal(await page.evaluate(()=>filtered().length),49);
+  assert.equal(await page.evaluate(()=>filtered().length),109);
   await page.evaluate(()=>nav('saved'));
   assert.ok(await page.locator('.prompt-card').count()>0);
  });
@@ -215,7 +219,7 @@ try{
   await page.evaluate(async()=>{const reg=await navigator.serviceWorker.ready;await reg.update()});
   await context.setOffline(true);
   await page.reload({waitUntil:'load',timeout:30000});
-  assert.equal(await page.evaluate(()=>filtered().length),49);
+  assert.equal(await page.evaluate(()=>filtered().length),109);
   await page.evaluate(()=>nav('play'));
   assert.ok(await page.getByRole('button',{name:'Story Chain'}).count()>0);
   await context.close();
