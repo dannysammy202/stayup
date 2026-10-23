@@ -38,9 +38,13 @@ async function checkSize(width,height,label){
    moods:!!document.querySelector('.home-moods'),
    browse:!!document.querySelector('[data-view="browse"]'),
    styleLoaded:[...document.styleSheets].some(x=>x.href?.includes('approved-reference.css')),
-   heroBackground:getComputedStyle(document.querySelector('.home-showcase')).backgroundColor
+   heroBackground:getComputedStyle(document.querySelector('.home-showcase')).backgroundColor,
+   shortcutRadius:getComputedStyle(document.querySelector('.approved-browse-button')).borderRadius,
+   appliedStyleSheets:[...document.styleSheets].filter(sheet=>sheet.href?.includes('approved-reference.css')).map(sheet=>{try{return sheet.cssRules.length}catch{return -1}})
   }));
   assert.ok(design.approved&&design.darkHero&&design.featured===1&&design.moods&&design.browse&&design.styleLoaded);
+  assert.ok(design.appliedStyleSheets.some(n=>n>100),'Approved CSS rules must be parsed and applied, not just linked');
+  assert.equal(design.shortcutRadius,'999px','Shortcuts must use approved rounded controls');
   if(label==='phone')await page.screenshot({path:'/tmp/saymore-approved-home-phone.jpg',type:'jpeg',quality:80});
   if(label==='desktop')await page.screenshot({path:'/tmp/saymore-approved-home-desktop.jpg',type:'jpeg',quality:80});
   assert.ok(result.overflow<=1,'Horizontal overflow '+result.overflow);
@@ -51,6 +55,8 @@ async function checkSize(width,height,label){
  await record(label+' Focus and continuations',async()=>{
   await page.locator('.home-featured [data-focus]').first().click();
   assert.equal(await page.locator('.approved-focus-card').count(),1,'Focus uses the approved dark prompt card');
+  const focusBg=await page.locator('.approved-focus-card').evaluate(el=>getComputedStyle(el).backgroundColor);
+  assert.equal(focusBg,'rgb(36, 68, 49)','Approved Focus must have the dark forest-green prompt card');
   if(label==='phone')await page.screenshot({path:'/tmp/saymore-approved-focus-phone.jpg',type:'jpeg',quality:80});
   await page.locator('.focus-overlay').waitFor();
   const id=await page.evaluate(()=>state.focus);
