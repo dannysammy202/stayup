@@ -30,14 +30,28 @@ async function checkSize(width,height,label){
   assert.equal(result.curated,49);
   assert.equal(result.total,16249);
   assert.equal(result.older,false);
-  assert.ok(result.cards>0);
+  assert.equal(result.cards,0,'The approved homepage shows one featured starter, not a card feed');
+  const design=await page.evaluate(()=>({
+   approved:document.body.classList.contains('approved-reference'),
+   darkHero:!!document.querySelector('.home-showcase'),
+   featured:document.querySelectorAll('.home-featured').length,
+   moods:!!document.querySelector('.home-moods'),
+   browse:!!document.querySelector('[data-view="browse"]'),
+   styleLoaded:[...document.styleSheets].some(x=>x.href?.includes('approved-reference.css')),
+   heroBackground:getComputedStyle(document.querySelector('.home-showcase')).backgroundColor
+  }));
+  assert.ok(design.approved&&design.darkHero&&design.featured===1&&design.moods&&design.browse&&design.styleLoaded);
+  if(label==='phone')await page.screenshot({path:'/tmp/saymore-approved-home-phone.jpg',type:'jpeg',quality:80});
+  if(label==='desktop')await page.screenshot({path:'/tmp/saymore-approved-home-desktop.jpg',type:'jpeg',quality:80});
   assert.ok(result.overflow<=1,'Horizontal overflow '+result.overflow);
   assert.equal(result.bridgeCount,49);
   assert.equal(result.missingIconCount,0);
   return result;
  });
  await record(label+' Focus and continuations',async()=>{
-  await page.locator('.prompt-card [data-focus]').first().click();
+  await page.locator('.home-featured [data-focus]').first().click();
+  assert.equal(await page.locator('.approved-focus-card').count(),1,'Focus uses the approved dark prompt card');
+  if(label==='phone')await page.screenshot({path:'/tmp/saymore-approved-focus-phone.jpg',type:'jpeg',quality:80});
   await page.locator('.focus-overlay').waitFor();
   const id=await page.evaluate(()=>state.focus);
   await page.locator('[data-action="angles"]').click();
@@ -50,6 +64,9 @@ async function checkSize(width,height,label){
   return {savedId:id};
  });
  await record(label+' legacy library and saved',async()=>{
+  await page.evaluate(()=>nav('browse'));
+  assert.ok(await page.locator('.prompt-card').count()>0);
+  if(label==='phone')await page.screenshot({path:'/tmp/saymore-approved-browse-phone.jpg',type:'jpeg',quality:80});
   await page.locator('[data-action="toggleEarlier"]').click();
   assert.equal(await page.evaluate(()=>filtered().length),16249);
   await page.locator('[data-action="toggleEarlier"]').click();
