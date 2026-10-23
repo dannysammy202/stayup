@@ -87,17 +87,21 @@ async function checkSize(width,height,label){
  });
  await record(label+' no horizontal overflow after navigation',async()=>{
   assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth<=1));
-  if(width<900){
+  if(width<=780){
    const mobile=page.locator('.mobile-nav');
    assert.ok(await mobile.isVisible());
    const box=await mobile.boundingBox();
    assert.ok(box.width<=width+1);
+   const items=await mobile.locator('button').evaluateAll(els=>els.map(el=>({label:el.textContent.trim(),top:el.getBoundingClientRect().top,bottom:el.getBoundingClientRect().bottom,left:el.getBoundingClientRect().left,right:el.getBoundingClientRect().right})));
+   assert.equal(items.length,6,'Mobile navigation should contain six actions');
+   const navBottom=box.y+box.height;
+   assert.ok(items.every(item=>item.left>=-1&&item.right<=width+1&&item.top>=box.y-1&&item.bottom<=navBottom+1),'All six mobile nav buttons should fit in one row');
   }
  });
  await context.close();
 }
 try{
- for(const s of [{width:390,height:844,label:'phone'},{width:820,height:1180,label:'tablet'},{width:1440,height:900,label:'desktop'}])await checkSize(s.width,s.height,s.label);
+ for(const s of [{width:390,height:844,label:'phone'},{width:768,height:1024,label:'small-tablet'},{width:820,height:1180,label:'tablet'},{width:1440,height:900,label:'desktop'}])await checkSize(s.width,s.height,s.label);
  await record('PWA offline cached shell',async()=>{
   const context=await browser.newContext({viewport:{width:390,height:844},serviceWorkers:'allow'});
   const page=await context.newPage(); page.on('pageerror',e=>errors.push('offline: '+e.message));
