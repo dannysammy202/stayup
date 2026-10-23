@@ -60,7 +60,8 @@ async function checkSize(width,height,label){
   if(label==='phone')await page.screenshot({path:'/tmp/saymore-approved-focus-phone.jpg',type:'jpeg',quality:80});
   await page.locator('.focus-overlay').waitFor();
   const id=await page.evaluate(()=>state.focus);
-  await page.locator('[data-action="angles"]').click();
+  assert.equal(await page.locator('.approved-angle-preview .approved-preview-angle').count(),3,'Original Focus reference displays three More Angles immediately');
+  await page.locator('.focus-actions [data-action="angles"]').click();
   await page.locator('.angle-path').first().waitFor();
   assert.equal(await page.locator('.angle-path').count(),4);
   assert.equal(await page.locator('.bridge-path').count(),1);
@@ -116,9 +117,9 @@ async function checkSize(width,height,label){
    const box=await mobile.boundingBox();
    assert.ok(box.width<=width+1);
    const items=await mobile.locator('button').evaluateAll(els=>els.map(el=>({label:el.textContent.trim(),top:el.getBoundingClientRect().top,bottom:el.getBoundingClientRect().bottom,left:el.getBoundingClientRect().left,right:el.getBoundingClientRect().right})));
-   assert.equal(items.length,6,'Mobile navigation should contain six actions');
+   assert.equal(items.length,5,'Approved mobile navigation has five primary tabs');
    const navBottom=box.y+box.height;
-   assert.ok(items.every(item=>item.left>=-1&&item.right<=width+1&&item.top>=box.y-1&&item.bottom<=navBottom+1),'All six mobile nav buttons should fit in one row');
+   assert.ok(items.every(item=>item.left>=-1&&item.right<=width+1&&item.top>=box.y-1&&item.bottom<=navBottom+1),'Five mobile navigation actions fit their row');
   }
  });
  await context.close();
