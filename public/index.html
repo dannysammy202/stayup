@@ -475,11 +475,13 @@ function cfThemeShelf() {
 }
 function cfFeedRow(p,i) {
  const saved=state.saved.includes(p.id);
- return `<article class="prompt-card cf-feed-row" data-row-topic="${esc(p.topic)}">
- <div class="cf-feed-row-top"><span class="cf-feed-label">${esc(p.topic)} <span aria-hidden="true">·</span> ${esc(p.format)}</span>
- <div class="cf-feed-actions"><button type="button" class="cf-icon-action ${saved?'is-saved':''}" data-save="${p.id}" aria-label="${saved?'Remove saved conversation':'Save conversation'}">${icon('heart')}</button>
- <button type="button" class="cf-row-open" data-focus="${p.id}" aria-label="Open conversation">${icon('arrow')}</button></div></div>
- <button type="button" class="cf-feed-content" data-focus="${p.id}"><span class="cf-feed-text">${esc(p.text)}</span></button>
+ return `<article class="cf-feed-row cf-home-idea" data-row-topic="${esc(p.topic)}">
+  <div class="cf-idea-meta"><span class="cf-idea-topic"><i aria-hidden="true"></i>${esc(p.topic)} <span aria-hidden="true">·</span> ${esc(p.format)}</span>
+   <button type="button" class="cf-idea-save ${saved?'is-saved':''}" data-save="${p.id}" aria-label="${saved?'Remove saved conversation':'Save conversation'}">${icon('heart')}</button>
+  </div>
+  <button type="button" class="cf-idea-open" data-focus="${p.id}">
+   <span class="cf-idea-text">${esc(p.text)}</span><span class="cf-idea-chevron" aria-hidden="true">${icon('arrow')}</span>
+  </button>
  </article>`;
 }
 function explore(){
