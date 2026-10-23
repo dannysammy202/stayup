@@ -425,3 +425,11 @@ body.cf-v2 .cf-refine-modal .modal-actions .primary svg{color:#FFF;height:18px;w
  body.cf-v2 .focus-action{padding:8px 11px}
  body.cf-v2 .cf-refine-modal .choice{font-size:11px;padding:7px 9px}
 }
+
+/* Let the mobile filter sheet fit its content when there is space; scroll only when needed. */
+@media(max-width:780px){
+ body.cf-v2 .cf-refine-modal{height:auto;max-height:min(84dvh,700px)}
+ body.cf-v2 .cf-refine-modal .modal-body{flex:0 1 auto}
+ body.cf-v2 .cf-refine-modal .modal-actions{margin:15px -18px 0}
+ body.cf-v2 .cf-refine-modal .choice{font-size:12px;min-height:35px}
+}
