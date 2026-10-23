@@ -86,5 +86,5 @@ test('locked Say More UI remains untouched and new content is available offline'
  assert.ok(html.includes('class="cf-feed-row cf-home-idea"'));
  assert.ok(html.includes('class="cf-focus-card"'));
  assert.match(css,/Say More card treatment/);
- assert.match(sw,/saymore-content-moments-v35/);
+ assert.match(sw,/saymore-curated-90-v36/);
 });
