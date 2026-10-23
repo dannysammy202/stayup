@@ -30,7 +30,7 @@ async function checkSize(width,height,label){
   assert.equal(result.curated,49);
   assert.equal(result.total,16249);
   assert.equal(result.older,false);
-  assert.ok(result.cards>0);
+  assert.equal(result.cards,0,'Start screen must not show an endless card feed');
   assert.ok(result.overflow<=1,'Horizontal overflow '+result.overflow);
   assert.equal(result.bridgeCount,49);
   assert.equal(result.missingIconCount,0);
@@ -41,43 +41,46 @@ async function checkSize(width,height,label){
   await page.screenshot({path:'/tmp/saymore-v2-'+label+'.jpg',type:'jpeg',quality:65});
   return result;
  });
- await record(label+' compact Start Something discovery',async()=>{
-   const metrics=await page.evaluate(()=>{
-     const shelf=document.querySelector('.cf-theme-strip');
-     const chips=[...shelf.querySelectorAll('.cf-theme-tile')];
-     const first=document.querySelector('.cf-feed-row');
-     const header=document.querySelector('.cf-ideas-header');
-     const pill=chips[0]?.getBoundingClientRect(),shelfRect=shelf.getBoundingClientRect(),
-       firstRect=first?.getBoundingClientRect(),headerRect=header.getBoundingClientRect();
-     return {pillCount:chips.length,pillHeight:pill?.height,
-       firstRowHeight:firstRect?.height,headerHeight:headerRect.height,
-       verticalGap:firstRect.top-shelfRect.bottom,
-       hasOldTiles:!!document.querySelector('.cf-themes-block'),
-       rowTextWidth:document.querySelector('.cf-feed-row .cf-feed-content')?.getBoundingClientRect().width,
-       rowWidth:firstRect?.width,bodyOverflow:document.documentElement.scrollWidth-innerWidth};
-   });
-   assert.equal(metrics.pillCount,7,'All ideas plus six topic chips');
-   assert.ok(metrics.pillHeight<=41,'Theme selection must be compact pills, not giant cards');
-   assert.ok(metrics.firstRowHeight<190,'Idea rows must use compact full-width typography');
-   assert.ok(metrics.verticalGap>=0&&metrics.verticalGap<105,'No excessive whitespace between theme chips and ideas');
-   assert.ok(metrics.rowTextWidth>metrics.rowWidth*.8,'Text must use the full row, not be squeezed by two action icons');
-   assert.equal(metrics.hasOldTiles,false);
-   assert.ok(metrics.bodyOverflow<=1);
-   if(label==='phone'){
-     await page.evaluate(()=>{const y=window.scrollY+document.querySelector('.cf-ideas-header').getBoundingClientRect().top-55;window.scrollTo({top:y,behavior:'instant'})});
-     await page.screenshot({path:'/tmp/saymore-v2-phone-compact-discovery.jpg',type:'jpeg',quality:78});
-   }
-   const y=await page.evaluate(()=>{const el=document.querySelector('.cf-theme-strip');window.scrollTo({top:window.scrollY+el.getBoundingClientRect().top-95,behavior:'instant'});return window.scrollY});
-   await page.evaluate(()=>document.querySelector('.cf-theme-strip [data-topic="People & Connections"]').click());
-   await page.waitForFunction(()=>state.topic==='People & Connections');
-   await page.waitForTimeout(90);
-   const after=await page.evaluate(()=>window.scrollY);
-   assert.ok(Math.abs(y-after)<105,'Choosing a theme on Start should not jump the user to the page top');
-   await page.evaluate(()=>{state.topic='All topics';render();window.scrollTo({top:0,behavior:'instant'})});
-   return metrics;
+ await record(label+' one-conversation Start and borderless Browse',async()=>{
+  const start=await page.evaluate(()=>({
+    stage:document.querySelectorAll('.cf-spotlight-text').length,
+    hasStack:!!document.querySelector('.cf-feed-list,.cf-reading-list,.cf-feed-row,.cf-reading-line'),
+    cta:!!document.querySelector('[data-view="browse"]'),
+    overflow:document.documentElement.scrollWidth-innerWidth
+  }));
+  assert.equal(start.stage,1,'One conversation should be the focus');
+  assert.equal(start.hasStack,false,'No stacked-card feed on Start');
+  assert.equal(start.cta,true);
+  assert.ok(start.overflow<=1);
+  await page.locator('[data-view="browse"]').first().click();
+  const browse=await page.evaluate(()=>{
+    const items=[...document.querySelectorAll('.cf-reading-line')];
+    const first=items[0],style=first?getComputedStyle(first):null;
+    const strip=document.querySelector('.cf-theme-strip');
+    return {items:items.length,feedCards:document.querySelectorAll('.cf-feed-row,.prompt-card').length,
+      firstBorder:style?.borderTopWidth,firstBackground:style?.backgroundColor,
+      hasThemes:!!strip,overflow:document.documentElement.scrollWidth-innerWidth,
+      firstActions:first?.querySelectorAll('[data-save],[data-focus]').length};
+  });
+  assert.equal(browse.items,10);
+  assert.equal(browse.feedCards,0,'Browse should not be another slab-card feed');
+  assert.ok(browse.hasThemes);
+  assert.ok(browse.overflow<=1);
+  assert.ok(browse.firstActions>=2);
+  if(label==='phone'){
+    await page.screenshot({path:'/tmp/saymore-v2-phone-browse-reading.jpg',type:'jpeg',quality:76});
+  }
+  await page.evaluate(()=>{const y=window.scrollY+document.querySelector('.cf-theme-strip').getBoundingClientRect().top-90;window.scrollTo({top:y,behavior:'instant'})});
+  const y=await page.evaluate(()=>window.scrollY);
+  await page.evaluate(()=>document.querySelector('.cf-theme-strip [data-topic="People & Connections"]').click());
+  await page.waitForFunction(()=>state.topic==='People & Connections');
+  const after=await page.evaluate(()=>window.scrollY);
+  assert.ok(Math.abs(y-after)<130,'Choosing a theme in Browse should not jump to page top');
+  await page.evaluate(()=>{state.topic='All topics';render();window.scrollTo({top:0,behavior:'instant'})});
+  return {start,browse};
  });
  await record(label+' Focus and continuations',async()=>{
-  await page.locator('.prompt-card [data-focus]').first().click();
+  await page.locator('.cf-reading-line [data-focus]').first().click();
   await page.locator('.focus-overlay').waitFor();
   const id=await page.evaluate(()=>state.focus);
   const focusAppearance=await page.evaluate(()=>{
@@ -107,6 +110,7 @@ async function checkSize(width,height,label){
   return {savedId:id};
  });
  await record(label+' legacy library and saved',async()=>{
+  await page.evaluate(()=>nav('browse'));
   await page.locator('[data-action="toggleEarlier"]').click();
   assert.equal(await page.evaluate(()=>filtered().length),16249);
   await page.locator('[data-action="toggleEarlier"]').click();
