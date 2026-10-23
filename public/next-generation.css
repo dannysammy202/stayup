@@ -206,3 +206,45 @@ body.sm-next .modal-actions .primary svg{color:#FFF}
  body.sm-next .sm-deck-go{padding:9px 11px}
  body.sm-next .sm-deck-context{max-width:90px}
 }
+
+
+/* Games: card first, optional preferences */
+body.sm-next .sm-play{max-width:800px;margin:0 auto}
+body.sm-next .sm-play-head h1{font-size:clamp(36px,5vw,57px);line-height:1.03;margin:14px 0 10px;font-weight:860;letter-spacing:-2px;color:#203D2C}
+body.sm-next .sm-play-head h1 em{font:italic 400 .88em Georgia,serif;color:#6D8B68}
+body.sm-next .sm-play-head p{font-size:13px;color:#819187;margin:0 0 23px}
+body.sm-next .sm-game-pills{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;margin-bottom:10px;padding-bottom:9px;overscroll-behavior-x:contain}
+body.sm-next .sm-game-pills::-webkit-scrollbar{display:none}
+body.sm-next .sm-game-pills button{border:1px solid #DFE8D9;border-radius:100px;background:#FFFEFB;color:#53765D;white-space:nowrap;flex:none;min-height:40px;padding:10px 13px;font-size:12px;font-weight:730}
+body.sm-next .sm-game-pills button.active{color:white;background:#1F5038;border-color:#1F5038}
+body.sm-next .sm-game-pills button svg{width:15px;height:15px;vertical-align:middle}
+body.sm-next .sm-play-summary{display:flex;align-items:center;gap:16px;justify-content:space-between;margin-bottom:12px;color:#719079;font-size:12px}
+body.sm-next .sm-play-summary span,body.sm-next .sm-play-summary button{display:flex;align-items:center;gap:7px}
+body.sm-next .sm-play-summary button{font-size:12px;color:#315E3C;font-weight:790;background:transparent;border:0;padding:8px 0;white-space:nowrap}
+body.sm-next .sm-play-summary svg{height:16px;width:16px}
+body.sm-next .sm-game-surface{background:#1E4633;border-radius:22px;min-height:320px;padding:29px;display:flex;flex-direction:column;gap:21px;justify-content:space-between;color:#FEFDF8}
+body.sm-next .sm-game-kicker{display:flex;align-items:center;gap:8px;color:#CCDFC4;font-size:10px;text-transform:uppercase;letter-spacing:.14em;font-weight:850}
+body.sm-next .sm-game-kicker .sm-live-dot{background:#CDEB91}
+body.sm-next .sm-game-surface h2{font:650 clamp(27px,3.8vw,41px)/1.23 Inter,Arial,sans-serif;color:#FEFDF7;margin:0;letter-spacing:-.7px;flex:1;display:flex;align-items:center}
+body.sm-next .sm-game-controls{display:flex;align-items:center;gap:9px;flex-wrap:wrap}
+body.sm-next .sm-game-controls button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:43px;padding:10px 15px;border:1px solid #688874;border-radius:100px;background:transparent;color:#FFF;font-size:12px;font-weight:750}
+body.sm-next .sm-game-controls .sm-game-next{background:#DEF19E;color:#1E4430;border-color:#DEF19E}
+body.sm-next .sm-game-controls svg{height:17px;width:17px}
+body.sm-next .sm-game-hint{color:#8C9B8E;font-size:11px;line-height:1.5;margin:12px 2px}
+body.sm-next .sm-game-modal .modal-body>p{font-size:12px;color:#829285;line-height:1.5}
+body.sm-next .sm-game-modal .choicegrid{display:flex;flex-wrap:wrap;gap:7px;margin:10px 0 19px}
+body.sm-next .sm-game-modal .choice{border-radius:100px;min-height:38px;font-size:12px;padding:9px 12px}
+body.sm-next .sm-game-modal .choice.on{background:#1F5038;color:#FFF}
+body.sm-next .sm-game-modal .modal-actions{display:flex;justify-content:end}
+body.sm-next .sm-game-modal .modal-actions button{display:flex;align-items:center;gap:8px;border-radius:100px}
+@media(max-width:780px){
+ body.sm-next .sm-play-head h1{font-size:38px;letter-spacing:-1.6px}
+ body.sm-next .sm-play-head p{font-size:12px;margin-bottom:18px}
+ body.sm-next .sm-game-pills{margin-right:-18px;padding-right:18px}
+ body.sm-next .sm-game-pills button{min-height:38px;padding:9px 12px;font-size:11px}
+ body.sm-next .sm-play-summary{font-size:11px;margin-bottom:10px}
+ body.sm-next .sm-game-surface{min-height:280px;padding:24px 20px;border-radius:20px;gap:15px}
+ body.sm-next .sm-game-surface h2{font-size:clamp(27px,7vw,34px)}
+ body.sm-next .sm-game-controls{gap:7px}
+ body.sm-next .sm-game-controls button{font-size:11px;min-height:40px;padding:9px 12px}
+}
