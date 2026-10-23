@@ -1,0 +1,208 @@
+/* Say More / V3 — a fresh, mobile-first conversation companion, not a restored layout.
+   Soft paper, bold sans typography, chat-shaped spotlight, quiet editorial feed. */
+:root{--sm-bg:#F6F5EF;--sm-paper:#FFFEFB;--sm-ink:#19392F;--sm-green:#1D4838;--sm-mut:#78897E;
+--sm-line:#E4E9E1;--sm-citrus:#D9EEA8;--sm-apricot:#EEC9AC;--sm-rad:19px}
+body.sm-next,body.sm-next #app{margin:0;background:var(--sm-bg);color:var(--sm-ink);font-family:Inter,Arial,sans-serif}
+body.sm-next button{appearance:none;-webkit-appearance:none;-webkit-tap-highlight-color:rgba(31,80,51,.12)}
+body.sm-next button,body.sm-next svg{color:inherit}
+body.sm-next .sm-shell{min-height:100vh;overflow:clip}
+body.sm-next .sm-header{height:76px;padding:0 max(26px,calc((100vw - 1120px)/2));background:#FFFEFB;
+ display:flex;align-items:center;justify-content:space-between;gap:20px;border-bottom:1px solid #E8EAE3}
+body.sm-next .sm-wordmark{display:flex;align-items:center;gap:7px;padding:0;border:0;background:transparent;
+ font-size:24px;font-weight:850;letter-spacing:-1.4px;color:#18372A}
+body.sm-next .sm-wordmark>span:last-child>span{color:#74946D}
+body.sm-next .sm-mark{display:grid;place-items:center;height:30px;width:30px;background:#214A34;
+ border-radius:11px;color:#DFF2AF;font:400 25px Georgia,serif}
+body.sm-next .sm-desktop-nav{display:flex;gap:8px;align-items:center}
+body.sm-next .sm-desktop-nav button{border:0;background:transparent;color:#677C6B;padding:11px 15px;
+ font-size:12px;font-weight:750;border-radius:100px}
+body.sm-next .sm-desktop-nav button.current,body.sm-next .sm-desktop-nav button:hover{background:#E9F0E3;color:#27573B}
+body.sm-next .sm-header-actions{display:flex;align-items:center;gap:8px}
+body.sm-next .sm-header-actions button{display:grid;place-items:center;width:36px;height:36px;background:#F1F4ED;
+ border:1px solid #E2E8DC;color:#315C3D;border-radius:50%;padding:8px}
+body.sm-next .sm-header-actions svg{width:19px;height:19px}
+body.sm-next .sm-page.main{max-width:1020px;width:100%;min-width:0;padding:36px 30px 110px;margin:0 auto}
+body.sm-next .sm-bottom-nav{display:none}
+body.sm-next .sm-explore{max-width:720px;margin:0 auto}
+body.sm-next .sm-kicker{font-size:10px;letter-spacing:.16em;font-weight:850;color:#6A8A6F}
+body.sm-next .sm-kicker-line{width:24px;height:2px;background:#87A376;display:inline-block;vertical-align:middle;margin-right:9px}
+body.sm-next .sm-intro{margin:4px 0 22px}
+body.sm-next .sm-intro h1{font-size:clamp(39px,4.8vw,62px);line-height:1.04;font-weight:850;letter-spacing:-2.4px;
+ margin:16px 0 12px;color:#183E2D;max-width:730px}
+body.sm-next .sm-intro h1 em{font:italic 400 .85em Georgia,serif;color:#668465;letter-spacing:-1px}
+body.sm-next .sm-intro p{font-size:13px;max-width:560px;line-height:1.65;color:#839086;margin:0}
+body.sm-next .sm-vibe-bar{margin:0 0 22px}
+body.sm-next .sm-vibe-caption{display:flex;justify-content:space-between;align-items:center;gap:12px;padding-bottom:10px}
+body.sm-next .sm-vibe-caption strong{font-size:12px;font-weight:850;color:#325540}
+body.sm-next .sm-vibe-caption span{font-size:11px;color:#9AAA9D}
+body.sm-next .sm-vibe-scroller{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;overscroll-behavior-x:contain;padding-bottom:3px}
+body.sm-next .sm-vibe-scroller::-webkit-scrollbar{display:none}
+body.sm-next .sm-vibe{display:flex;flex:0 0 auto;align-items:center;gap:7px;background:#FFFEFB;border:1px solid #E3E9E0;
+ border-radius:100px;padding:10px 13px;font-size:11px;font-weight:720;color:#5C745E;min-height:40px;white-space:nowrap}
+body.sm-next .sm-vibe svg{width:17px;height:17px}
+body.sm-next .sm-vibe.active{background:#1F5139;color:#FFF;border-color:#1F5139}
+body.sm-next .sm-deck-stack{position:relative;isolation:isolate;margin:0 3px 19px 0}
+body.sm-next .sm-deck-shadow{position:absolute;left:16px;right:16px;height:15px;background:#C4D5C2;bottom:-10px;
+ border-radius:0 0 18px 18px;z-index:-1}
+body.sm-next .sm-deck{background:#DCEBCF;min-height:320px;border:1px solid #C4DBC3;
+ border-radius:23px;display:flex;flex-direction:column;justify-content:space-between;gap:22px;
+ padding:22px 24px 19px;overflow:hidden;position:relative}
+body.sm-next .sm-deck:before{content:'';width:230px;height:230px;border:1px solid rgba(82,131,79,.20);
+ position:absolute;right:-130px;bottom:-170px;border-radius:50%;box-shadow:0 0 0 45px rgba(119,155,101,.07)}
+body.sm-next .sm-deck-top{display:flex;align-items:center;justify-content:space-between;gap:10px;z-index:1}
+body.sm-next .sm-deck-overline{font-size:10px;font-weight:850;letter-spacing:.13em;color:#456D4B;display:flex;align-items:center;gap:9px}
+body.sm-next .sm-live-dot{height:8px;width:8px;border-radius:50%;background:#315A43}
+body.sm-next .sm-deck-type{color:#6F9171;font-size:11px;font-weight:710}
+body.sm-next .sm-bubble-set{flex:1;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;gap:8px;z-index:1}
+body.sm-next .sm-bubble-prelude{background:#F7FAF2;color:#7A967D;font-size:11px;
+ padding:8px 11px;border-radius:13px 13px 13px 3px}
+body.sm-next .sm-conversation-bubble{text-align:left;border:0;max-width:100%;border-radius:5px 21px 21px 21px;
+ background:#FFFEFC;box-shadow:0 10px 25px rgba(37,79,45,.04);padding:21px 22px;
+ color:#1E3A2B;font:650 clamp(24px,3.3vw,35px)/1.27 Inter,Arial,sans-serif;letter-spacing:-.95px;
+ overflow-wrap:anywhere}
+body.sm-next .sm-conversation-bubble:hover{background:#FFF}
+body.sm-next .sm-deck-bottom{display:flex;justify-content:space-between;align-items:center;gap:12px;z-index:1}
+body.sm-next .sm-deck-context{color:#54765A;font-size:11px;font-weight:790}
+body.sm-next .sm-deck-buttons{display:flex;gap:8px;align-items:center}
+body.sm-next .sm-bookmark{display:grid;place-items:center;border:1px solid #ABC8A9;color:#375F42;background:transparent;
+ border-radius:50%;padding:8px;width:40px;height:40px}
+body.sm-next .sm-bookmark svg{width:19px;height:19px}
+body.sm-next .sm-bookmark.active{background:#F8FCF5}
+body.sm-next .sm-deck-go{display:inline-flex;align-items:center;gap:9px;white-space:nowrap;
+ border-radius:100px;border:0;color:#FFF;background:#214A36;min-height:41px;padding:10px 16px;font-size:12px;font-weight:800}
+body.sm-next .sm-deck-go svg{height:17px;width:17px}
+body.sm-next .sm-deck-utility{display:flex;gap:8px;margin:18px 0 34px;flex-wrap:wrap}
+body.sm-next .sm-deck-utility button{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;min-height:42px;
+ background:#FFF;border:1px solid #E1E8DC;border-radius:100px;font-size:12px;font-weight:750;color:#385C42}
+body.sm-next .sm-deck-utility svg{width:18px;height:18px}
+body.sm-next .sm-discovery-door{border-top:1px solid #DCE3D7;padding:24px 0 0}
+body.sm-next .sm-small-label{font-size:10px;color:#9BAA9C;font-weight:810;letter-spacing:.13em}
+body.sm-next .sm-door-row{display:flex;justify-content:space-between;align-items:center;gap:20px;margin:10px 0 18px}
+body.sm-next .sm-door-row h2{font-size:clamp(22px,3vw,30px);letter-spacing:-.9px;margin:0 0 6px;font-weight:850;color:#213E2E}
+body.sm-next .sm-door-row p{font-size:12px;line-height:1.4;margin:0;color:#849184}
+body.sm-next .sm-door-arrow{width:45px;height:45px;display:grid;place-items:center;flex:none;color:#FFF;
+ border-radius:50%;background:#1E4834;border:0}
+body.sm-next .sm-door-actions{display:flex;gap:10px}
+body.sm-next .sm-door-actions button{display:flex;align-items:center;gap:7px;border:0;border-bottom:1px solid #C5D4C0;
+ padding:11px 0;color:#345940;background:transparent;font-size:12px;font-weight:780}
+body.sm-next .sm-door-actions button+button{margin-left:15px}
+body.sm-next .sm-door-actions svg{width:17px;height:17px}
+body.sm-next .quiet-ai{margin-top:25px}
+/* Browsing has its own deliberate visual identity: conversational editorial stream. */
+body.sm-next .sm-library,body.sm-next .sm-more,body.sm-next .sm-page-intro{max-width:780px;margin:0 auto}
+body.sm-next .sm-back-text{background:transparent;border:0;padding:0 0 20px;color:#507755;font-size:12px;display:flex;align-items:center;gap:8px;font-weight:770}
+body.sm-next .sm-back-text svg{width:18px;height:18px}
+body.sm-next .sm-page-intro h1{font-size:clamp(35px,4.3vw,55px);font-weight:860;letter-spacing:-1.8px;line-height:1.03;margin:12px 0}
+body.sm-next .sm-page-intro h1 em{font:italic 400 .87em Georgia,serif;color:#7A946C}
+body.sm-next .sm-page-intro p{color:#849086;font-size:12px;line-height:1.5;max-width:480px;margin:0 0 24px}
+body.sm-next .sm-library-toolbar{display:flex;gap:8px;margin-bottom:13px}
+body.sm-next .sm-library-search{display:flex;align-items:center;gap:9px;background:#FFF;border:1px solid #E3E8DE;
+ padding:0 12px;border-radius:13px;height:45px;flex:1;color:#77917A}
+body.sm-next .sm-library-search svg{width:18px;height:18px}
+body.sm-next .sm-library-search input{background:transparent;border:0;outline:0;min-width:0;font-size:12px;flex:1;color:#284632}
+body.sm-next .sm-library-filter{display:flex;align-items:center;gap:6px;color:#3E6649;padding:0 13px;border-radius:12px;
+ border:1px solid #DDE5D8;background:#FFF;font-size:12px;font-weight:760}
+body.sm-next .sm-library-filter svg{width:17px;height:17px}
+body.sm-next .sm-library-themes{display:flex;gap:7px;overflow-x:auto;scrollbar-width:none;padding-bottom:13px;margin-bottom:9px}
+body.sm-next .sm-library-themes::-webkit-scrollbar{display:none}
+body.sm-next .sm-library-themes button{flex:none;border-radius:100px;background:#FFF;border:1px solid #DEE7DB;
+ font-size:11px;font-weight:780;padding:9px 12px;color:#5B745C}
+body.sm-next .sm-library-themes button.active{background:#204934;border-color:#204934;color:#FFF}
+body.sm-next .sm-library-caption{font-size:10px;font-weight:850;letter-spacing:.13em;color:#879B88;margin:10px 0 2px}
+body.sm-next .sm-reader-item{margin:0;padding:23px 0;border-bottom:1px solid #E0E6DB}
+body.sm-next .sm-reader-top{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:8px}
+body.sm-next .sm-reader-tag{font-size:10px;letter-spacing:.09em;color:#8DA08D;font-weight:820;text-transform:uppercase}
+body.sm-next .sm-reader-heart{border:0;color:#779380;background:transparent;padding:6px;display:grid;place-items:center}
+body.sm-next .sm-reader-heart svg{height:19px;width:19px}
+body.sm-next .sm-reader-heart.active{color:#2B5F3E}
+body.sm-next .sm-reader-text{display:flex;justify-content:space-between;align-items:center;gap:12px;width:100%;
+ text-align:left;background:transparent;border:0;padding:0;color:#203D2E;font:630 clamp(18px,2.25vw,24px)/1.33 Inter,Arial,sans-serif;
+ letter-spacing:-.4px}
+body.sm-next .sm-reader-text>span{flex:none;color:#315B3F}
+body.sm-next .sm-reader-text>span svg{height:21px;width:21px}
+body.sm-next .sm-nothing{color:#819482;font-size:13px}
+body.sm-next .sm-load-more{width:100%;padding:15px 16px;margin-top:23px;display:flex;justify-content:center;
+ align-items:center;gap:10px;color:#325941;background:#E8EFE2;border:0;border-radius:13px;font-size:12px;font-weight:810}
+body.sm-next .sm-load-more svg{height:18px;width:18px}
+body.sm-next .sm-archive-link{margin-top:40px;display:flex;justify-content:space-between;gap:12px;
+ border-top:1px solid #E1E6DD;padding-top:16px;font-size:12px;color:#819084}
+body.sm-next .sm-archive-link button{border:0;background:none;color:#3F6444;font-size:12px;font-weight:760;display:flex;align-items:center;gap:6px}
+body.sm-next .sm-archive-link svg{height:15px;width:15px}
+/* More — accessible simple settings hub */
+body.sm-next .sm-more-rows{margin-top:25px;border-top:1px solid #E2E8DF}
+body.sm-next .sm-more-rows button{display:flex;align-items:center;gap:15px;width:100%;text-align:left;background:transparent;
+ border:0;border-bottom:1px solid #E2E8DF;padding:19px 5px;color:#355942}
+body.sm-next .sm-more-rows button>svg:first-child{height:23px;width:23px}
+body.sm-next .sm-more-rows button>svg:last-child{height:18px;width:18px;margin-left:auto}
+body.sm-next .sm-more-rows span{display:flex;flex-direction:column;gap:3px}
+body.sm-next .sm-more-rows strong{font-size:14px;color:#2E4C39}
+body.sm-next .sm-more-rows small{font-size:11px;color:#879A87}
+body.sm-next .page-heading h1{font-size:clamp(35px,4vw,48px)}
+/* Focus & modal controls must have explicit colours so iOS never uses native blue tint */
+body.sm-next .focus-overlay{background:rgba(21,45,33,.54);padding:15px}
+body.sm-next .focus-window{border-radius:24px;max-width:740px;background:#FBFBF6}
+body.sm-next .focus-top{padding:18px 21px}
+body.sm-next .focus-top .close,body.sm-next .modal .close{
+ border:1px solid #DAE5D8;background:#F7FAF4;color:#2D593A;border-radius:50%;
+ display:grid;place-items:center;width:37px;height:37px;padding:8px}
+body.sm-next .focus-top .close svg,body.sm-next .modal .close svg{color:inherit;width:19px;height:19px}
+body.sm-next .focus-center{justify-content:flex-start;padding:24px 26px}
+body.sm-next .focus-main{font:650 clamp(28px,3.8vw,44px)/1.27 Inter,Arial,sans-serif;letter-spacing:-.9px}
+body.sm-next .focus-actions{gap:8px}
+body.sm-next .focus-action{font-size:12px;border-radius:100px;color:#315C3F;background:#FFF;padding:10px 13px}
+body.sm-next .focus-action svg{width:17px;height:17px}
+body.sm-next .focus-bottom .nexts button{color:#3A6744}
+body.sm-next .focus-bottom .nexts button:last-child{background:#244835;color:#FFF}
+body.sm-next .focus-bottom .nexts button svg{color:inherit}
+body.sm-next .modal-actions .primary,body.sm-next .choice.on{background:#215038;color:#FFF}
+body.sm-next .modal-actions .primary svg{color:#FFF}
+@media(max-width:780px){
+ body.sm-next .sm-header{height:63px;padding:0 19px}
+ body.sm-next .sm-wordmark{font-size:24px}
+ body.sm-next .sm-desktop-nav{display:none}
+ body.sm-next .sm-header-actions .sm-icon-button{display:none}
+ body.sm-next .sm-page.main{padding:26px 18px calc(103px + env(safe-area-inset-bottom));max-width:700px}
+ body.sm-next .sm-bottom-nav.mobile-nav{position:fixed;left:0;right:0;bottom:0;
+ padding:6px 7px calc(7px + env(safe-area-inset-bottom));display:grid;
+ grid-template-columns:repeat(5,minmax(0,1fr));height:calc(71px + env(safe-area-inset-bottom));
+ background:rgba(255,254,251,.98);backdrop-filter:blur(14px);border-top:1px solid #E0E7DE;z-index:40}
+ body.sm-next .sm-bottom-nav button{min-width:0;color:#91A095;font-size:10px;gap:6px}
+ body.sm-next .sm-bottom-nav button.active{color:#235639}
+ body.sm-next .sm-bottom-nav svg{height:21px;width:21px}
+ body.sm-next .sm-intro{margin:0 0 19px}
+ body.sm-next .sm-intro h1{font-size:clamp(36px,8.5vw,45px);letter-spacing:-1.9px;line-height:1.05;margin:12px 0}
+ body.sm-next .sm-intro p{font-size:12px;max-width:360px}
+ body.sm-next .sm-vibe-bar{margin-bottom:16px}
+ body.sm-next .sm-vibe{min-height:38px;padding:8px 12px}
+ body.sm-next .sm-vibe-scroller{margin-right:-18px;padding-right:18px}
+ body.sm-next .sm-deck{padding:18px 18px 15px;border-radius:20px;min-height:290px;gap:15px}
+ body.sm-next .sm-conversation-bubble{font-size:clamp(23px,6.25vw,29px);padding:17px 17px;line-height:1.24}
+ body.sm-next .sm-bubble-prelude{font-size:10px}
+ body.sm-next .sm-deck-context{font-size:10px;max-width:140px}
+ body.sm-next .sm-deck-go{min-height:40px;padding:9px 13px;font-size:11px}
+ body.sm-next .sm-bookmark{width:39px;height:39px}
+ body.sm-next .sm-deck-utility{margin:17px 0 28px}
+ body.sm-next .sm-deck-utility button{font-size:11px;min-height:39px;padding:9px 12px}
+ body.sm-next .sm-discovery-door{padding-top:20px}
+ body.sm-next .sm-door-row h2{font-size:24px;letter-spacing:-.8px}
+ body.sm-next .sm-door-row p{font-size:11px}
+ body.sm-next .sm-door-arrow{width:41px;height:41px}
+ body.sm-next .sm-door-actions button{font-size:11px}
+ body.sm-next .sm-page-intro h1{font-size:38px}
+ body.sm-next .sm-reader-text{font-size:19px}
+ body.sm-next .sm-reader-item{padding:17px 0}
+ body.sm-next .sm-archive-link{flex-direction:column;gap:8px}
+ body.sm-next .focus-overlay{inset:0;padding:0}
+ body.sm-next .focus-window{height:100dvh;max-height:none;width:100%;border-radius:0}
+ body.sm-next .focus-main{font-size:clamp(25px,6.3vw,31px);letter-spacing:-.6px;line-height:1.28}
+ body.sm-next .focus-top{padding:calc(12px + env(safe-area-inset-top)) 19px 11px}
+ body.sm-next .focus-center{padding:28px 22px}
+ body.sm-next .focus-bottom{padding:12px 20px calc(12px + env(safe-area-inset-bottom))}
+}
+@media(max-width:385px){
+ body.sm-next .sm-deck{min-height:310px}
+ body.sm-next .sm-conversation-bubble{font-size:23px;padding:15px}
+ body.sm-next .sm-deck-bottom{gap:8px}
+ body.sm-next .sm-deck-go{padding:9px 11px}
+ body.sm-next .sm-deck-context{max-width:90px}
+}
