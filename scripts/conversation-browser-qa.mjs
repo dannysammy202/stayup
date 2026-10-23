@@ -89,6 +89,13 @@ async function checkSize(width,height,label){
   await page.locator('[data-action="playNext"]').click();
   assert.ok((await page.locator('.play-card h2').innerText()).length>20);
   assert.doesNotMatch(await page.locator('.play-card').innerText(),/\\b(?:round|score|streak|leaderboard)\\b/i);
+  await page.waitForFunction(()=>{
+   const active=document.querySelector('.cf-game-rail .choice.on');
+   const rail=active?.parentElement;
+   if(!active||!rail)return false;
+   const a=active.getBoundingClientRect(),b=rail.getBoundingClientRect();
+   return a.left>=b.left-2&&a.right<=b.right+2;
+  },null,{timeout:3000});
   const firstCardBox=await page.locator('.cf-game-stage').boundingBox();
   assert.ok(firstCardBox.y<460,'Play card should be above the fold, not hidden under mandatory filters');
   if(label==='phone')await page.screenshot({path:'/tmp/saymore-v2-phone-play.jpg',type:'jpeg',quality:70});
