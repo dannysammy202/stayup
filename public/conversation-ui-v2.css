@@ -433,3 +433,80 @@ body.cf-v2 .cf-refine-modal .modal-actions .primary svg{color:#FFF;height:18px;w
  body.cf-v2 .cf-refine-modal .modal-actions{margin:15px -18px 0}
  body.cf-v2 .cf-refine-modal .choice{font-size:12px;min-height:35px}
 }
+
+
+/* Start Something mobile compactness: no dashboard cards or dead space in discovery. */
+body.cf-v2 .cf-home .cf-feed-section{padding-top:23px}
+body.cf-v2 .cf-home .cf-ideas-header{display:flex;justify-content:space-between;gap:12px;
+ align-items:center;margin:0 0 11px}
+body.cf-v2 .cf-home .cf-ideas-header h2{font:400 26px/1.18 var(--display);
+ letter-spacing:-.55px;color:#294532;margin:0 0 4px}
+body.cf-v2 .cf-home .cf-ideas-header p{font:500 11px/1.4 var(--font);
+ color:#7E8C80;margin:0}
+body.cf-v2 .cf-home .cf-ideas-filter{border:1px solid #DBE6DA;border-radius:999px;
+ background:#FFF;color:#385E41;padding:9px 12px;min-height:38px;
+ display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:740;white-space:nowrap}
+body.cf-v2 .cf-home .cf-ideas-filter svg{height:17px;width:17px;stroke:currentColor}
+body.cf-v2 .cf-home .cf-theme-strip{display:flex;flex-wrap:nowrap;align-items:center;
+ gap:7px;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:none;
+ padding:2px 1px 10px;margin:0 0 3px;scroll-snap-type:x proximity}
+body.cf-v2 .cf-home .cf-theme-strip::-webkit-scrollbar{display:none}
+body.cf-v2 .cf-home .cf-theme-strip .cf-theme-tile{
+ flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;
+ width:auto;min-width:0;min-height:37px;height:37px;white-space:nowrap;
+ border:1px solid #DFE6DB;background:#FFF;border-radius:999px;padding:7px 12px;
+ gap:7px;scroll-snap-align:start;color:#5A705D;font-size:12px;font-weight:710;
+ box-shadow:none;transition:background-color .16s,border-color .16s}
+body.cf-v2 .cf-home .cf-theme-strip .cf-theme-tile .cf-theme-icon{
+ display:flex;align-items:center;justify-content:center;width:16px;height:16px;
+ flex:0 0 16px;background:transparent;border:none;color:inherit;border-radius:0}
+body.cf-v2 .cf-home .cf-theme-strip .cf-theme-tile .cf-theme-icon svg{width:16px;height:16px;
+ stroke:currentColor}
+body.cf-v2 .cf-home .cf-theme-strip .cf-theme-tile.is-active{
+ background:#30573C;border-color:#30573C;color:#FFF}
+body.cf-v2 .cf-home .cf-theme-strip .cf-theme-tile:hover:not(.is-active){
+ background:#EEF4E9;border-color:#C8D9C4;transform:none}
+body.cf-v2 .cf-home .cf-search{margin:0 0 11px;min-height:43px;height:43px;
+ border-radius:12px;background:#FFF}
+body.cf-v2 .cf-home .cf-search input{font-size:12px}
+body.cf-v2 .cf-home .cf-feed-list{border:1px solid #E5EAE2;background:#E5EAE2;
+ border-radius:15px;gap:1px;overflow:hidden;box-shadow:none}
+body.cf-v2 .cf-home .cf-feed-row.prompt-card{display:block;min-height:0;margin:0;
+ padding:13px 16px 14px;border:0;border-radius:0;background:#FEFDFB;
+ color:#263F30;box-shadow:none;transform:none}
+body.cf-v2 .cf-home .cf-feed-row.prompt-card:hover{background:#F7F9F4;transform:none}
+body.cf-v2 .cf-home .cf-feed-row-top{display:flex;align-items:center;justify-content:space-between;gap:12px}
+body.cf-v2 .cf-home .cf-feed-row .cf-feed-label{
+ font:770 9px/1.4 var(--font);color:#899989;letter-spacing:.07em}
+body.cf-v2 .cf-home .cf-feed-row .cf-feed-actions{display:flex;align-items:center;gap:5px}
+body.cf-v2 .cf-home .cf-feed-row .cf-icon-action,
+body.cf-v2 .cf-home .cf-feed-row .cf-row-open{
+ height:32px;width:32px;flex:0 0 32px;color:#4C7052;
+ border:1px solid #E3EBE1;border-radius:50%;background:#FAFCF8;box-shadow:none}
+body.cf-v2 .cf-home .cf-feed-row .cf-row-open{background:#EAF2E7;color:#326045;border:0}
+body.cf-v2 .cf-home .cf-feed-row .cf-icon-action.is-saved{background:#E0EEDB;color:#315B3B}
+body.cf-v2 .cf-home .cf-feed-row .cf-icon-action svg,
+body.cf-v2 .cf-home .cf-feed-row .cf-row-open svg{width:16px;height:16px}
+body.cf-v2 .cf-home .cf-feed-row .cf-feed-content{
+ display:block;text-align:left;width:100%;min-height:0;padding:6px 0 0;margin:0;
+ border:0;background:none;color:#284131;cursor:pointer;outline-offset:3px}
+body.cf-v2 .cf-home .cf-feed-row .cf-feed-text{
+ font:400 clamp(17px,1.85vw,19px)/1.36 var(--display);letter-spacing:-.15px;
+ color:inherit;display:block;overflow-wrap:break-word}
+body.cf-v2 .cf-home .cf-feed-row .cf-feed-content:hover .cf-feed-text{color:#476C50}
+body.cf-v2 .cf-home .cf-more-conversations{margin-top:12px}
+@media(max-width:780px){
+ body.cf-v2 .cf-home .cf-vibes{padding-top:23px}
+ body.cf-v2 .cf-home .cf-feed-section{padding-top:17px}
+ body.cf-v2 .cf-home .cf-ideas-header h2{font-size:24px}
+ body.cf-v2 .cf-home .cf-ideas-filter{padding:8px 11px;min-height:35px;font-size:11px}
+ body.cf-v2 .cf-home .cf-theme-strip{padding-bottom:8px;margin-bottom:2px;margin-right:-16px;padding-right:16px}
+ body.cf-v2 .cf-home .cf-theme-strip .cf-theme-tile{min-height:35px;height:35px;
+ padding:7px 11px;font-size:11px}
+ body.cf-v2 .cf-home .cf-feed-row.prompt-card{padding:11px 13px 13px}
+ body.cf-v2 .cf-home .cf-feed-row .cf-feed-text{font-size:17px;line-height:1.34}
+ body.cf-v2 .cf-home .cf-feed-row .cf-feed-content{padding-top:5px}
+ body.cf-v2 .cf-home .cf-feed-row .cf-feed-label{font-size:9px}
+ body.cf-v2 .cf-home .cf-feed-row .cf-icon-action,
+ body.cf-v2 .cf-home .cf-feed-row .cf-row-open{height:31px;width:31px;flex-basis:31px}
+}
