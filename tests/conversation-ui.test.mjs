@@ -112,15 +112,15 @@ test('curated-first discovery keeps the older catalogue separate without breakin
  assert.equal(initial.all,5449);
  assert.equal(initial.curated,49);
  assert.equal(initial.mode,false);
- assert.match(app.innerHTML,/Explore earlier library/);
+ assert.match(app.innerHTML,/Browse conversations/);
  assert.doesNotMatch(app.innerHTML,/Interview-style archive text/);
  vm.runInContext("state.saved=['legacy-test-23'];nav('saved')",ctx);
  assert.match(app.innerHTML,/Interview-style archive text 23/,'Previously saved archive remains accessible');
  vm.runInContext("state.seen=['legacy-test-24'];nav('history')",ctx);
  assert.match(app.innerHTML,/Interview-style archive text 24/,'History can still open older records');
- vm.runInContext("nav('explore');applyAction('toggleEarlier')",ctx);
+ vm.runInContext("nav('browse');applyAction('toggleEarlier')",ctx);
  assert.equal(vm.runInContext('filtered().length',ctx),5449);
- assert.match(app.innerHTML,/Back to curated ideas/);
+ assert.match(app.innerHTML,/Return to curated ideas/);
  vm.runInContext("applyAction('toggleEarlier')",ctx);
  assert.equal(vm.runInContext('filtered().length',ctx),49);
  vm.runInContext("focus('legacy-test-23')",ctx);
@@ -149,8 +149,13 @@ test('Keep Talking offers a non-interrogative conversational bridge, not only fo
 test('conversation-first home is a single stage, not a dashboard made of a hero and card grid',()=>{
  const {app,ctx}=launch();
  assert.match(app.innerHTML,/cf-spotlight/);
- assert.match(app.innerHTML,/cf-theme-tile/);
- assert.match(app.innerHTML,/cf-feed-row/);
+ assert.match(app.innerHTML,/cf-home-discover/);
+ assert.match(app.innerHTML,/data-view="browse"/);
+ assert.doesNotMatch(app.innerHTML,/cf-feed-row|cf-reading-line|cf-feed-list/);
+ vm.runInContext("nav('browse')",ctx);
+ assert.match(app.innerHTML,/cf-reading-list/);
+ assert.match(app.innerHTML,/cf-reading-line/);
+ assert.doesNotMatch(app.innerHTML,/cf-feed-row/);
  assert.match(app.innerHTML,/cf-topnav/);
  assert.doesNotMatch(app.innerHTML,/class="home-showcase/);
  assert.doesNotMatch(app.innerHTML,/class="sidebar/);
@@ -171,4 +176,19 @@ test('mobile More hub preserves access to history, settings, saved and adult mod
  assert.match(app.innerHTML,/data-view="settings"/);
  assert.match(app.innerHTML,/data-view="saved"/);
  assert.match(app.innerHTML,/data-action="enterAdult"/);
+});
+
+test('Start has one conversation with no stacked card feed, and Browse preserves full reading access',()=>{
+ const {ctx,app}=launch();
+ assert.equal(vm.runInContext('state.view',ctx),'explore');
+ assert.match(app.innerHTML,/cf-spotlight/);
+ assert.equal((app.innerHTML.match(/cf-spotlight-text/g)||[]).length,1);
+ assert.doesNotMatch(app.innerHTML,/cf-reading-line|cf-feed-row|cf-feed-list/);
+ assert.match(app.innerHTML,/Browse conversations/);
+ vm.runInContext("nav('browse')",ctx);
+ assert.equal(vm.runInContext('state.feedVisible',ctx),10);
+ assert.equal((app.innerHTML.match(/class="cf-reading-line"/g)||[]).length,10);
+ assert.match(app.innerHTML,/Browse earlier library/);
+ vm.runInContext("state.topic='People & Connections';render()",ctx);
+ assert.ok(vm.runInContext('filtered().length',ctx)>0);
 });
