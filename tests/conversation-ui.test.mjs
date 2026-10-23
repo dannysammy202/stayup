@@ -111,13 +111,15 @@ test('curated-first discovery keeps the older catalogue separate without breakin
  assert.equal(initial.all,5449);
  assert.equal(initial.curated,49);
  assert.equal(initial.mode,false);
+ assert.match(app.innerHTML,/data-view="browse"/);
+ vm.runInContext("nav('browse')",ctx);
  assert.match(app.innerHTML,/Explore earlier library/);
  assert.doesNotMatch(app.innerHTML,/Interview-style archive text/);
  vm.runInContext("state.saved=['legacy-test-23'];nav('saved')",ctx);
  assert.match(app.innerHTML,/Interview-style archive text 23/,'Previously saved archive remains accessible');
  vm.runInContext("state.seen=['legacy-test-24'];nav('history')",ctx);
  assert.match(app.innerHTML,/Interview-style archive text 24/,'History can still open older records');
- vm.runInContext("nav('explore');applyAction('toggleEarlier')",ctx);
+ vm.runInContext("nav('browse');applyAction('toggleEarlier')",ctx);
  assert.equal(vm.runInContext('filtered().length',ctx),5449);
  assert.match(app.innerHTML,/Back to curated ideas/);
  vm.runInContext("applyAction('toggleEarlier')",ctx);
@@ -143,4 +145,20 @@ test('Keep Talking offers a non-interrogative conversational bridge, not only fo
  assert.match(overlays.innerHTML,/Copy this thought/);
  assert.match(overlays.innerHTML,/typing indicator/);
  assert.match(overlays.innerHTML,/Tell a story/);
+});
+
+test('the October 14 approved visual hierarchy is preserved without a stacked home feed',()=>{
+ const {app,ctx,overlays}=launch();
+ assert.match(app.innerHTML,/class="home-showcase/);
+ assert.match(app.innerHTML,/class="home-featured/);
+ assert.match(app.innerHTML,/class="home-moods/);
+ assert.match(app.innerHTML,/data-view="browse"/);
+ assert.doesNotMatch(app.innerHTML,/home-feed-area/);
+ assert.doesNotMatch(app.innerHTML,/experience-quick/);
+ vm.runInContext("nav('browse')",ctx);
+ assert.match(app.innerHTML,/home-feed-area/);
+ assert.match(app.innerHTML,/data-action="toggleEarlier"/);
+ vm.runInContext("nav('explore');focus('exp-001')",ctx);
+ assert.match(overlays.innerHTML,/approved-focus-card/);
+ assert.match(overlays.innerHTML,/More|Keep Talking/);
 });
