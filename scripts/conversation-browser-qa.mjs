@@ -101,7 +101,7 @@ async function checkSize(width,height,label){
   });
   assert.ok(filterAppearance.isSheet&&filterAppearance.footerVisible,'Filter action must stay visible');
   assert.equal(filterAppearance.closeColor,'rgb(51, 91, 61)','Filter close icon should match forest green');
-  if(width<=780)assert.ok(filterAppearance.modalHeight<=innerHeight*.9+2);
+  if(width<=780)assert.ok(filterAppearance.modalHeight<=filterAppearance.viewport*.9+2);
   if(label==='phone')await page.screenshot({path:'/tmp/saymore-v2-phone-filters.jpg',type:'jpeg',quality:75});
   await page.locator('[data-audience="Family"]').click();
   await page.locator('[data-mood="Flirty"]').last().click();
