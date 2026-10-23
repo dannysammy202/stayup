@@ -1,5 +1,5 @@
 (()=>{'use strict';
-const VERSION='2026-10-23-quality-conversation-bridges';
+const VERSION='2026-10-23-conversation-first-ux';
 const URL='/version.json';
 let updating=false,checking=false,visible=false;
 const style=document.createElement('style');
