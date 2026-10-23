@@ -22,7 +22,7 @@ async function checkSize(width,height,label){
   await page.locator('.home-content').waitFor({timeout:30000});
   const result=await page.evaluate(()=>({
    curated:filtered().length,total:inPool().length,older:state.showEarlier,
-   cards:document.querySelectorAll('.prompt-card').length,view:state.view,
+   cards:document.querySelectorAll('.cf-home-idea').length,view:state.view,
    overflow:document.documentElement.scrollWidth-innerWidth,
    bridgeCount:Object.keys(BRIDGES).length,
    missingIconCount:[...document.querySelectorAll('button svg')].filter(x=>!x.querySelector('path,rect,circle,line,polyline,polygon,ellipse')).length
@@ -53,7 +53,10 @@ async function checkSize(width,height,label){
        firstRowHeight:firstRect?.height,headerHeight:headerRect.height,
        verticalGap:firstRect.top-shelfRect.bottom,
        hasOldTiles:!!document.querySelector('.cf-themes-block'),
-       rowTextWidth:document.querySelector('.cf-feed-row .cf-feed-content')?.getBoundingClientRect().width,
+       rowTextWidth:document.querySelector('.cf-home-idea .cf-idea-open')?.getBoundingClientRect().width,
+       noStackBorder:getComputedStyle(first).borderLeftWidth==='0px',
+       noCardBackground:getComputedStyle(first).backgroundColor==='rgba(0, 0, 0, 0)',
+       buttonCount:first?.querySelectorAll('button').length,
        rowWidth:firstRect?.width,bodyOverflow:document.documentElement.scrollWidth-innerWidth};
    });
    assert.equal(metrics.pillCount,7,'All ideas plus six topic chips');
@@ -62,6 +65,9 @@ async function checkSize(width,height,label){
    assert.ok(metrics.verticalGap>=0&&metrics.verticalGap<105,'No excessive whitespace between theme chips and ideas');
    assert.ok(metrics.rowTextWidth>metrics.rowWidth*.8,'Text must use the full row, not be squeezed by two action icons');
    assert.equal(metrics.hasOldTiles,false);
+   assert.equal(metrics.noStackBorder,true,'Home ideas must not be boxed cards');
+   assert.equal(metrics.noCardBackground,true,'Home ideas are unboxed list entries');
+   assert.equal(metrics.buttonCount,2,'Save and Open actions are retained');
    assert.ok(metrics.bodyOverflow<=1);
    if(label==='phone'){
      await page.evaluate(()=>{const y=window.scrollY+document.querySelector('.cf-ideas-header').getBoundingClientRect().top-55;window.scrollTo({top:y,behavior:'instant'})});
@@ -77,7 +83,7 @@ async function checkSize(width,height,label){
    return metrics;
  });
  await record(label+' Focus and continuations',async()=>{
-  await page.locator('.prompt-card [data-focus]').first().click();
+  await page.locator('.cf-home-idea [data-focus]').first().click();
   await page.locator('.focus-overlay').waitFor();
   const id=await page.evaluate(()=>state.focus);
   const focusAppearance=await page.evaluate(()=>{
