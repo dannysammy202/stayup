@@ -13,6 +13,7 @@ vm.runInContext(readFileSync('public/conversation-next-starters.js','utf8'),asse
 vm.runInContext(readFileSync('public/conversation-next-games.js','utf8'),assets);
 vm.runInContext(readFileSync('public/conversation-moments.js','utf8'),assets);
 vm.runInContext(readFileSync('public/play-moments.js','utf8'),assets);
+for(const asset of ['curated-d1.js','curated-d2.js','curated-games-d.js'])vm.runInContext(readFileSync('public/'+asset,'utf8'),assets);
 vm.runInContext(readFileSync('public/conversation-bridges.js','utf8'),assets);
 
 function launch({oldLibrary=false}={}){
@@ -31,7 +32,7 @@ function launch({oldLibrary=false}={}){
   {id:'test-dare-1',type:'Dare',level:'Playful',adult:false,medium:'Text',audiences:['Friends'],text:'Describe your day with only three words.'}
  ];
  const ctx=vm.createContext({
-  window:{SayMoreExperience:assets.window.SayMoreExperience,SayMoreExpansion:assets.window.SayMoreExpansion,SayMoreNextStarters:assets.window.SayMoreNextStarters,SayMoreNextGames:assets.window.SayMoreNextGames,SayMoreConversationMoments:assets.window.SayMoreConversationMoments,SayMorePlayMoments:assets.window.SayMorePlayMoments,SayMoreBridges:assets.window.SayMoreBridges,SayMoreBatch1:older,SayMoreEditorialTruthOrDare:todExamples,SAYMORE_ICONSAX:{info:'<svg></svg>',arrow:'<svg></svg>'},addEventListener(){},scrollTo(){}},
+  window:{SayMoreExperience:assets.window.SayMoreExperience,SayMoreExpansion:assets.window.SayMoreExpansion,SayMoreNextStarters:assets.window.SayMoreNextStarters,SayMoreNextGames:assets.window.SayMoreNextGames,SayMoreConversationMoments:assets.window.SayMoreConversationMoments,SayMorePlayMoments:assets.window.SayMorePlayMoments,SayMoreCuratedD1:assets.window.SayMoreCuratedD1,SayMoreCuratedD2:assets.window.SayMoreCuratedD2,SayMoreCuratedGamesD:assets.window.SayMoreCuratedGamesD,SayMoreBridges:assets.window.SayMoreBridges,SayMoreBatch1:older,SayMoreEditorialTruthOrDare:todExamples,SAYMORE_ICONSAX:{info:'<svg></svg>',arrow:'<svg></svg>'},addEventListener(){},scrollTo(){}},
   document:doc,localStorage:{getItem:()=>null,setItem(){}},
   navigator:{serviceWorker:{register:async()=>{}}},
   location:{protocol:'https:',href:'https://preview.example'},
@@ -113,8 +114,8 @@ test('expanded game types, playable audience filters and format-only cards are a
 test('curated-first discovery keeps the older catalogue separate without breaking saved and history',()=>{
  const {ctx,app,overlays}=launch({oldLibrary:true});
  const initial=vm.runInContext('({all:inPool().length,curated:filtered().length,mode:state.showEarlier})',ctx);
- assert.equal(initial.all,5509);
- assert.equal(initial.curated,109);
+ assert.equal(initial.all,5599);
+ assert.equal(initial.curated,199);
  assert.equal(initial.mode,false);
  assert.match(app.innerHTML,/Explore earlier library/);
  assert.doesNotMatch(app.innerHTML,/Interview-style archive text/);
@@ -123,10 +124,10 @@ test('curated-first discovery keeps the older catalogue separate without breakin
  vm.runInContext("state.seen=['legacy-test-24'];nav('history')",ctx);
  assert.match(app.innerHTML,/Interview-style archive text 24/,'History can still open older records');
  vm.runInContext("nav('explore');applyAction('toggleEarlier')",ctx);
- assert.equal(vm.runInContext('filtered().length',ctx),5509);
+ assert.equal(vm.runInContext('filtered().length',ctx),5599);
  assert.match(app.innerHTML,/Back to curated ideas/);
  vm.runInContext("applyAction('toggleEarlier')",ctx);
- assert.equal(vm.runInContext('filtered().length',ctx),109);
+ assert.equal(vm.runInContext('filtered().length',ctx),199);
  vm.runInContext("focus('legacy-test-23')",ctx);
  assert.match(overlays.innerHTML,/Interview-style archive text 23/,'Saved older items remain focusable');
 });
@@ -162,7 +163,7 @@ test('conversation-first home is a single stage, not a dashboard made of a hero 
  const state=vm.runInContext('({view:state.view,displayed:state.feedVisible,pool:filtered().length})',ctx);
  assert.equal(state.view,'explore');
  assert.equal(state.displayed,4);
- assert.equal(state.pool,109);
+ assert.equal(state.pool,199);
 });
 
 test('mobile More hub preserves access to history, settings, saved and adult mode',()=>{
