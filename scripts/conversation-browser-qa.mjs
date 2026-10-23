@@ -54,24 +54,29 @@ async function checkSize(width,height,label){
        verticalGap:firstRect.top-shelfRect.bottom,
        hasOldTiles:!!document.querySelector('.cf-themes-block'),
        rowTextWidth:document.querySelector('.cf-home-idea .cf-idea-open')?.getBoundingClientRect().width,
-       noStackBorder:getComputedStyle(first).borderLeftWidth==='0px',
-       noCardBackground:getComputedStyle(first).backgroundColor==='rgba(0, 0, 0, 0)',
+       cardRadius:getComputedStyle(first).borderRadius,
+       cardBackground:getComputedStyle(first).backgroundColor,
+       cardBorder:getComputedStyle(first).borderTopWidth,
+       cardGap:getComputedStyle(first.parentElement).rowGap,
+
        buttonCount:first?.querySelectorAll('button').length,
        rowWidth:firstRect?.width,bodyOverflow:document.documentElement.scrollWidth-innerWidth};
    });
    assert.equal(metrics.pillCount,7,'All ideas plus six topic chips');
    assert.ok(metrics.pillHeight<=41,'Theme selection must be compact pills, not giant cards');
-   assert.ok(metrics.firstRowHeight<190,'Idea rows must use compact full-width typography');
+   assert.ok(metrics.firstRowHeight<240,'Cards must remain readable and compact on mobile');
    assert.ok(metrics.verticalGap>=0&&metrics.verticalGap<105,'No excessive whitespace between theme chips and ideas');
    assert.ok(metrics.rowTextWidth>metrics.rowWidth*.8,'Text must use the full row, not be squeezed by two action icons');
    assert.equal(metrics.hasOldTiles,false);
-   assert.equal(metrics.noStackBorder,true,'Home ideas must not be boxed cards');
-   assert.equal(metrics.noCardBackground,true,'Home ideas are unboxed list entries');
+   assert.ok(parseFloat(metrics.cardRadius)>=15,'Each suggestion needs a rounded card');
+   assert.equal(metrics.cardBackground,'rgb(255, 254, 251)','Cards must have a warm white background');
+   assert.equal(metrics.cardBorder,'1px','Cards should have an actual border');
+   assert.ok(parseFloat(metrics.cardGap)>=10,'Cards should be separated by visible whitespace');
    assert.equal(metrics.buttonCount,2,'Save and Open actions are retained');
    assert.ok(metrics.bodyOverflow<=1);
    if(label==='phone'){
      await page.evaluate(()=>{const y=window.scrollY+document.querySelector('.cf-ideas-header').getBoundingClientRect().top-55;window.scrollTo({top:y,behavior:'instant'})});
-     await page.screenshot({path:'/tmp/saymore-v2-phone-compact-discovery.jpg',type:'jpeg',quality:78});
+     await page.screenshot({path:'/tmp/saymore-card-style-home-phone.jpg',type:'jpeg',quality:78});
    }
    const y=await page.evaluate(()=>{const el=document.querySelector('.cf-theme-strip');window.scrollTo({top:window.scrollY+el.getBoundingClientRect().top-95,behavior:'instant'});return window.scrollY});
    await page.evaluate(()=>document.querySelector('.cf-theme-strip [data-topic="People & Connections"]').click());
@@ -92,17 +97,26 @@ async function checkSize(width,height,label){
    const body=document.querySelector('.focus-main');
    const text=getComputedStyle(body),cx=getComputedStyle(x),ca=getComputedStyle(prev);
    return {closeColor:cx.color,previousColor:ca.color,fontSize:parseFloat(text.fontSize),lineHeight:parseFloat(text.lineHeight),textTop:body.getBoundingClientRect().top,
-     keepTalking:document.querySelectorAll('.focus-primary-action').length,sidebar:document.querySelectorAll('.focus-secondary-actions .focus-subtle-action').length};
+     keepTalking:document.querySelectorAll('.focus-primary-action').length,sidebar:document.querySelectorAll('.focus-secondary-actions .focus-subtle-action').length,
+     cardCount:document.querySelectorAll('.focus-center .cf-focus-card').length,
+     cardRadius:getComputedStyle(document.querySelector('.cf-focus-card')).borderRadius,
+     cardBackground:getComputedStyle(document.querySelector('.cf-focus-card')).backgroundColor,
+     cardBorder:getComputedStyle(document.querySelector('.cf-focus-card')).borderTopWidth
+    };
   });
   assert.equal(focusAppearance.closeColor,'rgb(51, 91, 61)','Close icon should be forest green, never browser blue');
   assert.equal(focusAppearance.previousColor,'rgb(50, 94, 61)','Previous arrow should be green, never browser blue');
   assert.equal(focusAppearance.keepTalking,1);
+  assert.equal(focusAppearance.cardCount,1,'Focus needs exactly one featured card');
+  assert.ok(parseFloat(focusAppearance.cardRadius)>=18);
+  assert.equal(focusAppearance.cardBackground,'rgb(232, 241, 228)');
+  assert.equal(focusAppearance.cardBorder,'1px');
   assert.equal(focusAppearance.sidebar,2);
   if(width<=780){
    assert.ok(focusAppearance.fontSize<=31,'Focus content is too large for a phone');
    assert.ok(focusAppearance.textTop<350,'Focus text should start near the top, not float mid-screen');
   }
-  if(label==='phone')await page.screenshot({path:'/tmp/saymore-v2-phone-focus.jpg',type:'jpeg',quality:75});
+  if(label==='phone')await page.screenshot({path:'/tmp/saymore-card-style-focus-phone.jpg',type:'jpeg',quality:75});
   await page.locator('[data-action="angles"]').click();
   await page.locator('.angle-path').first().waitFor();
   assert.equal(await page.locator('.angle-path').count(),4);
