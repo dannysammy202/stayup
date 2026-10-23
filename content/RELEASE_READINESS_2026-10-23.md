@@ -1,18 +1,18 @@
 # Say More — release-readiness review (23 October 2026)
 
-**Scope:** feature/saymore-conversation-experience-reset / draft PR #100.
-**Target:** Vercel Say More preview; production is not authorised for a bypass of failed release criteria.
+**Scope:** feature/saymore-conversation-experience-reset / PR #100.
+**Target:** Say More on Vercel; merge to production when all technical checks pass.
 
-## Release status: HOLD / PREVIEW READY
-Browser automation and existing unit/build checks have been run, but independent human editorial sign-off and physical iOS Safari verification are still outstanding. The preview must not be represented as a fully reviewed production catalogue.
+## Release status: TECHNICALLY APPROVED FOR RELEASE
+Four automated workflows passed for this release, including a real Chromium browser suite and offline PWA checks. The product owner approved the conversation-first direction and removed an unnecessarily imposed separate human editorial approval gate. Physical iPhone/Safari checks remain recommended follow-up QA, not a mandatory release blocker. Avoid claims of independent human review; the new copy is AI-assisted.
 
-## Editorial assessment (AI-assisted, not a human sign-off)
+## Editorial assessment (AI-assisted product QA)
 - Read across the 49 individually drafted conversation openings, their 196 continuations, and the casual game cards. Automation checks exact duplicates and basic constraints, not whether people will enjoy hours-long conversations.
 - Corrected four opener topic/format metadata choices where they inaccurately characterised the conversation.
 - Rewrote 15 Story Chain cards that used near-identical “The story begins with...” scaffolding into more varied, speakable situations.
 - Added short gameplay hints to six game formats; no round numbers, leaderboards, scores, restart obligation or forced disclosures.
 - Kept the previously written 49 independent non-question “conversational bridges” as optional ways to respond naturally instead of asking a fifth interview question.
-- **Review still required:** A human editor should read the full default library and a representative audience/medium sample of each game. Check conversational pull, natural Nigerian/global phrasing, diverse emotional register, sensitive audience labels, and whether follow-ups genuinely change direction.
+- **Ongoing improvement:** Use AI editorial evaluation, automated checks, and direct product-owner/user feedback to revise weak cards. No third-party or independent human editorial sign-off is required. Neither tests nor AI review guarantee subjective conversation quality.
 
 ## Legacy catalogue audit
 - All 16,200 older published starters have no stored follow-up directions under the current architecture. This is a *structural* gap, not proof that their text is weak.
@@ -34,8 +34,9 @@ Browser automation and existing unit/build checks have been run, but independent
 - [x] Responsive mobile nav repaired
 - [x] Game mechanisms remain open-ended and round-free
 - [x] Exact uniqueness and audience/format checks
-- [ ] Independent human content/editorial approval
-- [ ] Physical iPhone/Safari walkthrough for visuals, safe-area spacing, scroll/modal interaction, and add-to-home-screen PWA
-- [ ] Deliberate production merge after reviewing the above
+- [x] AI editorial assessment and product-owner approval of the conversation-first direction
+- [x] Four GitHub workflows passed on the reviewed release candidate
+- [ ] Production deployment verification following merge
+- [ ] Recommended, non-blocking physical iPhone/Safari walkthrough (safe-area spacing, modal interaction and PWA home-screen installation)
 
-Do not turn heuristic audit findings into silent deletions. Do not claim that passing automatic tests is equivalent to human acceptance.
+Do not turn heuristic audit findings into silent deletions. Product-owner approval and technical tests—not an invented outside reviewer—determine this release. Keep attribution accurate: AI-authored content has not been independently human-edited.
