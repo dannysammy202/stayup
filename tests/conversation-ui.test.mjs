@@ -144,3 +144,30 @@ test('Keep Talking offers a non-interrogative conversational bridge, not only fo
  assert.match(overlays.innerHTML,/typing indicator/);
  assert.match(overlays.innerHTML,/Tell a story/);
 });
+
+test('conversation-first home is a single stage, not a dashboard made of a hero and card grid',()=>{
+ const {app,ctx}=launch();
+ assert.match(app.innerHTML,/cf-spotlight/);
+ assert.match(app.innerHTML,/cf-theme-tile/);
+ assert.match(app.innerHTML,/cf-feed-row/);
+ assert.match(app.innerHTML,/cf-topnav/);
+ assert.doesNotMatch(app.innerHTML,/class="home-showcase/);
+ assert.doesNotMatch(app.innerHTML,/class="sidebar/);
+ assert.doesNotMatch(app.innerHTML,/class="rightbar/);
+ const state=vm.runInContext('({view:state.view,displayed:state.feedVisible,pool:filtered().length})',ctx);
+ assert.equal(state.view,'explore');
+ assert.equal(state.displayed,4);
+ assert.equal(state.pool,49);
+});
+
+test('mobile More hub preserves access to history, settings, saved and adult mode',()=>{
+ const {app,ctx}=launch();
+ assert.match(app.innerHTML,/data-view="more"/);
+ assert.match(app.innerHTML,/data-action="keepTalking"/);
+ vm.runInContext("nav('more')",ctx);
+ assert.match(app.innerHTML,/More from Say More/);
+ assert.match(app.innerHTML,/data-view="history"/);
+ assert.match(app.innerHTML,/data-view="settings"/);
+ assert.match(app.innerHTML,/data-view="saved"/);
+ assert.match(app.innerHTML,/data-action="enterAdult"/);
+});
