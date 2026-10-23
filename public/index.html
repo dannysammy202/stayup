@@ -601,6 +601,14 @@ function render(){
  const content={explore,browse:browseView,more:moreView,topics:topicsView,play:playView,truthordare:todView,saved:savedView,history:historyView,settings:settingsView}[state.view]();
  const errorBanner=libraryLoadError&&!state.adult?'<div class="alert-strip" role="alert">'+icon('info')+' '+esc(libraryLoadError)+' <button type="button" class="secondary" data-action="retryLibrary">Retry loading</button></div>':'';
  layout(errorBanner+content);
+ if(state.view==='play')requestAnimationFrame(()=>{
+  const active=document.querySelector('.sm-game-pills button.active');
+  const rail=active?.parentElement;
+  if(active&&rail){
+   const delta=active.getBoundingClientRect().left-rail.getBoundingClientRect().left;
+   rail.scrollLeft+=delta-(rail.clientWidth-active.clientWidth)/2;
+  }
+ });
  if(preserveScroll&&previousY>0)window.scrollTo({top:previousY,behavior:'instant'});
  schedulePublishedForView();
 }
