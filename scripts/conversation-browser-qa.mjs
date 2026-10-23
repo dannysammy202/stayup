@@ -41,6 +41,41 @@ async function checkSize(width,height,label){
   await page.screenshot({path:'/tmp/saymore-v2-'+label+'.jpg',type:'jpeg',quality:65});
   return result;
  });
+ await record(label+' compact Start Something discovery',async()=>{
+   const metrics=await page.evaluate(()=>{
+     const shelf=document.querySelector('.cf-theme-strip');
+     const chips=[...shelf.querySelectorAll('.cf-theme-tile')];
+     const first=document.querySelector('.cf-feed-row');
+     const header=document.querySelector('.cf-ideas-header');
+     const pill=chips[0]?.getBoundingClientRect(),shelfRect=shelf.getBoundingClientRect(),
+       firstRect=first?.getBoundingClientRect(),headerRect=header.getBoundingClientRect();
+     return {pillCount:chips.length,pillHeight:pill?.height,
+       firstRowHeight:firstRect?.height,headerHeight:headerRect.height,
+       verticalGap:firstRect.top-shelfRect.bottom,
+       hasOldTiles:!!document.querySelector('.cf-themes-block'),
+       rowTextWidth:document.querySelector('.cf-feed-row .cf-feed-content')?.getBoundingClientRect().width,
+       rowWidth:firstRect?.width,bodyOverflow:document.documentElement.scrollWidth-innerWidth};
+   });
+   assert.equal(metrics.pillCount,7,'All ideas plus six topic chips');
+   assert.ok(metrics.pillHeight<=41,'Theme selection must be compact pills, not giant cards');
+   assert.ok(metrics.firstRowHeight<190,'Idea rows must use compact full-width typography');
+   assert.ok(metrics.verticalGap>=0&&metrics.verticalGap<105,'No excessive whitespace between theme chips and ideas');
+   assert.ok(metrics.rowTextWidth>metrics.rowWidth*.8,'Text must use the full row, not be squeezed by two action icons');
+   assert.equal(metrics.hasOldTiles,false);
+   assert.ok(metrics.bodyOverflow<=1);
+   if(label==='phone'){
+     await page.evaluate(()=>{const y=window.scrollY+document.querySelector('.cf-ideas-header').getBoundingClientRect().top-55;window.scrollTo({top:y,behavior:'instant'})});
+     await page.screenshot({path:'/tmp/saymore-v2-phone-compact-discovery.jpg',type:'jpeg',quality:78});
+   }
+   const y=await page.evaluate(()=>{const el=document.querySelector('.cf-theme-strip');window.scrollTo({top:window.scrollY+el.getBoundingClientRect().top-95,behavior:'instant'});return window.scrollY});
+   await page.evaluate(()=>document.querySelector('.cf-theme-strip [data-topic="People & Connections"]').click());
+   await page.waitForFunction(()=>state.topic==='People & Connections');
+   await page.waitForTimeout(90);
+   const after=await page.evaluate(()=>window.scrollY);
+   assert.ok(Math.abs(y-after)<105,'Choosing a theme on Start should not jump the user to the page top');
+   await page.evaluate(()=>{state.topic='All topics';render();window.scrollTo({top:0,behavior:'instant'})});
+   return metrics;
+ });
  await record(label+' Focus and continuations',async()=>{
   await page.locator('.prompt-card [data-focus]').first().click();
   await page.locator('.focus-overlay').waitFor();
