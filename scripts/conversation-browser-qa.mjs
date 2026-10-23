@@ -54,8 +54,10 @@ async function checkSize(width,height,label){
        verticalGap:firstRect.top-shelfRect.bottom,
        hasOldTiles:!!document.querySelector('.cf-themes-block'),
        rowTextWidth:document.querySelector('.cf-home-idea .cf-idea-open')?.getBoundingClientRect().width,
-       noStackBorder:getComputedStyle(first).borderLeftWidth==='0px',
-       noCardBackground:getComputedStyle(first).backgroundColor==='rgba(0, 0, 0, 0)',
+       cardRadius:getComputedStyle(first).borderRadius,
+       cardBorder:getComputedStyle(first).borderTopWidth,
+       rowGap:getComputedStyle(first.parentElement).rowGap,
+       cardBackground:getComputedStyle(first).backgroundColor,
        buttonCount:first?.querySelectorAll('button').length,
        rowWidth:firstRect?.width,bodyOverflow:document.documentElement.scrollWidth-innerWidth};
    });
@@ -65,8 +67,10 @@ async function checkSize(width,height,label){
    assert.ok(metrics.verticalGap>=0&&metrics.verticalGap<105,'No excessive whitespace between theme chips and ideas');
    assert.ok(metrics.rowTextWidth>metrics.rowWidth*.8,'Text must use the full row, not be squeezed by two action icons');
    assert.equal(metrics.hasOldTiles,false);
-   assert.equal(metrics.noStackBorder,true,'Home ideas must not be boxed cards');
-   assert.equal(metrics.noCardBackground,true,'Home ideas are unboxed list entries');
+   assert.ok(parseFloat(metrics.cardRadius)>=15,'Approved home has individually rounded cards');
+   assert.equal(metrics.cardBorder,'1px','Approved home cards have a visible border');
+   assert.equal(metrics.cardBackground,'rgb(255, 254, 251)');
+   assert.ok(parseFloat(metrics.rowGap)>=10,'Home cards must have breathing room');
    assert.equal(metrics.buttonCount,2,'Save and Open actions are retained');
    assert.ok(metrics.bodyOverflow<=1);
    if(label==='phone'){
@@ -106,7 +110,7 @@ async function checkSize(width,height,label){
   await page.locator('[data-action="angles"]').click();
   await page.locator('.angle-path').first().waitFor();
   assert.equal(await page.locator('.angle-path').count(),4);
-  assert.equal(await page.locator('.bridge-path').count(),1);
+  assert.equal(await page.locator('.bridge-path').count(),await page.evaluate(id=>BRIDGES[id]?1:0,id),'Existing bridges remain available; new prompts use four authored angles');
   await page.locator('[data-save]').last().click();
   assert.ok(await page.evaluate(id=>state.saved.includes(id),id));
   await page.locator('[data-action="closeFocus"]').click();
