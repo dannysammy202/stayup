@@ -765,7 +765,7 @@ body.cf-v2 .focus-center .angles{
   border-radius:20px;
  }
  body.cf-v2 .cf-focus-card .focus-main{
-  font-size:clamp(27px,7.1vw,32px);
+  font-size:clamp(27px,7.1vw,31px);
   line-height:1.24;
  }
  body.cf-v2 .cf-focus-card .focus-actions{margin:2px 0 0}
