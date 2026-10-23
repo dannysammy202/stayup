@@ -510,3 +510,73 @@ body.cf-v2 .cf-home .cf-more-conversations{margin-top:12px}
  body.cf-v2 .cf-home .cf-feed-row .cf-icon-action,
  body.cf-v2 .cf-home .cf-feed-row .cf-row-open{height:31px;width:31px;flex-basis:31px}
 }
+
+
+/* Home-only refinement. The agreed global design, routes, mobile nav, Games, Focus and
+   filter sheets remain unchanged. Conversation suggestions are now an editorial list,
+   not another large card stack. */
+body.cf-v2 .cf-home .cf-feed-list{
+ display:block;border:0!important;border-radius:0!important;background:transparent!important;
+ overflow:visible!important;box-shadow:none!important;padding:0!important;gap:0!important}
+body.cf-v2 .cf-home .cf-feed-list .cf-feed-row.cf-home-idea{
+ display:block;position:relative;min-height:0;margin:0;padding:15px 1px 16px;
+ border:0;border-bottom:1px solid #DEE6DD;border-radius:0;
+ background:transparent;box-shadow:none;transform:none;
+}
+body.cf-v2 .cf-home .cf-feed-list .cf-feed-row.cf-home-idea:first-child{
+ border-top:1px solid #DEE6DD;
+}
+body.cf-v2 .cf-home .cf-feed-list .cf-feed-row.cf-home-idea:hover{
+ background:transparent;box-shadow:none;transform:none
+}
+body.cf-v2 .cf-home .cf-home-idea .cf-idea-meta{
+ display:flex;align-items:center;justify-content:space-between;gap:12px;
+ min-height:31px;margin:0 0 5px;padding:0
+}
+body.cf-v2 .cf-home .cf-home-idea .cf-idea-topic{
+ display:inline-flex;gap:6px;align-items:center;min-width:0;max-width:calc(100% - 40px);
+ font:760 10px/1.5 var(--font);color:#849584;letter-spacing:.075em;
+ text-transform:uppercase;overflow-wrap:anywhere;
+}
+body.cf-v2 .cf-home .cf-home-idea .cf-idea-topic i{
+ display:inline-block;flex:0 0 6px;width:6px;height:6px;background:#8BAD84;
+ border-radius:50%;margin-right:2px
+}
+body.cf-v2 .cf-home .cf-home-idea .cf-idea-save{
+ display:grid;place-items:center;flex:0 0 32px;height:32px;width:32px;padding:7px;
+ color:#6D8A70;border:0;border-radius:50%;background:transparent
+}
+body.cf-v2 .cf-home .cf-home-idea .cf-idea-save svg{width:18px;height:18px}
+body.cf-v2 .cf-home .cf-home-idea .cf-idea-save:hover,
+body.cf-v2 .cf-home .cf-home-idea .cf-idea-save.is-saved{background:#E6EEE1;color:#345E3C}
+body.cf-v2 .cf-home .cf-home-idea .cf-idea-open{
+ display:flex;gap:15px;align-items:center;justify-content:space-between;width:100%;
+ background:transparent;color:#284333;border:0;margin:0;padding:0;min-height:48px;
+ text-align:left;cursor:pointer;outline-offset:4px
+}
+body.cf-v2 .cf-home .cf-home-idea .cf-idea-text{
+ flex:1;min-width:0;display:block;font:540 clamp(17px,1.8vw,19px)/1.38 var(--font);
+ letter-spacing:-.3px;color:#2A4633;overflow-wrap:break-word
+}
+body.cf-v2 .cf-home .cf-home-idea .cf-idea-open:hover .cf-idea-text{color:#517656}
+body.cf-v2 .cf-home .cf-home-idea .cf-idea-chevron{
+ display:grid;place-items:center;flex:0 0 25px;width:25px;height:25px;
+ color:#557E5A;background:none;padding:0
+}
+body.cf-v2 .cf-home .cf-home-idea .cf-idea-chevron svg{width:20px;height:20px}
+body.cf-v2 .cf-home .cf-more-conversations{
+ display:inline-flex;align-items:center;justify-content:center;gap:10px;
+ width:auto!important;min-height:40px;padding:9px 0;
+ background:transparent!important;border:0!important;border-radius:0;
+ color:#355F41!important;font-size:12px;font-weight:760;box-shadow:none;margin:12px 0 0
+}
+body.cf-v2 .cf-home .cf-more-conversations svg{width:18px;height:18px}
+@media(max-width:780px){
+ body.cf-v2 .cf-home .cf-feed-list .cf-feed-row.cf-home-idea{
+  padding:12px 1px 13px
+ }
+ body.cf-v2 .cf-home .cf-home-idea .cf-idea-topic{font-size:9px}
+ body.cf-v2 .cf-home .cf-home-idea .cf-idea-meta{margin-bottom:3px}
+ body.cf-v2 .cf-home .cf-home-idea .cf-idea-text{font-size:17px;line-height:1.37}
+ body.cf-v2 .cf-home .cf-home-idea .cf-idea-open{min-height:41px}
+}
