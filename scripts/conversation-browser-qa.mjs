@@ -34,6 +34,7 @@ async function checkSize(width,height,label){
   assert.ok(result.overflow<=1,'Horizontal overflow '+result.overflow);
   assert.equal(result.bridgeCount,49);
   assert.equal(result.missingIconCount,0);
+  await page.screenshot({path:'/tmp/saymore-preview-'+label+'.jpg',type:'jpeg',quality:46,fullPage:false});
   return result;
  });
  await record(label+' Focus and continuations',async()=>{
