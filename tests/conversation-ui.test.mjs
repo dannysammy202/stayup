@@ -85,12 +85,13 @@ test('Truth or Dare displays unlimited cards without a round counter or restart 
 });
 
 test('expanded game types, playable audience filters and format-only cards are available',()=>{
- const {ctx,app}=launch();
+ const {ctx,app,overlays}=launch();
  vm.runInContext("nav('play')",ctx);
  assert.match(app.innerHTML,/Story Chain/);
- assert.match(app.innerHTML,/Someone new/);
- assert.match(app.innerHTML,/Crush \/ Talking stage/);
- assert.match(app.innerHTML,/In person/);
+ vm.runInContext("applyAction('playOptions')",ctx);
+ assert.match(overlays.innerHTML,/Someone new/);
+ assert.match(overlays.innerHTML,/Crush \/ Talking stage/);
+ assert.match(overlays.innerHTML,/In person/);
  const general=vm.runInContext("playState.audience='Anyone';playPool('Would You Rather').length",ctx);
  const forCrush=vm.runInContext("playState.audience='Crush / Talking stage';playPool('Would You Rather').length",ctx);
  assert.ok(forCrush>general,'Crush-specific games need an explicit audience choice');
@@ -165,7 +166,7 @@ test('mobile More hub preserves access to history, settings, saved and adult mod
  assert.match(app.innerHTML,/data-view="more"/);
  assert.match(app.innerHTML,/data-action="keepTalking"/);
  vm.runInContext("nav('more')",ctx);
- assert.match(app.innerHTML,/More from Say More/);
+ assert.match(app.innerHTML,/A little more/);
  assert.match(app.innerHTML,/data-view="history"/);
  assert.match(app.innerHTML,/data-view="settings"/);
  assert.match(app.innerHTML,/data-view="saved"/);
