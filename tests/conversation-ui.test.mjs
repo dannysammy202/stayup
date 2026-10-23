@@ -9,6 +9,8 @@ const src=html.slice(html.indexOf(marker)+marker.length,html.indexOf('</script><
 const assets=vm.createContext({window:{}});
 vm.runInContext(readFileSync('public/conversation-experiences.js','utf8'),assets);
 vm.runInContext(readFileSync('public/conversation-expansion.js','utf8'),assets);
+vm.runInContext(readFileSync('public/conversation-next-starters.js','utf8'),assets);
+vm.runInContext(readFileSync('public/conversation-next-games.js','utf8'),assets);
 vm.runInContext(readFileSync('public/conversation-bridges.js','utf8'),assets);
 
 function launch({oldLibrary=false}={}){
@@ -27,7 +29,7 @@ function launch({oldLibrary=false}={}){
   {id:'test-dare-1',type:'Dare',level:'Playful',adult:false,medium:'Text',audiences:['Friends'],text:'Describe your day with only three words.'}
  ];
  const ctx=vm.createContext({
-  window:{SayMoreExperience:assets.window.SayMoreExperience,SayMoreExpansion:assets.window.SayMoreExpansion,SayMoreBridges:assets.window.SayMoreBridges,SayMoreBatch1:older,SayMoreEditorialTruthOrDare:todExamples,SAYMORE_ICONSAX:{info:'<svg></svg>',arrow:'<svg></svg>'},addEventListener(){},scrollTo(){}},
+  window:{SayMoreExperience:assets.window.SayMoreExperience,SayMoreExpansion:assets.window.SayMoreExpansion,SayMoreNextStarters:assets.window.SayMoreNextStarters,SayMoreNextGames:assets.window.SayMoreNextGames,SayMoreBridges:assets.window.SayMoreBridges,SayMoreBatch1:older,SayMoreEditorialTruthOrDare:todExamples,SAYMORE_ICONSAX:{info:'<svg></svg>',arrow:'<svg></svg>'},addEventListener(){},scrollTo(){}},
   document:doc,localStorage:{getItem:()=>null,setItem(){}},
   navigator:{serviceWorker:{register:async()=>{}}},
   location:{protocol:'https:',href:'https://preview.example'},
