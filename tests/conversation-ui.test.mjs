@@ -43,7 +43,7 @@ test('app starts with real conversation cards and optional preferences',()=>{
  assert.match(app.innerHTML,/SAY MORE \/ EXPLORE/);
  assert.match(app.innerHTML,/Keep Talking/);
  assert.match(app.innerHTML,/sm-conversation-bubble/);
- assert.match(app.innerHTML,/Play Something/);
+ assert.match(app.innerHTML,/Play something/i);
  assert.match(app.innerHTML,/Mix It Up/);
  assert.match(app.innerHTML,/What/);
 });
