@@ -109,8 +109,8 @@ test('expanded game types, playable audience filters and format-only cards are a
 test('curated-first discovery keeps the older catalogue separate without breaking saved and history',()=>{
  const {ctx,app,overlays}=launch({oldLibrary:true});
  const initial=vm.runInContext('({all:inPool().length,curated:filtered().length,mode:state.showEarlier})',ctx);
- assert.equal(initial.all,5449);
- assert.equal(initial.curated,49);
+ assert.equal(initial.all,5473);
+ assert.equal(initial.curated,73);
  assert.equal(initial.mode,false);
  assert.match(app.innerHTML,/Explore earlier library/);
  assert.doesNotMatch(app.innerHTML,/Interview-style archive text/);
@@ -119,10 +119,10 @@ test('curated-first discovery keeps the older catalogue separate without breakin
  vm.runInContext("state.seen=['legacy-test-24'];nav('history')",ctx);
  assert.match(app.innerHTML,/Interview-style archive text 24/,'History can still open older records');
  vm.runInContext("nav('explore');applyAction('toggleEarlier')",ctx);
- assert.equal(vm.runInContext('filtered().length',ctx),5449);
+ assert.equal(vm.runInContext('filtered().length',ctx),5473);
  assert.match(app.innerHTML,/Back to curated ideas/);
  vm.runInContext("applyAction('toggleEarlier')",ctx);
- assert.equal(vm.runInContext('filtered().length',ctx),49);
+ assert.equal(vm.runInContext('filtered().length',ctx),73);
  vm.runInContext("focus('legacy-test-23')",ctx);
  assert.match(overlays.innerHTML,/Interview-style archive text 23/,'Saved older items remain focusable');
 });
@@ -158,7 +158,7 @@ test('conversation-first home is a single stage, not a dashboard made of a hero 
  const state=vm.runInContext('({view:state.view,displayed:state.feedVisible,pool:filtered().length})',ctx);
  assert.equal(state.view,'explore');
  assert.equal(state.displayed,4);
- assert.equal(state.pool,49);
+ assert.equal(state.pool,73);
 });
 
 test('mobile More hub preserves access to history, settings, saved and adult mode',()=>{
