@@ -60,7 +60,7 @@ test('game loads banks before generator, isolates audience/mode and preserves na
  const c=html.indexOf('/truth-or-dare-data.js');
  assert.ok(a>=0&&b>a&&c>b);
  assert.ok(html.includes("c.audiences.includes(todState.audience)&&c.level===todState.level&&c.adult===state.adult&&c.medium===todState.medium"));
- assert.ok(html.includes("menuItem('shuffle','Play Something','play')"));
+ assert.ok(html.includes('data-view="play"'));
  assert.ok(html.includes("mobileItem('shuffle','Play','play')"));
  assert.ok(html.includes('truthordare:todView'));
  assert.ok(html.includes('data-view="truthordare"'));
