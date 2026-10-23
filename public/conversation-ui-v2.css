@@ -416,7 +416,7 @@ body.cf-v2 .cf-refine-modal .modal-actions .primary svg{color:#FFF;height:18px;w
  body.cf-v2 .cf-refine-modal .modal-body{padding:13px 18px 0}
  body.cf-v2 .cf-refine-modal .refine-label{margin:14px 0 8px}
  body.cf-v2 .cf-refine-modal .choice{font-size:11px;padding:8px 10px;min-height:34px}
- body.cf-v2 .cf-refine-modal .modal-actions{margin:15px -18px 0;padding:10px 18px calc(13px + env(safe-area-inset-bottom))}
+ body.cf-v2 .cf-refine-modal .modal-actions{margin:auto -18px 0;padding:10px 18px calc(13px + env(safe-area-inset-bottom))}
  body.cf-v2 .cf-refine-modal .modal-actions .primary{font-size:12px}
 }
 @media(max-width:375px){
