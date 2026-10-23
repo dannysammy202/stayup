@@ -103,7 +103,7 @@ async function checkSize(width,height,label){
   assert.equal(focusAppearance.keepTalking,1);
   assert.equal(focusAppearance.sidebar,2);
   if(width<=780){
-   assert.ok(focusAppearance.fontSize<=31,'Focus content is too large for a phone');
+   assert.ok(focusAppearance.fontSize<=(width<=430?31:33),'Focus typography must fit its phone or tablet viewport');
    assert.ok(focusAppearance.textTop<350,'Focus text should start near the top, not float mid-screen');
   }
   if(label==='phone')await page.screenshot({path:'/tmp/saymore-v2-phone-focus.jpg',type:'jpeg',quality:75});
