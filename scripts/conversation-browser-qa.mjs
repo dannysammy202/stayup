@@ -34,6 +34,11 @@ async function checkSize(width,height,label){
   assert.ok(result.overflow<=1,'Horizontal overflow '+result.overflow);
   assert.equal(result.bridgeCount,49);
   assert.equal(result.missingIconCount,0);
+  const ui=await page.evaluate(()=>({stage:!!document.querySelector('.cf-spotlight'),topBar:!!document.querySelector('.cf-header'),oldHero:!!document.querySelector('.home-showcase'),newStyles:[...document.styleSheets].some(s=>s.href?.includes('conversation-ui-v2.css')),headerDisplay:getComputedStyle(document.querySelector('.cf-header')).display}));
+  assert.ok(ui.stage&&ui.topBar&&!ui.oldHero,'Must be a rebuilt conversation-first UI, not a styled old dashboard');
+  assert.ok(ui.newStyles,'Conversation-first stylesheet must load');
+  assert.equal(ui.headerDisplay,'flex');
+  await page.screenshot({path:'/tmp/saymore-v2-'+label+'.jpg',type:'jpeg',quality:65});
   return result;
  });
  await record(label+' Focus and continuations',async()=>{
@@ -93,9 +98,9 @@ async function checkSize(width,height,label){
    const box=await mobile.boundingBox();
    assert.ok(box.width<=width+1);
    const items=await mobile.locator('button').evaluateAll(els=>els.map(el=>({label:el.textContent.trim(),top:el.getBoundingClientRect().top,bottom:el.getBoundingClientRect().bottom,left:el.getBoundingClientRect().left,right:el.getBoundingClientRect().right})));
-   assert.equal(items.length,6,'Mobile navigation should contain six actions');
+   assert.equal(items.length,5,'Mobile navigation should contain five primary routes');
    const navBottom=box.y+box.height;
-   assert.ok(items.every(item=>item.left>=-1&&item.right<=width+1&&item.top>=box.y-1&&item.bottom<=navBottom+1),'All six mobile nav buttons should fit in one row');
+   assert.ok(items.every(item=>item.left>=-1&&item.right<=width+1&&item.top>=box.y-1&&item.bottom<=navBottom+1),'Five mobile nav buttons must fit in one row');
   }
  });
  await context.close();
