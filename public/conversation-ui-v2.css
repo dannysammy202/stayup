@@ -580,3 +580,199 @@ body.cf-v2 .cf-home .cf-more-conversations svg{width:18px;height:18px}
  body.cf-v2 .cf-home .cf-home-idea .cf-idea-text{font-size:17px;line-height:1.37}
  body.cf-v2 .cf-home .cf-home-idea .cf-idea-open{min-height:41px}
 }
+
+
+/* Say More card treatment — ONLY homepage suggestions and Focus conversation.
+   All agreed navigation, games, filters, topics and other screens are untouched. */
+
+/* Separate cards, rather than a single boxed stack or flat divider-only rows. */
+body.cf-v2 .cf-home .cf-feed-list{
+ display:grid!important;
+ grid-template-columns:minmax(0,1fr);
+ gap:12px!important;
+ padding:0!important;
+ margin:0;
+ border:0!important;
+ background:transparent!important;
+ border-radius:0!important;
+ box-shadow:none!important;
+ overflow:visible!important;
+}
+body.cf-v2 .cf-home .cf-feed-list .cf-feed-row.cf-home-idea,
+body.cf-v2 .cf-home .cf-feed-list .cf-feed-row.cf-home-idea:first-child{
+ display:block;
+ min-width:0;
+ min-height:142px;
+ margin:0;
+ padding:17px 19px 18px!important;
+ border:1px solid #E1E9DE!important;
+ border-radius:18px!important;
+ background:#FFFEFB!important;
+ box-shadow:0 3px 14px rgba(31,67,43,.035)!important;
+ transform:none!important;
+ transition:background-color .15s,border-color .15s,box-shadow .15s;
+}
+body.cf-v2 .cf-home .cf-feed-list .cf-feed-row.cf-home-idea:hover{
+ background:#FFFEFB!important;
+ border-color:#C4D5BF!important;
+ box-shadow:0 6px 24px rgba(31,67,43,.065)!important;
+ transform:none!important;
+}
+body.cf-v2 .cf-home .cf-home-idea .cf-idea-meta{
+ min-height:31px;
+ margin-bottom:11px;
+ align-items:center;
+}
+body.cf-v2 .cf-home .cf-home-idea .cf-idea-topic{
+ color:#7B8F7E;
+ font-size:10px;
+ line-height:1.4;
+ letter-spacing:.08em;
+}
+body.cf-v2 .cf-home .cf-home-idea .cf-idea-topic i{background:#79A77D}
+body.cf-v2 .cf-home .cf-home-idea .cf-idea-save{
+ width:35px;height:35px;flex-basis:35px;
+ border:1px solid #E2EADD;
+ background:#F8FAF6;color:#51775A;
+ border-radius:50%;
+}
+body.cf-v2 .cf-home .cf-home-idea .cf-idea-save.is-saved{
+ background:#E4F0DF;color:#285C3A;border-color:#BFD7B9;
+}
+body.cf-v2 .cf-home .cf-home-idea .cf-idea-open{
+ gap:16px;
+ min-height:51px;
+ align-items:center;
+ padding:0;
+ border-radius:8px;
+ background:transparent;
+}
+body.cf-v2 .cf-home .cf-home-idea .cf-idea-text{
+ font-family:var(--display),Georgia,serif;
+ font-weight:400;
+ font-size:clamp(20px,2.35vw,24px);
+ line-height:1.33;
+ letter-spacing:-.3px;
+ color:#284131;
+}
+body.cf-v2 .cf-home .cf-home-idea .cf-idea-chevron{
+ width:36px;height:36px;flex:0 0 36px;
+ border-radius:50%;
+ background:#EDF3E9;
+ color:#315B3F;
+}
+body.cf-v2 .cf-home .cf-home-idea .cf-idea-chevron svg{width:19px;height:19px;color:inherit}
+body.cf-v2 .cf-home .cf-more-conversations{
+ width:100%!important;
+ display:flex;
+ min-height:44px;
+ padding:10px 15px;
+ justify-content:center;
+ margin:12px 0 0;
+ border-radius:12px;
+ background:#F0F5ED!important;
+ color:#355F41!important;
+}
+
+/* Focus conversation feels like one featured card with actions inside it. */
+body.cf-v2 .focus-center{gap:15px}
+body.cf-v2 .cf-focus-card{
+ display:flex;
+ flex-direction:column;
+ flex:none;
+ gap:18px;
+ width:100%;
+ min-width:0;
+ min-height:300px;
+ padding:29px 28px 25px;
+ border:1px solid #DCE9D7;
+ border-radius:23px;
+ background:#E8F1E4;
+ box-shadow:0 10px 30px rgba(43,82,47,.075);
+ color:#264630;
+}
+body.cf-v2 .cf-focus-card .focus-kicker{
+ color:#62836B;
+ font-size:10px;
+ letter-spacing:.10em;
+ margin:0;
+}
+body.cf-v2 .cf-focus-card .focus-kicker svg{color:#507D57}
+body.cf-v2 .cf-focus-card .focus-main{
+ font-family:var(--display),Georgia,serif;
+ font-size:clamp(28px,3.55vw,39px);
+ font-weight:400;
+ line-height:1.25;
+ letter-spacing:-.65px;
+ color:#253F2E;
+ margin:0 0 auto;
+}
+body.cf-v2 .cf-focus-card .focus-actions{
+ gap:8px;
+ margin:6px 0 0;
+}
+body.cf-v2 .cf-focus-card .focus-action{
+ min-height:40px;
+ background:#FFFEFB;
+ border:1px solid #CDDCCB;
+ border-radius:999px;
+ color:#375E42;
+}
+body.cf-v2 .cf-focus-card .focus-primary-action{
+ background:#2B553C;
+ border-color:#2B553C;
+ color:#FFF;
+}
+body.cf-v2 .cf-focus-card .focus-primary-action:hover{
+ background:#204631;
+ color:#FFF;
+}
+body.cf-v2 .cf-focus-card .focus-primary-action svg{color:#FFF}
+body.cf-v2 .cf-focus-card .focus-secondary-actions{
+ margin:0;
+ gap:8px 18px;
+}
+body.cf-v2 .cf-focus-card .focus-subtle-action{
+ color:#547459;
+ font-size:11px;
+}
+body.cf-v2 .cf-focus-card .focus-subtle-action svg{color:inherit}
+body.cf-v2 .focus-center .angles{
+ flex:none;
+ border-radius:17px;
+ border:1px solid #DFE8DA;
+ background:#F2F6EE;
+ box-shadow:none;
+}
+@media(max-width:780px){
+ body.cf-v2 .cf-home .cf-feed-list{gap:11px!important}
+ body.cf-v2 .cf-home .cf-feed-list .cf-feed-row.cf-home-idea,
+ body.cf-v2 .cf-home .cf-feed-list .cf-feed-row.cf-home-idea:first-child{
+  min-height:0;
+  padding:15px 16px 17px!important;
+  border-radius:17px!important;
+ }
+ body.cf-v2 .cf-home .cf-home-idea .cf-idea-meta{margin-bottom:9px}
+ body.cf-v2 .cf-home .cf-home-idea .cf-idea-topic{font-size:9px}
+ body.cf-v2 .cf-home .cf-home-idea .cf-idea-open{min-height:46px}
+ body.cf-v2 .cf-home .cf-home-idea .cf-idea-text{font-size:19px;line-height:1.34}
+ body.cf-v2 .cf-home .cf-home-idea .cf-idea-chevron{height:34px;width:34px;flex-basis:34px}
+ body.cf-v2 .focus-center{padding:21px 16px 24px;gap:14px}
+ body.cf-v2 .cf-focus-card{
+  min-height:315px;
+  padding:24px 21px 22px;
+  gap:17px;
+  border-radius:20px;
+ }
+ body.cf-v2 .cf-focus-card .focus-main{
+  font-size:clamp(27px,7.1vw,31px);
+  line-height:1.24;
+ }
+ body.cf-v2 .cf-focus-card .focus-actions{margin:2px 0 0}
+ body.cf-v2 .cf-focus-card .focus-action{min-height:38px;font-size:11px;padding:8px 12px}
+}
+@media(max-width:390px){
+ body.cf-v2 .cf-focus-card{padding:21px 17px;gap:15px}
+ body.cf-v2 .cf-focus-card .focus-main{font-size:27px}
+ body.cf-v2 .cf-home .cf-home-idea .cf-idea-text{font-size:18px}
+}

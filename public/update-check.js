@@ -1,5 +1,5 @@
 (()=>{'use strict';
-const VERSION='2026-10-23-compact-home-discovery';
+const VERSION='2026-10-23-card-style-focus';
 const URL='/version.json';
 let updating=false,checking=false,visible=false;
 const style=document.createElement('style');
