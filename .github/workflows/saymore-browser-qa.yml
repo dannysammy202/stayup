@@ -47,4 +47,5 @@ jobs:
           path: |
             /tmp/saymore-conversation-browser-qa.json
             /tmp/saymore-v2-*.jpg
+            /tmp/saymore-card-style-*.jpg
           if-no-files-found: ignore
