@@ -512,7 +512,7 @@ function browseView(){
  const pool=sorted(filtered());orderCache=pool.map(p=>p.id);
  const visible=pool.slice(0,state.feedVisible);
  return `<div class="cf-browse-page" aria-label="Browse conversation library">
-  <header class="cf-browse-heading"><button type="button" class="cf-inline-back" data-view="explore">${icon('arrowleft')} Back to Start</button>
+  <header class="cf-browse-heading"><button type="button" class="cf-inline-back" data-view="explore">${icon('left')} Back to Start</button>
    <div><span class="cf-step">DISCOVER CONVERSATIONS</span><h1>Find a good one.</h1><p>Search, choose a theme, or follow whatever catches your attention.</p></div>
    <button type="button" class="cf-ideas-filter" data-action="refine">${icon('filter')} Filters</button>
   </header>
