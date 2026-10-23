@@ -11,7 +11,8 @@
     "content:validate": "node scripts/validate-curated-library.mjs",
     "content:publish": "node scripts/publish-content-batch.mjs",
     "content:active50": "node scripts/apply-active-quota.mjs",
-    "content:fresh:build": "node scripts/build-fresh-library.mjs"
+    "content:fresh:build": "node scripts/build-fresh-library.mjs",
+    "content:quality-audit": "node scripts/audit-legacy-quality.mjs"
   },
   "engines": {
     "node": ">=22"
