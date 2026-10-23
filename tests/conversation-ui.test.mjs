@@ -163,7 +163,7 @@ test('conversation-first home is a single stage, not a dashboard made of a hero 
  vm.runInContext("nav('explore')",ctx);
  const state=vm.runInContext('({view:state.view,displayed:state.feedVisible,pool:filtered().length})',ctx);
  assert.equal(state.view,'explore');
- assert.equal(state.displayed,4);
+ assert.equal(state.displayed,10);
  assert.equal(state.pool,49);
 });
 
