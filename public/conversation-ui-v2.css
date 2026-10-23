@@ -510,3 +510,83 @@ body.cf-v2 .cf-home .cf-more-conversations{margin-top:12px}
  body.cf-v2 .cf-home .cf-feed-row .cf-icon-action,
  body.cf-v2 .cf-home .cf-feed-row .cf-row-open{height:31px;width:31px;flex-basis:31px}
 }
+
+
+/* Say More: conversation-first home, independent borderless reading library. */
+body.cf-v2 .cf-stage-home .cf-home-discover{
+ border-top:1px solid #E1E7DD;background:none;padding:25px 0 4px;
+ display:flex;align-items:center;justify-content:space-between;gap:20px;margin-top:29px}
+body.cf-v2 .cf-stage-home .cf-home-discover-copy h2{
+ font:400 clamp(23px,2.8vw,31px)/1.2 var(--display);color:#284632;
+ letter-spacing:-.45px;margin:9px 0 5px}
+body.cf-v2 .cf-stage-home .cf-home-discover-copy p{color:#859186;font-size:12px;line-height:1.5;margin:0}
+body.cf-v2 .cf-stage-home .cf-home-discover-actions{display:flex;align-items:center;gap:7px;flex-wrap:wrap;justify-content:flex-end}
+body.cf-v2 .cf-stage-home .cf-home-discover-actions button{
+ border-radius:999px;min-height:43px;padding:11px 15px;display:inline-flex;align-items:center;
+ justify-content:center;gap:8px;font-size:12px;font-weight:770;white-space:nowrap}
+body.cf-v2 .cf-stage-home .cf-home-discover-actions svg{width:17px;height:17px}
+body.cf-v2 .cf-stage-home .cf-discover-primary{background:#30543D;color:white;border:1px solid #30543D}
+body.cf-v2 .cf-stage-home .cf-discover-secondary{background:transparent;border:1px solid #D6E3D4;color:#436A4A}
+body.cf-v2 .cf-browse-page{max-width:840px;margin:0 auto;padding-bottom:60px}
+body.cf-v2 .cf-browse-heading{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:end;gap:12px;margin-bottom:16px}
+body.cf-v2 .cf-browse-heading>div{grid-column:1}
+body.cf-v2 .cf-browse-heading .cf-inline-back{grid-column:1/-1;justify-self:start;border:0;
+ background:none;color:#57715C;display:inline-flex;align-items:center;gap:7px;
+ font-size:12px;font-weight:720;margin:0 0 11px;padding:6px 0}
+body.cf-v2 .cf-browse-heading .cf-inline-back svg{height:17px;width:17px}
+body.cf-v2 .cf-browse-heading h1{font:400 clamp(34px,4vw,45px)/1.15 var(--display);
+ color:#263E2E;letter-spacing:-.75px;margin:9px 0 7px}
+body.cf-v2 .cf-browse-heading p{font-size:12px;color:#79867C;line-height:1.5;margin:0}
+body.cf-v2 .cf-browse-page .cf-ideas-filter{grid-column:2;grid-row:2;border:1px solid #DDE6DA;border-radius:999px;
+ background:#FFF;color:#3E6348;display:inline-flex;align-items:center;gap:7px;
+ padding:10px 13px;font-size:12px;font-weight:730;min-height:38px}
+body.cf-v2 .cf-browse-page .cf-ideas-filter svg{width:17px;height:17px}
+body.cf-v2 .cf-browse-page .cf-theme-strip{display:flex;gap:7px;overflow-x:auto;scrollbar-width:none;
+ padding:3px 0 10px;scroll-snap-type:x proximity;margin:0 0 9px}
+body.cf-v2 .cf-browse-page .cf-theme-strip::-webkit-scrollbar{display:none}
+body.cf-v2 .cf-browse-page .cf-theme-tile{display:inline-flex;align-items:center;justify-content:center;
+ flex:0 0 auto;width:auto;min-width:0;min-height:36px;padding:7px 12px;gap:7px;
+ background:#FFF;border:1px solid #DEE7DB;border-radius:999px;color:#57715D;font-size:12px;font-weight:730}
+body.cf-v2 .cf-browse-page .cf-theme-tile.is-active{color:#FFF;background:#31573C;border-color:#31573C}
+body.cf-v2 .cf-browse-page .cf-theme-icon{width:16px;height:16px;flex:0 0 16px;border:0;border-radius:0;background:none;color:inherit}
+body.cf-v2 .cf-browse-page .cf-theme-icon svg{width:16px;height:16px}
+body.cf-v2 .cf-browse-page .cf-search{height:45px;margin:0 0 15px;border-radius:12px}
+body.cf-v2 .cf-browse-count{font-size:11px;color:#8A968B;margin:5px 0 3px}
+body.cf-v2 .cf-reading-list{display:block;background:none;border:0;margin:0}
+body.cf-v2 .cf-reading-line{display:grid;grid-template-columns:28px minmax(0,1fr) auto;
+ align-items:start;gap:13px;padding:21px 1px 22px;border-bottom:1px solid #E0E6DC;
+ background:transparent;margin:0;box-shadow:none}
+body.cf-v2 .cf-reading-index{color:#9EA99D;font-size:11px;font-weight:750;padding-top:3px}
+body.cf-v2 .cf-reading-copy{border:0;background:transparent;display:flex;flex-direction:column;gap:7px;
+ padding:0;text-align:left;min-width:0;color:#304532;cursor:pointer}
+body.cf-v2 .cf-reading-copy:hover .cf-reading-text{color:#4F7656}
+body.cf-v2 .cf-reading-meta{font-size:10px;line-height:1.3;letter-spacing:.08em;font-weight:740;
+ text-transform:uppercase;color:#899789}
+body.cf-v2 .cf-reading-text{font:400 clamp(19px,2vw,24px)/1.35 var(--display);
+ letter-spacing:-.2px;overflow-wrap:break-word;max-width:720px}
+body.cf-v2 .cf-reading-actions{display:flex;align-items:center;gap:5px;flex:none;margin-top:8px}
+body.cf-v2 .cf-reading-actions button{width:33px;height:33px;border:0;background:transparent;
+ color:#5B7A60;display:grid;place-items:center;border-radius:50%;padding:6px}
+body.cf-v2 .cf-reading-actions button:hover,body.cf-v2 .cf-reading-actions .is-saved{background:#E7F0E2;color:#30573B}
+body.cf-v2 .cf-reading-actions svg{width:18px;height:18px}
+body.cf-v2 .cf-browse-page .cf-more-conversations{margin-top:17px}
+@media(max-width:780px){
+ body.cf-v2 .cf-stage-home .cf-home-discover{margin-top:22px;padding-top:18px;flex-direction:column;align-items:stretch;gap:14px}
+ body.cf-v2 .cf-stage-home .cf-home-discover-copy h2{font-size:25px}
+ body.cf-v2 .cf-stage-home .cf-home-discover-actions{justify-content:flex-start}
+ body.cf-v2 .cf-stage-home .cf-home-discover-actions button{font-size:11px;padding:10px 13px;min-height:40px}
+ body.cf-v2 .cf-browse-heading{margin-bottom:14px}
+ body.cf-v2 .cf-browse-heading h1{font-size:33px}
+ body.cf-v2 .cf-browse-heading p{font-size:11px;max-width:300px}
+ body.cf-v2 .cf-browse-page .cf-theme-strip{margin-right:-16px;padding-right:16px}
+ body.cf-v2 .cf-browse-page .cf-theme-tile{font-size:11px;min-height:35px;padding:7px 11px}
+ body.cf-v2 .cf-reading-line{grid-template-columns:19px minmax(0,1fr) 34px;gap:9px;
+ padding:16px 1px 17px}
+ body.cf-v2 .cf-reading-index{font-size:10px}
+ body.cf-v2 .cf-reading-meta{font-size:9px}
+ body.cf-v2 .cf-reading-text{font-size:19px;line-height:1.33}
+ body.cf-v2 .cf-reading-actions{flex-direction:column;gap:4px;margin-top:0}
+ body.cf-v2 .cf-reading-actions button{width:32px;height:32px}
+ body.cf-v2 .cf-reading-actions svg{height:18px;width:18px}
+ body.cf-v2 .cf-browse-count{margin:0}
+}
