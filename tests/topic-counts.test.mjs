@@ -13,6 +13,6 @@ test('topic cards reflect the complete everyday catalogue',()=>{
 });
 test('failed batch loading does not display legacy content counts',()=>{context.batchReady=false;assert.match(context.topicCountLabel('Relationships'),/Library unavailable/);context.batchReady=true;});
 test('PWA includes the complete batch offline and checks fresh content online',()=>{
- const sw=readFileSync('public/sw.js','utf8');assert.match(sw,/saymore-compact-discovery-v29/);assert.match(sw,/'\/batch1-data.js'/);assert.match(sw,/const networkFirst=.*batch1-data/);assert.match(sw,/fetch\(request,\{cache:'no-store'\}\)/);
+ const sw=readFileSync('public/sw.js','utf8');assert.match(sw,/saymore-card-style-focus-v33/);assert.match(sw,/'\/batch1-data.js'/);assert.match(sw,/const networkFirst=.*batch1-data/);assert.match(sw,/fetch\(request,\{cache:'no-store'\}\)/);
  const version=JSON.parse(readFileSync('public/version.json','utf8')).version;assert.ok(readFileSync('public/update-check.js','utf8').includes(version));assert.match(html,/update-check.js/);
 });
