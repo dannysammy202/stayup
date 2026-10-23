@@ -95,7 +95,7 @@ async function checkSize(width,height,label){
   await page.locator('[data-action="playOptions"]').click();
   assert.ok(await page.locator('.cf-play-modal').count()===1);
   await page.locator('[data-play-audience="Family"]').click();
-  await page.locator('[data-action="closeOverlay"]').click();
+  await page.locator('.cf-play-modal [data-action="closeOverlay"]').last().click();
   await page.locator('[data-action="playNext"]').click();
   assert.ok((await page.locator('.play-card h2').innerText()).length>20);
   await page.locator('[data-view="truthordare"]').last().click();
