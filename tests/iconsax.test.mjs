@@ -50,7 +50,7 @@ test('all referenced Iconsax glyphs have a matching asset', () => {
 test('no hand-drawn SVG icon definitions or Unicode icon substitutes remain', () => {
   assert.ok(!html.includes("const ICONS={home:'<path"));
   assert.doesNotMatch(html, /[✳☼◌◐⚡♥♡♫☻◈✎⇆]/);
-  assert.ok(html.includes('icon(TOPIC_ICONS[i])'));
+  assert.ok(html.includes('icon(t.glyph)'));
   assert.ok(html.includes("icon(m==='Mix It Up'?'spark':MOOD_ICONS[m])"));
 });
 

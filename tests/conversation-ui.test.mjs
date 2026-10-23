@@ -85,12 +85,13 @@ test('Truth or Dare displays unlimited cards without a round counter or restart 
 });
 
 test('expanded game types, playable audience filters and format-only cards are available',()=>{
- const {ctx,app}=launch();
+ const {ctx,app,overlays}=launch();
  vm.runInContext("nav('play')",ctx);
  assert.match(app.innerHTML,/Story Chain/);
- assert.match(app.innerHTML,/Someone new/);
- assert.match(app.innerHTML,/Crush \/ Talking stage/);
- assert.match(app.innerHTML,/In person/);
+ vm.runInContext("applyAction('playOptions')",ctx);
+ assert.match(overlays.innerHTML,/Someone new/);
+ assert.match(overlays.innerHTML,/Crush \/ Talking stage/);
+ assert.match(overlays.innerHTML,/In person/);
  const general=vm.runInContext("playState.audience='Anyone';playPool('Would You Rather').length",ctx);
  const forCrush=vm.runInContext("playState.audience='Crush / Talking stage';playPool('Would You Rather').length",ctx);
  assert.ok(forCrush>general,'Crush-specific games need an explicit audience choice');
@@ -111,15 +112,15 @@ test('curated-first discovery keeps the older catalogue separate without breakin
  assert.equal(initial.all,5449);
  assert.equal(initial.curated,49);
  assert.equal(initial.mode,false);
- assert.match(app.innerHTML,/Explore earlier library/);
+ assert.match(app.innerHTML,/Browse conversations/);
  assert.doesNotMatch(app.innerHTML,/Interview-style archive text/);
  vm.runInContext("state.saved=['legacy-test-23'];nav('saved')",ctx);
  assert.match(app.innerHTML,/Interview-style archive text 23/,'Previously saved archive remains accessible');
  vm.runInContext("state.seen=['legacy-test-24'];nav('history')",ctx);
  assert.match(app.innerHTML,/Interview-style archive text 24/,'History can still open older records');
- vm.runInContext("nav('explore');applyAction('toggleEarlier')",ctx);
+ vm.runInContext("nav('browse');applyAction('toggleEarlier')",ctx);
  assert.equal(vm.runInContext('filtered().length',ctx),5449);
- assert.match(app.innerHTML,/Back to curated ideas/);
+ assert.match(app.innerHTML,/Return to curated ideas/);
  vm.runInContext("applyAction('toggleEarlier')",ctx);
  assert.equal(vm.runInContext('filtered().length',ctx),49);
  vm.runInContext("focus('legacy-test-23')",ctx);
@@ -143,4 +144,52 @@ test('Keep Talking offers a non-interrogative conversational bridge, not only fo
  assert.match(overlays.innerHTML,/Copy this thought/);
  assert.match(overlays.innerHTML,/typing indicator/);
  assert.match(overlays.innerHTML,/Tell a story/);
+});
+
+test('conversation-first home is a single stage, not a dashboard made of a hero and card grid',()=>{
+ const {app,ctx}=launch();
+ assert.match(app.innerHTML,/cf-spotlight/);
+ assert.match(app.innerHTML,/cf-home-discover/);
+ assert.match(app.innerHTML,/data-view="browse"/);
+ assert.doesNotMatch(app.innerHTML,/cf-feed-row|cf-reading-line|cf-feed-list/);
+ vm.runInContext("nav('browse')",ctx);
+ assert.match(app.innerHTML,/cf-reading-list/);
+ assert.match(app.innerHTML,/cf-reading-line/);
+ assert.doesNotMatch(app.innerHTML,/cf-feed-row/);
+ assert.match(app.innerHTML,/cf-topnav/);
+ assert.doesNotMatch(app.innerHTML,/class="home-showcase/);
+ assert.doesNotMatch(app.innerHTML,/class="sidebar/);
+ assert.doesNotMatch(app.innerHTML,/class="rightbar/);
+ vm.runInContext("nav('explore')",ctx);
+ const state=vm.runInContext('({view:state.view,displayed:state.feedVisible,pool:filtered().length})',ctx);
+ assert.equal(state.view,'explore');
+ assert.equal(state.displayed,10);
+ assert.equal(state.pool,49);
+});
+
+test('mobile More hub preserves access to history, settings, saved and adult mode',()=>{
+ const {app,ctx}=launch();
+ assert.match(app.innerHTML,/data-view="more"/);
+ assert.match(app.innerHTML,/data-action="keepTalking"/);
+ vm.runInContext("nav('more')",ctx);
+ assert.match(app.innerHTML,/A little more/);
+ assert.match(app.innerHTML,/data-view="history"/);
+ assert.match(app.innerHTML,/data-view="settings"/);
+ assert.match(app.innerHTML,/data-view="saved"/);
+ assert.match(app.innerHTML,/data-action="enterAdult"/);
+});
+
+test('Start has one conversation with no stacked card feed, and Browse preserves full reading access',()=>{
+ const {ctx,app}=launch();
+ assert.equal(vm.runInContext('state.view',ctx),'explore');
+ assert.match(app.innerHTML,/cf-spotlight/);
+ assert.equal((app.innerHTML.match(/cf-spotlight-text/g)||[]).length,1);
+ assert.doesNotMatch(app.innerHTML,/cf-reading-line|cf-feed-row|cf-feed-list/);
+ assert.match(app.innerHTML,/Browse conversations/);
+ vm.runInContext("nav('browse')",ctx);
+ assert.equal(vm.runInContext('state.feedVisible',ctx),10);
+ assert.equal((app.innerHTML.match(/class="cf-reading-line"/g)||[]).length,10);
+ assert.match(app.innerHTML,/Browse earlier library/);
+ vm.runInContext("state.topic='People & Connections';render()",ctx);
+ assert.ok(vm.runInContext('filtered().length',ctx)>0);
 });

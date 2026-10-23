@@ -39,8 +39,8 @@ test('app exposes incremental browsing rather than cutting off at 72 prompts',()
  assert.match(html,/return matches;/);
  assert.doesNotMatch(html,/matches\.length<=72/);
  assert.match(html,/data-action="loadMore"/);
- assert.match(html,/state\.feedVisible\+=48/);
- assert.match(html,/rest\.slice\(0,state\.feedVisible\)/);
+ assert.match(html,/state\.feedVisible\+=state\.view==='browse'\?10:4/);
+ assert.match(html,/pool\.slice\(0,state\.feedVisible\)/);
  assert.match(html,/loadPublishedLibrary\(\)/);
  assert.match(html,/schedulePublishedForView/);
  assert.match(html,/screened_pending_editorial_review/);
