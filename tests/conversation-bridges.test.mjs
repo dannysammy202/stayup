@@ -8,7 +8,7 @@ for(const f of ['conversation-experiences.js','conversation-expansion.js','conve
 }
 const starters=[...context.window.SayMoreExperience.pilot,...context.window.SayMoreExpansion.pilot];
 const bridges=context.window.SayMoreBridges;
-const canon=s=>s.toLowerCase().normalize('NFKC').replace(/[^\\p{L}\\p{N}]+/gu,' ').trim();
+const canon=s=>s.toLowerCase().normalize('NFKC').replace(/[^\p{L}\p{N}]+/gu,' ').trim();
 test('every conversation-first starter has its own optional conversational observation',()=>{
  const ids=new Set(starters.map(p=>p.id));
  assert.equal(ids.size,49);
