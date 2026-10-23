@@ -45,7 +45,7 @@ test('app starts with real conversation cards and optional preferences',()=>{
  assert.match(app.innerHTML,/sm-conversation-bubble/);
  assert.match(app.innerHTML,/Play something/i);
  assert.match(app.innerHTML,/Mix It Up/);
- assert.match(app.innerHTML,/What/);
+ assert.match(app.innerHTML,/Talk about it/);
 });
 test('theme browsing shows six categories without displaying 19 top-level buttons',()=>{
  const {ctx,app}=launch();
