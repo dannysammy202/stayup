@@ -27,8 +27,8 @@ async function checkSize(width,height,label){
    bridgeCount:Object.keys(BRIDGES).length,
    missingIconCount:[...document.querySelectorAll('button svg')].filter(x=>!x.querySelector('path,rect,circle,line,polyline,polygon,ellipse')).length
   }));
-  assert.equal(result.curated,109);
-  assert.equal(result.total,16309);
+  assert.equal(result.curated,163);
+  assert.equal(result.total,16363);
   assert.equal(result.older,false);
   assert.ok(result.cards>0);
   assert.ok(result.overflow<=1,'Horizontal overflow '+result.overflow);
@@ -118,9 +118,9 @@ async function checkSize(width,height,label){
  });
  await record(label+' legacy library and saved',async()=>{
   await page.locator('[data-action="toggleEarlier"]').click();
-  assert.equal(await page.evaluate(()=>filtered().length),16309);
+  assert.equal(await page.evaluate(()=>filtered().length),16363);
   await page.locator('[data-action="toggleEarlier"]').click();
-  assert.equal(await page.evaluate(()=>filtered().length),109);
+  assert.equal(await page.evaluate(()=>filtered().length),163);
   await page.evaluate(()=>nav('saved'));
   assert.ok(await page.locator('.prompt-card').count()>0);
  });
@@ -219,7 +219,7 @@ try{
   await page.evaluate(async()=>{const reg=await navigator.serviceWorker.ready;await reg.update()});
   await context.setOffline(true);
   await page.reload({waitUntil:'load',timeout:30000});
-  assert.equal(await page.evaluate(()=>filtered().length),109);
+  assert.equal(await page.evaluate(()=>filtered().length),163);
   await page.evaluate(()=>nav('play'));
   assert.ok(await page.getByRole('button',{name:'Story Chain'}).count()>0);
   await context.close();
