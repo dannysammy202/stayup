@@ -93,9 +93,20 @@ async function checkSize(width,height,label){
    const box=await mobile.boundingBox();
    assert.ok(box.width<=width+1);
    const items=await mobile.locator('button').evaluateAll(els=>els.map(el=>({label:el.textContent.trim(),top:el.getBoundingClientRect().top,bottom:el.getBoundingClientRect().bottom,left:el.getBoundingClientRect().left,right:el.getBoundingClientRect().right})));
-   assert.equal(items.length,6,'Mobile navigation should contain six actions');
+   assert.equal(items.length,5,'Mobile navigation should contain five primary actions');
    const navBottom=box.y+box.height;
    assert.ok(items.every(item=>item.left>=-1&&item.right<=width+1&&item.top>=box.y-1&&item.bottom<=navBottom+1),'All six mobile nav buttons should fit in one row');
+  }
+ });
+ await record(label+' More navigation and history',async()=>{
+  if(width<=780){
+    await page.locator('.mobile-nav [data-view="more"]').click();
+    assert.match(await page.locator('.page-heading h1').innerText(),/A little more/i);
+    await page.locator('[data-view="history"]').last().click();
+    assert.match(await page.locator('.page-heading h1').innerText(),/history/i);
+    await page.locator('.mobile-nav [data-view="more"]').click();
+    await page.locator('[data-view="settings"]').last().click();
+    assert.ok(await page.locator('.main').innerText().then(s=>/Settings|Preferences/i.test(s)));
   }
  });
  await context.close();
