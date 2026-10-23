@@ -41,7 +41,8 @@ function launch({oldLibrary=false}={}){
 test('app starts with real conversation cards and optional preferences',()=>{
  const {app}=launch();
  assert.match(app.innerHTML,/Start Something/);
- assert.match(app.innerHTML,/Keep Talking/);
+ assert.match(app.innerHTML,/Surprise me/);
+ assert.match(app.innerHTML,/Explore conversations/);
  assert.match(app.innerHTML,/Play Something/);
  assert.match(app.innerHTML,/Mix It Up/);
  assert.match(app.innerHTML,/What/);
