@@ -12,14 +12,15 @@ runInNewContext(readFileSync(cwd+'/public/conversation-next-starters.js','utf8')
 runInNewContext(readFileSync(cwd+'/public/conversation-next-games.js','utf8'),sandbox);
 runInNewContext(readFileSync(cwd+'/public/conversation-moments.js','utf8'),sandbox);
 runInNewContext(readFileSync(cwd+'/public/play-moments.js','utf8'),sandbox);
+for(const f of ['editorial-d1.js','editorial-d2.js','games-d1.js','games-d2.js','editorial-e1.js','games-e1.js'])runInNewContext(readFileSync(cwd+'/public/'+f,'utf8'),sandbox);
 const experience=sandbox.window.SayMoreExperience;
 const expansion=sandbox.window.SayMoreExpansion;
 const newPrompts=sandbox.window.SayMoreNextStarters;
 const newGames=sandbox.window.SayMoreNextGames;
 const moments=sandbox.window.SayMoreConversationMoments;
 const playMoments=sandbox.window.SayMorePlayMoments;
-const allPrompts=[...experience.pilot,...expansion.pilot,...newPrompts,...moments];
-const allGames=[...experience.games,...expansion.games,...newGames,...playMoments];
+const allPrompts=[...experience.pilot,...expansion.pilot,...newPrompts,...moments,...sandbox.window.SayMoreEditorialD1,...sandbox.window.SayMoreEditorialD2,...sandbox.window.SayMoreEditorialE1];
+const allGames=[...experience.games,...expansion.games,...newGames,...playMoments,...sandbox.window.SayMoreGamesD1,...sandbox.window.SayMoreGamesD2,...sandbox.window.SayMoreGamesE1];
 const normalise=text=>text.toLowerCase().normalize('NFKC').replace(/[^\p{L}\p{N}]+/gu,' ').trim();
 
 test('conversation experience has the agreed simplified architecture',()=>{
@@ -73,9 +74,10 @@ test('main application inline JavaScript parses and loads the pilot before initi
  assert.ok(html.includes('<script src="/conversation-next-games.js"></script>'));
  assert.ok(html.includes('<script src="/conversation-moments.js"></script>'));
  assert.ok(html.includes('<script src="/play-moments.js"></script>'));
+ for(const file of ['editorial-d1.js','editorial-d2.js','games-d1.js','games-d2.js','editorial-e1.js','games-e1.js'])assert.ok(html.includes('<script src="/'+file+'"></script>'));
 });
 test('expanded curated conversations remain original across all published batches',()=>{
- assert.equal(allPrompts.length,109);
+ assert.equal(allPrompts.length,217);
  assert.equal(expansion.pilot.length,37);
  assert.equal(new Set(allPrompts.map(p=>p.id)).size,allPrompts.length);
  const legacy=[];
@@ -105,7 +107,7 @@ test('expanded curated conversations remain original across all published batche
 });
 test('expanded games are non-repeating, audience-appropriate and playable without rounds',()=>{
  assert.equal(expansion.games.length,96);
- assert.equal(allGames.length,208);
+ assert.equal(allGames.length,340);
  assert.equal(new Set(allGames.map(p=>p.id)).size,allGames.length);
  const texts=new Set();
  for(const g of allGames){

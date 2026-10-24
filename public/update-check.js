@@ -1,5 +1,5 @@
 (()=>{'use strict';
-const VERSION='2026-10-23-content-moments';
+const VERSION='2026-10-24-editorial-e1';
 const URL='/version.json';
 let updating=false,checking=false,visible=false;
 const style=document.createElement('style');
