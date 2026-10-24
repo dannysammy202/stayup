@@ -7,4 +7,8 @@ style.textContent='#saymore-update-banner{position:fixed;z-index:2147483647;bott
 document.head.appendChild(style);
 function banner(){let el=document.getElementById('saymore-update-banner');if(el)return el;el=document.createElement('aside');el.id='saymore-update-banner';el.setAttribute('role','status');el.setAttribute('aria-live','polite');el.innerHTML='<div><strong>New version available</strong><span>Say More has changed. Refresh to get the latest version.</span></div><button type="button">Refresh</button>';el.querySelector('button').addEventListener('click',refresh);document.body.appendChild(el);return el;}
 function show(){if(visible)return;visible=true;banner().style.display='flex';}
-async function check(){if(checking||updating)return;checking=true;try{const r=¶»§q«^
+async function check(){if(checking||updating)return;checking=true;try{const r=await fetch(URL+'?t='+Date.now(),{cache:'no-store'});if(r.ok){const d=await r.json();if(d.version&&d.version!==VERSION)show();}}catch(e){}finally{checking=false;}}
+async function refresh(){if(updating)return;updating=true;const btn=banner().querySelector('button');btn.disabled=true;btn.textContent='Refreshingâ€¦';try{if('serviceWorker'in navigator){const reg=await navigator.serviceWorker.getRegistration();if(reg)await reg.update();}location.replace('/?updated='+Date.now());}catch(e){location.reload();}}
+function init(){banner();check();setInterval(check,30000);window.addEventListener('focus',check);document.addEventListener('visibilitychange',()=>{if(!document.hidden)check();});window.addEventListener('online',check);}
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});else init();
+})();

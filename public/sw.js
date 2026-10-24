@@ -7,4 +7,18 @@ self.addEventListener('fetch',event=>{
  const request=event.request;
  if(request.method!=='GET')return;
  const url=new URL(request.url);
- if(url.origin!==self.location.origin||url.pathna¶»§q«^
+ if(url.origin!==self.location.origin||url.pathname.startsWith('/api/'))return;
+ // Network-first for pages, loader and manifest: catalogue updates must not be trapped behind an old PWA cache.
+ const networkFirst=url.pathname==='/batch1-data.js'||url.pathname==='/batch1-summary.json'||url.pathname==='/batch3-data.js'||url.pathname==='/batch3-summary.json'||url.pathname==='/batch4-data.js'||url.pathname==='/batch4-summary.json'||url.pathname==='/'||url.pathname==='/index.html'||url.pathname==='/library-data/manifest.json'||url.pathname==='/curated-shards.js'||url.pathname==='/version.json'||url.pathname==='/update-check.js'||url.pathname==='/editorial-prompts.js'||url.pathname==='/editorial-truth-or-dare.js'||url.pathname==='/conversation-experiences.js'||url.pathname==='/conversation-next-starters.js'||url.pathname==='/conversation-next-games.js'||url.pathname==='/conversation-moments.js'||url.pathname==='/play-moments.js'||url.pathname==='/editorial-d1.js'||url.pathname==='/editorial-d2.js'||url.pathname==='/games-d1.js'||url.pathname==='/games-d2.js'||url.pathname==='/conversation-expansion.js'||url.pathname==='/conversation-bridges.js'||url.pathname==='/editorial-e1.js'||url.pathname==='/games-e1.js';
+ if(networkFirst){
+  event.respondWith(fetch(request,{cache:'no-store'}).then(response=>{
+   if(response.ok){const copy=response.clone();caches.open(CACHE).then(cache=>cache.put(request,copy)).catch(()=>{});}
+   return response;
+  }).catch(()=>caches.match(request).then(cached=>cached||Response.error())));
+  return;
+ }
+ event.respondWith(caches.match(request).then(cached=>cached||fetch(request).then(response=>{
+  if(response.ok){const copy=response.clone();caches.open(CACHE).then(cache=>cache.put(request,copy)).catch(()=>{});}
+  return response;
+ }).catch(()=>cached||Response.error())));
+});

@@ -1,4 +1,659 @@
 <!DOCTYPE html><html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#F8F7F3"><title>Say More | Conversation Companion</title><meta name="description" content="Something worth talking about. A private companion for better conversations."><link rel="manifest" href="/manifest.webmanifest"><link rel="icon" type="image/svg+xml" href="/icon.svg"><style>
 :root { --bg:#F8F7F3;--ink:#242923;--muted:#73766F;--paper:#FFFFFF;--line:#E5E6DD;--accent:#DCEF9B;--accent-deep:#304A30;--peach:#F8DCCB;--pink:#F2DCE6;--lav:#E4E0F4;--blue:#D9EBF2;--panel:#F1F2EB;--danger:#A4413C;--shadow:0 17px 40px rgba(42,48,35,.065);--radius:22px;--font:Inter,Arial,sans-serif;--display:Georgia,serif }
 *{box-sizing:border-box} html,body{margin:0;min-height:100%;font-family:var(--font);color:var(--ink);background:var(--bg)} button,input{font:inherit}button{cursor:pointer}button:focus-visible,input:focus-visible{outline:3px solid #A1B982;outline-offset:3px}button:disabled{cursor:not-allowed;opacity:.38} a{color:inherit} svg{width:21px;height:21px;fill:none;stroke:currentColor;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
-#app{min-height:100vh}.shell{display:grid;grid-template-columns:232px minmax(0,870px) 277px;gap:0;max-width:1510px;margin:0 auto;min-height:100vh}.sidebar{border-right:1px solid var(--line);padding:34px 20px 27px;position:sticky;top:0;height:100vh;display:���q�^
+#app{min-height:100vh}.shell{display:grid;grid-template-columns:232px minmax(0,870px) 277px;gap:0;max-width:1510px;margin:0 auto;min-height:100vh}.sidebar{border-right:1px solid var(--line);padding:34px 20px 27px;position:sticky;top:0;height:100vh;display:flex;flex-direction:column;background:#F8F7F3}.brand{display:flex;align-items:center;gap:9px;font-weight:850;letter-spacing:-1.3px;font-size:24px;padding:4px 12px 40px}.brand-icon{display:grid;place-items:center;width:32px;height:32px;border-radius:12px;background:var(--ink);color:var(--accent);font-size:23px;line-height:1;font-family:var(--display)}.brand em{font-style:normal;color:#8B9C61}.sidebar-label{font-size:10px;color:#969A91;font-weight:800;letter-spacing:1.6px;margin:0 12px 15px}.nav-item{display:flex;align-items:center;gap:15px;padding:14px 15px;border:0;border-radius:13px;background:transparent;color:#727770;width:100%;font-size:14px;font-weight:600;text-align:left;margin-bottom:6px}.nav-item.active{background:#E7EDD9;color:var(--ink)}.nav-item:hover:not(.active){background:#EFEFE8}.nav-item svg{width:20px;height:20px}.nav-count{margin-left:auto;border-radius:99px;background:white;font-size:11px;min-width:22px;padding:3px 5px;text-align:center}.sidebar-bottom{margin-top:auto;border-radius:19px;padding:20px;background:#E9EEDF;display:grid;gap:11px}.sidebar-bottom .tiny{font-size:10px;letter-spacing:1px;font-weight:800;color:#617054}.sidebar-bottom strong{font-family:var(--display);font-weight:400;font-size:23px;line-height:1.15}.sidebar-bottom small{font-size:12px;color:#6D786B;line-height:1.55}.main{min-width:0;padding:32px 45px 90px}.rightbar{border-left:1px solid var(--line);padding:35px 22px;position:sticky;top:0;height:100vh}.right-label{font-size:11px;letter-spacing:1.4px;color:#9DA093;font-weight:800}.right-card{background:#E6EFD0;padding:21px;border-radius:22px;margin-top:18px}.right-card h3{font-family:var(--display);font-weight:400;font-size:26px;line-height:1.12;letter-spacing:-.6px;margin:10px 0}.right-card p{font-size:12px;line-height:1.65;color:#5C6750;margin-bottom:21px}.right-quote{font-size:19px;line-height:1.43;letter-spacing:-.4px;font-weight:650;margin:20px 0}.right-divider{height:1px;background:#C9D4B9;margin:22px 0}.rightbar .stack-link{display:flex;justify-content:space-between;padding:12px 2px;font-size:13px;color:#697465;border-bottom:1px solid var(--line)}
+.mobilehead,.mobile-nav{display:none}.topline{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:37px}.topdate{color:#899083;letter-spacing:1.2px;font-size:10px;font-weight:800}.status{border:1px solid #D8DECF;background:#FAFBF7;padding:9px 12px;border-radius:99px;display:flex;align-items:center;gap:7px;color:#4D6048;font-size:11px;font-weight:700;white-space:nowrap}.status .dot{height:7px;width:7px;background:#7FAD78;border-radius:100%}.hero{position:relative;overflow:hidden;display:grid;grid-template-columns:1fr auto;gap:16px;min-height:225px;margin-bottom:32px}.eyebrow{font-size:11px;letter-spacing:1.65px;font-weight:750;color:#7F8779;text-transform:uppercase}.hero h1,.page-heading h1{font-family:var(--display);font-weight:400;letter-spacing:-2.6px;line-height:1.05;margin:14px 0 13px;font-size:clamp(40px,4.2vw,62px)}.hero h1 .serif-italic{font-style:italic;color:#6F8652}.hero p,.page-heading p{line-height:1.6;color:#797F75;font-size:14px;max-width:460px;margin:0}.hero-art{width:176px;height:176px;border-radius:50%;background:#E1EBBE;align-self:center;display:grid;place-items:center;transform:rotate(-14deg);position:relative;margin-right:8px}.hero-art:before{content:'';position:absolute;inset:19px;border:1px solid #83975C;border-radius:50%}.hero-art span{font-family:var(--display);font-style:italic;text-align:center;line-height:1.15;font-size:24px;transform:rotate(14deg)}.hero-art:after{content:'';position:absolute;right:-9px;top:3px;font-size:28px;color:#657B46}
+.section-head{display:flex;align-items:center;justify-content:space-between;gap:20px;margin:26px 0 15px}.section-head h2{font-size:17px;letter-spacing:-.5px;margin:0;font-weight:750}.ghost-link{border:0;background:none;color:#4B6343;font-size:12px;font-weight:800;display:inline-flex;align-items:center;gap:5px;padding:5px 1px}.ghost-link svg{width:15px;height:15px}.filter-row{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;padding:2px 0 7px}.filter-row::-webkit-scrollbar{display:none}.pill{border-radius:999px;white-space:nowrap;display:inline-flex;align-items:center;gap:7px;padding:10px 15px;border:1px solid var(--line);color:#666C64;background:var(--paper);font-size:12px;font-weight:700;flex-shrink:0}.pill.selected{background:var(--ink);color:#fff;border-color:var(--ink)}.pill.selected.light{background:var(--accent);color:var(--ink);border-color:#CBDC91}.pill svg{width:16px;height:16px}.mini-separator{color:#C0C4B7;align-self:center;margin:0 3px}.filter-toolbar{display:flex;align-items:center;gap:8px;margin:18px 0 22px;flex-wrap:wrap}.searchbar{display:flex;align-items:center;gap:10px;border:1px solid var(--line);background:#fff;border-radius:13px;padding:0 14px;height:44px;flex:1;min-width:220px;max-width:450px}.searchbar svg{width:18px;color:#8F968A}.searchbar input{border:0;outline:0;min-width:0;width:100%;font-size:12px;color:var(--ink);background:transparent}.searchbar input:focus-visible{outline:0}.searchbar input::placeholder{color:#9B9F97}.filterbtn{height:44px;padding:0 15px;border:1px solid var(--line);border-radius:13px;background:#fff;color:#505950;font-size:12px;font-weight:750;display:flex;align-items:center;gap:8px}.filterbtn svg{width:17px;height:17px}.feed-caption{display:flex;justify-content:space-between;align-items:center;gap:9px;color:#8B8F84;font-size:11px;margin-bottom:12px}.feed-caption strong{color:#343B32;font-weight:800}.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.prompt-card{min-height:256px;background:#fff;border:1px solid #E7E8E1;border-radius:22px;padding:20px;display:flex;flex-direction:column;position:relative;box-shadow:0 2px 8px rgba(43,50,42,.014);overflow:hidden;transition:transform .18s ease,box-shadow .18s ease}.prompt-card:hover{transform:translateY(-2px);box-shadow:var(--shadow)}.prompt-card.tinted0{background:#EEF1E6}.prompt-card.tinted1{background:#F6EAE4}.prompt-card.tinted2{background:#EDEBF4}.prompt-card.tinted3{background:#F6F4E9}.card-meta{display:flex;justify-content:space-between;align-items:center;gap:6px;font-size:10px;text-transform:uppercase;font-weight:800;letter-spacing:1.05px;color:#757B71}.card-meta .format{display:flex;align-items:center;gap:7px}.format:before{content:'';height:7px;width:7px;border-radius:50%;background:#93AE71}.card-content{border:0;background:none;color:var(--ink);font-size:19px;letter-spacing:-.5px;font-weight:680;line-height:1.4;text-align:left;padding:20px 0;flex:1}.card-footer{display:flex;align-items:center;justify-content:space-between;gap:8px;padding-top:13px;border-top:1px solid rgba(60,66,56,.11)}.small-topic{font-size:11px;color:#707A6C;font-weight:650;max-width:170px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.card-actions{display:flex;align-items:center;gap:8px}.icon-btn{border:1px solid rgba(69,75,65,.15);border-radius:99px;background:rgba(255,255,255,.58);display:grid;place-items:center;width:34px;height:34px;color:#606A5C}.icon-btn svg{height:17px;width:17px}.icon-btn:hover{background:#fff}.icon-btn.saved{background:#F1DDE0;color:#AA4758;border-color:#F1DDE0}.open-btn{border:0;border-radius:99px;background:var(--ink);color:#fff;display:flex;align-items:center;justify-content:center;height:35px;width:35px}.open-btn svg{width:17px;height:17px}.empty{background:white;border:1px dashed #C9D2C2;border-radius:22px;padding:40px 26px;text-align:center;max-width:600px;margin:20px auto}.empty .symbol{font-size:33px}.empty h3{font-family:var(--display);font-weight:400;font-size:28px;margin:10px 0}.empty p{font-size:13px;color:var(--muted);line-height:1.6}.primary{border:0;background:var(--ink);color:white;border-radius:13px;padding:13px 17px;font-size:13px;font-weight:750;display:inline-flex;align-items:center;gap:9px;justify-content:center}.primary svg{width:18px;height:18px}.primary.lime{background:var(--accent);color:var(--ink)}.secondary{border:1px solid #D9DDD2;background:#fff;color:var(--ink);border-radius:13px;padding:12px 16px;font-size:13px;font-weight:750}.primary:hover{filter:brightness(1.15)}.secondary:hover{background:#F3F4F0}.page-heading{margin-bottom:26px}.page-heading h1{font-size:49px;margin:10px 0 13px}.category-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.category{border:1px solid var(--line);border-radius:19px;background:white;padding:19px 18px;display:flex;align-items:center;gap:13px;text-align:left;min-height:88px}.category:hover{border-color:#A4BB86;background:#FAFCF3}.topic-symbol{width:46px;height:46px;display:grid;place-items:center;border-radius:15px;font-family:var(--display);font-size:23px;flex-shrink:0;background:#E9EFD9;color:#51664B}.category:nth-child(4n+2) .topic-symbol{background:#F7E8D5;color:#A7653E}.category:nth-child(4n+3) .topic-symbol{background:#E8E2F1;color:#7A668D}.category:nth-child(4n+4) .topic-symbol{background:#E3ECF3;color:#557C91}.category-text{flex:1;min-width:0}.category strong{font-size:13px;display:block;margin-bottom:5px}.category small{color:#969B91;font-size:11px}.category svg{width:16px;color:#9DA49A}.toolbar-inline{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:24px}.alert-strip{display:flex;align-items:center;gap:10px;background:#F2F4E9;color:#526349;font-size:12px;border-radius:12px;padding:12px 15px;margin-bottom:25px}.alert-strip svg{height:17px;width:17px}.settings-group{background:#fff;border:1px solid var(--line);border-radius:23px;padding:21px;margin-bottom:18px}.settings-group h3{margin:0 0 19px;font-size:16px}.setting-row{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:16px 0;border-top:1px solid #F0F0E9}.setting-row:first-of-type{border-top:0;padding-top:0}.setting-row strong{font-size:13px;display:block;margin-bottom:6px}.setting-row p{color:#81887D;font-size:12px;line-height:1.5;margin:0}.toggle{width:48px;height:29px;border-radius:99px;padding:3px;border:0;background:#DCE0D6;flex-shrink:0;display:flex;align-items:center;justify-content:flex-start}.toggle.on{background:#344C32;justify-content:flex-end}.toggle .knob{background:white;border-radius:50%;height:23px;width:23px;box-shadow:0 2px 6px #0001}.adult-banner{background:#39303F;color:#F8F2F4;border-radius:20px;padding:22px;display:flex;align-items:center;justify-content:space-between;gap:18px;margin:16px 0 24px}.adult-banner .eyebrow{color:#C6AFCF}.adult-banner h2{font-family:var(--display);font-size:29px;font-weight:400;margin:8px 0}.adult-banner p{font-size:12px;line-height:1.55;color:#DAD0DD;margin:0}.adult-banner button{background:#F3E5F0;color:#342C3A;border:0;border-radius:99px;padding:12px 15px;font-weight:800;font-size:12px;flex-shrink:0}.adult-on .prompt-card.tinted0{background:#EEE8F1}.adult-on .pill.selected{background:#45334F}.adult-on .status{background:#433548;color:#fff;border-color:#433548}.adult-on .status .dot{background:#DC9FB6}.adult-on .brand-icon{background:#403148;color:#F5D9E7}.adult-on .sidebar-bottom{background:#ECE4EE}
+.overlay{position:fixed;inset:0;z-index:60;background:rgba(30,34,28,.48);display:flex;align-items:center;justify-content:center;padding:22px;backdrop-filter:blur(5px)}.modal{background:#FBFAF6;border-radius:27px;box-shadow:0 28px 85px rgba(0,0,0,.17);width:min(100%,580px);max-height:90vh;overflow:auto}.modal-head{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:24px 26px 0}.modal-head h2{font-size:23px;font-family:var(--display);font-weight:400;margin:0}.close{width:38px;height:38px;border-radius:50%;border:1px solid var(--line);display:grid;place-items:center;background:white}.modal-body{padding:22px 26px 26px}.refine-label{color:#868E80;font-size:10px;text-transform:uppercase;letter-spacing:1px;font-weight:800;margin:18px 0 11px}.choicegrid{display:flex;flex-wrap:wrap;gap:8px}.choice{background:#fff;border:1px solid #E3E6DC;border-radius:12px;padding:10px 12px;font-size:12px;color:#626D5E;font-weight:650}.choice.on{background:#DCEF9B;border-color:#9CA976;color:#263622}.modal-actions{display:flex;justify-content:space-between;gap:12px;padding-top:25px}.modal-actions .primary{flex:1}.muted-button{border:0;background:transparent;color:#687563;font-size:12px;font-weight:800}.focus-overlay{position:fixed;inset:0;z-index:70;background:#252C24;display:flex;align-items:center;justify-content:center;padding:23px}.focus-window{height:min(860px,calc(100vh - 46px));max-height:860px;width:min(100%,800px);background:#FBFAF5;border-radius:28px;display:flex;flex-direction:column;overflow:hidden;box-shadow:0 30px 100px #0004}.focus-top{padding:22px 29px;display:flex;align-items:center;justify-content:space-between;gap:10px;border-bottom:1px solid #E6E8DF}.focus-top .focus-label{letter-spacing:1.3px;font-size:10px;font-weight:800;color:#7F8778}.focus-top .close{border-color:#D8DCD2}.focus-center{flex:1;display:flex;flex-direction:column;justify-content:center;gap:24px;padding:26px 12% 25px;overflow:auto}.focus-kicker{display:flex;align-items:center;gap:10px;color:#667360;letter-spacing:1.2px;font-size:11px;text-transform:uppercase;font-weight:800}.focus-main{font-family:var(--display);font-size:clamp(32px,4.1vw,55px);line-height:1.23;letter-spacing:-1.5px;margin:0;font-weight:400}.focus-actions{display:flex;flex-wrap:wrap;gap:10px}.focus-action{display:inline-flex;align-items:center;gap:8px;padding:11px 14px;border:1px solid #DBDFD6;border-radius:99px;color:#52634B;font-size:12px;background:#fff;font-weight:800}.focus-action.on{background:#F2DEE2;color:#944B56;border-color:#EFCED4}.focus-action svg{width:17px;height:17px}.angles{background:#EDF0E5;border-radius:16px;padding:19px;display:grid;gap:12px}.angles h3{margin:0;color:#5C6B54;text-transform:uppercase;letter-spacing:1.2px;font-size:10px}.angle{font-size:14px;line-height:1.5;border-top:1px solid #D9DFD0;padding-top:12px}.focus-bottom{border-top:1px solid #E3E5DE;padding:19px 28px;display:flex;justify-content:space-between;align-items:center;gap:16px}.focus-bottom .pagination{font-size:12px;color:#969D91;font-weight:650}.focus-bottom .nexts{display:flex;gap:9px}.focus-bottom .nexts button{border:1px solid #D9DED4;background:#fff;width:45px;height:45px;border-radius:99px;display:grid;place-items:center}.focus-bottom .nexts button:last-child{background:#273228;color:#fff;border:0}.adult-on .focus-overlay{background:#30283C}.adult-on .focus-window{background:#FCF8FB}.adult-on .angles{background:#F2EAF3}.toast{position:fixed;bottom:30px;left:50%;transform:translateX(-50%);z-index:90;background:#253426;color:white;padding:13px 20px;border-radius:99px;font-size:12px;box-shadow:0 9px 27px #0003;white-space:nowrap;max-width:90%;overflow:hidden;text-overflow:ellipsis}.formcheck{display:flex;gap:11px;align-items:flex-start;background:white;border:1px solid #E3E2E1;padding:15px;border-radius:13px;margin:20px 0}.fakecheck{width:21px;height:21px;border:1.7px solid #8B8B85;border-radius:6px;flex-shrink:0;display:grid;place-items:center}.fakecheck.on{background:#334B31;border-color:#334B31;color:#fff}.fakecheck svg{width:15px;height:15px}.formcheck span{font-size:13px;line-height:1.5}.tiny-note{font-size:11px;color:#8A9085;line-height:1.6}.large-copy .card-content{font-size:22px}.large-copy .focus-main{font-size:clamp(39px,4.6vw,63px)}.compact-cards .prompt-card{min-height:205px}.compact-cards .card-content{font-size:17px;padding:12px 0}.mobile-only{display:none}
+@media(max-width:1250px){.shell{grid-template-columns:215px minmax(0,1fr)}.rightbar{display:none}.main{max-width:970px;margin:0 auto;width:100%;padding:31px 44px 90px}}
+@media(max-width:780px){.shell{display:block}.sidebar,.rightbar{display:none}.mobilehead{display:flex;height:69px;align-items:center;justify-content:space-between;padding:0 20px;border-bottom:1px solid var(--line);background:#F8F7F3;position:sticky;top:0;z-index:12}.mobilehead .brand{padding:0;font-size:22px}.mobilehead .brand-icon{width:30px;height:30px}.mobilehead .status{padding:8px 10px}.main{padding:23px 19px 105px}.topline{margin-bottom:22px}.hero{min-height:181px;margin-bottom:22px}.hero h1{font-size:44px;letter-spacing:-2px}.hero p{font-size:13px;max-width:270px}.hero-art{width:105px;height:105px;position:absolute;right:6px;top:0;opacity:.93}.hero-art:before{inset:12px}.hero-art span{font-size:16px}.hero-art:after{font-size:20px}.hero-content{position:relative;z-index:1}.hero h1{max-width:330px}.mobile-nav{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));height:calc(70px + env(safe-area-inset-bottom));position:fixed;bottom:0;left:0;right:0;background:rgba(255,255,255,.97);backdrop-filter:blur(15px);border-top:1px solid var(--line);z-index:30;padding:5px 5px calc(6px + env(safe-area-inset-bottom))}.mobile-nav button{border:0;background:none;color:#90978D;display:flex;flex-direction:column;gap:4px;align-items:center;justify-content:center;font-size:10px;font-weight:700}.mobile-nav button.active{color:#385733}.mobile-nav button svg{width:21px;height:21px}.page-heading h1{font-size:42px}.cards{gap:13px}.category-list{gap:10px}.category{padding:14px 11px;min-height:87px;gap:8px}.category strong{font-size:12px}.topic-symbol{width:37px;height:37px;border-radius:12px;font-size:18px}.category svg{display:none}.focus-overlay{padding:0;background:#FBFAF5}.focus-window{width:100%;height:100%;max-height:none;border-radius:0;box-shadow:none}.focus-top{padding:20px}.focus-center{padding:25px 9%;gap:23px}.focus-main{font-size:40px}.focus-bottom{padding:19px 20px calc(22px + env(safe-area-inset-bottom))}.modal{border-radius:25px 25px 0 0;max-height:85vh;width:100%}.overlay{align-items:flex-end;padding:0}.modal-head{padding:23px 20px 0}.modal-body{padding:20px}.modal-actions{position:sticky;bottom:0;background:#FBFAF6;padding-bottom:10px}.mobile-only{display:block}}
+@media(max-width:510px){.hero-art{top:17px;right:0;opacity:.5}.hero h1{font-size:40px;max-width:290px}.hero{min-height:193px}.cards{grid-template-columns:1fr}.prompt-card{min-height:235px}.card-content{font-size:22px}.category-list{grid-template-columns:repeat(2,minmax(0,1fr))}.filter-toolbar{gap:7px}.searchbar{max-width:none;min-width:100%;width:100%;flex:auto}.filterbtn{flex:1;justify-content:center}.section-head{margin-top:20px}.focus-main{font-size:36px}.focus-center{padding:22px 8%}.adult-banner{display:block}.adult-banner button{margin-top:17px}.page-heading h1{font-size:40px}.topdate{font-size:9px}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behaviour:auto!important}}
+
+/* Homepage redesign: improve access to the first prompt and reduce pre-feed clutter. */
+.on-explore .topline{margin-bottom:20px}
+.home-content{width:100%}
+.home-showcase{display:grid;grid-template-columns:minmax(0,.91fr) minmax(0,1fr);gap:23px;align-items:stretch;border-radius:27px;padding:25px;background:#263D31;position:relative;overflow:hidden;isolation:isolate;margin-bottom:30px}
+.home-showcase:before{content:"";position:absolute;inset:auto auto -155px -112px;width:310px;height:310px;border:1px solid rgba(220,239,155,.15);border-radius:50%;pointer-events:none}
+.home-showcase:after{content:"";position:absolute;inset:auto auto -114px -73px;width:236px;height:236px;border:1px solid rgba(220,239,155,.15);border-radius:50%;pointer-events:none}
+.home-intro{padding:15px 6px 12px;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;position:relative;z-index:1}
+.home-eyebrow{font-size:10px;letter-spacing:1.55px;color:#D5E3CD;font-weight:780;display:flex;align-items:center;gap:9px;line-height:1.4}
+.home-eyebrow-dot{width:7px;height:7px;border-radius:50%;background:#DCEF9B;flex:none}
+.home-intro h1{color:#FAF9EF;font-family:var(--display);font-size:clamp(35px,3.25vw,48px);font-weight:400;line-height:1.07;letter-spacing:-1.8px;max-width:360px;margin:16px 0 13px}
+.home-intro h1 em{font-style:italic;color:#DEEDAE}
+.home-intro p{font-size:12px;line-height:1.67;color:#CED9CE;max-width:330px;margin:0}
+.home-intro-actions{display:flex;align-items:center;gap:15px;margin-top:22px;flex-wrap:wrap}
+.home-surprise{background:#DCEF9B;color:#263D31;border:0;border-radius:12px;padding:11px 15px;display:flex;align-items:center;justify-content:center;gap:9px;font-size:12px;font-weight:800;white-space:nowrap;min-height:41px}
+.home-surprise:hover{background:#ECF7BD}
+.home-surprise svg{width:17px;height:17px}
+.home-intro-note{font-size:10px;color:#B9C9BB;line-height:1.4}
+.home-return{color:#F7EAD6;border:1px solid #66746A;border-radius:12px;padding:10px 13px;display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:700}
+.home-return svg{width:15px;height:15px}
+.home-featured{background:#F8F6EF;border:1px solid rgba(255,255,255,.5);border-radius:21px;min-width:0;min-height:246px;display:flex;flex-direction:column;position:relative;padding:21px 22px 17px;box-shadow:0 8px 27px rgba(0,0,0,.065)}
+.home-feature-top{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.home-feature-head{font-size:9px;font-weight:850;letter-spacing:1.3px;color:#70816D;line-height:1.4}
+.home-feature-mark{font-family:var(--display);font-size:25px;color:#65845B;font-weight:400}
+.home-feature-text{font-family:var(--display);font-weight:400;font-size:clamp(22px,2.32vw,32px);line-height:1.24;letter-spacing:-.75px;color:#27352B;background:none;border:0;text-align:left;padding:17px 0 18px;flex:1;display:block}
+.home-feature-text:hover{color:#516E44}
+.home-feature-bottom{border-top:1px solid #DEDFD2;display:flex;justify-content:space-between;align-items:center;gap:15px;padding-top:13px}
+.home-feature-topic{font-size:10px;color:#788273;font-weight:750;line-height:1.45}
+.home-feature-topic span{margin:0 3px;color:#B8BEAD}
+.home-feature-open{background:#253A2D;color:#fff;display:grid;place-items:center;flex:none;width:34px;height:34px;border-radius:50%}
+.home-feature-open:hover{background:#446C4E}
+.home-feature-open svg{width:17px;height:17px}
+.home-no-feature{justify-content:center;gap:14px}
+.home-no-feature p{font-family:var(--display);font-size:26px;margin:10px 0;color:#25362B}
+.home-feature-action{color:#304B34;font-size:12px;font-weight:800;display:inline-flex;gap:8px;align-items:center;text-align:left;width:max-content}
+.home-feature-action svg{width:16px;height:16px}
+.home-section-heading{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;margin-bottom:14px}
+.home-overline{display:block;color:#91A18B;font-size:9px;font-weight:850;letter-spacing:1.35px;margin-bottom:6px;line-height:1.25}
+.home-section-heading h2{font-size:19px;letter-spacing:-.5px;margin:0;color:#253128}
+.home-section-link,.home-browse-topics{display:flex;align-items:center;gap:6px;background:none;border:0;color:#516C4E;font-size:11px;font-weight:800;white-space:nowrap;padding:6px 0}
+.home-section-link svg,.home-browse-topics svg{width:15px;height:15px}
+.home-moods{margin-bottom:20px}
+.home-mood-track{display:flex;align-items:center;gap:8px;overflow:auto;scrollbar-width:none;padding:0 0 5px}
+.home-mood-track::-webkit-scrollbar{display:none}
+.home-mood-chip{background:#fff;border:1px solid #E1E5DB;border-radius:99px;padding:10px 15px;display:flex;align-items:center;gap:7px;font-size:12px;font-weight:760;color:#576259;white-space:nowrap;flex:none;min-height:41px}
+.home-mood-chip .mood-mark{font-family:var(--display);font-size:17px;color:#778B6D;line-height:.8}
+.home-mood-chip.selected{background:#273B30;color:white;border-color:#273B30}
+.home-mood-chip.selected .mood-mark{color:#DBEE9E}
+.home-discovery{margin-bottom:27px}
+.home-toolrow{display:grid;grid-template-columns:minmax(0,1fr) auto auto;gap:9px;align-items:center}
+.home-search{min-width:0;background:#fff;display:flex;align-items:center;gap:10px;border:1px solid #E0E4D9;padding:0 14px;border-radius:13px;height:45px}
+.home-search svg{width:18px;height:18px;color:#778479}
+.home-search input{border:0;outline:0;background:transparent;min-width:0;width:100%;font-size:12px;color:#293A2E;height:100%}
+.home-search input::placeholder{color:#999F96}
+.home-search input:focus-visible{outline:0}
+.home-filter-control,.home-topics-control{height:45px;border-radius:13px;background:#fff;border:1px solid #E0E4D9;color:#4E5E52;padding:0 14px;display:flex;align-items:center;justify-content:center;gap:8px;font-size:12px;font-weight:800;white-space:nowrap}
+.home-filter-control:hover,.home-topics-control:hover{background:#F1F4EB}
+.home-filter-control svg,.home-topics-control svg{width:17px;height:17px}
+.home-topics-control svg:last-child{width:14px;height:14px}
+.home-filter-control i{width:6px;height:6px;background:#658B51;border-radius:50%}
+.home-discovery .alert-strip{margin-top:10px;margin-bottom:0}
+.home-feed-header{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;margin-bottom:9px}
+.home-feed-header h2{margin:0;color:#253229;font-size:23px;letter-spacing:-.7px;line-height:1.22}
+.home-feed-sub{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:15px;color:#899387;font-size:11px;line-height:1.4}
+.home-feed-sub strong{color:#435045}
+.home-feed-area .cards{gap:13px}
+.home-feed-area .prompt-card{border-radius:18px;min-height:225px;padding:19px}
+.home-feed-area .card-content{font-size:20px;line-height:1.4;padding:18px 0}
+.home-feed-area .card-footer{padding-top:12px}
+.home-feed-area .card-meta{color:#7A8379}
+.home-feed-area .prompt-card.tinted0{background:#EDF1E7}
+.home-feed-area .prompt-card.tinted1{background:#F5ECE4}
+.home-feed-area .prompt-card.tinted2{background:#ECE9F2}
+.home-endnote{padding:20px;border:1px dashed #CCD5C4;border-radius:15px;color:#687968;font-size:12px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.home-endnote button{background:none;border:0;color:#334E37;font-weight:800;font-size:12px;display:flex;align-items:center;gap:5px}
+.home-endnote svg{width:15px;height:15px}
+.on-explore .rightbar{background:#F5F6F0}
+.home-rail-intro{background:#E8EEDC;border-radius:20px;padding:24px 19px 22px;margin-top:18px}
+.home-rail-mark{font-size:27px;line-height:1;color:#667E55;font-family:var(--display)}
+.home-rail-intro h3{font-family:var(--display);font-size:28px;line-height:1.16;font-weight:400;letter-spacing:-1px;margin:16px 0 12px;color:#29392C}
+.home-rail-intro p{font-size:12px;line-height:1.66;color:#657665;margin:0}
+.home-rail-topics{margin-top:33px}
+.home-rail-topics .right-label{display:block;margin-bottom:11px}
+.home-rail-topic,.home-rail-all{display:flex;align-items:center;justify-content:space-between;gap:8px;text-align:left;background:none;border:none;border-bottom:1px solid #E1E7D9;color:#4D6253;font-size:12px;font-weight:680;padding:13px 1px;width:100%}
+.home-rail-topic:hover,.home-rail-all:hover{color:#203B28}
+.home-rail-topic svg,.home-rail-all svg{width:15px;height:15px}
+.home-rail-all{margin-top:14px;color:#2A5034;font-weight:850;border:0}
+
+.home-showcase-adult{background:#383140}
+.home-showcase-adult .home-eyebrow-dot{background:#F6C4E0}
+.home-showcase-adult .home-intro h1 em{color:#F6C4E0}
+.home-showcase-adult .home-surprise{background:#F4DFEC}
+.home-showcase-adult .home-feature-mark{color:#8D6B93}
+@media(max-width:1250px){.home-showcase{grid-template-columns:minmax(0,.85fr) minmax(0,1fr)}.home-intro h1{font-size:40px}}
+@media(max-width:780px){.on-explore .topline{display:none}.on-explore .main{padding-top:18px}.on-explore .topline{margin-bottom:15px}.home-showcase{grid-template-columns:minmax(0,1fr) minmax(0,1fr);padding:22px;gap:14px;margin-bottom:26px}.home-intro h1{font-size:36px}.home-featured{padding:18px;min-height:238px}.home-feature-text{font-size:24px}.home-intro-note{display:none}.home-moods{margin-bottom:16px}.home-discovery{margin-bottom:23px}}
+@media(max-width:640px){.home-showcase{display:flex;flex-direction:column;gap:15px;padding:20px;min-height:0;border-radius:23px;margin-bottom:22px}.home-intro{padding:0}.home-eyebrow{font-size:9px}.home-intro h1{font-size:36px;letter-spacing:-1.6px;max-width:320px;line-height:1.06;margin:12px 0 9px}.home-intro p{font-size:12px;line-height:1.48;max-width:310px}.home-intro-actions{margin-top:13px}.home-surprise{min-height:36px;padding:8px 12px;border-radius:10px;font-size:11px}.home-featured{min-height:0;padding:17px 18px 14px;border-radius:17px}.home-feature-text{font-size:22px;line-height:1.25;padding:12px 0 15px}.home-feature-head{font-size:8px}.home-feature-mark{font-size:21px}.home-feature-bottom{padding-top:10px}.home-feature-open{width:32px;height:32px}.home-section-heading h2{font-size:17px}.home-mood-track{gap:7px}.home-mood-chip{min-height:38px;padding:9px 12px;font-size:11px}.home-section-heading{margin-bottom:11px}.home-toolrow{grid-template-columns:minmax(0,1fr) 45px 45px;gap:7px}.home-search{height:43px;padding:0 11px;gap:7px}.home-search input{font-size:11px}.home-filter-control,.home-topics-control{height:43px;padding:0;width:45px}.home-filter-control span,.home-topics-control span,.home-topics-control svg:last-child{display:none}.home-feed-header h2{font-size:21px}.home-feed-area .prompt-card{min-height:214px}.home-feed-area .card-content{font-size:21px}.home-feed-sub span:last-child{display:none}.home-discovery{margin-bottom:20px}}
+@media(max-width:385px){.home-intro h1{font-size:34px}.home-feature-text{font-size:20px}.home-showcase{padding:17px}.home-mood-chip{padding:8px 11px}}
+
+
+/* Additional AI interactions; original approved homepage and layout styles unchanged. */
+.home-ai-strip{display:flex;gap:16px;align-items:center;justify-content:space-between;background:#E9EEDF;border:1px solid #DFE7D7;border-radius:17px;padding:15px 17px;margin:17px 0 21px}
+.home-ai-strip strong{display:block;color:#30452F;font-size:13px;letter-spacing:-.1px;margin-bottom:5px}
+.home-ai-strip p{margin:0;color:#687769;font-size:12px;line-height:1.5}
+.home-ai-strip button,.ai-angle-button{background:#244C3A;border:1px solid #244C3A;color:#fff;border-radius:13px;padding:11px 14px;font-size:12px;font-weight:750;white-space:nowrap;display:inline-flex;gap:8px;align-items:center;justify-content:center}
+.home-ai-strip button svg,.ai-angle-button svg{height:15px;width:15px}
+.ai-action-set{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}.home-ai-strip .ai-surprise-button{background:#F9FBF4;color:#244C3A;border-color:#BCD0B5}.home-ai-strip button:disabled,.ai-angle-button:disabled{opacity:.55;cursor:wait}
+.ai-results{margin:8px 0 24px}
+.ai-results .home-overline{display:inline-flex;align-items:center;gap:6px}
+.ai-results .home-overline::before{display:none}
+.ai-results-title{display:flex;align-items:center;justify-content:space-between;margin:7px 0 13px;gap:10px}
+.ai-results-title h2{margin:0;font-size:21px;letter-spacing:-.5px}
+.ai-result-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.ai-results .prompt-card{min-height:180px}
+.ai-status{font-size:12px;color:#4C6947;min-height:20px}
+.ai-status.error{color:#A4413C}
+.ai-tag{color:#516D49;font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:1px}
+.ai-angle-button{margin-top:13px;background:#E7EDD9;color:#244C3A;border-color:#D1DCC6}
+.ai-generated-angle{border-left:2px solid #6B9758!important;background:#F6F8F0!important}
+.ai-settings-note{margin:12px 0 0;color:#667264;line-height:1.55;font-size:12px}
+@media(max-width:850px){.home-ai-strip{margin:14px 0 19px}.home-ai-strip button{font-size:11px}}
+@media(max-width:550px){.home-ai-strip{align-items:stretch;flex-direction:column;gap:10px}.home-ai-strip button{width:100%}.ai-action-set{flex-direction:column;align-items:stretch}.ai-result-grid{grid-template-columns:minmax(0,1fr)}}
+
+/* Iconsax Linear: consistent sizes, strokes and brand colour. */
+.topic-symbol svg{width:23px!important;height:23px!important;color:inherit!important}
+.home-mood-chip .mood-mark{display:inline-flex;align-items:center;justify-content:center}
+.home-mood-chip .mood-mark svg{width:17px;height:17px}
+.home-rail-mark svg,.empty .symbol svg{width:27px;height:27px}
+.home-feature-mark svg,.focus-kicker svg{width:19px;height:19px;vertical-align:middle}
+.right-card >span svg{width:26px;height:26px}
+.hero-art:after{display:none}
+
+.quiet-ai{margin:20px 0 8px;border:1px solid #E1E7DE;border-radius:17px;background:#FAFBF8;overflow:hidden}
+.quiet-ai-toggle{border:0;background:transparent;padding:15px 18px;width:100%;display:flex;gap:12px;align-items:center;text-align:left;color:#385542;cursor:pointer;font:inherit}
+.quiet-ai-toggle>svg{width:18px;height:18px;flex:none}
+.quiet-ai-toggle>svg:last-child{margin-left:auto;opacity:.65;transition:transform .15s}
+.quiet-ai-toggle[aria-expanded="true"]>svg:last-child{transform:rotate(90deg)}
+.quiet-ai-toggle span{font-size:13px;font-weight:650}
+.quiet-ai-toggle small{display:block;font-size:11px;font-weight:450;color:#78857A;margin-top:2px}
+.quiet-ai-actions{padding:0 18px 17px}
+.quiet-ai-actions p{font-size:12px;color:#667467;margin:0 0 13px;line-height:1.5}
+
+/* Progressive browsing: all matching prompts remain available without rendering hundreds of cards at once. */
+.feed-pagination{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;margin:24px 0 30px;padding:16px 0;border-top:1px solid var(--line, #d9ddd3)}
+.feed-pagination span{font-size:12px;color:var(--muted, #667365)}
+.feed-more-button{display:inline-flex;align-items:center;justify-content:center;gap:8px}
+.feed-more-button svg{width:16px;height:16px}
+@media(max-width:600px){.feed-pagination{align-items:stretch}.feed-more-button{width:100%;min-height:44px}}
+.experience-quick{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:20px 0 27px}.experience-quick button{border:1px solid var(--line);border-radius:16px;background:#fff;text-align:left;padding:18px;display:grid;gap:7px}.experience-quick strong{font-size:13px}.experience-quick small{font-size:11px;color:var(--muted)}.play-types,.play-medium{display:flex;flex-wrap:wrap;align-items:center;gap:9px;margin:16px 0}.play-card{border-radius:22px;background:#EAF0DD;padding:32px;min-height:265px;display:grid;align-content:center;gap:22px}.play-card h2{font:400 clamp(27px,4vw,42px)/1.23 var(--display);margin:0}.play-controls{display:flex;gap:9px}@media(max-width:650px){.experience-quick{grid-template-columns:1fr 1fr}.experience-quick button:last-child{grid-column:1/-1}.experience-quick button{padding:13px}.play-card{padding:22px}}.quality-switch{display:flex;justify-content:space-between;align-items:center;gap:18px;padding:17px 20px;margin:20px 0 22px;background:#f7f8f3;border:1px solid #e1e7db;border-radius:17px}.quality-switch strong{font-size:14px;color:#2c4030}.quality-switch p{margin:6px 0 0;font-size:12px;line-height:1.55;color:#677263;max-width:620px}.quality-switch .secondary{white-space:nowrap;flex-shrink:0}@media(max-width:650px){.quality-switch{align-items:flex-start;flex-direction:column}.quality-switch .secondary{white-space:normal}}.angle-path{padding:13px 15px}.angle-path-label{display:block;font-size:10px;line-height:1.4;letter-spacing:.06em;text-transform:uppercase;font-weight:800;color:#526943;margin-bottom:5px}.angle-path p{margin:0;font-size:13px;line-height:1.55}</style><link rel="stylesheet" href="/truth-or-dare.css"><link rel="stylesheet" href="/conversation-ui-v2.css"><script src="/tod-truth-banks.js"></script><script src="/tod-dare-banks.js"></script><script src="/truth-or-dare-data.js"></script><script src="/iconsax/part-1.js"></script><script src="/iconsax/part-2.js"></script><script src="/iconsax/part-3.js"></script><script src="/iconsax/part-4.js"></script><script src="/iconsax/part-5.js"></script><script src="/curated-shards.js"></script><script src="/adult-chat-expansion.js"></script><script src="/editorial-prompts.js"></script><script src="/batch1-data.js"></script><script src="/batch3-data.js"></script><script src="/batch4-data.js"></script><script src="/editorial-truth-or-dare.js"></script><script src="/conversation-experiences.js"></script><script src="/conversation-expansion.js"></script><script src="/conversation-next-starters.js"></script><script src="/conversation-next-games.js"></script><script src="/conversation-moments.js"></script><script src="/play-moments.js"></script><script src="/editorial-d1.js"></script><script src="/editorial-d2.js"></script><script src="/games-d1.js"></script><script src="/games-d2.js"></script><script src="/editorial-e1.js"></script><script src="/games-e1.js"></script><script src="/conversation-bridges.js"></script></head><body><div id="app"></div><script>
+const DATA = {"topics": ["Relationships", "Friendships", "Life", "Childhood", "Family", "Money", "Culture", "Personal Experiences", "Future & Ambitions", "Random & Hypothetical", "Faith & Spirituality", "Music", "Entertainment", "Work & Career", "School & Education", "Dating", "Pop Culture", "Would You Rather", "Controversial Opinions"], "prompts": [{"id": "p001", "topic": "Relationships", "format": "Hot take", "moods": ["Curious", "Deep"], "audiences": ["Anyone", "Partner", "Crush / Talking stage"], "text": "People sometimes confuse constant communication with genuine closeness. Do you agree?", "angles": ["When does checking in start to feel like an obligation?", "What makes you feel close to someone without talking every day?"], "adult": false}, {"id": "p002", "topic": "Relationships", "format": "Question", "moods": ["Chill", "Curious"], "audiences": ["Anyone", "Partner", "Crush / Talking stage"], "text": "What is one small thing someone does that makes you feel considered?", "angles": ["Does the intention matter more than the gesture?", "Have your expectations changed as you have grown older?"], "adult": false}, {"id": "p003", "topic": "Friendships", "format": "Story starter", "moods": ["Playful", "Chill"], "audiences": ["Friends", "Someone new", "Anyone"], "text": "Tell me about a time your friends convinced you to do something ridiculous.", "angles": ["Who in your group starts the most trouble?", "Did everyone admit their part afterwards?"], "adult": false}, {"id": "p004", "topic": "Friendships", "format": "Hot take", "moods": ["Bold", "Curious"], "audiences": ["Friends", "Anyone"], "text": "You do not have to speak every week to remain close friends.", "angles": ["What keeps a friendship alive over long gaps?", "When does a quiet friendship become a distant one?"], "adult": false}, {"id": "p005", "topic": "Life", "format": "Question", "moods": ["Deep", "Curious"], "audiences": ["Anyone", "Friends", "Partner"], "text": "What is one opinion you held firmly five years ago but no longer believe?", "angles": ["What made you change your mind?", "Is there anything you still refuse to compromise on?"], "adult": false}, {"id": "p006", "topic": "Life", "format": "Random observation", "moods": ["Chill", "Deep"], "audiences": ["Anyone", "Friends"], "text": "Some of the best days happen without a plan, then you spend months talking about them.", "angles": ["What is your favourite unplanned memory?", "Do you enjoy spontaneity or prefer knowing the plan?"], "adult": false}, {"id": "p007", "topic": "Childhood", "format": "Story starter", "moods": ["Playful", "Chill"], "audiences": ["Anyone", "Friends", "Partner", "Family"], "text": "What did you do as a child that would shock the people who know you now?", "angles": ["Did anyone at home ever find out?", "Which childhood rule seemed completely unfair?"], "adult": false}, {"id": "p008", "topic": "Childhood", "format": "Question", "moods": ["Curious", "Deep"], "audiences": ["Anyone", "Friends", "Family"], "text": "What is something you thought every family did until you visited someone else’s house?", "angles": ["How did you react when you noticed?", "Is it a tradition you would keep?"], "adult": false}, {"id": "p009", "topic": "Family", "format": "Hot take", "moods": ["Bold", "Deep"], "audiences": ["Anyone", "Family", "Partner"], "text": "Being related does not automatically mean two people understand each other.", "angles": ["What helps family members communicate better?", "Should family boundaries differ from friendship boundaries?"], "adult": false}, {"id": "p010", "topic": "Family", "format": "Story starter", "moods": ["Chill", "Playful"], "audiences": ["Anyone", "Family", "Friends"], "text": "Tell me about the funniest thing somebody in your family takes extremely seriously.", "angles": ["Who in your family is the funniest without trying?", "Which family joke never gets old?"], "adult": false}, {"id": "p011", "topic": "Money", "format": "Scenario", "moods": ["Curious", "Bold"], "audiences": ["Anyone", "Friends", "Partner"], "text": "A close friend asks to borrow money, but you know they rarely pay people back. What do you do?", "angles": ["Would your answer change for a smaller amount?", "Is refusing a loan ever a friendship problem?"], "adult": false}, {"id": "p012", "topic": "Money", "format": "Quick choice", "moods": ["Playful", "Curious"], "audiences": ["Anyone", "Friends"], "text": "₦10 million today or ₦150,000 monthly for the next 15 years?", "angles": ["What would be your first expense?", "Would you answer differently without a steady income?"], "adult": false}, {"id": "p013", "topic": "Culture", "format": "Random observation", "moods": ["Chill", "Curious"], "audiences": ["Anyone", "Friends", "Someone new"], "text": "The same behaviour is respectful in one home and rude in another.", "angles": ["Which cultural rule surprised you?", "What tradition do you appreciate more as an adult?"], "adult": false}, {"id": "p014", "topic": "Culture", "format": "Question", "moods": ["Curious", "Playful"], "audiences": ["Anyone", "Someone new", "Friends"], "text": "What is a phrase from where you grew up that outsiders always misunderstand?", "angles": ["What does it mean in the right context?", "What expression do you use without thinking?"], "adult": false}, {"id": "p015", "topic": "Personal Experiences", "format": "Story starter", "moods": ["Playful", "Chill"], "audiences": ["Anyone", "Friends", "Partner"], "text": "Tell me about a moment you were confidently wrong in public.", "angles": ["Did someone correct you immediately?", "Do you laugh about it now?"], "adult": false}, {"id": "p016", "topic": "Personal Experiences", "format": "Question", "moods": ["Deep", "Curious"], "audiences": ["Anyone", "Friends", "Partner"], "text": "What is something you tried for the first time recently and unexpectedly enjoyed?", "angles": ["What stopped you from trying it earlier?", "What else is still on your list?"], "adult": false}, {"id": "p017", "topic": "Future & Ambitions", "format": "Question", "moods": ["Deep", "Curious"], "audiences": ["Anyone", "Partner", "Friends"], "text": "What would you spend more time doing if money was already sorted?", "angles": ["Would you turn it into work or keep it personal?", "What small part of it are you doing now?"], "adult": false}, {"id": "p018", "topic": "Future & Ambitions", "format": "Scenario", "moods": ["Curious", "Bold"], "audiences": ["Anyone", "Friends", "Partner"], "text": "You get a dream job in another country, but it means starting your social life again. Are you going?", "angles": ["Who would you find hardest to leave?", "What would make staying worth it?"], "adult": false}, {"id": "p019", "topic": "Random & Hypothetical", "format": "Scenario", "moods": ["Playful", "Bold"], "audiences": ["Anyone", "Friends"], "text": "You wake up tomorrow and everyone remembers a version of you that never existed. How do you prove who you are?", "angles": ["Who would you call first?", "What part of your life would be hardest to explain?"], "adult": false}, {"id": "p020", "topic": "Random & Hypothetical", "format": "Question", "moods": ["Playful", "Curious"], "audiences": ["Anyone", "Friends", "Someone new"], "text": "If you had to become famous for something completely random, what would it be?", "angles": ["What would your first interview sound like?", "Would you enjoy being recognised in public?"], "adult": false}, {"id": "p021", "topic": "Faith & Spirituality", "format": "Question", "moods": ["Deep", "Curious"], "audiences": ["Anyone", "Friends", "Family", "Partner"], "text": "Has your understanding of faith changed as you have grown older?", "angles": ["Was there a particular experience behind the change?", "What question about faith do you still think about?"], "adult": false}, {"id": "p022", "topic": "Faith & Spirituality", "format": "Hot take", "moods": ["Curious", "Bold"], "audiences": ["Anyone", "Friends", "Partner"], "text": "People sometimes confuse having a routine with having genuine conviction.", "angles": ["How do you tell the difference in your own life?", "Is consistency more important than motivation?"], "adult": false}, {"id": "p023", "topic": "Music", "format": "Question", "moods": ["Chill", "Playful"], "audiences": ["Anyone", "Friends", "Someone new"], "text": "Which song instantly takes you back to a specific moment in your life?", "angles": ["Where were you when you first heard it?", "Would you still play it today?"], "adult": false}, {"id": "p024", "topic": "Music", "format": "Hot take", "moods": ["Bold", "Playful"], "audiences": ["Anyone", "Friends"], "text": "A great beat makes an average song worth replaying.", "angles": ["What song proves your point?", "Do lyrics or production matter more to you?"], "adult": false}, {"id": "p025", "topic": "Entertainment", "format": "Quick choice", "moods": ["Playful", "Chill"], "audiences": ["Anyone", "Friends"], "text": "One brilliant film every month or a great series every weekend?", "angles": ["What was the last film you recommended?", "Do you prefer watching alone or with people?"], "adult": false}, {"id": "p026", "topic": "Entertainment", "format": "Question", "moods": ["Chill", "Curious"], "audiences": ["Anyone", "Friends", "Someone new"], "text": "Which fictional character would be exhausting to know in real life?", "angles": ["Would they make a good friend at least?", "Which character would you happily spend a day with?"], "adult": false}, {"id": "p027", "topic": "Work & Career", "format": "Scenario", "moods": ["Curious", "Bold"], "audiences": ["Anyone", "Friends"], "text": "You love your work, but another company offers twice your salary for a role you find boring. What wins?", "angles": ["What would make the offer irresistible?", "Have you ever chosen growth over immediate money?"], "adult": false}, {"id": "p028", "topic": "Work & Career", "format": "Question", "moods": ["Deep", "Curious"], "audiences": ["Anyone", "Friends", "Partner"], "text": "What part of your job do people never see but takes the most energy?", "angles": ["What do people misunderstand about your work?", "Would you recommend your career path to someone younger?"], "adult": false}, {"id": "p029", "topic": "School & Education", "format": "Story starter", "moods": ["Playful", "Chill"], "audiences": ["Anyone", "Friends", "Someone new"], "text": "Who was the teacher or lecturer everyone feared, and why?", "angles": ["Were they actually strict or merely misunderstood?", "What school moment still makes you laugh?"], "adult": false}, {"id": "p030", "topic": "School & Education", "format": "Hot take", "moods": ["Bold", "Curious"], "audiences": ["Anyone", "Friends"], "text": "Some of the most useful things you learn in school have nothing to do with the syllabus.", "angles": ["What lesson stayed with you?", "Which subject deserves more attention?"], "adult": false}, {"id": "p031", "topic": "Dating", "format": "Scenario", "moods": ["Flirty", "Curious"], "audiences": ["Crush / Talking stage", "Partner", "Anyone"], "text": "You enjoy spending time with someone, but their texting style frustrates you. Deal-breaker or conversation?", "angles": ["Would you bring it up early?", "Which matters more: consistency or communication style?"], "adult": false}, {"id": "p032", "topic": "Dating", "format": "Question", "moods": ["Flirty", "Chill"], "audiences": ["Crush / Talking stage", "Partner", "Anyone"], "text": "What is a small gesture that makes you notice someone differently?", "angles": ["Do first impressions usually last for you?", "What is a green flag people overlook?"], "adult": false}, {"id": "p033", "topic": "Pop Culture", "format": "Hot take", "moods": ["Bold", "Playful"], "audiences": ["Anyone", "Friends"], "text": "People defend celebrities as if they know them personally.", "angles": ["Why do public figures inspire such loyalty?", "Has any celebrity opinion ever surprised you?"], "adult": false}, {"id": "p034", "topic": "Pop Culture", "format": "Question", "moods": ["Playful", "Chill"], "audiences": ["Anyone", "Friends", "Someone new"], "text": "What internet trend made sense to everyone except you?", "angles": ["Did you ever try it anyway?", "Which trend deserves a comeback?"], "adult": false}, {"id": "p035", "topic": "Would You Rather", "format": "Quick choice", "moods": ["Playful", "Curious"], "audiences": ["Anyone", "Friends", "Someone new"], "text": "Would you rather hear everyone’s first impression of you or their final opinion after knowing you?", "angles": ["Which answer would hurt more?", "Do you think people understand you easily?"], "adult": false}, {"id": "p036", "topic": "Would You Rather", "format": "Quick choice", "moods": ["Playful", "Bold"], "audiences": ["Anyone", "Friends"], "text": "Would you rather always arrive 30 minutes early or 15 minutes late?", "angles": ["Which one describes you now?", "What is the worst late-arrival excuse you have used?"], "adult": false}, {"id": "p037", "topic": "Controversial Opinions", "format": "Hot take", "moods": ["Bold", "Curious"], "audiences": ["Anyone", "Friends", "Partner"], "text": "Not every disagreement deserves a long conversation. Sometimes it is fine to move on.", "angles": ["When is silence the better response?", "What type of disagreement is worth discussing?"], "adult": false}, {"id": "p038", "topic": "Controversial Opinions", "format": "Hot take", "moods": ["Bold", "Deep"], "audiences": ["Anyone", "Friends"], "text": "People praise honesty but often prefer a comfortable answer.", "angles": ["Where should honesty have limits?", "Have you ever regretted telling the truth?"], "adult": false}, {"id": "p039", "topic": "Relationships", "format": "Random observation", "moods": ["Deep", "Chill"], "audiences": ["Anyone", "Partner", "Crush / Talking stage"], "text": "It is possible to miss someone and still know reconnecting is a bad idea.", "angles": ["What makes nostalgia misleading?", "Is closure something another person gives you?"], "adult": false}, {"id": "p040", "topic": "Friendships", "format": "Scenario", "moods": ["Playful", "Curious"], "audiences": ["Friends", "Anyone"], "text": "Your closest friend starts dating somebody you cannot stand. Do you say anything?", "angles": ["What if they ask for your honest opinion?", "At what point should friends interfere?"], "adult": false}, {"id": "p041", "topic": "Dating", "format": "Story starter", "moods": ["Flirty", "Playful"], "audiences": ["Crush / Talking stage", "Partner", "Anyone"], "text": "Tell me about a time someone made you blush without even trying.", "angles": ["Did they realise what happened?", "What is the smoothest compliment you have heard?"], "adult": false}, {"id": "p042", "topic": "Life", "format": "Quick choice", "moods": ["Curious", "Playful"], "audiences": ["Anyone", "Friends"], "text": "Would you rather have a completely free Saturday or a perfectly planned one?", "angles": ["What would you do with the day?", "How much alone time do you need?"], "adult": false}, {"id": "p043", "topic": "Culture", "format": "Scenario", "moods": ["Curious", "Playful"], "audiences": ["Anyone", "Friends"], "text": "You visit a friend and their family insists you eat a meal you have never tried. What do you do?", "angles": ["Do you enjoy trying unfamiliar food?", "What is the most memorable thing you tasted while travelling?"], "adult": false}, {"id": "p044", "topic": "Money", "format": "Hot take", "moods": ["Bold", "Curious"], "audiences": ["Anyone", "Friends"], "text": "Being good with money and earning a lot are two different skills.", "angles": ["Which one is harder to learn?", "What money advice did you only understand later?"], "adult": false}, {"id": "p045", "topic": "Personal Experiences", "format": "Random observation", "moods": ["Chill", "Deep"], "audiences": ["Anyone", "Friends"], "text": "A random five-minute conversation sometimes stays with you longer than an entire event.", "angles": ["Who left that kind of impression on you?", "Do you often start conversations with strangers?"], "adult": false}, {"id": "p046", "topic": "Future & Ambitions", "format": "Quick choice", "moods": ["Curious", "Playful"], "audiences": ["Anyone", "Friends"], "text": "Would you rather master a new language instantly or become excellent at an instrument?", "angles": ["What would you do first with the skill?", "Which one have you already tried learning?"], "adult": false}, {"id": "a001", "topic": "Dating", "format": "Question", "moods": ["Flirty", "Curious"], "audiences": ["Partner", "Crush / Talking stage"], "text": "What helps you feel comfortable talking about sexual attraction with someone?", "angles": ["When do you usually bring up the subject?", "What makes a conversation about intimacy feel respectful?"], "adult": true}, {"id": "a002", "topic": "Relationships", "format": "Hot take", "moods": ["Bold", "Deep"], "audiences": ["Partner", "Anyone"], "text": "Sexual compatibility deserves a conversation, not assumptions.", "angles": ["What do people find hardest to discuss openly?", "How do partners handle differences in expectations?"], "adult": true}, {"id": "a003", "topic": "Relationships", "format": "Scenario", "moods": ["Bold", "Curious"], "audiences": ["Partner"], "text": "Your partner wants to try something intimate you are unsure about. How would you respond?", "angles": ["What would help you feel comfortable saying no?", "How do you discuss boundaries without creating pressure?"], "adult": true}, {"id": "a004", "topic": "Dating", "format": "Question", "moods": ["Flirty", "Chill"], "audiences": ["Partner", "Crush / Talking stage"], "text": "How do you prefer someone to express desire without making you uncomfortable?", "angles": ["What kind of attention feels welcome?", "How do you communicate when you need more space?"], "adult": true}, {"id": "a005", "topic": "Personal Experiences", "format": "Story starter", "moods": ["Deep", "Curious"], "audiences": ["Partner", "Anyone"], "text": "Describe a time an honest conversation changed how you approached intimacy.", "angles": ["What helped the discussion go well?", "What would you explain differently now?"], "adult": true}, {"id": "a006", "topic": "Would You Rather", "format": "Quick choice", "moods": ["Flirty", "Playful"], "audiences": ["Partner"], "text": "Would you rather plan a romantic evening together or let your partner surprise you?", "angles": ["What makes the plan feel personal?", "Are you more spontaneous or deliberate about romance?"], "adult": true}, {"id": "a007", "topic": "Controversial Opinions", "format": "Hot take", "moods": ["Bold", "Curious"], "audiences": ["Partner", "Anyone"], "text": "Partners should discuss their sexual expectations as openly as they discuss money.", "angles": ["Why do people avoid the subject?", "Which boundaries belong in the first conversation?"], "adult": true}, {"id": "a008", "topic": "Random & Hypothetical", "format": "Scenario", "moods": ["Flirty", "Playful"], "audiences": ["Partner"], "text": "You and your partner have a full weekend together with no interruptions. Who plans it?", "angles": ["What makes a weekend feel intimate?", "How important is quality time to attraction?"], "adult": true}]};
+const TOPICS=DATA.topics.filter(topic=>topic!=='Pop Culture'), PROMPTS=[];
+const EXPERIENCE_BASE=window.SayMoreExperience||{themes:[],vibes:['Mix It Up'],audiences:['Anyone'],mediums:['Any format'],pilot:[],games:[]};
+const EXPERIENCE_MORE=window.SayMoreExpansion||{pilot:[],games:[]};
+const EXPERIENCE_NEXT_STARTERS=window.SayMoreNextStarters||[];
+const EXPERIENCE_NEXT_GAMES=window.SayMoreNextGames||[];
+const EXPERIENCE_MOMENTS=window.SayMoreConversationMoments||[];
+const EXPERIENCE_GAME_MOMENTS=window.SayMorePlayMoments||[];
+const EXPERIENCE_EDITORIAL_D1=window.SayMoreEditorialD1||[];
+const EXPERIENCE_EDITORIAL_D2=window.SayMoreEditorialD2||[];
+const EXPERIENCE_GAMES_D1=window.SayMoreGamesD1||[];
+const EXPERIENCE_GAMES_D2=window.SayMoreGamesD2||[];
+const EXPERIENCE_EDITORIAL_E1=window.SayMoreEditorialE1||[];
+const EXPERIENCE_GAMES_E1=window.SayMoreGamesE1||[];
+const EXPERIENCE={...EXPERIENCE_BASE,
+ pilot:[...EXPERIENCE_BASE.pilot,...(EXPERIENCE_MORE.pilot||[]),...EXPERIENCE_NEXT_STARTERS,...EXPERIENCE_MOMENTS,...EXPERIENCE_EDITORIAL_D1,...EXPERIENCE_EDITORIAL_D2,...EXPERIENCE_EDITORIAL_E1],
+ games:[...EXPERIENCE_BASE.games,...(EXPERIENCE_MORE.games||[]),...EXPERIENCE_NEXT_GAMES,...EXPERIENCE_GAME_MOMENTS,...EXPERIENCE_GAMES_D1,...EXPERIENCE_GAMES_D2,...EXPERIENCE_GAMES_E1]};
+const THEMES=EXPERIENCE.themes;
+const BRIDGES=window.SayMoreBridges||{};
+if(window.SayMoreEditorialPrompts)PROMPTS.push(...window.SayMoreEditorialPrompts);
+// Keep earlier saved IDs resolvable, without returning retired content to Explore.
+for(const p of DATA.prompts)if(!PROMPTS.some(x=>x.id===p.id))PROMPTS.push({...p,source:'saved-archive'});
+const BATCH1=Array.isArray(window.SayMoreBatch1)?window.SayMoreBatch1:[];
+const batchReady=BATCH1.length===5400&&new Set(BATCH1.map(p=>p.id)).size===5400&&BATCH1.every(p=>p.editorialStatus==='approved'&&p.adult===false&&p.source==='batch1-editorial');
+if(batchReady)PROMPTS.push(...BATCH1);
+// Batch 3 (Culture, Personal Experiences, Future & Ambitions) is additive and fails closed on its own.
+const BATCH3=Array.isArray(window.SayMoreBatch3)?window.SayMoreBatch3:[];
+const batch3Ready=batchReady&&BATCH3.length===5400&&new Set(BATCH3.map(p=>p.id)).size===5400&&BATCH3.every(p=>p.editorialStatus==='approved'&&p.adult===false&&p.source==='batch3-editorial');
+if(batch3Ready)PROMPTS.push(...BATCH3);
+// Batch 4 (Random & Hypothetical, Faith & Spirituality, Music) is additive and fails closed on its own.
+const BATCH4=Array.isArray(window.SayMoreBatch4)?window.SayMoreBatch4:[];
+const batch4Ready=batchReady&&BATCH4.length===5400&&new Set(BATCH4.map(p=>p.id)).size===5400&&BATCH4.every(p=>p.editorialStatus==='approved'&&p.adult===false&&p.source==='batch4-editorial');
+if(batch4Ready)PROMPTS.push(...BATCH4);
+// The editorial pilot is additive, preserving archived IDs and all existing batches.
+for(const p of EXPERIENCE.pilot){if(!PROMPTS.some(existing=>existing.id===p.id))PROMPTS.push({...p,adult:false,source:'experience-pilot',editorialStatus:'pilot'});}
+const everydayCount=5400+(batch3Ready?5400:0)+(batch4Ready?5400:0);
+let librarySummary=batchReady?{count:everydayCount,target:everydayCount,remaining:0}:null,publishedManifest=null,libraryLoadError=batchReady?'':'The conversation library did not load. Please refresh to try again.';
+let publishedLoading=false,publishedViewKey='';
+const loadedPublishedShards=new Set();
+let activePublishedIds=new Set();
+const CURATED_SHARDS=window.SayMoreCuratedShards;
+function publishedSelection(){return {topic:state.topic,mood:state.mood,audience:state.audience};}
+function remainingPublishedFiles(){
+ return []; // The complete everyday batch is bundled locally.
+ /*
+ return CURATED_SHARDS.activePathsForSelection(publishedManifest,publishedSelection(),loadedPublishedShards,8); */
+}
+function resetFeedAfterContentUpdate(){
+ state.feedKey=null;state.feedOrder=[];topicCountCacheKey='';
+}
+async function fetchPublishedFiles(paths){
+ if(!publishedManifest||publishedLoading||!paths.length)return false;
+ publishedLoading=true;
+ try{
+  const batches=await Promise.all(paths.map(async path=>{
+   if(!/^[a-z0-9/_-]+\.json$/i.test(path))throw new Error('Invalid built-in content path.');
+   const response=await fetch('/library-data/'+path);
+   if(!response.ok)throw new Error('A built-in content collection could not be loaded.');
+   return response.json();
+  }));
+  const incoming=batches.flat();
+  const ids=new Set(PROMPTS.filter(p=>p.source==='published-library').map(p=>p.id));
+  const texts=new Set(PROMPTS.filter(p=>p.source==='published-library').map(p=>(p.text||'').toLowerCase().replace(/[^\p{L}\p{N}]+/gu,' ').trim()));
+  let unique=0;
+  for(const p of incoming){
+   const text=(p.text||'').toLowerCase().replace(/[^\p{L}\p{N}]+/gu,' ').trim();
+   if(!/^SM-\d{6}$/.test(p.id||'')||!text||ids.has(p.id)||texts.has(text)||
+      p.adult||!['approved','screened_pending_editorial_review'].includes(p.editorialStatus)||
+      p.source!=='published-library'||!TOPICS.includes(p.topic)||!Array.isArray(p.moods)||
+      p.moods.length!==1||!MOODS.includes(p.moods[0])||!Array.isArray(p.audiences)||
+      p.audiences.length!==1||!TOD_AUDIENCES.includes(p.audiences[0])){
+     throw new Error('Built-in conversation data failed validation.');
+   }
+   ids.add(p.id);texts.add(text);unique++;
+  }
+  for(const p of incoming)PROMPTS.push(p);
+  for(const path of paths)loadedPublishedShards.add(path);
+  resetFeedAfterContentUpdate();
+  return unique>0;
+ }catch(error){
+  console.warn('[saymore] built-in content:',error.message);
+  showToast('Some built-in conversations could not be loaded. Please retry.');
+  return false;
+ }finally{
+  publishedLoading=false;
+  render();
+ }
+}
+async function loadNextPublishedFiles(limit=8,forIds=null){
+ if(!publishedManifest||publishedLoading||state.adult)return false;
+ const paths=forIds?
+  CURATED_SHARDS.pathsForIds(publishedManifest,forIds,loadedPublishedShards,limit):
+  CURATED_SHARDS.activePathsForSelection(publishedManifest,publishedSelection(),loadedPublishedShards,limit);
+ return fetchPublishedFiles(paths);
+}
+function schedulePublishedForView(){ /* Legacy shards never enter the everyday feed. */ }
+async function restoreArchivedSaves(){
+ const wanted=[...new Set([...state.saved,...state.seen])].filter(id=>/^SM-\d{6}$/.test(id)&&!PROMPTS.some(p=>p.id===id));
+ if(!wanted.length)return;
+ try{
+  const response=await fetch('/library-data/manifest.json',{cache:'no-store'});
+  if(!response.ok)throw Error('Saved archive unavailable');
+  const manifest=await response.json();CURATED_SHARDS.assertManifest(manifest);
+  const paths=CURATED_SHARDS.pathsForIds(manifest,wanted,new Set(),manifest.publishedFiles.length);
+  const wantedIds=new Set(wanted),known=new Set(PROMPTS.map(p=>p.id));
+  for(let i=0;i<paths.length;i+=8){
+   const chunks=await Promise.all(paths.slice(i,i+8).map(async path=>{if(!/^[a-z0-9/_-]+\.json$/i.test(path))throw Error('Invalid archive path');const r=await fetch('/library-data/'+path);if(!r.ok)throw Error('Saved archive unavailable');return r.json();}));
+   for(const p of chunks.flat())if(wantedIds.has(p.id)&&!known.has(p.id)){PROMPTS.push({...p,source:'saved-archive'});known.add(p.id);}
+  }
+  if(state.view==='saved'||state.view==='history')render();
+ }catch(error){console.warn('[saymore] saved archive:',error.message);}
+}
+async function loadPublishedLibrary(){
+ libraryLoadError='';
+ try{
+  // Always request the current catalogue rather than a cached PWA manifest.
+  const response=await fetch('/library-data/manifest.json',{cache:'no-store'});
+  if(!response.ok)throw new Error('Built-in catalogue is temporarily unavailable');
+  const manifest=await response.json();
+  if(!CURATED_SHARDS)throw new Error('Catalogue loader is unavailable');
+  CURATED_SHARDS.assertManifest(manifest);
+  publishedManifest=manifest;
+  activePublishedIds=new Set(manifest.publishedCollections.flatMap(c=>c.activeIds));
+  librarySummary={count:manifest.activePolicy.activeCount,archived:manifest.activePolicy.archivedCount,target:manifest.activePolicy.targetCount,remaining:manifest.activePolicy.remainingToTarget,published:true};
+  publishedViewKey=JSON.stringify([state.view,state.topic,state.mood,state.audience]);
+  if(state.view==='explore'){
+   const loaded=await loadNextPublishedFiles(8);
+   if(!loaded && remainingPublishedFiles().length)throw new Error('Published conversations could not be loaded');
+  }else render();
+  return true;
+ }catch(error){
+  console.warn('[saymore] built-in catalogue:',error.message);
+  libraryLoadError='The published catalogue could not be loaded. Sample conversations are shown until you retry.';
+  render();
+  return false;
+ }
+}
+
+// Generated prompts are local-only unless an account/sync feature is added later.
+const AI_STORAGE='saymore-ai-prompts-v1';
+try {const saved=JSON.parse(localStorage.getItem(AI_STORAGE)||'[]');if(Array.isArray(saved))for(const p of saved.slice(-60)){
+ if(p&&!p.adult&&/^[a-z0-9_-]{1,40}$/i.test(p.id||'')&&typeof p.text==='string'&&p.text.length<280&&Array.isArray(p.angles))PROMPTS.push({...p,adult:false,source:'ai'});
+}}catch{ /* App still works if storage is unavailable. */ }
+let aiBusy=false, aiLatest=[], aiError='', aiStatus='', aiAnglesById={};
+const AI_AGE_STORAGE='saymore-ai-18-confirmed-v1';
+let aiAgeApproved=false,aiPendingTask=null;
+try{aiAgeApproved=localStorage.getItem(AI_AGE_STORAGE)==='yes'}catch{}
+let focusOriginScroll=0;
+
+const MOODS=EXPERIENCE.vibes;
+const AUDIENCES=EXPERIENCE.audiences;
+const TOD_AUDIENCES=['Anyone','Someone new','Friends','Crush / Talking stage','Partner','Family','Group'];
+const TOD_ITEMS=Array.isArray(window.SayMoreEditorialTruthOrDare)?window.SayMoreEditorialTruthOrDare:[];
+let todState={medium:'Text',audience:'Friends',level:'Playful',current:null,used:[]};let playState={type:'Would You Rather',audience:'Anyone',used:[],current:null};
+function todPool(){return TOD_ITEMS.filter(c=>c.audiences.includes(todState.audience)&&c.level===todState.level&&c.adult===state.adult&&c.medium===todState.medium)}
+function todDraw(type){
+ const pool=todPool().filter(c=>type==='Random'||c.type===type);
+ if(!pool.length){showToast('No cards match this selection yet. Try another level.');return}
+ let options=pool.filter(c=>!todState.used.includes(c.id));
+ if(!options.length){todState.used=todState.used.filter(id=>!pool.some(c=>c.id===id));options=pool}
+ const card=options[Math.floor(Math.random()*options.length)];
+ todState.current=card.id;todState.used.push(card.id);
+ render();
+}
+function todReset(){todState.current=null;todState.used=[];render()}
+function todView(){
+ const pool=todPool(),truth=pool.filter(p=>p.type==='Truth').length,dare=pool.filter(p=>p.type==='Dare').length;
+ const card=TOD_ITEMS.find(p=>p.id===todState.current);
+ return `<div class="tod-wrap"><section class="tod-hero"><span class="tod-overline">SAY MORE / PLAY</span><h1>Truth <em>or</em> Dare.</h1><p>Pick Truth or Dare whenever you feel like it. Talk, laugh or move to another card at your own pace.</p></section>
+ <section class="tod-section" aria-label="Choose communication type"><h2>How are you playing?</h2><p>Choose whether you're talking on the phone or messaging.</p><div class="tod-choice-row">${['Call','Text'].map(m=>`<button type="button" class="tod-chip ${todState.medium===m?'selected':''}" data-tod-medium="${m}" aria-pressed="${todState.medium===m}">${icon(m==='Call'?'call':'message')} ${m}</button>`).join('')}</div></section><section class="tod-section" aria-label="Choose players"><h2>Who are you playing with?</h2><p>Choose the group that best fits your conversation.</p><div class="tod-choice-row">${TOD_AUDIENCES.map(a=>`<button type="button" class="tod-chip ${todState.audience===a?'selected':''}" data-tod-audience="${esc(a)}" aria-pressed="${todState.audience===a}">${esc(a)}</button>`).join('')}</div></section>
+ <section class="tod-section" aria-label="Choose intensity"><div class="tod-section-sub"><div><h2>Set the intensity.</h2><p>Choose what everyone feels comfortable playing.</p></div></div><div class="tod-choice-row">${['Chill','Playful','Bold'].map(level=>`<button type="button" class="tod-chip ${todState.level===level?'selected':''}" data-tod-level="${level}" aria-pressed="${todState.level===level}">${level}</button>`).join('')}</div></section>
+ <div class="tod-types" aria-label="Draw a card"><button type="button" class="tod-type truth" data-tod-type="Truth" ${truth?'':'disabled'}><span class="tod-type-top">${icon('messagequestion')}${icon('arrow')}</span><span><strong>Truth</strong><small>Ask a question</small></span></button><button type="button" class="tod-type dare" data-tod-type="Dare" ${dare?'':'disabled'}><span class="tod-type-top">${icon('flash')}${icon('arrow')}</span><span><strong>Dare</strong><small>Try a challenge</small></span></button></div>
+ ${card?`<section class="tod-card ${card.type.toLowerCase()}" aria-label="Current Truth or Dare card" aria-live="polite"><div class="tod-card-meta"><span>${icon(card.type==='Truth'?'messagequestion':'flash')} ${card.type.toUpperCase()}</span></div><h2>${esc(card.text)}</h2><div class="tod-card-footer"><span>${esc(todState.medium)} · ${esc(todState.level)} · ${esc(todState.audience)}</span><div class="tod-actions"><button class="tod-action" data-action="todCopy">${icon('copy')} Copy</button><button class="tod-action primary" data-action="todNext">${icon('arrow')} Another ${card.type}</button></div></div></section>`:`<div class="tod-empty" role="status">Choose <strong>Truth</strong> or <strong>Dare</strong> to draw your first card. You are free to skip any card. New cards will appear without unnecessary repeats.</div>`}
+ <div class="tod-actions" style="margin-top:14px"><button class="tod-action" type="button" data-tod-type="Random">${icon('shuffle')} Surprise me</button></div>
+ <div class="tod-rules">${icon('shield')}<p>Any player is free to pass. Ask before involving someone else. Avoid sharing private information or completing a challenge that makes anyone uncomfortable.</p></div>
+ ${!state.adult?`<div class="tod-adult-note"><span>Want more personal questions? The separate 18+ area has additional cards.</span><button type="button" data-action="enterAdult">18+ mode ${icon('arrow')}</button></div>`:`<div class="tod-adult-note"><span>You are viewing the 18+ area. Everyday cards remain available, alongside additional adult cards where appropriate.</span><button type="button" data-action="leaveAdult">Exit 18+ ${icon('arrow')}</button></div>`}
+ </div>`
+}
+const TOPIC_ICONS=["heart","people","sun","emoji","home","money","global","profile","trend","shuffle","star","music","video","briefcase","teacher","heartadd","musicplaylist","shuffle","messagequestion"];
+const MOOD_ICONS={'Mix It Up':'spark',Playful:'sun',Deep:'moon',Flirty:'heart','Hot Takes':'flash'};
+/* All interface icons use official Iconsax Linear SVG assets. */
+const ICONS=window.SAYMORE_ICONSAX||{};
+function icon(k){return ICONS[k==='sparkles'?'spark':k]||ICONS.info;}
+const STORAGE='conversation-companion-proto-v4';
+const restore=(()=>{try{return JSON.parse(localStorage.getItem(STORAGE)||'{}')}catch{return {}}})();
+let state={view:'explore',mood:'Mix It Up',topic:'All topics',audience:'Anyone',medium:restore.medium||'Any format',qualityMode:true,showEarlier:false,query:'',saved:restore.saved||[],seen:restore.seen||[],hidden:restore.hidden||[],aiExpanded:false,matchCount:0,large:!!restore.large,compact:!!restore.compact,adult:false,adultUnlocked:false,focus:null,angles:false,overlay:null,confirmedAdult:false,randomMode:false,feedKey:null,feedOrder:[],feedVisible:4};
+let orderCache=[];let toastTimer=null;
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function persist(){try{localStorage.setItem(STORAGE,JSON.stringify({saved:state.saved,seen:state.seen,hidden:state.hidden,large:state.large,compact:state.compact,medium:state.medium}))}catch(e){/* Preview remains usable when local storage is restricted. */}}
+function readablePrompt(p){const t=(p.text||'').trim();if(!t||t.length>180)return false;if(/closest real.life story|this scene:|during a conversation with|in a (chill|playful|curious|deep|flirty|bold) conversation|what is your view on|what do people overlook about|thinking about your own experience|one.second decision|a friend starts leaving gatherings|how would you discuss .* with/i.test(t))return false;return true;}
+function inPool(){const hidden=new Set(state.hidden);return PROMPTS.filter(p=>p.adult===state.adult&&!hidden.has(p.id)&&(state.adult?(p.source==='editorial-original'&&p.editorialStatus==='approved'):((batchReady&&p.source==='batch1-editorial'&&p.editorialStatus==='approved')||(typeof batch3Ready!=='undefined'&&batch3Ready&&p.source==='batch3-editorial'&&p.editorialStatus==='approved')||(typeof batch4Ready!=='undefined'&&batch4Ready&&p.source==='batch4-editorial'&&p.editorialStatus==='approved')||(p.source==='experience-pilot'&&p.editorialStatus==='pilot'))))}
+function isCurated(p){return p.source==='experience-pilot'&&p.editorialStatus==='pilot'}
+function qualityPool(){const pool=inPool();return !state.adult&&state.qualityMode&&!state.showEarlier?pool.filter(isCurated):pool}
+function matchingAudience(p){
+  if(state.audience==='Anyone')return true;
+  const a=p.audiences||[];
+  if(a.includes(state.audience))return true;
+  const publicFriendly=a.includes('Anyone')&&!(p.moods||[]).includes('Flirty')&&p.topic!=='Dating';
+  if(state.audience==='Family')return publicFriendly&&p.topic!=='Relationships';
+  if(state.audience==='Group')return publicFriendly||a.includes('Friends');
+  if(state.audience==='Crush / Talking stage')return publicFriendly||a.includes('Someone new');
+  return publicFriendly;
+}
+function matchingVibe(p){
+  if(state.mood==='Mix It Up'||state.mood==='All moods')return true;
+  if(state.mood==='Hot Takes')return p.format==='Hot take'||(p.moods||[]).includes('Bold');
+  if(state.mood==='Playful')return (p.moods||[]).includes('Playful');
+  return (p.moods||[]).includes(state.mood);
+}
+function matchingTheme(p){
+  if(state.topic==='All topics')return true;
+  const theme=(typeof THEMES==='undefined'?[]:THEMES).find(t=>t.name===state.topic);
+  return theme?theme.topics.includes(p.topic):p.topic===state.topic;
+}
+function filtered(){
+  const q=state.query.toLowerCase().trim();
+  const matches=qualityPool().filter(p=>{
+    const theme=(typeof THEMES==='undefined'?[]:THEMES).find(t=>t.topics.includes(p.topic));
+    const searchMatches=!q||(p.text+' '+p.topic+' '+p.format+' '+(theme?.name||'')).toLowerCase().includes(q);
+    return matchingVibe(p)&&matchingTheme(p)&&matchingAudience(p)&&searchMatches;
+  });
+  state.matchCount=matches.length;
+  return matches;
+}
+function sorted(list){const key=JSON.stringify([state.view,state.mood,state.topic,state.audience,state.adult,state.query,list.map(p=>p.id).join('|')]);if(state.feedKey===key){const lookup=new Map(list.map(p=>[p.id,p]));return state.feedOrder.map(id=>lookup.get(id)).filter(Boolean)}const result=[...list].sort((a,b)=>{const va=state.seen.includes(a.id)?1:0,vb=state.seen.includes(b.id)?1:0;const pilot=(b.source==='experience-pilot'?1:0)-(a.source==='experience-pilot'?1:0);return va-vb || pilot || ((Number(a.id.replace(/[^0-9]/g,''))*17)%53)-((Number(b.id.replace(/[^0-9]/g,''))*17)%53)});state.feedKey=key;state.feedOrder=result.map(p=>p.id);return result}
+let topicCountCacheKey='',topicCountCache={};
+function totalTopic(topic){return inPool().filter(p=>(typeof THEMES==='undefined'?[]:THEMES).find(t=>t.name===topic)?.topics.includes(p.topic)||p.topic===topic).length;}
+function topicCountLabel(topic){
+ if(!state.adult&&!batchReady)return 'Library unavailable · Refresh to retry';
+ const count=state.qualityMode&&!state.showEarlier&&!state.adult?qualityPool().filter(p=>(typeof THEMES==='undefined'?[]:THEMES).find(t=>t.name===topic)?.topics.includes(p.topic)||p.topic===topic).length:totalTopic(topic);
+ return count?count.toLocaleString('en-GB')+(state.adult?' available 18+ prompts':' conversation starters'):'No prompts in this release yet';
+}
+function menuItem(k,label,view){const active=state.view===view;const n=view==='saved'?state.saved.length:0;return `<button type="button" class="nav-item ${active?'active':''}" data-view="${view}">${icon(k)}<span>${label}</span>${n?`<span class="nav-count">${n}</span>`:''}</button>`}
+function status(){return `<button type="button" class="status" data-action="${state.adult?'leaveAdult':'enterAdult'}"><span class="dot"></span>${state.adult?'18+ mode · Exit':'Everyday mode'} ${icon(state.adult?'lock':'shield')}</button>`}
+function layout(content){
+ document.body.className=[state.adult?'adult-on':'',state.large?'large-copy':'',state.compact?'compact-cards':'',state.view==='explore'?'on-explore':'','cf-v2'].join(' ');
+ document.getElementById('app').innerHTML=`<div class="shell cf-shell">
+   <header class="cf-header">
+     <button type="button" class="cf-brand" data-view="explore" aria-label="Say More home"><span class="cf-brand-emblem">“</span><span>say<em>more.</em></span></button>
+     <nav class="cf-topnav" aria-label="Main navigation">
+       ${menuItem('home','Start Something','explore')}
+       <button class="nav-item" data-action="keepTalking">${icon('layers')}<span>Keep Talking</span></button>
+       ${menuItem('shuffle','Play Something','play')}
+       ${menuItem('grid','Themes','topics')}
+     </nav>
+     <div class="cf-utilities">
+       <button type="button" class="cf-saved-link ${state.view==='saved'?'active':''}" data-view="saved" aria-label="Saved conversations">${icon('heart')}<span class="cf-saved-label">Saved</span></button>
+       <button type="button" class="cf-more-link" data-view="more" aria-label="More options">${icon('more')}<span class="cf-saved-label">More</span></button>
+     </div>
+   </header>
+   <main class="main cf-main" id="main-content">${content}</main>
+   <nav class="mobile-nav cf-bottomnav" aria-label="Mobile navigation">
+     ${mobileItem('home','Start','explore')}
+     ${mobileItem('grid','Themes','topics')}
+     ${mobileItem('shuffle','Play','play')}
+     ${mobileItem('heart','Saved','saved')}
+     ${mobileItem('settings','More','more')}
+   </nav>
+ </div><div id="overlays"></div><div id="toaster"></div>`;
+ renderOverlay();
+}
+function mobileItem(k,label,v){return `<button type="button" class="${state.view===v?'active':''}" data-view="${v}">${icon(k)}${label}</button>`}
+function rightBar(){if(state.view==='play')return `<div class="right-label">PLAY WITHOUT PRESSURE</div><div class="right-card"><h3>Follow the conversation.</h3><p>Choose a game, then pick any card. Share stories, defend your answer, change the subject or try another game whenever you like.</p><div class="right-divider"></div><p>Every card works on its own. You can skip anything that doesn't suit your conversation.</p></div>`;if(state.view==='truthordare')return `<div class="right-label">HOW TO PLAY</div><div class="right-card"><h3>Keep it easy.</h3><p>Choose a card whenever you want something to discuss or try.</p><p>Skip anything that doesn't suit the conversation. Everyone is free to pass.</p><div class="right-divider"></div><span class="right-label">KEEP IT FLOWING</span><p>Pick another Truth or Dare whenever you're ready.</p></div>`;if(state.view==='explore'){const topics=THEMES.map(t=>t.name);return `<div class="right-label">QUICK DISCOVERY</div><div class="home-rail-intro"><div class="home-rail-mark">${icon('spark')}</div><h3>Follow your curiosity.</h3><p>Go from one good conversation to another. Choose a topic or browse everything.</p></div><div class="home-rail-topics"><span class="right-label">A FEW PLACES TO START</span>${topics.map(t=>`<button class="home-rail-topic" data-topic="${esc(t)}"><span>${esc(t)}</span>${icon('arrow')}</button>`).join('')}<button class="home-rail-all" data-view="topics">Explore all topics ${icon('arrow')}</button></div>`}const filteredPool=sorted(inPool()).filter(p=>!state.seen.includes(p.id));const p=filteredPool[0]||inPool()[0];return `<div class="right-label">THE GOOD STUFF</div><div class="right-card"><span style="font-size:26px">${icon('spark')}</span><h3>One good thought changes the mood.</h3><p>Start with something small and see where the conversation goes.</p><button class="primary" type="button" data-action="surprise">${icon('shuffle')} Surprise me</button><div class="right-divider"></div><span style="font-size:10px;color:#64745E;font-weight:800;letter-spacing:1px">TRY TALKING ABOUT THIS</span><div class="right-quote">“${esc(p?.text||'What has surprised you lately?')}”</div><button class="ghost-link" type="button" data-focus="${p?.id||''}">Read prompt ${icon('arrow')}</button></div><div style="margin-top:35px"><div class="right-label">YOUR SHORTCUTS</div><button class="stack-link" data-view="topics" style="border:0;background:transparent;width:100%">Themes ${icon('arrow')}</button><button class="stack-link" data-view="saved" style="border:0;background:transparent;width:100%">Saved (${state.saved.length}) ${icon('arrow')}</button><button class="stack-link" data-action="refine" style="border:0;background:transparent;width:100%">Adjust your mix ${icon('arrow')}</button></div>`}
+function tags(){return `<div class="section-head"><h2>How are you feeling?</h2><button class="ghost-link" type="button" data-action="refine">Refine your mix ${icon('arrow')}</button></div><div class="filter-row">${MOODS.map(m=>`<button class="pill ${state.mood===m?'selected':''}" type="button" data-mood="${esc(m)}">${icon(m==='Mix It Up'?'spark':MOOD_ICONS[m])} ${m==='Flirty'?'Flirt':m}</button>`).join('')}</div>`}
+function activeFilterNote(){let items=[];if(state.topic!=='All topics')items.push(state.topic);if(state.audience!=='Anyone')items.push(state.audience);if(state.medium!=='Any format')items.push(state.medium);if(state.adult)items.unshift('18+');return items.length?`<div class="alert-strip">${icon('filter')} ${esc(items.join(' · '))}<button class="ghost-link" style="margin-left:auto" data-action="clearFilters">Clear filters</button></div>`:''}
+function promptCard(p,index){let saved=state.saved.includes(p.id),viewed=state.seen.includes(p.id),tinted='tinted'+((index%7===0)?0:(index%7===3)?1:(index%7===5)?2:9);return `<article class="prompt-card ${tinted}"><button type="button" class="card-content" data-focus="${p.id}">${esc(p.text)}</button><div class="card-footer"><span class="small-topic">${esc(p.topic)}</span><div class="card-actions"><button class="icon-btn ${saved?'saved':''}" type="button" data-save="${p.id}" aria-label="${saved?'Remove from saved':'Save prompt'}">${icon('heart')}</button><button class="open-btn" type="button" data-focus="${p.id}" aria-label="Open focused prompt">${icon('arrow')}</button></div></div></article>`}
+function promptGrid(pool,emptyTitle,emptyDetail,offset=0){if(!pool.length)return `<div class="empty"><div class="symbol">${icon('spark')}</div><h3>${emptyTitle}</h3><p>${emptyDetail}</p><button class="primary" type="button" data-action="clearFilters">Explore all prompts ${icon('arrow')}</button></div>`;return `<div class="cards">${pool.map((p,i)=>promptCard(p,i+offset)).join('')}</div>`}
+
+function homeMoodRow(){
+  return `<section class="home-moods" aria-label="Conversation mood"><div class="home-section-heading"><div><span class="home-overline">MAKE IT YOURS</span><h2>What’s the mood?</h2></div><button class="home-section-link" data-action="refine">All filters ${icon('arrow')}</button></div><div class="home-mood-track">${MOODS.map(m=>`<button type="button" data-mood="${esc(m)}" aria-pressed="${state.mood===m}" class="home-mood-chip ${state.mood===m?'selected':''}"><span class="mood-mark">${icon(m==='Mix It Up'?'spark':MOOD_ICONS[m])}</span>${m}</button>`).join('')}</div></section>`
+}
+function aiPanel(){
+ if(state.adult)return '';
+ const buttonLabel=aiBusy?'Generating…':'Generate 3 fresh ideas';
+ return '<section class="quiet-ai"><button class="quiet-ai-toggle" type="button" data-action="toggleAI" aria-expanded="'+state.aiExpanded+'">'+icon('spark')+'<span>Want another idea? <small>Optional Gemini suggestions</small></span>'+icon('arrow')+'</button>'+(state.aiExpanded?'<div class="quiet-ai-actions"><p>Your curated feed stays the main experience. Request a fresh idea only when you want one.</p><div class="ai-action-set"><button type="button" data-action="aiPrompts" '+(aiBusy?'disabled':'')+'>'+icon('spark')+' '+buttonLabel+'</button><button class="ai-surprise-button" type="button" data-action="aiSurprise" '+(aiBusy?'disabled':'')+'>'+icon('shuffle')+' AI Surprise Me</button></div></div>':'')+'</section>'+(aiLatest.length?'<section id="ai-results" class="ai-results"><span class="home-overline">OPTIONAL AI IDEAS</span><div class="ai-results-title"><h2>Fresh ideas.</h2><button class="home-section-link" data-action="clearAiResults">Dismiss '+icon('close')+'</button></div><div class="ai-result-grid">'+aiLatest.map((id,i)=>{const p=PROMPTS.find(x=>x.id===id);return p?promptCard(p,i):''}).join('')+'</div></section>':'')+'<p role="status" class="ai-status '+(aiError?'error':'')+'" id="ai-status">'+esc(aiError||aiStatus)+'</p>';
+}
+function rememberAi(){try{localStorage.setItem(AI_STORAGE,JSON.stringify(PROMPTS.filter(p=>p.source==='ai').slice(-60)))}catch{/* Local persistence is optional. */}}
+async function requestAi(task){
+ if(aiBusy)return;
+ if(!aiAgeApproved){aiPendingTask=task;state.overlay='aiGate';renderOverlay();return;}
+ if(state.adult){showToast('AI is unavailable in 18+ mode. Use curated prompts.');return;}
+ const activeId=state.focus, selected=PROMPTS.find(p=>p.id===activeId);
+ if(task==='angles'&&!selected)return;
+ aiBusy=true;aiError='';aiStatus='Creating original conversation ideas…';
+ if(task==='angles')renderOverlay();else render();
+ try{
+  const body={task,ageConfirmed:true,mood:state.mood==='Mix It Up'?'Any':state.mood==='Hot Takes'?'Bold':state.mood,topic:state.topic==='All topics'||THEMES.some(t=>t.name===state.topic)?'Any':state.topic,audience:state.audience,adult:false,recent:[...state.seen.slice(-8),...aiLatest].map(id=>PROMPTS.find(p=>p.id===id)?.text).filter(Boolean)};
+  if(task==='angles'){body.prompt=selected.text;body.format=selected.format;body.topic=selected.topic;}
+  const response=await fetch('/api/ai/generate',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});
+  const data=await response.json();if(!response.ok)throw new Error(data.error||'AI generation is unavailable at present.');
+  if(task==='angles'){
+    if(state.focus===activeId&&data.angles?.length){aiAnglesById[activeId]=data.angles.slice(0,3);state.angles=true;renderOverlay();}
+  }else{
+    const added=[];
+    for(const [i,p] of (data.prompts||[]).entries()){
+      const id='a'+Date.now()+i;
+      const safe={id,text:String(p.text||'').slice(0,260),topic:TOPICS.includes(p.topic)?p.topic:'Life',format:String(p.format||'Question'),moods:Array.isArray(p.moods)?p.moods:['Curious'],audiences:Array.isArray(p.audiences)?p.audiences:['Anyone'],angles:Array.isArray(p.angles)?p.angles.slice(0,2):[],adult:false,source:'ai'};
+      PROMPTS.push(safe);added.push(id);
+    }
+    aiLatest=added;rememberAi();state.feedKey=null;aiStatus=`${added.length} new ideas ready. Gemini ${data.model==='gemini-3.6-flash'?'3.6':'AI'} suggestions.`;render();
+    if(task==='surprise'&&added[0]){focus(added[0]);}else{requestAnimationFrame(()=>document.getElementById('ai-results')?.scrollIntoView({behavior:'smooth',block:'start'}));}
+  }
+ }catch(err){aiError=err.message||'Unable to generate ideas. Your curated prompts are still available.';if(task==='angles'){renderOverlay();showToast(aiError)}else{render();}}
+ finally{aiBusy=false;if(task==='angles')renderOverlay();else{const status=document.getElementById('ai-status');if(status)status.textContent=aiError||aiStatus;const btn=document.querySelector('[data-action="aiPrompts"]');if(btn){btn.disabled=false;btn.innerHTML=icon('sparkles')+' Generate 3 fresh ideas';}const surpriseBtn=document.querySelector('[data-action="aiSurprise"]');if(surpriseBtn)surpriseBtn.disabled=false;}}
+}
+function cfSpotlight(p) {
+ if(!p)return `<section class="cf-spotlight cf-spotlight-empty"><div class="cf-spotlight-label">START SOMETHING</div><h2>Nothing in this mix right now.</h2><p>Try a different vibe or theme.</p><button class="cf-primary" data-action="clearFilters">Clear filters ${icon('arrow')}</button></section>`;
+ const saved=state.saved.includes(p.id);
+ return `<section class="cf-spotlight" aria-label="Conversation to start with">
+ <div class="cf-spotlight-top"><span class="cf-spotlight-label"><span class="cf-pulse"></span>A LITTLE SOMETHING TO TALK ABOUT</span><span class="cf-spotlight-number">01 / THE CONVERSATION</span></div>
+ <button class="cf-spotlight-text" type="button" data-focus="${p.id}" aria-label="Open this conversation">${esc(p.text)}</button>
+ <div class="cf-spotlight-bottom">
+   <span class="cf-context">${esc(p.topic)} <span aria-hidden="true">·</span> ${esc(p.format)}</span>
+   <div class="cf-spotlight-buttons">
+     <button type="button" class="cf-icon-action ${saved?'is-saved':''}" data-save="${p.id}" aria-label="${saved?'Remove from saved':'Save conversation'}">${icon('heart')}</button>
+     <button type="button" class="cf-primary" data-focus="${p.id}">Get into it ${icon('arrow')}</button>
+   </div>
+ </div>
+ </section>`;
+}
+function cfThemeShelf() {
+ const names=['People','Life','Money','Culture','Beliefs','Random'];
+ const symbols=['people','sun','trend','music','heart','shuffle'];
+ return `<nav class="cf-theme-strip" aria-label="Choose a conversation theme">
+ <button type="button" class="cf-theme-tile ${state.topic==='All topics'?'is-active':''}" aria-pressed="${state.topic==='All topics'}" data-topic="All topics">All ideas</button>
+ ${THEMES.map((t,i)=>`<button type="button" class="cf-theme-tile ${state.topic===t.name?'is-active':''}" aria-pressed="${state.topic===t.name}" data-topic="${esc(t.name)}" aria-label="${esc(t.name)}"><span class="cf-theme-icon">${icon(symbols[i])}</span><span>${esc(names[i])}</span></button>`).join('')}
+ </nav>`;
+}
+function cfFeedRow(p,i) {
+ const saved=state.saved.includes(p.id);
+ return `<article class="cf-feed-row cf-home-idea" data-row-topic="${esc(p.topic)}">
+  <div class="cf-idea-meta"><span class="cf-idea-topic"><i aria-hidden="true"></i>${esc(p.topic)} <span aria-hidden="true">·</span> ${esc(p.format)}</span>
+   <button type="button" class="cf-idea-save ${saved?'is-saved':''}" data-save="${p.id}" aria-label="${saved?'Remove saved conversation':'Save conversation'}">${icon('heart')}</button>
+  </div>
+  <button type="button" class="cf-idea-open" data-focus="${p.id}">
+   <span class="cf-idea-text">${esc(p.text)}</span><span class="cf-idea-chevron" aria-hidden="true">${icon('arrow')}</span>
+  </button>
+ </article>`;
+}
+function explore(){
+ const pool=sorted(filtered());orderCache=pool.map(p=>p.id);
+ const featured=pool[0],rest=pool.slice(1),visible=rest.slice(0,state.feedVisible);
+ const fresh=pool.filter(p=>!state.seen.includes(p.id)).length;
+ return `<div class="home-content cf-home">
+ <section class="cf-opening"><span class="cf-step">START SOMETHING</span><h1>There's always <em>more to say.</em></h1><p>No awkward icebreakers. Just a good thought, and somewhere to take it.</p></section>
+ ${cfSpotlight(featured)}
+ <div class="cf-next-actions">
+   <button type="button" class="cf-outline-action" data-action="surprise">${icon('shuffle')} Another idea</button>
+   <button type="button" class="cf-outline-action" data-action="keepTalking">${icon('layers')} Keep Talking</button>
+   <button type="button" class="cf-text-action" data-action="refine">${icon('filter')} Make it yours</button>
+ </div>
+ <section class="cf-vibes" aria-label="Set conversation vibe">${homeMoodRow()}</section>
+ <section class="cf-feed-section">
+  <div class="cf-ideas-header"><div><h2>${state.query?'Search results':state.topic!=='All topics'?esc(state.topic):'More ideas'}</h2><p>${pool.length} conversations${fresh?' · '+fresh+' new to you':''}</p></div><button type="button" data-action="refine" class="cf-ideas-filter">${icon('filter')} Filters</button></div>
+  ${cfThemeShelf()}
+  <label class="cf-search">${icon('search')}<input id="search" autocomplete="off" aria-label="Search prompts" placeholder="Search conversations, topics or anything..." value="${esc(state.query)}"></label>
+  ${activeFilterNote()}
+  <div class="cf-feed-list">${visible.map(cfFeedRow).join('')}${pool.length===0?'<p class="cf-empty-result">Nothing matches. Try another vibe or theme.</p>':''}</div>
+  ${rest.length>visible.length?'<button type="button" data-action="loadMore" class="cf-more-conversations">More conversations '+icon('arrow')+'</button>':''}
+ </section>
+ ${!state.adult?`<footer class="cf-library-footer"><span>Looking for your previous conversations?</span><button type="button" data-action="toggleEarlier">${state.showEarlier?'Back to curated ideas':'Explore earlier library'} ${icon('arrow')}</button></footer>`:''}
+ ${aiPanel()}
+ </div>`;
+}
+function playPool(type=playState.type){
+ return EXPERIENCE.games.filter(g=>(type==='Any game'||g.type===type)
+  &&g.adult!==true
+  &&(state.medium==='Any format'||g.mediums.includes(state.medium))
+  &&(playState.audience==='Anyone'?g.audiences.includes('Anyone'):g.audiences.includes('Anyone')||g.audiences.includes(playState.audience)));
+}
+function playDraw(type=playState.type){
+ const pool=playPool(type);
+ if(!pool.length){showToast('No cards for this format.');return}
+ const unseen=pool.filter(g=>!playState.used.includes(g.id));
+ if(!unseen.length)playState.used=[];
+ const next=(unseen.length?unseen:pool)[Math.floor(Math.random()*(unseen.length||pool.length))];
+ playState.type=next.type;playState.current=next.id;playState.used.push(next.id);render();
+}
+function playView(){
+ const types=[...new Set(EXPERIENCE.games.map(g=>g.type))],current=EXPERIENCE.games.find(g=>g.id===playState.current);
+ const hints={
+  'Would You Rather':'Choose a side, then explain your choice.',
+  'Hot Takes':'Agree, disagree or defend a point of view.',
+  'Never Have I Ever':'React, laugh, or share the story behind your answer.',
+  'What Would You Do?':'Imagine the situation and compare your choices.',
+  'This or That':'Pick one and tell us why.',
+  'Story Chain':'Take turns adding to the story, one sentence at a time.'
+ };
+ return `<div class="cf-play-page">
+  <header class="cf-play-heading"><span class="cf-step">PLAY SOMETHING</span><h1>Pick something to play.</h1><p>Choose your game. The conversation takes it from there.</p></header>
+  <nav class="cf-game-rail play-types" aria-label="Choose a game">${types.map(t=>`<button type="button" class="choice ${playState.type===t?'on':''}" data-play-type="${esc(t)}" aria-pressed="${playState.type===t}">${esc(t)}</button>`).join('')}<button type="button" class="choice cf-truth-link" data-view="truthordare">Truth or Dare ${icon('arrow')}</button></nav>
+  <div class="cf-play-context"><span>${icon('people')} ${playState.audience==='Anyone'?'Anyone':esc(playState.audience)} <span aria-hidden="true">·</span> ${state.medium==='Any format'?'Text, call or in person':esc(state.medium)}</span><button class="cf-play-customize" type="button" data-action="playOptions">${icon('settings')} Change</button></div>
+  <section class="play-card cf-game-stage" aria-live="polite"><div class="cf-game-label"><span class="cf-pulse"></span>${esc(playState.type)}</div><h2>${esc(current?.text||'Choose a game or surprise yourself with a card.')}</h2><div class="play-controls"><button class="primary" data-action="playNext">${icon('shuffle')} ${current?'Another card':'Show a card'}</button><button class="secondary" data-action="playSurprise">${icon('spark')} Surprise me</button>${current?'<button class="secondary cf-game-copy" data-action="playCopy">'+icon('copy')+' Copy</button>':''}</div></section>
+  <p class="cf-play-hint">${esc(hints[playState.type]||'Take it at your own pace.')} Keep it easy. Skip or switch whenever you like.</p>
+ </div>`;
+}
+function experienceActions(){
+ return '<section class="experience-quick" aria-label="Conversation experiences">'+
+ '<button data-action="surprise">'+icon('message')+'<strong>Start Something</strong><small>Pick a topic worth discussing</small></button>'+
+ '<button data-action="keepTalking">'+icon('layers')+'<strong>Keep Talking</strong><small>Return to a conversation</small></button>'+
+ '<button data-view="play">'+icon('shuffle')+'<strong>Play Something</strong><small>Games for calls and texts</small></button></section>';
+}
+function moreView(){
+ const links=[
+  {key:'history',iconName:'clock',title:'History',detail:'Conversations you opened'},
+  {key:'settings',iconName:'settings',title:'Settings',detail:'Your reading and content preferences'},
+  {key:'saved',iconName:'heart',title:'Saved conversations',detail:'Ideas you want to return to'}
+ ];
+ return `<div class="cf-secondary-page cf-more-page">
+  <div class="page-heading"><span class="cf-step">YOUR SPACE</span><h1>A little more.</h1><p>Everything else you might need, in one place.</p></div>
+  <div class="cf-link-list">${links.map(link=>`<button class="cf-link-row" type="button" data-view="${link.key}"><span class="cf-link-icon">${icon(link.iconName)}</span><span class="cf-link-copy"><strong>${link.title}</strong><small>${link.detail}</small></span><span class="cf-link-arrow">${icon('arrow')}</span></button>`).join('')}
+  <button class="cf-link-row" type="button" data-action="${state.adult?'leaveAdult':'enterAdult'}"><span class="cf-link-icon">${icon('lock')}</span><span class="cf-link-copy"><strong>${state.adult?'Leave 18+ mode':'Adults-only (18+)'}</strong><small>A separate, optional conversation space</small></span><span class="cf-link-arrow">${icon('arrow')}</span></button>
+  </div>
+ </div>`;
+}
+function topicsView(){
+ const descriptors=[
+  'Relationships, friendship, dating and family',
+  'Memories, childhood and everyday life',
+  'Work, goals, school and money',
+  'Music, movies, culture and what’s trending',
+  'Faith, perspectives and honest opinions',
+  'Scenarios, unexpected ideas and what-ifs'
+ ];
+ const glyphs=['people','sun','trend','music','heart','shuffle'];
+ const items=THEMES.map((t,i)=>({...t,subtitle:descriptors[i],glyph:glyphs[i]}))
+   .filter(t=>!state.query||t.name.toLowerCase().includes(state.query.toLowerCase())||t.topics.some(sub=>sub.toLowerCase().includes(state.query.toLowerCase())));
+ return `<div class="cf-secondary-page cf-topics-page">
+  <div class="page-heading"><span class="cf-step">FIND YOUR SUBJECT</span><h1>Pick a direction.</h1><p>Six themes. Plenty of ways to take the conversation.</p></div>
+  <div class="cf-link-list">${items.map(t=>`<button class="cf-link-row" type="button" data-topic="${esc(t.name)}"><span class="cf-link-icon">${icon(t.glyph)}</span><span class="cf-link-copy"><strong>${esc(t.name)}</strong><small>${esc(t.subtitle)}</small></span><span class="cf-link-arrow">${icon('arrow')}</span></button>`).join('')}</div>
+  ${!state.adult?'<p class="cf-theme-footnote">Looking for something unexpected? <button data-action="surprise">Surprise me '+icon('arrow')+'</button></p>':''}
+ </div>`;
+}
+function savedView(){const pool=state.saved.map(id=>PROMPTS.find(p=>p.id===id)).filter(p=>p&&p.adult===state.adult&&!state.hidden.includes(p.id));orderCache=pool.map(p=>p.id);return `<div class="page-heading"><div class="eyebrow">Your personal collection</div><h1>Worth keeping.</h1><p>All the prompts you've saved for another conversation. They stay here until you remove them.</p></div><div class="feed-caption"><strong>${pool.length} saved prompts in ${state.adult?'18+':'everyday'} mode</strong></div>${promptGrid(pool,'No saved prompts yet','Tap the heart on any prompt to keep it here for later.')}`}
+function historyView(){const pool=[...state.seen].reverse().map(id=>PROMPTS.find(p=>p.id===id)).filter(p=>p&&p.adult===state.adult&&!state.hidden.includes(p.id));orderCache=pool.map(p=>p.id);return `<div class="page-heading"><div class="eyebrow">Where you left off</div><h1>Recent conversations.</h1><p>Pick up an idea you opened before or revisit something you enjoyed.</p></div><div class="toolbar-inline"><span class="eyebrow">${pool.length} VIEWED IN ${state.adult?'18+':'EVERYDAY'} MODE</span><button class="ghost-link" data-action="clearHistory">${icon('trash')} Clear history</button></div>${promptGrid(pool,'No history yet','Open any prompt from Explore to start your history.')}`}
+function librarySettings(){
+ return '<section class="settings-group"><h3>Built-in conversation library</h3><div class="setting-row"><div><strong>'+((librarySummary?.count)||0).toLocaleString('en-GB')+' conversation starters</strong><p>Explore '+(typeof batch3Ready!=='undefined'&&batch3Ready?(typeof batch4Ready!=='undefined'&&batch4Ready?'Relationships, Friendships, Life, Culture, Personal Experiences, Future &amp; Ambitions, Random &amp; Hypothetical, Faith &amp; Spirituality and Music':'Relationships, Friendships, Life, Culture, Personal Experiences and Future &amp; Ambitions'):'Relationships, Friendships and Life')+' across optional themes, vibes and audiences. Your saved conversations stay in Saved. Adults-only conversations remain separate.</p></div></div></section>';
+}
+function settingsView(){return `<div class="page-heading"><div class="eyebrow">Make it yours</div><h1>Your space, your rules.</h1><p>Keep the experience comfortable, personal and easy to pick up whenever you need it.</p></div><section class="settings-group"><h3>Conversation preferences</h3><div class="setting-row"><div><strong>Roomier text</strong><p>Use a larger reading size for prompt cards and Focus mode.</p></div><button class="toggle ${state.large?'on':''}" aria-label="Toggle roomier text" data-action="toggleLarge"><span class="knob"></span></button></div><div class="setting-row"><div><strong>Compact feed</strong><p>See more prompts while scrolling.</p></div><button class="toggle ${state.compact?'on':''}" aria-label="Toggle compact feed" data-action="toggleCompact"><span class="knob"></span></button></div></section>${librarySettings()}<section class="settings-group"><h3>Optional AI ideas</h3><div class="setting-row"><div><strong>Gemini-powered ideas, only when you ask</strong><p>Fresh prompts use Gemini 3.6 Flash. Additional angles use Gemini 3.8 Flash. We send your selected filters and a small set of recent prompt texts, never your private conversations.</p></div></div><p class="ai-settings-note">Curated prompts work offline. AI actions require an internet connection and a configured server API key. AI remains unavailable in adults-only mode.</p><div class="setting-row"><div><strong>Delete AI-generated ideas</strong><p>Erase AI prompts stored on this device. This does not affect the curated library.</p></div><button class="secondary" data-action="clearGenerated">Delete</button></div></section><section class="settings-group"><h3>18+ content</h3><div class="setting-row"><div><strong>Separate adults-only mode</strong><p>Adult discussions never appear in everyday browsing. Enter deliberately when you want them.</p></div><button class="toggle ${state.adult?'on':''}" aria-label="Toggle adult content" data-action="${state.adult?'leaveAdult':'enterAdult'}"><span class="knob"></span></button></div><p class="tiny-note">18+ content remains separate. Adult access requires additional age assurance before public launch.</p></section><section class="settings-group"><h3>Privacy and your data</h3><div class="setting-row"><div><strong>Clear your viewing history</strong><p>Remove the record of prompts you've opened.</p></div><button class="secondary" data-action="clearHistory">Clear</button></div><div class="setting-row"><div><strong>Reset saved prompts</strong><p>Remove all prompts from your saved collection.</p></div><button class="secondary" data-action="clearSaved">Reset</button></div><div class="setting-row"><div><strong>Restore hidden prompts</strong><p>Bring back prompts you've chosen to hide.</p></div><button class="secondary" data-action="clearHidden">Restore</button></div></section><div class="alert-strip">${icon('shield')} Your favourites, generated ideas and viewing history stay in this browser. Say More does not record your conversations.</div>`}
+function render(){
+ // Keep the user's position stable when changing Truth or Dare selections.
+ const preserveScroll=state.view==='truthordare';
+ const previousY=preserveScroll?window.scrollY:0;
+ const content={explore,topics:topicsView,play:playView,truthordare:todView,saved:savedView,history:historyView,settings:settingsView,more:moreView}[state.view]();
+ const errorBanner=libraryLoadError&&!state.adult?'<div class="alert-strip" role="alert">'+icon('info')+' '+esc(libraryLoadError)+' <button type="button" class="secondary" data-action="retryLibrary">Retry loading</button></div>':'';
+ layout(errorBanner+content);
+ if(state.view==='play')requestAnimationFrame(()=>{
+  const selected=document.querySelector('.cf-game-rail .choice.on');
+  const rail=selected?.parentElement;
+  if(selected&&rail){
+   const delta=selected.getBoundingClientRect().left-rail.getBoundingClientRect().left;
+   rail.scrollLeft+=delta-(rail.clientWidth-selected.clientWidth)/2;
+  }
+ });
+ if(preserveScroll&&previousY>0)window.scrollTo({top:previousY,behavior:'instant'});
+ schedulePublishedForView();
+}
+function showToast(message){const root=document.getElementById('toaster');if(!root)return;root.innerHTML=`<div role="status" class="toast">${esc(message)}</div>`;clearTimeout(toastTimer);toastTimer=setTimeout(()=>{if(root)root.innerHTML=''},2200)}
+function renderOverlay(){let root=document.getElementById('overlays');if(!root)return;
+if(state.overlay==='playOptions'){
+ root.innerHTML=`<div class="overlay" data-dismiss="1"><div class="modal cf-play-modal" role="dialog" aria-modal="true" aria-label="Customize your game">
+  <div class="modal-head"><h2>Make it yours.</h2><button class="close" data-action="closeOverlay" aria-label="Close">${icon('close')}</button></div>
+  <div class="modal-body"><p class="cf-modal-help">Optional preferences. You can always just play.</p>
+   <div class="refine-label">WHO ARE YOU PLAYING WITH?</div><div class="choicegrid">${EXPERIENCE.audiences.map(a=>`<button class="choice ${playState.audience===a?'on':''}" data-play-audience="${esc(a)}">${a==='Anyone'?'Anyone':esc(a)}</button>`).join('')}</div>
+   <div class="refine-label">TEXT, CALL OR IN PERSON?</div><div class="choicegrid">${EXPERIENCE.mediums.map(m=>`<button class="choice ${state.medium===m?'on':''}" data-medium="${esc(m)}">${esc(m)}</button>`).join('')}</div>
+   <div class="modal-actions"><button class="primary" data-action="closeOverlay">Done ${icon('arrow')}</button></div>
+  </div></div></div>`;return;
+}
+if(state.overlay==='aiGate'){
+ root.innerHTML=`<div class="overlay" data-dismiss="1"><div class="modal" role="dialog" aria-modal="true" aria-label="AI eligibility and privacy"><div class="modal-head"><h2>Before using AI ideas</h2><button class="close" data-action="closeOverlay" aria-label="Close">${icon('close')}</button></div><div class="modal-body"><p style="color:#687568;font-size:13px;line-height:1.65">Gemini AI features are for adults aged 18 or older. Only your selected filters, your chosen prompt and a few recently viewed prompt texts go to the provider. Say More never records your conversations.</p><div class="modal-actions"><button class="secondary" data-action="closeOverlay">Not now</button><button class="primary" data-action="confirmAiAge">I am 18 or older ${icon('arrow')}</button></div></div></div></div>`;return;
+}
+if(state.focus){const p=PROMPTS.find(x=>x.id===state.focus);if(!p||p.adult!==state.adult){state.focus=null;return}const idx=orderCache.indexOf(p.id),n=orderCache.length;root.innerHTML=`<div class="focus-overlay" role="dialog" aria-modal="true" aria-label="Focused conversation prompt"><div class="focus-window"><div class="focus-top"><div class="focus-label">IN FOCUS · ${state.adult?'18+':'EVERYDAY'} CONVERSATIONS</div><button class="close" data-action="closeFocus" aria-label="Close focus">${icon('close')}</button></div><div class="focus-center"><section class="cf-focus-card" aria-label="Conversation card"><div class="focus-kicker"><span>${icon('spark')}</span> ${esc(p.format)} · ${esc(p.topic)}</div><h2 class="focus-main">${esc(p.text)}</h2><div class="focus-actions"><button class="focus-action focus-primary-action" data-action="angles">${icon('layers')} ${state.angles?'Hide follow-ups':'Keep Talking'}</button><button class="focus-action ${state.saved.includes(p.id)?'on':''}" data-save="${p.id}">${icon('heart')} ${state.saved.includes(p.id)?'Saved':'Save'}</button><button class="focus-action" data-action="copyPrompt">${icon('copy')} Copy</button></div><div class="focus-secondary-actions"><button class="focus-subtle-action" data-action="switchTopic">${icon('shuffle')} Change direction</button><button class="focus-subtle-action" data-hide="${p.id}">${icon('eyeoff')} Hide this</button></div></section>${state.angles?`<div class="angles"><h3>Keep this conversation going</h3>${p.source==='experience-pilot'?p.angles.map((a,i)=>`<div class="angle angle-path"><span class="angle-path-label">${['Tell a story','Go a little deeper','Try another perspective','Take a new direction'][i]||'Another direction'}</span><p>${esc(a)}</p></div>`).join(''):p.angles.map(a=>`<div class="angle">${esc(a)}</div>`).join('')}${BRIDGES[p.id]?`<div class="angle bridge-path"><strong style="display:block;font-size:11px;letter-spacing:.06em;text-transform:uppercase;margin-bottom:7px">A different kind of response</strong><p>${esc(BRIDGES[p.id])}</p><button type="button" class="ghost-link" data-action="copyBridge">${icon('copy')} Copy this thought</button></div>`:''}${(aiAnglesById[p.id]||[]).map(a=>`<div class="angle ai-generated-angle"><span class="ai-tag">AI angle</span><div>${esc(a)}</div></div>`).join('')}${!p.adult?`<button class="ai-angle-button" type="button" data-action="aiAngles" ${aiBusy?'disabled':''}>${icon('sparkles')} ${aiBusy?'Thinking…':'Generate more angles'}</button>`:''}</div>`:''}</div><div class="focus-bottom"><div class="pagination">${idx>=0?`${idx+1} of ${n}`:'From collection'}</div><div class="nexts"><button aria-label="Previous prompt" data-action="prev" ${idx<=0?'disabled':''}>${icon('left')}</button><button aria-label="Next prompt" data-action="next" ${idx===n-1?'disabled':''}>${icon('arrow')}</button></div></div></div></div>`;return}
+if(state.overlay==='refine'){root.innerHTML=`<div class="overlay" data-dismiss="1"><div class="modal cf-refine-modal" role="dialog" aria-modal="true" aria-label="Conversation filters"><div class="modal-head"><div><span class="cf-modal-eyebrow">PERSONALISE</span><h2>Make your mix.</h2></div><button class="close" data-action="closeOverlay" aria-label="Close filters">${icon('close')}</button></div><div class="modal-body"><p class="cf-refine-help">Pick what fits. Everything is optional.</p><div class="refine-label">VIBE</div><div class="choicegrid">${MOODS.map(v=>`<button class="choice ${state.mood===v?'on':''}" data-mood="${esc(v)}">${v==='Flirty'?'Flirt':v==='All moods'?'All':v}</button>`).join('')}</div><div class="refine-label">THEME</div><div class="choicegrid">${['All topics',...THEMES.map(t=>t.name)].map(v=>`<button class="choice ${state.topic===v?'on':''}" data-topicfilter="${esc(v)}">${v}</button>`).join('')}</div><div class="refine-label">WITH WHOM?</div><div class="choicegrid">${AUDIENCES.map(v=>`<button class="choice ${state.audience===v?'on':''}" data-audience="${esc(v)}">${v==='Anyone'?'All':v}</button>`).join('')}</div><div class="refine-label">WHERE?</div><div class="choicegrid">${EXPERIENCE.mediums.map(v=>`<button class="choice ${state.medium===v?'on':''}" data-medium="${esc(v)}">${esc(v)}</button>`).join('')}</div><div class="modal-actions"><button class="muted-button" data-action="clearFilters">Clear all</button><button class="primary" data-action="applyFilters">Show conversations ${icon('arrow')}</button></div></div></div></div>`;return}
+if(state.overlay==='adultGate'){root.innerHTML=`<div class="overlay" data-dismiss="1"><div class="modal" role="dialog" aria-modal="true" aria-label="Adult content confirmation"><div class="modal-head"><h2>Before you enter.</h2><button class="close" data-action="closeOverlay">${icon('close')}</button></div><div class="modal-body"><div style="background:#EEE7EF;border-radius:16px;padding:18px;display:flex;gap:12px;align-items:start">${icon('lock')}<div><strong style="font-size:14px">This section is for adults aged 18 and over.</strong><p style="font-size:12px;line-height:1.6;color:#736A78;margin:8px 0 0">It includes frank discussions about attraction, intimacy, sexual preferences and relationship boundaries. The everyday feed remains separate.</p></div></div><button class="formcheck" type="button" style="width:100%;text-align:left" data-action="checkAdult"><span class="fakecheck ${state.confirmedAdult?'on':''}">${state.confirmedAdult?icon('check'):''}</span><span>I confirm I am 18 or older and want to enter the separate adult content area.</span></button><p class="tiny-note">This age confirmation demonstrates the proposed design flow. It is not a verified age check.</p><div class="modal-actions"><button class="muted-button" data-action="closeOverlay">Stay in everyday mode</button><button class="primary" ${!state.confirmedAdult?'disabled':''} data-action="confirmAdult">Enter 18+ ${icon('arrow')}</button></div></div></div></div>`;return}
+if(state.overlay&&state.overlay.startsWith('confirm:')){const target=state.overlay.slice(8);const descriptions={clearHistory:'Delete your entire viewing history?',clearSaved:'Remove every prompt from Saved?',clearHidden:'Restore all prompts you previously hid?',clearGenerated:'Delete all locally stored AI-generated ideas?'};root.innerHTML=`<div class="overlay" data-dismiss="1"><div class="modal" role="dialog" aria-modal="true" aria-label="Confirm change"><div class="modal-head"><h2>Are you sure?</h2><button class="close" data-action="closeOverlay">${icon('close')}</button></div><div class="modal-body"><p style="color:#6C7469;font-size:14px;line-height:1.7">${descriptions[target]}</p><div class="modal-actions"><button class="secondary" data-action="closeOverlay">Keep as it is</button><button class="primary" data-action="do:${target}">Confirm ${icon('arrow')}</button></div></div></div></div>`;return}
+root.innerHTML=''}
+function focus(id){const p=PROMPTS.find(x=>x.id===id);if(!p||p.adult!==state.adult)return;if(!state.focus)focusOriginScroll=window.scrollY;state.focus=id;state.angles=false;state.seen=state.seen.filter(x=>x!==id).concat(id);persist();renderOverlay()}
+function move(delta){let idx=orderCache.indexOf(state.focus);if(idx<0)return;let next=orderCache[idx+delta];if(next)focus(next)}
+function nav(v){state.view=v;state.query='';state.overlay=null;state.focus=null;
+ if(v==='play'&&!playState.current){const pool=playPool();if(pool.length){const g=pool[Math.floor(Math.random()*pool.length)];playState.current=g.id;playState.used.push(g.id)}}
+ window.scrollTo({top:0,behavior:'instant'});render()}
+function applyAction(a){
+ if(a==='toggleEarlier'){state.showEarlier=!state.showEarlier;state.feedVisible=4;state.feedKey=null;render();return}
+  if(a==='playOptions'){state.overlay='playOptions';renderOverlay();return}
+  if(a==='playNext'){playDraw();return}if(a==='playSurprise'){playDraw('Any game');return}
+ if(a==='copyBridge'){const line=BRIDGES[state.focus];if(line&&navigator.clipboard?.writeText)navigator.clipboard.writeText(line).then(()=>showToast('Thought copied')).catch(()=>showToast('Copy unavailable'));return}
+  if(a==='playCopy'){const p=EXPERIENCE.games.find(g=>g.id===playState.current);if(p&&navigator.clipboard?.writeText)navigator.clipboard.writeText(p.text).then(()=>showToast('Card copied')).catch(()=>showToast('Copy unavailable'));return}
+ if(a==='keepTalking'){const id=[...state.seen].reverse().find(id=>inPool().some(p=>p.id===id));if(id){orderCache=sorted(inPool()).map(p=>p.id);focus(id)}else applyAction('surprise');return}
+ if(a==='switchTopic'){const p=PROMPTS.find(p=>p.id===state.focus),theme=THEMES.find(t=>t.topics.includes(p?.topic));const candidates=sorted(qualityPool().filter(x=>x.id!==p?.id&&x.topic!==p?.topic&&(!theme||theme.topics.includes(x.topic))&&matchingAudience(x)));const next=candidates.find(x=>!state.seen.includes(x.id))||candidates[0];if(next){orderCache=sorted(qualityPool()).map(x=>x.id);focus(next.id)}else showToast('No other directions in this mix. Try another theme.');return}
+ if(a==='todNext'){const item=TOD_ITEMS.find(c=>c.id===todState.current);todDraw(item?.type||'Random');return}if(a==='todSkip'){const item=TOD_ITEMS.find(c=>c.id===todState.current);todDraw(item?.type||'Random');return}if(a==='todReset'){todReset();return}if(a==='todCopy'){const item=TOD_ITEMS.find(c=>c.id===todState.current);if(item&&navigator.clipboard?.writeText)navigator.clipboard.writeText(item.text).then(()=>showToast('Card copied')).catch(()=>showToast('Copy unavailable'));return}if(a==='retryLibrary'){location.reload();return}if(a==='loadMore'){const currentScroll=window.scrollY;state.feedVisible+=4;render();if(state.matchCount<state.feedVisible+48&&remainingPublishedFiles().length)void loadNextPublishedFiles(8);requestAnimationFrame(()=>window.scrollTo(0,currentScroll));return}if(a==='toggleAI'){state.aiExpanded=!state.aiExpanded;render();return}if(a==='confirmAiAge'){aiAgeApproved=true;try{localStorage.setItem(AI_AGE_STORAGE,'yes')}catch{}state.overlay=null;renderOverlay();if(aiPendingTask){const task=aiPendingTask;aiPendingTask=null;requestAi(task)}return}if(a==='aiPrompts'){requestAi('prompts');return}if(a==='aiSurprise'){requestAi('surprise');return}if(a==='aiAngles'){requestAi('angles');return}if(a==='clearAiResults'){aiLatest=[];aiError='';aiStatus='';render();return}if(a==='refine'){state.overlay='refine';renderOverlay();return}if(a==='closeOverlay'){state.overlay=null;state.confirmedAdult=false;renderOverlay();return}if(a==='applyFilters'){state.overlay=null;nav('explore');return}if(a==='clearFilters'){state.feedVisible=48;state.mood='Mix It Up';state.topic='All topics';state.audience='Anyone';state.medium='Any format';state.query='';if(state.overlay==='refine')renderOverlay();else nav('explore');return}if(a==='closeFocus'){state.focus=null;render();requestAnimationFrame(()=>window.scrollTo(0,focusOriginScroll));return}if(a==='angles'){state.angles=!state.angles;renderOverlay();return}if(a==='prev'||a==='next'){move(a==='prev'?-1:1);return}if(a==='surprise'){let pool=sorted(filtered());if(!pool.length){showToast('No conversations match this mix. Change your filters to find more.');return;}const unseen=pool.filter(p=>!state.seen.includes(p.id));const from=unseen.length?unseen:pool;const p=from[Math.floor(Math.random()*from.length)];orderCache=pool.map(p=>p.id);focus(p.id);return}if(a==='enterAdult'){state.overlay='adultGate';state.confirmedAdult=false;renderOverlay();return}if(a==='checkAdult'){state.confirmedAdult=!state.confirmedAdult;renderOverlay();return}if(a==='confirmAdult'&&state.confirmedAdult){state.adult=true;state.adultUnlocked=true;state.overlay=null;state.query='';state.topic='All topics';state.mood='Mix It Up';state.audience='Anyone';todState.current=null;nav(state.view==='truthordare'?'truthordare':'explore');return}if(a==='leaveAdult'){state.adult=false;state.focus=null;state.overlay=null;state.mood='Mix It Up';state.topic='All topics';state.audience='Anyone';state.query='';todState.current=null;nav(state.view==='truthordare'?'truthordare':'explore');return}if(a==='toggleLarge'){state.large=!state.large;persist();render();return}if(a==='toggleCompact'){state.compact=!state.compact;persist();render();return}if(['clearHistory','clearSaved','clearHidden','clearGenerated'].includes(a)){state.overlay='confirm:'+a;renderOverlay();return}if(a.startsWith('do:')){let target=a.slice(3);if(target==='clearHistory')state.seen=[];if(target==='clearSaved')state.saved=[];if(target==='clearHidden')state.hidden=[];if(target==='clearGenerated'){const aiIds=new Set(PROMPTS.filter(p=>p.source==='ai').map(p=>p.id));for(let i=PROMPTS.length-1;i>=0;i--){if(PROMPTS[i].source==='ai')PROMPTS.splice(i,1)}state.saved=state.saved.filter(id=>!aiIds.has(id));state.seen=state.seen.filter(id=>!aiIds.has(id));state.hidden=state.hidden.filter(id=>!aiIds.has(id));aiLatest=[];aiAnglesById={};try{localStorage.removeItem(AI_STORAGE)}catch{}state.feedKey=null;}persist();state.overlay=null;render();showToast('Your preferences have been updated');return}if(a==='copyPrompt'&&state.focus){let p=PROMPTS.find(p=>p.id===state.focus);if(navigator.clipboard?.writeText){navigator.clipboard.writeText(p.text).then(()=>showToast('Prompt copied')).catch(()=>showToast('Copy unavailable in this browser'))}else showToast('Copy unavailable in this browser');return}}
+document.addEventListener('click',e=>{let button=e.target.closest('[data-view],[data-focus],[data-save],[data-hide],[data-mood],[data-topic],[data-topicfilter],[data-audience],[data-tod-medium],[data-tod-audience],[data-tod-level],[data-tod-type],[data-play-type],[data-play-audience],[data-medium],[data-action],[data-dismiss]');if(!button)return;const d=button.dataset;if(d.dismiss&&button===e.target){state.overlay=null;renderOverlay();return}if(d.view){nav(d.view);return}if(d.todMedium){todState.medium=d.todMedium;todReset();return}if(d.playAudience){playState.audience=d.playAudience;playState.current=null;playState.used=[];playDraw();return}if(d.playType){playState.type=d.playType;playState.current=null;playState.used=[];playDraw();return}if(d.medium){state.medium=d.medium;playState.current=null;playState.used=[];persist();if(state.overlay==='refine')renderOverlay();else if(state.view==='play')playDraw();else render();return}if(d.todAudience){todState.audience=d.todAudience;todReset();return}if(d.todLevel){todState.level=d.todLevel;todReset();return}if(d.todType){todDraw(d.todType);return}if(d.focus){focus(d.focus);return}if(d.save){const id=d.save;state.saved=state.saved.includes(id)?state.saved.filter(x=>x!==id):[...state.saved,id];persist();if(state.focus)renderOverlay();else render();showToast(state.saved.includes(id)?'Saved for later':'Removed from Saved');return}if(d.hide){state.hidden.push(d.hide);state.focus=null;persist();render();showToast('Prompt hidden from your feed');return}if(d.mood){state.feedVisible=48;state.mood=d.mood;if(state.overlay==='refine')renderOverlay();else render();return}if(d.topicfilter){state.feedVisible=48;state.topic=d.topicfilter;renderOverlay();return}if(d.topic){state.feedVisible=4;state.topic=d.topic;
+ if(state.view==='explore'){const currentY=window.scrollY;render();requestAnimationFrame(()=>window.scrollTo({top:currentY,behavior:'instant'}));}
+ else nav('explore');return}if(d.audience){state.feedVisible=48;state.audience=d.audience;renderOverlay();return}if(d.action){applyAction(d.action);return}});
+document.addEventListener('input',e=>{if(e.target.id==='search'){const pos=e.target.selectionStart;state.query=e.target.value;state.feedVisible=48;render();const el=document.getElementById('search');if(el){el.focus();el.setSelectionRange(pos,pos)}}});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){if(state.focus){state.focus=null;render();requestAnimationFrame(()=>window.scrollTo(0,focusOriginScroll))}else if(state.overlay){state.overlay=null;renderOverlay()}}else if(state.focus&&(e.key==='ArrowRight'||e.key==='ArrowLeft')){e.preventDefault();move(e.key==='ArrowRight'?1:-1)}});
+render();
+// Only explicitly saved legacy IDs load from the archive.
+void restoreArchivedSaves();
+if('serviceWorker' in navigator && /^https?:$/.test(location.protocol))navigator.serviceWorker.register('/sw.js').catch(()=>{});
+</script><script src="/update-check.js"></script></body></html>
