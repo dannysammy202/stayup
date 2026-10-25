@@ -1,11 +1,12 @@
 {
-  "name": "Say More - Conversation Companion",
+  "name": "Say More — Conversation Companion",
   "short_name": "Say More",
-  "description": "Ideas for conversations worth having.",
+  "description": "Real conversation ideas, Nigerian-first. 5,000 ideas and 2,100 games.",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
-  "background_color": "#F8F7F3",
-  "theme_color": "#244C3A",
+  "background_color": "#0d1113",
+  "theme_color": "#111517",
   "icons": [
     {
       "src": "/icon.svg",
