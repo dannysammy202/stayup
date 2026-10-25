@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import vm from 'node:vm';
 import {readFileSync} from 'node:fs';
 
-const html=readFileSync('public/index.html','utf8');
+const html=readFileSync('public/classic/index.html','utf8');
 const loader=html.slice(html.indexOf('async function fetchPublishedFiles('),html.indexOf('async function loadNextPublishedFiles('));
 const manifest=JSON.parse(readFileSync('public/library-data/manifest.json','utf8'));
 function fixture(){
