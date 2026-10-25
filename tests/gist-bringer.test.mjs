@@ -25,7 +25,7 @@ test('Gist Bringer has distinct starters and four follow-up directions per story
   assert.ok(gist.every(x => x.editorialStatus === 'new_draft_pending_human_review'));
   assert.ok(gist.every(x => ['Text','Call','In person'].every(m => x.mediums.includes(m))));
   const existing = new Set(originals.map(x => normalise(x.text)));
-  assert.ok(gist.every(x => !existing.has(normalise(x.text))), 'New starters must not duplicate existing collection cards');
+  assert.deepEqual(gist.filter(x=>existing.has(normalise(x.text))).map(x=>({id:x.id,text:x.text})), [], 'New starters must not duplicate existing collection cards');
 });
 
 test('Gist Bringer preserves collection navigation, saved IDs and official icon support', () => {
