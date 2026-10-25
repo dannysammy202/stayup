@@ -260,6 +260,6 @@ document.addEventListener('keydown',e=>{if(state.page==='focus'&&!state.modal){i
 render();
 })();
 </script>
-<script>if('serviceWorker' in navigator && location.protocol==='https:')navigator.serviceWorker.register('/rc/sw.js',{scope:'/rc/'}).catch(()=>{});</script>
+<script>if('serviceWorker' in navigator && (location.protocol==='https:'||['localhost','127.0.0.1'].includes(location.hostname)))navigator.serviceWorker.register('/rc/sw.js',{scope:'/rc/'}).catch(()=>{});</script>
 </body>
 </html>
