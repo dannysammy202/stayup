@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
+import vm from 'node:vm';
 
 const html=readFileSync('public/rc/index.html','utf8');
 const cardsSrc=readFileSync('public/rc/cards.js','utf8');
@@ -11,6 +12,7 @@ assert.ok(inline,'Nigerian-first conversation asset should be bundled');
 assert.ok(game,'Nigerian-first game asset should be bundled');
 assert.match(html,/\/rc\/cards\.js/);
 assert.match(html,/\/rc\/games\.js/);
+ assert.match(html,/\/rc\/game-overrides\.js/);
 const ideas=JSON.parse(inline[1]), games=JSON.parse(game[1]);
 const tally=(a,k)=>a.reduce((acc,x)=>{acc[x[k]]=(acc[x[k]]||0)+1;return acc},{});
 const norm=s=>s.toLowerCase().replace(/[^\p{L}\p{N}]+/gu,' ').trim();
@@ -44,6 +46,19 @@ test('the 690 known overlaps are tracked rather than silently published as uniqu
  const ledger=readFileSync('public/rc/overlaps.csv','utf8');
  assert.ok(ledger.includes('game_id,game_type'));
  for(const x of overlap)assert.ok(ledger.includes(x.id));
+});
+
+test('game-specific candidate rewrites reduce copied conversation wording without changing deck sizes',()=> {
+ const originals=games.map(g=>({...g}));
+ const sandbox={window:{SAYMORE_GAME_LIBRARY:originals}};
+ vm.runInNewContext(readFileSync('public/rc/game-overrides.js','utf8'),sandbox,{timeout:10000});
+ assert.equal(sandbox.window.SAYMORE_GAME_EDITORIAL_REWRITE_COUNT,30);
+ const baseline=games.filter(g=>new Set(ideas.map(x=>norm(x.text))).has(norm(g.text))).length;
+ const conversationTexts=new Set(ideas.map(x=>norm(x.text)));
+ const overlap=originals.filter(x=>conversationTexts.has(norm(x.text)));
+ assert.ok(overlap.length<baseline,'Rewrites should remove some verbatim repeats');
+ assert.equal(new Set(originals.map(x=>norm(x.text))).size,2100,'No game prompts duplicate one another after overrides');
+ for(const card of originals.filter(x=>x.originalDraftText))assert.equal(card.editorialStatus,'rewritten_game_candidate_pending_independent_review');
 });
 
 test('staged route uses existing official Iconsax, scoped service worker and isolated saves',()=>{
