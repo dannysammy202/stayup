@@ -1,7 +1,7 @@
 /* Say More Nigerian-first public PWA. Root launch, network-first shell and static card catalogue offline. */
-const CACHE='saymore-nigerian-first-20261025-launch-v1';
+const CACHE='saymore-nigerian-first-20261025-launch-v2';
 const ASSETS=['/','/index.html','/manifest.webmanifest','/icon.svg',
- '/rc/cards.js','/rc/games.js','/rc/game-overrides.js','/rc/game-overrides-remaining.js','/rc/migration.js',
+ '/rc/cards.js','/rc/gist-bringer.js','/rc/games.js','/rc/game-overrides.js','/rc/game-overrides-remaining.js','/rc/migration.js',
  ...Array.from({length:5},(_,i)=>'/iconsax/part-'+(i+1)+'.js')];
 self.addEventListener('install',e=>e.waitUntil(
  caches.open(CACHE).then(async c=>{
@@ -9,7 +9,7 @@ self.addEventListener('install',e=>e.waitUntil(
  }).then(()=>self.skipWaiting())
 ));
 self.addEventListener('activate',e=>e.waitUntil(
- caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('saymore-')&&k!==CACHE&&k!=='saymore-rc-20261025-offline-fallback-v6').map(k=>caches.delete(k))))
+ caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('saymore-')&&k!==CACHE&&!k.startsWith('saymore-rc-')).map(k=>caches.delete(k))))
  .then(()=>self.clients.claim())
 ));
 self.addEventListener('fetch',e=>{
