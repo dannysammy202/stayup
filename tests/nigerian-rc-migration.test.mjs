@@ -53,7 +53,7 @@ test('RC uses migration and no global storage.clear; false sync or adult verific
  const html=readFileSync('public/rc/index.html','utf8');
  const sw=readFileSync('public/rc/sw.js','utf8');
  assert.match(html,/\/rc\/migration\.js/);
- assert.match(html,/SayMoreMigration\.migrate/);
+ assert.match(html,/SayMoreMigration\?\.migrate/);
  assert.match(html,/legacyNotice\("saved"\)/);
  assert.match(html,/legacyNotice\("history"\)/);
  assert.doesNotMatch(html,/localStorage\.clear\(\)/);
