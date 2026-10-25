@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import vm from 'node:vm';
 
-const html=readFileSync('public/index.html','utf8');
+const html=readFileSync('public/classic/index.html','utf8');
 const marker='<div id="app"></div><script>';
 const src=html.slice(html.indexOf(marker)+marker.length,html.indexOf('</script><script src="/update-check.js"'));
 const assets=vm.createContext({window:{}});

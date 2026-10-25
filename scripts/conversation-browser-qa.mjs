@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 const require=createRequire(import.meta.url);
 const {chromium}=require('playwright-core');
-const base=process.env.BASE_URL||'http://127.0.0.1:4173';
+const base=(process.env.BASE_URL||'http://127.0.0.1:4173').replace(/\/$/,'')+'/classic/';
 const chrome=process.env.CHROME_BIN||process.env.CHROMIUM_PATH||'/usr/bin/google-chrome';
 const browser=await chromium.launch({headless:true,executablePath:chrome,args:['--no-sandbox','--disable-dev-shm-usage']});
 const findings=[];
@@ -102,7 +102,7 @@ async function checkSize(width,height,label){
 }
 try{
  for(const s of [{width:390,height:844,label:'phone'},{width:768,height:1024,label:'small-tablet'},{width:820,height:1180,label:'tablet'},{width:1440,height:900,label:'desktop'}])await checkSize(s.width,s.height,s.label);
- await record('PWA offline cached shell',async()=>{
+ if(process.env.SKIP_LEGACY_OFFLINE!=='1') await record('PWA offline cached shell',async()=>{
   const context=await browser.newContext({viewport:{width:390,height:844},serviceWorkers:'allow'});
   const page=await context.newPage(); page.on('pageerror',e=>errors.push('offline: '+e.message));
   await page.goto(base,{waitUntil:'load'});

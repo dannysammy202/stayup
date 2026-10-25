@@ -9,7 +9,7 @@ test('library build gracefully skips absent archive',async()=>{
  assert.equal(result,null);
 });
 test('library loader and application inline script parse',()=>{
- const html=readFileSync(new URL('../public/index.html',import.meta.url),'utf8');
+ const html=readFileSync(new URL('../public/classic/index.html',import.meta.url),'utf8');
  const source=[...html.matchAll(/<script>([\s\S]*?)<\/script>/g)][0][1];
  assert.doesNotThrow(()=>new Script(source));
  assert.doesNotThrow(()=>new Script(readFileSync(new URL('../public/library-loader.js',import.meta.url),'utf8')));

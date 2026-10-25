@@ -48,7 +48,7 @@ test('game cards are unique and compatible with available communication formats'
  }
 });
 test('main application inline JavaScript parses and loads the pilot before initial render',()=>{
- const html=readFileSync(cwd+'/public/index.html','utf8');
+ const html=readFileSync(cwd+'/public/classic/index.html','utf8');
  assert.ok(html.includes('<script src="/conversation-experiences.js"></script>'));
  const marker='<div id="app"></div><script>';
  const start=html.indexOf(marker);

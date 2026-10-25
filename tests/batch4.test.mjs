@@ -5,7 +5,7 @@ import vm from 'node:vm';
 import {validateBatch4,TOPICS,MOODS,AUDIENCES,hash,normalise,isHeld} from '../scripts/batch4-release.mjs';
 const read=f=>JSON.parse(fs.readFileSync(f,'utf8'));
 const rows=read('content/batch4.json'),batch1=read('content/batch1.json'),batch3=read('content/batch3.json');
-const html=fs.readFileSync('public/index.html','utf8');
+const html=fs.readFileSync('public/classic/index.html','utf8');
 const source=html.slice(html.indexOf('function inPool(){'),html.indexOf('function sorted(list)'));
 const state={hidden:[],adult:false,topic:'All topics',mood:'All moods',audience:'Anyone',query:''};
 const adult={id:'adult',text:'An adults-only prompt.',adult:true,source:'editorial-original',topic:'Life',moods:['Bold'],audiences:['Partner'],editorialStatus:'approved'};
@@ -52,5 +52,5 @@ test('QA fingerprint matches and every similarity candidate is resolved',()=>{
 });
 test('the app and offline cache load Batch 4 after Batch 3',()=>{
  assert.match(html,/<script src="\/batch3-data.js"><\/script><script src="\/batch4-data.js"><\/script>/);
- const sw=fs.readFileSync('public/sw.js','utf8');assert.match(sw,/'\/batch4-data.js'/);assert.match(sw,/const networkFirst=.*batch4-data/);
+ const sw=fs.readFileSync('public/classic/legacy-sw.js','utf8');assert.match(sw,/'\/batch4-data.js'/);assert.match(sw,/const networkFirst=.*batch4-data/);
 });

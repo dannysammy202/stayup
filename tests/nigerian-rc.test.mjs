@@ -1,0 +1,103 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import vm from 'node:vm';
+
+const html=readFileSync('public/rc/index.html','utf8');
+const cardsSrc=readFileSync('public/rc/cards.js','utf8');
+const gamesSrc=readFileSync('public/rc/games.js','utf8');
+const inline=cardsSrc.match(/^window\.SAYMORE_COLLECTION_LIBRARY=(\[[\s\S]*\]);\s*$/);
+const game=gamesSrc.match(/^window\.SAYMORE_GAME_LIBRARY=(\[[\s\S]*\]);\s*$/);
+assert.ok(inline,'Nigerian-first conversation asset should be bundled');
+assert.ok(game,'Nigerian-first game asset should be bundled');
+assert.match(html,/\/rc\/cards\.js/);
+assert.match(html,/\/rc\/games\.js/);
+ assert.match(html,/\/rc\/game-overrides\.js/);
+const ideas=JSON.parse(inline[1]), games=JSON.parse(game[1]);
+const tally=(a,k)=>a.reduce((acc,x)=>{acc[x[k]]=(acc[x[k]]||0)+1;return acc},{});
+const norm=s=>s.toLowerCase().replace(/[^\p{L}\p{N}]+/gu,' ').trim();
+
+test('release candidate has 10 collections of 500 and 18 subject tags of 200',()=>{
+ assert.equal(ideas.length,5000);
+ const byCollection=tally(ideas,'collection');
+ assert.equal(Object.keys(byCollection).length,10);
+ assert.ok(Object.values(byCollection).every(n=>n===500));
+ const tagTotals={};
+ for(const c of ideas)for(const t of c.tags||[])tagTotals[t]=(tagTotals[t]||0)+1;
+ assert.equal(Object.keys(tagTotals).length,18);
+ assert.ok(Object.values(tagTotals).every(n=>n===200));
+ assert.equal(new Set(ideas.map(x=>x.id)).size,5000);
+ assert.equal(new Set(ideas.map(x=>norm(x.text))).size,5000);
+});
+
+test('release candidate contains 300 of each game format with isolated Truth and Dare',()=>{
+ assert.equal(games.length,2100);
+ const byKind=tally(games,'kind');
+ assert.deepEqual(Object.keys(byKind).sort(),['Dare','Hot Takes','Never Have I Ever','Story Spark','This or That','Truth','Would You Rather'].sort());
+ assert.ok(Object.values(byKind).every(n=>n===300));
+ assert.equal(new Set(games.map(x=>x.id)).size,2100);
+ assert.equal(new Set(games.map(x=>norm(x.text))).size,2100);
+});
+
+test('the 690 known overlaps are tracked rather than silently published as unique',()=>{
+ const texts=new Set(ideas.map(x=>norm(x.text)));
+ const overlap=games.filter(x=>texts.has(norm(x.text)));
+ assert.ok(overlap.length<=690,'Must not increase previously observed duplicates');
+ const ledger=readFileSync('public/rc/overlaps.csv','utf8');
+ assert.ok(ledger.includes('game_id,game_type'));
+ for(const x of overlap)assert.ok(ledger.includes(x.id));
+});
+
+test('game-specific candidate rewrites reduce copied conversation wording without changing deck sizes',()=> {
+ const originals=games.map(g=>({...g}));
+ const sandbox={window:{SAYMORE_GAME_LIBRARY:originals}};
+ vm.runInNewContext(readFileSync('public/rc/game-overrides.js','utf8'),sandbox,{timeout:10000});
+ assert.equal(sandbox.window.SAYMORE_GAME_EDITORIAL_REWRITE_COUNT,30);
+ const conversationTexts=new Set(ideas.map(x=>norm(x.text)));
+ const baseline=games.filter(g=>conversationTexts.has(norm(g.text))).length;
+ const overlap=originals.filter(x=>conversationTexts.has(norm(x.text)));
+ assert.ok(overlap.length<baseline,'Rewrites should remove some verbatim repeats');
+ assert.equal(new Set(originals.map(x=>norm(x.text))).size,2100,'No game prompts duplicate one another after overrides');
+ for(const card of originals.filter(x=>x.originalDraftText))assert.equal(card.editorialStatus,'rewritten_game_candidate_pending_independent_review');
+});
+
+test('effective release-candidate Games has no copied conversation cards after all 690 rewrites',()=>{
+ const runtime=games.map(g=>({...g}));
+ const sandbox={window:{SAYMORE_GAME_LIBRARY:runtime}};
+ vm.runInNewContext(readFileSync('public/rc/game-overrides.js','utf8'),sandbox,{timeout:10000});
+ vm.runInNewContext(readFileSync('public/rc/game-overrides-remaining.js','utf8'),sandbox,{timeout:10000});
+ assert.equal(sandbox.window.SAYMORE_GAME_EDITORIAL_REWRITE_COUNT,30);
+ assert.equal(sandbox.window.SAYMORE_GAME_ADDITIONAL_REWRITES,660);
+ assert.equal(runtime.length,2100);
+ const counts=tally(runtime,'kind');
+ assert.ok(Object.values(counts).every(n=>n===300),'Every game kind retains exactly 300 entries');
+ const texts=new Set(ideas.map(x=>norm(x.text)));
+ const duplicates=runtime.filter(x=>texts.has(norm(x.text)));
+ assert.equal(duplicates.length,0,'Games must not copy a regular conversation card verbatim');
+ assert.equal(new Set(runtime.map(x=>norm(x.text))).size,runtime.length,'Rewrites must not duplicate game prompts');
+ const rewritten=runtime.filter(x=>x.originalDraftText);
+ assert.equal(rewritten.length,690);
+ assert.ok(rewritten.every(x=>x.editorialStatus==='rewritten_game_candidate_pending_independent_review'));
+ assert.match(html,/\/rc\/game-overrides-remaining\.js/);
+ const sw=readFileSync('public/rc/sw.js','utf8');
+ assert.match(sw,/\/rc\/game-overrides-remaining\.js/);
+ assert.doesNotThrow(()=>new vm.Script(sw),'RC service worker must be syntactically valid');
+ assert.doesNotMatch(sw,/const FILES=\['\/rc\/',/,'Service-worker install must not precache the directory route');
+});
+
+test('staged route uses existing official Iconsax, scoped service worker and isolated saves',()=>{
+ assert.match(html,/\/iconsax\/part-1\.js/);
+ assert.doesNotMatch(html,/esm\.sh\/iconsax/);
+ assert.match(html,/saymore-ng-v2-/);
+ assert.doesNotMatch(html,/sm-proto-ng-sample-/);
+ assert.match(html,/Open classic Say More/);
+ const sw=readFileSync('public/rc/sw.js','utf8');
+ assert.match(sw,/\/rc\/index\.html/);
+ assert.match(sw,/u\.pathname\.startsWith\('\/rc\/'\)/);
+ const current=readFileSync('public/index.html','utf8');
+ assert.match(current,/\/rc\/game-overrides-remaining\.js/);
+ assert.match(current,/\/manifest\.webmanifest/);
+ assert.match(current,/\/sw\.js/);
+ const classic=readFileSync('public/classic/index.html','utf8');
+ assert.match(classic,/conversation-companion-proto-v4/);
+});

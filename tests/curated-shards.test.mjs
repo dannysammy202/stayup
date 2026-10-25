@@ -69,7 +69,7 @@ test('published counts match physical content files',()=>{
 });
 
 test('client stays on local assets and preserves Iconsax and Gemini',()=>{
- const html=readFileSync('public/index.html','utf8');
+ const html=readFileSync('public/classic/index.html','utf8');
  assert.match(html,/src="\/curated-shards\.js"/);
  assert.match(html,/function schedulePublishedForView\(/);
  assert.match(html,/function loadNextPublishedFiles\(/);

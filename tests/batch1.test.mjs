@@ -4,7 +4,7 @@ import fs from 'node:fs';
 import vm from 'node:vm';
 import {validateBatch,TOPICS,MOODS,AUDIENCES,hash} from '../scripts/batch1-release.mjs';
 const rows=JSON.parse(fs.readFileSync('content/batch1.json','utf8'));
-const html=fs.readFileSync('public/index.html','utf8');
+const html=fs.readFileSync('public/classic/index.html','utf8');
 const source=html.slice(html.indexOf('function inPool(){'),html.indexOf('function sorted(list)'));
 const state={hidden:[],adult:false,topic:'All topics',mood:'All moods',audience:'Anyone',query:''};
 const archived={id:'old',text:'An earlier saved prompt.',adult:false,source:'saved-archive',topic:'Life',moods:['Chill'],audiences:['Friends'],editorialStatus:'approved'};

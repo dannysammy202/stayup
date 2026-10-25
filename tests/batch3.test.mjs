@@ -5,7 +5,7 @@ import vm from 'node:vm';
 import {validateBatch3,TOPICS,MOODS,AUDIENCES,hash,normalise} from '../scripts/batch3-release.mjs';
 const rows=JSON.parse(fs.readFileSync('content/batch3.json','utf8'));
 const batch1=JSON.parse(fs.readFileSync('content/batch1.json','utf8'));
-const html=fs.readFileSync('public/index.html','utf8');
+const html=fs.readFileSync('public/classic/index.html','utf8');
 const source=html.slice(html.indexOf('function inPool(){'),html.indexOf('function sorted(list)'));
 const state={hidden:[],adult:false,topic:'All topics',mood:'All moods',audience:'Anyone',query:''};
 const adult={id:'adult',text:'An adults-only prompt.',adult:true,source:'editorial-original',topic:'Life',moods:['Bold'],audiences:['Partner'],editorialStatus:'approved'};
@@ -53,5 +53,5 @@ test('QA fingerprint matches content and every similarity candidate is resolved'
 });
 test('the app and offline cache load Batch 3 alongside Batch 1',()=>{
  assert.match(html,/<script src="\/batch1-data.js"><\/script><script src="\/batch3-data.js"><\/script>/);
- const sw=fs.readFileSync('public/sw.js','utf8');assert.match(sw,/'\/batch3-data.js'/);assert.match(sw,/const networkFirst=.*batch3-data/);
+ const sw=fs.readFileSync('public/classic/legacy-sw.js','utf8');assert.match(sw,/'\/batch3-data.js'/);assert.match(sw,/const networkFirst=.*batch3-data/);
 });

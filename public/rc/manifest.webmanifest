@@ -1,0 +1,18 @@
+{
+  "name": "Say More — Nigerian-First Review",
+  "short_name": "Say More RC",
+  "description": "A Nigerian-first conversation companion release candidate.",
+  "start_url": "/rc/",
+  "scope": "/rc/",
+  "display": "standalone",
+  "background_color": "#0d1113",
+  "theme_color": "#111517",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

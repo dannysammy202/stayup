@@ -27,8 +27,8 @@ test('every conversation-first starter has its own optional conversational obser
  }
 });
 test('bridge asset is loaded and cached for offline PWA users',()=>{
- const html=readFileSync('public/index.html','utf8');
- const sw=readFileSync('public/sw.js','utf8');
+ const html=readFileSync('public/classic/index.html','utf8');
+ const sw=readFileSync('public/classic/legacy-sw.js','utf8');
  assert.match(html,/conversation-bridges\.js/);
  assert.match(sw,/conversation-bridges\.js/);
  assert.match(html,/const BRIDGES=window\.SayMoreBridges\|\|\{\}/);
