@@ -19,7 +19,7 @@ async function contextFor(width,height,serviceWorkers='block'){
 }
 async function openPage(c,label){
  const page=await c.newPage();listen(page,label);
- const response=await page.goto(base+'/rc/',{waitUntil:'load',timeout:35000});
+ const response=await page.goto(base+'/rc/index.html',{waitUntil:'load',timeout:35000});
  assert.equal(response.status(),200);
  await page.locator('#screen .scroller').waitFor({timeout:30000});
  return page;
@@ -89,7 +89,7 @@ try{
   assert.match(await page.locator('.pref-box').innerText(),/1 earlier saved cards preserved/i);
   assert.ok(await page.locator('a[href="/classic/"]').count()>0);
   await page.locator('[data-action="nav"][data-page="settings"]').first().click().catch(async()=>{
-   await page.goto(base+'/rc/');await page.locator('[data-action="nav"][data-page="settings"]').first().click();
+   await page.goto(base+'/rc/index.html');await page.locator('[data-action="nav"][data-page="settings"]').first().click();
   });
   await page.locator('[data-action="nav"][data-page="account"]').click();
   assert.match(await page.locator('.pref-box').innerText(),/No account is required/);
