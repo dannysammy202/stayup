@@ -117,6 +117,47 @@ try{
   await c.close();
   return {offline:true};
  });
+
+ await check('public homepage serves approved Nigerian-first experience',async()=>{
+  const c=await contextFor(390,844,'block');
+  try{
+   const page=await c.newPage();
+   listen(page,'public-homepage');
+   const response=await page.goto(base+'/',{waitUntil:'load',timeout:35000});
+   assert.equal(response.status(),200);
+   assert.match(await page.title(),/Say More.*Better Conversations/);
+   await page.locator('#screen .scroller').waitFor({timeout:25000});
+   assert.ok(await page.locator('[data-action="open-collection"]').count()>0);
+   await page.locator('.navbtn[data-page="games"]').click();
+   await page.locator('[data-action="open-game"][data-id="truthdare"]').click();
+   assert.match(await page.locator('.collection-hero .meta').innerText(),/300 cards/);
+   await page.locator('.navbtn[data-page="saved"]').click();
+   await page.locator('[data-action="nav"][data-page="settings"]').first().click();
+   await page.locator('[data-action="nav"][data-page="account"]').click();
+   assert.match(await page.locator('.pref-box').first().innerText(),/No account is required/);
+   assert.equal(await page.locator('input[type="email"]').count(),0);
+   return {newHomepage:true,localOnly:true};
+  }finally{await c.close();}
+ });
+ await check('public homepage works offline as installed PWA',async()=>{
+  const c=await contextFor(390,844,'allow');
+  try{
+   const page=await c.newPage();
+   listen(page,'public-offline');
+   await page.goto(base+'/',{waitUntil:'load',timeout:35000});
+   await page.waitForFunction(()=>navigator.serviceWorker.controller!==null,{timeout:20000}).catch(async()=>{
+    await page.reload({waitUntil:'load'});
+    await page.waitForFunction(()=>navigator.serviceWorker.controller!==null,{timeout:20000});
+   });
+   await page.waitForTimeout(500);
+   await c.setOffline(true);
+   await page.reload({waitUntil:'load',timeout:25000});
+   assert.ok(await page.locator('.hero').count()>0);
+   await page.locator('.navbtn[data-page="games"]').click();
+   assert.ok(await page.locator('[data-action="open-game"][data-id="truthdare"]').count()>0);
+   return {offline:true};
+  }finally{await c.close();}
+ });
 }finally{await browser.close()}
 report.finishedAt=new Date().toISOString();
 report.status=report.checks.every(x=>x.status==='pass')&&report.pageErrors.length===0?'passed':'failed';
