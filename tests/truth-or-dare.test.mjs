@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {Script,runInNewContext} from 'node:vm';
 
-const html=readFileSync('public/index.html','utf8');
+const html=readFileSync('public/classic/index.html','utf8');
 const css=readFileSync('public/truth-or-dare.css','utf8');
 const sources=['tod-truth-banks.js','tod-dare-banks.js','truth-or-dare-data.js'];
 const sandbox={window:{}};
