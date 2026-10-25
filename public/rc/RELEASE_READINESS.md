@@ -1,29 +1,34 @@
-# Say More — Nigerian-first release readiness
+# Say More — Nigerian-first release candidate
+**Status: staged for editorial/device review. Do not merge or promote to production.**
 
-**Status: STAGING / DO NOT PROMOTE TO MAIN.**
+The redesigned candidate is at `/rc/` in the existing Say More project. The original app at `/` remains unchanged, with the same classic app also preserved at `/classic/`.
 
-The mobile-first redesigned candidate lives at `/rc/`, with 5,000 conversation drafts and 2,100 game drafts across seven types (300 per type), plus 18 Nigerian-life subtopics. The existing homepage `/` has not been modified.
+## Integrated
+- Ten permanent collections × 500 **draft** cards = 5,000.
+- Eighteen searchable Nigerian-life subtopics with 200 indexed cards each (multiple tags are possible).
+- Seven game content types × 300 **draft** cards = 2,100, with separate Truth/Dare tabs.
+- The approved mobile-first layout, official local Iconsax icons, focus/swipe navigation, Saved and History.
+- A scoped RC service worker with offline assets.
+- A non-destructive legacy Saved/History compatibility layer. Classic storage is never overwritten, unmatched historical IDs stay in the classic app, and data can be exported. Reset only clears RC preferences.
+- No simulated account sign-in and no demo-only 18+ unlock: those features are explicitly unavailable.
 
-## Release-safety work completed on PR #110
-1. Preserved the original classic app verbatim at `/classic/`. Original storage `conversation-companion-proto-v4` remains the source of truth for old saved/history IDs.
-2. Added `/rc/migration.js`: backs up the original local snapshot, merges any exact-ID matches into the new UI once, and reports unmatched old IDs with a link to `/classic/`. Does **not** overwrite/delete the classic key.
-3. Added local-data export from Privacy settings. Reset removes only `saymore-ng-v2-*` preferences, retains the legacy backup and migration marker, and never uses `localStorage.clear()`.
-4. Removed simulated sign-in/email collection. Explicitly state that account sync **does not exist** yet; saved/history are local-only.
-5. Disabled the prototype's 18+ switch and DOB demo. No adult-only catalogue is reachable in this release candidate. Age verification and adult content isolation must be separately implemented before enabling that feature.
-6. Added migration regression tests and expanded RC UI/content tests. The RC service worker includes both the migration and editorial correction scripts.
-7. Rewrote 30 overlapping game entries into candidate game-specific Nigerian prompts, with independent editorial review **still pending**. Original source data is preserved for audit.
+## Game editorial-correction audit
+The original staging deck contained **690 verbatim repetitions** from regular conversation cards: 300 Truth, 300 Hot Takes and 90 Story Spark.
+- `game-overrides.js` rewrote the first **30**.
+- `game-overrides-remaining.js` now rewrites the remaining **660**, distributed throughout their game decks.
+- **Effective runtime exact overlap is now zero** when both rewrite scripts load, based on normalized text comparison against the 5,000 regular conversation cards.
+- Each of the seven game types still contains exactly 300 distinct game cards.
+- Original copies remain in `games.js` and the historical `overlaps.csv` ledger for traceability; the browser loads both correction scripts after `games.js`.
+- New originals are labelled `rewritten_game_candidate_pending_independent_review` until editorial approval. Zero matching strings is **not** proof that every game is distinct in meaning or feels natural.
 
-## Outstanding main release blockers
-- **660 verbatim game/conversation overlaps remain** (previously 690) in the **effective runtime game catalogue**. Do not bulk mask the repetitions with formulaic word substitutions or count them as independently original. The historical `overlaps.csv` includes the original 690 entries as an audit ledger; 30 are overwritten at runtime by `game-overrides.js`.
-- All 7,100 catalogue entries remain **working drafts**, not independently editorially signed off. QA on naturalness, repetition and contextual appropriateness is still required.
-- Optional account sync is disabled, not implemented. The agreed cross-device feature should be built and tested with a real authentication/data service before advertised or enabled.
-- The 18+ feature is disabled, not production-ready. Real age assurance and adult-content separation require security/privacy review before access.
-- Physical iPhone Safari/Android PWA, offline installation, large-library performance, accessibility, and data migration on existing user devices need review.
-- Production cutover still requires a dedicated change to `public/index.html`, root PWA, and redirect/rollback testing. The classic route must remain accessible.
+## Remaining release gates
+1. **Independent editorial approval** of the 7,100 cards, especially the 690 game rewrites. The audit spreadsheet `editorial-game-review.csv` lists previous copied wording and new 660 alternatives. Spot-test the whole catalogue with Nigerian users and reject awkward, repetitive or culturally mismatched ideas.
+2. **Actual-device testing** (iOS Safari/PWA and Android Chrome/PWA), including offline launch, responsive layout, focus navigation, save persistence, touch gestures, accessibility and data-export reliability.
+3. **Migration dry-run on existing-user devices.** The classic key must remain intact, unmatched older IDs must be recoverable, and reset must never wipe unrelated storage.
+4. **Feature decision:** the current RC is local-only, with account sync and 18+ disabled. Either explicitly accept those omissions for first release, or implement authenticated cross-device data sync and real adult age assurance with isolation before advertising those features.
+5. **Separate root cutover review** when all gates pass. Do not replace `public/index.html` or production root service-worker rules as part of the content staging PR. Keep `/classic/` for rollback.
 
-## Safe release gates
-1. Editorial pass with no verbatim cross-experience reuse beyond deliberate, documented exceptions and no mechanical filler.
-2. User approval for shipping an explicitly local-only/no-18+ release, **or** implementation and testing of optional account sync and adult mode.
-3. CI green for the candidate head commit and release browser QA including iPhone/Android checks.
-4. Migration dry run: old Saved/History remain recoverable, backups export, rollback to `/classic/` works.
-5. Only then promote root with a separate reviewed cutover commit. No automatic main merge based only on deployment READY.
+## Automated checks
+- `tests/nigerian-rc.test.mjs` verifies 5,000 unique conversation cards, 2,100 unique game cards (300 each), 18 subjects, zero effective cross-experience verbatim duplicates and required scripts.
+- `tests/nigerian-rc-migration.test.mjs` checks non-destructive saved/history migration, protected legacy storage and scoped reset.
+- GitHub CI and Vercel preview readiness must be green on the **latest head commit** before deployment approval.
