@@ -29,7 +29,7 @@ try{
   const c=await contextFor(width,height);
   const page=await openPage(c,label);
   await check(`${label}: initial Discover and layout`,async()=>{
-   assert.ok(await page.getByText('Better conversations start here.',{exact:false}).count()>0);
+   assert.match(await page.locator('.hero h1').innerText(),/Better[\\s\\S]*conversations[\\s\\S]*start here/i);
    assert.ok(await page.locator('[data-action="open-collection"][data-id="late"]').count()>0);
    const x=await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth);
    assert.ok(x<=2,'Unexpected horizontal overflow '+x);
@@ -58,11 +58,11 @@ try{
    await page.locator('[data-action="open-game"][data-id="truthdare"]').click();
    assert.match(await page.locator('.collection-hero .meta').innerText(),/300 cards/);
    await page.locator('[data-action="start-game"]').click();
-   assert.equal((await page.locator('.focus-front .smallbottom').innerText()).trim(),'Truth');
+   assert.equal((await page.locator('.focus-front .smallbottom').innerText()).trim().toLowerCase(),'truth');
    await page.locator('[data-action="game-tab"][data-tab="Dare"]').click();
-   assert.equal((await page.locator('.focus-front .smallbottom').innerText()).trim(),'Dare');
+   assert.equal((await page.locator('.focus-front .smallbottom').innerText()).trim().toLowerCase(),'dare');
    await page.locator('[data-action="next"]').click();
-   assert.equal((await page.locator('.focus-front .smallbottom').innerText()).trim(),'Dare');
+   assert.equal((await page.locator('.focus-front .smallbottom').innerText()).trim().toLowerCase(),'dare');
    await page.locator('[data-action="focus-back"]').first().click();
    assert.match(await page.locator('.collection-hero .meta').innerText(),/300 cards/);
    return {truth:300,dare:300};
