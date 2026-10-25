@@ -4,6 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#111517">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <link rel="manifest" href="/manifest.webmanifest">
   <meta name="description" content="A Nigerian-first companion for conversations worth having.">
   <title>Say More | Better Conversations</title>
@@ -42,6 +44,45 @@
     .subtopic-cards{padding:12px 24px 45px;display:grid;grid-template-columns:1fr 1fr;gap:12px}.subtopic-cards .idea-card{width:100%}
     .subtopic-description{padding:0 24px 12px;color:#c1c9c6;font-size:13px;line-height:1.6}
     @media(max-width:360px){.topic-grid{grid-template-columns:1fr}.subtopic-cards{grid-template-columns:1fr}}
+
+  /* Actual iOS/Android viewport, not a phone simulator inside a real phone. */
+  .status{display:none!important}
+  .standalone-mode .viewport{padding-top:env(safe-area-inset-top,0px)}
+  .standalone-mode .scroller{min-height:0}
+  @media(max-width:619px){
+    :root{--bottom:66px}
+    #app-shell{box-shadow:none;min-height:100svh;width:100%}
+    .viewport{width:100%;height:100svh;min-height:100svh}
+    .scroller{min-height:0;height:100%;padding-bottom:calc(var(--bottom) + env(safe-area-inset-bottom,0px) + 20px)}
+    .titlebar{padding:15px 21px 3px;min-height:52px}
+    .wordmark{font-size:27px}
+    .hero{padding:18px 21px 10px;min-height:0}
+    .hero h1{font-size:clamp(31px,8.8vw,37px);line-height:1.06;max-width:340px;letter-spacing:-.7px;margin:0 0 11px}
+    .hero p{font-size:13px;line-height:1.52;max-width:315px;margin:0 0 15px}
+    .hero:before{width:150px;height:145px;right:-94px;top:33px;opacity:.58}
+    .cream-pill{min-height:42px}
+    .section{margin-top:20px}
+    .sectionhead{padding:0 21px;margin-bottom:12px;gap:12px;align-items:flex-start}
+    .sectionhead h2{font-size:16px;line-height:1.25;flex:1;min-width:0}
+    .link-btn{font-size:12px;flex-shrink:0;min-height:25px}
+    .hscroll{padding:0 21px 4px;gap:12px}
+    .hscroll .idea-card{width:min(69vw,246px);min-height:176px}
+    .hscroll .idea-card .idea{font-size:18px;line-height:1.19}
+    .topic-strip{padding-left:21px;padding-right:21px}
+    .bottomnav{height:calc(var(--bottom) + env(safe-area-inset-bottom,0px));padding:7px 8px calc(8px + env(safe-area-inset-bottom,0px))}
+    .navbtn{font-size:11px;gap:4px;min-width:0}
+    .navbtn .icon,.navbtn .icon svg{width:23px;height:23px}
+    .navbtn.on::before{top:-3px;bottom:auto;left:50%;transform:translateX(-50%);width:18px;height:3px;border-radius:3px}
+    .collection-hero{padding-top:18px;min-height:300px}
+    .collection-hero h1{margin-top:16px;font-size:39px}
+    .focus-top{height:67px;padding:10px 21px 0;flex-shrink:0}
+    .focus-area{min-height:0;padding:8px 25px 13px}
+    .deck-stack{min-height:min(340px,46svh);height:min(47svh,400px)}
+    .focus-actions{padding:8px 16px calc(16px + env(safe-area-inset-bottom,0px));gap:7px}
+    .onboard .top{padding-top:20px}
+    .obmain{padding-top:30px}
+    .obbottom{padding-bottom:calc(22px + env(safe-area-inset-bottom,0px))}
+  }
 </style>
   <!-- Official Iconsax web component. A typographic fallback keeps this standalone prototype usable offline. -->
   <script type="module">/* Iconsax icons are served locally from the existing Say More assets. */</script>
@@ -167,7 +208,7 @@ const saveStore=()=>{try{for(let k of ['saved','history','onboard','theme','cont
 const classicURL='/classic/';
 const legacyNotice=type=>{const list=type==='saved'?legacyRecords.archivedSaved:legacyRecords.archivedHistory;
 return list?.length?`<div class="pref-box" style="margin:8px 24px 18px"><strong>${list.length} earlier ${type==='saved'?'saved cards':'history items'} preserved</strong><p>These were created in the previous Say More library and do not match current card IDs. Nothing was deleted. You can open them in the classic app or export a backup.</p><a href="${classicURL}" class="cream-pill" style="display:inline-flex;text-decoration:none;margin-top:10px">Open classic Say More</a></div>`:'';};
-const status=()=>`<div class="status" aria-hidden="true"><span></span><span class="status-right"><svg viewBox="0 0 16 14" fill="currentColor"><path d="M1 11h2v3H1zm3-3h2v6H4zm3-3h2v9H7zm3-3h2v12h-2z"/></svg><svg viewBox="0 0 16 14" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M1 5C5 1 11 1 15 5M4 8c3-3 5-3 8 0M7 11l1 1 1-1"/></svg><svg viewBox="0 0 20 11" fill="none"><rect x=".5" y="1" width="16" height="9" rx="2" stroke="currentColor"/><rect x="2" y="2.5" width="12" height="6" rx="1" fill="currentColor"/><rect x="18" y="4" width="2" height="3" rx="1" fill="currentColor"/></svg></span></div>`;
+const status=()=>'';
 const footer=()=>`<nav class="bottomnav" aria-label="Main navigation">${[['discover','Discover','discover','◉'],['games','Games','game','♧'],['saved','Saved','bookmark','♧'],['history','History','clock','◷']].map(([p,t,i,f])=>`<button class="navbtn ${state.page===p?'on':''}" data-action="nav" data-page="${p}" aria-label="${t}" ${state.page===p?'aria-current="page"':''}>${icon(i,f)}<span>${t}</span></button>`).join('')}</nav>`;
 const frame=(content,foot=true,withStatus=true)=>`<div class="scroller">${withStatus?status():''}${content}</div>${foot?footer():''}`;
 const header=(title='say more.')=>`<header class="titlebar"><div class="wordmark">say more<i>.</i></div><button class="top-icon" data-action="nav" data-page="settings" aria-label="Settings and account">${icon('profile-circle','◉')}</button></header>`;
@@ -176,7 +217,7 @@ const tile=c=>`<button class="deck-tile" style="${styleColor(c.color)}" data-act
 const gameTile=(g,large=false)=>`<button class="${large?'deck-tile':'game-tile'}" style="${styleColor(g.color)}" data-action="open-game" data-id="${g.id}" aria-label="Open ${esc(g.name)}"><span class="decor">${g.symbol}</span><span class="name">${esc(g.name)}</span>${large?`<span class="count">${gameItems.filter(i=>i.game===g.id).length} cards</span><span class="tile-arr">›</span>`:''}</button>`;
 const card=(o,cl='',scope='')=>`<button class="idea-card ${cl}" style="${styleColor(o.color)}" data-action="${scope==='featured'?'open-featured-card':'open-card'}" data-id="${o.id}" aria-label="Open card: ${esc(o.text)}"><span class="eyebrow">${esc(o.kind)}</span><span class="idea">${esc(o.text)}</span><span class="tile-arr">›</span></button>`;
 const section=(name,body,action='',all='See all')=>`<section class="section"><div class="sectionhead"><h2>${esc(name)}</h2>${action?`<button class="link-btn" data-action="${action}">${all} ${icon('arrow-right','→','iconsmall')}</button>`:''}</div>${body}</section>`;
-function renderDiscover(){return frame(`${header()}<div class="hero"><h1 class="serif">Better<br>conversations<br>start here.</h1><p>Curated ideas, games and collections to help you say more, naturally.</p><button class="cream-pill" data-action="random">${icon('magic-star','✦','iconsmall')} Random idea ${icon('arrow-right','→','iconsmall')}</button></div>${section('Questions That Get People Talking',`<div class="hscroll">${featuredIdeas.map(o=>card(o,'','featured')).join('')}</div>`,'featured','Explore')}${section('Explore Nigerian life',`<div class="topic-strip">${subtopics.slice(0,9).map(t=>`<button class="topic-chip" data-action="open-subtopic" data-id="${t.id}">${t.icon} ${esc(t.name)}</button>`).join('')}</div>`,'nav-subtopics','See all')}${section('Collections',`<div class="hscroll">${collections.map(tile).join('')}</div>`,'all-collections')}${section('Games',`<div class="hscroll">${gameDefs.map(g=>gameTile(g)).join('')}</div>`,'nav-games')}${section('Explore a vibe',`<div class="filter-bar">${['Playful','Deep','Curious','Bold','Relaxed'].map(v=>`<button class="chip" data-action="vibe" data-vibe="${v}">${v}</button>`).join('')}</div>`)}<div class="spacer"></div>`)}
+function renderDiscover(){return frame(`${header()}<div class="hero"><h1 class="serif">Better conversations start here.</h1><p>Curated ideas, games and collections to help you say more, naturally.</p><button class="cream-pill" data-action="random">${icon('magic-star','✦','iconsmall')} Random idea ${icon('arrow-right','→','iconsmall')}</button></div>${section('Questions That Get People Talking',`<div class="hscroll">${featuredIdeas.map(o=>card(o,'','featured')).join('')}</div>`,'featured','Explore')}${section('Explore Nigerian life',`<div class="topic-strip">${subtopics.slice(0,9).map(t=>`<button class="topic-chip" data-action="open-subtopic" data-id="${t.id}">${t.icon} ${esc(t.name)}</button>`).join('')}</div>`,'nav-subtopics','See all')}${section('Collections',`<div class="hscroll">${collections.map(tile).join('')}</div>`,'all-collections')}${section('Games',`<div class="hscroll">${gameDefs.map(g=>gameTile(g)).join('')}</div>`,'nav-games')}${section('Explore a vibe',`<div class="filter-bar">${['Playful','Deep','Curious','Bold','Relaxed'].map(v=>`<button class="chip" data-action="vibe" data-vibe="${v}">${v}</button>`).join('')}</div>`)}<div class="spacer"></div>`)}
 function renderAllCollections(){return frame(`${header()}<div class="pagehead"><div><h1>Collections</h1><p>Find a deck for every kind of conversation.</p></div></div><div class="gamegrid">${collections.map(c=>tile(c)).join('')}</div>`)}
 function renderCollection(){let c=collection(state.collection)||collections[0],subset=ideas.filter(i=>i.collection===c.id);return frame(`<div class="collection-hero" data-symbol="${esc(c.symbol)}" style="background:radial-gradient(circle at 86% 23%,#e6b57637,transparent 46%),linear-gradient(135deg,${heroTints[c.color]||'#40323b'},#101618)">${status()}<button class="backbtn" data-action="nav" data-page="discover" aria-label="Back to Discover">${icon('arrow-left','←')}</button><h1>${esc(c.name)}</h1><div class="meta">${subset.length} ideas · ${esc(c.vibe)}</div><p>${esc(c.desc)}</p><button class="cream-pill" data-action="start-collection" data-id="${c.id}"><span>${icon('play','▶','iconsmall')} &nbsp; Start Exploring</span>${icon('arrow-right','→','iconsmall')}</button></div><div class="stack-list"><h2>Conversation Ideas</h2><p style="opacity:.75;font-size:12px;margin:-2px 0 15px">Nigerian-first editorial preview · 500 working draft ideas per collection · Pending editorial approval</p>${subset.map(o=>card(o,'inlist')).join('')}</div>`,false,false)}
 function renderFeaturedDetail(){return frame(`<div class="collection-hero" data-symbol="✦" style="background:radial-gradient(circle at 86% 23%,#e6b5763b,transparent 46%),linear-gradient(135deg,#3b3d36,#101618)">${status()}<button class="backbtn" data-action="nav" data-page="discover" aria-label="Back to Discover">${icon('arrow-left','←')}</button><h1>Questions That Get People Talking</h1><div class="meta">${featuredIdeas.length} selected ideas · Rotating picks</div><p>Easy-to-bring-up questions selected from across our collections. Find something interesting to say right now.</p><button class="cream-pill" data-action="start-featured"><span>${icon('play','▶','iconsmall')} &nbsp; Start Exploring</span>${icon('arrow-right','→','iconsmall')}</button></div><div class="stack-list"><h2>Today's Picks</h2>${featuredIdeas.map(o=>card(o,'inlist','featured')).join('')}</div>`,false,false)}

@@ -128,6 +128,15 @@ try{
    assert.match(await page.title(),/Say More.*Better Conversations/);
    await page.locator('#screen .scroller').waitFor({timeout:25000});
    assert.ok(await page.locator('[data-action="open-collection"]').count()>0);
+   assert.equal(await page.locator('.status').count(),0,'Do not render a second fake system status bar');
+   const geometry=await page.evaluate(()=>{
+      const box=sel=>{const r=document.querySelector(sel).getBoundingClientRect();return {top:r.top,bottom:r.bottom,height:r.height}};
+      return {header:box('.titlebar'),hero:box('.hero'),firstSection:box('.section'),nav:box('.bottomnav'),width:document.documentElement.scrollWidth};
+   });
+   assert.ok(geometry.header.top<25,'Logo should begin near the actual top of the web viewport');
+   assert.ok(geometry.firstSection.top<410,'Homepage first collection must not start below the fold');
+   assert.ok(geometry.nav.height<=76,'Bottom navigation should fit within a compact tab bar');
+   assert.ok(geometry.width<=390,'Phone homepage must not overflow sideways');
    await page.locator('.navbtn[data-page="games"]').click();
    await page.locator('[data-action="open-game"][data-id="truthdare"]').click();
    assert.match(await page.locator('.collection-hero .meta').innerText(),/300 cards/);
