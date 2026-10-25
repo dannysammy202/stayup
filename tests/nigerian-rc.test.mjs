@@ -3,10 +3,14 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 
 const html=readFileSync('public/rc/index.html','utf8');
-const inline=html.match(/window\.SAYMORE_COLLECTION_LIBRARY=(\[[\s\S]*?\]);<\/script>/);
-const game=html.match(/const gameItems=(\[[\s\S]*?\]);\s*\/\/ A homepage editorial feature/);
-assert.ok(inline,'Nigerian-first collection catalogue should be bundled');
-assert.ok(game,'Nigerian-first games should be bundled');
+const cardsSrc=readFileSync('public/rc/cards.js','utf8');
+const gamesSrc=readFileSync('public/rc/games.js','utf8');
+const inline=cardsSrc.match(/^window\.SAYMORE_COLLECTION_LIBRARY=(\[[\s\S]*\]);\s*$/);
+const game=gamesSrc.match(/^window\.SAYMORE_GAME_LIBRARY=(\[[\s\S]*\]);\s*$/);
+assert.ok(inline,'Nigerian-first conversation asset should be bundled');
+assert.ok(game,'Nigerian-first game asset should be bundled');
+assert.match(html,/\/rc\/cards\.js/);
+assert.match(html,/\/rc\/games\.js/);
 const ideas=JSON.parse(inline[1]), games=JSON.parse(game[1]);
 const tally=(a,k)=>a.reduce((acc,x)=>{acc[x[k]]=(acc[x[k]]||0)+1;return acc},{});
 const norm=s=>s.toLowerCase().replace(/[^\p{L}\p{N}]+/gu,' ').trim();
