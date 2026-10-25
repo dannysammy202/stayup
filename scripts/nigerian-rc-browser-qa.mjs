@@ -131,6 +131,7 @@ try{
    await page.locator('.navbtn[data-page="games"]').click();
    await page.locator('[data-action="open-game"][data-id="truthdare"]').click();
    assert.match(await page.locator('.collection-hero .meta').innerText(),/300 cards/);
+   await page.reload({waitUntil:'load'});
    await page.locator('.navbtn[data-page="saved"]').click();
    await page.locator('[data-action="nav"][data-page="settings"]').first().click();
    await page.locator('[data-action="nav"][data-page="account"]').click();
@@ -144,7 +145,7 @@ try{
   try{
    const page=await c.newPage();
    listen(page,'classic-fallback');
-   const response=await page.goto(base+'/classic/',{waitUntil:'load',timeout:35000});
+   const response=await page.goto(base+'/classic/index.html',{waitUntil:'load',timeout:35000});
    assert.equal(response.status(),200);
    assert.match(await page.title(),/Say More/);
    assert.ok(await page.locator('#app').count()>0);
