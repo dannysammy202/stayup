@@ -61,6 +61,28 @@ test('game-specific candidate rewrites reduce copied conversation wording withou
  for(const card of originals.filter(x=>x.originalDraftText))assert.equal(card.editorialStatus,'rewritten_game_candidate_pending_independent_review');
 });
 
+test('effective release-candidate Games has no copied conversation cards after all 690 rewrites',()=>{
+ const runtime=games.map(g=>({...g}));
+ const sandbox={window:{SAYMORE_GAME_LIBRARY:runtime}};
+ vm.runInNewContext(readFileSync('public/rc/game-overrides.js','utf8'),sandbox,{timeout:10000});
+ vm.runInNewContext(readFileSync('public/rc/game-overrides-remaining.js','utf8'),sandbox,{timeout:10000});
+ assert.equal(sandbox.window.SAYMORE_GAME_EDITORIAL_REWRITE_COUNT,30);
+ assert.equal(sandbox.window.SAYMORE_GAME_ADDITIONAL_REWRITES,660);
+ assert.equal(runtime.length,2100);
+ const counts=tally(runtime,'kind');
+ assert.ok(Object.values(counts).every(n=>n===300),'Every game kind retains exactly 300 entries');
+ const texts=new Set(ideas.map(x=>norm(x.text)));
+ const duplicates=runtime.filter(x=>texts.has(norm(x.text)));
+ assert.equal(duplicates.length,0,'Games must not copy a regular conversation card verbatim');
+ assert.equal(new Set(runtime.map(x=>norm(x.text))).size,runtime.length,'Rewrites must not duplicate game prompts');
+ const rewritten=runtime.filter(x=>x.originalDraftText);
+ assert.equal(rewritten.length,690);
+ assert.ok(rewritten.every(x=>x.editorialStatus==='rewritten_game_candidate_pending_independent_review'));
+ assert.match(html,/\/rc\/game-overrides-remaining\.js/);
+ const sw=readFileSync('public/rc/sw.js','utf8');
+ assert.match(sw,/\/rc\/game-overrides-remaining\.js/);
+});
+
 test('staged route uses existing official Iconsax, scoped service worker and isolated saves',()=>{
  assert.match(html,/\/iconsax\/part-1\.js/);
  assert.doesNotMatch(html,/esm\.sh\/iconsax/);
