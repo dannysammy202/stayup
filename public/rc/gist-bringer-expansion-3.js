@@ -1418,7 +1418,7 @@ window.SAYMORE_GIST_LIBRARY.push(...[
    "money"
   ],
   "angles": [
-   "Who was it?",
+   "Who came up with the savings plan?",
    "Did the plan work?",
    "Would you try the same approach?",
    "What happened after everyone thought it was over?"
