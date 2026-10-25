@@ -139,6 +139,18 @@ try{
    return {newHomepage:true,localOnly:true};
   }finally{await c.close();}
  });
+ await check('classic recovery app remains accessible',async()=>{
+  const c=await contextFor(390,844,'block');
+  try{
+   const page=await c.newPage();
+   listen(page,'classic-fallback');
+   const response=await page.goto(base+'/classic/',{waitUntil:'load',timeout:35000});
+   assert.equal(response.status(),200);
+   assert.match(await page.title(),/Say More/);
+   assert.ok(await page.locator('#app').count()>0);
+   return {classicFallback:true};
+  }finally{await c.close()}
+ });
  await check('public homepage works offline as installed PWA',async()=>{
   const c=await contextFor(390,844,'allow');
   try{
