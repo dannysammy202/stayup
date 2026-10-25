@@ -31,7 +31,7 @@
     return {...result,status:'preserved'};
   }
   function resetRC(store){
-    try{const keys=[];for(let i=0;i<store.length;i++){const k=store.key(i);if(k&&k.startsWith(PREFIX)&&k!==PREFIX+'legacy-backup')keys.push(k)}
+    try{const keys=[];for(let i=0;i<store.length;i++){const k=store.key(i);if(k&&k.startsWith(PREFIX)&&k!==PREFIX+'legacy-backup'&&k!==PREFIX+'migration-version')keys.push(k)}
       for(const k of keys)store.removeItem(k);return true;
     }catch{return false}
   }
