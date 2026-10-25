@@ -53,8 +53,8 @@ test('game-specific candidate rewrites reduce copied conversation wording withou
  const sandbox={window:{SAYMORE_GAME_LIBRARY:originals}};
  vm.runInNewContext(readFileSync('public/rc/game-overrides.js','utf8'),sandbox,{timeout:10000});
  assert.equal(sandbox.window.SAYMORE_GAME_EDITORIAL_REWRITE_COUNT,30);
- const baseline=games.filter(g=>new Set(ideas.map(x=>norm(x.text))).has(norm(g.text))).length;
  const conversationTexts=new Set(ideas.map(x=>norm(x.text)));
+ const baseline=games.filter(g=>conversationTexts.has(norm(g.text))).length;
  const overlap=originals.filter(x=>conversationTexts.has(norm(x.text)));
  assert.ok(overlap.length<baseline,'Rewrites should remove some verbatim repeats');
  assert.equal(new Set(originals.map(x=>norm(x.text))).size,2100,'No game prompts duplicate one another after overrides');
