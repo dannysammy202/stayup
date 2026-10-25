@@ -81,6 +81,8 @@ test('effective release-candidate Games has no copied conversation cards after a
  assert.match(html,/\/rc\/game-overrides-remaining\.js/);
  const sw=readFileSync('public/rc/sw.js','utf8');
  assert.match(sw,/\/rc\/game-overrides-remaining\.js/);
+ assert.doesNotThrow(()=>new vm.Script(sw),'RC service worker must be syntactically valid');
+ assert.doesNotMatch(sw,/const FILES=\['\/rc\/',/,'Service-worker install must not precache the directory route');
 });
 
 test('staged route uses existing official Iconsax, scoped service worker and isolated saves',()=>{
