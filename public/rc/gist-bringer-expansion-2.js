@@ -1792,7 +1792,7 @@ window.SAYMORE_GIST_LIBRARY.push(...[
    "faith"
   ],
   "angles": [
-   "Who asked?",
+   "Who asked you to speak?",
    "How nervous were you?",
    "What happened afterwards?",
    "What part would your closest friend find funniest?"
@@ -2233,7 +2233,7 @@ window.SAYMORE_GIST_LIBRARY.push(...[
   ],
   "angles": [
    "When did you realise?",
-   "Who helped?",
+   "Who helped you find the correct way?",
    "How much time did you lose?",
    "What would you tell someone in the same situation?"
   ],
