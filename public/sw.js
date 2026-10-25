@@ -1,7 +1,7 @@
 /* Say More Nigerian-first public PWA. Root launch, network-first shell and static card catalogue offline. */
-const CACHE='saymore-nigerian-first-20261025-launch-v2';
+const CACHE='saymore-nigerian-first-20261025-launch-v3';
 const ASSETS=['/','/index.html','/manifest.webmanifest','/icon.svg',
- '/rc/cards.js','/rc/gist-bringer.js','/rc/games.js','/rc/game-overrides.js','/rc/game-overrides-remaining.js','/rc/migration.js',
+ '/rc/cards.js','/rc/gist-bringer.js','/rc/gist-bringer-expansion-1.js','/rc/gist-bringer-expansion-2.js','/rc/gist-bringer-expansion-3.js','/rc/games.js','/rc/game-overrides.js','/rc/game-overrides-remaining.js','/rc/migration.js',
  ...Array.from({length:5},(_,i)=>'/iconsax/part-'+(i+1)+'.js')];
 self.addEventListener('install',e=>e.waitUntil(
  caches.open(CACHE).then(async c=>{
