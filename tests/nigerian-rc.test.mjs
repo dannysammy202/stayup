@@ -95,5 +95,9 @@ test('staged route uses existing official Iconsax, scoped service worker and iso
  assert.match(sw,/\/rc\/index\.html/);
  assert.match(sw,/u\.pathname\.startsWith\('\/rc\/'\)/);
  const current=readFileSync('public/index.html','utf8');
- assert.match(current,/conversation-companion-proto-v4/);
+ assert.match(current,/\/rc\/game-overrides-remaining\.js/);
+ assert.match(current,/\/manifest\.webmanifest/);
+ assert.match(current,/\/sw\.js/);
+ const classic=readFileSync('public/classic/index.html','utf8');
+ assert.match(classic,/conversation-companion-proto-v4/);
 });
