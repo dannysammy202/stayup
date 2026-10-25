@@ -60,7 +60,7 @@ test('both service workers cache offline Gist Bringer content', () => {
 });
 
 test('expanded Gist Bringer IDs remain stable and content spans Nigerian-life subjects',()=>{
-  assert.deepEqual(gist.map((x,i)=>x.id),Array.from({length:500},(_,i)=>`gist-${String(i+1).padStart(3,'0')}`));
+  assert.deepEqual(Array.from(gist,x=>x.id),Array.from({length:500},(_,i)=>`gist-${String(i+1).padStart(3,'0')}`));
   const tags=new Set(gist.flatMap(x=>x.tags));
   assert.ok(tags.size>=15, 'Broad Nigerian-life coverage is required');
   assert.ok(gist.every(x=>x.angles.length===4));
