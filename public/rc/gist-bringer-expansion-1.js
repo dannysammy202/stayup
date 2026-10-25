@@ -1587,7 +1587,7 @@ window.SAYMORE_GIST_LIBRARY.push(...[
  {
   "id": "gist-129",
   "collection": "gist",
-  "text": "What was the first thing you bought with money you earned yourself?",
+  "text": "Do you remember the first payday purchase you were proud enough to show somebody?",
   "kind": "Stories",
   "color": "sage",
   "tags": [
