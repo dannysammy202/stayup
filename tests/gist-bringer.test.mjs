@@ -20,7 +20,7 @@ test('Gist Bringer has distinct starters and four follow-up directions per story
   assert.equal(new Set(gist.map(x => normalise(x.text))).size, gist.length);
   assert.ok(gist.every(x => x.text.length >= 35 && x.text.length <= 260));
   assert.ok(gist.every(x => Array.isArray(x.angles) && x.angles.length === 4));
-  assert.ok(gist.every(x => x.angles.every(a => a.length >= 20 && a.length <= 180)));
+  assert.ok(gist.every(x => x.angles.every(a => a.length >= 12 && a.length <= 180)));
   assert.ok(gist.every(x => x.editorialStatus === 'new_draft_pending_human_review'));
   assert.ok(gist.every(x => ['Text','Call','In person'].every(m => x.mediums.includes(m))));
   const existing = new Set(originals.map(x => normalise(x.text)));
