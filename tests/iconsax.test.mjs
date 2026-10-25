@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import vm from 'node:vm';
 
-const html = readFileSync('public/index.html', 'utf8');
+const html = readFileSync('public/classic/index.html', 'utf8');
 const expectedBundles = [1, 2, 3, 4, 5];
 const icons = {};
 for (const part of expectedBundles) {
