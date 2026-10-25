@@ -6,7 +6,7 @@ import { validateCuratedLibrary } from '../scripts/validate-curated-library.mjs'
 
 const report=validateCuratedLibrary();
 const manifest=JSON.parse(readFileSync('public/library-data/manifest.json','utf8'));
-const html=readFileSync('public/index.html','utf8');
+const html=readFileSync('public/classic/index.html','utf8');
 
 test('all 798 combinations are tracked with 696 eligible and 102 excluded',()=>{
  assert.equal(report.target,139200);
