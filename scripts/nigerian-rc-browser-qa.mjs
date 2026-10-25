@@ -161,6 +161,59 @@ try{
    return {classicFallback:true};
   }finally{await c.close()}
  });
+ await check('Iconsax icons render across every primary production screen',async()=>{
+  const c=await contextFor(390,844,'block');
+  const routes=[];
+  try{
+    const page=await c.newPage();
+    listen(page,'iconsax-complete');
+    async function fresh(){
+      await page.goto(base+'/',{waitUntil:'load',timeout:35000});
+      await page.locator('#screen .scroller').waitFor({timeout:25000});
+    }
+    async function scan(label){
+      const missing=await page.evaluate(()=>{
+        return [...document.querySelectorAll('#screen .icon')].filter(el=>{
+          const svg=el.querySelector('svg');
+          return !svg||!svg.querySelector('path,circle,rect,polygon,polyline,line,ellipse')||
+            getComputedStyle(svg).display==='none'||svg.getBoundingClientRect().width<8;
+        }).map(el=>({icon:el.dataset.iconsax||'unknown',html:el.outerHTML.slice(0,180)}));
+      });
+      assert.deepEqual(missing,[],`Icons not rendered on ${label}: ${JSON.stringify(missing)}`);
+      routes.push(label);
+    }
+    await fresh(); await scan('Discover');
+    await page.locator('[data-action="open-collection"][data-id="late"]').first().click();
+    await scan('Collection details');
+    await page.locator('[data-action="start-collection"]').first().click();
+    await scan('Focus / action controls');
+    await fresh();
+    await page.locator('.navbtn[data-page="games"]').click();
+    await scan('Games');
+    await page.locator('[data-action="open-game"][data-id="truthdare"]').click();
+    await scan('Truth or Dare details');
+    await page.locator('[data-action="start-game"]').click();
+    await scan('Game focus controls');
+    await fresh();
+    await page.locator('[data-action="nav-subtopics"]').first().click();
+    await scan('Nigerian topics');
+    await page.locator('[data-action="open-subtopic"]').first().click();
+    await scan('Nigerian topic detail');
+    await fresh();
+    await page.locator('.navbtn[data-page="saved"]').click();
+    await scan('Saved');
+    await fresh();
+    await page.locator('.navbtn[data-page="history"]').click();
+    await scan('History');
+    await fresh();
+    await page.locator('[data-action="nav"][data-page="settings"]').first().click();
+    await scan('Settings');
+    await page.locator('[data-action="nav"][data-page="appearance"]').click();
+    await scan('Settings detail');
+    assert.ok(routes.length>=12,'Expected broad route coverage');
+    return {screens:routes};
+  }finally{await c.close()}
+ });
  await check('public homepage works offline as installed PWA',async()=>{
   const c=await contextFor(390,844,'allow');
   try{
