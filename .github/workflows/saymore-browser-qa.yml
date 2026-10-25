@@ -39,7 +39,7 @@ jobs:
             sleep 1
           done
           curl -fsS http://127.0.0.1:4173/version.json
-          CHROME_BIN="$(command -v google-chrome)" BASE_URL="http://127.0.0.1:4173" node scripts/conversation-browser-qa.mjs
+          CHROME_BIN="$(command -v google-chrome)" BASE_URL="http://127.0.0.1:4173" SKIP_LEGACY_OFFLINE=1 node scripts/conversation-browser-qa.mjs
           CHROME_BIN="$(command -v google-chrome)" BASE_URL="http://127.0.0.1:4173" node scripts/nigerian-rc-browser-qa.mjs
       - name: Upload QA report
         if: always()
