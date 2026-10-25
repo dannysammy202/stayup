@@ -29,7 +29,7 @@ try{
   const c=await contextFor(width,height);
   const page=await openPage(c,label);
   await check(`${label}: initial Discover and layout`,async()=>{
-   assert.match(await page.locator('.hero h1').innerText(),/Better[\\s\\S]*conversations[\\s\\S]*start here/i);
+   assert.match(await page.locator('.hero h1').innerText(),/Better[\s\S]*conversations[\s\S]*start here/i);
    assert.ok(await page.locator('[data-action="open-collection"][data-id="late"]').count()>0);
    const x=await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth);
    assert.ok(x<=2,'Unexpected horizontal overflow '+x);
