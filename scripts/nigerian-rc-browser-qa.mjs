@@ -40,6 +40,20 @@ try{
    assert.ok((await page.locator('.collection-hero .meta').innerText()).includes('500 ideas'));
    await page.locator('[data-action="start-collection"]').click();
    await page.locator('.focuspage .prompt').waitFor();
+   assert.equal(await page.locator('[data-action="howto-open"]').count(),1,'How to say it must be available in Focus');
+   await page.locator('[data-action="howto-open"]').click();
+   assert.match(await page.locator('.howto-sheet h2').innerText(),/How to say it/);
+   const textOpener=await page.locator('.howto-example p').innerText();
+   assert.ok(textOpener.length>30);
+   await page.locator('[data-action="howto-medium"][data-medium="call"]').click();
+   const callOpener=await page.locator('.howto-example p').innerText();
+   assert.notEqual(textOpener,callOpener);
+   await page.locator('[data-action="howto-medium"][data-medium="person"]').click();
+   const personOpener=await page.locator('.howto-example p').innerText();
+   assert.notEqual(callOpener,personOpener);
+   await page.locator('[data-action="howto-copy"]').click();
+   await page.locator('[data-action="close-modal"]').click();
+   assert.equal(await page.locator('.howto-sheet').count(),0);
    const old=await page.locator('.focuspage .prompt').innerText();
    await page.locator('[data-action="next"]').click();
    const now=await page.locator('.focuspage .prompt').innerText();
@@ -230,6 +244,11 @@ try{
    assert.ok(await page.locator('.hero').count()>0);
    await page.locator('.navbtn[data-page="games"]').click();
    assert.ok(await page.locator('[data-action="open-game"][data-id="truthdare"]').count()>0);
+   await page.locator('[data-action="open-game"][data-id="truthdare"]').first().click();
+   await page.locator('[data-action="start-game"]').click();
+   await page.locator('[data-action="howto-open"]').click();
+   assert.ok((await page.locator('.howto-example p').innerText()).length>20,'Offline opener should work');
+   await page.locator('[data-action="close-modal"]').click();
    return {offline:true};
   }finally{await c.close();}
  });
