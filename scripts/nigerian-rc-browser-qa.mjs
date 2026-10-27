@@ -53,10 +53,10 @@ try{
    assert.ok(await page.locator('.history-item').count()>0);
    return {saved:true,history:true};
   });
-  await check(`${label}: Truth/Dare and 300-card deck counts`,async()=>{
+  await check(`${label}: Truth/Dare and 500-card deck counts`,async()=>{
    await page.locator('.navbtn[data-page="games"]').click();
    await page.locator('[data-action="open-game"][data-id="truthdare"]').click();
-   assert.match(await page.locator('.collection-hero .meta').innerText(),/300 cards/);
+   assert.match(await page.locator('.collection-hero .meta').innerText(),/500 cards/);
    await page.locator('[data-action="start-game"]').click();
    assert.equal((await page.locator('.focus-front .smallbottom').innerText()).trim().toLowerCase(),'truth');
    await page.locator('[data-action="game-tab"][data-tab="Dare"]').click();
@@ -64,15 +64,15 @@ try{
    await page.locator('[data-action="next"]').click();
    assert.equal((await page.locator('.focus-front .smallbottom').innerText()).trim().toLowerCase(),'dare');
    await page.locator('[data-action="focus-back"]').first().click();
-   assert.match(await page.locator('.collection-hero .meta').innerText(),/300 cards/);
-   return {truth:300,dare:300};
+   assert.match(await page.locator('.collection-hero .meta').innerText(),/500 cards/);
+   return {truth:500,dare:500};
   });
   await check(`${label}: rewritten hot-take cards are active`,async()=>{
    await page.locator('[data-action="nav"][data-page="games"]').first().click();
    await page.locator('[data-action="open-game"][data-id="hot"]').first().click();
-   assert.match(await page.locator('.collection-hero .meta').innerText(),/300 cards/);
+   assert.match(await page.locator('.collection-hero .meta').innerText(),/500 cards/);
    assert.ok(await page.getByText('Some of the best memories happen on ordinary weekdays, not holidays.',{exact:true}).count()>0);
-   return {hotTakes:300,rewritesLoaded:true};
+   return {hotTakes:500,rewritesLoaded:true};
   });
   await c.close();
  }
@@ -139,7 +139,7 @@ try{
    assert.ok(geometry.width<=390,'Phone homepage must not overflow sideways');
    await page.locator('.navbtn[data-page="games"]').click();
    await page.locator('[data-action="open-game"][data-id="truthdare"]').click();
-   assert.match(await page.locator('.collection-hero .meta').innerText(),/300 cards/);
+   assert.match(await page.locator('.collection-hero .meta').innerText(),/500 cards/);
    await page.reload({waitUntil:'load'});
    await page.locator('.navbtn[data-page="saved"]').click();
    await page.locator('[data-action="nav"][data-page="settings"]').first().click();
