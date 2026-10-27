@@ -35,8 +35,11 @@ test('Gist Bringer preserves collection navigation, saved IDs and official icon 
     assert.match(html, /name:'Gist Bringer'/);
     for(let n=1;n<=3;n++) assert.ok(html.includes(`/rc/gist-bringer-expansion-${n}.js`));
     assert.match(html, /window\.SAYMORE_GIST_LIBRARY/);
-    assert.match(html, /data-action="more-gist"/);
-    assert.match(html, /data-action="copy-angle"/);
+    assert.doesNotMatch(html, /data-action="more-gist"/);
+    assert.doesNotMatch(html, /data-action="copy-angle"/);
+    assert.doesNotMatch(html, /Keep the gist going|More gist|gist-sheet|gist-lines|gist-modal/);
+    assert.match(html, /data-action="focus-back"/);
+    assert.match(html, /500 Nigerian-first conversation starters/);
     assert.match(html, /state\.saved/);
     assert.match(html, /data-action="next"/);
     const scripts = [...html.matchAll(/<script>([\s\S]*?)<\/script>/g)];
