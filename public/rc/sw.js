@@ -1,4 +1,4 @@
-const CACHE='saymore-rc-20261027-games500-v1';
+const CACHE='saymore-rc-20261027-games500-v1-no-more-gist-v1';
 const FILES=['/rc/index.html','/rc/cards.js','/rc/gist-bringer.js','/rc/gist-bringer-expansion-1.js','/rc/gist-bringer-expansion-2.js','/rc/gist-bringer-expansion-3.js','/rc/games.js','/rc/game-overrides.js','/rc/game-overrides-remaining.js','/rc/game-500-truth.js','/rc/game-500-dare.js','/rc/game-500-wyr.js','/rc/game-500-never.js','/rc/game-500-hot.js','/rc/game-500-thisthat.js','/rc/game-500-story.js','/rc/migration.js','/rc/manifest.webmanifest',...Array.from({length:5},(_,i)=>'/iconsax/part-'+(i+1)+'.js')];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(FILES)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('saymore-rc-')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
