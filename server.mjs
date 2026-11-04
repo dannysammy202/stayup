@@ -6,7 +6,7 @@ import generate from './api/ai/generate.js';
 import health from './api/health.js';
 try{process.loadEnvFile('.env')}catch{}
 const ROOT=path.join(path.dirname(fileURLToPath(import.meta.url)),'public');
-const TYPES={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.json':'application/json; charset=utf-8','.svg':'image/svg+xml','.webmanifest':'application/manifest+json'};
+const TYPES={'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.json':'application/json; charset=utf-8','.svg':'image/svg+xml','.webmanifest':'application/manifest+json'};
 const server=http.createServer(async(req,res)=>{
  try{
   const url=new URL(req.url,'http://localhost');

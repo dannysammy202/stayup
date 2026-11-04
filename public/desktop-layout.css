@@ -1,0 +1,287 @@
+/* Say More: genuine tablet and desktop layouts.
+   Mobile styles below 620px intentionally remain untouched. */
+#desktop-nav{display:none}
+
+@media (min-width:620px){
+  :root{--desktop-gutter:clamp(28px,4.5vw,64px)}
+  html,body{width:100%;min-width:0;overflow-x:hidden}
+  #app-shell{
+    width:100%;max-width:none;min-height:100dvh;height:100dvh;
+    margin:0;border:0;border-radius:0;box-shadow:none;
+    display:flex;overflow:hidden;background:var(--bg)
+  }
+  #screen.viewport{
+    flex:1 1 auto;min-width:0;width:auto;height:100dvh;min-height:0;
+    overflow:hidden
+  }
+  #screen .scroller{
+    width:100%;max-width:1360px;height:100%;min-height:0;
+    margin-inline:auto;overflow-y:auto;overflow-x:hidden;
+    overscroll-behavior-y:contain;scrollbar-width:thin;
+    padding-bottom:105px
+  }
+  .titlebar{padding:28px var(--desktop-gutter) 0;min-height:76px}
+  .wordmark{font-size:30px}
+  .hero{
+    min-height:300px;padding:58px var(--desktop-gutter) 30px;
+    display:flex;flex-direction:column;align-items:flex-start;justify-content:center
+  }
+  .hero::before{right:6%;top:30px;width:300px;height:290px;opacity:.55}
+  .hero h1{
+    max-width:710px;font-size:clamp(46px,5vw,68px);
+    line-height:1.04;letter-spacing:-2px;margin-bottom:18px
+  }
+  .hero p{max-width:490px;font-size:16px;line-height:1.65;margin-bottom:24px}
+  .cream-pill{font-size:14px;min-height:48px;padding:13px 22px}
+  .section{margin-top:38px}
+  .sectionhead{padding:0 var(--desktop-gutter);margin-bottom:18px}
+  .sectionhead h2{font-size:22px;letter-spacing:-.5px}
+  .link-btn{font-size:13px;min-height:36px}
+  .hscroll{
+    gap:16px;padding:0 var(--desktop-gutter) 6px;
+    scroll-padding-inline:var(--desktop-gutter)
+  }
+  .hscroll .idea-card{width:250px;min-height:202px;padding:21px 20px 42px}
+  .hscroll .idea-card .idea{font-size:20px;line-height:1.22}
+  .hscroll .deck-tile{width:174px;height:190px;padding:19px}
+  .hscroll .deck-tile .name{font-size:21px;max-width:145px}
+  .hscroll .game-tile{width:150px;height:138px;padding:16px}
+  .hscroll .game-tile .name{font-size:18px}
+  .topic-strip{
+    padding:3px var(--desktop-gutter) 12px;overflow:visible;
+    flex-wrap:wrap;gap:11px
+  }
+  .topic-chip{font-size:13px;padding:11px 16px}
+  .filter-bar{padding:13px var(--desktop-gutter) 20px;flex-wrap:wrap}
+  .chip{font-size:13px;padding:11px 17px}
+  .pagehead{
+    padding:48px var(--desktop-gutter) 12px !important;
+    min-height:148px
+  }
+  .pagehead h1{font-size:clamp(43px,4vw,60px);line-height:1.1}
+  .pagehead p{font-size:15px;max-width:620px;line-height:1.6}
+  .gamegrid,.savedgrid,.topic-grid,.subtopic-cards{
+    padding:20px var(--desktop-gutter) 46px;
+    display:grid;gap:17px;min-width:0
+  }
+  .gamegrid{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .gamegrid .deck-tile{width:100%;height:205px;min-width:0}
+  .gamegrid .deck-tile .name{font-size:25px;max-width:220px}
+  .savedgrid,.topic-grid,.subtopic-cards{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .savedgrid .idea-card,.subtopic-cards .idea-card{min-width:0;width:100%;min-height:185px}
+  .savedgrid .idea-card .idea,.subtopic-cards .idea-card .idea{
+    font-size:20px;line-height:1.2
+  }
+  .topic-tile{min-height:145px;padding:21px;gap:13px}
+  .topic-tile b{font-size:17px}
+  .topic-tile small{font-size:13px}
+  .topic-result,.topic-empty,.subtopic-description{
+    padding-left:var(--desktop-gutter);padding-right:var(--desktop-gutter);font-size:14px
+  }
+  .topics-search{
+    margin:18px var(--desktop-gutter) 10px;
+    width:calc(100% - (var(--desktop-gutter) * 2));
+    max-width:700px;padding:17px 20px
+  }
+  .collection-hero{
+    margin:0;padding:45px var(--desktop-gutter) 40px;
+    min-height:340px
+  }
+  .collection-hero h1{
+    font-size:clamp(48px,5vw,70px);max-width:760px;
+    margin:28px 0 13px
+  }
+  .collection-hero p{font-size:16px;line-height:1.6;max-width:620px}
+  .collection-hero .meta{font-size:13px}
+  .collection-hero .cream-pill{
+    width:auto;min-width:240px;display:inline-flex;gap:28px
+  }
+  .collection-hero .focus-group{justify-content:flex-start}
+  .stack-list{
+    padding:32px var(--desktop-gutter) 36px;
+    display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px
+  }
+  .stack-list > h2,.stack-list > p{grid-column:1/-1}
+  .stack-list > h2{font-size:22px;margin-bottom:3px}
+  .stack-list .idea-card{
+    width:100%;min-width:0;min-height:164px;padding:20px 22px 43px
+  }
+  .stack-list .idea-card .idea{
+    max-width:none;font-size:21px;line-height:1.24;overflow-wrap:anywhere
+  }
+  .subtopic-cards .idea-card .idea{max-width:none}
+  .settings-list{padding:12px var(--desktop-gutter);max-width:960px}
+  .setting-row{min-height:77px;padding:16px 19px}
+  .setting-row .setcopy strong{font-size:15px}
+  .setting-row .setcopy small{font-size:12px}
+  .history-list{padding:12px var(--desktop-gutter) 35px;max-width:930px}
+  .history-item{padding:14px;margin-bottom:12px}
+  .history-item .text{font-size:18px}
+  .empty{max-width:550px;margin:50px auto;padding:42px 40px}
+  .empty p{font-size:14px;max-width:380px}
+  .setting-header{padding:52px var(--desktop-gutter) 20px}
+  .setting-header h1{font-size:42px}
+  .pref-label{margin:18px var(--desktop-gutter) 12px;font-size:14px}
+  .pref-box{
+    max-width:760px;margin:0 var(--desktop-gutter) 16px;
+    padding:20px 22px
+  }
+  .pref-box p{font-size:13px}
+  .settings-list + .settings-list{padding-top:20px}
+  .focuspage{min-height:0;height:100%;overflow-y:auto}
+  .focus-top{height:84px;padding:20px var(--desktop-gutter) 0;flex-shrink:0}
+  .focus-sub{font-size:13px;max-width:440px}
+  .focus-area{flex:1 0 auto;min-height:340px;padding:14px 32px 20px}
+  .deck-stack{width:min(100%,410px);height:min(49vh,448px);min-height:310px}
+  .focus-front{padding:30px 32px 34px}
+  .focus-front .prompt{font-size:clamp(28px,3.1vw,39px);overflow-wrap:anywhere}
+  .focus-front .smalltop{font-size:12px}
+  .focus-front .smallbottom{font-size:11px}
+  .focus-actions{
+    display:grid;grid-template-columns:repeat(4,minmax(0,120px));
+    justify-content:center;justify-items:center;gap:20px;
+    padding:6px 22px 30px;flex-shrink:0
+  }
+  .focus-actions .action{font-size:13px;gap:8px}
+  .round-btn{width:51px;height:51px}
+  .swipe-hint{font-size:12px}
+  .howto-launch-wrap{padding:8px 24px 19px;flex-shrink:0}
+  .howto-launch{width:min(100%,410px);min-height:50px;font-size:14px}
+  .modal{
+    position:fixed;inset:0;align-items:center;
+    padding:24px;z-index:100
+  }
+  .modal-box{
+    max-width:560px;width:100%;
+    border-radius:23px;padding:33px 36px;
+    box-shadow:0 25px 80px #000a
+  }
+  .howto-sheet{max-height:min(86vh,750px);padding:28px 12px 10px}
+  .howto-sheet h2{font-size:36px}
+  .howto-intro{font-size:15px}
+  .howto-tab{font-size:14px}
+  .toast{position:fixed;bottom:100px;z-index:110}
+  .bottomnav{
+    height:75px;left:0;right:0;bottom:0;
+    padding:10px var(--desktop-gutter) 13px
+  }
+  .navbtn{font-size:13px;gap:5px}
+  .navbtn.on::before{bottom:-3px}
+  .onboard{min-height:0;height:100%;overflow-y:auto}
+  .onboard .top{padding:30px var(--desktop-gutter) 0}
+  .obmain{width:min(100%,900px);margin:auto;padding:20px 45px}
+  .obmain h1{font-size:clamp(44px,5vw,64px);max-width:750px}
+  .obmain p{font-size:16px;max-width:580px}
+  .obdeck{min-height:250px;max-height:340px}
+  .obbottom{width:min(100%,520px);margin:auto;padding:24px 30px 35px}
+}
+
+@media (min-width:900px){
+  .savedgrid,.subtopic-cards{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .topic-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+
+@media (min-width:1024px){
+  #app-shell{display:grid;grid-template-columns:248px minmax(0,1fr)}
+  #desktop-nav{
+    display:flex;flex-direction:column;gap:0;grid-column:1;grid-row:1;
+    min-width:0;min-height:100dvh;padding:38px 17px 26px;
+    border-right:1px solid #ffffff1b;background:#171d1d;color:#f9f0dc
+  }
+  .desktop-brand{
+    padding:1px 17px 48px;
+    font-family:Georgia,'Times New Roman',serif;
+    font-size:31px;font-style:italic;font-weight:700;letter-spacing:-1.5px
+  }
+  .desktop-brand span{color:#df835a}
+  .desktop-nav-label{
+    margin:0 16px 17px;color:#a4afac;font-size:10px;
+    font-weight:750;letter-spacing:1.7px;text-transform:uppercase
+  }
+  #desktop-nav nav{display:flex;flex-direction:column;gap:7px}
+  .desktop-nav-item{
+    width:100%;min-height:47px;padding:0 17px;
+    border:1px solid transparent;border-radius:12px;
+    background:none;color:#bac4bf;text-align:left;
+    font-size:14px;font-weight:620;letter-spacing:.1px
+  }
+  .desktop-nav-item:hover{background:#ffffff0b;color:#fff}
+  .desktop-nav-item.on{
+    background:#f9f0dc;color:#17211d;font-weight:760
+  }
+  .desktop-rail-note{
+    margin-top:auto;padding:24px 16px 0;border-top:1px solid #ffffff1b;
+    font-size:12px;line-height:1.65;color:#a6b3ab
+  }
+  #app-shell.onboard-active{display:flex}
+  #app-shell.onboard-active #desktop-nav{display:none}
+  #screen.viewport{grid-column:2;grid-row:1}
+  #screen .scroller{padding-bottom:66px}
+  .titlebar{display:none}
+  .bottomnav{display:none}
+  .hero{padding-top:72px;padding-bottom:58px;min-height:330px}
+  .hero h1{max-width:720px}
+  .section{margin-top:44px}
+  .hscroll{
+    display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));
+    gap:16px;overflow:visible
+  }
+  .hscroll > *{width:100%;min-width:0}
+  .hscroll .idea-card{width:100%;min-height:197px}
+  .hscroll .deck-tile{width:100%;height:190px}
+  .hscroll .game-tile{width:100%;height:140px}
+  .gamegrid{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .savedgrid,.topic-grid,.subtopic-cards{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .stack-list{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .settings-list{
+    display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px
+  }
+  .settings-list .setting-row{margin:0}
+  .focus-area{min-height:320px}
+  .swipe-hint{font-size:0}
+  .swipe-hint::after{
+    content:'Use the left and right arrow keys to browse';
+    font-size:12px
+  }
+  .toast{bottom:35px}
+}
+
+@media (min-width:1440px){
+  #app-shell{grid-template-columns:264px minmax(0,1fr)}
+  .gamegrid,.savedgrid,.topic-grid,.subtopic-cards{
+    grid-template-columns:repeat(4,minmax(0,1fr))
+  }
+  .stack-list{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .hscroll{grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+}
+
+@media (max-height:700px) and (min-width:620px){
+  .focus-top{height:65px;padding-top:12px}
+  .focus-area{min-height:275px;padding:5px 24px}
+  .deck-stack{min-height:280px;height:min(44vh,355px)}
+  .focus-actions{padding-bottom:17px}
+  .howto-launch-wrap{padding-bottom:11px}
+}
+
+@media (hover:hover) and (min-width:620px){
+  .idea-card,.deck-tile,.game-tile,.topic-tile,.topic-chip,.setting-row{
+    transition:transform .16s ease,filter .16s ease
+  }
+  .idea-card:hover,.deck-tile:hover,.game-tile:hover,.topic-tile:hover{
+    transform:translateY(-3px);filter:brightness(1.06)
+  }
+  .topic-chip:hover,.setting-row:hover{filter:brightness(1.08)}
+}
+@media (prefers-reduced-motion:reduce){
+  .idea-card,.deck-tile,.game-tile,.topic-tile,.topic-chip,.setting-row{
+    transition:none!important
+  }
+}
+:root[data-theme=light] #desktop-nav{
+  background:#eef0e9;color:#203029;border-right-color:#2028281c
+}
+:root[data-theme=light] .desktop-nav-label,
+:root[data-theme=light] .desktop-rail-note{color:#59665e}
+:root[data-theme=light] .desktop-nav-item{color:#34473b}
+:root[data-theme=light] .desktop-nav-item:hover{background:#dce2d9}
+:root[data-theme=light] .desktop-nav-item.on{background:#23372b;color:#fff}
