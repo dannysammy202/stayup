@@ -4,7 +4,7 @@ import {writeFileSync} from 'node:fs';
 
 const require=createRequire(import.meta.url);
 const {chromium}=require('playwright-core');
-const base=(process.env.BASE_URL||'http://127.0.0.1:4173').replace(/\\/$/,'');
+const base=(process.env.BASE_URL||'http://127.0.0.1:4173').replace(/[/]$/,'');
 const browser=await chromium.launch({
   headless:true,
   executablePath:process.env.CHROME_BIN||'/usr/bin/google-chrome',
@@ -73,7 +73,8 @@ try {
         await page.locator('#desktop-nav [data-page="games"]').click();
       }else{
         await page.locator('[data-action="focus-back"]').first().click();
-        await page.locator('[data-action="nav"][data-page="games"]').first().click();
+        await page.locator('.collection-hero [data-action="nav"][data-page="discover"]').click();
+        await page.locator('.navbtn[data-page="games"]').click();
       }
       await page.locator('.gamegrid').waitFor();
       assert.ok(await page.locator('.gamegrid .deck-tile').count()>0);
