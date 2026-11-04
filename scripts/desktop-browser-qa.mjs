@@ -77,6 +77,9 @@ try {
           assert.equal(metrics.bottomDisplay,'none',name+': mobile navigation still visible');
         }
       }
+      if(touch && width>=620 && (name==='tablet portrait' || name==='large tablet landscape')){
+        await page.screenshot({path:'/tmp/saymore-'+name.replaceAll(' ','-')+'-home.png',fullPage:true});
+      }
       await page.locator('[data-action="open-collection"]').first().click();
       await page.locator('.collection-hero').waitFor();
       await page.locator('[data-action="start-collection"]').click();
@@ -110,7 +113,7 @@ try {
       }
       assert.deepEqual(errors,[],name+': browser errors');
       if(touch && width>=620 && (name==='tablet portrait' || name==='large tablet landscape')){
-        await page.screenshot({path:'/tmp/saymore-'+name.replaceAll(' ','-')+'.png',fullPage:true});
+        await page.screenshot({path:'/tmp/saymore-'+name.replaceAll(' ','-')+'-settings.png',fullPage:true});
       }
       results.push({name,width,height,touch,status:'passed',...metrics});
     } finally {
