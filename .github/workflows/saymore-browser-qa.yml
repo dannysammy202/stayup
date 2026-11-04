@@ -4,6 +4,7 @@ on:
     paths:
       - 'public/**'
       - 'scripts/conversation-browser-qa.mjs'
+      - 'scripts/desktop-browser-qa.mjs'
       - 'scripts/nigerian-rc-browser-qa.mjs'
       - 'tests/**'
       - '.github/workflows/saymore-browser-qa.yml'
@@ -49,4 +50,5 @@ jobs:
           path: |
             /tmp/saymore-rc-browser-qa.json
             /tmp/saymore-desktop-browser-qa.json
+            /tmp/saymore-tablet-*.png
           if-no-files-found: ignore
