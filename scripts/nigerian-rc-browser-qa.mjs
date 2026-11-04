@@ -102,13 +102,13 @@ try{
   await page.locator('.navbtn[data-page="saved"]').click();
   assert.match(await page.locator('.pref-box').innerText(),/1 earlier saved cards preserved/i);
   assert.ok(await page.locator('a[href="/classic/"]').count()>0);
-  await page.locator('[data-action="nav"][data-page="settings"]').first().click().catch(async()=>{
-   await page.goto(base+'/rc/index.html');await page.locator('[data-action="nav"][data-page="settings"]').first().click();
+  await page.locator('#screen [data-action="nav"][data-page="settings"]').first().click().catch(async()=>{
+   await page.goto(base+'/rc/index.html');await page.locator('#screen [data-action="nav"][data-page="settings"]').first().click();
   });
   await page.locator('[data-action="nav"][data-page="account"]').click();
   assert.match(await page.locator('.pref-box').innerText(),/No account is required/);
   assert.equal(await page.locator('input[type="email"]').count(),0);
-  await page.locator('[data-action="nav"][data-page="settings"]').first().click();
+  await page.locator('#screen [data-action="nav"][data-page="settings"]').first().click();
   await page.locator('[data-action="nav"][data-page="mature"]').click();
   assert.match(await page.locator('.pref-box').innerText(),/18\+ content is currently unavailable/);
   assert.equal(await page.locator('[data-action="toggle-18"]').count(),0);
@@ -156,7 +156,7 @@ try{
    assert.match(await page.locator('.collection-hero .meta').innerText(),/500 cards/);
    await page.reload({waitUntil:'load'});
    await page.locator('.navbtn[data-page="saved"]').click();
-   await page.locator('[data-action="nav"][data-page="settings"]').first().click();
+   await page.locator('#screen [data-action="nav"][data-page="settings"]').first().click();
    await page.locator('[data-action="nav"][data-page="account"]').click();
    assert.match(await page.locator('.pref-box').first().innerText(),/No account is required/);
    assert.equal(await page.locator('input[type="email"]').count(),0);
@@ -220,7 +220,7 @@ try{
     await page.locator('.navbtn[data-page="history"]').click();
     await scan('History');
     await fresh();
-    await page.locator('[data-action="nav"][data-page="settings"]').first().click();
+    await page.locator('#screen [data-action="nav"][data-page="settings"]').first().click();
     await scan('Settings');
     await page.locator('[data-action="nav"][data-page="appearance"]').click();
     await scan('Settings detail');
