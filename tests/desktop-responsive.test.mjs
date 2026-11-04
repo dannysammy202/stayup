@@ -30,3 +30,19 @@ test('offline cache and local server serve the desktop stylesheet correctly',()=
   assert.match(sw,/\/desktop-layout\.css/);
   assert.match(server,/\.css':\s*'text\/css; charset=utf-8'/);
 });
+
+test('tablet portrait and touch landscape retain touch-friendly navigation and card grids',()=>{
+  assert.match(css, /balanced grids and touch targets in portrait and landscape/);
+  assert.match(css, /\(max-width:1023px\)/);
+  assert.match(css, /\(any-pointer:coarse\)/);
+  assert.match(css, /#desktop-nav \{ display:none; \}/);
+  assert.match(css, /\.bottomnav \{ display:grid; \}/);
+  assert.match(css, /grid-template-columns:repeat\(3,minmax\(0,1fr\)\)/);
+  assert.match(css, /min-height:44px/);
+  const browserQA=readFileSync('scripts/desktop-browser-qa.mjs','utf8');
+  for(const size of ['768','820','912','1024','1180','1366']){
+    assert.match(browserQA,new RegExp('width:'+size+',height:'));
+  }
+  assert.match(browserQA,/hasTouch:touch/);
+  assert.match(browserQA,/matchMedia\('\(any-pointer: coarse\)'\)/);
+});
