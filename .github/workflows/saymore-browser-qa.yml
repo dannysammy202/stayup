@@ -40,6 +40,7 @@ jobs:
           done
           curl -fsS http://127.0.0.1:4173/version.json
           CHROME_BIN="$(command -v google-chrome)" BASE_URL="http://127.0.0.1:4173" node scripts/nigerian-rc-browser-qa.mjs
+          CHROME_BIN="$(command -v google-chrome)" BASE_URL="http://127.0.0.1:4173" node scripts/desktop-browser-qa.mjs
       - name: Upload QA report
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
@@ -47,4 +48,5 @@ jobs:
           name: saymore-browser-release-qa
           path: |
             /tmp/saymore-rc-browser-qa.json
+            /tmp/saymore-desktop-browser-qa.json
           if-no-files-found: ignore
