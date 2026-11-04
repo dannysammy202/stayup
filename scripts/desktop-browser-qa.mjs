@@ -83,7 +83,7 @@ try {
         await page.locator('#desktop-nav [data-page="saved"]').click();
         await page.locator('.pagehead').waitFor();
         await page.locator('#desktop-nav [data-page="settings"]').click();
-        await page.locator('.settings-list').waitFor();
+        await page.locator('.settings-list').first().waitFor();
       }
       assert.deepEqual(errors,[],name+': browser errors');
       results.push({name,width,height,status:'passed',...metrics});
