@@ -128,8 +128,22 @@
 .topic-chip .icon{width:17px;height:17px}
 .pagehead h1 .icon{vertical-align:middle;margin-right:4px}
 </style>
+<link rel="stylesheet" href="/desktop-layout.css">
 </head>
-<body><div id="app-shell"><div id="screen" class="viewport"></div><div id="toast" class="toast" role="status" aria-live="polite"></div></div>
+<body><div id="app-shell">
+<aside id="desktop-nav" aria-label="Desktop navigation">
+  <div class="desktop-brand" aria-label="Say More">say more<span>.</span></div>
+  <p class="desktop-nav-label">Navigate</p>
+  <nav aria-label="Main navigation">
+    <button type="button" class="desktop-nav-item" data-action="nav" data-page="discover">Discover</button>
+    <button type="button" class="desktop-nav-item" data-action="nav" data-page="games">Games</button>
+    <button type="button" class="desktop-nav-item" data-action="nav" data-page="saved">Saved</button>
+    <button type="button" class="desktop-nav-item" data-action="nav" data-page="history">History</button>
+    <button type="button" class="desktop-nav-item" data-action="nav" data-page="settings">Settings</button>
+  </nav>
+  <p class="desktop-rail-note">Something worth talking about.</p>
+</aside>
+<div id="screen" class="viewport"></div><div id="toast" class="toast" role="status" aria-live="polite"></div></div>
 <script>if(matchMedia('(display-mode: standalone)').matches || navigator.standalone === true)document.documentElement.classList.add('standalone-mode');</script>
 <script src="/rc/cards.js"></script>
 <script src="/rc/gist-bringer.js"></script>
@@ -301,7 +315,21 @@ function modalMarkup(){if(!state.modal)return '';let m=state.modal;if(m.kind==='
   return `<div class="modal howto-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title"><div class="modal-box howto-sheet"><h2 id="modal-title">How to say it</h2><p class="howto-intro">An easy way into the conversation, not a script to follow word for word.</p><div class="howto-tabs" role="tablist" aria-label="How you are talking">${labels.map(([medium,label])=>`<button class="howto-tab" role="tab" type="button" data-action="howto-medium" data-medium="${medium}" aria-selected="${medium===selected}" tabindex="${medium===selected?0:-1}">${label}</button>`).join('')}</div><div class="howto-example" role="tabpanel" aria-label="${labels.find(x=>x[0]===selected)?.[1]||'Text'} introduction"><div class="howto-example-label">Try opening with</div><p>${esc(suggestions[selected]||suggestions.text)}</p></div><p class="howto-footnote">Make it sound like you. One introduction is enough; the rest is your conversation.</p><div class="howto-actions"><button class="cream-pill" type="button" data-action="howto-copy">${icon('copy','','iconsmall')} Copy opener</button><button class="muted-pill" type="button" data-action="close-modal">Close</button></div></div></div>`;
 }
 return `<div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title"><div class="modal-box"><h2 id="modal-title">${esc(m.title)}</h2><p>${esc(m.message)}</p>${m.kind==='age'?`<label for="birthdate" class="small-label">Your date of birth</label><input class="form-input" type="date" id="birthdate" aria-label="Your date of birth">`:''}<div class="modal-actions"><button class="muted-pill" data-action="close-modal">Cancel</button><button class="cream-pill" data-action="${m.kind==='age'?'confirm-age':m.kind==='clear-all'?'confirm-clear-all':m.kind==='clear-history'?'confirm-clear-history':'close-modal'}">${m.kind==='age'?'Continue':m.kind?.startsWith('clear')?'Clear':'OK'}</button></div></div></div>`;}
-function render(){let html=state.onboard?renderOnboard():state.page==='focus'?renderFocus():state.page==='discover'?renderDiscover():state.page==='subtopics'?renderSubtopics():state.page==='subtopic'?renderSubtopicDetail():state.page==='collections'?renderAllCollections():state.page==='collection'?renderCollection():state.page==='featured-detail'?renderFeaturedDetail():state.page==='games'?renderGames():state.page==='game-detail'?renderGameDetail():state.page==='saved'?renderSaved():state.page==='history'?renderHistory():state.page==='settings'?renderSettings():renderSubpage();$('#screen').innerHTML=html+modalMarkup();document.querySelector('#screen .scroller')?.scrollTo(0,0);}
+function render(){let html=state.onboard?renderOnboard():state.page==='focus'?renderFocus():state.page==='discover'?renderDiscover():state.page==='subtopics'?renderSubtopics():state.page==='subtopic'?renderSubtopicDetail():state.page==='collections'?renderAllCollections():state.page==='collection'?renderCollection():state.page==='featured-detail'?renderFeaturedDetail():state.page==='games'?renderGames():state.page==='game-detail'?renderGameDetail():state.page==='saved'?renderSaved():state.page==='history'?renderHistory():state.page==='settings'?renderSettings():renderSubpage();$('#screen').innerHTML=html+modalMarkup();
+  $('#app-shell').classList.toggle('onboard-active',Boolean(state.onboard));
+  const desktopPage=state.page==='focus'
+    ?(state.focusSource?.type==='game'?'games':state.focusSource?.type==='saved'?'saved':'discover')
+    :state.page==='game-detail'?'games'
+    :['discover','games','saved','history','settings'].includes(state.page)?state.page
+    :['collections','collection','featured-detail','subtopics','subtopic'].includes(state.page)?'discover'
+    :'settings';
+  document.querySelectorAll('#desktop-nav [data-page]').forEach(button=>{
+    const active=!state.onboard&&button.dataset.page===desktopPage;
+    button.classList.toggle('on',active);
+    if(active)button.setAttribute('aria-current','page');
+    else button.removeAttribute('aria-current');
+  });
+  document.querySelector('#screen .scroller')?.scrollTo(0,0);}
 function nav(p){state.onboard=false;state.page=p;state.modal=null;saveStore();render()}
 function showToast(msg){let el=$('#toast');el.textContent=msg;el.classList.add('show');clearTimeout(showToast.timer);showToast.timer=setTimeout(()=>el.classList.remove('show'),2400)}
 function record(o){state.history=[o.id,...state.history.filter(x=>x!==o.id)].slice(0,100);saveStore()}
@@ -358,7 +386,7 @@ case 'confirm-clear-all':window.SayMoreMigration.resetRC(localStorage);location.
 case 'close-modal':state.modal=null;render();break;
 }}
 $('#screen').addEventListener('input',e=>{if(e.target.id==='subtopic-search'){state.subtopicSearch=e.target.value;const target=$('#subtopic-results');if(target)target.innerHTML=renderTopicTiles(state.subtopicSearch)}});
-$('#screen').addEventListener('click',e=>{let el=e.target.closest('[data-action]');if(el)action(el)});
+$('#app-shell').addEventListener('click',e=>{let el=e.target.closest('[data-action]');if(el)action(el)});
 let pointerStart=null;$('#screen').addEventListener('pointerdown',e=>{let area=e.target.closest('#focus-swipe-area');if(!area)return;pointerStart={x:e.clientX,y:e.clientY,t:Date.now()}});$('#screen').addEventListener('pointerup',e=>{if(!pointerStart)return;let dx=e.clientX-pointerStart.x,dy=e.clientY-pointerStart.y;pointerStart=null;if(Math.abs(dx)>55&&Math.abs(dx)>Math.abs(dy)*1.15){moveFocus(dx<0?1:-1)}});$('#screen').addEventListener('pointercancel',()=>pointerStart=null);
 document.addEventListener('keydown',e=>{if(state.page==='focus'&&!state.modal){if(e.key==='ArrowRight'){e.preventDefault();moveFocus(1)}if(e.key==='ArrowLeft'){e.preventDefault();moveFocus(-1)}if(e.key==='Escape'){focusBack()}}});
 render();
